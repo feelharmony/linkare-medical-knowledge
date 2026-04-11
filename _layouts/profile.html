@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div class="profile">
+  <header class="profile-header">
+    <h1>{{ page.hospital }}</h1>
+    {% if page.doctor %}<p class="profile-doctor">{{ page.doctor }}{% if page.specialty %} &middot; {{ page.specialty }}{% endif %}</p>{% endif %}
+    {% if page.website %}<p class="profile-website"><a href="{{ page.website }}" rel="nofollow">{{ page.website }}</a></p>{% endif %}
+    {% if page.location %}<p class="profile-location">{{ page.location }}</p>{% endif %}
+  </header>
+
+  <div class="profile-body">
+    {{ content }}
+  </div>
+
+  {% assign articles = site.pages | where: "tenant_key", page.tenant_key | where: "layout", "article" | sort: "last_updated" | reverse %}
+  {% if articles.size > 0 %}
+  <section class="profile-articles">
+    <h2>의학 정보 ({{ articles.size }})</h2>
+    <ul class="article-list">
+      {% for article in articles %}
+      <li>
+        <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
+        {% if article.description %}<p class="article-desc">{{ article.description }}</p>{% endif %}
+        <span class="article-date">{{ article.last_updated }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalOrganization",
+  "name": {{ page.hospital | jsonify }},
+  {% if page.doctor %}"employee": {
+    "@type": "Physician",
+    "name": {{ page.doctor | jsonify }}{% if page.specialty %},
+    "medicalSpecialty": {{ page.specialty | jsonify }}{% endif %}
+  },{% endif %}
+  {% if page.website %}"url": "{{ page.website }}",{% endif %}
+  {% if page.location %}"address": {{ page.location | jsonify }},{% endif %}
+  "url": "{{ page.url | absolute_url }}"
+}
+</script>
