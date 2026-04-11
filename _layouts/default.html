@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'ko' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% if page.canonical_url %}
+  <link rel="canonical" href="{{ page.canonical_url }}">
+  {% else %}
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% endif %}
+
+  {% seo %}
+
+  <!-- Fonts: match linkerai.io -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="https://linkerai.io" class="site-logo">LinkerAI</a>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Knowledge</a>
+        <a href="https://linkerai.io/blog">Blog</a>
+        <a href="https://linkerai.io/#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="https://linkerai.io" class="footer-logo">LinkerAI</a>
+        <p class="footer-desc">의료 전문가가 작성하고 Linkare가 큐레이션한 의학 지식 아카이브</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <a href="{{ '/' | relative_url }}">Knowledge</a>
+          <a href="https://linkerai.io/blog">Blog</a>
+          <a href="https://linkerai.io/works">Works</a>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <a href="mailto:jin@linkerai.io">Email</a>
+          <a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; {{ site.time | date: '%Y' }} Linkare. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
