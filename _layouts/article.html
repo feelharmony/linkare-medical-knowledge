@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<article class="article">
+  <nav class="article-breadcrumb">
+    <a href="{{ '/' | relative_url }}">Knowledge</a>
+    <span class="breadcrumb-sep">/</span>
+    {% if page.tenant_key %}<a href="{{ '/' | append: page.tenant_key | append: '/' | relative_url }}">{{ page.hospital | default: page.tenant_key }}</a>
+    <span class="breadcrumb-sep">/</span>{% endif %}
+    <span class="breadcrumb-current">{{ page.title | truncate: 40 }}</span>
+  </nav>
+
+  <header class="article-header">
+    <h1>{{ page.title }}</h1>
+
+    <div class="article-meta">
+      {% if page.hospital %}<span class="meta-hospital">{{ page.hospital }}</span>{% endif %}
+      {% if page.author %}<span class="meta-author">{{ page.author }}</span>{% endif %}
+      {% if page.last_updated %}<span class="meta-date">{{ page.last_updated }}</span>{% endif %}
+    </div>
+
+    {% if page.canonical_url %}
+    <div class="original-source">
+      <a href="{{ page.canonical_url }}" rel="nofollow">원문 보기 &rarr;</a>
+    </div>
+    {% endif %}
+  </header>
+
+  <div class="article-body">
+    {{ content }}
+  </div>
+
+  {% if page.tags and page.tags.size > 0 %}
+  <div class="article-tags">
+    {% for tag in page.tags %}
+    <span class="tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <footer class="article-footer">
+    {% include disclaimer.html %}
+
+    {% if page.canonical_url %}
+    <div class="original-link">
+      <p>이 글의 원문은 <a href="{{ page.canonical_url }}">{{ page.hospital | default: '원본 사이트' }}</a>에서 확인할 수 있습니다.</p>
+    </div>
+    {% endif %}
+
+    <div class="license">
+      <p>{{ page.source | default: 'Linkare Medical Knowledge' }} &middot; {{ page.license | default: 'CC BY-NC 4.0' }}</p>
+    </div>
+  </footer>
+</article>
+
+{% include structured-data.html %}
