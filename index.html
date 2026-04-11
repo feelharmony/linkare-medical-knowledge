@@ -1,0 +1,45 @@
+---
+layout: default
+title: "Linkare Medical Knowledge"
+description: "의료 전문가가 작성한 질환별 의학 정보 아카이브"
+---
+
+<div class="index-page">
+  <h1>Medical Knowledge</h1>
+  <p class="index-desc">전문의가 작성하고 Linkare가 큐레이션한 의학 지식 아카이브입니다.</p>
+
+  {% assign articles = site.pages | where: "layout", "article" | sort: "last_updated" | reverse %}
+  {% assign profiles = site.pages | where: "layout", "profile" %}
+
+  {% if profiles.size > 0 %}
+  <section class="hospital-list">
+    <h2>참여 의료기관</h2>
+    <ul>
+      {% for profile in profiles %}
+      {% assign count = articles | where: "tenant_key", profile.tenant_key | size %}
+      <li>
+        <a href="{{ profile.url | relative_url }}">{{ profile.hospital }}</a>
+        {% if profile.doctor %}<span class="hospital-doctor">{{ profile.doctor }}</span>{% endif %}
+        <span class="article-count">{{ count }}건</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% if articles.size > 0 %}
+  <section class="recent-articles">
+    <h2>최근 게시</h2>
+    <ul class="article-list">
+      {% for article in articles limit:20 %}
+      <li>
+        <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
+        {% if article.hospital %}<span class="meta-hospital">{{ article.hospital }}</span>{% endif %}
+        {% if article.description %}<p class="article-desc">{{ article.description }}</p>{% endif %}
+        <span class="article-date">{{ article.last_updated }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+</div>
