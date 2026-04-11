@@ -1,0 +1,22 @@
+title: "Linkare Medical Knowledge"
+description: "Physician-authored medical knowledge, curated by Linkare"
+url: "https://knowledge.linkerai.io"
+baseurl: ""
+lang: "ko"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: "content"
+    values:
+      layout: "article"
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
