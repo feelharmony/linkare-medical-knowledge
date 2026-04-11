@@ -1,0 +1,656 @@
+/* ─── Linkare Medical Knowledge ───
+   Design tokens aligned with linkerai.io
+   ─────────────────────────────────── */
+
+:root {
+  /* Colors — from linkerai.io globals.css */
+  --primary: rgb(25, 93, 230);        /* #195DE6 */
+  --primary-light: rgb(110, 148, 225); /* #6E94E1 */
+  --accent: rgb(60, 100, 220);        /* #3C64DC */
+
+  --bg-dark: rgb(28, 28, 30);         /* #1C1C1E — header/footer */
+  --bg-light: rgb(253, 253, 253);     /* #FDFDFD — blog pages */
+  --surface: rgb(255, 255, 255);      /* #FFFFFF */
+  --surface-dark: rgb(44, 44, 46);    /* #2C2C2E */
+  --paper: rgb(250, 250, 250);        /* #FAFAFA */
+
+  --charcoal: rgb(26, 26, 26);        /* #1A1A1A */
+  --body: rgb(45, 45, 45);            /* #2D2D2D */
+  --muted: rgb(142, 142, 147);        /* #8E8E93 */
+
+  --blockquote-bg: rgb(253, 250, 240); /* #FDFAF0 */
+  --code-bg: rgb(37, 37, 40);         /* #252528 */
+
+  --border-dark: rgba(255, 255, 255, 0.1);
+  --border-light: rgba(26, 26, 26, 0.1);
+
+  /* Layout */
+  --reading-width: 700px;
+  --content-width: 1152px;
+  --header-height: 80px;
+
+  /* Fonts */
+  --font-display: "Pretendard Variable", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-serif: "Newsreader", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: var(--font-display);
+  color: var(--body);
+  background: var(--bg-light);
+  line-height: 1.7;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--primary); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ─── Header (matches linkerai.io) ─── */
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  height: var(--header-height);
+  background: rgba(28, 28, 30, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-dark);
+}
+
+.header-inner {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-logo {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--paper);
+  text-decoration: none;
+}
+
+.site-logo:hover { text-decoration: none; color: var(--paper); }
+
+.site-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.site-nav a {
+  font-size: 0.875rem;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.site-nav a:hover { color: var(--paper); text-decoration: none; }
+
+/* ─── Main ─── */
+
+.main-content {
+  margin-top: var(--header-height);
+  min-height: calc(100vh - var(--header-height));
+}
+
+/* ─── Article Layout ─── */
+
+.article {
+  max-width: var(--reading-width);
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+/* Breadcrumb */
+.article-breadcrumb {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
+.article-breadcrumb a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.article-breadcrumb a:hover { color: var(--primary); text-decoration: none; }
+
+.breadcrumb-sep {
+  margin: 0 0.4rem;
+  color: var(--border-light);
+}
+
+.breadcrumb-current {
+  color: var(--charcoal);
+}
+
+.article-header {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.article-header h1 {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--charcoal);
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+.original-source {
+  margin-top: 0.75rem;
+}
+
+.original-source a {
+  color: var(--primary);
+  font-size: 0.875rem;
+  text-decoration: underline;
+  text-decoration-color: rgba(25, 93, 230, 0.4);
+  text-underline-offset: 3px;
+}
+
+/* ─── Article Body (matches linkerai.io MDX) ─── */
+
+.article-body {
+  margin-bottom: 2.5rem;
+}
+
+.article-body h2 {
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--charcoal);
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.article-body h3 {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--charcoal);
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.article-body p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--body);
+  margin-bottom: 1.5rem;
+}
+
+.article-body ul,
+.article-body ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.article-body li {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--body);
+  margin-bottom: 0.5rem;
+}
+
+.article-body li::marker {
+  color: var(--primary);
+}
+
+.article-body blockquote {
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-left: 4px solid var(--primary);
+  background: var(--blockquote-bg);
+  font-family: var(--font-serif);
+  font-style: italic;
+  border-radius: 0 8px 8px 0;
+}
+
+.article-body blockquote p {
+  margin-bottom: 0;
+}
+
+.article-body code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: var(--code-bg);
+  color: var(--primary-light);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+}
+
+.article-body pre {
+  background: var(--code-bg);
+  border-radius: 8px;
+  padding: 1.25rem;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+.article-body pre code {
+  background: none;
+  padding: 0;
+  font-size: 0.9rem;
+  color: var(--paper);
+}
+
+.article-body a {
+  color: var(--primary);
+  text-decoration: underline;
+  text-decoration-color: rgba(25, 93, 230, 0.4);
+  text-underline-offset: 3px;
+}
+
+.article-body img {
+  max-width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--border-light);
+  margin: 1.5rem 0;
+}
+
+.article-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+.article-body th,
+.article-body td {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border-light);
+  text-align: left;
+}
+
+.article-body th {
+  background: var(--paper);
+  font-weight: 600;
+  color: var(--charcoal);
+}
+
+/* ─── Tags ─── */
+
+.article-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.tag {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: rgba(25, 93, 230, 0.08);
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+}
+
+/* ─── Article Footer ─── */
+
+.article-footer {
+  border-top: 1px solid var(--border-light);
+  padding-top: 2rem;
+  margin-top: 2.5rem;
+}
+
+.disclaimer {
+  background: var(--paper);
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.disclaimer-en {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+}
+
+.original-link {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.license {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+/* ─── Profile Layout ─── */
+
+.profile {
+  max-width: var(--reading-width);
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+.profile-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.profile-header h1 {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--charcoal);
+  margin-bottom: 0.5rem;
+}
+
+.profile-doctor {
+  font-size: 1rem;
+  color: var(--muted);
+}
+
+.profile-website {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.profile-location {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-top: 0.25rem;
+}
+
+.profile-body {
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--body);
+}
+
+.profile-body h2 {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--charcoal);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.profile-articles {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-light);
+}
+
+.profile-articles h2 {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--charcoal);
+  margin-bottom: 1.25rem;
+}
+
+/* ─── Article List (index + profile) ─── */
+
+.article-list {
+  list-style: none;
+  padding: 0;
+}
+
+.article-list li {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.article-list li:last-child {
+  border-bottom: none;
+}
+
+.article-list a {
+  color: var(--charcoal);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.article-list a:hover {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.article-desc {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-top: 0.25rem;
+  line-height: 1.5;
+}
+
+.article-date {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-family: var(--font-mono);
+}
+
+/* ─── Index Page ─── */
+
+.index-page {
+  max-width: var(--reading-width);
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+.index-page h1 {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--charcoal);
+  margin-bottom: 0.5rem;
+}
+
+.index-desc {
+  color: var(--muted);
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.hospital-list {
+  margin-bottom: 3rem;
+}
+
+.hospital-list h2 {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.hospital-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.hospital-list li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border-light);
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+
+.hospital-list li:last-child {
+  border-bottom: none;
+}
+
+.hospital-list a {
+  color: var(--charcoal);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.hospital-list a:hover { color: var(--primary); text-decoration: none; }
+
+.hospital-doctor {
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+.article-count {
+  font-size: 0.8rem;
+  font-family: var(--font-mono);
+  color: var(--primary);
+  margin-left: auto;
+}
+
+.recent-articles {
+  margin-top: 1rem;
+}
+
+.recent-articles h2 {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.meta-hospital {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--primary);
+  text-transform: uppercase;
+  margin-left: 0.5rem;
+}
+
+/* ─── Footer (matches linkerai.io) ─── */
+
+.site-footer {
+  background: var(--bg-dark);
+  border-top: 1px solid var(--border-dark);
+  color: var(--muted);
+}
+
+.footer-inner {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 3rem 1.5rem 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.footer-logo {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--paper);
+  text-decoration: none;
+}
+
+.footer-logo:hover { text-decoration: none; color: var(--paper); }
+
+.footer-desc {
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--muted);
+  max-width: var(--reading-width);
+  line-height: 1.6;
+}
+
+.footer-links {
+  display: contents;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-col h4 {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.footer-col a {
+  font-size: 0.875rem;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-col a:hover { color: var(--paper); text-decoration: none; }
+
+.footer-bottom {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-top: 1px solid var(--border-dark);
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+/* ─── Responsive ─── */
+
+@media (max-width: 768px) {
+  .site-nav { display: none; }
+
+  .article-header h1,
+  .profile-header h1 { font-size: 1.6rem; }
+
+  .index-page h1 { font-size: 2rem; }
+
+  .article-body p,
+  .article-body li { font-size: 1rem; }
+
+  .article-body h2 { font-size: 1.4rem; }
+  .article-body h3 { font-size: 1.2rem; }
+
+  .footer-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .article,
+  .profile,
+  .index-page {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
