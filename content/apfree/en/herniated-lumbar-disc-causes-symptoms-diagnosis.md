@@ -5,9 +5,9 @@ tenant_key: apfree
 title: "Herniated Lumbar Disc — Causes, Symptoms, Diagnosis"
 author: "안심튼튼마취통증의학과 권진열 원장"
 hospital: "안심튼튼마취통증의학과"
-canonical_url: "https://https://ansim-homepage.vercel.app/en/blog/herniated-lumbar-disc-causes-symptoms-diagnosis"
+canonical_url: "https://ansimpainfree.kr/en/blog/herniated-lumbar-disc-causes-symptoms-diagnosis"
 lang: en
-source_url: "https://https://ansim-homepage.vercel.app/blog/df09dd16-391f-4453-a8f3-2e241f254522"
+source_url: "https://ansimpainfree.kr/blog/df09dd16-391f-4453-a8f3-2e241f254522"
 source: Linkare Medical Knowledge
 license: CC BY-NC 4.0
 last_updated: 2026-04-09

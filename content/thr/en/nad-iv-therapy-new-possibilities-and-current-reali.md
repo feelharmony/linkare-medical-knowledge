@@ -5,9 +5,9 @@ tenant_key: thr
 title: "NAD+ IV Therapy: New Possibilities and Current Reality in Anti-Aging Treatment"
 author: "더웰스의원 노원 박성진 원장"
 hospital: "더웰스의원 노원"
-canonical_url: "https://thewellsclinic.co.kr/en/blog/nad-iv-therapy-new-possibilities-and-current-reali"
+canonical_url: "https://thewellsr.kr/en/blog/nad-iv-therapy-new-possibilities-and-current-reali"
 lang: en
-source_url: "https://thewellsclinic.co.kr/blog/nad"
+source_url: "https://thewellsr.kr/blog/nad"
 source: Linkare Medical Knowledge
 license: CC BY-NC 4.0
 last_updated: 2026-04-12

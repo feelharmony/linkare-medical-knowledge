@@ -5,7 +5,7 @@ tenant_key: thr
 title: "NAD+ 수액, 노화 방지 치료의 새로운 가능성과 현실"
 author: "더웰스의원 노원 박성진 원장"
 hospital: "더웰스의원 노원"
-canonical_url: "https://thewellsclinic.co.kr/blog/nad"
+canonical_url: "https://thewellsr.kr/blog/nad"
 source: Linkare Medical Knowledge
 license: CC BY-NC 4.0
 last_updated: 2026-04-12
