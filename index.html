@@ -17,7 +17,7 @@ description: "의료 전문가가 작성한 질환별 의학 정보 아카이브
     <h2>참여 의료기관</h2>
     <ul>
       {% for profile in profiles %}
-      {% assign tenant_articles = articles | where: "tenant_key", profile.tenant_key %}
+      {% assign tenant_articles = articles | where: "hospital", profile.hospital %}
       {% assign ko_articles = tenant_articles | where: "lang", "ko" %}
       {% assign en_articles = tenant_articles | where: "lang", "en" %}
       <li>
@@ -31,7 +31,7 @@ description: "의료 전문가가 작성한 질환별 의학 정보 아카이브
   {% endif %}
 
   {% for profile in profiles %}
-  {% assign tenant_articles = articles | where: "tenant_key", profile.tenant_key %}
+  {% assign tenant_articles = articles | where: "hospital", profile.hospital %}
   {% if tenant_articles.size > 0 %}
   <section class="tenant-section">
     <h2>{{ profile.hospital }}</h2>

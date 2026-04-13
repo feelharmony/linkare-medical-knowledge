@@ -1,7 +1,6 @@
 ---
 layout: article
 permalink: /thr/ko/pain/straight-neck-forward-head/
-tenant_key: thr
 lang: ko
 category: pain
 title: "일자목과 거북목, 목 통증의 주범을 제대로 알아보기"

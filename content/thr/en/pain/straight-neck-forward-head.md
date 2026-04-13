@@ -1,7 +1,6 @@
 ---
 layout: article
 permalink: /thr/en/pain/straight-neck-forward-head/
-tenant_key: thr
 lang: en
 category: pain
 title: "Understanding Straight Neck and Forward Head Posture: The Main Culprits Behind Neck Pain"

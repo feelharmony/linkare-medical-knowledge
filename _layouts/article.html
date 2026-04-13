@@ -6,7 +6,7 @@ layout: default
   <nav class="article-breadcrumb">
     <a href="{{ '/' | relative_url }}">Knowledge</a>
     <span class="breadcrumb-sep">/</span>
-    {% if page.tenant_key %}<a href="{{ '/' | append: page.tenant_key | append: '/' | relative_url }}">{{ page.hospital | default: page.tenant_key }}</a>
+    {% if page.hospital %}{% assign hospital_profile = site.pages | where: "layout", "profile" | where: "hospital", page.hospital | first %}<a href="{{ hospital_profile.url | default: '/' | relative_url }}">{{ page.hospital }}</a>
     <span class="breadcrumb-sep">/</span>{% endif %}
     <span class="breadcrumb-current">{{ page.title | truncate: 40 }}</span>
   </nav>

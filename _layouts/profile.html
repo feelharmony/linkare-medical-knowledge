@@ -14,7 +14,7 @@ layout: default
     {{ content }}
   </div>
 
-  {% assign articles = site.pages | where: "tenant_key", page.tenant_key | where: "layout", "article" | sort: "last_updated" | reverse %}
+  {% assign articles = site.pages | where: "hospital", page.hospital | where: "layout", "article" | sort: "last_updated" | reverse %}
   {% if articles.size > 0 %}
   <section class="profile-articles">
     <h2>의학 정보 ({{ articles.size }})</h2>

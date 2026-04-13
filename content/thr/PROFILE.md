@@ -1,7 +1,6 @@
 ---
 layout: profile
 permalink: /thr/
-tenant_key: thr
 title: "더웰스의원 노원"
 hospital: "더웰스의원 노원"
 hospital_en: "thewells Rowon"

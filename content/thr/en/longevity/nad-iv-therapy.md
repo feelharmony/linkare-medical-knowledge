@@ -1,7 +1,6 @@
 ---
 layout: article
 permalink: /thr/en/longevity/nad-iv-therapy/
-tenant_key: thr
 lang: en
 category: longevity
 title: "NAD+ IV Therapy: New Possibilities and Current Reality in Anti-Aging Treatment"

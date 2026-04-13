@@ -1,7 +1,6 @@
 ---
 layout: article
 permalink: /apfree/en/spine/herniated-disc-causes-symptoms-diagnosis/
-tenant_key: apfree
 lang: en
 category: spine
 title: "Herniated Lumbar Disc — Causes, Symptoms, Diagnosis"

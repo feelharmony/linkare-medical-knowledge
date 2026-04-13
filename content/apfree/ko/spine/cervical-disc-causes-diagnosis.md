@@ -1,7 +1,6 @@
 ---
 layout: article
 permalink: /apfree/ko/spine/cervical-disc-causes-diagnosis/
-tenant_key: apfree
 lang: ko
 category: spine
 title: "목디스크 원인부터 진단까지 — 목과 팔의 통증을 일으키는 경추 추간판 탈출증"

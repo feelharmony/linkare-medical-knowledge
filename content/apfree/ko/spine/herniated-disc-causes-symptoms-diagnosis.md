@@ -1,7 +1,6 @@
 ---
 layout: article
 permalink: /apfree/ko/spine/herniated-disc-causes-symptoms-diagnosis/
-tenant_key: apfree
 lang: ko
 category: spine
 title: "허리디스크 — 원인, 증상, 진단"

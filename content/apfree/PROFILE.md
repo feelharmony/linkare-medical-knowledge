@@ -1,7 +1,6 @@
 ---
 layout: profile
 permalink: /apfree/
-tenant_key: apfree
 title: "안심튼튼마취통증의학과"
 hospital: "안심튼튼마취통증의학과"
 hospital_en: "ansimteunteun pain clinic"
