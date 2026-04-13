@@ -10,36 +10,96 @@ description: "의료 전문가가 작성한 질환별 의학 정보 아카이브
 
   {% assign articles = site.pages | where: "layout", "article" | sort: "last_updated" | reverse %}
   {% assign profiles = site.pages | where: "layout", "profile" %}
+  {% assign categories = "" %}
 
   {% if profiles.size > 0 %}
   <section class="hospital-list">
     <h2>참여 의료기관</h2>
     <ul>
       {% for profile in profiles %}
-      {% assign count = articles | where: "tenant_key", profile.tenant_key | size %}
+      {% assign tenant_articles = articles | where: "tenant_key", profile.tenant_key %}
+      {% assign ko_articles = tenant_articles | where: "lang", "ko" %}
+      {% assign en_articles = tenant_articles | where: "lang", "en" %}
       <li>
         <a href="{{ profile.url | relative_url }}">{{ profile.hospital }}</a>
         {% if profile.doctor %}<span class="hospital-doctor">{{ profile.doctor }}</span>{% endif %}
-        <span class="article-count">{{ count }}건</span>
+        <span class="article-count">{{ ko_articles.size }}건 (EN {{ en_articles.size }})</span>
       </li>
       {% endfor %}
     </ul>
   </section>
   {% endif %}
 
-  {% if articles.size > 0 %}
-  <section class="recent-articles">
-    <h2>최근 게시</h2>
-    <ul class="article-list">
-      {% for article in articles limit:20 %}
-      <li>
-        <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
-        {% if article.hospital %}<span class="meta-hospital">{{ article.hospital }}</span>{% endif %}
-        {% if article.description %}<p class="article-desc">{{ article.description }}</p>{% endif %}
-        <span class="article-date">{{ article.last_updated }}</span>
-      </li>
-      {% endfor %}
-    </ul>
+  {% for profile in profiles %}
+  {% assign tenant_articles = articles | where: "tenant_key", profile.tenant_key %}
+  {% if tenant_articles.size > 0 %}
+  <section class="tenant-section">
+    <h2>{{ profile.hospital }}</h2>
+
+    {% assign tenant_categories = "" %}
+    {% for article in tenant_articles %}
+      {% if article.category %}
+        {% unless tenant_categories contains article.category %}
+          {% if tenant_categories == "" %}
+            {% assign tenant_categories = article.category %}
+          {% else %}
+            {% assign tenant_categories = tenant_categories | append: "," | append: article.category %}
+          {% endif %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign cat_array = tenant_categories | split: "," %}
+    {% for cat in cat_array %}
+    {% assign cat_articles_ko = tenant_articles | where: "category", cat | where: "lang", "ko" %}
+    {% assign cat_articles_en = tenant_articles | where: "category", cat | where: "lang", "en" %}
+    {% if cat_articles_ko.size > 0 or cat_articles_en.size > 0 %}
+    <div class="category-group">
+      <h3 class="category-title">{{ cat }}</h3>
+      <ul class="article-list">
+        {% for article in cat_articles_ko %}
+        <li>
+          <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
+          <span class="article-lang">KO</span>
+          <span class="article-date">{{ article.last_updated }}</span>
+          {% for en_article in cat_articles_en %}
+            {% if en_article.url contains article.url | split: "/" | last %}
+            <a href="{{ en_article.url | relative_url }}" class="lang-link">EN</a>
+            {% endif %}
+          {% endfor %}
+        </li>
+        {% endfor %}
+        {% for article in cat_articles_en %}
+        {% assign ko_match = cat_articles_ko | where: "category", cat | size %}
+        {% if ko_match == 0 %}
+        <li>
+          <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
+          <span class="article-lang">EN</span>
+          <span class="article-date">{{ article.last_updated }}</span>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+    {% endfor %}
+
+    {% assign uncategorized = tenant_articles | where: "category", nil %}
+    {% if uncategorized.size > 0 %}
+    <div class="category-group">
+      <h3 class="category-title">기타</h3>
+      <ul class="article-list">
+        {% for article in uncategorized %}
+        <li>
+          <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
+          <span class="article-lang">{{ article.lang | upcase | default: "KO" }}</span>
+          <span class="article-date">{{ article.last_updated }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
   </section>
   {% endif %}
+  {% endfor %}
 </div>

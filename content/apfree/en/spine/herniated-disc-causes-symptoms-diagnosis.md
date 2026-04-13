@@ -1,12 +1,13 @@
 ---
 layout: article
-permalink: /apfree/herniated-lumbar-disc-causes-symptoms-diagnosis/
+permalink: /apfree/en/spine/herniated-disc-causes-symptoms-diagnosis/
 tenant_key: apfree
+lang: en
+category: spine
 title: "Herniated Lumbar Disc — Causes, Symptoms, Diagnosis"
 author: "안심튼튼마취통증의학과 권진열 원장"
 hospital: "안심튼튼마취통증의학과"
 canonical_url: "https://ansimpainfree.kr/en/blog/herniated-lumbar-disc-causes-symptoms-diagnosis"
-lang: en
 source_url: "https://ansimpainfree.kr/blog/df09dd16-391f-4453-a8f3-2e241f254522"
 source: Linkare Medical Knowledge
 license: CC BY-NC 4.0

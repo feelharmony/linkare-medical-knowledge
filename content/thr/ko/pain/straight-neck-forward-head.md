@@ -1,7 +1,9 @@
 ---
 layout: article
-permalink: /thr/2026-04-10-308b3e30/
+permalink: /thr/ko/pain/straight-neck-forward-head/
 tenant_key: thr
+lang: ko
+category: pain
 title: "일자목과 거북목, 목 통증의 주범을 제대로 알아보기"
 author: "더웰스의원 노원 박성진 원장"
 hospital: "더웰스의원 노원"

@@ -1,12 +1,13 @@
 ---
 layout: article
-permalink: /thr/nad-iv-therapy-new-possibilities-and-current-reali/
+permalink: /thr/en/longevity/nad-iv-therapy/
 tenant_key: thr
+lang: en
+category: longevity
 title: "NAD+ IV Therapy: New Possibilities and Current Reality in Anti-Aging Treatment"
 author: "더웰스의원 노원 박성진 원장"
 hospital: "더웰스의원 노원"
 canonical_url: "https://thewellsr.kr/en/blog/nad-iv-therapy-new-possibilities-and-current-reali"
-lang: en
 source_url: "https://thewellsr.kr/blog/nad"
 source: Linkare Medical Knowledge
 license: CC BY-NC 4.0

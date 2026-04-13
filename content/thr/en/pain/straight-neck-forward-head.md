@@ -1,12 +1,13 @@
 ---
 layout: article
-permalink: /thr/understanding-straight-neck-and-forward-head-postu/
+permalink: /thr/en/pain/straight-neck-forward-head/
 tenant_key: thr
+lang: en
+category: pain
 title: "Understanding Straight Neck and Forward Head Posture: The Main Culprits Behind Neck Pain"
 author: "더웰스의원 노원 박성진 원장"
 hospital: "더웰스의원 노원"
 canonical_url: "https://thewellsr.kr/en/blog/understanding-straight-neck-and-forward-head-postu"
-lang: en
 source_url: "https://thewellsr.kr/blog/2026-04-10-308b3e30"
 source: Linkare Medical Knowledge
 license: CC BY-NC 4.0
