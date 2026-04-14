@@ -2,7 +2,8 @@
 layout: article
 permalink: /thr/en/longevity/nad-iv-therapy/
 lang: en
-category: longevity
+tenant_key: thr
+categories: [longevity]
 title: "NAD+ IV Therapy: New Possibilities and Current Reality in Anti-Aging Treatment"
 author: "더웰스의원 노원 박성진 원장"
 hospital: "더웰스의원 노원"

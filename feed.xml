@@ -1,0 +1,34 @@
+---
+layout: null
+permalink: /feed.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title }}</title>
+  <subtitle>{{ site.description }}</subtitle>
+  <link href="{{ '/feed.xml' | absolute_url }}" rel="self" type="application/atom+xml"/>
+  <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ '/' | absolute_url }}</id>
+  <author>
+    <name>Linkare Medical Knowledge</name>
+    <uri>https://linkerai.io</uri>
+  </author>
+  {% assign articles = site.pages | where: "layout", "article" | sort: "last_updated" | reverse %}
+  {% for article in articles limit:50 %}
+  <entry>
+    <title>{{ article.title | xml_escape }}</title>
+    <link href="{{ article.url | absolute_url }}" rel="alternate" type="text/html"/>
+    <id>{{ article.url | absolute_url }}</id>
+    {% if article.last_updated %}<updated>{{ article.last_updated | date: "%Y-%m-%dT00:00:00+09:00" }}</updated>
+    <published>{{ article.last_updated | date: "%Y-%m-%dT00:00:00+09:00" }}</published>{% endif %}
+    {% if article.author %}<author><name>{{ article.author | xml_escape }}</name></author>{% endif %}
+    {% if article.description %}<summary>{{ article.description | xml_escape }}</summary>{% endif %}
+    {% if article.hospital %}<category term="{{ article.hospital | xml_escape }}"/>{% endif %}
+    {% if article.categories %}{% for cat in article.categories %}<category term="{{ cat | xml_escape }}"/>{% endfor %}{% endif %}
+    {% if article.lang %}<category term="lang:{{ article.lang }}"/>{% endif %}
+    <rights>{{ article.license | default: "CC BY-NC 4.0" }}</rights>
+  </entry>
+  {% endfor %}
+</feed>

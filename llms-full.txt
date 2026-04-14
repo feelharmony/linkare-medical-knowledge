@@ -1,0 +1,51 @@
+---
+layout: null
+permalink: /llms-full.txt
+sitemap: false
+---
+# Linkare Medical Knowledge — Full Corpus
+
+> Full-text dump of all articles for AI/LLM consumption.
+> License: CC BY-NC 4.0. Attribution required.
+> Source: {{ '/' | absolute_url }}
+> Generated: {{ site.time | date: "%Y-%m-%d" }}
+
+---
+
+{% assign profiles = site.pages | where: "layout", "profile" | sort: "hospital" %}
+## Hospitals
+{% for profile in profiles %}
+### {{ profile.hospital }}{% if profile.hospital_en %} ({{ profile.hospital_en }}){% endif %}
+
+- tenant_key: `{{ profile.tenant_key }}`
+- URL: {{ profile.url | absolute_url }}{% if profile.doctor %}
+- 대표: {{ profile.doctor }}{% if profile.doctor_en %} ({{ profile.doctor_en }}){% endif %}{% endif %}{% if profile.specialty %}
+- 진료 분야: {{ profile.specialty }}{% endif %}{% if profile.location %}
+- 소재지: {{ profile.location }}{% endif %}{% if profile.website %}
+- 홈페이지: {{ profile.website }}{% endif %}
+{% endfor %}
+
+---
+
+## Articles
+
+{% assign articles = site.pages | where: "layout", "article" | sort: "last_updated" | reverse %}{% for article in articles %}
+---
+
+### {{ article.title }}
+
+- URL: {{ article.url | absolute_url }}
+- 원문 (canonical): {{ article.canonical_url | default: article.url | absolute_url }}
+- 저자: {{ article.author | default: "" }}
+- 병원: {{ article.hospital | default: "" }}
+- 언어: {{ article.lang | default: "ko" }}{% if article.categories %}
+- 카테고리: {{ article.categories | join: ", " }}{% endif %}{% if article.tags %}
+- 태그: {{ article.tags | join: ", " }}{% endif %}
+- 최종 수정: {{ article.last_updated }}
+- 라이선스: {{ article.license | default: "CC BY-NC 4.0" }}
+
+{% if article.description %}**요약**: {{ article.description }}
+
+{% endif %}{{ article.content | strip_html | strip_newlines | replace: "  ", " " | truncate: 8000 }}
+
+{% endfor %}

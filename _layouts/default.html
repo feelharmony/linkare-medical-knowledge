@@ -10,7 +10,25 @@
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   {% endif %}
 
+  {%- comment -%} hreflang: ko/en 대칭 글이 존재할 때 상호참조 {%- endcomment -%}
+  {% if page.layout == "article" and page.tenant_key and page.categories %}
+    {% assign cur_slug = page.url | split: "/" | last %}
+    {% if cur_slug == "" %}{% assign cur_slug = page.url | split: "/" | slice: -2, 1 | first %}{% endif %}
+    {% assign cur_cat = page.categories | first %}
+    {% assign ko_match = site.pages | where: "tenant_key", page.tenant_key | where: "lang", "ko" | where_exp: "a", "a.categories contains cur_cat" | where_exp: "a", "a.url contains cur_slug" | first %}
+    {% assign en_match = site.pages | where: "tenant_key", page.tenant_key | where: "lang", "en" | where_exp: "a", "a.categories contains cur_cat" | where_exp: "a", "a.url contains cur_slug" | first %}
+    {% if ko_match %}<link rel="alternate" hreflang="ko" href="{{ ko_match.url | absolute_url }}">{% endif %}
+    {% if en_match %}<link rel="alternate" hreflang="en" href="{{ en_match.url | absolute_url }}">{% endif %}
+    {% if ko_match %}<link rel="alternate" hreflang="x-default" href="{{ ko_match.url | absolute_url }}">{% endif %}
+  {% endif %}
+
+  {%- comment -%} AI 검색 크롤러 친화: 전체 크롤링 허용 + 이미지/스니펫 최대치 {%- endcomment -%}
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+
   {% seo %}
+
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
+
 
   <!-- Fonts: match linkerai.io -->
   <link rel="preconnect" href="https://fonts.googleapis.com">

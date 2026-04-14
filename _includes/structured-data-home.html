@@ -1,0 +1,25 @@
+{%- comment -%}
+  홈 페이지 JSON-LD: WebSite + Organization
+  - WebSite: 사이트 전체 entity 정의 (Google SERP 사이트명 표시)
+  - Organization: Linkare 발행자 엔티티
+{%- endcomment -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ site.title | jsonify }},
+  "alternateName": "Linkare Knowledge",
+  "description": {{ site.description | jsonify }},
+  "url": "{{ '/' | absolute_url }}",
+  "inLanguage": ["ko", "en"],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Linkare",
+    "url": "https://linkerai.io",
+    "sameAs": [
+      "https://linkerai.io"
+    ]
+  }
+}
+</script>

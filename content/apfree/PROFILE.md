@@ -1,6 +1,7 @@
 ---
 layout: profile
 permalink: /apfree/
+tenant_key: apfree
 title: "안심튼튼마취통증의학과"
 hospital: "안심튼튼마취통증의학과"
 hospital_en: "ansimteunteun pain clinic"
@@ -11,6 +12,7 @@ specialty_en: "pain medicine"
 location: "대구광역시 동구 반야월로 189 2층"
 location_en: " 189, Banyawol-ro, Dong-gu, Daegu, Republic of Korea"
 website: "https://www.ansimpainfree.kr"
+sameAs: ["https://www.ansimpainfree.kr"]
 ---
 
 # 안심튼튼마취통증의학과

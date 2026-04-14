@@ -9,15 +9,14 @@ description: "의료 전문가가 작성한 질환별 의학 정보 아카이브
   <p class="index-desc">전문의가 작성하고 Linkare가 큐레이션한 의학 지식 아카이브입니다.</p>
 
   {% assign articles = site.pages | where: "layout", "article" | sort: "last_updated" | reverse %}
-  {% assign profiles = site.pages | where: "layout", "profile" %}
-  {% assign categories = "" %}
+  {% assign profiles = site.pages | where: "layout", "profile" | sort: "hospital" %}
 
   {% if profiles.size > 0 %}
   <section class="hospital-list">
     <h2>참여 의료기관</h2>
     <ul>
       {% for profile in profiles %}
-      {% assign tenant_articles = articles | where: "hospital", profile.hospital %}
+      {% assign tenant_articles = articles | where: "tenant_key", profile.tenant_key %}
       {% assign ko_articles = tenant_articles | where: "lang", "ko" %}
       {% assign en_articles = tenant_articles | where: "lang", "en" %}
       <li>
@@ -31,28 +30,31 @@ description: "의료 전문가가 작성한 질환별 의학 정보 아카이브
   {% endif %}
 
   {% for profile in profiles %}
-  {% assign tenant_articles = articles | where: "hospital", profile.hospital %}
+  {% assign tenant_articles = articles | where: "tenant_key", profile.tenant_key %}
   {% if tenant_articles.size > 0 %}
   <section class="tenant-section">
-    <h2>{{ profile.hospital }}</h2>
+    <h2><a href="{{ profile.url | relative_url }}">{{ profile.hospital }}</a></h2>
 
+    {%- comment -%} 이 병원이 사용한 카테고리 집합 계산 {%- endcomment -%}
     {% assign tenant_categories = "" %}
     {% for article in tenant_articles %}
-      {% if article.category %}
-        {% unless tenant_categories contains article.category %}
-          {% if tenant_categories == "" %}
-            {% assign tenant_categories = article.category %}
-          {% else %}
-            {% assign tenant_categories = tenant_categories | append: "," | append: article.category %}
-          {% endif %}
-        {% endunless %}
+      {% if article.categories and article.categories.size > 0 %}
+        {% for cat in article.categories %}
+          {% unless tenant_categories contains cat %}
+            {% if tenant_categories == "" %}
+              {% assign tenant_categories = cat %}
+            {% else %}
+              {% assign tenant_categories = tenant_categories | append: "," | append: cat %}
+            {% endif %}
+          {% endunless %}
+        {% endfor %}
       {% endif %}
     {% endfor %}
 
-    {% assign cat_array = tenant_categories | split: "," %}
+    {% assign cat_array = tenant_categories | split: "," | sort %}
     {% for cat in cat_array %}
-    {% assign cat_articles_ko = tenant_articles | where: "category", cat | where: "lang", "ko" %}
-    {% assign cat_articles_en = tenant_articles | where: "category", cat | where: "lang", "en" %}
+    {% assign cat_articles_ko = tenant_articles | where: "lang", "ko" | where_exp: "a", "a.categories contains cat" %}
+    {% assign cat_articles_en = tenant_articles | where: "lang", "en" | where_exp: "a", "a.categories contains cat" %}
     {% if cat_articles_ko.size > 0 or cat_articles_en.size > 0 %}
     <div class="category-group">
       <h3 class="category-title">{{ cat }}</h3>
@@ -62,44 +64,22 @@ description: "의료 전문가가 작성한 질환별 의학 정보 아카이브
           <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
           <span class="article-lang">KO</span>
           <span class="article-date">{{ article.last_updated }}</span>
-          {% for en_article in cat_articles_en %}
-            {% if en_article.url contains article.url | split: "/" | last %}
-            <a href="{{ en_article.url | relative_url }}" class="lang-link">EN</a>
-            {% endif %}
-          {% endfor %}
         </li>
         {% endfor %}
         {% for article in cat_articles_en %}
-        {% assign ko_match = cat_articles_ko | where: "category", cat | size %}
-        {% if ko_match == 0 %}
         <li>
           <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
           <span class="article-lang">EN</span>
           <span class="article-date">{{ article.last_updated }}</span>
         </li>
-        {% endif %}
         {% endfor %}
       </ul>
     </div>
     {% endif %}
     {% endfor %}
-
-    {% assign uncategorized = tenant_articles | where: "category", nil %}
-    {% if uncategorized.size > 0 %}
-    <div class="category-group">
-      <h3 class="category-title">기타</h3>
-      <ul class="article-list">
-        {% for article in uncategorized %}
-        <li>
-          <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
-          <span class="article-lang">{{ article.lang | upcase | default: "KO" }}</span>
-          <span class="article-date">{{ article.last_updated }}</span>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-    {% endif %}
   </section>
   {% endif %}
   {% endfor %}
 </div>
+
+{% include structured-data-home.html %}

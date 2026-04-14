@@ -1,0 +1,85 @@
+{%- comment -%}
+  기사 페이지 JSON-LD: Article + MedicalWebPage + BreadcrumbList
+  - Article: 구글 기사 리치 결과 대응 (author, datePublished, publisher)
+  - MedicalWebPage: 의료 컨텍스트 명시 (E-E-A-T 신호)
+  - BreadcrumbList: 경로 네비게이션
+{%- endcomment -%}
+
+{% assign hospital_profile = site.pages | where: "layout", "profile" | where: "tenant_key", page.tenant_key | first %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  {% if page.description %}"description": {{ page.description | jsonify }},{% endif %}
+  {% if page.author %}"author": {
+    "@type": "Physician",
+    "name": {{ page.author | jsonify }}{% if hospital_profile.specialty %},
+    "medicalSpecialty": {{ hospital_profile.specialty | jsonify }}{% endif %}{% if hospital_profile.sameAs %},
+    "sameAs": {{ hospital_profile.sameAs | jsonify }}{% endif %}
+  },{% endif %}
+  {% if page.hospital %}"publisher": {
+    "@type": "MedicalOrganization",
+    "name": {{ page.hospital | jsonify }}{% if hospital_profile.website %},
+    "url": {{ hospital_profile.website | jsonify }}{% endif %}
+  },{% endif %}
+  {% if page.last_updated %}"datePublished": "{{ page.last_updated }}",
+  "dateModified": "{{ page.last_updated }}",{% endif %}
+  {% if page.canonical_url %}"mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ page.canonical_url | jsonify }}
+  },{% endif %}
+  "inLanguage": "{{ page.lang | default: 'ko' }}",
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "url": "{{ page.url | absolute_url }}"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": {{ page.title | jsonify }},
+  {% if page.description %}"description": {{ page.description | jsonify }},{% endif %}
+  "inLanguage": "{{ page.lang | default: 'ko' }}",
+  "url": "{{ page.url | absolute_url }}",
+  "audience": {
+    "@type": "MedicalAudience",
+    "audienceType": "Patient"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Knowledge",
+      "item": "{{ '/' | absolute_url }}"
+    }{% if hospital_profile %},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ hospital_profile.hospital | jsonify }},
+      "item": "{{ hospital_profile.url | absolute_url }}"
+    }{% endif %}{% if page.categories and page.categories.size > 0 %},
+    {
+      "@type": "ListItem",
+      "position": {% if hospital_profile %}3{% else %}2{% endif %},
+      "name": {{ page.categories | first | jsonify }}
+    }{% endif %},
+    {
+      "@type": "ListItem",
+      "position": {% if hospital_profile and page.categories %}4{% elsif hospital_profile or page.categories %}3{% else %}2{% endif %},
+      "name": {{ page.title | jsonify }},
+      "item": "{{ page.url | absolute_url }}"
+    }
+  ]
+}
+</script>

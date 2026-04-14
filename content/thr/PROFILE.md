@@ -1,6 +1,7 @@
 ---
 layout: profile
 permalink: /thr/
+tenant_key: thr
 title: "더웰스의원 노원"
 hospital: "더웰스의원 노원"
 hospital_en: "thewells Rowon"
@@ -11,6 +12,7 @@ specialty_en: "pain medicine, wellness care"
 location: "서울 노원구 노해로 452 401호,402호"
 location_en: "452, Nohae-ro, 4F, Nowon-gu, Seoul, Republic of Korea"
 website: "https://www.thewellsr.kr"
+sameAs: ["https://www.thewellsr.kr"]
 ---
 
 # 더웰스의원 노원

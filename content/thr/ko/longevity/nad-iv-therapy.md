@@ -2,7 +2,8 @@
 layout: article
 permalink: /thr/ko/longevity/nad-iv-therapy/
 lang: ko
-category: longevity
+tenant_key: thr
+categories: [longevity]
 title: "NAD+ 수액, 노화 방지 치료의 새로운 가능성과 현실"
 author: "더웰스의원 노원 박성진 원장"
 hospital: "더웰스의원 노원"
