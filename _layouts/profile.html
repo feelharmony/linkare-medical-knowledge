@@ -44,7 +44,12 @@ layout: default
     "sameAs": {{ page.sameAs | jsonify }}{% endif %}
   },{% endif %}
   {% if page.website %}"url": {{ page.website | jsonify }},{% endif %}
-  {% if page.location %}"address": {{ page.location | jsonify }},{% endif %}
+  {% if page.telephone %}"telephone": {{ page.telephone | jsonify }},{% endif %}
+  {% if page.location %}"address": {
+    "@type": "PostalAddress",
+    "streetAddress": {{ page.location | jsonify }},
+    "addressCountry": "KR"
+  },{% endif %}
   "mainEntityOfPage": "{{ page.url | absolute_url }}"
 }
 </script>

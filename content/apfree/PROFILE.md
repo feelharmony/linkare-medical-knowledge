@@ -11,6 +11,7 @@ specialty: "통증의학과"
 specialty_en: "pain medicine"
 location: "대구광역시 동구 반야월로 189 2층"
 location_en: " 189, Banyawol-ro, Dong-gu, Daegu, Republic of Korea"
+telephone: "+82-53-965-5900"
 website: "https://www.ansimpainfree.kr"
 sameAs: ["https://www.ansimpainfree.kr"]
 ---

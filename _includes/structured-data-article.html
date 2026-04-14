@@ -22,7 +22,13 @@
   {% if page.hospital %}"publisher": {
     "@type": "MedicalOrganization",
     "name": {{ page.hospital | jsonify }}{% if hospital_profile.website %},
-    "url": {{ hospital_profile.website | jsonify }}{% endif %}
+    "url": {{ hospital_profile.website | jsonify }}{% endif %}{% if hospital_profile.telephone %},
+    "telephone": {{ hospital_profile.telephone | jsonify }}{% endif %}{% if hospital_profile.location %},
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": {{ hospital_profile.location | jsonify }},
+      "addressCountry": "KR"
+    }{% endif %}
   },{% endif %}
   {% if page.last_updated %}"datePublished": "{{ page.last_updated }}T00:00:00+09:00",
   "dateModified": "{{ page.last_updated }}T00:00:00+09:00",{% endif %}

@@ -11,6 +11,7 @@ specialty: "통증, 웰니스, 탈모"
 specialty_en: "pain medicine, wellness care"
 location: "서울 노원구 노해로 452 401호,402호"
 location_en: "452, Nohae-ro, 4F, Nowon-gu, Seoul, Republic of Korea"
+telephone: "+82-2-3392-4585"
 website: "https://www.thewellsr.kr"
 sameAs: ["https://www.thewellsr.kr"]
 ---
