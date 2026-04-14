@@ -24,8 +24,8 @@
     "name": {{ page.hospital | jsonify }}{% if hospital_profile.website %},
     "url": {{ hospital_profile.website | jsonify }}{% endif %}
   },{% endif %}
-  {% if page.last_updated %}"datePublished": "{{ page.last_updated }}",
-  "dateModified": "{{ page.last_updated }}",{% endif %}
+  {% if page.last_updated %}"datePublished": "{{ page.last_updated }}T00:00:00+09:00",
+  "dateModified": "{{ page.last_updated }}T00:00:00+09:00",{% endif %}
   {% if page.canonical_url %}"mainEntityOfPage": {
     "@type": "WebPage",
     "@id": {{ page.canonical_url | jsonify }}
@@ -68,15 +68,10 @@
       "position": 2,
       "name": {{ hospital_profile.hospital | jsonify }},
       "item": "{{ hospital_profile.url | absolute_url }}"
-    }{% endif %}{% if page.categories and page.categories.size > 0 %},
-    {
-      "@type": "ListItem",
-      "position": {% if hospital_profile %}3{% else %}2{% endif %},
-      "name": {{ page.categories | first | jsonify }}
     }{% endif %},
     {
       "@type": "ListItem",
-      "position": {% if hospital_profile and page.categories %}4{% elsif hospital_profile or page.categories %}3{% else %}2{% endif %},
+      "position": {% if hospital_profile %}3{% else %}2{% endif %},
       "name": {{ page.title | jsonify }},
       "item": "{{ page.url | absolute_url }}"
     }
