@@ -2,8 +2,9 @@
 layout: article
 permalink: /thr/ko/hair/hair-loss-regeneration-injection-treatment/
 lang: ko
+tenant_key: thr
 title: "탈모로 고민이신가요? 재생주사치료라는 새로운 접근법"
-category: hair
+categories: [hair]
 author: "더웰스의원 노원 박성진 원장"
 hospital: "더웰스의원 노원"
 canonical_url: "https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment"
