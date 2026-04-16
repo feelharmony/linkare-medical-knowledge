@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+{% assign entity_type = page.entity_type %}
+
+<div class="entity-index-page">
+  <nav class="entity-breadcrumb" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">Knowledge</a>
+    <span class="breadcrumb-sep">/</span>
+    <a href="{{ '/topics/' | relative_url }}">Topics</a>
+    <span class="breadcrumb-sep">/</span>
+    <span class="breadcrumb-current">{{ page.type_label }}</span>
+  </nav>
+
+  <h1>{{ page.type_label }}</h1>
+  <p class="entity-index-desc">{{ page.description }}</p>
+
+  <div class="entity-index-grid">
+    {% for node in site.data.entity_graph.nodes %}
+      {% if node.type == entity_type %}
+        {% case node.type %}
+          {% when 'condition' %}{% assign type_path = "conditions" %}
+          {% when 'symptom' %}{% assign type_path = "symptoms" %}
+          {% when 'treatment' %}{% assign type_path = "treatments" %}
+          {% when 'body_part' %}{% assign type_path = "body-parts" %}
+          {% when 'doctor' %}{% assign type_path = "doctors" %}
+          {% when 'hospital' %}{% assign type_path = "hospitals" %}
+        {% endcase %}
+
+        {% comment %} 해당 엔티티의 글 수 계산 {% endcomment %}
+        {% assign post_count = 0 %}
+        {% for map in site.data.post_entity_map %}
+          {% if map.entity_ids contains node.id or map.doctor_id == node.id or map.hospital_id == node.id %}
+            {% assign post_count = post_count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+
+        {% comment %} 해당 엔티티의 description 가져오기 {% endcomment %}
+        {% assign entity_page = site.pages | where: "entity_id", node.id | first %}
+
+        <a href="{{ '/' | append: type_path | append: '/' | append: node.id | append: '/' | relative_url }}" class="entity-index-card entity-index-card--{{ entity_type }}">
+          <h3>{{ node.name_ko }}</h3>
+          {% if node.name_en %}<p class="entity-index-card-en">{{ node.name_en }}</p>{% endif %}
+          {% if entity_page.description %}<p class="entity-index-card-desc">{{ entity_page.description }}</p>{% endif %}
+          <span class="entity-index-card-count">{{ post_count }}건</span>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="entity-index-footer">
+    <a href="{{ '/topics/' | relative_url }}">← 전체 주제</a>
+    <a href="{{ '/graph/' | relative_url }}">🔗 지식 그래프</a>
+  </div>
+</div>

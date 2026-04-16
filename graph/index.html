@@ -160,9 +160,11 @@ robots: "noindex, follow"
     pathEl.style.display = 'block';
     pathText.textContent = '';
 
-    const startNode = graphData.nodes
-      .filter(n => n.type === 'condition')
-      .sort((a, b) => (b.post_count || 0) - (a.post_count || 0))[0];
+    // 매번 다른 노드에서 시작 (condition/symptom/treatment 중 랜덤)
+    const startCandidates = graphData.nodes.filter(n =>
+      ['condition', 'symptom', 'treatment'].includes(n.type) && (n.post_count || 0) >= 1
+    );
+    const startNode = startCandidates[Math.floor(Math.random() * startCandidates.length)];
     if (!startNode) { crawlRunning = false; return; }
 
     const visited = new Set([startNode.id]);

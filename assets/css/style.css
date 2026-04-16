@@ -1115,6 +1115,99 @@ a:hover { text-decoration: underline; }
 
 .graph-back-links a:hover { text-decoration: underline; }
 
+/* ─── Entity Type Index ─── */
+
+.entity-index-page {
+  max-width: var(--reading-width);
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+.entity-index-page h1 {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--charcoal);
+  margin-bottom: 0.25rem;
+}
+
+.entity-index-desc {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+.entity-index-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+.entity-index-card {
+  display: block;
+  padding: 1.25rem;
+  border: 1px solid var(--border-light);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.15s;
+  position: relative;
+}
+
+.entity-index-card:hover {
+  border-color: var(--primary);
+  background: var(--paper);
+  text-decoration: none;
+}
+
+.entity-index-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--charcoal);
+  margin-bottom: 0.15rem;
+}
+
+.entity-index-card-en {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+
+.entity-index-card-desc {
+  font-size: 0.875rem;
+  color: var(--body);
+  line-height: 1.5;
+}
+
+.entity-index-card-count {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+  color: var(--primary);
+}
+
+.entity-index-card--condition { border-left: 3px solid #ef4444; }
+.entity-index-card--symptom { border-left: 3px solid #f59e0b; }
+.entity-index-card--treatment { border-left: 3px solid #3b82f6; }
+.entity-index-card--body_part { border-left: 3px solid #22c55e; }
+.entity-index-card--doctor { border-left: 3px solid #8b5cf6; }
+.entity-index-card--hospital { border-left: 3px solid #ec4899; }
+
+.entity-index-footer {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  font-size: 0.875rem;
+}
+
+.entity-index-footer a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.entity-index-footer a:hover { text-decoration: underline; }
+
 /* ─── Entity Hub Footer Links ─── */
 
 .entity-footer-links {
