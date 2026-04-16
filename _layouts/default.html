@@ -22,13 +22,15 @@
     {% if ko_match %}<link rel="alternate" hreflang="x-default" href="{{ ko_match.url | absolute_url }}">{% endif %}
   {% endif %}
 
-  {%- comment -%} AI 검색 크롤러 친화: 전체 크롤링 허용 + 이미지/스니펫 최대치 {%- endcomment -%}
+  {% if page.robots %}
+  <meta name="robots" content="{{ page.robots }}">
+  {% else %}
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  {% endif %}
 
   {% seo %}
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
-
 
   <!-- Fonts: match linkerai.io -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,47 +41,98 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+  {%- comment -%} ═══ Header: linkerai.io와 동일 ═══ {%- endcomment -%}
   <header class="site-header">
     <div class="header-inner">
       <a href="https://linkerai.io" class="site-logo">LinkerAI</a>
       <nav class="site-nav">
-        <a href="{{ '/' | relative_url }}">Knowledge</a>
-        <a href="{{ '/topics/' | relative_url }}">Topics</a>
-        <a href="{{ '/graph/' | relative_url }}">Graph</a>
         <a href="https://linkerai.io/blog">Blog</a>
+        <a href="https://linkerai.io/works">Works</a>
+        <a href="{{ '/' | relative_url }}" class="nav-active">Knowledge</a>
         <a href="https://linkerai.io/#contact">Contact</a>
       </nav>
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="메뉴">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
     </div>
   </header>
+
+  {%- comment -%} ═══ 서브 네비게이션: Knowledge 내부 탭 ═══ {%- endcomment -%}
+  <nav class="sub-nav">
+    <div class="sub-nav-inner">
+      {% assign current_path = page.url | split: '?' | first %}
+      <a href="{{ '/' | relative_url }}" class="sub-nav-link {% if current_path == '/' %}sub-nav-link--active{% endif %}">Articles</a>
+      <a href="{{ '/topics/' | relative_url }}" class="sub-nav-link {% if current_path contains '/topics' or current_path contains '/conditions' or current_path contains '/symptoms' or current_path contains '/treatments' or current_path contains '/body-parts' or current_path contains '/doctors' or current_path contains '/hospitals' %}sub-nav-link--active{% endif %}">Topics</a>
+      <a href="{{ '/graph/' | relative_url }}" class="sub-nav-link {% if current_path contains '/graph' %}sub-nav-link--active{% endif %}">Graph</a>
+    </div>
+  </nav>
+
+  {%- comment -%} ═══ 모바일 메뉴 ═══ {%- endcomment -%}
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu-header">
+      <a href="https://linkerai.io" class="site-logo">LinkerAI</a>
+      <button class="mobile-menu-close" id="mobile-menu-close" aria-label="닫기">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <nav class="mobile-menu-nav">
+      <a href="https://linkerai.io" class="mobile-menu-item"><span class="mobile-menu-num">01</span><span class="mobile-menu-text">Home</span></a>
+      <a href="https://linkerai.io/works" class="mobile-menu-item"><span class="mobile-menu-num">02</span><span class="mobile-menu-text">Works</span></a>
+      <a href="https://linkerai.io/blog" class="mobile-menu-item"><span class="mobile-menu-num">03</span><span class="mobile-menu-text">Blog</span></a>
+      <a href="{{ '/' | relative_url }}" class="mobile-menu-item mobile-menu-item--active"><span class="mobile-menu-num">04</span><span class="mobile-menu-text">Knowledge</span></a>
+      <a href="https://linkerai.io/#contact" class="mobile-menu-item"><span class="mobile-menu-num">05</span><span class="mobile-menu-text">Contact</span></a>
+    </nav>
+    <div class="mobile-menu-sub">
+      <a href="{{ '/' | relative_url }}">Articles</a>
+      <a href="{{ '/topics/' | relative_url }}">Topics</a>
+      <a href="{{ '/graph/' | relative_url }}">Graph</a>
+    </div>
+  </div>
 
   <main class="main-content">
     {{ content }}
   </main>
 
+  {%- comment -%} ═══ Footer: linkerai.io와 동일 ═══ {%- endcomment -%}
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-brand">
         <a href="https://linkerai.io" class="footer-logo">LinkerAI</a>
-        <p class="footer-desc">의료 전문가가 작성하고 Linkare가 큐레이션한 의학 지식 아카이브</p>
+        <p class="footer-desc">통증의학과 전문의 · BTC Korea Coach · AI Builder. 필요한 걸 기다리기보다 직접 만드는 사람.</p>
       </div>
-      <div class="footer-links">
-        <div class="footer-col">
-          <h4>Navigation</h4>
-          <a href="{{ '/' | relative_url }}">Knowledge</a>
-          <a href="{{ '/topics/' | relative_url }}">Topics</a>
-          <a href="{{ '/graph/' | relative_url }}">Graph</a>
-          <a href="https://linkerai.io/blog">Blog</a>
-        </div>
-        <div class="footer-col">
-          <h4>Connect</h4>
-          <a href="mailto:jin@linkerai.io">Email</a>
-          <a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a>
-        </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <a href="https://linkerai.io">Home</a>
+        <a href="https://linkerai.io/blog">Blog</a>
+        <a href="https://linkerai.io/works">Works</a>
+        <a href="{{ '/' | relative_url }}">Knowledge</a>
+        <a href="https://linkerai.io/#contact">Contact</a>
       </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <a href="mailto:feelharmony@linkerai.io">Email</a>
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      </div>
+    </div>
+    <div class="footer-info">
+      <p>주식회사 와이에이치링크 | 대표 권진열 | 사업자등록번호 442-81-04024</p>
+      <p>대구광역시 동구 반야월로 189, 7층(율암동, 현암빌딩)</p>
     </div>
     <div class="footer-bottom">
-      <p>&copy; {{ site.time | date: '%Y' }} Linkare. All rights reserved.</p>
+      <p>&copy; {{ site.time | date: '%Y' }} LinkerAI. All rights reserved.</p>
+      <a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a>
     </div>
   </footer>
+
+  <script>
+    // 모바일 메뉴 토글
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const menuClose = document.getElementById('mobile-menu-close');
+    const menu = document.getElementById('mobile-menu');
+    if (menuBtn && menu) {
+      menuBtn.addEventListener('click', () => { menu.classList.add('open'); document.body.style.overflow = 'hidden'; });
+      menuClose.addEventListener('click', () => { menu.classList.remove('open'); document.body.style.overflow = ''; });
+    }
+  </script>
 </body>
 </html>
