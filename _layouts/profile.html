@@ -37,11 +37,22 @@ layout: default
   "@context": "https://schema.org",
   "@type": "MedicalOrganization",
   "name": {{ page.hospital | jsonify }},
+  {% if page.hospital_en %}"alternateName": {{ page.hospital_en | jsonify }},{% endif %}
   {% if page.doctor %}"employee": {
     "@type": "Physician",
-    "name": {{ page.doctor | jsonify }}{% if page.specialty %},
-    "medicalSpecialty": {{ page.specialty | jsonify }}{% endif %}{% if page.sameAs %},
-    "sameAs": {{ page.sameAs | jsonify }}{% endif %}
+    "name": {{ page.doctor | jsonify }},
+    {% if page.doctor_en %}"alternateName": {{ page.doctor_en | jsonify }},{% endif %}
+    {% if page.specialty %}"medicalSpecialty": {{ page.specialty | jsonify }},{% endif %}
+    {% if page.sameAs %}"sameAs": {{ page.sameAs | jsonify }},{% endif %}
+    {% if page.website %}"worksFor": {
+      "@type": "MedicalOrganization",
+      "name": {{ page.hospital | jsonify }},
+      "url": {{ page.website | jsonify }}
+    },{% endif %}
+    "knowsAbout": [
+      {% assign articles = site.pages | where: "tenant_key", page.tenant_key | where: "layout", "article" | where: "lang", "ko" %}
+      {% for article in articles %}"{{ article.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}
+    ]
   },{% endif %}
   {% if page.website %}"url": {{ page.website | jsonify }},{% endif %}
   {% if page.telephone %}"telephone": {{ page.telephone | jsonify }},{% endif %}
@@ -50,6 +61,9 @@ layout: default
     "streetAddress": {{ page.location | jsonify }},
     "addressCountry": "KR"
   },{% endif %}
+  {% if page.hours %}"openingHours": {{ page.hours | jsonify }},{% endif %}
+  {% if page.naver_map %}"hasMap": {{ page.naver_map | jsonify }},{% endif %}
+  {% if page.google_scholar %}"sameAs": [{{ page.google_scholar | jsonify }}],{% endif %}
   "mainEntityOfPage": "{{ page.url | absolute_url }}"
 }
 </script>
