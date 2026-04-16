@@ -13,6 +13,30 @@ defaults:
       path: "content"
     values:
       layout: "article"
+  - scope:
+      path: "conditions"
+    values:
+      layout: "entity-hub"
+  - scope:
+      path: "symptoms"
+    values:
+      layout: "entity-hub"
+  - scope:
+      path: "treatments"
+    values:
+      layout: "entity-hub"
+  - scope:
+      path: "body-parts"
+    values:
+      layout: "entity-hub"
+  - scope:
+      path: "doctors"
+    values:
+      layout: "entity-hub"
+  - scope:
+      path: "hospitals"
+    values:
+      layout: "entity-hub"
 
 exclude:
   - README.md
@@ -20,3 +44,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - scripts
+  - data

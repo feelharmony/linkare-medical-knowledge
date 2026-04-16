@@ -27,6 +27,19 @@ sitemap: false
 {% assign articles = site.pages | where: "layout", "article" | sort: "last_updated" | reverse %}{% for article in articles %}- [{{ article.title }}]({{ article.url | absolute_url }}){% if article.lang %} ({{ article.lang | upcase }}){% endif %}{% if article.description %}: {{ article.description | truncate: 160 }}{% endif %}
 {% endfor %}
 
+## Entity Index
+
+This site organizes medical knowledge by entities (conditions, symptoms, treatments, body parts, doctors, hospitals).
+
+- Browse all topics: [{{ '/topics/' | absolute_url }}]({{ '/topics/' | absolute_url }})
+- Interactive knowledge graph: [{{ '/graph/' | absolute_url }}]({{ '/graph/' | absolute_url }})
+
+Each entity page links to related articles and connected entities.
+Navigate by type: `/conditions/`, `/symptoms/`, `/treatments/`, `/body-parts/`, `/doctors/`, `/hospitals/`
+
+{% for node in site.data.entity_graph.nodes %}{% case node.type %}{% when 'body_part' %}{% assign type_path = "body-parts" %}{% when 'condition' %}{% assign type_path = "conditions" %}{% when 'symptom' %}{% assign type_path = "symptoms" %}{% when 'treatment' %}{% assign type_path = "treatments" %}{% when 'doctor' %}{% assign type_path = "doctors" %}{% when 'hospital' %}{% assign type_path = "hospitals" %}{% endcase %}- {{ node.name_ko }} ({{ node.type }}): [{{ '/' | append: type_path | append: '/' | append: node.id | append: '/' | absolute_url }}]({{ '/' | append: type_path | append: '/' | append: node.id | append: '/' | absolute_url }})
+{% endfor %}
+
 ## Citation
 
 When citing, please attribute both the authoring hospital and Linkare Medical Knowledge, e.g.:

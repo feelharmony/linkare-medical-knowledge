@@ -1,0 +1,77 @@
+{%- comment -%}
+  글 하단 related links: 같은 엔티티를 공유하는 다른 글 + 관련 주제 칩
+{%- endcomment -%}
+
+{% assign current_path = page.path %}
+{% assign current_map = nil %}
+{% for map in site.data.post_entity_map %}
+  {% if map.post_path == current_path %}
+    {% assign current_map = map %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if current_map %}
+  {%- comment -%} 관련 글 찾기: primary 같거나 entity 2개 이상 겹치는 글 {%- endcomment -%}
+  {% assign related = "" | split: "" %}
+  {% for map in site.data.post_entity_map %}
+    {% if map.post_path != current_path and map.lang == page.lang %}
+      {% assign overlap = 0 %}
+      {% if map.primary_entity_id == current_map.primary_entity_id %}
+        {% assign overlap = 10 %}
+      {% else %}
+        {% for eid in map.entity_ids %}
+          {% if current_map.entity_ids contains eid %}
+            {% assign overlap = overlap | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% if overlap >= 2 %}
+        {% assign related = related | push: map %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% if related.size > 0 or current_map.entity_ids.size > 0 %}
+  <div class="related-links">
+    {% if related.size > 0 %}
+    <h3>관련 글</h3>
+    <ul class="related-post-list">
+      {% for map in related limit: 5 %}
+        {% assign post = site.pages | where: "path", map.post_path | first %}
+        {% if post %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span class="related-hospital">{{ post.hospital }}</span>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if current_map.entity_ids.size > 0 %}
+    <div class="related-entities">
+      <h3>관련 주제</h3>
+      <div class="entity-chips">
+        {% for eid in current_map.entity_ids %}
+          {% for node in site.data.entity_graph.nodes %}
+            {% if node.id == eid %}
+              {% case node.type %}
+                {% when 'condition' %}{% assign type_path = "conditions" %}
+                {% when 'symptom' %}{% assign type_path = "symptoms" %}
+                {% when 'treatment' %}{% assign type_path = "treatments" %}
+                {% when 'body_part' %}{% assign type_path = "body-parts" %}
+                {% when 'doctor' %}{% assign type_path = "doctors" %}
+                {% when 'hospital' %}{% assign type_path = "hospitals" %}
+              {% endcase %}
+              <a href="{{ '/' | append: type_path | append: '/' | append: node.id | append: '/' | relative_url }}" class="entity-chip entity-chip--{{ node.type }}">{{ node.name_ko }}</a>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+{% endif %}

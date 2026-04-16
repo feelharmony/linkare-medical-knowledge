@@ -1,0 +1,53 @@
+---
+layout: default
+title: "Topics — Linkare Medical Knowledge"
+description: "질환, 증상, 치료, 부위별 의학 지식 인덱스"
+permalink: /topics/
+robots: "noindex, follow"
+---
+
+<div class="topics-page">
+  <h1>Topics</h1>
+  <p class="topics-desc">의료 전문가가 작성한 콘텐츠를 주제별로 탐색할 수 있습니다.</p>
+
+  {% assign type_map = "condition:질환,symptom:증상,treatment:치료,body_part:부위,doctor:의사,hospital:병원" | split: "," %}
+
+  {% for type_label in type_map %}
+    {% assign parts = type_label | split: ":" %}
+    {% assign type_key = parts[0] %}
+    {% assign type_name = parts[1] %}
+
+    {% assign type_nodes = "" | split: "" %}
+    {% for node in site.data.entity_graph.nodes %}
+      {% if node.type == type_key %}
+        {% assign type_nodes = type_nodes | push: node %}
+      {% endif %}
+    {% endfor %}
+
+    {% if type_nodes.size > 0 %}
+    <section class="topic-section">
+      <h2>{{ type_name }}</h2>
+      <div class="entity-chips">
+        {% for node in type_nodes %}
+          {% case node.type %}
+            {% when 'condition' %}{% assign type_path = "conditions" %}
+            {% when 'symptom' %}{% assign type_path = "symptoms" %}
+            {% when 'treatment' %}{% assign type_path = "treatments" %}
+            {% when 'body_part' %}{% assign type_path = "body-parts" %}
+            {% when 'doctor' %}{% assign type_path = "doctors" %}
+            {% when 'hospital' %}{% assign type_path = "hospitals" %}
+          {% endcase %}
+          <a href="{{ '/' | append: type_path | append: '/' | append: node.id | append: '/' | relative_url }}" class="entity-chip entity-chip--{{ node.type }}">
+            {{ node.name_ko }}
+            <span class="chip-count">{{ node.post_count }}</span>
+          </a>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+  {% endfor %}
+
+  <div class="graph-cta">
+    <a href="{{ '/graph/' | relative_url }}" class="graph-cta-link">🔗 지식 그래프 시각화 보기</a>
+  </div>
+</div>

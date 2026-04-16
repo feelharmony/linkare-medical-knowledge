@@ -1,0 +1,347 @@
+---
+layout: null
+permalink: /graph/
+---
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Knowledge Graph — Linkare Medical Knowledge</title>
+  <meta name="robots" content="noindex, follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <style>
+    :root {
+      --primary: rgb(25, 93, 230);
+      --bg-dark: rgb(28, 28, 30);
+      --bg-light: rgb(253, 253, 253);
+      --charcoal: rgb(26, 26, 26);
+      --body: rgb(45, 45, 45);
+      --muted: rgb(142, 142, 147);
+      --paper: rgb(250, 250, 250);
+      --border-light: rgba(26, 26, 26, 0.1);
+      --border-dark: rgba(255, 255, 255, 0.1);
+      --font-display: "Pretendard Variable", -apple-system, system-ui, sans-serif;
+      --font-serif: "Newsreader", Georgia, serif;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: var(--font-display); color: var(--body); background: var(--bg-light); }
+
+    /* Header */
+    .graph-header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 50;
+      height: 80px; background: var(--bg-dark); border-bottom: 1px solid var(--border-dark);
+      display: flex; align-items: center; padding: 0 1.5rem;
+    }
+    .graph-header-inner {
+      max-width: 1152px; margin: 0 auto; width: 100%;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .graph-logo { font-size: 1.125rem; font-weight: 700; color: var(--paper); text-decoration: none; }
+    .graph-nav { display: flex; gap: 2rem; }
+    .graph-nav a { font-size: 0.875rem; color: var(--muted); text-decoration: none; }
+    .graph-nav a:hover { color: var(--paper); }
+
+    /* Content */
+    .graph-content { margin-top: 80px; padding: 1.5rem; }
+
+    .graph-title-area {
+      max-width: 1152px; margin: 0 auto 1rem;
+    }
+    .graph-title-area h1 {
+      font-family: var(--font-serif); font-size: 1.75rem; font-weight: 600; color: var(--charcoal);
+    }
+    .graph-title-area p { font-size: 0.9rem; color: var(--muted); margin-top: 0.25rem; }
+
+    /* Legend */
+    .legend {
+      max-width: 1152px; margin: 0 auto;
+      display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 0.75rem;
+    }
+    .legend-item { display: flex; align-items: center; gap: 0.35rem; font-size: 0.8rem; color: var(--muted); }
+    .legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+    /* Controls */
+    .controls {
+      max-width: 1152px; margin: 0 auto;
+      display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;
+      margin-bottom: 1rem;
+    }
+    .controls-label { font-size: 0.8rem; color: var(--muted); margin-right: 0.25rem; }
+
+    .hospital-toggle {
+      padding: 0.35rem 0.75rem; border-radius: 16px;
+      border: 1px solid var(--border-light); background: white;
+      cursor: pointer; font-size: 0.8rem; font-family: var(--font-display);
+      color: var(--body); transition: all 0.15s;
+    }
+    .hospital-toggle.active { background: var(--primary); color: white; border-color: var(--primary); }
+
+    .demo-btn {
+      padding: 0.35rem 0.75rem; border-radius: 16px;
+      border: 1px solid #10b981; background: white;
+      cursor: pointer; font-size: 0.8rem; font-family: var(--font-display);
+      color: #10b981; transition: all 0.15s; margin-left: auto;
+    }
+    .demo-btn:hover { background: #10b981; color: white; }
+    .demo-btn.running { background: #10b981; color: white; opacity: 0.7; pointer-events: none; }
+
+    /* Graph */
+    .graph-container {
+      max-width: 1152px; margin: 0 auto;
+      height: calc(100vh - 280px); min-height: 400px;
+      border: 1px solid var(--border-light); border-radius: 12px;
+      background: white;
+    }
+
+    /* Crawl path */
+    .crawl-path {
+      max-width: 1152px; margin: 0.75rem auto 0;
+      padding: 0.75rem 1rem; background: var(--paper); border-radius: 8px;
+      font-size: 0.85rem; color: var(--body); display: none;
+    }
+    .crawl-path strong { color: #10b981; }
+
+    /* Stats */
+    .graph-stats {
+      max-width: 1152px; margin: 0.75rem auto 0;
+      display: flex; gap: 1.5rem; font-size: 0.8rem; color: var(--muted);
+    }
+
+    @media (max-width: 768px) {
+      .graph-nav { display: none; }
+      .graph-container { height: 60vh; }
+      .controls { gap: 0.35rem; }
+    }
+  </style>
+</head>
+<body>
+  <header class="graph-header">
+    <div class="graph-header-inner">
+      <a href="https://linkerai.io" class="graph-logo">LinkerAI</a>
+      <nav class="graph-nav">
+        <a href="/">Knowledge</a>
+        <a href="/topics/">Topics</a>
+        <a href="/graph/" style="color: var(--paper);">Graph</a>
+        <a href="https://linkerai.io/blog">Blog</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="graph-content">
+    <div class="graph-title-area">
+      <h1>Medical Knowledge Graph</h1>
+      <p>의료 전문가가 작성한 지식의 연결 구조</p>
+    </div>
+
+    <div class="legend">
+      <div class="legend-item"><span class="legend-dot" style="background:#ef4444"></span>질환</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#f59e0b"></span>증상</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#3b82f6"></span>치료</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#22c55e"></span>부위</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#8b5cf6"></span>의사</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#ec4899"></span>병원</div>
+    </div>
+
+    <div class="controls">
+      <span class="controls-label">병원 필터:</span>
+      <div id="hospital-toggles"></div>
+      <button class="demo-btn" id="crawl-demo-btn">🤖 AI 탐색 경로 시연</button>
+    </div>
+
+    <div class="graph-container" id="graph-container"></div>
+
+    <div class="crawl-path" id="crawl-path">
+      <strong>AI 탐색 경로:</strong> <span id="crawl-path-text"></span>
+    </div>
+
+    <div class="graph-stats" id="graph-stats"></div>
+  </div>
+
+  <script>
+    // Jekyll이 빌드 시 _data/entity_graph.json을 인라인
+    const graphData = {{ site.data.entity_graph | jsonify }};
+
+    const TYPE_COLORS = {
+      condition: '#ef4444', symptom: '#f59e0b', treatment: '#3b82f6',
+      body_part: '#22c55e', doctor: '#8b5cf6', hospital: '#ec4899'
+    };
+    const TYPE_URLS = {
+      condition: '/conditions/', symptom: '/symptoms/', treatment: '/treatments/',
+      body_part: '/body-parts/', doctor: '/doctors/', hospital: '/hospitals/'
+    };
+    const HOSPITAL_NAMES = {};
+    graphData.nodes.filter(n => n.type === 'hospital').forEach(n => {
+      n.tenant_keys.forEach(tk => { HOSPITAL_NAMES[tk] = n.name_ko; });
+    });
+
+    // 활성 병원
+    let activeHospitals = new Set();
+    const allHospitals = [...new Set(graphData.nodes.flatMap(n => n.tenant_keys || []))];
+    allHospitals.forEach(h => activeHospitals.add(h));
+
+    // 토글 버튼 생성
+    const toggleContainer = document.getElementById('hospital-toggles');
+    allHospitals.forEach(h => {
+      const btn = document.createElement('button');
+      btn.className = 'hospital-toggle active';
+      btn.textContent = HOSPITAL_NAMES[h] || h;
+      btn.dataset.hospital = h;
+      btn.onclick = () => {
+        if (activeHospitals.has(h)) { activeHospitals.delete(h); btn.classList.remove('active'); }
+        else { activeHospitals.add(h); btn.classList.add('active'); }
+        updateGraph();
+      };
+      toggleContainer.appendChild(btn);
+    });
+
+    // vis-network
+    const container = document.getElementById('graph-container');
+    let network = null;
+
+    function buildVisData() {
+      const filteredEdges = graphData.edges.filter(e =>
+        e.tenant_keys.some(t => activeHospitals.has(t))
+      );
+      const connectedIds = new Set();
+      filteredEdges.forEach(e => { connectedIds.add(e.source); connectedIds.add(e.target); });
+
+      const nodes = graphData.nodes
+        .filter(n => connectedIds.has(n.id))
+        .map(n => ({
+          id: n.id,
+          label: n.name_ko,
+          color: { background: TYPE_COLORS[n.type] || '#999', border: TYPE_COLORS[n.type] || '#999', highlight: { background: TYPE_COLORS[n.type], border: '#1a1a1a' }, hover: { background: TYPE_COLORS[n.type], border: '#1a1a1a' } },
+          size: 12 + (n.post_count || 1) * 4,
+          font: { size: 13, color: '#333', face: '"Pretendard Variable", sans-serif' },
+          borderWidth: 2,
+          shadow: { enabled: true, size: 4, color: 'rgba(0,0,0,0.08)' }
+        }));
+
+      const edges = filteredEdges.map(e => ({
+        from: e.source, to: e.target,
+        width: Math.max(1, Math.min(e.weight * 1.5, 6)),
+        color: { color: '#e5e7eb', highlight: '#2563eb', hover: '#93c5fd' },
+        smooth: { type: 'continuous' }
+      }));
+
+      return { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) };
+    }
+
+    function updateGraph() {
+      const data = buildVisData();
+      const statsEl = document.getElementById('graph-stats');
+      statsEl.textContent = `${data.nodes.length} entities · ${data.edges.length} connections · ${activeHospitals.size} hospitals`;
+
+      if (network) {
+        network.setData(data);
+      } else {
+        network = new vis.Network(container, data, {
+          physics: {
+            forceAtlas2Based: { gravitationalConstant: -40, centralGravity: 0.008, springLength: 120, springConstant: 0.04 },
+            solver: 'forceAtlas2Based',
+            stabilization: { iterations: 200 },
+            maxVelocity: 30
+          },
+          interaction: { hover: true, tooltipDelay: 100, zoomView: true, dragView: true },
+          nodes: { shape: 'dot' },
+          edges: { smooth: { type: 'continuous' } }
+        });
+
+        network.on('click', (params) => {
+          if (params.nodes.length > 0) {
+            const node = graphData.nodes.find(n => n.id === params.nodes[0]);
+            if (node) window.location.href = TYPE_URLS[node.type] + node.id + '/';
+          }
+        });
+
+        network.on('hoverNode', (params) => {
+          const connected = network.getConnectedNodes(params.node);
+          const allNodes = network.body.data.nodes.get();
+          const updates = allNodes.map(n => ({
+            id: n.id,
+            opacity: (n.id === params.node || connected.includes(n.id)) ? 1.0 : 0.15
+          }));
+          network.body.data.nodes.update(updates);
+        });
+
+        network.on('blurNode', () => {
+          const allNodes = network.body.data.nodes.get();
+          network.body.data.nodes.update(allNodes.map(n => ({ id: n.id, opacity: 1.0 })));
+        });
+      }
+    }
+
+    // AI 크롤링 경로 시연
+    let crawlRunning = false;
+    document.getElementById('crawl-demo-btn').onclick = async () => {
+      if (crawlRunning) return;
+      crawlRunning = true;
+      const btn = document.getElementById('crawl-demo-btn');
+      btn.classList.add('running');
+      btn.textContent = '🤖 탐색 중...';
+
+      const pathEl = document.getElementById('crawl-path');
+      const pathText = document.getElementById('crawl-path-text');
+      pathEl.style.display = 'block';
+      pathText.textContent = '';
+
+      // condition 중 가장 연결 많은 것에서 시작
+      const startNode = graphData.nodes
+        .filter(n => n.type === 'condition')
+        .sort((a, b) => (b.post_count || 0) - (a.post_count || 0))[0];
+      if (!startNode) { crawlRunning = false; return; }
+
+      const visited = new Set([startNode.id]);
+      const path = [startNode];
+      let current = startNode;
+
+      // BFS 경로 탐색 (5노드)
+      for (let i = 0; i < 4; i++) {
+        const neighbors = graphData.edges
+          .filter(e => (e.source === current.id || e.target === current.id) && e.tenant_keys.some(t => activeHospitals.has(t)))
+          .map(e => e.source === current.id ? e.target : e.source)
+          .filter(id => !visited.has(id));
+        if (neighbors.length === 0) break;
+
+        const nextId = neighbors.sort((a, b) => {
+          const wa = graphData.edges.find(e => (e.source === current.id && e.target === a) || (e.target === current.id && e.source === a))?.weight || 0;
+          const wb = graphData.edges.find(e => (e.source === current.id && e.target === b) || (e.target === current.id && e.source === b))?.weight || 0;
+          return wb - wa;
+        })[0];
+
+        visited.add(nextId);
+        const nextNode = graphData.nodes.find(n => n.id === nextId);
+        if (nextNode) { path.push(nextNode); current = nextNode; }
+      }
+
+      // 애니메이션
+      network.unselectAll();
+      for (let i = 0; i < path.length; i++) {
+        await new Promise(r => setTimeout(r, 1200));
+        const nodeIds = path.slice(0, i + 1).map(n => n.id);
+        network.selectNodes(nodeIds);
+        network.focus(path[i].id, { scale: 1.5, animation: { duration: 800, easingFunction: 'easeInOutQuad' } });
+        pathText.textContent = path.slice(0, i + 1).map(n => n.name_ko).join(' → ');
+      }
+
+      // 완료 후 줌 아웃
+      await new Promise(r => setTimeout(r, 2000));
+      network.fit({ animation: { duration: 1000, easingFunction: 'easeInOutQuad' } });
+      network.unselectAll();
+
+      btn.classList.remove('running');
+      btn.textContent = '🤖 AI 탐색 경로 시연';
+      crawlRunning = false;
+    };
+
+    // 초기 렌더
+    updateGraph();
+  </script>
+</body>
+</html>

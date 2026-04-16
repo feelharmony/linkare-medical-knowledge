@@ -1,0 +1,136 @@
+[
+  {
+    "post_path": "content/apfree/ko/spine/cervical-disc-causes-diagnosis.md",
+    "tenant_key": "apfree",
+    "lang": "ko",
+    "primary_entity_id": "cervical-disc-herniation",
+    "entity_ids": [
+      "cervical-disc-herniation",
+      "neck-pain",
+      "arm-numbness",
+      "nerve-block",
+      "neck",
+      "arm"
+    ],
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree",
+    "extraction_version": 1,
+    "updated_at": "2026-04-16"
+  },
+  {
+    "post_path": "content/apfree/ko/spine/herniated-disc-causes-symptoms-diagnosis.md",
+    "tenant_key": "apfree",
+    "lang": "ko",
+    "primary_entity_id": "lumbar-disc-herniation",
+    "entity_ids": [
+      "lumbar-disc-herniation",
+      "sciatica",
+      "lower-back-pain",
+      "leg-numbness",
+      "nerve-block",
+      "lower-back",
+      "leg"
+    ],
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree",
+    "extraction_version": 1,
+    "updated_at": "2026-04-16"
+  },
+  {
+    "post_path": "content/thr/ko/pain/straight-neck-forward-head.md",
+    "tenant_key": "thr",
+    "lang": "ko",
+    "primary_entity_id": "straight-neck",
+    "entity_ids": [
+      "straight-neck",
+      "neck-pain",
+      "manual-therapy",
+      "posture-correction",
+      "neck",
+      "shoulder"
+    ],
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon",
+    "extraction_version": 1,
+    "updated_at": "2026-04-16"
+  },
+  {
+    "post_path": "content/thr/ko/hair/hair-loss-regeneration-injection-treatment.md",
+    "tenant_key": "thr",
+    "lang": "ko",
+    "primary_entity_id": "hair-thinning",
+    "entity_ids": [
+      "hair-thinning",
+      "prp-injection",
+      "stem-cell-therapy",
+      "scalp"
+    ],
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon",
+    "extraction_version": 1,
+    "updated_at": "2026-04-16"
+  },
+  {
+    "post_path": "content/thr/ko/longevity/nad-iv-therapy.md",
+    "tenant_key": "thr",
+    "lang": "ko",
+    "primary_entity_id": "nad-iv-therapy",
+    "entity_ids": [
+      "nad-iv-therapy"
+    ],
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon",
+    "extraction_version": 1,
+    "updated_at": "2026-04-16"
+  },
+  {
+    "post_path": "content/apfree/en/spine/herniated-disc-causes-symptoms-diagnosis.md",
+    "tenant_key": "apfree",
+    "lang": "en",
+    "primary_entity_id": "lumbar-disc-herniation",
+    "entity_ids": [
+      "lumbar-disc-herniation",
+      "sciatica",
+      "lower-back-pain",
+      "leg-numbness",
+      "nerve-block",
+      "lower-back",
+      "leg"
+    ],
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree",
+    "extraction_version": 1,
+    "updated_at": "2026-04-16"
+  },
+  {
+    "post_path": "content/thr/en/longevity/nad-iv-therapy.md",
+    "tenant_key": "thr",
+    "lang": "en",
+    "primary_entity_id": "nad-iv-therapy",
+    "entity_ids": [
+      "nad-iv-therapy"
+    ],
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon",
+    "extraction_version": 1,
+    "updated_at": "2026-04-16"
+  },
+  {
+    "post_path": "content/thr/en/pain/straight-neck-forward-head.md",
+    "tenant_key": "thr",
+    "lang": "en",
+    "primary_entity_id": "straight-neck",
+    "entity_ids": [
+      "straight-neck",
+      "neck-pain",
+      "manual-therapy",
+      "posture-correction",
+      "neck",
+      "shoulder"
+    ],
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon",
+    "extraction_version": 1,
+    "updated_at": "2026-04-16"
+  }
+]
