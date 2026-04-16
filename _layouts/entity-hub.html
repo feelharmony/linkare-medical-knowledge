@@ -175,9 +175,33 @@ layout: default
   </section>
   {% endif %}
 
+  {%- comment -%} 같은 타입 다른 엔티티 서브 네비 {%- endcomment -%}
+  <section class="entity-section entity-siblings">
+    <h2>다른 {% case entity_type %}{% when 'condition' %}질환{% when 'symptom' %}증상{% when 'treatment' %}치료{% when 'body_part' %}부위{% when 'doctor' %}의사{% when 'hospital' %}병원{% endcase %} 보기</h2>
+    <div class="entity-chips">
+      {% for node in site.data.entity_graph.nodes %}
+        {% if node.type == entity_type and node.id != entity_id %}
+          {% case node.type %}
+            {% when 'condition' %}{% assign sib_path = "conditions" %}
+            {% when 'symptom' %}{% assign sib_path = "symptoms" %}
+            {% when 'treatment' %}{% assign sib_path = "treatments" %}
+            {% when 'body_part' %}{% assign sib_path = "body-parts" %}
+            {% when 'doctor' %}{% assign sib_path = "doctors" %}
+            {% when 'hospital' %}{% assign sib_path = "hospitals" %}
+          {% endcase %}
+          <a href="{{ '/' | append: sib_path | append: '/' | append: node.id | append: '/' | relative_url }}" class="entity-chip entity-chip--{{ node.type }}">{{ node.name_ko }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
   <footer class="entity-footer">
+    <div class="entity-footer-links">
+      <a href="{{ '/topics/' | relative_url }}">← 전체 주제</a>
+      <a href="{{ '/graph/' | relative_url }}">🔗 지식 그래프</a>
+      <a href="{{ '/' | relative_url }}">← Knowledge 홈</a>
+    </div>
     <p class="entity-updated">마지막 업데이트: {{ site.time | date: "%Y-%m-%d" }}</p>
-    <p class="entity-graph-link"><a href="{{ '/graph/' | relative_url }}">🔗 지식 그래프에서 보기</a></p>
   </footer>
 </article>
 

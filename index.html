@@ -29,6 +29,46 @@ description: "의료 전문가가 작성한 질환별 의학 정보 아카이브
   </section>
   {% endif %}
 
+  {%- comment -%} 주제별 탐색 섹션 {%- endcomment -%}
+  <section class="index-topics">
+    <h2>주제별 탐색</h2>
+    <p class="index-topics-desc">질환, 증상, 치료, 부위별로 콘텐츠를 탐색할 수 있습니다.</p>
+
+    {% assign type_map = "condition:질환,symptom:증상,treatment:치료,body_part:부위" | split: "," %}
+    {% for type_label in type_map %}
+      {% assign parts = type_label | split: ":" %}
+      {% assign type_key = parts[0] %}
+      {% assign type_name = parts[1] %}
+      {% assign type_nodes = "" | split: "" %}
+      {% for node in site.data.entity_graph.nodes %}
+        {% if node.type == type_key %}
+          {% assign type_nodes = type_nodes | push: node %}
+        {% endif %}
+      {% endfor %}
+      {% if type_nodes.size > 0 %}
+      <div class="index-topic-row">
+        <span class="index-topic-label">{{ type_name }}</span>
+        <div class="entity-chips">
+          {% for node in type_nodes %}
+            {% case node.type %}
+              {% when 'condition' %}{% assign type_path = "conditions" %}
+              {% when 'symptom' %}{% assign type_path = "symptoms" %}
+              {% when 'treatment' %}{% assign type_path = "treatments" %}
+              {% when 'body_part' %}{% assign type_path = "body-parts" %}
+            {% endcase %}
+            <a href="{{ '/' | append: type_path | append: '/' | append: node.id | append: '/' | relative_url }}" class="entity-chip entity-chip--{{ node.type }}">{{ node.name_ko }}</a>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+
+    <div class="index-topics-links">
+      <a href="{{ '/topics/' | relative_url }}" class="index-topics-link">전체 주제 보기 →</a>
+      <a href="{{ '/graph/' | relative_url }}" class="index-topics-link index-topics-link--graph">🔗 지식 그래프</a>
+    </div>
+  </section>
+
   {% for profile in profiles %}
   {% assign tenant_articles = articles | where: "tenant_key", profile.tenant_key %}
   {% if tenant_articles.size > 0 %}

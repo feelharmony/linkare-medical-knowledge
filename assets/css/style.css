@@ -923,10 +923,228 @@ a:hover { text-decoration: underline; }
   vertical-align: middle;
 }
 
+/* ─── Index Topics Section ─── */
+
+.index-topics {
+  margin: 2.5rem 0 3rem;
+  padding: 2rem 0;
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.index-topics h2 {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--charcoal);
+  margin-bottom: 0.25rem;
+}
+
+.index-topics-desc {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
+.index-topic-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.index-topic-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  min-width: 3rem;
+  padding-top: 0.4rem;
+}
+
+.index-topics-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.index-topics-link {
+  font-size: 0.9rem;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.index-topics-link:hover { text-decoration: underline; }
+
+.index-topics-link--graph {
+  color: var(--muted);
+}
+
+/* ─── Graph Page (inside default layout) ─── */
+
+.graph-page {
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.graph-title-area h1 {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--charcoal);
+}
+
+.graph-subtitle {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.legend {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.graph-controls {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.graph-controls-label {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-right: 0.25rem;
+}
+
+.graph-hospital-toggle {
+  padding: 0.35rem 0.75rem;
+  border-radius: 16px;
+  border: 1px solid var(--border-light);
+  background: white;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-family: var(--font-display);
+  color: var(--body);
+  transition: all 0.15s;
+}
+
+.graph-hospital-toggle.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.graph-demo-btn {
+  padding: 0.35rem 0.75rem;
+  border-radius: 16px;
+  border: 1px solid #10b981;
+  background: white;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-family: var(--font-display);
+  color: #10b981;
+  transition: all 0.15s;
+  margin-left: auto;
+}
+
+.graph-demo-btn:hover { background: #10b981; color: white; }
+.graph-demo-btn.running { background: #10b981; color: white; opacity: 0.7; pointer-events: none; }
+
+.graph-container {
+  height: calc(100vh - 340px);
+  min-height: 400px;
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  background: white;
+}
+
+.graph-crawl-path {
+  padding: 0.75rem 1rem;
+  background: var(--paper);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: var(--body);
+  display: none;
+  margin-top: 0.75rem;
+}
+
+.graph-crawl-path strong { color: #10b981; }
+
+.graph-stats {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 0.75rem;
+}
+
+.graph-back-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  font-size: 0.875rem;
+}
+
+.graph-back-links a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.graph-back-links a:hover { text-decoration: underline; }
+
+/* ─── Entity Hub Footer Links ─── */
+
+.entity-footer-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.entity-footer-links a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.entity-footer-links a:hover { text-decoration: underline; }
+
+.entity-siblings {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-light);
+}
+
 /* ─── Responsive ─── */
 
 @media (max-width: 768px) {
   .site-nav { display: none; }
+
+  .graph-container { height: 60vh; }
+  .graph-controls { gap: 0.35rem; }
+  .index-topic-row { flex-direction: column; gap: 0.25rem; }
 
   .article-header h1,
   .profile-header h1 { font-size: 1.6rem; }
