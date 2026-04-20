@@ -41,36 +41,14 @@ layout: default
     <p class="entity-description">{{ page.description }}</p>
   </header>
 
-  {%- comment -%} 관련 글 목록 {%- endcomment -%}
-  {% assign related_posts = "" | split: "" %}
-  {% for map in site.data.post_entity_map %}
-    {% if map.entity_ids contains entity_id or map.primary_entity_id == entity_id or map.doctor_id == entity_id or map.hospital_id == entity_id %}
-      {% assign related_posts = related_posts | push: map %}
-    {% endif %}
-  {% endfor %}
-
-  {% if related_posts.size > 0 %}
-  <section class="entity-section">
-    <h2>관련 글</h2>
-    <ul class="entity-post-list">
-      {% for map in related_posts %}
-        {% assign post = site.pages | where: "path", map.post_path | first %}
-        {% if post %}
-        <li class="entity-post-item">
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          <div class="entity-post-meta">
-            <span class="post-hospital">{{ post.hospital }}</span>
-            <span class="post-author">{{ post.author }}</span>
-            {% if post.last_updated %}
-            <time class="post-date">{{ post.last_updated }}</time>
-            {% endif %}
-            {% if map.lang == "en" %}<span class="post-lang">EN</span>{% endif %}
-          </div>
-        </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </section>
+  {%- comment -%}
+    v2.5: MD body 섹션 렌더 (thick entity 본문 + Citations + Changelog).
+    "관련 글" 섹션은 제거 — body 내 citation [^N] 각주가 그 역할 대체.
+  {%- endcomment -%}
+  {% if content != blank %}
+  <div class="entity-body">
+    {{ content }}
+  </div>
   {% endif %}
 
   {%- comment -%} 관련 엔티티 (co-occurrence 기반) {%- endcomment -%}
@@ -201,7 +179,11 @@ layout: default
       <a href="{{ '/graph/' | relative_url }}">🔗 지식 그래프</a>
       <a href="{{ '/' | relative_url }}">← Knowledge 홈</a>
     </div>
-    <p class="entity-updated">마지막 업데이트: {{ site.time | date: "%Y-%m-%d" }}</p>
+    <p class="entity-updated">
+      마지막 업데이트: {{ page.last_reviewed | default: site.time | date: "%Y-%m-%d" }}
+      {% if page.source_count %}<span class="entity-source-count"> · 참고 글 {{ page.source_count }}건</span>{% endif %}
+      {% if page.version %}<span class="entity-version"> · v{{ page.version }}</span>{% endif %}
+    </p>
   </footer>
 </article>
 
