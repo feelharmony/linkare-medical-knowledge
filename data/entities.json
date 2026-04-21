@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "lumbar-disc-herniation",
+    "type": "condition",
+    "name_ko": "허리디스크",
+    "name_en": "",
+    "aliases": [
+      "디스크 탈출",
+      "추간판 탈출증"
+    ],
+    "description_ko": "허리 부위의 추간판이 탈출하여 신경을 압박하는 상태",
+    "status": "approved",
+    "last_reviewed": "2026-04-21",
+    "source_count": 2,
+    "version": 2
+  }
+]
