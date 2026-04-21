@@ -38,21 +38,21 @@
   },
   {
     "post_path": "content/thr/ko/pain/straight-neck-forward-head.md",
-    "tenant_key": "thr",
-    "lang": "ko",
-    "primary_entity_id": "straight-neck",
+    "primary_entity_id": "neck-pain",
     "entity_ids": [
       "straight-neck",
+      "forward-head-posture",
       "neck-pain",
-      "manual-therapy",
+      "shoulder-pain",
+      "tension-headache",
+      "muscle-relaxation-therapy",
+      "physical-therapy",
+      "exercise-therapy",
       "posture-correction",
-      "neck",
-      "shoulder"
+      "chiropractic",
+      "treatment-for-lateral-epicondylitis"
     ],
-    "doctor_id": "dr-park-sungjin",
-    "hospital_id": "hospital-thewells-nowon",
-    "extraction_version": 1,
-    "updated_at": "2026-04-16"
+    "updated_at": "2026-04-21"
   },
   {
     "post_path": "content/thr/ko/hair/hair-loss-regeneration-injection-treatment.md",
