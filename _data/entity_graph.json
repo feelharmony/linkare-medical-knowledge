@@ -1,4 +1,15 @@
 {
-  "nodes": [],
+  "nodes": [
+    {
+      "id": "lumbar-disc-herniation",
+      "type": "condition",
+      "name_ko": "허리디스크",
+      "name_en": "",
+      "post_count": 2,
+      "tenant_keys": [
+        "apfree"
+      ]
+    }
+  ],
   "edges": []
 }
