@@ -98,12 +98,12 @@
       "neck-pain",
       "shoulder-stiffness",
       "straight-neck",
+      "straight-neck",
       "muscle-relaxants",
       "anti-inflammatory-analgesics",
       "physical-therapy",
       "exercise-therapy",
-      "manual-therapy",
-      "treatment-for-lateral-epicondylitis"
+      "imaging-tests"
     ],
     "updated_at": "2026-04-23"
   },
@@ -131,6 +131,21 @@
       "treatment-exercise",
       "conservative-treatment",
       "chiropractic",
+      "injection-therapy"
+    ],
+    "updated_at": "2026-04-23"
+  },
+  {
+    "post_path": "db:b62253c1-115c-437a-b398-652b2468dc34",
+    "primary_entity_id": "neck-pain",
+    "entity_ids": [
+      "neck-pain",
+      "shoulder-stiffness",
+      "straight-neck",
+      "forward-head-posture",
+      "muscle-relaxants",
+      "physical-therapy",
+      "exercise-therapy",
       "injection-therapy"
     ],
     "updated_at": "2026-04-23"
