@@ -57,19 +57,19 @@
       "tenant_keys": []
     },
     {
-      "id": "straight-neck",
-      "type": "condition",
-      "name_ko": "일자목",
-      "name_en": "",
-      "post_count": 2,
-      "tenant_keys": []
-    },
-    {
       "id": "anti-inflammatory-analgesics",
       "type": "treatment",
       "name_ko": "소염진통제",
       "name_en": "",
       "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "straight-neck",
+      "type": "condition",
+      "name_ko": "일자목",
+      "name_en": "",
+      "post_count": 3,
       "tenant_keys": []
     },
     {
@@ -125,23 +125,7 @@
       "type": "symptom",
       "name_ko": "어깨 통증",
       "name_en": "shoulder pain",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
-      "id": "tension-headache",
-      "type": "symptom",
-      "name_ko": "두통",
-      "name_en": "headache",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
-      "id": "hair-loss",
-      "type": "symptom",
-      "name_ko": "탈모",
-      "name_en": "",
-      "post_count": 1,
+      "post_count": 2,
       "tenant_keys": []
     },
     {
@@ -165,6 +149,14 @@
       "type": "treatment",
       "name_ko": "NAD+ 수액 치료",
       "name_en": "NAD+ infusion therapy",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "hair-loss",
+      "type": "symptom",
+      "name_ko": "탈모",
+      "name_en": "",
       "post_count": 1,
       "tenant_keys": []
     },
@@ -205,7 +197,7 @@
       "type": "treatment",
       "name_ko": "물리치료",
       "name_en": "physical therapy",
-      "post_count": 3,
+      "post_count": 4,
       "tenant_keys": []
     },
     {
@@ -229,7 +221,7 @@
       "type": "symptom",
       "name_ko": "목 통증",
       "name_en": "neck pain.",
-      "post_count": 3,
+      "post_count": 4,
       "tenant_keys": []
     },
     {
@@ -293,7 +285,7 @@
       "type": "treatment",
       "name_ko": "외측상과염 치료",
       "name_en": "",
-      "post_count": 3,
+      "post_count": 2,
       "tenant_keys": []
     }
   ],
@@ -487,19 +479,13 @@
     {
       "source": "neck-pain",
       "target": "straight-neck",
-      "weight": 2,
+      "weight": 3,
       "tenant_keys": []
     },
     {
       "source": "shoulder-pain",
       "target": "straight-neck",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "straight-neck",
-      "target": "tension-headache",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
@@ -511,7 +497,7 @@
     {
       "source": "physical-therapy",
       "target": "straight-neck",
-      "weight": 2,
+      "weight": 3,
       "tenant_keys": []
     },
     {
@@ -527,27 +513,9 @@
       "tenant_keys": []
     },
     {
-      "source": "chiropractic",
-      "target": "straight-neck",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "straight-neck",
-      "target": "treatment-for-lateral-epicondylitis",
-      "weight": 2,
-      "tenant_keys": []
-    },
-    {
       "source": "neck-pain",
       "target": "shoulder-pain",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "neck-pain",
-      "target": "tension-headache",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
@@ -559,7 +527,7 @@
     {
       "source": "neck-pain",
       "target": "physical-therapy",
-      "weight": 2,
+      "weight": 3,
       "tenant_keys": []
     },
     {
@@ -575,36 +543,18 @@
       "tenant_keys": []
     },
     {
-      "source": "chiropractic",
-      "target": "neck-pain",
+      "source": "muscle-relaxation-therapy",
+      "target": "shoulder-pain",
       "weight": 1,
       "tenant_keys": []
     },
     {
-      "source": "neck-pain",
-      "target": "treatment-for-lateral-epicondylitis",
+      "source": "physical-therapy",
+      "target": "shoulder-pain",
       "weight": 2,
       "tenant_keys": []
     },
     {
-      "source": "shoulder-pain",
-      "target": "tension-headache",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "muscle-relaxation-therapy",
-      "target": "shoulder-pain",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "physical-therapy",
-      "target": "shoulder-pain",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
       "source": "exercise-therapy",
       "target": "shoulder-pain",
       "weight": 1,
@@ -613,54 +563,6 @@
     {
       "source": "posture-correction",
       "target": "shoulder-pain",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "chiropractic",
-      "target": "shoulder-pain",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "shoulder-pain",
-      "target": "treatment-for-lateral-epicondylitis",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "muscle-relaxation-therapy",
-      "target": "tension-headache",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "physical-therapy",
-      "target": "tension-headache",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "exercise-therapy",
-      "target": "tension-headache",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "posture-correction",
-      "target": "tension-headache",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "chiropractic",
-      "target": "tension-headache",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "tension-headache",
-      "target": "treatment-for-lateral-epicondylitis",
       "weight": 1,
       "tenant_keys": []
     },
@@ -683,18 +585,6 @@
       "tenant_keys": []
     },
     {
-      "source": "chiropractic",
-      "target": "muscle-relaxation-therapy",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "muscle-relaxation-therapy",
-      "target": "treatment-for-lateral-epicondylitis",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
       "source": "exercise-therapy",
       "target": "physical-therapy",
       "weight": 2,
@@ -707,50 +597,8 @@
       "tenant_keys": []
     },
     {
-      "source": "chiropractic",
-      "target": "physical-therapy",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "physical-therapy",
-      "target": "treatment-for-lateral-epicondylitis",
-      "weight": 2,
-      "tenant_keys": []
-    },
-    {
       "source": "exercise-therapy",
       "target": "posture-correction",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "chiropractic",
-      "target": "exercise-therapy",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "exercise-therapy",
-      "target": "treatment-for-lateral-epicondylitis",
-      "weight": 2,
-      "tenant_keys": []
-    },
-    {
-      "source": "chiropractic",
-      "target": "posture-correction",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "posture-correction",
-      "target": "treatment-for-lateral-epicondylitis",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "chiropractic",
-      "target": "treatment-for-lateral-epicondylitis",
       "weight": 1,
       "tenant_keys": []
     },
@@ -971,6 +819,12 @@
       "tenant_keys": []
     },
     {
+      "source": "neck-pain",
+      "target": "treatment-for-lateral-epicondylitis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
       "source": "muscle-relaxants",
       "target": "straight-neck",
       "weight": 1,
@@ -985,6 +839,12 @@
     {
       "source": "manual-therapy",
       "target": "straight-neck",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "straight-neck",
+      "target": "treatment-for-lateral-epicondylitis",
       "weight": 1,
       "tenant_keys": []
     },
@@ -1043,8 +903,20 @@
       "tenant_keys": []
     },
     {
+      "source": "physical-therapy",
+      "target": "treatment-for-lateral-epicondylitis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
       "source": "exercise-therapy",
       "target": "manual-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "treatment-for-lateral-epicondylitis",
       "weight": 1,
       "tenant_keys": []
     },
@@ -1087,6 +959,30 @@
     {
       "source": "elbow",
       "target": "treatment-for-lateral-epicondylitis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "chiropractic",
+      "target": "straight-neck",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "chiropractic",
+      "target": "neck-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "chiropractic",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "chiropractic",
+      "target": "physical-therapy",
       "weight": 1,
       "tenant_keys": []
     }
