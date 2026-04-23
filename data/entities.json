@@ -25,7 +25,7 @@
     "description_ko": "근육의 긴장을 완화하는 약물",
     "status": "approved",
     "last_reviewed": "2026-04-23",
-    "source_count": 1,
+    "source_count": 2,
     "version": 2
   },
   {
@@ -96,7 +96,7 @@
     "description_ko": "손을 이용한 치료 방법",
     "status": "approved",
     "last_reviewed": "2026-04-23",
-    "source_count": 3,
+    "source_count": 2,
     "version": 3
   },
   {
@@ -129,7 +129,7 @@
     "description_ko": "목의 C자형 곡선이 사라진 상태",
     "status": "approved",
     "last_reviewed": "2026-04-23",
-    "source_count": 3,
+    "source_count": 4,
     "version": 5
   },
   {
@@ -200,7 +200,7 @@
     "description_ko": "신체 기능 개선을 위한 운동 기반 치료",
     "status": "approved",
     "last_reviewed": "2026-04-23",
-    "source_count": 2,
+    "source_count": 3,
     "version": 3
   },
   {
@@ -229,20 +229,6 @@
     "status": "approved",
     "last_reviewed": "2026-04-23",
     "source_count": 2,
-    "version": 2
-  },
-  {
-    "id": "tension-headache",
-    "type": "symptom",
-    "name_ko": "두통",
-    "name_en": "headache",
-    "aliases": [
-      "머리 아픔"
-    ],
-    "description_ko": "머리에서 느껴지는 통증",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 0,
     "version": 2
   },
   {
@@ -364,20 +350,6 @@
     "version": 3
   },
   {
-    "id": "physical-therapy",
-    "type": "treatment",
-    "name_ko": "물리치료",
-    "name_en": "physical therapy",
-    "aliases": [
-      "재활치료"
-    ],
-    "description_ko": "신체 기능 회복을 위한 치료 방법",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 4,
-    "version": 4
-  },
-  {
     "id": "chiropractic",
     "type": "treatment",
     "name_ko": "도수치료",
@@ -393,6 +365,34 @@
     "version": 3
   },
   {
+    "id": "tension-headache",
+    "type": "symptom",
+    "name_ko": "두통",
+    "name_en": "headache",
+    "aliases": [
+      "머리 아픔"
+    ],
+    "description_ko": "머리에서 느껴지는 통증",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 0,
+    "version": 2
+  },
+  {
+    "id": "physical-therapy",
+    "type": "treatment",
+    "name_ko": "물리치료",
+    "name_en": "physical therapy",
+    "aliases": [
+      "재활치료"
+    ],
+    "description_ko": "신체 기능 회복을 위한 치료 방법",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 5,
+    "version": 4
+  },
+  {
     "id": "elbow-pain",
     "type": "symptom",
     "name_ko": "팔꿈치 통증",
@@ -405,21 +405,6 @@
     "last_reviewed": "2026-04-23",
     "source_count": 1,
     "version": 2
-  },
-  {
-    "id": "neck-pain",
-    "type": "symptom",
-    "name_ko": "목 통증",
-    "name_en": "neck pain.",
-    "aliases": [
-      "목이 뻐근한 느낌",
-      "목이 뻣뻣한 느낌"
-    ],
-    "description_ko": "목 부위에서 느껴지는 통증",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 4,
-    "version": 4
   },
   {
     "id": "cervical-disc-herniation",
@@ -464,6 +449,21 @@
     "last_reviewed": "2026-04-23",
     "source_count": 1,
     "version": 2
+  },
+  {
+    "id": "neck-pain",
+    "type": "symptom",
+    "name_ko": "목 통증",
+    "name_en": "neck pain.",
+    "aliases": [
+      "목이 뻐근한 느낌",
+      "목이 뻣뻣한 느낌"
+    ],
+    "description_ko": "목 부위에서 느껴지는 통증",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 5,
+    "version": 5
   },
   {
     "id": "chronic-fatigue",
@@ -536,7 +536,7 @@
     "description_ko": "외측상과염을 치료하기 위한 다양한 방법",
     "status": "approved",
     "last_reviewed": "2026-04-23",
-    "source_count": 2,
+    "source_count": 1,
     "version": 2
   }
 ]
