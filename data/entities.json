@@ -1,5 +1,77 @@
 [
   {
+    "id": "hair-loss",
+    "type": "symptom",
+    "name_ko": "탈모",
+    "name_en": "",
+    "aliases": [
+      "머리 빠짐",
+      "모발 감소"
+    ],
+    "description_ko": "모발이 빠지거나 줄어드는 증상",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "muscle-relaxants",
+    "type": "treatment",
+    "name_ko": "근육 이완제",
+    "name_en": "",
+    "aliases": [
+      "근육 이완 약물"
+    ],
+    "description_ko": "근육의 긴장을 완화하는 약물",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "exosome-therapy",
+    "type": "treatment",
+    "name_ko": "엑소좀 치료",
+    "name_en": "",
+    "aliases": [
+      "엑소좀 주사"
+    ],
+    "description_ko": "세포가 분비하는 작은 소포체를 이용한 치료법",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "neck-pain",
+    "type": "symptom",
+    "name_ko": "목 통증",
+    "name_en": "neck pain.",
+    "aliases": [
+      "목이 뻐근한 느낌",
+      "목이 뻣뻣한 느낌"
+    ],
+    "description_ko": "목 부위에서 느껴지는 통증",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 3,
+    "version": 2
+  },
+  {
+    "id": "muscle-relaxation-therapy",
+    "type": "treatment",
+    "name_ko": "근육 이완 치료",
+    "name_en": "",
+    "aliases": [
+      "근육이완제 치료"
+    ],
+    "description_ko": "과도하게 수축된 근육의 긴장을 완화하는 치료",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
     "id": "lumbar-disc-herniation",
     "type": "condition",
     "name_ko": "허리디스크",
@@ -10,8 +82,282 @@
     ],
     "description_ko": "허리 부위의 추간판이 탈출하여 신경을 압박하는 상태",
     "status": "approved",
-    "last_reviewed": "2026-04-21",
+    "last_reviewed": "2026-04-23",
     "source_count": 2,
+    "version": 3
+  },
+  {
+    "id": "manual-therapy",
+    "type": "treatment",
+    "name_ko": "수기치료",
+    "name_en": "manual therapy",
+    "aliases": [
+      "손 치료"
+    ],
+    "description_ko": "손을 이용한 치료 방법",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 2,
+    "version": 2
+  },
+  {
+    "id": "aging",
+    "type": "condition",
+    "name_ko": "노화",
+    "name_en": "aging",
+    "aliases": [
+      "노화 관련 증상",
+      "노화 현상"
+    ],
+    "description_ko": "시간의 경과에 따라 신체 기능이 저하되는 과정.",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "rehabilitation-therapy",
+    "type": "treatment",
+    "name_ko": "재활 치료",
+    "name_en": "",
+    "aliases": [
+      "재활 요법"
+    ],
+    "description_ko": "수술 후 통증 감소와 기능 개선을 위한 치료법",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "nad-infusion-therapy",
+    "type": "treatment",
+    "name_ko": "NAD+ 수액 치료",
+    "name_en": "NAD+ infusion therapy",
+    "aliases": [
+      "NAD+ 주사",
+      "NAD+ 보충 치료"
+    ],
+    "description_ko": "NAD+를 정맥 주사로 공급하는 치료법으로, 노화 방지와 건강 증진을 목표로 함.",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "chronic-fatigue",
+    "type": "symptom",
+    "name_ko": "만성 피로",
+    "name_en": "chronic fatigue",
+    "aliases": [
+      "지속적인 피로",
+      "만성 피로 증후군"
+    ],
+    "description_ko": "오랜 기간 동안 지속되는 피로감",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 2,
+    "version": 2
+  },
+  {
+    "id": "age-related-symptoms",
+    "type": "symptom",
+    "name_ko": "노화 관련 증상",
+    "name_en": "age-related symptoms",
+    "aliases": [
+      "노화 증상",
+      "노화로 인한 증상"
+    ],
+    "description_ko": "노화로 인해 나타나는 다양한 신체적 변화와 증상",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "straight-neck",
+    "type": "condition",
+    "name_ko": "일자목",
+    "name_en": "",
+    "aliases": [
+      "일자형 경추",
+      "일자형 목"
+    ],
+    "description_ko": "목의 C자형 곡선이 사라진 상태",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 2,
+    "version": 2
+  },
+  {
+    "id": "anti-inflammatory-analgesics",
+    "type": "treatment",
+    "name_ko": "소염진통제",
+    "name_en": "",
+    "aliases": [
+      "진통제",
+      "항염제"
+    ],
+    "description_ko": "통증과 염증을 조절하는 약물",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "physical-therapy",
+    "type": "treatment",
+    "name_ko": "물리치료",
+    "name_en": "physical therapy",
+    "aliases": [
+      "재활치료"
+    ],
+    "description_ko": "신체 기능 회복을 위한 치료 방법",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 2,
+    "version": 2
+  },
+  {
+    "id": "exercise-therapy",
+    "type": "treatment",
+    "name_ko": "운동 치료",
+    "name_en": "",
+    "aliases": [
+      "운동 요법"
+    ],
+    "description_ko": "신체 기능 개선을 위한 운동 기반 치료",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 2,
+    "version": 2
+  },
+  {
+    "id": "regenerative-injection-treatment",
+    "type": "treatment",
+    "name_ko": "재생주사치료",
+    "name_en": "",
+    "aliases": [
+      "재생 주사",
+      "모발 재생 주사"
+    ],
+    "description_ko": "모발 성장을 돕기 위해 재생 인자를 주입하는 치료법",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "prp-injection",
+    "type": "treatment",
+    "name_ko": "PRP 주사",
+    "name_en": "",
+    "aliases": [
+      "혈소판 풍부 혈장 주사"
+    ],
+    "description_ko": "환자 본인의 혈액에서 추출한 혈소판을 주입하는 치료법",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "adipose-derived-stem-cell-injection",
+    "type": "treatment",
+    "name_ko": "자가조직 줄기세포 주사",
+    "name_en": "",
+    "aliases": [
+      "지방 유래 줄기세포 주사"
+    ],
+    "description_ko": "지방에서 추출한 줄기세포를 주입하는 치료법",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "posture-correction",
+    "type": "treatment",
+    "name_ko": "자세 교정",
+    "name_en": "posture correction",
+    "aliases": [
+      "자세 수정"
+    ],
+    "description_ko": "올바른 자세를 유지하기 위한 치료",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "androgenetic-alopecia",
+    "type": "condition",
+    "name_ko": "남성형 탈모",
+    "name_en": "",
+    "aliases": [
+      "안드로겐 탈모"
+    ],
+    "description_ko": "호르몬의 영향을 받아 발생하는 탈모",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "alopecia-areata",
+    "type": "condition",
+    "name_ko": "원형 탈모",
+    "name_en": "",
+    "aliases": [
+      "원형 탈모증"
+    ],
+    "description_ko": "모발이 원형으로 빠지는 탈모",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "shoulder-pain",
+    "type": "symptom",
+    "name_ko": "어깨 통증",
+    "name_en": "shoulder pain",
+    "aliases": [
+      "어깨 아픔"
+    ],
+    "description_ko": "어깨 부위에서 느껴지는 통증",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "tension-headache",
+    "type": "symptom",
+    "name_ko": "두통",
+    "name_en": "headache",
+    "aliases": [
+      "머리 아픔"
+    ],
+    "description_ko": "머리에서 느껴지는 통증",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "chiropractic",
+    "type": "treatment",
+    "name_ko": "도수치료",
+    "name_en": "manual therapy",
+    "aliases": [
+      "수기 치료",
+      "교정 치료"
+    ],
+    "description_ko": "손으로 신체를 조정하는 치료",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
     "version": 2
   }
 ]
