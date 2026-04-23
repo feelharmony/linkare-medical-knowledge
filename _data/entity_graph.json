@@ -1,6 +1,46 @@
 {
   "nodes": [
     {
+      "id": "hair-loss",
+      "type": "symptom",
+      "name_ko": "탈모",
+      "name_en": "",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "muscle-relaxants",
+      "type": "treatment",
+      "name_ko": "근육 이완제",
+      "name_en": "",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "exosome-therapy",
+      "type": "treatment",
+      "name_ko": "엑소좀 치료",
+      "name_en": "",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "neck-pain",
+      "type": "symptom",
+      "name_ko": "목 통증",
+      "name_en": "neck pain.",
+      "post_count": 3,
+      "tenant_keys": []
+    },
+    {
+      "id": "muscle-relaxation-therapy",
+      "type": "treatment",
+      "name_ko": "근육 이완 치료",
+      "name_en": "",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
       "id": "lumbar-disc-herniation",
       "type": "condition",
       "name_ko": "허리디스크",
@@ -9,7 +49,628 @@
       "tenant_keys": [
         "apfree"
       ]
+    },
+    {
+      "id": "manual-therapy",
+      "type": "treatment",
+      "name_ko": "수기치료",
+      "name_en": "manual therapy",
+      "post_count": 2,
+      "tenant_keys": []
+    },
+    {
+      "id": "aging",
+      "type": "condition",
+      "name_ko": "노화",
+      "name_en": "aging",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "rehabilitation-therapy",
+      "type": "treatment",
+      "name_ko": "재활 치료",
+      "name_en": "",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "nad-infusion-therapy",
+      "type": "treatment",
+      "name_ko": "NAD+ 수액 치료",
+      "name_en": "NAD+ infusion therapy",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "chronic-fatigue",
+      "type": "symptom",
+      "name_ko": "만성 피로",
+      "name_en": "chronic fatigue",
+      "post_count": 2,
+      "tenant_keys": []
+    },
+    {
+      "id": "age-related-symptoms",
+      "type": "symptom",
+      "name_ko": "노화 관련 증상",
+      "name_en": "age-related symptoms",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "straight-neck",
+      "type": "condition",
+      "name_ko": "일자목",
+      "name_en": "",
+      "post_count": 2,
+      "tenant_keys": []
+    },
+    {
+      "id": "anti-inflammatory-analgesics",
+      "type": "treatment",
+      "name_ko": "소염진통제",
+      "name_en": "",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "physical-therapy",
+      "type": "treatment",
+      "name_ko": "물리치료",
+      "name_en": "physical therapy",
+      "post_count": 2,
+      "tenant_keys": []
+    },
+    {
+      "id": "exercise-therapy",
+      "type": "treatment",
+      "name_ko": "운동 치료",
+      "name_en": "",
+      "post_count": 2,
+      "tenant_keys": []
+    },
+    {
+      "id": "regenerative-injection-treatment",
+      "type": "treatment",
+      "name_ko": "재생주사치료",
+      "name_en": "",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "prp-injection",
+      "type": "treatment",
+      "name_ko": "PRP 주사",
+      "name_en": "",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "adipose-derived-stem-cell-injection",
+      "type": "treatment",
+      "name_ko": "자가조직 줄기세포 주사",
+      "name_en": "",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "posture-correction",
+      "type": "treatment",
+      "name_ko": "자세 교정",
+      "name_en": "posture correction",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "androgenetic-alopecia",
+      "type": "condition",
+      "name_ko": "남성형 탈모",
+      "name_en": "",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "alopecia-areata",
+      "type": "condition",
+      "name_ko": "원형 탈모",
+      "name_en": "",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "shoulder-pain",
+      "type": "symptom",
+      "name_ko": "어깨 통증",
+      "name_en": "shoulder pain",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "tension-headache",
+      "type": "symptom",
+      "name_ko": "두통",
+      "name_en": "headache",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "chiropractic",
+      "type": "treatment",
+      "name_ko": "도수치료",
+      "name_en": "manual therapy",
+      "post_count": 1,
+      "tenant_keys": []
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "source": "manual-therapy",
+      "target": "neck-pain",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "neck-pain",
+      "target": "rehabilitation-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "manual-therapy",
+      "target": "rehabilitation-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "neck-pain",
+      "target": "straight-neck",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "shoulder-pain",
+      "target": "straight-neck",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "straight-neck",
+      "target": "tension-headache",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "muscle-relaxation-therapy",
+      "target": "straight-neck",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "physical-therapy",
+      "target": "straight-neck",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "straight-neck",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "posture-correction",
+      "target": "straight-neck",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "chiropractic",
+      "target": "straight-neck",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "neck-pain",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "neck-pain",
+      "target": "tension-headache",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "muscle-relaxation-therapy",
+      "target": "neck-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "neck-pain",
+      "target": "physical-therapy",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "neck-pain",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "neck-pain",
+      "target": "posture-correction",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "chiropractic",
+      "target": "neck-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "shoulder-pain",
+      "target": "tension-headache",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "muscle-relaxation-therapy",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "physical-therapy",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "posture-correction",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "chiropractic",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "muscle-relaxation-therapy",
+      "target": "tension-headache",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "physical-therapy",
+      "target": "tension-headache",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "tension-headache",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "posture-correction",
+      "target": "tension-headache",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "chiropractic",
+      "target": "tension-headache",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "muscle-relaxation-therapy",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "muscle-relaxation-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "muscle-relaxation-therapy",
+      "target": "posture-correction",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "chiropractic",
+      "target": "muscle-relaxation-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "physical-therapy",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "physical-therapy",
+      "target": "posture-correction",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "chiropractic",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "posture-correction",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "chiropractic",
+      "target": "exercise-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "chiropractic",
+      "target": "posture-correction",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hair-loss",
+      "target": "regenerative-injection-treatment",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hair-loss",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "adipose-derived-stem-cell-injection",
+      "target": "hair-loss",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "exosome-therapy",
+      "target": "hair-loss",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "hair-loss",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "hair-loss",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "prp-injection",
+      "target": "regenerative-injection-treatment",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "adipose-derived-stem-cell-injection",
+      "target": "regenerative-injection-treatment",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "exosome-therapy",
+      "target": "regenerative-injection-treatment",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "regenerative-injection-treatment",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "regenerative-injection-treatment",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "adipose-derived-stem-cell-injection",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "exosome-therapy",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "adipose-derived-stem-cell-injection",
+      "target": "exosome-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "adipose-derived-stem-cell-injection",
+      "target": "androgenetic-alopecia",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "adipose-derived-stem-cell-injection",
+      "target": "alopecia-areata",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "exosome-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "exosome-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "androgenetic-alopecia",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "aging",
+      "target": "nad-infusion-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "chronic-fatigue",
+      "target": "nad-infusion-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "aging",
+      "target": "chronic-fatigue",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "age-related-symptoms",
+      "target": "chronic-fatigue",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "muscle-relaxants",
+      "target": "neck-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "anti-inflammatory-analgesics",
+      "target": "neck-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "muscle-relaxants",
+      "target": "straight-neck",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "anti-inflammatory-analgesics",
+      "target": "straight-neck",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "manual-therapy",
+      "target": "straight-neck",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "anti-inflammatory-analgesics",
+      "target": "muscle-relaxants",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "muscle-relaxants",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "muscle-relaxants",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "manual-therapy",
+      "target": "muscle-relaxants",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "anti-inflammatory-analgesics",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "anti-inflammatory-analgesics",
+      "target": "exercise-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "anti-inflammatory-analgesics",
+      "target": "manual-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "manual-therapy",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "manual-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    }
+  ]
 }
