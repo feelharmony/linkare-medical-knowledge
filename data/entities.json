@@ -86,20 +86,6 @@
     "version": 3
   },
   {
-    "id": "manual-therapy",
-    "type": "treatment",
-    "name_ko": "수기치료",
-    "name_en": "manual therapy",
-    "aliases": [
-      "손 치료"
-    ],
-    "description_ko": "손을 이용한 치료 방법",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 2,
-    "version": 3
-  },
-  {
     "id": "anti-inflammatory-analgesics",
     "type": "treatment",
     "name_ko": "소염진통제",
@@ -190,20 +176,6 @@
     "version": 2
   },
   {
-    "id": "exercise-therapy",
-    "type": "treatment",
-    "name_ko": "운동 치료",
-    "name_en": "",
-    "aliases": [
-      "운동 요법"
-    ],
-    "description_ko": "신체 기능 개선을 위한 운동 기반 치료",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 3,
-    "version": 3
-  },
-  {
     "id": "alopecia-areata",
     "type": "condition",
     "name_ko": "원형 탈모",
@@ -228,8 +200,8 @@
     "description_ko": "어깨 부위에서 느껴지는 통증",
     "status": "approved",
     "last_reviewed": "2026-04-23",
-    "source_count": 2,
-    "version": 2
+    "source_count": 3,
+    "version": 3
   },
   {
     "id": "aging",
@@ -350,6 +322,20 @@
     "version": 3
   },
   {
+    "id": "physical-therapy",
+    "type": "treatment",
+    "name_ko": "물리치료",
+    "name_en": "physical therapy",
+    "aliases": [
+      "재활치료"
+    ],
+    "description_ko": "신체 기능 회복을 위한 치료 방법",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 5,
+    "version": 4
+  },
+  {
     "id": "chiropractic",
     "type": "treatment",
     "name_ko": "도수치료",
@@ -377,20 +363,6 @@
     "last_reviewed": "2026-04-23",
     "source_count": 0,
     "version": 2
-  },
-  {
-    "id": "physical-therapy",
-    "type": "treatment",
-    "name_ko": "물리치료",
-    "name_en": "physical therapy",
-    "aliases": [
-      "재활치료"
-    ],
-    "description_ko": "신체 기능 회복을 위한 치료 방법",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 5,
-    "version": 4
   },
   {
     "id": "elbow-pain",
@@ -522,6 +494,34 @@
     "last_reviewed": "2026-04-23",
     "source_count": 1,
     "version": 2
+  },
+  {
+    "id": "manual-therapy",
+    "type": "treatment",
+    "name_ko": "수기치료",
+    "name_en": "manual therapy",
+    "aliases": [
+      "손 치료"
+    ],
+    "description_ko": "손을 이용한 치료 방법",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 2,
+    "version": 3
+  },
+  {
+    "id": "exercise-therapy",
+    "type": "treatment",
+    "name_ko": "운동 치료",
+    "name_en": "",
+    "aliases": [
+      "운동 요법"
+    ],
+    "description_ko": "신체 기능 개선을 위한 운동 기반 치료",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 3,
+    "version": 3
   },
   {
     "id": "treatment-for-lateral-epicondylitis",
