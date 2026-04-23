@@ -31,7 +31,6 @@
     "primary_entity_id": "neck-pain",
     "entity_ids": [
       "straight-neck",
-      "forward-head-posture",
       "neck-pain",
       "shoulder-pain",
       "tension-headache",
@@ -100,7 +99,6 @@
       "neck-pain",
       "shoulder-stiffness",
       "straight-neck",
-      "forward-head-posture",
       "muscle-relaxants",
       "anti-inflammatory-analgesics",
       "physical-therapy",
