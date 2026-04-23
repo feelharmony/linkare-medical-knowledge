@@ -100,21 +100,6 @@
     "version": 3
   },
   {
-    "id": "straight-neck",
-    "type": "condition",
-    "name_ko": "일자목",
-    "name_en": "",
-    "aliases": [
-      "일자형 경추",
-      "일자형 목"
-    ],
-    "description_ko": "목의 C자형 곡선이 사라진 상태",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 2,
-    "version": 3
-  },
-  {
     "id": "anti-inflammatory-analgesics",
     "type": "treatment",
     "name_ko": "소염진통제",
@@ -128,6 +113,24 @@
     "last_reviewed": "2026-04-23",
     "source_count": 1,
     "version": 2
+  },
+  {
+    "id": "straight-neck",
+    "type": "condition",
+    "name_ko": "일자목",
+    "name_en": "",
+    "aliases": [
+      "일자형 경추",
+      "일자형 목",
+      "앞으로 기울어진 머리 자세",
+      "앞머리 자세",
+      "전방 머리 자세"
+    ],
+    "description_ko": "목의 C자형 곡선이 사라진 상태",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 3,
+    "version": 5
   },
   {
     "id": "regenerative-injection-treatment",
@@ -225,7 +228,7 @@
     "description_ko": "어깨 부위에서 느껴지는 통증",
     "status": "approved",
     "last_reviewed": "2026-04-23",
-    "source_count": 1,
+    "source_count": 2,
     "version": 2
   },
   {
@@ -239,22 +242,7 @@
     "description_ko": "머리에서 느껴지는 통증",
     "status": "approved",
     "last_reviewed": "2026-04-23",
-    "source_count": 1,
-    "version": 2
-  },
-  {
-    "id": "hair-loss",
-    "type": "symptom",
-    "name_ko": "탈모",
-    "name_en": "",
-    "aliases": [
-      "머리 빠짐",
-      "모발 감소"
-    ],
-    "description_ko": "모발이 빠지거나 줄어드는 증상",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 1,
+    "source_count": 0,
     "version": 2
   },
   {
@@ -296,6 +284,21 @@
       "NAD+ 보충 치료"
     ],
     "description_ko": "NAD+를 정맥 주사로 공급하는 치료법으로, 노화 방지와 건강 증진을 목표로 함.",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 3
+  },
+  {
+    "id": "hair-loss",
+    "type": "symptom",
+    "name_ko": "탈모",
+    "name_en": "",
+    "aliases": [
+      "머리 빠짐",
+      "모발 감소"
+    ],
+    "description_ko": "모발이 빠지거나 줄어드는 증상",
     "status": "approved",
     "last_reviewed": "2026-04-23",
     "source_count": 1,
@@ -371,7 +374,7 @@
     "description_ko": "신체 기능 회복을 위한 치료 방법",
     "status": "approved",
     "last_reviewed": "2026-04-23",
-    "source_count": 3,
+    "source_count": 4,
     "version": 4
   },
   {
@@ -415,7 +418,7 @@
     "description_ko": "목 부위에서 느껴지는 통증",
     "status": "approved",
     "last_reviewed": "2026-04-23",
-    "source_count": 3,
+    "source_count": 4,
     "version": 4
   },
   {
@@ -533,7 +536,7 @@
     "description_ko": "외측상과염을 치료하기 위한 다양한 방법",
     "status": "approved",
     "last_reviewed": "2026-04-23",
-    "source_count": 3,
+    "source_count": 2,
     "version": 2
   }
 ]
