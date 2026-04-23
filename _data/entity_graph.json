@@ -49,14 +49,6 @@
       "tenant_keys": []
     },
     {
-      "id": "manual-therapy",
-      "type": "treatment",
-      "name_ko": "수기치료",
-      "name_en": "manual therapy",
-      "post_count": 2,
-      "tenant_keys": []
-    },
-    {
       "id": "anti-inflammatory-analgesics",
       "type": "treatment",
       "name_ko": "소염진통제",
@@ -105,14 +97,6 @@
       "tenant_keys": []
     },
     {
-      "id": "exercise-therapy",
-      "type": "treatment",
-      "name_ko": "운동 치료",
-      "name_en": "",
-      "post_count": 3,
-      "tenant_keys": []
-    },
-    {
       "id": "alopecia-areata",
       "type": "condition",
       "name_ko": "원형 탈모",
@@ -125,7 +109,7 @@
       "type": "symptom",
       "name_ko": "어깨 통증",
       "name_en": "shoulder pain",
-      "post_count": 2,
+      "post_count": 3,
       "tenant_keys": []
     },
     {
@@ -193,19 +177,19 @@
       "tenant_keys": []
     },
     {
-      "id": "chiropractic",
-      "type": "treatment",
-      "name_ko": "도수치료",
-      "name_en": "manual therapy",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
       "id": "physical-therapy",
       "type": "treatment",
       "name_ko": "물리치료",
       "name_en": "physical therapy",
       "post_count": 5,
+      "tenant_keys": []
+    },
+    {
+      "id": "chiropractic",
+      "type": "treatment",
+      "name_ko": "도수치료",
+      "name_en": "manual therapy",
+      "post_count": 1,
       "tenant_keys": []
     },
     {
@@ -278,6 +262,22 @@
       "name_ko": "외측상과염",
       "name_en": "",
       "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "manual-therapy",
+      "type": "treatment",
+      "name_ko": "수기치료",
+      "name_en": "manual therapy",
+      "post_count": 2,
+      "tenant_keys": []
+    },
+    {
+      "id": "exercise-therapy",
+      "type": "treatment",
+      "name_ko": "운동 치료",
+      "name_en": "",
+      "post_count": 3,
       "tenant_keys": []
     },
     {
