@@ -1,6 +1,14 @@
 {
   "nodes": [
     {
+      "id": "sciatica",
+      "type": "symptom",
+      "name_ko": "좌골신경통",
+      "name_en": "",
+      "post_count": 2,
+      "tenant_keys": []
+    },
+    {
       "id": "muscle-relaxants",
       "type": "treatment",
       "name_ko": "근육 이완제",
@@ -14,22 +22,6 @@
       "name_ko": "엑소좀 치료",
       "name_en": "",
       "post_count": 1,
-      "tenant_keys": []
-    },
-    {
-      "id": "nerve-block-injection",
-      "type": "treatment",
-      "name_ko": "신경차단술",
-      "name_en": "nerve block",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
-      "id": "sciatica",
-      "type": "symptom",
-      "name_ko": "좌골신경통",
-      "name_en": "",
-      "post_count": 2,
       "tenant_keys": []
     },
     {
@@ -49,19 +41,19 @@
       "tenant_keys": []
     },
     {
-      "id": "manual-therapy",
-      "type": "treatment",
-      "name_ko": "수기치료",
-      "name_en": "manual therapy",
-      "post_count": 3,
-      "tenant_keys": []
-    },
-    {
       "id": "lumbar-disc-herniation",
       "type": "condition",
       "name_ko": "허리디스크",
       "name_en": "",
       "post_count": 2,
+      "tenant_keys": []
+    },
+    {
+      "id": "manual-therapy",
+      "type": "treatment",
+      "name_ko": "수기치료",
+      "name_en": "manual therapy",
+      "post_count": 3,
       "tenant_keys": []
     },
     {
@@ -185,14 +177,6 @@
       "tenant_keys": []
     },
     {
-      "id": "androgenetic-alopecia",
-      "type": "condition",
-      "name_ko": "남성형 탈모",
-      "name_en": "",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
       "id": "lower-back-pain",
       "type": "symptom",
       "name_ko": "허리통증",
@@ -201,19 +185,19 @@
       "tenant_keys": []
     },
     {
+      "id": "androgenetic-alopecia",
+      "type": "condition",
+      "name_ko": "남성형 탈모",
+      "name_en": "",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
       "id": "cauda-equina-syndrome",
       "type": "condition",
       "name_ko": "마미증후군",
       "name_en": "",
       "post_count": 2,
-      "tenant_keys": []
-    },
-    {
-      "id": "surgery",
-      "type": "treatment",
-      "name_ko": "수술",
-      "name_en": "",
-      "post_count": 1,
       "tenant_keys": []
     },
     {
@@ -233,33 +217,9 @@
       "tenant_keys": []
     },
     {
-      "id": "lateral-epicondylitis",
-      "type": "condition",
-      "name_ko": "외측상과염",
-      "name_en": "",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
       "id": "elbow-pain",
       "type": "symptom",
       "name_ko": "팔꿈치 통증",
-      "name_en": "",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
-      "id": "treatment-for-lateral-epicondylitis",
-      "type": "treatment",
-      "name_ko": "외측상과염 치료",
-      "name_en": "",
-      "post_count": 3,
-      "tenant_keys": []
-    },
-    {
-      "id": "cervical-disc-herniation",
-      "type": "condition",
-      "name_ko": "목디스크",
       "name_en": "",
       "post_count": 1,
       "tenant_keys": []
@@ -270,6 +230,14 @@
       "name_ko": "목 통증",
       "name_en": "neck pain.",
       "post_count": 3,
+      "tenant_keys": []
+    },
+    {
+      "id": "cervical-disc-herniation",
+      "type": "condition",
+      "name_ko": "목디스크",
+      "name_en": "",
+      "post_count": 1,
       "tenant_keys": []
     },
     {
@@ -294,6 +262,38 @@
       "name_ko": "만성 피로",
       "name_en": "chronic fatigue",
       "post_count": 2,
+      "tenant_keys": []
+    },
+    {
+      "id": "nerve-block-injection",
+      "type": "treatment",
+      "name_ko": "신경차단술",
+      "name_en": "nerve block",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "surgery",
+      "type": "treatment",
+      "name_ko": "수술",
+      "name_en": "",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "lateral-epicondylitis",
+      "type": "condition",
+      "name_ko": "외측상과염",
+      "name_en": "",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "treatment-for-lateral-epicondylitis",
+      "type": "treatment",
+      "name_ko": "외측상과염 치료",
+      "name_en": "",
+      "post_count": 3,
       "tenant_keys": []
     }
   ],
