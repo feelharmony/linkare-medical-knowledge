@@ -149,5 +149,19 @@
       "injection-therapy"
     ],
     "updated_at": "2026-04-23"
+  },
+  {
+    "post_path": "db:0c579259-1870-47e1-b769-95ef942784dd",
+    "primary_entity_id": "shoulder-pain",
+    "entity_ids": [
+      "shoulder-pain",
+      "frozen-shoulder",
+      "rotator-cuff-tendinopathy",
+      "shoulder-impingement-syndrome",
+      "calcific-tendinitis",
+      "shoulder-rehabilitation",
+      "shoulder-rehabilitation"
+    ],
+    "updated_at": "2026-04-23"
   }
 ]
