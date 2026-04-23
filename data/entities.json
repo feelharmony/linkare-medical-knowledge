@@ -57,6 +57,20 @@
     "version": 2
   },
   {
+    "id": "cervical-spine",
+    "type": "body_part",
+    "name_ko": "경추",
+    "name_en": "",
+    "aliases": [
+      "목 척추"
+    ],
+    "description_ko": "목의 척추로, 신경이 어깨 근육을 지배하는 부위",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 0,
+    "version": 2
+  },
+  {
     "id": "muscle-relaxation-therapy",
     "type": "treatment",
     "name_ko": "근육 이완 치료",
