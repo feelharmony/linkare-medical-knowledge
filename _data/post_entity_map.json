@@ -28,21 +28,19 @@
   },
   {
     "post_path": "content/thr/ko/pain/straight-neck-forward-head.md",
-    "primary_entity_id": "neck-pain",
+    "primary_entity_id": "straight-neck",
     "entity_ids": [
       "straight-neck",
       "forward-head-posture",
       "neck-pain",
       "shoulder-pain",
-      "tension-headache",
       "muscle-relaxation-therapy",
       "physical-therapy",
       "exercise-therapy",
       "posture-correction",
-      "chiropractic",
-      "treatment-for-lateral-epicondylitis"
+      "neck-stretching"
     ],
-    "updated_at": "2026-04-21"
+    "updated_at": "2026-04-23"
   },
   {
     "post_path": "content/thr/ko/hair/hair-loss-regeneration-injection-treatment.md",
@@ -100,7 +98,6 @@
       "neck-pain",
       "shoulder-stiffness",
       "straight-neck",
-      "forward-head-posture",
       "muscle-relaxants",
       "anti-inflammatory-analgesics",
       "physical-therapy",
@@ -118,6 +115,23 @@
       "elbow-pain",
       "treatment-for-lateral-epicondylitis",
       "elbow"
+    ],
+    "updated_at": "2026-04-23"
+  },
+  {
+    "post_path": "db:308b3e30-1e16-44d5-9700-36cf3a4524ec",
+    "primary_entity_id": "straight-neck",
+    "entity_ids": [
+      "straight-neck",
+      "forward-head-posture",
+      "neck-pain",
+      "shoulder-pain",
+      "muscle-tension",
+      "physical-therapy",
+      "treatment-exercise",
+      "conservative-treatment",
+      "chiropractic",
+      "injection-therapy"
     ],
     "updated_at": "2026-04-23"
   }
