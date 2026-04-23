@@ -1,5 +1,20 @@
 [
   {
+    "id": "sciatica",
+    "type": "symptom",
+    "name_ko": "좌골신경통",
+    "name_en": "",
+    "aliases": [
+      "다리 방사통",
+      "신경통"
+    ],
+    "description_ko": "허리에서 다리로 뻗어가는 통증",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 2,
+    "version": 3
+  },
+  {
     "id": "muscle-relaxants",
     "type": "treatment",
     "name_ko": "근육 이완제",
@@ -25,35 +40,6 @@
     "status": "approved",
     "last_reviewed": "2026-04-23",
     "source_count": 1,
-    "version": 2
-  },
-  {
-    "id": "nerve-block-injection",
-    "type": "treatment",
-    "name_ko": "신경차단술",
-    "name_en": "nerve block",
-    "aliases": [
-      "신경 차단 주사"
-    ],
-    "description_ko": "염증이 있는 신경 주변에 약물을 직접 투여하는 치료법",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 1,
-    "version": 2
-  },
-  {
-    "id": "sciatica",
-    "type": "symptom",
-    "name_ko": "좌골신경통",
-    "name_en": "",
-    "aliases": [
-      "다리 방사통",
-      "신경통"
-    ],
-    "description_ko": "허리에서 다리로 뻗어가는 통증",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 2,
     "version": 2
   },
   {
@@ -85,20 +71,6 @@
     "version": 2
   },
   {
-    "id": "manual-therapy",
-    "type": "treatment",
-    "name_ko": "수기치료",
-    "name_en": "manual therapy",
-    "aliases": [
-      "손 치료"
-    ],
-    "description_ko": "손을 이용한 치료 방법",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 3,
-    "version": 3
-  },
-  {
     "id": "lumbar-disc-herniation",
     "type": "condition",
     "name_ko": "허리디스크",
@@ -111,6 +83,20 @@
     "status": "approved",
     "last_reviewed": "2026-04-23",
     "source_count": 2,
+    "version": 3
+  },
+  {
+    "id": "manual-therapy",
+    "type": "treatment",
+    "name_ko": "수기치료",
+    "name_en": "manual therapy",
+    "aliases": [
+      "손 치료"
+    ],
+    "description_ko": "손을 이용한 치료 방법",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 3,
     "version": 3
   },
   {
@@ -331,20 +317,6 @@
     "version": 2
   },
   {
-    "id": "androgenetic-alopecia",
-    "type": "condition",
-    "name_ko": "남성형 탈모",
-    "name_en": "",
-    "aliases": [
-      "안드로겐 탈모"
-    ],
-    "description_ko": "호르몬의 영향을 받아 발생하는 탈모",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 1,
-    "version": 2
-  },
-  {
     "id": "lower-back-pain",
     "type": "symptom",
     "name_ko": "허리통증",
@@ -357,6 +329,20 @@
     "status": "approved",
     "last_reviewed": "2026-04-23",
     "source_count": 2,
+    "version": 3
+  },
+  {
+    "id": "androgenetic-alopecia",
+    "type": "condition",
+    "name_ko": "남성형 탈모",
+    "name_en": "",
+    "aliases": [
+      "안드로겐 탈모"
+    ],
+    "description_ko": "호르몬의 영향을 받아 발생하는 탈모",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
     "version": 2
   },
   {
@@ -372,22 +358,7 @@
     "status": "approved",
     "last_reviewed": "2026-04-23",
     "source_count": 2,
-    "version": 2
-  },
-  {
-    "id": "surgery",
-    "type": "treatment",
-    "name_ko": "수술",
-    "name_en": "",
-    "aliases": [
-      "디스크 수술",
-      "신경 감압술"
-    ],
-    "description_ko": "디스크 탈출로 인한 신경 압박을 해소하기 위한 외과적 치료",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 1,
-    "version": 2
+    "version": 3
   },
   {
     "id": "physical-therapy",
@@ -401,7 +372,7 @@
     "status": "approved",
     "last_reviewed": "2026-04-23",
     "source_count": 3,
-    "version": 3
+    "version": 4
   },
   {
     "id": "chiropractic",
@@ -419,20 +390,6 @@
     "version": 3
   },
   {
-    "id": "lateral-epicondylitis",
-    "type": "condition",
-    "name_ko": "외측상과염",
-    "name_en": "",
-    "aliases": [
-      "테니스엘보"
-    ],
-    "description_ko": "팔꿈치 바깥쪽 힘줄이 손상되는 질환",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 1,
-    "version": 2
-  },
-  {
     "id": "elbow-pain",
     "type": "symptom",
     "name_ko": "팔꿈치 통증",
@@ -441,36 +398,6 @@
       "팔꿈치 아픔"
     ],
     "description_ko": "팔꿈치 부위에서 느껴지는 통증",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 1,
-    "version": 2
-  },
-  {
-    "id": "treatment-for-lateral-epicondylitis",
-    "type": "treatment",
-    "name_ko": "외측상과염 치료",
-    "name_en": "",
-    "aliases": [
-      "보존적 치료",
-      "물리치료",
-      "주사 치료"
-    ],
-    "description_ko": "외측상과염을 치료하기 위한 다양한 방법",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 3,
-    "version": 2
-  },
-  {
-    "id": "cervical-disc-herniation",
-    "type": "condition",
-    "name_ko": "목디스크",
-    "name_en": "",
-    "aliases": [
-      "경추 추간판 탈출증"
-    ],
-    "description_ko": "경추 사이의 디스크가 손상되어 신경을 누르는 질환",
     "status": "approved",
     "last_reviewed": "2026-04-23",
     "source_count": 1,
@@ -489,7 +416,21 @@
     "status": "approved",
     "last_reviewed": "2026-04-23",
     "source_count": 3,
-    "version": 3
+    "version": 4
+  },
+  {
+    "id": "cervical-disc-herniation",
+    "type": "condition",
+    "name_ko": "목디스크",
+    "name_en": "",
+    "aliases": [
+      "경추 추간판 탈출증"
+    ],
+    "description_ko": "경추 사이의 디스크가 손상되어 신경을 누르는 질환",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
   },
   {
     "id": "arm-numbness",
@@ -535,5 +476,64 @@
     "last_reviewed": "2026-04-23",
     "source_count": 2,
     "version": 3
+  },
+  {
+    "id": "nerve-block-injection",
+    "type": "treatment",
+    "name_ko": "신경차단술",
+    "name_en": "nerve block",
+    "aliases": [
+      "신경 차단 주사"
+    ],
+    "description_ko": "염증이 있는 신경 주변에 약물을 직접 투여하는 치료법",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "surgery",
+    "type": "treatment",
+    "name_ko": "수술",
+    "name_en": "",
+    "aliases": [
+      "디스크 수술",
+      "신경 감압술"
+    ],
+    "description_ko": "디스크 탈출로 인한 신경 압박을 해소하기 위한 외과적 치료",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "lateral-epicondylitis",
+    "type": "condition",
+    "name_ko": "외측상과염",
+    "name_en": "",
+    "aliases": [
+      "테니스엘보"
+    ],
+    "description_ko": "팔꿈치 바깥쪽 힘줄이 손상되는 질환",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 1,
+    "version": 2
+  },
+  {
+    "id": "treatment-for-lateral-epicondylitis",
+    "type": "treatment",
+    "name_ko": "외측상과염 치료",
+    "name_en": "",
+    "aliases": [
+      "보존적 치료",
+      "물리치료",
+      "주사 치료"
+    ],
+    "description_ko": "외측상과염을 치료하기 위한 다양한 방법",
+    "status": "approved",
+    "last_reviewed": "2026-04-23",
+    "source_count": 3,
+    "version": 2
   }
 ]
