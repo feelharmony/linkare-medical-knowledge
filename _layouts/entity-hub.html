@@ -93,13 +93,16 @@ layout: default
       <h2>학력</h2>
       <ul class="profile-timeline">
         {% for e in page.education %}
-        <li>
-          {% if e.year and e.year != '' %}<span class="profile-year">{{ e.year }}</span>{% endif %}
-          <span class="profile-detail">
-            {% if e.school %}<strong>{{ e.school }}</strong>{% endif %}
-            {% if e.degree and e.degree != '' %} · {{ e.degree }}{% endif %}
-          </span>
-        </li>
+          {%- comment -%} 모든 필드 비면 렌더 스킵 (방어용) {%- endcomment -%}
+          {% if e.year != '' or e.school != '' or e.degree != '' %}
+          <li>
+            {% if e.year and e.year != '' %}<span class="profile-year">{{ e.year }}</span>{% endif %}
+            <span class="profile-detail">
+              {% if e.school %}<strong>{{ e.school }}</strong>{% endif %}
+              {% if e.degree and e.degree != '' %} · {{ e.degree }}{% endif %}
+            </span>
+          </li>
+          {% endif %}
         {% endfor %}
       </ul>
     </section>
@@ -110,13 +113,16 @@ layout: default
       <h2>경력</h2>
       <ul class="profile-timeline">
         {% for c in page.career %}
-        <li>
-          {% if c.year and c.year != '' %}<span class="profile-year">{{ c.year }}</span>{% endif %}
-          <span class="profile-detail">
-            {% if c.role %}{{ c.role }}{% endif %}
-            {% if c.org and c.org != '' %} · {{ c.org }}{% endif %}
-          </span>
-        </li>
+          {%- comment -%} 모든 필드 비면 렌더 스킵 (방어용) {%- endcomment -%}
+          {% if c.year != '' or c.role != '' or c.org != '' %}
+          <li>
+            {% if c.year and c.year != '' %}<span class="profile-year">{{ c.year }}</span>{% endif %}
+            <span class="profile-detail">
+              {% if c.role %}{{ c.role }}{% endif %}
+              {% if c.org and c.org != '' %} · {{ c.org }}{% endif %}
+            </span>
+          </li>
+          {% endif %}
         {% endfor %}
       </ul>
     </section>
