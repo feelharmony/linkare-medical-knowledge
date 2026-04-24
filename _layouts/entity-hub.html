@@ -23,7 +23,14 @@ layout: default
     <span class="breadcrumb-current">{{ page.title }}</span>
   </nav>
 
-  <header class="entity-header">
+  <header class="entity-header {% if entity_type == 'doctor' or entity_type == 'hospital' %}entity-header--profile{% endif %}">
+    {% if entity_type == 'doctor' or entity_type == 'hospital' %}
+      {% if page.photo %}
+      <img class="profile-photo" src="{{ page.photo }}" alt="{{ page.title }} 프로필" loading="lazy" />
+      {% endif %}
+      <div class="profile-header-text">
+    {% endif %}
+
     <span class="entity-type-badge entity-type-badge--{{ entity_type }}">
       {% case entity_type %}
         {% when 'condition' %}질환
@@ -39,7 +46,106 @@ layout: default
     <p class="entity-title-en">{{ page.title_en }}</p>
     {% endif %}
     <p class="entity-description">{{ page.description }}</p>
+
+    {%- comment -%} 소속 병원 링크 (doctor) {%- endcomment -%}
+    {% if entity_type == 'doctor' and page.hospital %}
+    <p class="profile-hospital">
+      {% if page.hospital_id %}
+        <a href="{{ '/hospitals/' | append: page.hospital_id | append: '/' | relative_url }}">{{ page.hospital }}</a>
+      {% else %}
+        {{ page.hospital }}
+      {% endif %}
+    </p>
+    {% endif %}
+
+    {%- comment -%} 웹사이트 링크 (hospital) {%- endcomment -%}
+    {% if entity_type == 'hospital' and page.hospital_website %}
+    <p class="profile-hospital">
+      <a href="{{ page.hospital_website }}" rel="nofollow" target="_blank">{{ page.hospital_website }} ↗</a>
+    </p>
+    {% endif %}
+
+    {%- comment -%} 전문 분야 태그 (doctor) {%- endcomment -%}
+    {% if entity_type == 'doctor' and page.specialties and page.specialties.size > 0 %}
+    <ul class="profile-specialties">
+      {% for sp in page.specialties %}<li>{{ sp }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if entity_type == 'doctor' or entity_type == 'hospital' %}
+      </div>
+    {% endif %}
   </header>
+
+  {%- comment -%} Doctor/Hospital 확장 프로필: 자격 / 학력 / 경력 / 소셜 {%- endcomment -%}
+  {% if entity_type == 'doctor' %}
+    {% if page.credentials and page.credentials.size > 0 %}
+    <section class="entity-section profile-section">
+      <h2>자격 / 학회</h2>
+      <ul class="profile-list">
+        {% for c in page.credentials %}<li>{{ c }}</li>{% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if page.education and page.education.size > 0 %}
+    <section class="entity-section profile-section">
+      <h2>학력</h2>
+      <ul class="profile-timeline">
+        {% for e in page.education %}
+        <li>
+          {% if e.year and e.year != '' %}<span class="profile-year">{{ e.year }}</span>{% endif %}
+          <span class="profile-detail">
+            {% if e.school %}<strong>{{ e.school }}</strong>{% endif %}
+            {% if e.degree and e.degree != '' %} · {{ e.degree }}{% endif %}
+          </span>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if page.career and page.career.size > 0 %}
+    <section class="entity-section profile-section">
+      <h2>경력</h2>
+      <ul class="profile-timeline">
+        {% for c in page.career %}
+        <li>
+          {% if c.year and c.year != '' %}<span class="profile-year">{{ c.year }}</span>{% endif %}
+          <span class="profile-detail">
+            {% if c.role %}{{ c.role }}{% endif %}
+            {% if c.org and c.org != '' %} · {{ c.org }}{% endif %}
+          </span>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if page.social %}
+      {% assign has_social = false %}
+      {% for pair in page.social %}{% if pair[1] and pair[1] != '' %}{% assign has_social = true %}{% endif %}{% endfor %}
+      {% if has_social %}
+      <section class="entity-section profile-section">
+        <h2>외부 프로필</h2>
+        <ul class="profile-social">
+          {% if page.social.naver_blog and page.social.naver_blog != '' %}
+          <li><a href="{{ page.social.naver_blog }}" rel="nofollow" target="_blank">네이버 블로그 ↗</a></li>
+          {% endif %}
+          {% if page.social.youtube and page.social.youtube != '' %}
+          <li><a href="{{ page.social.youtube }}" rel="nofollow" target="_blank">유튜브 ↗</a></li>
+          {% endif %}
+          {% if page.social.instagram and page.social.instagram != '' %}
+          <li><a href="{{ page.social.instagram }}" rel="nofollow" target="_blank">인스타그램 ↗</a></li>
+          {% endif %}
+          {% if page.social.website and page.social.website != '' %}
+          <li><a href="{{ page.social.website }}" rel="nofollow" target="_blank">웹사이트 ↗</a></li>
+          {% endif %}
+        </ul>
+      </section>
+      {% endif %}
+    {% endif %}
+  {% endif %}
 
   {%- comment -%}
     v2.5: MD body 섹션 렌더 (thick entity 본문 + Citations + Changelog).
@@ -49,6 +155,45 @@ layout: default
   <div class="entity-body">
     {{ content }}
   </div>
+  {% endif %}
+
+  {%- comment -%}
+    Doctor/Hospital 역참조: post_entity_map의 doctor_id/hospital_id 매칭.
+    post_path → site.pages의 article로 resolve.
+  {%- endcomment -%}
+  {% if entity_type == 'doctor' or entity_type == 'hospital' %}
+    {% if entity_type == 'doctor' %}
+      {% assign authored = site.data.post_entity_map | where: "doctor_id", entity_id %}
+    {% else %}
+      {% assign authored = site.data.post_entity_map | where: "hospital_id", entity_id %}
+    {% endif %}
+    {% if authored.size > 0 %}
+    <section class="entity-section profile-section">
+      <h2>
+        {% if entity_type == 'doctor' %}집필 / 감수한 글{% else %}소속 글{% endif %}
+        ({{ authored.size }})
+      </h2>
+      <ul class="profile-article-list">
+        {% for post in authored %}
+          {% assign expected = post.post_path | remove: "content/" | remove: ".md" %}
+          {% assign matched_article = nil %}
+          {% for article in site.pages %}
+            {% if article.layout == "article" and article.url contains expected %}
+              {% assign matched_article = article %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+          {% if matched_article %}
+          <li>
+            <a href="{{ matched_article.url | relative_url }}">{{ matched_article.title }}</a>
+            {% if matched_article.last_updated %}<time>{{ matched_article.last_updated }}</time>{% endif %}
+            {% if matched_article.description %}<p class="profile-article-desc">{{ matched_article.description | truncate: 120 }}</p>{% endif %}
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
   {% endif %}
 
   {%- comment -%} 관련 엔티티 (co-occurrence 기반) {%- endcomment -%}
