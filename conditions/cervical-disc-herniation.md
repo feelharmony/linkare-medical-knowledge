@@ -4,7 +4,8 @@ entity_id: cervical-disc-herniation
 entity_type: condition
 permalink: /conditions/cervical-disc-herniation/
 title: 목디스크
-description: 경추 사이의 디스크가 손상되어 신경을 누르는 질환
+description: 경추 추간판이 탈출하여 신경을 압박하는 질환
+title_en: cervical disc herniation
 last_reviewed: '2026-04-25'
 source_count: 1
 version: 3
