@@ -3,8 +3,9 @@ layout: entity-hub
 entity_id: knee-osteoarthritis
 entity_type: condition
 permalink: /conditions/knee-osteoarthritis/
-title: 무릎 골관절염
-description: 무릎 관절의 연골이 닳아 기능 제한과 통증을 일으키는 질환
+title: 무릎 관절염
+description: 무릎 연골 마모로 발생하는 퇴행성 관절 질환
+title_en: knee osteoarthritis
 last_reviewed: '2026-04-25'
 source_count: 0
 version: 2
