@@ -4,7 +4,8 @@ entity_id: lumbar-disc-herniation
 entity_type: condition
 permalink: /conditions/lumbar-disc-herniation/
 title: 허리디스크
-description: 허리 부위의 추간판이 탈출하여 신경을 압박하는 상태
+description: 요추 추간판이 탈출하여 신경을 압박하는 질환
+title_en: lumbar disc herniation
 last_reviewed: '2026-04-25'
 source_count: 2
 version: 4
