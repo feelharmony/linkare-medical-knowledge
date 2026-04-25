@@ -12,6 +12,7 @@ version: 1
 tenant_key: apfree
 hospital: 안심튼튼마취통증의학과
 hospital_id: hospital-ansimpainfree
+hospital_website: 'https://ansimpainfree.kr'
 photo: >-
   https://psuoahpdstnaoayxikeb.supabase.co/storage/v1/object/public/blog-images/library/clinic-ansim/profile/1774777655028_pkzxyz.png
 specialties:
@@ -34,7 +35,7 @@ career:
     role: 대표원장
     year: 2023-현재
 social:
-  naver_blog: 'https://blog.naver.com/ansimpainfree'
   website: 'https://linkerai.io'
+  naver_blog: 'https://blog.naver.com/ansimpainfree'
 ---
 
