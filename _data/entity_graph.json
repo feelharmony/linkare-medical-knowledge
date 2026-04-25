@@ -1,42 +1,26 @@
 {
   "nodes": [
     {
-      "id": "sciatica",
-      "type": "symptom",
-      "name_ko": "좌골신경통",
-      "name_en": "",
-      "post_count": 2,
-      "tenant_keys": []
-    },
-    {
-      "id": "muscle-relaxants",
-      "type": "treatment",
-      "name_ko": "근육 이완제",
-      "name_en": "",
-      "post_count": 2,
-      "tenant_keys": []
-    },
-    {
       "id": "exosome-therapy",
       "type": "treatment",
       "name_ko": "엑소좀 치료",
-      "name_en": "",
+      "name_en": "exosome therapy",
       "post_count": 1,
       "tenant_keys": []
     },
     {
-      "id": "elbow",
-      "type": "body_part",
-      "name_ko": "팔꿈치",
-      "name_en": "",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
-      "id": "muscle-relaxation-therapy",
+      "id": "physical-therapy",
       "type": "treatment",
-      "name_ko": "근육 이완 치료",
-      "name_en": "",
+      "name_ko": "물리치료",
+      "name_en": "physical therapy",
+      "post_count": 8,
+      "tenant_keys": []
+    },
+    {
+      "id": "frozen-shoulder",
+      "type": "condition",
+      "name_ko": "오십견",
+      "name_en": "frozen shoulder",
       "post_count": 1,
       "tenant_keys": []
     },
@@ -44,15 +28,15 @@
       "id": "lumbar-disc-herniation",
       "type": "condition",
       "name_ko": "허리디스크",
-      "name_en": "",
-      "post_count": 2,
+      "name_en": "lumbar disc herniation",
+      "post_count": 4,
       "tenant_keys": []
     },
     {
-      "id": "anti-inflammatory-analgesics",
-      "type": "treatment",
-      "name_ko": "소염진통제",
-      "name_en": "",
+      "id": "alopecia-areata",
+      "type": "condition",
+      "name_ko": "원형 탈모",
+      "name_en": "alopecia areata",
       "post_count": 1,
       "tenant_keys": []
     },
@@ -60,48 +44,48 @@
       "id": "straight-neck",
       "type": "condition",
       "name_ko": "일자목",
-      "name_en": "",
+      "name_en": "straight neck",
       "post_count": 5,
       "tenant_keys": []
     },
     {
-      "id": "regenerative-injection-treatment",
-      "type": "treatment",
-      "name_ko": "재생주사치료",
-      "name_en": "",
-      "post_count": 1,
+      "id": "sciatica",
+      "type": "symptom",
+      "name_ko": "좌골신경통",
+      "name_en": "sciatica",
+      "post_count": 4,
+      "tenant_keys": []
+    },
+    {
+      "id": "elbow",
+      "type": "body_part",
+      "name_ko": "팔꿈치",
+      "name_en": "elbow",
+      "post_count": 2,
       "tenant_keys": []
     },
     {
       "id": "prp-injection",
       "type": "treatment",
       "name_ko": "PRP 주사",
-      "name_en": "",
+      "name_en": "platelet-rich plasma injection",
       "post_count": 1,
       "tenant_keys": []
     },
     {
-      "id": "adipose-derived-stem-cell-injection",
-      "type": "treatment",
-      "name_ko": "자가조직 줄기세포 주사",
-      "name_en": "",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
-      "id": "posture-correction",
-      "type": "treatment",
-      "name_ko": "자세 교정",
-      "name_en": "posture correction",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
-      "id": "alopecia-areata",
+      "id": "androgenetic-alopecia",
       "type": "condition",
-      "name_ko": "원형 탈모",
-      "name_en": "",
+      "name_ko": "남성형 탈모",
+      "name_en": "androgenetic alopecia",
       "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "nad-infusion-therapy",
+      "type": "treatment",
+      "name_ko": "NAD+ 수액 치료",
+      "name_en": "NAD+ infusion therapy",
+      "post_count": 2,
       "tenant_keys": []
     },
     {
@@ -113,42 +97,74 @@
       "tenant_keys": []
     },
     {
-      "id": "aging",
+      "id": "cervical-disc-herniation",
       "type": "condition",
-      "name_ko": "노화",
-      "name_en": "aging",
+      "name_ko": "목디스크",
+      "name_en": "cervical disc herniation",
+      "post_count": 2,
+      "tenant_keys": []
+    },
+    {
+      "id": "cauda-equina-syndrome",
+      "type": "condition",
+      "name_ko": "마미증후군",
+      "name_en": "cauda equina syndrome",
+      "post_count": 4,
+      "tenant_keys": []
+    },
+    {
+      "id": "neck-pain",
+      "type": "symptom",
+      "name_ko": "목 통증",
+      "name_en": "neck pain",
+      "post_count": 6,
+      "tenant_keys": []
+    },
+    {
+      "id": "calcific-tendinitis",
+      "type": "condition",
+      "name_ko": "석회성 건염",
+      "name_en": "calcific tendinitis",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "nerve-block-injection",
+      "type": "treatment",
+      "name_ko": "신경차단술",
+      "name_en": "nerve block injection",
+      "post_count": 3,
+      "tenant_keys": []
+    },
+    {
+      "id": "lateral-epicondylitis",
+      "type": "condition",
+      "name_ko": "외측상과염",
+      "name_en": "lateral epicondylitis",
+      "post_count": 2,
+      "tenant_keys": []
+    },
+    {
+      "id": "knee-osteoarthritis",
+      "type": "condition",
+      "name_ko": "무릎 관절염",
+      "name_en": "knee osteoarthritis",
       "post_count": 1,
       "tenant_keys": []
     },
     {
       "id": "rehabilitation-therapy",
       "type": "treatment",
-      "name_ko": "재활 치료",
-      "name_en": "",
+      "name_ko": "재활치료",
+      "name_en": "rehabilitation therapy",
       "post_count": 1,
       "tenant_keys": []
     },
     {
-      "id": "nad-infusion-therapy",
-      "type": "treatment",
-      "name_ko": "NAD+ 수액 치료",
-      "name_en": "NAD+ infusion therapy",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
-      "id": "hair-loss",
+      "id": "knee-pain",
       "type": "symptom",
-      "name_ko": "탈모",
-      "name_en": "",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
-      "id": "age-related-symptoms",
-      "type": "symptom",
-      "name_ko": "노화 관련 증상",
-      "name_en": "age-related symptoms",
+      "name_ko": "무릎 통증",
+      "name_en": "knee pain",
       "post_count": 1,
       "tenant_keys": []
     },
@@ -156,80 +172,32 @@
       "id": "lower-back-pain",
       "type": "symptom",
       "name_ko": "허리통증",
-      "name_en": "",
-      "post_count": 2,
-      "tenant_keys": []
-    },
-    {
-      "id": "androgenetic-alopecia",
-      "type": "condition",
-      "name_ko": "남성형 탈모",
-      "name_en": "",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
-      "id": "cauda-equina-syndrome",
-      "type": "condition",
-      "name_ko": "마미증후군",
-      "name_en": "",
-      "post_count": 2,
-      "tenant_keys": []
-    },
-    {
-      "id": "physical-therapy",
-      "type": "treatment",
-      "name_ko": "물리치료",
-      "name_en": "physical therapy",
-      "post_count": 5,
-      "tenant_keys": []
-    },
-    {
-      "id": "chiropractic",
-      "type": "treatment",
-      "name_ko": "도수치료",
-      "name_en": "manual therapy",
-      "post_count": 1,
+      "name_en": "lower back pain",
+      "post_count": 3,
       "tenant_keys": []
     },
     {
       "id": "elbow-pain",
       "type": "symptom",
       "name_ko": "팔꿈치 통증",
-      "name_en": "",
-      "post_count": 1,
+      "name_en": "elbow pain",
+      "post_count": 2,
       "tenant_keys": []
     },
     {
-      "id": "cervical-disc-herniation",
-      "type": "condition",
-      "name_ko": "목디스크",
-      "name_en": "",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
-      "id": "arm-numbness",
+      "id": "hair-loss",
       "type": "symptom",
-      "name_ko": "팔 방사통",
-      "name_en": "",
+      "name_ko": "탈모",
+      "name_en": "hair loss",
       "post_count": 1,
       "tenant_keys": []
     },
     {
-      "id": "ultrasound-guided-injection",
+      "id": "manual-therapy",
       "type": "treatment",
-      "name_ko": "초음파 주사 치료",
-      "name_en": "",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
-      "id": "neck-pain",
-      "type": "symptom",
-      "name_ko": "목 통증",
-      "name_en": "neck pain.",
-      "post_count": 5,
+      "name_ko": "도수치료",
+      "name_en": "manual therapy",
+      "post_count": 2,
       "tenant_keys": []
     },
     {
@@ -237,54 +205,30 @@
       "type": "symptom",
       "name_ko": "만성 피로",
       "name_en": "chronic fatigue",
-      "post_count": 2,
-      "tenant_keys": []
-    },
-    {
-      "id": "nerve-block-injection",
-      "type": "treatment",
-      "name_ko": "신경차단술",
-      "name_en": "nerve block",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
-      "id": "surgery",
-      "type": "treatment",
-      "name_ko": "수술",
-      "name_en": "",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
-      "id": "lateral-epicondylitis",
-      "type": "condition",
-      "name_ko": "외측상과염",
-      "name_en": "",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
-      "id": "manual-therapy",
-      "type": "treatment",
-      "name_ko": "수기치료",
-      "name_en": "manual therapy",
-      "post_count": 2,
-      "tenant_keys": []
-    },
-    {
-      "id": "exercise-therapy",
-      "type": "treatment",
-      "name_ko": "운동 치료",
-      "name_en": "",
       "post_count": 3,
       "tenant_keys": []
     },
     {
-      "id": "treatment-for-lateral-epicondylitis",
+      "id": "muscle-relaxants",
       "type": "treatment",
-      "name_ko": "외측상과염 치료",
-      "name_en": "",
+      "name_ko": "근육 이완제",
+      "name_en": "muscle relaxants",
+      "post_count": 2,
+      "tenant_keys": []
+    },
+    {
+      "id": "anti-inflammatory-analgesics",
+      "type": "treatment",
+      "name_ko": "소염진통제",
+      "name_en": "anti-inflammatory analgesics",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "cervical-spine",
+      "type": "body_part",
+      "name_ko": "경추",
+      "name_en": "cervical spine",
       "post_count": 1,
       "tenant_keys": []
     }
@@ -293,25 +237,13 @@
     {
       "source": "cervical-disc-herniation",
       "target": "neck-pain",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "arm-numbness",
-      "target": "cervical-disc-herniation",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
       "source": "cervical-disc-herniation",
       "target": "nerve-block-injection",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "cervical-disc-herniation",
-      "target": "ultrasound-guided-injection",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
@@ -327,21 +259,9 @@
       "tenant_keys": []
     },
     {
-      "source": "arm-numbness",
-      "target": "neck-pain",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
       "source": "neck-pain",
       "target": "nerve-block-injection",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "neck-pain",
-      "target": "ultrasound-guided-injection",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
@@ -357,36 +277,6 @@
       "tenant_keys": []
     },
     {
-      "source": "arm-numbness",
-      "target": "nerve-block-injection",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "arm-numbness",
-      "target": "ultrasound-guided-injection",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "arm-numbness",
-      "target": "manual-therapy",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "arm-numbness",
-      "target": "rehabilitation-therapy",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "nerve-block-injection",
-      "target": "ultrasound-guided-injection",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
       "source": "manual-therapy",
       "target": "nerve-block-injection",
       "weight": 1,
@@ -395,18 +285,6 @@
     {
       "source": "nerve-block-injection",
       "target": "rehabilitation-therapy",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "manual-therapy",
-      "target": "ultrasound-guided-injection",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "rehabilitation-therapy",
-      "target": "ultrasound-guided-injection",
       "weight": 1,
       "tenant_keys": []
     },
@@ -419,61 +297,37 @@
     {
       "source": "lower-back-pain",
       "target": "lumbar-disc-herniation",
-      "weight": 2,
+      "weight": 3,
       "tenant_keys": []
     },
     {
       "source": "lumbar-disc-herniation",
       "target": "sciatica",
-      "weight": 2,
+      "weight": 4,
       "tenant_keys": []
     },
     {
       "source": "cauda-equina-syndrome",
       "target": "lumbar-disc-herniation",
-      "weight": 2,
-      "tenant_keys": []
-    },
-    {
-      "source": "lumbar-disc-herniation",
-      "target": "surgery",
-      "weight": 1,
+      "weight": 4,
       "tenant_keys": []
     },
     {
       "source": "lower-back-pain",
       "target": "sciatica",
-      "weight": 2,
+      "weight": 3,
       "tenant_keys": []
     },
     {
       "source": "cauda-equina-syndrome",
       "target": "lower-back-pain",
-      "weight": 2,
-      "tenant_keys": []
-    },
-    {
-      "source": "lower-back-pain",
-      "target": "surgery",
-      "weight": 1,
+      "weight": 3,
       "tenant_keys": []
     },
     {
       "source": "cauda-equina-syndrome",
       "target": "sciatica",
-      "weight": 2,
-      "tenant_keys": []
-    },
-    {
-      "source": "sciatica",
-      "target": "surgery",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "cauda-equina-syndrome",
-      "target": "surgery",
-      "weight": 1,
+      "weight": 4,
       "tenant_keys": []
     },
     {
@@ -489,63 +343,21 @@
       "tenant_keys": []
     },
     {
-      "source": "muscle-relaxation-therapy",
-      "target": "straight-neck",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
       "source": "physical-therapy",
       "target": "straight-neck",
       "weight": 5,
       "tenant_keys": []
     },
     {
-      "source": "exercise-therapy",
-      "target": "straight-neck",
-      "weight": 4,
-      "tenant_keys": []
-    },
-    {
-      "source": "posture-correction",
-      "target": "straight-neck",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
       "source": "neck-pain",
       "target": "shoulder-pain",
       "weight": 2,
       "tenant_keys": []
     },
     {
-      "source": "muscle-relaxation-therapy",
-      "target": "neck-pain",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
       "source": "neck-pain",
       "target": "physical-therapy",
-      "weight": 4,
-      "tenant_keys": []
-    },
-    {
-      "source": "exercise-therapy",
-      "target": "neck-pain",
-      "weight": 3,
-      "tenant_keys": []
-    },
-    {
-      "source": "neck-pain",
-      "target": "posture-correction",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "muscle-relaxation-therapy",
-      "target": "shoulder-pain",
-      "weight": 1,
+      "weight": 5,
       "tenant_keys": []
     },
     {
@@ -555,72 +367,12 @@
       "tenant_keys": []
     },
     {
-      "source": "exercise-therapy",
-      "target": "shoulder-pain",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "posture-correction",
-      "target": "shoulder-pain",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "muscle-relaxation-therapy",
-      "target": "physical-therapy",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "exercise-therapy",
-      "target": "muscle-relaxation-therapy",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "muscle-relaxation-therapy",
-      "target": "posture-correction",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "exercise-therapy",
-      "target": "physical-therapy",
-      "weight": 3,
-      "tenant_keys": []
-    },
-    {
-      "source": "physical-therapy",
-      "target": "posture-correction",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "exercise-therapy",
-      "target": "posture-correction",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "hair-loss",
-      "target": "regenerative-injection-treatment",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
       "source": "hair-loss",
       "target": "prp-injection",
       "weight": 1,
       "tenant_keys": []
     },
     {
-      "source": "adipose-derived-stem-cell-injection",
-      "target": "hair-loss",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
       "source": "exosome-therapy",
       "target": "hair-loss",
       "weight": 1,
@@ -639,42 +391,6 @@
       "tenant_keys": []
     },
     {
-      "source": "prp-injection",
-      "target": "regenerative-injection-treatment",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "adipose-derived-stem-cell-injection",
-      "target": "regenerative-injection-treatment",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "exosome-therapy",
-      "target": "regenerative-injection-treatment",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "androgenetic-alopecia",
-      "target": "regenerative-injection-treatment",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "alopecia-areata",
-      "target": "regenerative-injection-treatment",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "adipose-derived-stem-cell-injection",
-      "target": "prp-injection",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
       "source": "exosome-therapy",
       "target": "prp-injection",
       "weight": 1,
@@ -689,24 +405,6 @@
     {
       "source": "alopecia-areata",
       "target": "prp-injection",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "adipose-derived-stem-cell-injection",
-      "target": "exosome-therapy",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "adipose-derived-stem-cell-injection",
-      "target": "androgenetic-alopecia",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "adipose-derived-stem-cell-injection",
-      "target": "alopecia-areata",
       "weight": 1,
       "tenant_keys": []
     },
@@ -725,31 +423,19 @@
     {
       "source": "alopecia-areata",
       "target": "androgenetic-alopecia",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "aging",
-      "target": "nad-infusion-therapy",
       "weight": 1,
       "tenant_keys": []
     },
     {
       "source": "chronic-fatigue",
       "target": "nad-infusion-therapy",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "aging",
-      "target": "chronic-fatigue",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
       "source": "lumbar-disc-herniation",
       "target": "physical-therapy",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
@@ -761,7 +447,7 @@
     {
       "source": "lower-back-pain",
       "target": "physical-therapy",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
@@ -773,7 +459,7 @@
     {
       "source": "physical-therapy",
       "target": "sciatica",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
@@ -785,7 +471,7 @@
     {
       "source": "cauda-equina-syndrome",
       "target": "physical-therapy",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
@@ -797,12 +483,6 @@
     {
       "source": "manual-therapy",
       "target": "physical-therapy",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "age-related-symptoms",
-      "target": "chronic-fatigue",
       "weight": 1,
       "tenant_keys": []
     },
@@ -849,80 +529,122 @@
       "tenant_keys": []
     },
     {
-      "source": "exercise-therapy",
-      "target": "muscle-relaxants",
-      "weight": 2,
-      "tenant_keys": []
-    },
-    {
       "source": "anti-inflammatory-analgesics",
       "target": "physical-therapy",
       "weight": 1,
       "tenant_keys": []
     },
     {
-      "source": "anti-inflammatory-analgesics",
-      "target": "exercise-therapy",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
       "source": "elbow-pain",
       "target": "lateral-epicondylitis",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "lateral-epicondylitis",
-      "target": "treatment-for-lateral-epicondylitis",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
       "source": "elbow",
       "target": "lateral-epicondylitis",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "elbow-pain",
-      "target": "treatment-for-lateral-epicondylitis",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
       "source": "elbow",
       "target": "elbow-pain",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
-      "source": "elbow",
-      "target": "treatment-for-lateral-epicondylitis",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "chiropractic",
-      "target": "straight-neck",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "chiropractic",
-      "target": "neck-pain",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "chiropractic",
+      "source": "frozen-shoulder",
       "target": "shoulder-pain",
       "weight": 1,
       "tenant_keys": []
     },
     {
-      "source": "chiropractic",
+      "source": "calcific-tendinitis",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "calcific-tendinitis",
+      "target": "frozen-shoulder",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "knee-osteoarthritis",
+      "target": "knee-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "lateral-epicondylitis",
       "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "elbow-pain",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "elbow",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "cervical-spine",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-spine",
+      "target": "neck-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "nerve-block-injection",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-spine",
+      "target": "nerve-block-injection",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-spine",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "lumbar-disc-herniation",
+      "target": "nerve-block-injection",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "nerve-block-injection",
+      "target": "sciatica",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cauda-equina-syndrome",
+      "target": "nerve-block-injection",
       "weight": 1,
       "tenant_keys": []
     }
