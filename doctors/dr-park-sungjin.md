@@ -14,7 +14,9 @@ hospital: 더웰스 노원
 hospital_id: hospital-thewells-nowon
 hospital_website: 'https://thewellsr.kr'
 specialties:
-  - ''
+  - 통증의학
+  - 항노화
+  - 웰니스
 social:
   naver_blog: 'https://blog.naver.com/thewellsr'
 ---
