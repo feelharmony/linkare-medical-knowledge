@@ -4,7 +4,8 @@ entity_id: knee-pain
 entity_type: symptom
 permalink: /symptoms/knee-pain/
 title: 무릎 통증
-description: 무릎 부위에서 느껴지는 통증
+description: 무릎 관절 부위의 통증
+title_en: knee pain
 last_reviewed: '2026-04-25'
 source_count: 0
 version: 2
