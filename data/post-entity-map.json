@@ -246,5 +246,212 @@
     "doctor_id": "kwon-jin-yeol",
     "hospital_id": "ansim-tun-tun-pain-medicine",
     "updated_at": "2026-04-25"
+  },
+  {
+    "post_path": "content/apfree/df09dd16-391f-4453-a8f3-2e241f254522.md",
+    "source_article_url": "https://www.ansimpainfree.kr/blog/lumbar-disc-herniation",
+    "source_article_title": null,
+    "primary_entity_id": "lumbar-disc-herniation",
+    "entity_ids": [
+      "lumbar-disc-herniation"
+    ],
+    "updated_at": "2026-04-27"
+  },
+  {
+    "post_path": "https://blog.naver.com/ansimpainfree/224238794954",
+    "source_article_url": "https://blog.naver.com/ansimpainfree/224238794954",
+    "source_article_title": null,
+    "primary_entity_id": "cervical-disc-herniation",
+    "entity_ids": [
+      "cervical-disc-herniation",
+      "lumbar-disc-herniation"
+    ],
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree",
+    "updated_at": "2026-04-27"
+  },
+  {
+    "post_path": "content/apfree/ko/2026-04-12-30e16772.md",
+    "source_article_url": "https://blog.naver.com/ansimpainfree/224242287894",
+    "source_article_title": null,
+    "primary_entity_id": "calcific-tendinitis",
+    "entity_ids": [
+      "calcific-tendinitis",
+      "shoulder-pain"
+    ],
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree",
+    "updated_at": "2026-04-27"
+  },
+  {
+    "post_path": "content/apfree/ko/2026-04-12-41bbbb12.md",
+    "source_article_url": "https://blog.naver.com/ansimpainfree/224246149148",
+    "source_article_title": null,
+    "primary_entity_id": "cervical-disc-herniation",
+    "entity_ids": [
+      "cervical-disc-herniation",
+      "nerve-block-injection",
+      "eswt",
+      "manual-therapy"
+    ],
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree",
+    "updated_at": "2026-04-27"
+  },
+  {
+    "post_path": "content/apfree/ko/regenerative/prp.md",
+    "source_article_url": "https://blog.naver.com/ansimpainfree/224248542822",
+    "source_article_title": null,
+    "primary_entity_id": "knee-osteoarthritis",
+    "entity_ids": [
+      "knee-osteoarthritis",
+      "prp-injection"
+    ],
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree",
+    "updated_at": "2026-04-27"
+  },
+  {
+    "post_path": "content/thr/ko/pain/nowon-orthopedic-non-surgical-treatment-3-types.md",
+    "source_article_url": "https://blog.naver.com/thewellsr/224249809090",
+    "source_article_title": null,
+    "primary_entity_id": "straight-neck",
+    "entity_ids": [
+      "straight-neck",
+      "cervical-disc-herniation",
+      "lumbar-disc-herniation",
+      "sciatica",
+      "calcific-tendinitis"
+    ],
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon",
+    "updated_at": "2026-04-27"
+  },
+  {
+    "post_path": "content/thr/ko/pain/nowon-back-pain-treatment-3-methods.md",
+    "source_article_url": "https://blog.naver.com/thewellsr/224253277205",
+    "source_article_title": null,
+    "primary_entity_id": "lumbar-disc-herniation",
+    "entity_ids": [
+      "lumbar-disc-herniation",
+      "lower-back-pain",
+      "spinal-stenosis"
+    ],
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon",
+    "updated_at": "2026-04-27"
+  },
+  {
+    "post_path": "content/apfree/ko/nerve-block-pain-sleep.md",
+    "source_article_url": "https://blog.naver.com/ansimpainfree/224254679040",
+    "source_article_title": null,
+    "primary_entity_id": "cervical-disc-herniation",
+    "entity_ids": [
+      "cervical-disc-herniation",
+      "lumbar-disc-herniation",
+      "spinal-stenosis",
+      "prolotherapy",
+      "prp-injection",
+      "eswt"
+    ],
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree",
+    "updated_at": "2026-04-27"
+  },
+  {
+    "post_path": "hi-ems",
+    "source_article_url": "https://blog.naver.com/thewellsr/224260051615",
+    "source_article_title": null,
+    "primary_entity_id": "frozen-shoulder",
+    "entity_ids": [
+      "frozen-shoulder",
+      "carpal-tunnel-syndrome",
+      "lateral-epicondylitis",
+      "spondylolisthesis",
+      "straight-neck",
+      "knee-osteoarthritis",
+      "lumbar-disc-herniation",
+      "cervical-disc-herniation"
+    ],
+    "hospital_id": "hospital-thewells-nowon",
+    "updated_at": "2026-04-27"
+  },
+  {
+    "post_path": "how-to-choose-back-pain-hospital-daegu",
+    "source_article_url": "https://blog.naver.com/ansimpainfree/224260099138",
+    "source_article_title": null,
+    "primary_entity_id": "lumbar-disc-herniation",
+    "entity_ids": [
+      "lumbar-disc-herniation",
+      "cauda-equina-syndrome",
+      "nerve-block-injection",
+      "eswt",
+      "rehabilitation-therapy"
+    ],
+    "updated_at": "2026-04-27"
+  },
+  {
+    "post_path": "hair-loss-treatment-why-medication-alone-isnt-enough",
+    "source_article_url": "https://blog.naver.com/thewellsr/224262330975",
+    "source_article_title": null,
+    "primary_entity_id": "androgenetic-alopecia",
+    "entity_ids": [
+      "androgenetic-alopecia",
+      "hair-loss",
+      "hair-loss-medication"
+    ],
+    "hospital_id": "hospital-thewells-nowon",
+    "updated_at": "2026-04-27"
+  },
+  {
+    "post_path": "https://thewellsr.kr/blog/shoulder-impingement-syndrome-causes-treatment",
+    "source_article_url": "https://thewellsr.kr/blog/shoulder-impingement-syndrome-causes-treatment",
+    "source_article_title": null,
+    "primary_entity_id": "shoulder",
+    "entity_ids": [
+      "shoulder",
+      "rotator-cuff-tear",
+      "frozen-shoulder"
+    ],
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon",
+    "updated_at": "2026-04-27"
+  },
+  {
+    "post_path": "leg-pain-before-back-pain-herniated-disk",
+    "source_article_url": "https://blog.naver.com/ansimpainfree/224263563437",
+    "source_article_title": null,
+    "primary_entity_id": "lumbar-disc-herniation",
+    "entity_ids": [
+      "lumbar-disc-herniation",
+      "cauda-equina-syndrome"
+    ],
+    "updated_at": "2026-04-27"
+  },
+  {
+    "post_path": "https://thewellsr.kr/knowledge/extracorporeal-shock-wave-therapy-results",
+    "source_article_url": "https://thewellsr.kr/knowledge/extracorporeal-shock-wave-therapy-results",
+    "source_article_title": null,
+    "primary_entity_id": "eswt",
+    "entity_ids": [
+      "eswt"
+    ],
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon",
+    "updated_at": "2026-04-27"
+  },
+  {
+    "post_path": "https://ansimpainfree.kr/knowledge/daegu-extracorporeal-shock-wave-focused-radial-injection",
+    "source_article_url": "https://ansimpainfree.kr/knowledge/daegu-extracorporeal-shock-wave-focused-radial-injection",
+    "source_article_title": null,
+    "primary_entity_id": "eswt",
+    "entity_ids": [
+      "eswt",
+      "prolotherapy",
+      "nerve-block-injection"
+    ],
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree",
+    "updated_at": "2026-04-27"
   }
 ]
