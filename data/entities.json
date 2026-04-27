@@ -8,7 +8,7 @@
     "description_ko": "더웰스의원 노원 통증·웰니스·탈모 전문의",
     "status": "approved",
     "last_reviewed": "2026-04-24",
-    "source_count": 0,
+    "source_count": 4,
     "version": 1
   },
   {
@@ -20,7 +20,7 @@
     "description_ko": "안심튼튼마취통증의학과 통증의학과 전문의",
     "status": "approved",
     "last_reviewed": "2026-04-24",
-    "source_count": 0,
+    "source_count": 6,
     "version": 1
   },
   {
@@ -32,7 +32,7 @@
     "description_ko": "",
     "status": "approved",
     "last_reviewed": "2026-04-24",
-    "source_count": 0,
+    "source_count": 6,
     "version": 1
   },
   {
@@ -44,7 +44,7 @@
     "description_ko": "",
     "status": "approved",
     "last_reviewed": "2026-04-24",
-    "source_count": 0,
+    "source_count": 6,
     "version": 1
   },
   {
@@ -63,18 +63,6 @@
     "version": 2
   },
   {
-    "id": "physical-therapy",
-    "type": "treatment",
-    "name_ko": "물리치료",
-    "name_en": "physical therapy",
-    "aliases": [],
-    "description_ko": "물리적 모달리티(전기·열·초음파 등)를 활용한 치료",
-    "status": "approved",
-    "last_reviewed": "2026-04-25",
-    "source_count": 8,
-    "version": 5
-  },
-  {
     "id": "frozen-shoulder",
     "type": "condition",
     "name_ko": "오십견",
@@ -87,7 +75,7 @@
     "description_ko": "어깨 관절낭이 유착되어 운동 범위가 제한되는 질환",
     "status": "approved",
     "last_reviewed": "2026-04-25",
-    "source_count": 1,
+    "source_count": 3,
     "version": 2
   },
   {
@@ -102,7 +90,7 @@
     "description_ko": "요추 추간판이 탈출하여 신경을 압박하는 질환",
     "status": "approved",
     "last_reviewed": "2026-04-25",
-    "source_count": 4,
+    "source_count": 12,
     "version": 4
   },
   {
@@ -116,7 +104,7 @@
     "description_ko": "어깨 관절 부위",
     "status": "approved",
     "last_reviewed": "2026-04-25",
-    "source_count": 0,
+    "source_count": 1,
     "version": 2
   },
   {
@@ -146,7 +134,7 @@
     "description_ko": "경추 정상 만곡이 소실된 자세 변형",
     "status": "approved",
     "last_reviewed": "2026-04-23",
-    "source_count": 4,
+    "source_count": 6,
     "version": 5
   },
   {
@@ -195,7 +183,7 @@
     "description_ko": "좌골신경 압박에 의한 엉덩이~다리 방사통",
     "status": "approved",
     "last_reviewed": "2026-04-25",
-    "source_count": 4,
+    "source_count": 5,
     "version": 4
   },
   {
@@ -226,7 +214,7 @@
     "description_ko": "자가 혈액에서 분리한 혈소판 풍부 혈장 주사",
     "status": "approved",
     "last_reviewed": "2026-04-23",
-    "source_count": 1,
+    "source_count": 3,
     "version": 2
   },
   {
@@ -241,7 +229,7 @@
     "description_ko": "안드로젠 호르몬에 의한 유전성 탈모",
     "status": "approved",
     "last_reviewed": "2026-04-25",
-    "source_count": 1,
+    "source_count": 2,
     "version": 3
   },
   {
@@ -272,8 +260,36 @@
     "description_ko": "어깨 관절 부위의 통증 (회전근개·오십견 영역)",
     "status": "approved",
     "last_reviewed": "2026-04-23",
-    "source_count": 3,
+    "source_count": 4,
     "version": 3
+  },
+  {
+    "id": "physical-therapy",
+    "type": "treatment",
+    "name_ko": "물리치료",
+    "name_en": "physical therapy",
+    "aliases": [],
+    "description_ko": "물리적 모달리티(전기·열·초음파 등)를 활용한 치료",
+    "status": "approved",
+    "last_reviewed": "2026-04-25",
+    "source_count": 8,
+    "version": 5
+  },
+  {
+    "id": "knee-osteoarthritis",
+    "type": "condition",
+    "name_ko": "무릎 관절염",
+    "name_en": "knee osteoarthritis",
+    "aliases": [
+      "퇴행성 관절염",
+      "슬관절염",
+      "무릎 퇴행성 관절염"
+    ],
+    "description_ko": "무릎 연골 마모로 발생하는 퇴행성 관절 질환",
+    "status": "approved",
+    "last_reviewed": "2026-04-25",
+    "source_count": 3,
+    "version": 2
   },
   {
     "id": "cervical-disc-herniation",
@@ -286,7 +302,7 @@
     "description_ko": "경추 추간판이 탈출하여 신경을 압박하는 질환",
     "status": "approved",
     "last_reviewed": "2026-04-25",
-    "source_count": 2,
+    "source_count": 7,
     "version": 3
   },
   {
@@ -298,7 +314,7 @@
     "description_ko": "마미신경 다발 압박으로 발생하는 응급 신경 증후군",
     "status": "approved",
     "last_reviewed": "2026-04-25",
-    "source_count": 4,
+    "source_count": 6,
     "version": 4
   },
   {
@@ -328,7 +344,7 @@
     "description_ko": "척추관이 좁아져 신경을 압박하는 질환",
     "status": "approved",
     "last_reviewed": null,
-    "source_count": 0,
+    "source_count": 2,
     "version": 1
   },
   {
@@ -357,7 +373,7 @@
     "description_ko": "척추뼈가 앞으로 미끄러지는 질환",
     "status": "approved",
     "last_reviewed": null,
-    "source_count": 0,
+    "source_count": 1,
     "version": 1
   },
   {
@@ -372,7 +388,7 @@
     "description_ko": "회전근개 힘줄에 석회가 침착되어 통증을 유발하는 질환",
     "status": "approved",
     "last_reviewed": "2026-04-25",
-    "source_count": 1,
+    "source_count": 3,
     "version": 2
   },
   {
@@ -388,7 +404,7 @@
     "description_ko": "신경 주위에 약물을 주사하여 통증을 차단하는 시술",
     "status": "approved",
     "last_reviewed": "2026-04-25",
-    "source_count": 3,
+    "source_count": 6,
     "version": 3
   },
   {
@@ -403,7 +419,7 @@
     "description_ko": "팔꿈치 외측 힘줄의 만성 손상",
     "status": "approved",
     "last_reviewed": "2026-04-25",
-    "source_count": 2,
+    "source_count": 3,
     "version": 3
   },
   {
@@ -432,7 +448,7 @@
     "description_ko": "어깨를 움직이는 회전근개 힘줄의 손상",
     "status": "approved",
     "last_reviewed": null,
-    "source_count": 0,
+    "source_count": 1,
     "version": 1
   },
   {
@@ -461,7 +477,7 @@
     "description_ko": "손목의 정중신경이 압박되어 발생하는 질환",
     "status": "approved",
     "last_reviewed": null,
-    "source_count": 0,
+    "source_count": 1,
     "version": 1
   },
   {
@@ -493,22 +509,6 @@
     "status": "approved",
     "last_reviewed": "2026-04-23",
     "source_count": 0,
-    "version": 2
-  },
-  {
-    "id": "knee-osteoarthritis",
-    "type": "condition",
-    "name_ko": "무릎 관절염",
-    "name_en": "knee osteoarthritis",
-    "aliases": [
-      "퇴행성 관절염",
-      "슬관절염",
-      "무릎 퇴행성 관절염"
-    ],
-    "description_ko": "무릎 연골 마모로 발생하는 퇴행성 관절 질환",
-    "status": "approved",
-    "last_reviewed": "2026-04-25",
-    "source_count": 1,
     "version": 2
   },
   {
@@ -628,7 +628,7 @@
     "description_ko": "운동·기능회복을 위한 치료",
     "status": "approved",
     "last_reviewed": "2026-04-23",
-    "source_count": 1,
+    "source_count": 2,
     "version": 2
   },
   {
@@ -644,7 +644,7 @@
     "description_ko": "체외에서 충격파를 가해 조직 회복을 유도하는 치료",
     "status": "approved",
     "last_reviewed": null,
-    "source_count": 0,
+    "source_count": 5,
     "version": 1
   },
   {
@@ -746,7 +746,7 @@
     "description_ko": "인대·힘줄을 자극하여 강화하는 증식 치료",
     "status": "approved",
     "last_reviewed": null,
-    "source_count": 0,
+    "source_count": 2,
     "version": 1
   },
   {
@@ -761,7 +761,7 @@
     "description_ko": "요추 주변 구조의 문제로 발생하는 통증",
     "status": "approved",
     "last_reviewed": "2026-04-25",
-    "source_count": 3,
+    "source_count": 4,
     "version": 4
   },
   {
@@ -802,7 +802,7 @@
     "description_ko": "모발이 빠지거나 가늘어지는 증상",
     "status": "approved",
     "last_reviewed": "2026-04-23",
-    "source_count": 1,
+    "source_count": 2,
     "version": 3
   },
   {
@@ -819,7 +819,7 @@
     "description_ko": "손으로 근골격계를 교정하는 비수술 치료",
     "status": "approved",
     "last_reviewed": "2026-04-23",
-    "source_count": 2,
+    "source_count": 3,
     "version": 3
   },
   {
@@ -904,7 +904,7 @@
     "description_ko": "미녹시딜·피나스테리드 등 탈모 약물 치료",
     "status": "approved",
     "last_reviewed": null,
-    "source_count": 0,
+    "source_count": 1,
     "version": 1
   },
   {
