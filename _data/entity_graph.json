@@ -1,6 +1,38 @@
 {
   "nodes": [
     {
+      "id": "dr-park-sungjin",
+      "type": "doctor",
+      "name_ko": "박성진 원장",
+      "name_en": "Dr. Park Sungjin",
+      "post_count": 4,
+      "tenant_keys": []
+    },
+    {
+      "id": "dr-kwon-jinyeol",
+      "type": "doctor",
+      "name_ko": "권진열 원장",
+      "name_en": "Dr. Kwon Jinyeol",
+      "post_count": 6,
+      "tenant_keys": []
+    },
+    {
+      "id": "hospital-ansimpainfree",
+      "type": "hospital",
+      "name_ko": "안심튼튼마취통증의학과",
+      "name_en": "Ansim Painfree Clinic",
+      "post_count": 6,
+      "tenant_keys": []
+    },
+    {
+      "id": "hospital-thewells-nowon",
+      "type": "hospital",
+      "name_ko": "더웰스의원 노원",
+      "name_en": "The Wells Clinic Nowon",
+      "post_count": 6,
+      "tenant_keys": []
+    },
+    {
       "id": "exosome-therapy",
       "type": "treatment",
       "name_ko": "엑소좀 치료",
@@ -9,19 +41,11 @@
       "tenant_keys": []
     },
     {
-      "id": "physical-therapy",
-      "type": "treatment",
-      "name_ko": "물리치료",
-      "name_en": "physical therapy",
-      "post_count": 8,
-      "tenant_keys": []
-    },
-    {
       "id": "frozen-shoulder",
       "type": "condition",
       "name_ko": "오십견",
       "name_en": "frozen shoulder",
-      "post_count": 1,
+      "post_count": 3,
       "tenant_keys": []
     },
     {
@@ -29,7 +53,15 @@
       "type": "condition",
       "name_ko": "허리디스크",
       "name_en": "lumbar disc herniation",
-      "post_count": 4,
+      "post_count": 12,
+      "tenant_keys": []
+    },
+    {
+      "id": "shoulder",
+      "type": "body_part",
+      "name_ko": "어깨",
+      "name_en": "shoulder",
+      "post_count": 1,
       "tenant_keys": []
     },
     {
@@ -45,7 +77,7 @@
       "type": "condition",
       "name_ko": "일자목",
       "name_en": "straight neck",
-      "post_count": 5,
+      "post_count": 7,
       "tenant_keys": []
     },
     {
@@ -53,7 +85,7 @@
       "type": "symptom",
       "name_ko": "좌골신경통",
       "name_en": "sciatica",
-      "post_count": 4,
+      "post_count": 5,
       "tenant_keys": []
     },
     {
@@ -69,7 +101,7 @@
       "type": "treatment",
       "name_ko": "PRP 주사",
       "name_en": "platelet-rich plasma injection",
-      "post_count": 1,
+      "post_count": 3,
       "tenant_keys": []
     },
     {
@@ -77,7 +109,7 @@
       "type": "condition",
       "name_ko": "남성형 탈모",
       "name_en": "androgenetic alopecia",
-      "post_count": 1,
+      "post_count": 2,
       "tenant_keys": []
     },
     {
@@ -93,6 +125,22 @@
       "type": "symptom",
       "name_ko": "어깨 통증",
       "name_en": "shoulder pain",
+      "post_count": 4,
+      "tenant_keys": []
+    },
+    {
+      "id": "physical-therapy",
+      "type": "treatment",
+      "name_ko": "물리치료",
+      "name_en": "physical therapy",
+      "post_count": 8,
+      "tenant_keys": []
+    },
+    {
+      "id": "knee-osteoarthritis",
+      "type": "condition",
+      "name_ko": "무릎 관절염",
+      "name_en": "knee osteoarthritis",
       "post_count": 3,
       "tenant_keys": []
     },
@@ -101,7 +149,7 @@
       "type": "condition",
       "name_ko": "목디스크",
       "name_en": "cervical disc herniation",
-      "post_count": 2,
+      "post_count": 7,
       "tenant_keys": []
     },
     {
@@ -109,7 +157,7 @@
       "type": "condition",
       "name_ko": "마미증후군",
       "name_en": "cauda equina syndrome",
-      "post_count": 4,
+      "post_count": 6,
       "tenant_keys": []
     },
     {
@@ -121,11 +169,27 @@
       "tenant_keys": []
     },
     {
+      "id": "spinal-stenosis",
+      "type": "condition",
+      "name_ko": "척추관 협착증",
+      "name_en": "spinal stenosis",
+      "post_count": 2,
+      "tenant_keys": []
+    },
+    {
+      "id": "spondylolisthesis",
+      "type": "condition",
+      "name_ko": "척추전방전위증",
+      "name_en": "spondylolisthesis",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
       "id": "calcific-tendinitis",
       "type": "condition",
       "name_ko": "석회성 건염",
       "name_en": "calcific tendinitis",
-      "post_count": 1,
+      "post_count": 3,
       "tenant_keys": []
     },
     {
@@ -133,7 +197,7 @@
       "type": "treatment",
       "name_ko": "신경차단술",
       "name_en": "nerve block injection",
-      "post_count": 3,
+      "post_count": 6,
       "tenant_keys": []
     },
     {
@@ -141,14 +205,22 @@
       "type": "condition",
       "name_ko": "외측상과염",
       "name_en": "lateral epicondylitis",
-      "post_count": 2,
+      "post_count": 3,
       "tenant_keys": []
     },
     {
-      "id": "knee-osteoarthritis",
+      "id": "rotator-cuff-tear",
       "type": "condition",
-      "name_ko": "무릎 관절염",
-      "name_en": "knee osteoarthritis",
+      "name_ko": "회전근개 파열",
+      "name_en": "rotator cuff tear",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "carpal-tunnel-syndrome",
+      "type": "condition",
+      "name_ko": "손목터널증후군",
+      "name_en": "carpal tunnel syndrome",
       "post_count": 1,
       "tenant_keys": []
     },
@@ -157,7 +229,15 @@
       "type": "treatment",
       "name_ko": "재활치료",
       "name_en": "rehabilitation therapy",
-      "post_count": 1,
+      "post_count": 2,
+      "tenant_keys": []
+    },
+    {
+      "id": "eswt",
+      "type": "treatment",
+      "name_ko": "체외충격파",
+      "name_en": "extracorporeal shock wave therapy",
+      "post_count": 5,
       "tenant_keys": []
     },
     {
@@ -169,11 +249,19 @@
       "tenant_keys": []
     },
     {
+      "id": "prolotherapy",
+      "type": "treatment",
+      "name_ko": "프롤로테라피",
+      "name_en": "prolotherapy",
+      "post_count": 2,
+      "tenant_keys": []
+    },
+    {
       "id": "lower-back-pain",
       "type": "symptom",
       "name_ko": "허리통증",
       "name_en": "lower back pain",
-      "post_count": 3,
+      "post_count": 4,
       "tenant_keys": []
     },
     {
@@ -189,7 +277,7 @@
       "type": "symptom",
       "name_ko": "탈모",
       "name_en": "hair loss",
-      "post_count": 1,
+      "post_count": 2,
       "tenant_keys": []
     },
     {
@@ -197,7 +285,7 @@
       "type": "treatment",
       "name_ko": "도수치료",
       "name_en": "manual therapy",
-      "post_count": 2,
+      "post_count": 3,
       "tenant_keys": []
     },
     {
@@ -225,6 +313,14 @@
       "tenant_keys": []
     },
     {
+      "id": "hair-loss-medication",
+      "type": "treatment",
+      "name_ko": "탈모 약물치료",
+      "name_en": "hair loss medication",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
       "id": "cervical-spine",
       "type": "body_part",
       "name_ko": "경추",
@@ -243,13 +339,13 @@
     {
       "source": "cervical-disc-herniation",
       "target": "nerve-block-injection",
-      "weight": 2,
+      "weight": 3,
       "tenant_keys": []
     },
     {
       "source": "cervical-disc-herniation",
       "target": "manual-therapy",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
@@ -279,13 +375,13 @@
     {
       "source": "manual-therapy",
       "target": "nerve-block-injection",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
       "source": "nerve-block-injection",
       "target": "rehabilitation-therapy",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
@@ -297,19 +393,19 @@
     {
       "source": "lower-back-pain",
       "target": "lumbar-disc-herniation",
-      "weight": 3,
+      "weight": 4,
       "tenant_keys": []
     },
     {
       "source": "lumbar-disc-herniation",
       "target": "sciatica",
-      "weight": 4,
+      "weight": 5,
       "tenant_keys": []
     },
     {
       "source": "cauda-equina-syndrome",
       "target": "lumbar-disc-herniation",
-      "weight": 4,
+      "weight": 6,
       "tenant_keys": []
     },
     {
@@ -381,7 +477,7 @@
     {
       "source": "androgenetic-alopecia",
       "target": "hair-loss",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
@@ -561,7 +657,7 @@
     {
       "source": "calcific-tendinitis",
       "target": "shoulder-pain",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
@@ -633,7 +729,7 @@
     {
       "source": "lumbar-disc-herniation",
       "target": "nerve-block-injection",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
@@ -645,6 +741,696 @@
     {
       "source": "cauda-equina-syndrome",
       "target": "nerve-block-injection",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "lumbar-disc-herniation",
+      "weight": 4,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "dr-kwon-jinyeol",
+      "weight": 3,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "hospital-ansimpainfree",
+      "weight": 3,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "lumbar-disc-herniation",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-ansimpainfree",
+      "target": "lumbar-disc-herniation",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "hospital-ansimpainfree",
+      "weight": 6,
+      "tenant_keys": []
+    },
+    {
+      "source": "calcific-tendinitis",
+      "target": "dr-kwon-jinyeol",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "calcific-tendinitis",
+      "target": "hospital-ansimpainfree",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-ansimpainfree",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "eswt",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "eswt",
+      "target": "nerve-block-injection",
+      "weight": 3,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "nerve-block-injection",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-ansimpainfree",
+      "target": "nerve-block-injection",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "eswt",
+      "target": "manual-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "eswt",
+      "weight": 3,
+      "tenant_keys": []
+    },
+    {
+      "source": "eswt",
+      "target": "hospital-ansimpainfree",
+      "weight": 3,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "manual-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-ansimpainfree",
+      "target": "manual-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "knee-osteoarthritis",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "knee-osteoarthritis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-ansimpainfree",
+      "target": "knee-osteoarthritis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "prp-injection",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-ansimpainfree",
+      "target": "prp-injection",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "straight-neck",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "lumbar-disc-herniation",
+      "target": "straight-neck",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "sciatica",
+      "target": "straight-neck",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "calcific-tendinitis",
+      "target": "straight-neck",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "straight-neck",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "straight-neck",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "sciatica",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "calcific-tendinitis",
+      "target": "cervical-disc-herniation",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "dr-park-sungjin",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "hospital-thewells-nowon",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "calcific-tendinitis",
+      "target": "lumbar-disc-herniation",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "lumbar-disc-herniation",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "lumbar-disc-herniation",
+      "weight": 3,
+      "tenant_keys": []
+    },
+    {
+      "source": "calcific-tendinitis",
+      "target": "sciatica",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "sciatica",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "sciatica",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "calcific-tendinitis",
+      "target": "dr-park-sungjin",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "calcific-tendinitis",
+      "target": "hospital-thewells-nowon",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "hospital-thewells-nowon",
+      "weight": 4,
+      "tenant_keys": []
+    },
+    {
+      "source": "lumbar-disc-herniation",
+      "target": "spinal-stenosis",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "lower-back-pain",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "lower-back-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "lower-back-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "prolotherapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "lumbar-disc-herniation",
+      "target": "prolotherapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "lumbar-disc-herniation",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "eswt",
+      "target": "lumbar-disc-herniation",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "prolotherapy",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "prp-injection",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "eswt",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-ansimpainfree",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "prolotherapy",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "eswt",
+      "target": "prolotherapy",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "prolotherapy",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-ansimpainfree",
+      "target": "prolotherapy",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "eswt",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "carpal-tunnel-syndrome",
+      "target": "frozen-shoulder",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "frozen-shoulder",
+      "target": "lateral-epicondylitis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "frozen-shoulder",
+      "target": "spondylolisthesis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "frozen-shoulder",
+      "target": "straight-neck",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "frozen-shoulder",
+      "target": "knee-osteoarthritis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "frozen-shoulder",
+      "target": "lumbar-disc-herniation",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "frozen-shoulder",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "frozen-shoulder",
+      "target": "hospital-thewells-nowon",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "carpal-tunnel-syndrome",
+      "target": "lateral-epicondylitis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "carpal-tunnel-syndrome",
+      "target": "spondylolisthesis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "carpal-tunnel-syndrome",
+      "target": "straight-neck",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "carpal-tunnel-syndrome",
+      "target": "knee-osteoarthritis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "carpal-tunnel-syndrome",
+      "target": "lumbar-disc-herniation",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "carpal-tunnel-syndrome",
+      "target": "cervical-disc-herniation",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "carpal-tunnel-syndrome",
+      "target": "hospital-thewells-nowon",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "lateral-epicondylitis",
+      "target": "spondylolisthesis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "lateral-epicondylitis",
+      "target": "straight-neck",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "knee-osteoarthritis",
+      "target": "lateral-epicondylitis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "lateral-epicondylitis",
+      "target": "lumbar-disc-herniation",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "lateral-epicondylitis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "lateral-epicondylitis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "spondylolisthesis",
+      "target": "straight-neck",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "knee-osteoarthritis",
+      "target": "spondylolisthesis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "lumbar-disc-herniation",
+      "target": "spondylolisthesis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "spondylolisthesis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "spondylolisthesis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "knee-osteoarthritis",
+      "target": "straight-neck",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "knee-osteoarthritis",
+      "target": "lumbar-disc-herniation",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "knee-osteoarthritis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "knee-osteoarthritis",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "lumbar-disc-herniation",
+      "target": "rehabilitation-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cauda-equina-syndrome",
+      "target": "eswt",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cauda-equina-syndrome",
+      "target": "rehabilitation-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "eswt",
+      "target": "rehabilitation-therapy",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "hair-loss-medication",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "hospital-thewells-nowon",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hair-loss",
+      "target": "hair-loss-medication",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hair-loss",
+      "target": "hospital-thewells-nowon",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hair-loss-medication",
+      "target": "hospital-thewells-nowon",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "rotator-cuff-tear",
+      "target": "shoulder",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "frozen-shoulder",
+      "target": "shoulder",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "shoulder",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "shoulder",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "frozen-shoulder",
+      "target": "rotator-cuff-tear",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "rotator-cuff-tear",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "rotator-cuff-tear",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "frozen-shoulder",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "eswt",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "eswt",
+      "target": "hospital-thewells-nowon",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "nerve-block-injection",
+      "target": "prolotherapy",
       "weight": 1,
       "tenant_keys": []
     }
