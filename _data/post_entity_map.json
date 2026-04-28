@@ -50,20 +50,24 @@
   },
   {
     "post_path": "content/thr/ko/hair/hair-loss-regeneration-injection-treatment.md",
+    "source_article_url": "https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment",
+    "source_article_title": null,
     "primary_entity_id": "hair-loss",
     "entity_ids": [
       "hair-loss",
       "regenerative-injection-treatment",
       "prp-injection",
-      "adipose-derived-stem-cells",
+      "adipose-derived-stem-cell-injection",
       "exosome-therapy",
       "androgenetic-alopecia",
       "alopecia-areata"
     ],
-    "updated_at": "2026-04-23"
+    "updated_at": "2026-04-28"
   },
   {
     "post_path": "content/thr/ko/longevity/nad-iv-therapy.md",
+    "source_article_url": "https://thewellsr.kr/blog/nad",
+    "source_article_title": null,
     "primary_entity_id": "nad-infusion-therapy",
     "entity_ids": [
       "nad-infusion-therapy",
@@ -71,7 +75,7 @@
       "chronic-fatigue",
       "dna-repair"
     ],
-    "updated_at": "2026-04-23"
+    "updated_at": "2026-04-28"
   },
   {
     "post_path": "content/apfree/en/spine/herniated-disc-causes-symptoms-diagnosis.md",
@@ -178,6 +182,8 @@
   },
   {
     "post_path": "db:1bfebe68-fd4f-4fe4-89a0-4cd9cfe9ad08",
+    "source_article_url": "https://thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits",
+    "source_article_title": null,
     "primary_entity_id": "knee-pain",
     "entity_ids": [
       "knee-pain",
@@ -189,7 +195,7 @@
       "quadriceps-muscle",
       "patellar-tendon"
     ],
-    "updated_at": "2026-04-25"
+    "updated_at": "2026-04-28"
   },
   {
     "post_path": "db:0dac3a87-7c81-4d6a-a7e2-cb73deadb1d5",
@@ -208,6 +214,8 @@
   },
   {
     "post_path": "db:80ee22ec-385d-476d-95d4-ca6dceb541c8",
+    "source_article_url": "https://thewellsr.kr/blog/nad",
+    "source_article_title": null,
     "primary_entity_id": "nad-infusion-therapy",
     "entity_ids": [
       "nad-infusion-therapy",
@@ -215,7 +223,7 @@
       "chronic-fatigue",
       "dna-repair"
     ],
-    "updated_at": "2026-04-25"
+    "updated_at": "2026-04-28"
   },
   {
     "post_path": "db:f5bbae53-c3b0-4c30-8782-421eaf01ab05",
@@ -289,7 +297,7 @@
     ],
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon",
-    "updated_at": "2026-04-27"
+    "updated_at": "2026-04-28"
   },
   {
     "post_path": "https://thewellsr.kr/knowledge/extracorporeal-shock-wave-therapy-results",
@@ -301,7 +309,7 @@
     ],
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon",
-    "updated_at": "2026-04-27"
+    "updated_at": "2026-04-28"
   },
   {
     "post_path": "https://ansimpainfree.kr/knowledge/daegu-extracorporeal-shock-wave-focused-radial-injection",
@@ -315,6 +323,34 @@
     ],
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree",
-    "updated_at": "2026-04-27"
+    "updated_at": "2026-04-28"
+  },
+  {
+    "post_path": "db:76b6d7a7-9d81-48b8-9d54-60e521388a17",
+    "source_article_url": "https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment",
+    "source_article_title": null,
+    "primary_entity_id": "hair-loss",
+    "entity_ids": [
+      "hair-loss",
+      "regenerative-injection-treatment",
+      "androgenetic-alopecia",
+      "alopecia-areata",
+      "finasteride",
+      "minoxidil",
+      "platelet-rich-plasma",
+      "adipose-derived-stem-cells",
+      "exosomes"
+    ],
+    "updated_at": "2026-04-28"
+  },
+  {
+    "post_path": "https://thewellsr.kr/blog/golfers-elbow-medial-epicondylitis",
+    "source_article_url": "https://thewellsr.kr/blog/golfers-elbow-medial-epicondylitis",
+    "source_article_title": null,
+    "primary_entity_id": "medial-epicondylitis",
+    "entity_ids": [
+      "medial-epicondylitis"
+    ],
+    "updated_at": "2026-04-28"
   }
 ]
