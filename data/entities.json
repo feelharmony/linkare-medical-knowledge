@@ -8,7 +8,7 @@
     "description_ko": "더웰스의원 노원 통증·웰니스·탈모 전문의",
     "status": "approved",
     "last_reviewed": "2026-04-24",
-    "source_count": 4,
+    "source_count": 2,
     "version": 1
   },
   {
@@ -20,7 +20,7 @@
     "description_ko": "안심튼튼마취통증의학과 통증의학과 전문의",
     "status": "approved",
     "last_reviewed": "2026-04-24",
-    "source_count": 6,
+    "source_count": 1,
     "version": 1
   },
   {
@@ -32,7 +32,7 @@
     "description_ko": "",
     "status": "approved",
     "last_reviewed": "2026-04-24",
-    "source_count": 6,
+    "source_count": 1,
     "version": 1
   },
   {
@@ -44,7 +44,7 @@
     "description_ko": "",
     "status": "approved",
     "last_reviewed": "2026-04-24",
-    "source_count": 6,
+    "source_count": 2,
     "version": 1
   },
   {
@@ -58,8 +58,23 @@
     ],
     "description_ko": "엑소좀을 활용한 재생 치료",
     "status": "approved",
-    "last_reviewed": "2026-04-23",
+    "last_reviewed": null,
     "source_count": 1,
+    "version": 1
+  },
+  {
+    "id": "lumbar-disc-herniation",
+    "type": "condition",
+    "name_ko": "허리디스크",
+    "name_en": "lumbar disc herniation",
+    "aliases": [
+      "요추 추간판 탈출증",
+      "디스크"
+    ],
+    "description_ko": "요추 추간판이 탈출하여 신경을 압박하는 질환",
+    "status": "approved",
+    "last_reviewed": "2026-04-28",
+    "source_count": 5,
     "version": 2
   },
   {
@@ -74,52 +89,9 @@
     ],
     "description_ko": "어깨 관절낭이 유착되어 운동 범위가 제한되는 질환",
     "status": "approved",
-    "last_reviewed": "2026-04-25",
-    "source_count": 3,
-    "version": 2
-  },
-  {
-    "id": "lumbar-disc-herniation",
-    "type": "condition",
-    "name_ko": "허리디스크",
-    "name_en": "lumbar disc herniation",
-    "aliases": [
-      "요추 추간판 탈출증",
-      "디스크"
-    ],
-    "description_ko": "요추 추간판이 탈출하여 신경을 압박하는 질환",
-    "status": "approved",
-    "last_reviewed": "2026-04-25",
-    "source_count": 12,
-    "version": 4
-  },
-  {
-    "id": "shoulder",
-    "type": "body_part",
-    "name_ko": "어깨",
-    "name_en": "shoulder",
-    "aliases": [
-      "견관절"
-    ],
-    "description_ko": "어깨 관절 부위",
-    "status": "approved",
-    "last_reviewed": "2026-04-25",
-    "source_count": 1,
-    "version": 2
-  },
-  {
-    "id": "alopecia-areata",
-    "type": "condition",
-    "name_ko": "원형 탈모",
-    "name_en": "alopecia areata",
-    "aliases": [
-      "원형탈모증"
-    ],
-    "description_ko": "자가면역으로 발생하는 국소 탈모",
-    "status": "approved",
-    "last_reviewed": "2026-04-25",
-    "source_count": 1,
-    "version": 3
+    "last_reviewed": null,
+    "source_count": 2,
+    "version": 1
   },
   {
     "id": "straight-neck",
@@ -133,9 +105,37 @@
     ],
     "description_ko": "경추 정상 만곡이 소실된 자세 변형",
     "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 6,
-    "version": 5
+    "last_reviewed": "2026-04-28",
+    "source_count": 4,
+    "version": 2
+  },
+  {
+    "id": "alopecia-areata",
+    "type": "condition",
+    "name_ko": "원형 탈모",
+    "name_en": "alopecia areata",
+    "aliases": [
+      "원형탈모증"
+    ],
+    "description_ko": "자가면역으로 발생하는 국소 탈모",
+    "status": "approved",
+    "last_reviewed": null,
+    "source_count": 1,
+    "version": 1
+  },
+  {
+    "id": "shoulder",
+    "type": "body_part",
+    "name_ko": "어깨",
+    "name_en": "shoulder",
+    "aliases": [
+      "견관절"
+    ],
+    "description_ko": "어깨 관절 부위",
+    "status": "approved",
+    "last_reviewed": null,
+    "source_count": 1,
+    "version": 1
   },
   {
     "id": "wrist-pain",
@@ -172,21 +172,6 @@
     "version": 1
   },
   {
-    "id": "sciatica",
-    "type": "symptom",
-    "name_ko": "좌골신경통",
-    "name_en": "sciatica",
-    "aliases": [
-      "다리 방사통",
-      "좌골 신경통"
-    ],
-    "description_ko": "좌골신경 압박에 의한 엉덩이~다리 방사통",
-    "status": "approved",
-    "last_reviewed": "2026-04-25",
-    "source_count": 5,
-    "version": 4
-  },
-  {
     "id": "elbow",
     "type": "body_part",
     "name_ko": "팔꿈치",
@@ -196,9 +181,9 @@
     ],
     "description_ko": "팔꿈치 관절 부위",
     "status": "approved",
-    "last_reviewed": "2026-04-25",
+    "last_reviewed": null,
     "source_count": 2,
-    "version": 3
+    "version": 1
   },
   {
     "id": "prp-injection",
@@ -213,24 +198,24 @@
     ],
     "description_ko": "자가 혈액에서 분리한 혈소판 풍부 혈장 주사",
     "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 3,
-    "version": 2
+    "last_reviewed": null,
+    "source_count": 1,
+    "version": 1
   },
   {
-    "id": "androgenetic-alopecia",
-    "type": "condition",
-    "name_ko": "남성형 탈모",
-    "name_en": "androgenetic alopecia",
+    "id": "sciatica",
+    "type": "symptom",
+    "name_ko": "좌골신경통",
+    "name_en": "sciatica",
     "aliases": [
-      "M자 탈모",
-      "안드로젠성 탈모"
+      "다리 방사통",
+      "좌골 신경통"
     ],
-    "description_ko": "안드로젠 호르몬에 의한 유전성 탈모",
+    "description_ko": "좌골신경 압박에 의한 엉덩이~다리 방사통",
     "status": "approved",
-    "last_reviewed": "2026-04-25",
-    "source_count": 2,
-    "version": 3
+    "last_reviewed": null,
+    "source_count": 4,
+    "version": 1
   },
   {
     "id": "nad-infusion-therapy",
@@ -244,9 +229,36 @@
     ],
     "description_ko": "노화·피로 회복을 위한 NAD+ 정맥 주입 치료",
     "status": "approved",
-    "last_reviewed": "2026-04-25",
+    "last_reviewed": null,
     "source_count": 2,
-    "version": 4
+    "version": 1
+  },
+  {
+    "id": "androgenetic-alopecia",
+    "type": "condition",
+    "name_ko": "남성형 탈모",
+    "name_en": "androgenetic alopecia",
+    "aliases": [
+      "M자 탈모",
+      "안드로젠성 탈모"
+    ],
+    "description_ko": "안드로젠 호르몬에 의한 유전성 탈모",
+    "status": "approved",
+    "last_reviewed": null,
+    "source_count": 1,
+    "version": 1
+  },
+  {
+    "id": "physical-therapy",
+    "type": "treatment",
+    "name_ko": "물리치료",
+    "name_en": "physical therapy",
+    "aliases": [],
+    "description_ko": "물리적 모달리티(전기·열·초음파 등)를 활용한 치료",
+    "status": "approved",
+    "last_reviewed": null,
+    "source_count": 8,
+    "version": 1
   },
   {
     "id": "shoulder-pain",
@@ -259,21 +271,24 @@
     ],
     "description_ko": "어깨 관절 부위의 통증 (회전근개·오십견 영역)",
     "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 4,
-    "version": 3
+    "last_reviewed": "2026-04-28",
+    "source_count": 3,
+    "version": 2
   },
   {
-    "id": "physical-therapy",
-    "type": "treatment",
-    "name_ko": "물리치료",
-    "name_en": "physical therapy",
-    "aliases": [],
-    "description_ko": "물리적 모달리티(전기·열·초음파 등)를 활용한 치료",
+    "id": "lower-back-pain",
+    "type": "symptom",
+    "name_ko": "허리통증",
+    "name_en": "lower back pain",
+    "aliases": [
+      "요통",
+      "허리 아픔"
+    ],
+    "description_ko": "요추 주변 구조의 문제로 발생하는 통증",
     "status": "approved",
-    "last_reviewed": "2026-04-25",
-    "source_count": 8,
-    "version": 5
+    "last_reviewed": null,
+    "source_count": 3,
+    "version": 1
   },
   {
     "id": "knee-osteoarthritis",
@@ -287,35 +302,9 @@
     ],
     "description_ko": "무릎 연골 마모로 발생하는 퇴행성 관절 질환",
     "status": "approved",
-    "last_reviewed": "2026-04-25",
-    "source_count": 3,
-    "version": 2
-  },
-  {
-    "id": "cervical-disc-herniation",
-    "type": "condition",
-    "name_ko": "목디스크",
-    "name_en": "cervical disc herniation",
-    "aliases": [
-      "경추 추간판 탈출증"
-    ],
-    "description_ko": "경추 추간판이 탈출하여 신경을 압박하는 질환",
-    "status": "approved",
-    "last_reviewed": "2026-04-25",
-    "source_count": 7,
-    "version": 3
-  },
-  {
-    "id": "cauda-equina-syndrome",
-    "type": "condition",
-    "name_ko": "마미증후군",
-    "name_en": "cauda equina syndrome",
-    "aliases": [],
-    "description_ko": "마미신경 다발 압박으로 발생하는 응급 신경 증후군",
-    "status": "approved",
-    "last_reviewed": "2026-04-25",
-    "source_count": 6,
-    "version": 4
+    "last_reviewed": null,
+    "source_count": 1,
+    "version": 1
   },
   {
     "id": "neck-pain",
@@ -329,9 +318,23 @@
     ],
     "description_ko": "경추 및 승모근 영역의 통증 (어깨 관절 통증과 구분)",
     "status": "approved",
-    "last_reviewed": "2026-04-23",
+    "last_reviewed": "2026-04-28",
     "source_count": 6,
-    "version": 5
+    "version": 2
+  },
+  {
+    "id": "cervical-disc-herniation",
+    "type": "condition",
+    "name_ko": "목디스크",
+    "name_en": "cervical disc herniation",
+    "aliases": [
+      "경추 추간판 탈출증"
+    ],
+    "description_ko": "경추 추간판이 탈출하여 신경을 압박하는 질환",
+    "status": "approved",
+    "last_reviewed": "2026-04-28",
+    "source_count": 2,
+    "version": 3
   },
   {
     "id": "spinal-stenosis",
@@ -344,7 +347,7 @@
     "description_ko": "척추관이 좁아져 신경을 압박하는 질환",
     "status": "approved",
     "last_reviewed": null,
-    "source_count": 2,
+    "source_count": 0,
     "version": 1
   },
   {
@@ -373,39 +376,78 @@
     "description_ko": "척추뼈가 앞으로 미끄러지는 질환",
     "status": "approved",
     "last_reviewed": null,
+    "source_count": 0,
+    "version": 1
+  },
+  {
+    "id": "cauda-equina-syndrome",
+    "type": "condition",
+    "name_ko": "마미증후군",
+    "name_en": "cauda equina syndrome",
+    "aliases": [],
+    "description_ko": "마미신경 다발 압박으로 발생하는 응급 신경 증후군",
+    "status": "approved",
+    "last_reviewed": null,
+    "source_count": 4,
+    "version": 1
+  },
+  {
+    "id": "rehabilitation-therapy",
+    "type": "treatment",
+    "name_ko": "재활치료",
+    "name_en": "rehabilitation therapy",
+    "aliases": [
+      "운동치료",
+      "운동 요법",
+      "exercise therapy"
+    ],
+    "description_ko": "운동·기능회복을 위한 치료",
+    "status": "approved",
+    "last_reviewed": null,
     "source_count": 1,
     "version": 1
   },
   {
-    "id": "calcific-tendinitis",
-    "type": "condition",
-    "name_ko": "석회성 건염",
-    "name_en": "calcific tendinitis",
+    "id": "eswt",
+    "type": "treatment",
+    "name_ko": "체외충격파",
+    "name_en": "extracorporeal shock wave therapy",
     "aliases": [
-      "어깨 석회화",
-      "석회화 건염"
+      "ESWT",
+      "체외충격파 치료",
+      "충격파 치료"
     ],
-    "description_ko": "회전근개 힘줄에 석회가 침착되어 통증을 유발하는 질환",
+    "description_ko": "체외에서 충격파를 가해 조직 회복을 유도하는 치료",
     "status": "approved",
-    "last_reviewed": "2026-04-25",
-    "source_count": 3,
-    "version": 2
+    "last_reviewed": null,
+    "source_count": 2,
+    "version": 1
   },
   {
-    "id": "nerve-block-injection",
-    "type": "treatment",
-    "name_ko": "신경차단술",
-    "name_en": "nerve block injection",
+    "id": "knee",
+    "type": "body_part",
+    "name_ko": "무릎",
+    "name_en": "knee",
     "aliases": [
-      "신경차단주사",
-      "초음파 유도 주사",
-      "ultrasound-guided injection"
+      "슬관절"
     ],
-    "description_ko": "신경 주위에 약물을 주사하여 통증을 차단하는 시술",
+    "description_ko": "무릎 관절 부위",
     "status": "approved",
-    "last_reviewed": "2026-04-25",
-    "source_count": 6,
-    "version": 3
+    "last_reviewed": null,
+    "source_count": 0,
+    "version": 1
+  },
+  {
+    "id": "scalp",
+    "type": "body_part",
+    "name_ko": "두피",
+    "name_en": "scalp",
+    "aliases": [],
+    "description_ko": "머리 피부 (탈모 영역)",
+    "status": "approved",
+    "last_reviewed": null,
+    "source_count": 0,
+    "version": 1
   },
   {
     "id": "lateral-epicondylitis",
@@ -418,9 +460,24 @@
     ],
     "description_ko": "팔꿈치 외측 힘줄의 만성 손상",
     "status": "approved",
-    "last_reviewed": "2026-04-25",
-    "source_count": 3,
+    "last_reviewed": "2026-04-28",
+    "source_count": 2,
     "version": 3
+  },
+  {
+    "id": "calcific-tendinitis",
+    "type": "condition",
+    "name_ko": "석회성 건염",
+    "name_en": "calcific tendinitis",
+    "aliases": [
+      "어깨 석회화",
+      "석회화 건염"
+    ],
+    "description_ko": "회전근개 힘줄에 석회가 침착되어 통증을 유발하는 질환",
+    "status": "approved",
+    "last_reviewed": null,
+    "source_count": 1,
+    "version": 1
   },
   {
     "id": "discogenic-pain",
@@ -477,7 +534,7 @@
     "description_ko": "손목의 정중신경이 압박되어 발생하는 질환",
     "status": "approved",
     "last_reviewed": null,
-    "source_count": 1,
+    "source_count": 0,
     "version": 1
   },
   {
@@ -497,6 +554,36 @@
     "version": 1
   },
   {
+    "id": "nerve-block-injection",
+    "type": "treatment",
+    "name_ko": "신경차단술",
+    "name_en": "nerve block injection",
+    "aliases": [
+      "신경차단주사",
+      "초음파 유도 주사",
+      "ultrasound-guided injection"
+    ],
+    "description_ko": "신경 주위에 약물을 주사하여 통증을 차단하는 시술",
+    "status": "approved",
+    "last_reviewed": null,
+    "source_count": 4,
+    "version": 1
+  },
+  {
+    "id": "cervical-spine",
+    "type": "body_part",
+    "name_ko": "경추",
+    "name_en": "cervical spine",
+    "aliases": [
+      "목뼈"
+    ],
+    "description_ko": "목 부위의 척추",
+    "status": "approved",
+    "last_reviewed": null,
+    "source_count": 1,
+    "version": 1
+  },
+  {
     "id": "tension-headache",
     "type": "symptom",
     "name_ko": "두통",
@@ -507,9 +594,27 @@
     ],
     "description_ko": "긴장 또는 통증 클리닉에서 다루는 두통",
     "status": "approved",
-    "last_reviewed": "2026-04-23",
+    "last_reviewed": null,
     "source_count": 0,
-    "version": 2
+    "version": 1
+  },
+  {
+    "id": "hair-loss-medication",
+    "type": "treatment",
+    "name_ko": "탈모 약물치료",
+    "name_en": "hair loss medication",
+    "aliases": [
+      "탈모약",
+      "미녹시딜",
+      "피나스테리드",
+      "프로페시아",
+      "두타스테리드"
+    ],
+    "description_ko": "미녹시딜·피나스테리드 등 탈모 약물 치료",
+    "status": "approved",
+    "last_reviewed": null,
+    "source_count": 0,
+    "version": 1
   },
   {
     "id": "meniscus-tear",
@@ -616,52 +721,6 @@
     "version": 1
   },
   {
-    "id": "rehabilitation-therapy",
-    "type": "treatment",
-    "name_ko": "재활치료",
-    "name_en": "rehabilitation therapy",
-    "aliases": [
-      "운동치료",
-      "운동 요법",
-      "exercise therapy"
-    ],
-    "description_ko": "운동·기능회복을 위한 치료",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 2,
-    "version": 2
-  },
-  {
-    "id": "eswt",
-    "type": "treatment",
-    "name_ko": "체외충격파",
-    "name_en": "extracorporeal shock wave therapy",
-    "aliases": [
-      "ESWT",
-      "체외충격파 치료",
-      "충격파 치료"
-    ],
-    "description_ko": "체외에서 충격파를 가해 조직 회복을 유도하는 치료",
-    "status": "approved",
-    "last_reviewed": null,
-    "source_count": 5,
-    "version": 1
-  },
-  {
-    "id": "knee-pain",
-    "type": "symptom",
-    "name_ko": "무릎 통증",
-    "name_en": "knee pain",
-    "aliases": [
-      "슬관절 통증"
-    ],
-    "description_ko": "무릎 관절 부위의 통증",
-    "status": "approved",
-    "last_reviewed": "2026-04-25",
-    "source_count": 1,
-    "version": 2
-  },
-  {
     "id": "foot-pain",
     "type": "symptom",
     "name_ko": "발 통증",
@@ -746,23 +805,8 @@
     "description_ko": "인대·힘줄을 자극하여 강화하는 증식 치료",
     "status": "approved",
     "last_reviewed": null,
-    "source_count": 2,
+    "source_count": 1,
     "version": 1
-  },
-  {
-    "id": "lower-back-pain",
-    "type": "symptom",
-    "name_ko": "허리통증",
-    "name_en": "lower back pain",
-    "aliases": [
-      "요통",
-      "허리 아픔"
-    ],
-    "description_ko": "요추 주변 구조의 문제로 발생하는 통증",
-    "status": "approved",
-    "last_reviewed": "2026-04-25",
-    "source_count": 4,
-    "version": 4
   },
   {
     "id": "elbow-pain",
@@ -772,9 +816,23 @@
     "aliases": [],
     "description_ko": "팔꿈치 부위의 통증",
     "status": "approved",
-    "last_reviewed": "2026-04-25",
+    "last_reviewed": null,
     "source_count": 2,
-    "version": 3
+    "version": 1
+  },
+  {
+    "id": "knee-pain",
+    "type": "symptom",
+    "name_ko": "무릎 통증",
+    "name_en": "knee pain",
+    "aliases": [
+      "슬관절 통증"
+    ],
+    "description_ko": "무릎 관절 부위의 통증",
+    "status": "approved",
+    "last_reviewed": null,
+    "source_count": 1,
+    "version": 1
   },
   {
     "id": "aging-symptoms",
@@ -790,37 +848,6 @@
     "last_reviewed": null,
     "source_count": 0,
     "version": 1
-  },
-  {
-    "id": "hair-loss",
-    "type": "symptom",
-    "name_ko": "탈모",
-    "name_en": "hair loss",
-    "aliases": [
-      "모발 손실"
-    ],
-    "description_ko": "모발이 빠지거나 가늘어지는 증상",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 2,
-    "version": 3
-  },
-  {
-    "id": "manual-therapy",
-    "type": "treatment",
-    "name_ko": "도수치료",
-    "name_en": "manual therapy",
-    "aliases": [
-      "수기치료",
-      "교정치료",
-      "카이로프랙틱",
-      "chiropractic"
-    ],
-    "description_ko": "손으로 근골격계를 교정하는 비수술 치료",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 3,
-    "version": 3
   },
   {
     "id": "hi-ems",
@@ -845,6 +872,23 @@
     "version": 1
   },
   {
+    "id": "manual-therapy",
+    "type": "treatment",
+    "name_ko": "도수치료",
+    "name_en": "manual therapy",
+    "aliases": [
+      "수기치료",
+      "교정치료",
+      "카이로프랙틱",
+      "chiropractic"
+    ],
+    "description_ko": "손으로 근골격계를 교정하는 비수술 치료",
+    "status": "approved",
+    "last_reviewed": null,
+    "source_count": 2,
+    "version": 1
+  },
+  {
     "id": "chronic-fatigue",
     "type": "symptom",
     "name_ko": "만성 피로",
@@ -854,72 +898,23 @@
     ],
     "description_ko": "일상생활을 방해하는 지속적인 피로감",
     "status": "approved",
-    "last_reviewed": "2026-04-25",
+    "last_reviewed": null,
     "source_count": 3,
-    "version": 4
+    "version": 1
   },
   {
-    "id": "muscle-relaxants",
-    "type": "treatment",
-    "name_ko": "근육 이완제",
-    "name_en": "muscle relaxants",
+    "id": "hair-loss",
+    "type": "symptom",
+    "name_ko": "탈모",
+    "name_en": "hair loss",
     "aliases": [
-      "근육이완치료",
-      "근이완제"
+      "모발 손실"
     ],
-    "description_ko": "근육 긴장 이완을 위한 약물",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 2,
-    "version": 2
-  },
-  {
-    "id": "anti-inflammatory-analgesics",
-    "type": "treatment",
-    "name_ko": "소염진통제",
-    "name_en": "anti-inflammatory analgesics",
-    "aliases": [
-      "진통제",
-      "NSAIDs",
-      "비스테로이드성 항염제"
-    ],
-    "description_ko": "염증과 통증을 동시에 완화하는 약물",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 1,
-    "version": 2
-  },
-  {
-    "id": "hair-loss-medication",
-    "type": "treatment",
-    "name_ko": "탈모 약물치료",
-    "name_en": "hair loss medication",
-    "aliases": [
-      "탈모약",
-      "미녹시딜",
-      "피나스테리드",
-      "프로페시아",
-      "두타스테리드"
-    ],
-    "description_ko": "미녹시딜·피나스테리드 등 탈모 약물 치료",
+    "description_ko": "모발이 빠지거나 가늘어지는 증상",
     "status": "approved",
     "last_reviewed": null,
     "source_count": 1,
     "version": 1
-  },
-  {
-    "id": "cervical-spine",
-    "type": "body_part",
-    "name_ko": "경추",
-    "name_en": "cervical spine",
-    "aliases": [
-      "목뼈"
-    ],
-    "description_ko": "목 부위의 척추",
-    "status": "approved",
-    "last_reviewed": "2026-04-23",
-    "source_count": 1,
-    "version": 2
   },
   {
     "id": "lumbar-spine",
@@ -950,29 +945,34 @@
     "version": 1
   },
   {
-    "id": "knee",
-    "type": "body_part",
-    "name_ko": "무릎",
-    "name_en": "knee",
+    "id": "muscle-relaxants",
+    "type": "treatment",
+    "name_ko": "근육 이완제",
+    "name_en": "muscle relaxants",
     "aliases": [
-      "슬관절"
+      "근육이완치료",
+      "근이완제"
     ],
-    "description_ko": "무릎 관절 부위",
+    "description_ko": "근육 긴장 이완을 위한 약물",
     "status": "approved",
     "last_reviewed": null,
-    "source_count": 0,
+    "source_count": 2,
     "version": 1
   },
   {
-    "id": "scalp",
-    "type": "body_part",
-    "name_ko": "두피",
-    "name_en": "scalp",
-    "aliases": [],
-    "description_ko": "머리 피부 (탈모 영역)",
+    "id": "anti-inflammatory-analgesics",
+    "type": "treatment",
+    "name_ko": "소염진통제",
+    "name_en": "anti-inflammatory analgesics",
+    "aliases": [
+      "진통제",
+      "NSAIDs",
+      "비스테로이드성 항염제"
+    ],
+    "description_ko": "염증과 통증을 동시에 완화하는 약물",
     "status": "approved",
     "last_reviewed": null,
-    "source_count": 0,
+    "source_count": 1,
     "version": 1
   }
 ]
