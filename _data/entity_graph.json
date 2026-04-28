@@ -49,11 +49,19 @@
       "tenant_keys": []
     },
     {
-      "id": "frozen-shoulder",
-      "type": "condition",
-      "name_ko": "오십견",
-      "name_en": "frozen shoulder",
+      "id": "eswt",
+      "type": "treatment",
+      "name_ko": "체외충격파",
+      "name_en": "extracorporeal shock wave therapy",
       "post_count": 2,
+      "tenant_keys": []
+    },
+    {
+      "id": "nerve-block-injection",
+      "type": "treatment",
+      "name_ko": "신경차단술",
+      "name_en": "nerve block injection",
+      "post_count": 4,
       "tenant_keys": []
     },
     {
@@ -65,19 +73,19 @@
       "tenant_keys": []
     },
     {
-      "id": "alopecia-areata",
-      "type": "condition",
-      "name_ko": "원형 탈모",
-      "name_en": "alopecia areata",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
       "id": "shoulder",
       "type": "body_part",
       "name_ko": "어깨",
       "name_en": "shoulder",
       "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "alopecia-areata",
+      "type": "condition",
+      "name_ko": "원형 탈모",
+      "name_en": "alopecia areata",
+      "post_count": 2,
       "tenant_keys": []
     },
     {
@@ -97,43 +105,11 @@
       "tenant_keys": []
     },
     {
-      "id": "sciatica",
-      "type": "symptom",
-      "name_ko": "좌골신경통",
-      "name_en": "sciatica",
-      "post_count": 4,
-      "tenant_keys": []
-    },
-    {
       "id": "nad-infusion-therapy",
       "type": "treatment",
       "name_ko": "NAD+ 수액 치료",
       "name_en": "NAD+ infusion therapy",
       "post_count": 2,
-      "tenant_keys": []
-    },
-    {
-      "id": "androgenetic-alopecia",
-      "type": "condition",
-      "name_ko": "남성형 탈모",
-      "name_en": "androgenetic alopecia",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
-      "id": "physical-therapy",
-      "type": "treatment",
-      "name_ko": "물리치료",
-      "name_en": "physical therapy",
-      "post_count": 8,
-      "tenant_keys": []
-    },
-    {
-      "id": "shoulder-pain",
-      "type": "symptom",
-      "name_ko": "어깨 통증",
-      "name_en": "shoulder pain",
-      "post_count": 3,
       "tenant_keys": []
     },
     {
@@ -145,10 +121,66 @@
       "tenant_keys": []
     },
     {
+      "id": "sciatica",
+      "type": "symptom",
+      "name_ko": "좌골신경통",
+      "name_en": "sciatica",
+      "post_count": 4,
+      "tenant_keys": []
+    },
+    {
+      "id": "elbow-pain",
+      "type": "symptom",
+      "name_ko": "팔꿈치 통증",
+      "name_en": "elbow pain",
+      "post_count": 2,
+      "tenant_keys": []
+    },
+    {
+      "id": "physical-therapy",
+      "type": "treatment",
+      "name_ko": "물리치료",
+      "name_en": "physical therapy",
+      "post_count": 8,
+      "tenant_keys": []
+    },
+    {
+      "id": "androgenetic-alopecia",
+      "type": "condition",
+      "name_ko": "남성형 탈모",
+      "name_en": "androgenetic alopecia",
+      "post_count": 2,
+      "tenant_keys": []
+    },
+    {
+      "id": "shoulder-pain",
+      "type": "symptom",
+      "name_ko": "어깨 통증",
+      "name_en": "shoulder pain",
+      "post_count": 3,
+      "tenant_keys": []
+    },
+    {
       "id": "knee-osteoarthritis",
       "type": "condition",
       "name_ko": "무릎 관절염",
       "name_en": "knee osteoarthritis",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "frozen-shoulder",
+      "type": "condition",
+      "name_ko": "오십견",
+      "name_en": "frozen shoulder",
+      "post_count": 2,
+      "tenant_keys": []
+    },
+    {
+      "id": "calcific-tendinitis",
+      "type": "condition",
+      "name_ko": "석회성 건염",
+      "name_en": "calcific tendinitis",
       "post_count": 1,
       "tenant_keys": []
     },
@@ -177,19 +209,19 @@
       "tenant_keys": []
     },
     {
+      "id": "medial-epicondylitis",
+      "type": "condition",
+      "name_ko": "내측상과염",
+      "name_en": "medial epicondylitis",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
       "id": "rehabilitation-therapy",
       "type": "treatment",
       "name_ko": "재활치료",
       "name_en": "rehabilitation therapy",
       "post_count": 1,
-      "tenant_keys": []
-    },
-    {
-      "id": "eswt",
-      "type": "treatment",
-      "name_ko": "체외충격파",
-      "name_en": "extracorporeal shock wave therapy",
-      "post_count": 2,
       "tenant_keys": []
     },
     {
@@ -201,14 +233,6 @@
       "tenant_keys": []
     },
     {
-      "id": "calcific-tendinitis",
-      "type": "condition",
-      "name_ko": "석회성 건염",
-      "name_en": "calcific tendinitis",
-      "post_count": 1,
-      "tenant_keys": []
-    },
-    {
       "id": "rotator-cuff-tear",
       "type": "condition",
       "name_ko": "회전근개 파열",
@@ -217,18 +241,18 @@
       "tenant_keys": []
     },
     {
-      "id": "nerve-block-injection",
-      "type": "treatment",
-      "name_ko": "신경차단술",
-      "name_en": "nerve block injection",
-      "post_count": 4,
-      "tenant_keys": []
-    },
-    {
       "id": "cervical-spine",
       "type": "body_part",
       "name_ko": "경추",
       "name_en": "cervical spine",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "knee-pain",
+      "type": "symptom",
+      "name_ko": "무릎 통증",
+      "name_en": "knee pain",
       "post_count": 1,
       "tenant_keys": []
     },
@@ -241,19 +265,11 @@
       "tenant_keys": []
     },
     {
-      "id": "elbow-pain",
+      "id": "hair-loss",
       "type": "symptom",
-      "name_ko": "팔꿈치 통증",
-      "name_en": "elbow pain",
+      "name_ko": "탈모",
+      "name_en": "hair loss",
       "post_count": 2,
-      "tenant_keys": []
-    },
-    {
-      "id": "knee-pain",
-      "type": "symptom",
-      "name_ko": "무릎 통증",
-      "name_en": "knee pain",
-      "post_count": 1,
       "tenant_keys": []
     },
     {
@@ -270,14 +286,6 @@
       "name_ko": "만성 피로",
       "name_en": "chronic fatigue",
       "post_count": 3,
-      "tenant_keys": []
-    },
-    {
-      "id": "hair-loss",
-      "type": "symptom",
-      "name_ko": "탈모",
-      "name_en": "hair loss",
-      "post_count": 1,
       "tenant_keys": []
     },
     {
@@ -445,13 +453,13 @@
     {
       "source": "androgenetic-alopecia",
       "target": "hair-loss",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
       "source": "alopecia-areata",
       "target": "hair-loss",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
@@ -487,7 +495,7 @@
     {
       "source": "alopecia-areata",
       "target": "androgenetic-alopecia",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
