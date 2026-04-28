@@ -8,7 +8,7 @@ description: 엑소좀을 활용한 재생 치료
 title_en: exosome therapy
 last_reviewed: '2026-04-28'
 source_count: 1
-version: 2
+version: 3
 ---
 ## 적응증
 엑소좀 치료는 탈모, 특히 초기~중기 남성형·여성형 탈모와 원형 탈모에 효과적일 수 있습니다. [^1]
