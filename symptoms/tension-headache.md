@@ -4,9 +4,9 @@ entity_id: tension-headache
 entity_type: symptom
 permalink: /symptoms/tension-headache/
 title: 두통
-description: 머리에서 느껴지는 통증
+description: 긴장 또는 통증 클리닉에서 다루는 두통
 title_en: headache
-last_reviewed: '2026-04-23'
+last_reviewed: '2026-04-28'
 source_count: 0
 version: 2
 ---
@@ -20,12 +20,9 @@ version: 2
 두통의 평가에는 목의 움직임 범위 측정, 근력 검사, 신경학적 검사 등이 포함될 수 있습니다. [^1]
 
 ## 치료 옵션
-두통 치료에는 약물 치료, 물리치료, 운동, 도수치료, 주사 치료 등이 포함될 수 있습니다. [^1]
+두통 치료에는 약물 치료, 물리치료, 운동, 도수치료, 주사 치료 등이 포함됩니다. [^1]
 
 ---
 
 ## Citations
 [^1]: [thewellsr.kr/blog/2026-04-10-308b3e30](https://thewellsr.kr/blog/2026-04-10-308b3e30)
-
-## Changelog
-- 2026-04-23 v2: 정의 new, 흔한 원인 new, 평가 new, 치료 옵션 new
