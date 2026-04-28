@@ -6,9 +6,9 @@ permalink: /conditions/lateral-epicondylitis/
 title: 외측상과염
 description: 팔꿈치 외측 힘줄의 만성 손상
 title_en: lateral epicondylitis
-last_reviewed: '2026-04-25'
-source_count: 1
-version: 3
+last_reviewed: '2026-04-28'
+source_count: 3
+version: 2
 ---
 ## 정의
 외측상과염(테니스엘보)은 팔꿈치 바깥쪽 뼈 돌출 부위인 외측 상과에 붙은 힘줄이 손상되는 질환입니다. 주로 짧은노쪽손목폄근(손목을 위로 젖히는 근육)의 힘줄에 반복적인 미세 손상이 쌓이면서 발생합니다. 테니스엘보라는 별명 때문에 운동선수만 걸리는 병으로 오해받습니다. 실제로는 반복적으로 손목을 펴거나 물건을 쥐는 동작을 하는 사람들에게 광범위하게 나타납니다. 주부, 목수, 요리사, 사무직 근로자 등 직업과 무관하게 발생할 수 있습니다. [^1] [^1]
@@ -26,12 +26,9 @@ version: 3
 외측상과염은 대부분 보존적 치료로 호전됩니다. 불편감을 유발하는 동작을 피하고, 얼음찜질과 비스테로이드성 소염진통제를 사용합니다. 물리치료와 손목 신전근 강화 운동이 중요하며, 편심성 수축 운동과 스트레칭도 포함됩니다 (Landesa-Piñeiro & Leirós-Rodríguez, 2022). 테니스엘보 브레이스(보호대)는 팔뚝 근육에 가해지는 힘을 분산시켜 힘줄 부담을 줄입니다. 주사 치료나 다른 시술은 보존적 치료로 호전되지 않을 때 고려합니다. [^1] [^1]
 
 ## 예후
-대부분의 외측상과염은 시간이 지나면서 호전됩니다. 적절한 접근은 일상 회복에 도움이 되며, 재발이 흔한 편이어서 예방에 신경 써야 합니다. 작업 자세 개선, 적절한 휴식, 꾸준한 스트레칭이 재발 방지에 도움이 됩니다. [^1]
+대부분의 외측상과염은 시간이 지나면서 호전됩니다. 적절한 접근은 일상 회복에 도움이 되며, 재발이 흔한 편이어서 예방에 신경 써야 합니다. 작업 자세 개선, 적절한 휴식, 꾸준한 스트레칭이 재발 방지에 도움이 됩니다. [^1] [^1]
 
 ---
 
 ## Citations
 [^1]: [ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis](https://ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis)
-
-## Changelog
-- 2026-04-23 v2: 정의 new, 병태 new, 증상 new, 진단 new, 치료 new, 예후 new
