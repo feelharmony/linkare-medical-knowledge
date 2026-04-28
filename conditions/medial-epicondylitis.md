@@ -8,7 +8,7 @@ description: 팔꿈치 내측 힘줄의 만성 손상
 title_en: medial epicondylitis
 last_reviewed: '2026-04-28'
 source_count: 0
-version: 2
+version: 3
 ---
 ## 정의
 내측상과염은 팔꿈치 안쪽의 뼈 돌출부(내측상과)에 붙는 공통 굴곡근 기시부 힘줄의 병변으로, 힘줄 조직의 구조적 변성을 일으킵니다. [^1]
