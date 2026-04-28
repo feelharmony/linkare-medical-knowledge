@@ -9,10 +9,8 @@ plugins:
   - jekyll-seo-tag
 
 defaults:
-  - scope:
-      path: "content"
-    values:
-      layout: "article"
+  # content/ 하위 글 복사본 collection은 v2.4 Phase 6에서 폐기 (2026-04-28).
+  # PROFILE.md만 유지되며 자체 frontmatter `layout: profile`로 처리됨.
   - scope:
       path: "conditions"
     values:

@@ -14,17 +14,35 @@ layout: default
     {{ content }}
   </div>
 
-  {% assign articles = site.pages | where: "tenant_key", page.tenant_key | where: "layout", "article" | sort: "last_updated" | reverse %}
-  {% if articles.size > 0 %}
+  {% comment %}
+    발행 글 list — _data/post_entity_map.json 기반.
+    A 모델(controlled vocabulary, 2026-04 전환)에서 wiki entity는 외부 블로그를 인용하므로,
+    저자 PROFILE에서는 wiki 페이지가 아니라 원본 블로그 URL로 직접 link.
+    매칭: post_path가 "content/{tenant_key}/" 로 시작하는 항목 수집.
+  {% endcomment %}
+  {% assign tenant_prefix = "content/" | append: page.tenant_key | append: "/" %}
+  {% assign blog_posts = "" | split: "" %}
+  {% for entry in site.data.post_entity_map %}
+    {% if entry.post_path contains tenant_prefix %}
+      {% if entry.source_article_url %}
+        {% assign blog_posts = blog_posts | push: entry %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  {% assign blog_posts = blog_posts | sort: "updated_at" | reverse %}
+
+  {% if blog_posts.size > 0 %}
   <section class="profile-articles">
-    <h2>의학 정보 ({{ articles.size }})</h2>
+    <h2>발행 글 ({{ blog_posts.size }})</h2>
+    <p class="article-list-note">{{ page.hospital }} 공식 블로그·홈페이지에 발행된 글입니다.</p>
     <ul class="article-list">
-      {% for article in articles %}
+      {% for post in blog_posts %}
       <li>
-        <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
-        {% if article.lang %}<span class="article-lang">{{ article.lang | upcase }}</span>{% endif %}
-        {% if article.description %}<p class="article-desc">{{ article.description }}</p>{% endif %}
-        <time class="article-date" datetime="{{ article.last_updated }}">{{ article.last_updated }}</time>
+        <a href="{{ post.source_article_url }}" rel="nofollow" target="_blank">
+          {% if post.source_article_title %}{{ post.source_article_title }}{% else %}{{ post.source_article_url }}{% endif %}
+        </a>
+        {% if post.lang %}<span class="article-lang">{{ post.lang | upcase }}</span>{% endif %}
+        <time class="article-date" datetime="{{ post.updated_at }}">{{ post.updated_at }}</time>
       </li>
       {% endfor %}
     </ul>
