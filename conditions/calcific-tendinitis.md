@@ -6,8 +6,8 @@ permalink: /conditions/calcific-tendinitis/
 title: 석회성 건염
 description: 회전근개 힘줄에 석회가 침착되어 통증을 유발하는 질환
 title_en: calcific tendinitis
-last_reviewed: '2026-04-25'
-source_count: 0
+last_reviewed: '2026-04-28'
+source_count: 1
 version: 2
 ---
 ## 정의
@@ -20,7 +20,7 @@ version: 2
 치료 후 관리가 중요하며, 통증이 줄어든 시점부터 재활과 생활습관 관리가 필요합니다. [^1]
 
 ## 예후
-재발 방지를 위해 운동과 자세 교정이 필요하며, 개인 상태에 따라 회복 경과에 차이가 있을 수 있습니다. [^1]
+재발 방지를 위해 운동과 자세 교정이 필요합니다. 개인 상태에 따라 회복 경과에 차이가 있을 수 있습니다[^1].
 
 ---
 
