@@ -24,8 +24,14 @@ layout: default
   {% assign blog_posts = "" | split: "" %}
   {% for entry in site.data.post_entity_map %}
     {% if entry.post_path contains tenant_prefix %}
-      {% if entry.source_article_url %}
-        {% assign blog_posts = blog_posts | push: entry %}
+      {% if entry.source_article_url and entry.source_article_url != "" %}
+        {%- comment -%}
+          Self-reference 가드: source_article_url이 knowledge.linkerai.io 자기 도메인이면
+          외부 블로그 URL이 아닌 잘못된 fallback이므로 skip (Phase 6 글 삭제 후 dead link 방지).
+        {%- endcomment -%}
+        {% unless entry.source_article_url contains "knowledge.linkerai.io" %}
+          {% assign blog_posts = blog_posts | push: entry %}
+        {% endunless %}
       {% endif %}
     {% endif %}
   {% endfor %}
