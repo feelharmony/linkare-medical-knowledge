@@ -1,6 +1,8 @@
 [
   {
     "post_path": "content/apfree/ko/spine/cervical-disc-causes-diagnosis.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/2026-04-08-f5bbae53",
+    "source_article_title": null,
     "primary_entity_id": "cervical-disc-herniation",
     "entity_ids": [
       "cervical-disc-herniation",
@@ -11,10 +13,12 @@
       "manual-therapy",
       "rehabilitation-therapy"
     ],
-    "updated_at": "2026-04-23"
+    "updated_at": "2026-04-28"
   },
   {
     "post_path": "content/apfree/ko/spine/herniated-disc-causes-symptoms-diagnosis.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/df09dd16-391f-4453-a8f3-2e241f254522",
+    "source_article_title": null,
     "primary_entity_id": "lumbar-disc-herniation",
     "entity_ids": [
       "lumbar-disc-herniation",
@@ -24,10 +28,12 @@
       "conservative-treatment",
       "surgery"
     ],
-    "updated_at": "2026-04-23"
+    "updated_at": "2026-04-28"
   },
   {
     "post_path": "content/thr/ko/pain/straight-neck-forward-head.md",
+    "source_article_url": "https://knowledge.linkerai.io/content/thr/ko/pain/straight-neck-forward-head.md",
+    "source_article_title": null,
     "primary_entity_id": "straight-neck",
     "entity_ids": [
       "straight-neck",
@@ -40,7 +46,7 @@
       "posture-correction",
       "neck-stretching"
     ],
-    "updated_at": "2026-04-23"
+    "updated_at": "2026-04-28"
   },
   {
     "post_path": "content/thr/ko/hair/hair-loss-regeneration-injection-treatment.md",
@@ -109,6 +115,8 @@
   },
   {
     "post_path": "content/apfree/ko/joint/lateral-epicondylitis-symptoms-diagnosis.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis",
+    "source_article_title": null,
     "primary_entity_id": "lateral-epicondylitis",
     "entity_ids": [
       "lateral-epicondylitis",
@@ -116,10 +124,12 @@
       "treatment-for-lateral-epicondylitis",
       "elbow"
     ],
-    "updated_at": "2026-04-23"
+    "updated_at": "2026-04-28"
   },
   {
     "post_path": "db:308b3e30-1e16-44d5-9700-36cf3a4524ec",
+    "source_article_url": "https://thewellsr.kr/blog/2026-04-10-308b3e30",
+    "source_article_title": null,
     "primary_entity_id": "straight-neck",
     "entity_ids": [
       "straight-neck",
@@ -133,7 +143,7 @@
       "chiropractic",
       "injection-therapy"
     ],
-    "updated_at": "2026-04-23"
+    "updated_at": "2026-04-28"
   },
   {
     "post_path": "db:b62253c1-115c-437a-b398-652b2468dc34",
@@ -152,6 +162,8 @@
   },
   {
     "post_path": "db:0c579259-1870-47e1-b769-95ef942784dd",
+    "source_article_url": "https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse",
+    "source_article_title": null,
     "primary_entity_id": "shoulder-pain",
     "entity_ids": [
       "shoulder-pain",
@@ -162,7 +174,7 @@
       "shoulder-rehabilitation",
       "shoulder-rehabilitation"
     ],
-    "updated_at": "2026-04-23"
+    "updated_at": "2026-04-28"
   },
   {
     "post_path": "db:1bfebe68-fd4f-4fe4-89a0-4cd9cfe9ad08",
@@ -181,6 +193,8 @@
   },
   {
     "post_path": "db:0dac3a87-7c81-4d6a-a7e2-cb73deadb1d5",
+    "source_article_url": "https://ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis",
+    "source_article_title": null,
     "primary_entity_id": "lateral-epicondylitis",
     "entity_ids": [
       "lateral-epicondylitis",
@@ -190,7 +204,7 @@
       "steroid-injections",
       "elbow"
     ],
-    "updated_at": "2026-04-25"
+    "updated_at": "2026-04-28"
   },
   {
     "post_path": "db:80ee22ec-385d-476d-95d4-ca6dceb541c8",
@@ -205,6 +219,8 @@
   },
   {
     "post_path": "db:f5bbae53-c3b0-4c30-8782-421eaf01ab05",
+    "source_article_url": "https://ansimpainfree.kr/blog/2026-04-08-f5bbae53",
+    "source_article_title": null,
     "primary_entity_id": "cervical-disc-herniation",
     "entity_ids": [
       "cervical-disc-herniation",
@@ -216,10 +232,12 @@
       "regenerative-injection-therapy",
       "cervical-spine"
     ],
-    "updated_at": "2026-04-25"
+    "updated_at": "2026-04-28"
   },
   {
     "post_path": "db:df09dd16-391f-4453-a8f3-2e241f254522",
+    "source_article_url": "https://ansimpainfree.kr/blog/df09dd16-391f-4453-a8f3-2e241f254522",
+    "source_article_title": null,
     "primary_entity_id": "lumbar-disc-herniation",
     "entity_ids": [
       "lumbar-disc-herniation",
@@ -230,10 +248,12 @@
       "physical-therapy",
       "surgery"
     ],
-    "updated_at": "2026-04-25"
+    "updated_at": "2026-04-28"
   },
   {
     "post_path": "https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk",
+    "source_article_url": "https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk",
+    "source_article_title": null,
     "primary_entity_id": "lumbar-disc-herniation",
     "entity_ids": [
       "lumbar-disc-herniation",
@@ -245,7 +265,7 @@
     ],
     "doctor_id": "kwon-jin-yeol",
     "hospital_id": "ansim-tun-tun-pain-medicine",
-    "updated_at": "2026-04-25"
+    "updated_at": "2026-04-28"
   },
   {
     "post_path": "content/apfree/df09dd16-391f-4453-a8f3-2e241f254522.md",
@@ -255,7 +275,7 @@
     "entity_ids": [
       "lumbar-disc-herniation"
     ],
-    "updated_at": "2026-04-27"
+    "updated_at": "2026-04-28"
   },
   {
     "post_path": "https://thewellsr.kr/blog/shoulder-impingement-syndrome-causes-treatment",
