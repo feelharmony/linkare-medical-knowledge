@@ -4,9 +4,10 @@ entity_id: exosome-therapy
 entity_type: treatment
 permalink: /treatments/exosome-therapy/
 title: 엑소좀 치료
-description: 세포가 분비하는 작은 소포체를 이용한 치료법
-last_reviewed: '2026-04-23'
-source_count: 0
+description: 엑소좀을 활용한 재생 치료
+title_en: exosome therapy
+last_reviewed: '2026-04-28'
+source_count: 1
 version: 2
 ---
 ## 적응증
@@ -19,12 +20,9 @@ version: 2
 엑소좀 치료는 모낭 재생 경로를 활성화시켜 모발 성장을 유도하고, 모발 밀도와 두께를 개선할 수 있습니다. [^1]
 
 ## 한계/주의점
-엑소좀 치료는 아직 표준화된 프로토콜이 부족하며, 장기 추적 연구가 필요합니다. 또한, 완전히 대머리가 된 부위에는 효과가 제한적입니다. [^1]
+엑소좀 치료는 아직 표준화된 프로토콜이 부족하고, 장기적인 효과를 검증하기 위한 추적 연구가 필요합니다. 완전히 대머리가 된 부위에는 효과가 제한적입니다[^1].
 
 ---
 
 ## Citations
 [^1]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
-
-## Changelog
-- 2026-04-23 v2: 적응증 new, 언제 고려 new, 기대효과 new, 한계/주의점 new
