@@ -126,7 +126,7 @@
     "description_ko": "경추 정상 만곡이 소실된 자세 변형",
     "status": "approved",
     "last_reviewed": "2026-04-28",
-    "source_count": 4,
+    "source_count": 5,
     "version": 2
   },
   {
@@ -140,7 +140,7 @@
     "description_ko": "어깨 관절 부위",
     "status": "approved",
     "last_reviewed": "2026-04-28",
-    "source_count": 1,
+    "source_count": 0,
     "version": 2
   },
   {
@@ -340,21 +340,6 @@
     "version": 1
   },
   {
-    "id": "androgenetic-alopecia",
-    "type": "condition",
-    "name_ko": "남성형 탈모",
-    "name_en": "androgenetic alopecia",
-    "aliases": [
-      "M자 탈모",
-      "안드로젠성 탈모"
-    ],
-    "description_ko": "안드로젠 호르몬에 의한 유전성 탈모",
-    "status": "approved",
-    "last_reviewed": "2026-04-28",
-    "source_count": 2,
-    "version": 2
-  },
-  {
     "id": "tension-headache",
     "type": "symptom",
     "name_ko": "두통",
@@ -381,7 +366,7 @@
     "description_ko": "어깨 관절 부위의 통증 (회전근개·오십견 영역)",
     "status": "approved",
     "last_reviewed": "2026-04-28",
-    "source_count": 3,
+    "source_count": 4,
     "version": 3
   },
   {
@@ -428,7 +413,7 @@
     "description_ko": "회전근개 힘줄에 석회가 침착되어 통증을 유발하는 질환",
     "status": "approved",
     "last_reviewed": "2026-04-28",
-    "source_count": 1,
+    "source_count": 2,
     "version": 2
   },
   {
@@ -458,8 +443,23 @@
     "description_ko": "경추 추간판이 탈출하여 신경을 압박하는 질환",
     "status": "approved",
     "last_reviewed": "2026-04-28",
-    "source_count": 2,
+    "source_count": 3,
     "version": 4
+  },
+  {
+    "id": "androgenetic-alopecia",
+    "type": "condition",
+    "name_ko": "남성형 탈모",
+    "name_en": "androgenetic alopecia",
+    "aliases": [
+      "M자 탈모",
+      "안드로젠성 탈모"
+    ],
+    "description_ko": "안드로젠 호르몬에 의한 유전성 탈모",
+    "status": "approved",
+    "last_reviewed": "2026-04-28",
+    "source_count": 2,
+    "version": 2
   },
   {
     "id": "cauda-equina-syndrome",
@@ -517,21 +517,6 @@
     "last_reviewed": null,
     "source_count": 0,
     "version": 1
-  },
-  {
-    "id": "medial-epicondylitis",
-    "type": "condition",
-    "name_ko": "내측상과염",
-    "name_en": "medial epicondylitis",
-    "aliases": [
-      "골프엘보",
-      "golfer's elbow"
-    ],
-    "description_ko": "팔꿈치 내측 힘줄의 만성 손상",
-    "status": "approved",
-    "last_reviewed": "2026-04-28",
-    "source_count": 1,
-    "version": 3
   },
   {
     "id": "rehabilitation-therapy",
@@ -680,6 +665,21 @@
     "last_reviewed": null,
     "source_count": 0,
     "version": 1
+  },
+  {
+    "id": "medial-epicondylitis",
+    "type": "condition",
+    "name_ko": "내측상과염",
+    "name_en": "medial epicondylitis",
+    "aliases": [
+      "골프엘보",
+      "golfer's elbow"
+    ],
+    "description_ko": "팔꿈치 내측 힘줄의 만성 손상",
+    "status": "approved",
+    "last_reviewed": "2026-04-29",
+    "source_count": 1,
+    "version": 4
   },
   {
     "id": "meniscus-tear",
