@@ -69,15 +69,7 @@
       "type": "condition",
       "name_ko": "일자목",
       "name_en": "straight neck",
-      "post_count": 5,
-      "tenant_keys": []
-    },
-    {
-      "id": "shoulder",
-      "type": "body_part",
-      "name_ko": "어깨",
-      "name_en": "shoulder",
-      "post_count": 1,
+      "post_count": 6,
       "tenant_keys": []
     },
     {
@@ -145,19 +137,11 @@
       "tenant_keys": []
     },
     {
-      "id": "androgenetic-alopecia",
-      "type": "condition",
-      "name_ko": "남성형 탈모",
-      "name_en": "androgenetic alopecia",
-      "post_count": 2,
-      "tenant_keys": []
-    },
-    {
       "id": "shoulder-pain",
       "type": "symptom",
       "name_ko": "어깨 통증",
       "name_en": "shoulder pain",
-      "post_count": 3,
+      "post_count": 4,
       "tenant_keys": []
     },
     {
@@ -181,7 +165,7 @@
       "type": "condition",
       "name_ko": "석회성 건염",
       "name_en": "calcific tendinitis",
-      "post_count": 1,
+      "post_count": 2,
       "tenant_keys": []
     },
     {
@@ -197,6 +181,14 @@
       "type": "condition",
       "name_ko": "목디스크",
       "name_en": "cervical disc herniation",
+      "post_count": 3,
+      "tenant_keys": []
+    },
+    {
+      "id": "androgenetic-alopecia",
+      "type": "condition",
+      "name_ko": "남성형 탈모",
+      "name_en": "androgenetic alopecia",
       "post_count": 2,
       "tenant_keys": []
     },
@@ -206,14 +198,6 @@
       "name_ko": "마미증후군",
       "name_en": "cauda equina syndrome",
       "post_count": 4,
-      "tenant_keys": []
-    },
-    {
-      "id": "medial-epicondylitis",
-      "type": "condition",
-      "name_ko": "내측상과염",
-      "name_en": "medial epicondylitis",
-      "post_count": 1,
       "tenant_keys": []
     },
     {
@@ -245,6 +229,14 @@
       "type": "body_part",
       "name_ko": "경추",
       "name_en": "cervical spine",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "medial-epicondylitis",
+      "type": "condition",
+      "name_ko": "내측상과염",
+      "name_en": "medial epicondylitis",
       "post_count": 1,
       "tenant_keys": []
     },
@@ -627,19 +619,19 @@
     {
       "source": "frozen-shoulder",
       "target": "shoulder-pain",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
       "source": "calcific-tendinitis",
       "target": "shoulder-pain",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
       "source": "calcific-tendinitis",
       "target": "frozen-shoulder",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": []
     },
     {
@@ -721,44 +713,14 @@
       "tenant_keys": []
     },
     {
-      "source": "rotator-cuff-tear",
-      "target": "shoulder",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "frozen-shoulder",
-      "target": "shoulder",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "shoulder",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "shoulder",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
       "source": "frozen-shoulder",
       "target": "rotator-cuff-tear",
       "weight": 1,
       "tenant_keys": []
     },
     {
-      "source": "dr-park-sungjin",
-      "target": "rotator-cuff-tear",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "rotator-cuff-tear",
+      "source": "cervical-disc-herniation",
+      "target": "frozen-shoulder",
       "weight": 1,
       "tenant_keys": []
     },
@@ -770,6 +732,84 @@
     },
     {
       "source": "frozen-shoulder",
+      "target": "hospital-thewells-nowon",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "rotator-cuff-tear",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "rotator-cuff-tear",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "calcific-tendinitis",
+      "target": "rotator-cuff-tear",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "rotator-cuff-tear",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "rotator-cuff-tear",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "calcific-tendinitis",
+      "target": "cervical-disc-herniation",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "dr-park-sungjin",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "hospital-thewells-nowon",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "calcific-tendinitis",
+      "target": "dr-park-sungjin",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "calcific-tendinitis",
       "target": "hospital-thewells-nowon",
       "weight": 1,
       "tenant_keys": []
