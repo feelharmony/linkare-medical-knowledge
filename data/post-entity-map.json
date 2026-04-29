@@ -283,21 +283,23 @@
     "entity_ids": [
       "lumbar-disc-herniation"
     ],
-    "updated_at": "2026-04-28"
+    "updated_at": "2026-04-29"
   },
   {
     "post_path": "https://thewellsr.kr/blog/shoulder-impingement-syndrome-causes-treatment",
     "source_article_url": "https://thewellsr.kr/blog/shoulder-impingement-syndrome-causes-treatment",
     "source_article_title": null,
-    "primary_entity_id": "shoulder",
+    "primary_entity_id": "frozen-shoulder",
     "entity_ids": [
-      "shoulder",
+      "frozen-shoulder",
       "rotator-cuff-tear",
-      "frozen-shoulder"
+      "shoulder-pain",
+      "cervical-disc-herniation",
+      "calcific-tendinitis"
     ],
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon",
-    "updated_at": "2026-04-28"
+    "updated_at": "2026-04-29"
   },
   {
     "post_path": "https://thewellsr.kr/knowledge/extracorporeal-shock-wave-therapy-results",
@@ -351,6 +353,16 @@
     "entity_ids": [
       "medial-epicondylitis"
     ],
-    "updated_at": "2026-04-28"
+    "updated_at": "2026-04-29"
+  },
+  {
+    "post_path": "https://ansimpainfree.kr/blog/text-neck-prevention-posture-exercise-guide",
+    "source_article_url": "https://ansimpainfree.kr/blog/text-neck-prevention-posture-exercise-guide",
+    "source_article_title": null,
+    "primary_entity_id": "straight-neck",
+    "entity_ids": [
+      "straight-neck"
+    ],
+    "updated_at": "2026-04-29"
   }
 ]
