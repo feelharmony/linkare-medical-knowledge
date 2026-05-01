@@ -13,7 +13,7 @@
       "type": "doctor",
       "name_ko": "권진열 원장",
       "name_en": "Dr. Kwon Jinyeol",
-      "post_count": 1,
+      "post_count": 2,
       "tenant_keys": []
     },
     {
@@ -21,7 +21,7 @@
       "type": "hospital",
       "name_ko": "안심튼튼마취통증의학과",
       "name_en": "Ansim Painfree Clinic",
-      "post_count": 1,
+      "post_count": 2,
       "tenant_keys": []
     },
     {
@@ -49,19 +49,35 @@
       "tenant_keys": []
     },
     {
-      "id": "frozen-shoulder",
-      "type": "condition",
-      "name_ko": "오십견",
-      "name_en": "frozen shoulder",
+      "id": "eswt",
+      "type": "treatment",
+      "name_ko": "체외충격파",
+      "name_en": "extracorporeal shock wave therapy",
       "post_count": 2,
       "tenant_keys": []
     },
     {
-      "id": "straight-neck",
+      "id": "nerve-block-injection",
+      "type": "treatment",
+      "name_ko": "신경차단술",
+      "name_en": "nerve block injection",
+      "post_count": 4,
+      "tenant_keys": []
+    },
+    {
+      "id": "shoulder",
+      "type": "body_part",
+      "name_ko": "어깨",
+      "name_en": "shoulder",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "zoster",
       "type": "condition",
-      "name_ko": "일자목",
-      "name_en": "straight neck",
-      "post_count": 5,
+      "name_ko": "대상포진",
+      "name_en": "zoster",
+      "post_count": 1,
       "tenant_keys": []
     },
     {
@@ -73,11 +89,11 @@
       "tenant_keys": []
     },
     {
-      "id": "shoulder",
-      "type": "body_part",
-      "name_ko": "어깨",
-      "name_en": "shoulder",
-      "post_count": 1,
+      "id": "straight-neck",
+      "type": "condition",
+      "name_ko": "일자목",
+      "name_en": "straight neck",
+      "post_count": 5,
       "tenant_keys": []
     },
     {
@@ -97,6 +113,22 @@
       "tenant_keys": []
     },
     {
+      "id": "lower-back-pain",
+      "type": "symptom",
+      "name_ko": "허리통증",
+      "name_en": "lower back pain",
+      "post_count": 3,
+      "tenant_keys": []
+    },
+    {
+      "id": "nad-infusion-therapy",
+      "type": "treatment",
+      "name_ko": "NAD+ 수액 치료",
+      "name_en": "NAD+ infusion therapy",
+      "post_count": 3,
+      "tenant_keys": []
+    },
+    {
       "id": "sciatica",
       "type": "symptom",
       "name_ko": "좌골신경통",
@@ -105,19 +137,11 @@
       "tenant_keys": []
     },
     {
-      "id": "nad-infusion-therapy",
-      "type": "treatment",
-      "name_ko": "NAD+ 수액 치료",
-      "name_en": "NAD+ infusion therapy",
+      "id": "elbow-pain",
+      "type": "symptom",
+      "name_ko": "팔꿈치 통증",
+      "name_en": "elbow pain",
       "post_count": 2,
-      "tenant_keys": []
-    },
-    {
-      "id": "androgenetic-alopecia",
-      "type": "condition",
-      "name_ko": "남성형 탈모",
-      "name_en": "androgenetic alopecia",
-      "post_count": 1,
       "tenant_keys": []
     },
     {
@@ -137,18 +161,26 @@
       "tenant_keys": []
     },
     {
-      "id": "lower-back-pain",
-      "type": "symptom",
-      "name_ko": "허리통증",
-      "name_en": "lower back pain",
-      "post_count": 3,
-      "tenant_keys": []
-    },
-    {
       "id": "knee-osteoarthritis",
       "type": "condition",
       "name_ko": "무릎 관절염",
       "name_en": "knee osteoarthritis",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "frozen-shoulder",
+      "type": "condition",
+      "name_ko": "오십견",
+      "name_en": "frozen shoulder",
+      "post_count": 2,
+      "tenant_keys": []
+    },
+    {
+      "id": "calcific-tendinitis",
+      "type": "condition",
+      "name_ko": "석회성 건염",
+      "name_en": "calcific tendinitis",
       "post_count": 1,
       "tenant_keys": []
     },
@@ -169,11 +201,19 @@
       "tenant_keys": []
     },
     {
+      "id": "androgenetic-alopecia",
+      "type": "condition",
+      "name_ko": "남성형 탈모",
+      "name_en": "androgenetic alopecia",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
       "id": "cauda-equina-syndrome",
       "type": "condition",
       "name_ko": "마미증후군",
       "name_en": "cauda equina syndrome",
-      "post_count": 4,
+      "post_count": 5,
       "tenant_keys": []
     },
     {
@@ -185,27 +225,11 @@
       "tenant_keys": []
     },
     {
-      "id": "eswt",
-      "type": "treatment",
-      "name_ko": "체외충격파",
-      "name_en": "extracorporeal shock wave therapy",
-      "post_count": 2,
-      "tenant_keys": []
-    },
-    {
       "id": "lateral-epicondylitis",
       "type": "condition",
       "name_ko": "외측상과염",
       "name_en": "lateral epicondylitis",
       "post_count": 2,
-      "tenant_keys": []
-    },
-    {
-      "id": "calcific-tendinitis",
-      "type": "condition",
-      "name_ko": "석회성 건염",
-      "name_en": "calcific tendinitis",
-      "post_count": 1,
       "tenant_keys": []
     },
     {
@@ -217,18 +241,18 @@
       "tenant_keys": []
     },
     {
-      "id": "nerve-block-injection",
-      "type": "treatment",
-      "name_ko": "신경차단술",
-      "name_en": "nerve block injection",
-      "post_count": 4,
-      "tenant_keys": []
-    },
-    {
       "id": "cervical-spine",
       "type": "body_part",
       "name_ko": "경추",
       "name_en": "cervical spine",
+      "post_count": 1,
+      "tenant_keys": []
+    },
+    {
+      "id": "knee-pain",
+      "type": "symptom",
+      "name_ko": "무릎 통증",
+      "name_en": "knee pain",
       "post_count": 1,
       "tenant_keys": []
     },
@@ -241,18 +265,10 @@
       "tenant_keys": []
     },
     {
-      "id": "elbow-pain",
+      "id": "hair-loss",
       "type": "symptom",
-      "name_ko": "팔꿈치 통증",
-      "name_en": "elbow pain",
-      "post_count": 2,
-      "tenant_keys": []
-    },
-    {
-      "id": "knee-pain",
-      "type": "symptom",
-      "name_ko": "무릎 통증",
-      "name_en": "knee pain",
+      "name_ko": "탈모",
+      "name_en": "hair loss",
       "post_count": 1,
       "tenant_keys": []
     },
@@ -270,14 +286,6 @@
       "name_ko": "만성 피로",
       "name_en": "chronic fatigue",
       "post_count": 3,
-      "tenant_keys": []
-    },
-    {
-      "id": "hair-loss",
-      "type": "symptom",
-      "name_ko": "탈모",
-      "name_en": "hair loss",
-      "post_count": 1,
       "tenant_keys": []
     },
     {
@@ -840,6 +848,36 @@
     },
     {
       "source": "dr-kwon-jinyeol",
+      "target": "hospital-ansimpainfree",
+      "weight": 2,
+      "tenant_keys": []
+    },
+    {
+      "source": "cauda-equina-syndrome",
+      "target": "zoster",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "zoster",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "hospital-ansimpainfree",
+      "target": "zoster",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cauda-equina-syndrome",
+      "target": "dr-kwon-jinyeol",
+      "weight": 1,
+      "tenant_keys": []
+    },
+    {
+      "source": "cauda-equina-syndrome",
       "target": "hospital-ansimpainfree",
       "weight": 1,
       "tenant_keys": []
