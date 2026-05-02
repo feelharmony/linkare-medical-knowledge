@@ -173,22 +173,6 @@
     "version": 4
   },
   {
-    "id": "hair-thinning",
-    "type": "condition",
-    "name_ko": "탈모",
-    "name_en": "hair loss / alopecia",
-    "aliases": [
-      "탈모",
-      "hair loss",
-      "alopecia"
-    ],
-    "description_ko": "모낭의 비정상적 모발 손실 — 원인·패턴에 따라 여러 유형으로 분류",
-    "status": "approved",
-    "last_reviewed": "2026-05-03",
-    "source_count": 1,
-    "version": 3
-  },
-  {
     "id": "ultrasound-injection",
     "type": "treatment",
     "name_ko": "초음파 유도 주사",
@@ -477,8 +461,8 @@
     "description_ko": "안드로겐 호르몬·유전 요인에 의한 진행성 탈모",
     "status": "approved",
     "last_reviewed": "2026-05-03",
-    "source_count": 4,
-    "version": 4
+    "source_count": 6,
+    "version": 5
   },
   {
     "id": "cauda-equina-syndrome",
@@ -937,9 +921,9 @@
     ],
     "description_ko": "모발이 빠지거나 가늘어지는 증상",
     "status": "approved",
-    "last_reviewed": "2026-04-28",
+    "last_reviewed": "2026-05-03",
     "source_count": 1,
-    "version": 2
+    "version": 3
   },
   {
     "id": "hi-ems",

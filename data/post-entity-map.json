@@ -49,9 +49,9 @@
   },
   {
     "post_path": "content/thr/ko/hair/hair-loss-regeneration-injection-treatment.md",
-    "primary_entity_id": "hair-thinning",
+    "primary_entity_id": "hair-loss",
     "entity_ids": [
-      "hair-thinning",
+      "hair-loss",
       "androgenetic-alopecia",
       "alopecia-areata",
       "prp-injection",
@@ -167,7 +167,6 @@
       "rotator-cuff-tendinopathy",
       "shoulder-impingement-syndrome",
       "calcific-tendinitis",
-      "shoulder-rehabilitation",
       "shoulder-rehabilitation"
     ],
     "updated_at": "2026-04-28"
