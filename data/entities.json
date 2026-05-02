@@ -53,14 +53,14 @@
     "name_ko": "엑소좀 치료",
     "name_en": "exosome therapy",
     "aliases": [
-      "엑소좀 주사",
-      "exosome",
-      "엑소좀"
+      "엑소좀",
+      "exosomes",
+      "extracellular vesicles"
     ],
-    "description_ko": "엑소좀을 활용한 재생 치료",
+    "description_ko": "세포가 분비하는 작은 소포체(엑소좀)를 활용한 재생 치료",
     "status": "approved",
-    "last_reviewed": "2026-04-28",
-    "source_count": 1,
+    "last_reviewed": "2026-05-03",
+    "source_count": 3,
     "version": 3
   },
   {
@@ -162,13 +162,31 @@
     "name_ko": "원형 탈모",
     "name_en": "alopecia areata",
     "aliases": [
-      "원형탈모증"
+      "원형탈모증",
+      "alopecia areata",
+      "AA"
     ],
-    "description_ko": "자가면역으로 발생하는 국소 탈모",
+    "description_ko": "T 세포 매개 자가면역으로 발생하는 비반흔성 탈모",
     "status": "approved",
-    "last_reviewed": null,
+    "last_reviewed": "2026-05-03",
+    "source_count": 4,
+    "version": 4
+  },
+  {
+    "id": "hair-thinning",
+    "type": "condition",
+    "name_ko": "탈모",
+    "name_en": "hair loss / alopecia",
+    "aliases": [
+      "탈모",
+      "hair loss",
+      "alopecia"
+    ],
+    "description_ko": "모낭의 비정상적 모발 손실 — 원인·패턴에 따라 여러 유형으로 분류",
+    "status": "approved",
+    "last_reviewed": "2026-05-03",
     "source_count": 1,
-    "version": 1
+    "version": 3
   },
   {
     "id": "ultrasound-injection",
@@ -222,21 +240,17 @@
     "name_ko": "줄기세포 치료",
     "name_en": "stem cell therapy",
     "aliases": [
-      "혈액줄기세포",
-      "지방줄기세포",
-      "골수줄기세포",
-      "조혈줄기세포",
-      "중간엽줄기세포",
-      "자가조직 줄기세포",
-      "자가 줄기세포 치료",
-      "hematopoietic stem cells",
-      "mesenchymal stem cells",
-      "줄기세포 수액 치료"
+      "줄기세포",
+      "자가지방 줄기세포",
+      "SVF",
+      "stromal vascular fraction",
+      "ADSC",
+      "adipose-derived stem cell"
     ],
     "description_ko": "자가/타가 줄기세포를 활용한 재생 치료 (혈액·지방·골수 유래 포함)",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
+    "last_reviewed": "2026-05-03",
+    "source_count": 4,
     "version": 2
   },
   {
@@ -259,16 +273,14 @@
     "name_ko": "PRP 주사",
     "name_en": "platelet-rich plasma injection",
     "aliases": [
-      "자가혈 주사",
-      "재생주사치료",
-      "혈소판 풍부 혈장",
       "PRP",
-      "자가혈소판풍부혈장"
+      "혈소판 풍부 혈장",
+      "autologous platelet-rich plasma"
     ],
-    "description_ko": "자가 혈액에서 분리한 혈소판 풍부 혈장 주사",
+    "description_ko": "환자 본인의 혈액에서 추출한 혈소판 풍부 혈장을 주입하는 치료",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 1,
+    "last_reviewed": "2026-05-03",
+    "source_count": 4,
     "version": 3
   },
   {
@@ -453,17 +465,20 @@
   {
     "id": "androgenetic-alopecia",
     "type": "condition",
-    "name_ko": "남성형 탈모",
+    "name_ko": "안드로겐성 탈모 (남성형·여성형)",
     "name_en": "androgenetic alopecia",
     "aliases": [
-      "M자 탈모",
-      "안드로젠성 탈모"
+      "남성형 탈모",
+      "여성형 탈모",
+      "male pattern hair loss",
+      "female pattern hair loss",
+      "AGA"
     ],
-    "description_ko": "안드로젠 호르몬에 의한 유전성 탈모",
+    "description_ko": "안드로겐 호르몬·유전 요인에 의한 진행성 탈모",
     "status": "approved",
-    "last_reviewed": "2026-04-28",
-    "source_count": 1,
-    "version": 2
+    "last_reviewed": "2026-05-03",
+    "source_count": 4,
+    "version": 4
   },
   {
     "id": "cauda-equina-syndrome",
@@ -658,17 +673,18 @@
     "name_ko": "탈모 약물치료",
     "name_en": "hair loss medication",
     "aliases": [
-      "탈모약",
       "미녹시딜",
+      "minoxidil",
       "피나스테리드",
-      "프로페시아",
-      "두타스테리드"
+      "finasteride",
+      "두타스테리드",
+      "dutasteride"
     ],
-    "description_ko": "미녹시딜·피나스테리드 등 탈모 약물 치료",
+    "description_ko": "미녹시딜·피나스테리드·두타스테리드 등 탈모 약물 치료",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 1
+    "last_reviewed": "2026-05-03",
+    "source_count": 4,
+    "version": 2
   },
   {
     "id": "medial-epicondylitis",

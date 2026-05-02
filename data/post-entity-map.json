@@ -49,15 +49,15 @@
   },
   {
     "post_path": "content/thr/ko/hair/hair-loss-regeneration-injection-treatment.md",
-    "primary_entity_id": "hair-loss",
+    "primary_entity_id": "hair-thinning",
     "entity_ids": [
-      "hair-loss",
-      "regenerative-injection-treatment",
-      "prp-injection",
-      "adipose-derived-stem-cells",
-      "exosome-therapy",
+      "hair-thinning",
       "androgenetic-alopecia",
-      "alopecia-areata"
+      "alopecia-areata",
+      "prp-injection",
+      "stem-cell-therapy",
+      "exosome-therapy",
+      "hair-loss-medication"
     ],
     "updated_at": "2026-04-23"
   },
