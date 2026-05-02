@@ -6,7 +6,9 @@
       "name_ko": "박성진 원장",
       "name_en": "Dr. Park Sungjin",
       "post_count": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "dr-kwon-jinyeol",
@@ -14,7 +16,9 @@
       "name_ko": "권진열 원장",
       "name_en": "Dr. Kwon Jinyeol",
       "post_count": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "hospital-ansimpainfree",
@@ -22,7 +26,9 @@
       "name_ko": "안심튼튼마취통증의학과",
       "name_en": "Ansim Painfree Clinic",
       "post_count": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "hospital-thewells-nowon",
@@ -30,7 +36,9 @@
       "name_ko": "더웰스의원 노원",
       "name_en": "The Wells Clinic Nowon",
       "post_count": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "exosome-therapy",
@@ -38,7 +46,9 @@
       "name_ko": "엑소좀 치료",
       "name_en": "exosome therapy",
       "post_count": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "lumbar-disc-herniation",
@@ -46,7 +56,9 @@
       "name_ko": "허리디스크",
       "name_en": "lumbar disc herniation",
       "post_count": 5,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "eswt",
@@ -54,7 +66,9 @@
       "name_ko": "체외충격파",
       "name_en": "extracorporeal shock wave therapy",
       "post_count": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "nerve-block-injection",
@@ -62,7 +76,9 @@
       "name_ko": "신경차단술",
       "name_en": "nerve block injection",
       "post_count": 4,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "shoulder",
@@ -70,7 +86,9 @@
       "name_ko": "어깨",
       "name_en": "shoulder",
       "post_count": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "zoster",
@@ -78,7 +96,9 @@
       "name_ko": "대상포진",
       "name_en": "zoster",
       "post_count": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "alopecia-areata",
@@ -86,15 +106,19 @@
       "name_ko": "원형 탈모",
       "name_en": "alopecia areata",
       "post_count": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
-      "id": "straight-neck",
+      "id": "forward-head-posture",
       "type": "condition",
-      "name_ko": "일자목",
-      "name_en": "straight neck",
-      "post_count": 5,
-      "tenant_keys": []
+      "name_ko": "거북목·일자목",
+      "name_en": "forward head posture / cervical lordosis loss",
+      "post_count": 4,
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "elbow",
@@ -102,7 +126,9 @@
       "name_ko": "팔꿈치",
       "name_en": "elbow",
       "post_count": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "prp-injection",
@@ -110,7 +136,9 @@
       "name_ko": "PRP 주사",
       "name_en": "platelet-rich plasma injection",
       "post_count": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "lower-back-pain",
@@ -118,7 +146,9 @@
       "name_ko": "허리통증",
       "name_en": "lower back pain",
       "post_count": 3,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "nad-infusion-therapy",
@@ -126,7 +156,9 @@
       "name_ko": "NAD+ 수액 치료",
       "name_en": "NAD+ infusion therapy",
       "post_count": 3,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "sciatica",
@@ -134,7 +166,9 @@
       "name_ko": "좌골신경통",
       "name_en": "sciatica",
       "post_count": 4,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "elbow-pain",
@@ -142,7 +176,9 @@
       "name_ko": "팔꿈치 통증",
       "name_en": "elbow pain",
       "post_count": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "physical-therapy",
@@ -150,7 +186,9 @@
       "name_ko": "물리치료",
       "name_en": "physical therapy",
       "post_count": 8,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "shoulder-pain",
@@ -158,7 +196,9 @@
       "name_ko": "어깨 통증",
       "name_en": "shoulder pain",
       "post_count": 3,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "knee-osteoarthritis",
@@ -166,7 +206,9 @@
       "name_ko": "무릎 관절염",
       "name_en": "knee osteoarthritis",
       "post_count": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "frozen-shoulder",
@@ -174,7 +216,9 @@
       "name_ko": "오십견",
       "name_en": "frozen shoulder",
       "post_count": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "calcific-tendinitis",
@@ -182,7 +226,9 @@
       "name_ko": "석회성 건염",
       "name_en": "calcific tendinitis",
       "post_count": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "neck-pain",
@@ -190,7 +236,9 @@
       "name_ko": "목 통증",
       "name_en": "neck pain",
       "post_count": 6,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "cervical-disc-herniation",
@@ -198,7 +246,9 @@
       "name_ko": "목디스크",
       "name_en": "cervical disc herniation",
       "post_count": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "androgenetic-alopecia",
@@ -206,7 +256,9 @@
       "name_ko": "남성형 탈모",
       "name_en": "androgenetic alopecia",
       "post_count": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "cauda-equina-syndrome",
@@ -214,7 +266,9 @@
       "name_ko": "마미증후군",
       "name_en": "cauda equina syndrome",
       "post_count": 5,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "rehabilitation-therapy",
@@ -222,7 +276,9 @@
       "name_ko": "재활치료",
       "name_en": "rehabilitation therapy",
       "post_count": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "lateral-epicondylitis",
@@ -230,7 +286,9 @@
       "name_ko": "외측상과염",
       "name_en": "lateral epicondylitis",
       "post_count": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "rotator-cuff-tear",
@@ -238,7 +296,9 @@
       "name_ko": "회전근개 파열",
       "name_en": "rotator cuff tear",
       "post_count": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "cervical-spine",
@@ -246,7 +306,9 @@
       "name_ko": "경추",
       "name_en": "cervical spine",
       "post_count": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "knee-pain",
@@ -254,7 +316,9 @@
       "name_ko": "무릎 통증",
       "name_en": "knee pain",
       "post_count": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "prolotherapy",
@@ -262,7 +326,9 @@
       "name_ko": "프롤로테라피",
       "name_en": "prolotherapy",
       "post_count": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "hair-loss",
@@ -270,7 +336,9 @@
       "name_ko": "탈모",
       "name_en": "hair loss",
       "post_count": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "manual-therapy",
@@ -278,7 +346,9 @@
       "name_ko": "도수치료",
       "name_en": "manual therapy",
       "post_count": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "chronic-fatigue",
@@ -286,7 +356,9 @@
       "name_ko": "만성 피로",
       "name_en": "chronic fatigue",
       "post_count": 3,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "muscle-relaxants",
@@ -294,7 +366,9 @@
       "name_ko": "근육 이완제",
       "name_en": "muscle relaxants",
       "post_count": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "id": "anti-inflammatory-analgesics",
@@ -302,7 +376,9 @@
       "name_ko": "소염진통제",
       "name_en": "anti-inflammatory analgesics",
       "post_count": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     }
   ],
   "edges": [
@@ -310,577 +386,761 @@
       "source": "cervical-disc-herniation",
       "target": "neck-pain",
       "weight": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "cervical-disc-herniation",
       "target": "nerve-block-injection",
       "weight": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "cervical-disc-herniation",
       "target": "manual-therapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "cervical-disc-herniation",
       "target": "rehabilitation-therapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "neck-pain",
       "target": "nerve-block-injection",
       "weight": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "manual-therapy",
       "target": "neck-pain",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "neck-pain",
       "target": "rehabilitation-therapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "manual-therapy",
       "target": "nerve-block-injection",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "nerve-block-injection",
       "target": "rehabilitation-therapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "manual-therapy",
       "target": "rehabilitation-therapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "lower-back-pain",
       "target": "lumbar-disc-herniation",
       "weight": 3,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "lumbar-disc-herniation",
       "target": "sciatica",
       "weight": 4,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "cauda-equina-syndrome",
       "target": "lumbar-disc-herniation",
       "weight": 4,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "lower-back-pain",
       "target": "sciatica",
       "weight": 3,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "cauda-equina-syndrome",
       "target": "lower-back-pain",
       "weight": 3,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "cauda-equina-syndrome",
       "target": "sciatica",
       "weight": 4,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
-      "source": "neck-pain",
-      "target": "straight-neck",
-      "weight": 5,
-      "tenant_keys": []
+      "source": "forward-head-posture",
+      "target": "neck-pain",
+      "weight": 4,
+      "tenant_keys": [
+        null
+      ]
     },
     {
-      "source": "shoulder-pain",
-      "target": "straight-neck",
+      "source": "forward-head-posture",
+      "target": "shoulder-pain",
       "weight": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
-      "source": "physical-therapy",
-      "target": "straight-neck",
-      "weight": 5,
-      "tenant_keys": []
+      "source": "forward-head-posture",
+      "target": "physical-therapy",
+      "weight": 4,
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "neck-pain",
       "target": "shoulder-pain",
       "weight": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "neck-pain",
       "target": "physical-therapy",
       "weight": 5,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "physical-therapy",
       "target": "shoulder-pain",
       "weight": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "hair-loss",
       "target": "prp-injection",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "exosome-therapy",
       "target": "hair-loss",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "androgenetic-alopecia",
       "target": "hair-loss",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "alopecia-areata",
       "target": "hair-loss",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "exosome-therapy",
       "target": "prp-injection",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "androgenetic-alopecia",
       "target": "prp-injection",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "alopecia-areata",
       "target": "prp-injection",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "androgenetic-alopecia",
       "target": "exosome-therapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "alopecia-areata",
       "target": "exosome-therapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "alopecia-areata",
       "target": "androgenetic-alopecia",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "chronic-fatigue",
       "target": "nad-infusion-therapy",
       "weight": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "lumbar-disc-herniation",
       "target": "physical-therapy",
       "weight": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "lumbar-disc-herniation",
       "target": "manual-therapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "lower-back-pain",
       "target": "physical-therapy",
       "weight": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "lower-back-pain",
       "target": "manual-therapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "physical-therapy",
       "target": "sciatica",
       "weight": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "manual-therapy",
       "target": "sciatica",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "cauda-equina-syndrome",
       "target": "physical-therapy",
       "weight": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "cauda-equina-syndrome",
       "target": "manual-therapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "manual-therapy",
       "target": "physical-therapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "muscle-relaxants",
       "target": "neck-pain",
       "weight": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "anti-inflammatory-analgesics",
       "target": "neck-pain",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
-      "source": "straight-neck",
-      "target": "straight-neck",
-      "weight": 1,
-      "tenant_keys": []
-    },
-    {
-      "source": "muscle-relaxants",
-      "target": "straight-neck",
-      "weight": 3,
-      "tenant_keys": []
+      "source": "forward-head-posture",
+      "target": "muscle-relaxants",
+      "weight": 2,
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "anti-inflammatory-analgesics",
-      "target": "straight-neck",
-      "weight": 2,
-      "tenant_keys": []
+      "target": "forward-head-posture",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "anti-inflammatory-analgesics",
       "target": "muscle-relaxants",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "muscle-relaxants",
       "target": "physical-therapy",
       "weight": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "anti-inflammatory-analgesics",
       "target": "physical-therapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "elbow-pain",
       "target": "lateral-epicondylitis",
       "weight": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "elbow",
       "target": "lateral-epicondylitis",
       "weight": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "elbow",
       "target": "elbow-pain",
       "weight": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "frozen-shoulder",
       "target": "shoulder-pain",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "calcific-tendinitis",
       "target": "shoulder-pain",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "calcific-tendinitis",
       "target": "frozen-shoulder",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "knee-osteoarthritis",
       "target": "knee-pain",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "lateral-epicondylitis",
       "target": "physical-therapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "elbow-pain",
       "target": "physical-therapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "elbow",
       "target": "physical-therapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "cervical-disc-herniation",
       "target": "physical-therapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "cervical-disc-herniation",
       "target": "cervical-spine",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "cervical-spine",
       "target": "neck-pain",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "nerve-block-injection",
       "target": "physical-therapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "cervical-spine",
       "target": "nerve-block-injection",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "cervical-spine",
       "target": "physical-therapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "lumbar-disc-herniation",
       "target": "nerve-block-injection",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "nerve-block-injection",
       "target": "sciatica",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "cauda-equina-syndrome",
       "target": "nerve-block-injection",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "rotator-cuff-tear",
       "target": "shoulder",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "frozen-shoulder",
       "target": "shoulder",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "dr-park-sungjin",
       "target": "shoulder",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "hospital-thewells-nowon",
       "target": "shoulder",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "frozen-shoulder",
       "target": "rotator-cuff-tear",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "dr-park-sungjin",
       "target": "rotator-cuff-tear",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "hospital-thewells-nowon",
       "target": "rotator-cuff-tear",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "dr-park-sungjin",
       "target": "frozen-shoulder",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "frozen-shoulder",
       "target": "hospital-thewells-nowon",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "dr-park-sungjin",
       "target": "hospital-thewells-nowon",
       "weight": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "dr-park-sungjin",
       "target": "eswt",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "eswt",
       "target": "hospital-thewells-nowon",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "eswt",
       "target": "prolotherapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "eswt",
       "target": "nerve-block-injection",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "dr-kwon-jinyeol",
       "target": "eswt",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "eswt",
       "target": "hospital-ansimpainfree",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "nerve-block-injection",
       "target": "prolotherapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "dr-kwon-jinyeol",
       "target": "prolotherapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "hospital-ansimpainfree",
       "target": "prolotherapy",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "dr-kwon-jinyeol",
       "target": "nerve-block-injection",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "hospital-ansimpainfree",
       "target": "nerve-block-injection",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "dr-kwon-jinyeol",
       "target": "hospital-ansimpainfree",
       "weight": 2,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "cauda-equina-syndrome",
       "target": "zoster",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "dr-kwon-jinyeol",
       "target": "zoster",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "hospital-ansimpainfree",
       "target": "zoster",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "cauda-equina-syndrome",
       "target": "dr-kwon-jinyeol",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     },
     {
       "source": "cauda-equina-syndrome",
       "target": "hospital-ansimpainfree",
       "weight": 1,
-      "tenant_keys": []
+      "tenant_keys": [
+        null
+      ]
     }
   ]
 }

@@ -34,9 +34,8 @@
     "post_path": "content/thr/ko/pain/straight-neck-forward-head.md",
     "source_article_url": "https://knowledge.linkerai.io/content/thr/ko/pain/straight-neck-forward-head.md",
     "source_article_title": null,
-    "primary_entity_id": "straight-neck",
+    "primary_entity_id": "forward-head-posture",
     "entity_ids": [
-      "straight-neck",
       "forward-head-posture",
       "neck-pain",
       "shoulder-pain",
@@ -103,8 +102,7 @@
     "entity_ids": [
       "neck-pain",
       "shoulder-stiffness",
-      "straight-neck",
-      "straight-neck",
+      "forward-head-posture",
       "muscle-relaxants",
       "anti-inflammatory-analgesics",
       "physical-therapy",
@@ -130,9 +128,8 @@
     "post_path": "db:308b3e30-1e16-44d5-9700-36cf3a4524ec",
     "source_article_url": "https://thewellsr.kr/blog/2026-04-10-308b3e30",
     "source_article_title": null,
-    "primary_entity_id": "straight-neck",
+    "primary_entity_id": "forward-head-posture",
     "entity_ids": [
-      "straight-neck",
       "forward-head-posture",
       "neck-pain",
       "shoulder-pain",
@@ -151,7 +148,6 @@
     "entity_ids": [
       "neck-pain",
       "shoulder-stiffness",
-      "straight-neck",
       "forward-head-posture",
       "muscle-relaxants",
       "physical-therapy",
