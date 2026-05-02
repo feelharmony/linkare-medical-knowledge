@@ -111,16 +111,6 @@
       ]
     },
     {
-      "id": "hair-thinning",
-      "type": "condition",
-      "name_ko": "탈모",
-      "name_en": "hair loss / alopecia",
-      "post_count": 1,
-      "tenant_keys": [
-        null
-      ]
-    },
-    {
       "id": "forward-head-posture",
       "type": "condition",
       "name_ko": "거북목·일자목",
@@ -371,6 +361,16 @@
       ]
     },
     {
+      "id": "hair-loss",
+      "type": "symptom",
+      "name_ko": "탈모",
+      "name_en": "hair loss",
+      "post_count": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "id": "manual-therapy",
       "type": "treatment",
       "name_ko": "도수치료",
@@ -590,7 +590,7 @@
     },
     {
       "source": "androgenetic-alopecia",
-      "target": "hair-thinning",
+      "target": "hair-loss",
       "weight": 1,
       "tenant_keys": [
         null
@@ -598,14 +598,14 @@
     },
     {
       "source": "alopecia-areata",
-      "target": "hair-thinning",
+      "target": "hair-loss",
       "weight": 1,
       "tenant_keys": [
         null
       ]
     },
     {
-      "source": "hair-thinning",
+      "source": "hair-loss",
       "target": "prp-injection",
       "weight": 1,
       "tenant_keys": [
@@ -613,7 +613,7 @@
       ]
     },
     {
-      "source": "hair-thinning",
+      "source": "hair-loss",
       "target": "stem-cell-therapy",
       "weight": 1,
       "tenant_keys": [
@@ -622,15 +622,15 @@
     },
     {
       "source": "exosome-therapy",
-      "target": "hair-thinning",
+      "target": "hair-loss",
       "weight": 1,
       "tenant_keys": [
         null
       ]
     },
     {
-      "source": "hair-loss-medication",
-      "target": "hair-thinning",
+      "source": "hair-loss",
+      "target": "hair-loss-medication",
       "weight": 1,
       "tenant_keys": [
         null
