@@ -588,8 +588,8 @@
       "회전근개 질환"
     ],
     "description_ko": "어깨를 움직이는 회전근개 힘줄의 손상",
-    "status": "approved",
-    "last_reviewed": "2026-04-28",
+    "status": "archived",
+    "last_reviewed": "2026-05-03",
     "source_count": 1,
     "version": 2
   },
@@ -602,8 +602,8 @@
       "디스크 내장증"
     ],
     "description_ko": "추간판 탈출 없이 디스크 내부 변성으로 발생하는 통증",
-    "status": "approved",
-    "last_reviewed": null,
+    "status": "archived",
+    "last_reviewed": "2026-05-03",
     "source_count": 0,
     "version": 1
   },

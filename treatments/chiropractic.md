@@ -3,13 +3,19 @@ layout: entity-hub
 entity_id: chiropractic
 entity_type: treatment
 permalink: /treatments/chiropractic/
-title: 도수치료
-description: 손으로 신체를 조정하는 치료
-title_en: manual therapy
-last_reviewed: '2026-04-23'
-source_count: 1
-version: 3
+title: 카이로프랙틱 (사용 중단)
+description: 한국에서는 "도수치료"·"수기치료" 용어를 사용 — manual-therapy entity로 통합됨
+title_en: chiropractic (deprecated)
+last_reviewed: '2026-05-03'
+source_count: 0
+version: 4
+status: archived
+published: false
+robots: noindex, nofollow
 ---
+
+> ⚠️ 이 entity는 archived 처리되었습니다. 한국 임상 환경에서는 "카이로프랙틱"이라는 용어를 사용하지 않으며, 손을 이용한 치료는 [`/treatments/manual-therapy/`](./manual-therapy.md) (도수치료·수기치료) entity가 canonical입니다. 본문은 sync 무손상을 위해 보존하되 검색·인덱싱에서 제외됩니다.
+
 ## 적응증
 도수치료는 일자목과 거북목으로 인한 목과 어깨의 통증, 근육 불균형, 자세 교정에 적합합니다. [^1]
 

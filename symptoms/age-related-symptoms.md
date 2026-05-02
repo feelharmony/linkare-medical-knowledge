@@ -3,13 +3,19 @@ layout: entity-hub
 entity_id: age-related-symptoms
 entity_type: symptom
 permalink: /symptoms/age-related-symptoms/
-title: 노화 관련 증상
-description: 노화로 인해 나타나는 다양한 신체적 변화와 증상
-title_en: age-related symptoms
-last_reviewed: '2026-04-23'
+title: 노화 관련 증상 (archived, aging-symptoms로 통합)
+description: aging-symptoms entity가 canonical hub
+title_en: age-related symptoms (deprecated)
+last_reviewed: '2026-05-03'
 source_count: 0
-version: 2
+version: 3
+status: archived
+published: false
+robots: noindex, nofollow
 ---
+
+> ⚠️ 이 entity는 archived 처리되었습니다. "노화 관련 증상" canonical hub는 [`/symptoms/aging-symptoms/`](./aging-symptoms.md) entity로 통합되었습니다. 본문은 sync 무손상을 위해 보존하되 검색·인덱싱에서 제외됩니다.
+
 ## 정의
 NAD+는 모든 세포에서 에너지 생산에 필수적인 분자로, 노화와 관련된 증상 완화에 주목받고 있습니다. NAD+ IV 요법은 이 분자를 정맥 주사를 통해 직접 공급하여 노화 방지 및 건강 증진을 목표로 합니다. [^1]
 

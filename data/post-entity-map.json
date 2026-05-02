@@ -25,8 +25,7 @@
       "lower-back-pain",
       "sciatica",
       "cauda-equina-syndrome",
-      "conservative-treatment",
-      "surgery"
+      "conservative-treatment"
     ],
     "updated_at": "2026-04-28"
   },
@@ -137,7 +136,7 @@
       "physical-therapy",
       "treatment-exercise",
       "conservative-treatment",
-      "chiropractic",
+      "manual-therapy",
       "injection-therapy"
     ],
     "updated_at": "2026-04-28"
@@ -240,8 +239,7 @@
       "sciatica",
       "cauda-equina-syndrome",
       "conservative-treatment",
-      "physical-therapy",
-      "surgery"
+      "physical-therapy"
     ],
     "updated_at": "2026-04-28"
   },
@@ -279,7 +277,7 @@
     "primary_entity_id": "shoulder",
     "entity_ids": [
       "shoulder",
-      "rotator-cuff-tear",
+      "rotator-cuff-injury",
       "frozen-shoulder"
     ],
     "doctor_id": "dr-park-sungjin",

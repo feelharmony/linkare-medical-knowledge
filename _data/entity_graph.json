@@ -301,16 +301,6 @@
       ]
     },
     {
-      "id": "rotator-cuff-tear",
-      "type": "condition",
-      "name_ko": "회전근개 파열",
-      "name_en": "rotator cuff tear",
-      "post_count": 1,
-      "tenant_keys": [
-        null
-      ]
-    },
-    {
       "id": "cervical-spine",
       "type": "body_part",
       "name_ko": "경추",
@@ -375,7 +365,7 @@
       "type": "treatment",
       "name_ko": "도수치료",
       "name_en": "manual therapy",
-      "post_count": 2,
+      "post_count": 3,
       "tenant_keys": [
         null
       ]
@@ -455,7 +445,7 @@
     {
       "source": "manual-therapy",
       "target": "neck-pain",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
         null
       ]
@@ -847,7 +837,7 @@
     {
       "source": "manual-therapy",
       "target": "physical-therapy",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
         null
       ]
@@ -928,6 +918,22 @@
       "source": "elbow",
       "target": "elbow-pain",
       "weight": 2,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "forward-head-posture",
+      "target": "manual-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "manual-therapy",
+      "target": "shoulder-pain",
+      "weight": 1,
       "tenant_keys": [
         null
       ]
@@ -1061,14 +1067,6 @@
       ]
     },
     {
-      "source": "rotator-cuff-tear",
-      "target": "shoulder",
-      "weight": 1,
-      "tenant_keys": [
-        null
-      ]
-    },
-    {
       "source": "frozen-shoulder",
       "target": "shoulder",
       "weight": 1,
@@ -1087,30 +1085,6 @@
     {
       "source": "hospital-thewells-nowon",
       "target": "shoulder",
-      "weight": 1,
-      "tenant_keys": [
-        null
-      ]
-    },
-    {
-      "source": "frozen-shoulder",
-      "target": "rotator-cuff-tear",
-      "weight": 1,
-      "tenant_keys": [
-        null
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "rotator-cuff-tear",
-      "weight": 1,
-      "tenant_keys": [
-        null
-      ]
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "rotator-cuff-tear",
       "weight": 1,
       "tenant_keys": [
         null
