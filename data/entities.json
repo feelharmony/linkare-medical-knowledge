@@ -186,18 +186,21 @@
     "version": 2
   },
   {
-    "id": "straight-neck",
+    "id": "forward-head-posture",
     "type": "condition",
-    "name_ko": "일자목",
-    "name_en": "straight neck",
+    "name_ko": "거북목·일자목",
+    "name_en": "forward head posture / cervical lordosis loss",
     "aliases": [
       "거북목",
+      "일자목",
       "forward head posture",
+      "straight neck",
+      "cervical lordosis loss",
       "일자목 증후군"
     ],
-    "description_ko": "경추 정상 만곡이 소실된 자세 변형",
+    "description_ko": "머리가 몸의 중심선보다 앞으로 나오는 자세 변형 및 경추 정상 만곡 소실",
     "status": "approved",
-    "last_reviewed": "2026-04-30",
+    "last_reviewed": "2026-05-02",
     "source_count": 4,
     "version": 3
   },
