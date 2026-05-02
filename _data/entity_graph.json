@@ -111,11 +111,31 @@
       ]
     },
     {
+      "id": "hair-thinning",
+      "type": "condition",
+      "name_ko": "탈모",
+      "name_en": "hair loss / alopecia",
+      "post_count": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "id": "forward-head-posture",
       "type": "condition",
       "name_ko": "거북목·일자목",
       "name_en": "forward head posture / cervical lordosis loss",
       "post_count": 4,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "id": "stem-cell-therapy",
+      "type": "treatment",
+      "name_ko": "줄기세포 치료",
+      "name_en": "stem cell therapy",
+      "post_count": 1,
       "tenant_keys": [
         null
       ]
@@ -253,7 +273,7 @@
     {
       "id": "androgenetic-alopecia",
       "type": "condition",
-      "name_ko": "남성형 탈모",
+      "name_ko": "안드로겐성 탈모 (남성형·여성형)",
       "name_en": "androgenetic alopecia",
       "post_count": 1,
       "tenant_keys": [
@@ -311,6 +331,16 @@
       ]
     },
     {
+      "id": "hair-loss-medication",
+      "type": "treatment",
+      "name_ko": "탈모 약물치료",
+      "name_en": "hair loss medication",
+      "post_count": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "id": "knee-pain",
       "type": "symptom",
       "name_ko": "무릎 통증",
@@ -336,16 +366,6 @@
       "name_ko": "노화",
       "name_en": "aging",
       "post_count": 3,
-      "tenant_keys": [
-        null
-      ]
-    },
-    {
-      "id": "hair-loss",
-      "type": "symptom",
-      "name_ko": "탈모",
-      "name_en": "hair loss",
-      "post_count": 1,
       "tenant_keys": [
         null
       ]
@@ -569,8 +589,32 @@
       ]
     },
     {
-      "source": "hair-loss",
+      "source": "androgenetic-alopecia",
+      "target": "hair-thinning",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "hair-thinning",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "hair-thinning",
       "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "hair-thinning",
+      "target": "stem-cell-therapy",
       "weight": 1,
       "tenant_keys": [
         null
@@ -578,63 +622,15 @@
     },
     {
       "source": "exosome-therapy",
-      "target": "hair-loss",
+      "target": "hair-thinning",
       "weight": 1,
       "tenant_keys": [
         null
       ]
     },
     {
-      "source": "androgenetic-alopecia",
-      "target": "hair-loss",
-      "weight": 1,
-      "tenant_keys": [
-        null
-      ]
-    },
-    {
-      "source": "alopecia-areata",
-      "target": "hair-loss",
-      "weight": 1,
-      "tenant_keys": [
-        null
-      ]
-    },
-    {
-      "source": "exosome-therapy",
-      "target": "prp-injection",
-      "weight": 1,
-      "tenant_keys": [
-        null
-      ]
-    },
-    {
-      "source": "androgenetic-alopecia",
-      "target": "prp-injection",
-      "weight": 1,
-      "tenant_keys": [
-        null
-      ]
-    },
-    {
-      "source": "alopecia-areata",
-      "target": "prp-injection",
-      "weight": 1,
-      "tenant_keys": [
-        null
-      ]
-    },
-    {
-      "source": "androgenetic-alopecia",
-      "target": "exosome-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        null
-      ]
-    },
-    {
-      "source": "alopecia-areata",
-      "target": "exosome-therapy",
+      "source": "hair-loss-medication",
+      "target": "hair-thinning",
       "weight": 1,
       "tenant_keys": [
         null
@@ -643,6 +639,118 @@
     {
       "source": "alopecia-areata",
       "target": "androgenetic-alopecia",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "stem-cell-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "exosome-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "hair-loss-medication",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "stem-cell-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "exosome-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "hair-loss-medication",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "prp-injection",
+      "target": "stem-cell-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "exosome-therapy",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "hair-loss-medication",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "exosome-therapy",
+      "target": "stem-cell-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "hair-loss-medication",
+      "target": "stem-cell-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "exosome-therapy",
+      "target": "hair-loss-medication",
       "weight": 1,
       "tenant_keys": [
         null
