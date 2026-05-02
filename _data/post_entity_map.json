@@ -321,7 +321,7 @@
     "entity_ids": [
       "nad-infusion-therapy"
     ],
-    "updated_at": "2026-05-01"
+    "updated_at": "2026-05-02"
   },
   {
     "post_path": "https://ansimpainfree.kr/blog/daegu-shingles-post-neuralgia-pain",
@@ -335,5 +335,15 @@
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree",
     "updated_at": "2026-05-01"
+  },
+  {
+    "post_path": "https://ansimpainfree.kr/blog/shingles-vaccine-singrrix-vs-shingrix",
+    "source_article_url": "https://ansimpainfree.kr/blog/shingles-vaccine-singrrix-vs-shingrix",
+    "source_article_title": null,
+    "primary_entity_id": "zoster",
+    "entity_ids": [
+      "zoster"
+    ],
+    "updated_at": "2026-05-02"
   }
 ]
