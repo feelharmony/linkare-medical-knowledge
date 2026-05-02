@@ -6,10 +6,16 @@ permalink: /conditions/aging/
 title: 노화
 description: 시간의 경과에 따라 신체 기능이 저하되는 과정.
 title_en: aging
-last_reviewed: '2026-04-23'
+last_reviewed: '2026-05-02'
 source_count: 0
-version: 2
+version: 3
+status: archived
+published: false
+robots: noindex, nofollow
 ---
+
+> ⚠️ 이 entity는 archived 처리되었습니다. "노화"는 ICD-10 진단명이 아닌 자연 과정이며, 의학 entity hub로 부적합하다고 판단됩니다 (SOP 룰 14 판정 기준 적용). 노화 관련 증상은 [`/symptoms/aging-symptoms/`](../symptoms/aging-symptoms.md), 관련 시술은 [`/treatments/nad-infusion-therapy/`](../treatments/nad-infusion-therapy.md)을 참조하세요. 본문은 sync 무손상을 위해 보존하되 검색·인덱싱에서 제외됩니다.
+
 ## 정의
 노화는 시간의 경과에 따라 신체 기능이 저하되는 과정으로, NAD+ 수치 감소와 관련이 있습니다. [^1]
 

@@ -66,7 +66,7 @@
     "primary_entity_id": "nad-infusion-therapy",
     "entity_ids": [
       "nad-infusion-therapy",
-      "aging",
+      "aging-symptoms",
       "chronic-fatigue",
       "dna-repair"
     ],
@@ -88,11 +88,11 @@
   },
   {
     "post_path": "content/thr/en/longevity/nad-iv-therapy.md",
-    "primary_entity_id": "nad-iv-therapy",
+    "primary_entity_id": "nad-infusion-therapy",
     "entity_ids": [
-      "nad-iv-therapy",
+      "nad-infusion-therapy",
       "chronic-fatigue",
-      "age-related-symptoms"
+      "aging-symptoms"
     ],
     "updated_at": "2026-04-23"
   },
@@ -207,7 +207,7 @@
     "primary_entity_id": "nad-infusion-therapy",
     "entity_ids": [
       "nad-infusion-therapy",
-      "aging",
+      "aging-symptoms",
       "chronic-fatigue",
       "dna-repair"
     ],
@@ -321,7 +321,7 @@
     "entity_ids": [
       "nad-infusion-therapy"
     ],
-    "updated_at": "2026-05-02"
+    "updated_at": "2026-05-01"
   },
   {
     "post_path": "https://ansimpainfree.kr/blog/daegu-shingles-post-neuralgia-pain",
@@ -335,15 +335,5 @@
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree",
     "updated_at": "2026-05-01"
-  },
-  {
-    "post_path": "https://ansimpainfree.kr/blog/shingles-vaccine-singrrix-vs-shingrix",
-    "source_article_url": "https://ansimpainfree.kr/blog/shingles-vaccine-singrrix-vs-shingrix",
-    "source_article_title": null,
-    "primary_entity_id": "zoster",
-    "entity_ids": [
-      "zoster"
-    ],
-    "updated_at": "2026-05-02"
   }
 ]

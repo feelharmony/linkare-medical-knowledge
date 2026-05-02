@@ -114,6 +114,20 @@
     "version": 3
   },
   {
+    "id": "shoulder",
+    "type": "body_part",
+    "name_ko": "어깨",
+    "name_en": "shoulder",
+    "aliases": [
+      "견관절"
+    ],
+    "description_ko": "어깨 관절 부위",
+    "status": "approved",
+    "last_reviewed": "2026-04-28",
+    "source_count": 1,
+    "version": 2
+  },
+  {
     "id": "antiviral-medicine",
     "type": "treatment",
     "name_ko": "항바이러스제",
@@ -139,7 +153,7 @@
     "description_ko": "",
     "status": "approved",
     "last_reviewed": null,
-    "source_count": 2,
+    "source_count": 1,
     "version": 1
   },
   {
@@ -172,19 +186,22 @@
     "version": 2
   },
   {
-    "id": "straight-neck",
+    "id": "forward-head-posture",
     "type": "condition",
-    "name_ko": "일자목",
-    "name_en": "straight neck",
+    "name_ko": "거북목·일자목",
+    "name_en": "forward head posture / cervical lordosis loss",
     "aliases": [
       "거북목",
+      "일자목",
       "forward head posture",
+      "straight neck",
+      "cervical lordosis loss",
       "일자목 증후군"
     ],
-    "description_ko": "경추 정상 만곡이 소실된 자세 변형",
+    "description_ko": "머리가 몸의 중심선보다 앞으로 나오는 자세 변형 및 경추 정상 만곡 소실",
     "status": "approved",
-    "last_reviewed": "2026-04-30",
-    "source_count": 0,
+    "last_reviewed": "2026-05-02",
+    "source_count": 4,
     "version": 3
   },
   {
@@ -277,13 +294,14 @@
     "aliases": [
       "NAD+ 정맥주사",
       "NAD+ IV",
-      "NAD+ 주사"
+      "NAD+ 주사",
+      "nad-iv-therapy"
     ],
     "description_ko": "노화·피로 회복을 위한 NAD+ 정맥 주입 치료",
     "status": "approved",
-    "last_reviewed": "2026-05-01",
-    "source_count": 3,
-    "version": 4
+    "last_reviewed": "2026-05-02",
+    "source_count": 6,
+    "version": 6
   },
   {
     "id": "sciatica",
@@ -431,6 +449,21 @@
     "last_reviewed": "2026-04-28",
     "source_count": 2,
     "version": 4
+  },
+  {
+    "id": "androgenetic-alopecia",
+    "type": "condition",
+    "name_ko": "남성형 탈모",
+    "name_en": "androgenetic alopecia",
+    "aliases": [
+      "M자 탈모",
+      "안드로젠성 탈모"
+    ],
+    "description_ko": "안드로젠 호르몬에 의한 유전성 탈모",
+    "status": "approved",
+    "last_reviewed": "2026-04-28",
+    "source_count": 1,
+    "version": 2
   },
   {
     "id": "cauda-equina-syndrome",
@@ -760,49 +793,6 @@
     "version": 1
   },
   {
-    "id": "shoulder",
-    "type": "body_part",
-    "name_ko": "어깨",
-    "name_en": "shoulder",
-    "aliases": [
-      "견관절"
-    ],
-    "description_ko": "어깨 관절 부위",
-    "status": "approved",
-    "last_reviewed": "2026-04-28",
-    "source_count": 1,
-    "version": 2
-  },
-  {
-    "id": "androgenetic-alopecia",
-    "type": "condition",
-    "name_ko": "남성형 탈모",
-    "name_en": "androgenetic alopecia",
-    "aliases": [
-      "M자 탈모",
-      "안드로젠성 탈모"
-    ],
-    "description_ko": "안드로젠 호르몬에 의한 유전성 탈모",
-    "status": "approved",
-    "last_reviewed": "2026-04-28",
-    "source_count": 1,
-    "version": 2
-  },
-  {
-    "id": "hair-loss",
-    "type": "symptom",
-    "name_ko": "탈모",
-    "name_en": "hair loss",
-    "aliases": [
-      "모발 손실"
-    ],
-    "description_ko": "모발이 빠지거나 가늘어지는 증상",
-    "status": "approved",
-    "last_reviewed": "2026-04-28",
-    "source_count": 1,
-    "version": 2
-  },
-  {
     "id": "foot-pain",
     "type": "symptom",
     "name_ko": "발 통증",
@@ -920,6 +910,20 @@
     "last_reviewed": null,
     "source_count": 0,
     "version": 1
+  },
+  {
+    "id": "hair-loss",
+    "type": "symptom",
+    "name_ko": "탈모",
+    "name_en": "hair loss",
+    "aliases": [
+      "모발 손실"
+    ],
+    "description_ko": "모발이 빠지거나 가늘어지는 증상",
+    "status": "approved",
+    "last_reviewed": "2026-04-28",
+    "source_count": 1,
+    "version": 2
   },
   {
     "id": "hi-ems",
