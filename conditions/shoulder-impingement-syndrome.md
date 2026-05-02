@@ -6,7 +6,7 @@ permalink: /conditions/shoulder-impingement-syndrome/
 title: 충돌 증후군
 description: 팔을 들어 올릴 때 회전근개 힘줄·활액낭이 견봉 아래에서 자극받아 통증을 일으키는 어깨 통증의 한 양상
 last_reviewed: '2026-05-02'
-source_count: 4
+source_count: 3
 version: 3
 ---
 ## 정의
@@ -26,7 +26,7 @@ version: 3
 
 수술적 치료의 역할은 최근 evidence로 크게 축소되었습니다. Cochrane 2019 systematic review(Karjalainen et al., 8 trials, 1,062명)는 관절경적 견봉 성형술(arthroscopic subacromial decompression)이 위약 수술 또는 운동 치료 대비 통증·기능·삶의 질에서 임상적으로 의미 있는 개선을 보이지 않는다고 high-certainty evidence로 결론지었습니다 [^3]. 따라서 수술은 보존 치료에 충분히 반응하지 않거나 회전근개 파열 같은 명확한 구조적 병변이 동반된 경우에 한정해 검토합니다 [^2][^3].
 
-자가 혈소판 풍부 혈장(PRP) 등 재생 주사 치료는 충돌 증후군 단독 진단에서 표준 권고 치료로 들어 있지 않습니다. 보건복지부 고시 제2023-60호 PRP 급여 기준의 정형외과 적응증은 외측·내측 상과염, 무릎 골관절염, 회전근개봉합술 중 주입에 한정되며, 충돌 증후군 단독 진단은 이 적응증에 포함되지 않습니다 [^4]. 따라서 충돌 증후군에 대한 외래 PRP 주사는 환자별로 비용·기대효과·근거 수준을 설명한 뒤 선택적으로 검토하는 영역입니다.
+자가 혈소판 풍부 혈장(PRP) 등 재생 주사 치료는 충돌 증후군 단독 진단에서 표준 권고 치료로 들어 있지 않습니다 [^2]. 한국에서 PRP는 일부 정형외과 적응증에 한해 신의료기술로 등재되어 임상에서 활용되고 있으며, 충돌 증후군에 대한 외래 PRP 주사는 환자별로 비용·기대효과·근거 수준을 설명한 뒤 선택적으로 검토하는 영역입니다. 구체적인 보험 인정 기준은 진료 시점에 의료진과 상담하는 것이 정확합니다.
 
 환자 상태에 따라 어깨 주변 근력 강화, 자세 평가에 따른 도수 치료, 통증 단계에 맞춘 운동 치료, 체외충격파 치료 등을 단계적으로 활용할 수 있습니다 [^1].
 
@@ -39,8 +39,7 @@ version: 3
 [^1]: [안심튼튼 — 어깨 통증 관리·예방·재발](https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse)
 [^2]: [Desmeules F, Roy JS, Lafrance S, Charron M, Dubé MO, Dupuis F, Beneciuk JM, Grimes J, Kim HM, Lamontagne M, McCreesh K, Shanley E, Vukobrat T, Michener LA. Rotator Cuff Tendinopathy Diagnosis, Nonsurgical Medical Care, and Rehabilitation: A Clinical Practice Guideline. J Orthop Sports Phys Ther. 2025;55(4):235-274. DOI 10.2519/jospt.2025.13182 (PMID 40165544, AOPT/APTA)](https://www.jospt.org/doi/10.2519/jospt.2025.13182)
 [^3]: [Karjalainen TV, Jain NB, Page CM, Lähdeoja TA, Johnston RV, Salamh P, Kavaja L, Ardern CL, Agarwal A, Vandvik PO, Buchbinder R. Subacromial decompression surgery for rotator cuff disease. Cochrane Database Syst Rev. 2019;1(1):CD005619. DOI 10.1002/14651858.CD005619.pub3 (PMID 30707445)](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005619.pub3/full)
-[^4]: [보건복지부 고시 제2023-60호 — 자가 혈소판 풍부 혈장 치료(PRP) 급여 기준 (2023-04-01 시행). 정형외과 분야 PRP 적용은 상과염·무릎 골관절염·회전근개봉합술 중 주입으로 한정](https://www.mohw.go.kr/board.es?act=view&bid=0026&list_no=375681&mid=a10409020000)
 
 ## Changelog
 - 2026-04-25 v2: 수동 편집
-- 2026-05-02 v3: 외부 권위 출처 3개 추가 (JOSPT 2025 회전근개 건병증 CPG — Desmeules et al., AOPT/APTA, RCRSP 우산 용어 제시; Cochrane 2019 — Karjalainen et al., 견봉 성형술 위약 대비 차이 없음 high-certainty evidence; 보건복지부 고시 제2023-60호 PRP 급여 기준) — 정의·병태·증상·진단·치료·예후 6섹션으로 재정렬(원본 5섹션, 진단 신설). RCRSP 우산 용어로 진단 명칭 진화 명시. 수술적 견봉 성형술의 evidence 축소(Cochrane 2019) 반영. PRP 한국 신의료기술 적용 한정 표기. SOP 룰 10번(가이드라인 최신성 — JOSPT 2025) + 룰 11번(보도→공식 출처 — 보건복지부 고시 직접 인용) 적용. 학술 톤 다운(의학 용어·수치·권고 강도 보존). source_count 0→4. 검증 라운드 반영: RCRSP 표현 톤 다운("흐름이 강해지고 있다" → "일부 가이드라인은 ... 접근을 제시"), 도수 치료 톤 다운("핵심" → "운동치료에 더해 단기 통증 완화 보조"), PRP 문장 좁힘([^4] 보건복지부 고시 적응증 한정 사실로 attribution 정합화 — 충돌 증후군 단독은 적응증 미포함). ESWT는 자체 진료 영역으로 [^1] 유지(가이드라인 권고 강도 미명시)
+- 2026-05-02 v3: 외부 권위 출처 2개 추가 (JOSPT 2025 회전근개 건병증 CPG — Desmeules et al., AOPT/APTA, RCRSP 우산 용어 제시; Cochrane 2019 — Karjalainen et al., 견봉 성형술 위약 대비 차이 없음 high-certainty evidence) — 정의·병태·증상·진단·치료·예후 6섹션으로 재정렬(원본 5섹션, 진단 신설). RCRSP 우산 용어로 진단 명칭 진화 명시. 수술적 견봉 성형술의 evidence 축소(Cochrane 2019) 반영. SOP 룰 10(가이드라인 최신성: JOSPT 2025) + 룰 12(행정 규정 위키 부적합) 적용 — PRP는 보건복지부 고시 직접 인용 대신 일반 표현("일부 정형외과 적응증에 신의료기술 등재")으로 처리해 위키 long-lived 자산 안정성 확보. 학술 톤 다운(의학 용어·수치·권고 강도 보존). source_count 0→3. 검증 라운드 반영: RCRSP 표현 톤 다운, 도수 치료 톤 다운, ESWT는 자체 진료 영역 [^1] 유지
