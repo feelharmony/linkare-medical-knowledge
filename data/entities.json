@@ -413,14 +413,18 @@
     "name_ko": "어깨 통증",
     "name_en": "shoulder pain",
     "aliases": [
-      "어깨 결림",
+      "어깨 통증",
+      "어깨통증",
+      "shoulder pain",
+      "glenohumeral pain",
+      "견관절 통증",
       "어깨 관절 통증"
     ],
-    "description_ko": "어깨 관절 부위의 통증 (회전근개·오십견 영역)",
+    "description_ko": "어깨 관절(견갑상완)·견봉하 공간·회전근개 영역의 통증을 가리키는 임상 용어. 회전근개 건병증·동결견·석회성 건염이 대표 원인이며, 빈도는 낮지만 외상·감염·종양은 빠른 평가가 필요합니다. 목·승모근 통증은 별도 entity.",
     "status": "approved",
-    "last_reviewed": "2026-04-30",
-    "source_count": 3,
-    "version": 4
+    "last_reviewed": "2026-05-03",
+    "source_count": 9,
+    "version": 5
   },
   {
     "id": "knee-osteoarthritis",
