@@ -323,13 +323,17 @@
     "name_en": "lower back pain",
     "aliases": [
       "요통",
-      "허리 아픔"
+      "허리 통증",
+      "허리 아픔",
+      "low back pain",
+      "lumbago",
+      "LBP"
     ],
-    "description_ko": "요추 주변 구조의 문제로 발생하는 통증",
+    "description_ko": "요추 주변 구조의 다양한 원인으로 발생하는 임상 용어. 대부분 비특이성이며 보존 치료로 호전되지만, 신경학적 결손·red flag가 있을 때는 빠른 평가가 필요합니다.",
     "status": "approved",
-    "last_reviewed": "2026-04-28",
-    "source_count": 3,
-    "version": 2
+    "last_reviewed": "2026-05-03",
+    "source_count": 8,
+    "version": 6
   },
   {
     "id": "nad-infusion-therapy",
