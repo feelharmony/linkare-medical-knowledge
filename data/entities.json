@@ -1110,17 +1110,22 @@
   {
     "id": "aging-symptoms",
     "type": "symptom",
-    "name_ko": "노화",
-    "name_en": "aging",
+    "name_ko": "노화 증상",
+    "name_en": "aging-related symptoms",
     "aliases": [
       "노화 증상",
-      "노화 관련 증상"
+      "노화",
+      "노화 관련 증상",
+      "aging",
+      "aging-related symptoms",
+      "age-related decline",
+      "intrinsic capacity decline"
     ],
-    "description_ko": "노화에 따른 신체 기능 저하 증상",
+    "description_ko": "나이가 들면서 나타나는 신체·인지·감각·근골격계 기능 저하를 포괄하는 임상 용어. 단일 진단명이 아니며 근감소증·인지 저하·감각 저하·기립성 불내성 등 다양한 영역으로 평가합니다. WHO ICOPE 본질 능력(intrinsic capacity) 평가가 표준 framework입니다.",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 1
+    "last_reviewed": "2026-05-03",
+    "source_count": 7,
+    "version": 3
   },
   {
     "id": "hair-loss",
