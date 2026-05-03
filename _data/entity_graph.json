@@ -94,7 +94,7 @@
       "id": "antiviral-medicine",
       "type": "treatment",
       "name_ko": "항바이러스제 (대상포진)",
-      "name_en": "anti-viral medicine",
+      "name_en": "antiviral medicine (acyclovir, valacyclovir, famciclovir)",
       "post_count": 1,
       "tenant_keys": [
         null
@@ -114,7 +114,7 @@
       "id": "zoster",
       "type": "condition",
       "name_ko": "대상포진",
-      "name_en": "zoster",
+      "name_en": "herpes zoster (shingles)",
       "post_count": 1,
       "tenant_keys": [
         null
@@ -124,7 +124,7 @@
       "id": "postherpetic-neuralgia",
       "type": "condition",
       "name_ko": "대상포진 후 신경통 (PHN)",
-      "name_en": "postherpetic neuralgia",
+      "name_en": "postherpetic neuralgia (PHN)",
       "post_count": 1,
       "tenant_keys": [
         null
