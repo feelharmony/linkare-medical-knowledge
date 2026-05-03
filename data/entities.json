@@ -1183,12 +1183,36 @@
     "name_ko": "만성 피로",
     "name_en": "chronic fatigue",
     "aliases": [
-      "만성피로증후군"
+      "만성 피로",
+      "만성피로",
+      "피로감",
+      "chronic fatigue",
+      "prolonged fatigue"
     ],
-    "description_ko": "일상생활을 방해하는 지속적인 피로감",
+    "description_ko": "일상생활을 방해하는 6개월 이상 지속되는 피로감을 가리키는 임상 용어. 다양한 원인(생리적·이차성·만성형)을 포괄하며, 만성피로증후군(ME/CFS)이나 systemic exertion intolerance disease(SEID)는 별도 진단 기준이 있는 진단명입니다.",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 3,
+    "last_reviewed": "2026-05-03",
+    "source_count": 6,
+    "version": 7
+  },
+  {
+    "id": "chronic-fatigue-syndrome",
+    "type": "condition",
+    "name_ko": "만성피로증후군",
+    "name_en": "chronic fatigue syndrome / myalgic encephalomyelitis (ME/CFS)",
+    "aliases": [
+      "만성피로증후군",
+      "근통성 뇌척수염",
+      "ME/CFS",
+      "SEID",
+      "systemic exertion intolerance disease",
+      "myalgic encephalomyelitis",
+      "chronic fatigue syndrome"
+    ],
+    "description_ko": "활동 후 악화·불회복 수면·인지 장애·기립성 불내성을 특징으로 하는 신경계 질환. IOM 2015 SEID 기준과 NICE NG206 진단 기준에 따라 진단합니다. graded exercise therapy(GET)는 권고하지 않으며, 활동 페이싱이 핵심 관리 전략입니다.",
+    "status": "approved",
+    "last_reviewed": "2026-05-03",
+    "source_count": 4,
     "version": 1
   },
   {
