@@ -373,12 +373,19 @@
     "type": "symptom",
     "name_ko": "팔꿈치 통증",
     "name_en": "elbow pain",
-    "aliases": [],
-    "description_ko": "팔꿈치 부위의 통증",
+    "aliases": [
+      "팔꿈치 통증",
+      "팔꿈치통증",
+      "주관절 통증",
+      "elbow pain",
+      "tennis elbow",
+      "golfer's elbow"
+    ],
+    "description_ko": "팔꿈치 영역(외측·내측·전방·후방) 구조의 다양한 원인으로 발생하는 임상 용어. 외측·내측 상과염이 가장 흔하며, 외상·신경 압박·관절 내 병변은 빠른 평가가 필요합니다.",
     "status": "approved",
-    "last_reviewed": "2026-04-28",
-    "source_count": 2,
-    "version": 2
+    "last_reviewed": "2026-05-03",
+    "source_count": 8,
+    "version": 5
   },
   {
     "id": "physical-therapy",
