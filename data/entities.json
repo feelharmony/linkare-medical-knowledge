@@ -649,15 +649,22 @@
     "id": "spinal-stenosis",
     "type": "condition",
     "name_ko": "척추관 협착증",
-    "name_en": "spinal stenosis",
+    "name_en": "lumbar spinal stenosis",
     "aliases": [
-      "척추협착증"
+      "척추관 협착증",
+      "척추협착증",
+      "요추 척추관 협착",
+      "신경성 파행",
+      "lumbar spinal stenosis",
+      "LSS",
+      "spinal stenosis",
+      "neurogenic claudication"
     ],
-    "description_ko": "척추관이 좁아져 신경을 압박하는 질환",
+    "description_ko": "척추관·신경공이 좁아져 신경근·마미 신경이 압박되는 퇴행성 척추 질환. 보행 시 양쪽 다리로 뻗치는 통증·저림(신경성 파행)이 특징이며, 보존 치료가 1차이고 보존 치료에 반응하지 않을 때 감압 수술이 검토됩니다.",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 1
+    "last_reviewed": "2026-05-03",
+    "source_count": 7,
+    "version": 2
   },
   {
     "id": "scoliosis",
