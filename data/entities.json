@@ -400,19 +400,24 @@
     "version": 1
   },
   {
-    "id": "tension-headache",
+    "id": "headache",
     "type": "symptom",
     "name_ko": "두통",
     "name_en": "headache",
     "aliases": [
+      "두통",
+      "머리 통증",
+      "머리아픔",
+      "머리 아픔",
       "긴장성 두통",
-      "머리 아픔"
+      "headache",
+      "cephalalgia"
     ],
-    "description_ko": "긴장 또는 통증 클리닉에서 다루는 두통",
+    "description_ko": "머리·얼굴·목 영역에서 발생하는 통증을 가리키는 임상 용어. 1차성(긴장형·편두통·군발성)과 2차성(외상·혈관·감염·약물 과다 사용 등)으로 구분되며, red flag가 있을 때는 응급 또는 빠른 전문 평가가 필요합니다.",
     "status": "approved",
-    "last_reviewed": "2026-04-28",
-    "source_count": 0,
-    "version": 2
+    "last_reviewed": "2026-05-03",
+    "source_count": 9,
+    "version": 4
   },
   {
     "id": "shoulder-pain",
