@@ -932,13 +932,18 @@
     "name_ko": "무릎 통증",
     "name_en": "knee pain",
     "aliases": [
-      "슬관절 통증"
+      "무릎 통증",
+      "무릎통증",
+      "슬통",
+      "슬관절 통증",
+      "knee pain",
+      "gonalgia"
     ],
-    "description_ko": "무릎 관절 부위의 통증",
+    "description_ko": "무릎 관절·연골·반월상연골·인대·슬개대퇴 영역의 통증을 가리키는 임상 용어. 골관절염·전방슬관절통·반월상연골 손상이 대표 원인이며, 외상·감염·심부정맥혈전증은 빠른 평가가 필요합니다.",
     "status": "approved",
-    "last_reviewed": "2026-04-28",
-    "source_count": 1,
-    "version": 2
+    "last_reviewed": "2026-05-03",
+    "source_count": 12,
+    "version": 4
   },
   {
     "id": "prolotherapy",
