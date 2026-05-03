@@ -420,6 +420,99 @@
     "version": 4
   },
   {
+    "id": "tension-type-headache",
+    "type": "condition",
+    "name_ko": "긴장형 두통",
+    "name_en": "tension-type headache",
+    "aliases": [
+      "긴장형 두통",
+      "긴장성 두통",
+      "머리가 무겁다",
+      "tension-type headache",
+      "TTH",
+      "tension headache"
+    ],
+    "description_ko": "가장 흔한 1차성 두통. 양측성·압박·둔통 양상에 가벼운~중등도 강도, 일상 활동으로 악화되지 않는 특징을 보입니다. 보존 치료와 단순 진통제로 호전되며, 만성기에는 예방치료가 필요할 수 있습니다.",
+    "status": "approved",
+    "last_reviewed": "2026-05-03",
+    "source_count": 5,
+    "version": 2
+  },
+  {
+    "id": "migraine",
+    "type": "condition",
+    "name_ko": "편두통",
+    "name_en": "migraine",
+    "aliases": [
+      "편두통",
+      "편두통 발작",
+      "migraine",
+      "migraine headache",
+      "migraine with aura",
+      "migraine without aura"
+    ],
+    "description_ko": "편측성·박동성·중등도 이상 강도의 발작성 두통이 4~72시간 지속되며 빛·소리 과민·구역·구토를 동반하는 1차성 두통. 급성기 트립탄·CGRP 길항제와 예방치료(경구 약물·CGRP 단클론항체)로 빈도·강도를 줄일 수 있습니다.",
+    "status": "approved",
+    "last_reviewed": "2026-05-03",
+    "source_count": 8,
+    "version": 2
+  },
+  {
+    "id": "cluster-headache",
+    "type": "condition",
+    "name_ko": "군발성 두통",
+    "name_en": "cluster headache",
+    "aliases": [
+      "군발성 두통",
+      "군발 두통",
+      "클러스터 두통",
+      "cluster headache",
+      "CH"
+    ],
+    "description_ko": "편측 안와·관자놀이의 매우 심한 통증이 15~180분 발작 형태로 반복되며 같은 쪽 자율신경 증상을 동반하는 1차성 두통. 통증 강도가 매우 높아 신경과 평가가 필요하며, 급성기에는 고유량 산소·피하 sumatriptan, 예방에는 verapamil·후두하 스테로이드가 활용됩니다.",
+    "status": "approved",
+    "last_reviewed": "2026-05-03",
+    "source_count": 6,
+    "version": 2
+  },
+  {
+    "id": "cervicogenic-headache",
+    "type": "condition",
+    "name_ko": "경추기원 두통",
+    "name_en": "cervicogenic headache",
+    "aliases": [
+      "경추기원 두통",
+      "경추성 두통",
+      "목에서 오는 두통",
+      "cervicogenic headache",
+      "CGH"
+    ],
+    "description_ko": "경추 구조 병변에 의한 2차성 두통. 편측성, 경부 움직임·자세·압력으로 유발되며 신경차단으로 호전되는 양상이 특징입니다. 운동·도수치료가 1차 치료이며, 후관절 신경차단·고주파 열응고가 검토됩니다.",
+    "status": "approved",
+    "last_reviewed": "2026-05-03",
+    "source_count": 7,
+    "version": 2
+  },
+  {
+    "id": "occipital-neuralgia",
+    "type": "condition",
+    "name_ko": "후두신경통",
+    "name_en": "occipital neuralgia",
+    "aliases": [
+      "후두신경통",
+      "후두 신경통",
+      "뒷머리 신경통",
+      "occipital neuralgia",
+      "greater occipital neuralgia",
+      "GON"
+    ],
+    "description_ko": "대후두신경·소후두신경·제3후두신경 분포의 신경병성 통증. 발작성 찌르는 듯한 통증과 후두신경 압통이 특징이며, 진단·치료에 후두신경차단이 1차로 활용됩니다. 보존 치료에 반응하지 않을 때 고주파 열응고·신경 자극을 검토합니다.",
+    "status": "approved",
+    "last_reviewed": "2026-05-03",
+    "source_count": 5,
+    "version": 2
+  },
+  {
     "id": "shoulder-pain",
     "type": "symptom",
     "name_ko": "어깨 통증",
