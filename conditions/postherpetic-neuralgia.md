@@ -12,14 +12,14 @@ aliases:
   - postherpetic neuralgia
   - post-herpetic neuralgia
 last_reviewed: '2026-05-03'
-source_count: 4
-version: 1
+source_count: 5
+version: 2
 ---
 
 ## 정의
 대상포진 후 신경통(postherpetic neuralgia, PHN)은 **대상포진 발진이 회복(가피화)된 후에도 통증이 지속되는** 만성 신경병증성 통증입니다. 일반적으로 **발진 발생 후 3개월 이상** 통증이 지속되면 PHN으로 정의합니다. ICD-10 G53.0(대상포진후 신경통)으로 분류됩니다.
 
-PHN은 통증의학과의 대표적 만성 통증 영역으로, **삶의 질 저하·수면 장애·우울·사회적 위축**을 동반하는 경우가 많고, 표준 약물 치료의 실패율도 상대적으로 높아 다학제 접근이 필요합니다[^1]. 대상포진 환자에서 PHN 발생률은 정의·연령·중증도에 따라 차이가 있으나 일반적으로 **약 10~25% 범위**로 보고됩니다(CDC 약 10~18%, 통증의학 review 약 25%)[^1].
+PHN은 통증의학과의 대표적 만성 통증 영역으로, **삶의 질 저하·수면 장애·우울·사회적 위축**을 동반하는 경우가 많고, 표준 약물 치료의 실패율도 상대적으로 높아 다학제 접근이 필요합니다[^1]. 대상포진 환자에서 PHN 발생률은 정의·연령·중증도에 따라 차이가 있으나 일반적으로 **약 10~25% 범위**로 보고됩니다(CDC 약 10~18%[^5], 통증의학 review 약 25%[^1]).
 
 ## 병태
 급성 대상포진기에 신경 염증이 신경 손상으로 진행되면, 회복 후에도 손상된 신경이 비정상적인 통증 신호를 만들어내는 **신경병증성 통증** 상태가 됩니다. 말초·중추 감작(peripheral·central sensitization), 후근신경절(DRG) 손상, A섬유 발아(sprouting) 등이 알려진 기전입니다[^1]. 이런 변화 때문에 단순 진통제(NSAIDs·아세트아미노펜)만으로는 효과가 제한적이고, 신경병증성 통증 약물·중재시술이 핵심 치료가 됩니다.
@@ -111,6 +111,8 @@ PHN으로 진행한 환자에서도 다학제 통증 관리로 의미 있는 회
 [^2]: Efficacy and safety of different medications compared for the treatment of postherpetic neuralgia: a network meta-analysis. *Front Pharmacol.* 2025;16:1614587. URL: [frontiersin.org](https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1614587/full) — 38 RCT/8,621명, gabapentinoid·TCA·lidocaine 1차 옵션 평가
 [^3]: Lu W, He S, Liu Q, Gu Y, Bai J. Comparative effectiveness of nerve block strategies for preventing postherpetic neuralgia in thoracic herpes zoster: a network meta-analysis. *Front Neurol.* 2025;16:1612871. PMID 40901665. DOI: [10.3389/fneur.2025.1612871](https://pmc.ncbi.nlm.nih.gov/articles/PMC12399379/) — 9 RCT/741명, PVB·ESPB 우월
 [^4]: Lal H, Cunningham AL, Godeaux O, et al. Efficacy of an Adjuvanted Herpes Zoster Subunit Vaccine in Older Adults (ZOE-50/70). *N Engl J Med.* 2015;372(22):2087-2096 / 2016;375(11):1019-1032. — 백신 효과 91~97%, PHN VE 88.8%
+[^5]: Shingles Facts and Stats. *CDC.* 2024 update. URL: [cdc.gov/shingles/data-research](https://www.cdc.gov/shingles/data-research/index.html) — PHN 발생률 약 10~18% (대상포진 환자 중)
 
 ## Changelog
-- 2026-05-03 v1: **신규 entity 발행** — 통증의학과 만성 통증 핵심 영역. 외부 권위 출처 4건 — Adriaansen 2025 *Pain Practice* 8장 review (PHN 1차 약물·중재시술·다학제), Front Pharmacol 2025 network meta (38 RCT/8,621명 약물 비교), Lu 2025 *Front Neurol* (흉부 PHN nerve block PVB 우월), ZOE-50/70(예방). 6섹션 구조 (정의·병태(위험요인 하위)·증상·진단·치료·예후) + 신경병증성 통증 양상(이질통·통각과민) 명시 + 다학제 접근(수면·우울·심리) 권고. 룰 14·15 적용 — 단일 치료 실패율 높음·완전 소실보다 환자별 목표 통증 강도가 합리적이라는 사실은 정직하게 표기, "효과 없다" 결론 회피. **검증 라운드(GPT 의견)**: ① PHN 발생률 "약 4명 중 1명" → "10~25% 범위(CDC 10~18%·Pain Practice review 약 25%)"로 균형화, ② 위험요인 독립 섹션 → 병태 하위 ###로 접어 SOP 6섹션 strict schema 정합, ③ "[hair-loss-medication]" 링크 복붙 오류 제거, ④ citation mapping 보강(증상·진단·1차 약물 섹션에 [^1][^2] footnote).
+- 2026-05-03 v2: **검증 라운드 2 (GPT 의견)** — CDC PHN 통계(약 10~18%) claim-source mapping 정합을 위해 [^5] CDC Shingles Facts and Stats 출처 추가. source_count 4 → 5. 본문 발생률 표기에 CDC와 Pain Practice review를 분리 인용([^5] vs [^1])하여 출처 추적 가능하게 정리.
+- 2026-05-03 v1: **신규 entity 발행** — 통증의학과 만성 통증 핵심 영역. 외부 권위 출처 4건 — Adriaansen 2025 *Pain Practice* 8장 review (PHN 1차 약물·중재시술·다학제), Front Pharmacol 2025 network meta (38 RCT/8,621명 약물 비교), Lu 2025 *Front Neurol* (흉부 PHN nerve block PVB 우월), ZOE-50/70(예방). 6섹션 구조 (정의·병태(위험요인 하위)·증상·진단·치료·예후) + 신경병증성 통증 양상(이질통·통각과민) 명시 + 다학제 접근(수면·우울·심리) 권고. 룰 14·15 적용 — 단일 치료 실패율 높음·완전 소실보다 환자별 목표 통증 강도가 합리적이라는 사실은 정직하게 표기, "효과 없다" 결론 회피. **검증 라운드 1 (GPT 의견)**: ① PHN 발생률 "약 4명 중 1명" → "10~25% 범위(CDC 10~18%·Pain Practice review 약 25%)"로 균형화, ② 위험요인 독립 섹션 → 병태 하위 ###로 접어 SOP 6섹션 strict schema 정합, ③ "[hair-loss-medication]" 링크 복붙 오류 제거, ④ citation mapping 보강(증상·진단·1차 약물 섹션에 [^1][^2] footnote).
