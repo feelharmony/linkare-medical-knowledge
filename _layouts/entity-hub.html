@@ -156,11 +156,56 @@ layout: default
   {%- comment -%}
     v2.5: MD body 섹션 렌더 (thick entity 본문 + Citations + Changelog).
     "관련 글" 섹션은 제거 — body 내 citation [^N] 각주가 그 역할 대체.
+
+    v2.6: kramdown footnotes 자동 출력 위치 보정.
+    kramdown은 footnote 정의를 페이지 맨 아래에 자동 출력하므로
+    markdown의 "## Citations" 제목 아래는 비고 footnote는 Changelog 뒤에 떨어진다.
+    JS로 .footnotes 블록을 "Citations" 제목 다음 위치로 이동시킨다.
+    FOUC 방지: 초기에 .footnotes를 visibility:hidden, JS 이동 후 visible로.
+    JS 비활성 환경: <noscript>으로 visible 처리해 페이지 끝에 표시.
   {%- endcomment -%}
   {% if content != blank %}
   <div class="entity-body">
     {{ content }}
   </div>
+  <style>
+    .entity-body .footnotes { visibility: hidden; }
+    .entity-body .footnotes.footnotes--repositioned { visibility: visible; }
+  </style>
+  <noscript>
+    <style>.entity-body .footnotes { visibility: visible; }</style>
+  </noscript>
+  <script>
+    (function() {
+      function repositionFootnotes() {
+        var entityBody = document.querySelector('.entity-body');
+        if (!entityBody) return;
+
+        var footnotes = entityBody.querySelector('.footnotes');
+        if (!footnotes) return;
+
+        var headings = entityBody.querySelectorAll('h2');
+        var citationsHeading = null;
+        for (var i = 0; i < headings.length; i++) {
+          if (headings[i].textContent.trim() === 'Citations') {
+            citationsHeading = headings[i];
+            break;
+          }
+        }
+
+        if (citationsHeading) {
+          citationsHeading.insertAdjacentElement('afterend', footnotes);
+        }
+        footnotes.classList.add('footnotes--repositioned');
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', repositionFootnotes);
+      } else {
+        repositionFootnotes();
+      }
+    })();
+  </script>
   {% endif %}
 
   {%- comment -%}
