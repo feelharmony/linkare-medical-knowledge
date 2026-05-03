@@ -202,7 +202,7 @@
     },
     {
       "id": "sciatica",
-      "type": "symptom",
+      "type": "condition",
       "name_ko": "좌골신경통",
       "name_en": "sciatica",
       "post_count": 4,

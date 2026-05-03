@@ -354,19 +354,19 @@
   },
   {
     "id": "sciatica",
-    "type": "symptom",
+    "type": "condition",
     "name_ko": "좌골신경통",
     "name_en": "sciatica",
     "aliases": [
-      "다리 방사통",
+      "좌골신경통",
       "좌골 신경통",
-      "좌골신경통"
+      "sciatica"
     ],
-    "description_ko": "좌골신경 압박에 의한 엉덩이~다리 방사통",
+    "description_ko": "좌골 신경 분포 영역의 방사통을 가리키는 임상 용어. 단일 진단명이 아닌 다양한 원인의 결과로, 가장 흔한 원인은 요추 신경근병증입니다.",
     "status": "approved",
-    "last_reviewed": "2026-04-28",
+    "last_reviewed": "2026-05-02",
     "source_count": 4,
-    "version": 3
+    "version": 1
   },
   {
     "id": "elbow-pain",
@@ -1029,17 +1029,24 @@
   {
     "id": "leg-numbness",
     "type": "symptom",
-    "name_ko": "다리 저림",
-    "name_en": "leg numbness",
+    "name_ko": "다리 저림·방사통",
+    "name_en": "leg numbness and radiating pain",
     "aliases": [
+      "다리 저림",
+      "다리저림",
+      "다리 방사통",
       "하지 저림",
-      "다리 저린 증상"
+      "다리 저린 증상",
+      "다리로 뻗치는 통증",
+      "leg numbness",
+      "lower extremity paresthesia",
+      "radicular leg pain"
     ],
-    "description_ko": "하지의 저림·감각 이상",
+    "description_ko": "다리·발로 내려가는 감각 이상(저림·찌릿·무감각)과 신경근에서 시작해 피부절을 따라 뻗치는 방사통을 함께 포괄하는 임상 용어. 요추 신경근병증·척추관 협착·하지 말초신경 포착·말초신경병증 등 원인이 다양하며, 마미증후군·진행성 신경 결손은 응급 평가가 필요합니다.",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 1
+    "last_reviewed": "2026-05-03",
+    "source_count": 9,
+    "version": 2
   },
   {
     "id": "hand-numbness",
