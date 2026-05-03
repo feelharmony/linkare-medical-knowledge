@@ -351,6 +351,16 @@
       ]
     },
     {
+      "id": "arm-numbness",
+      "type": "symptom",
+      "name_ko": "팔 저림·방사통",
+      "name_en": "arm numbness and radiating pain",
+      "post_count": 2,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "id": "knee-pain",
       "type": "symptom",
       "name_ko": "무릎 통증",
@@ -441,6 +451,14 @@
       ]
     },
     {
+      "source": "arm-numbness",
+      "target": "cervical-disc-herniation",
+      "weight": 2,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "source": "cervical-disc-herniation",
       "target": "nerve-block-injection",
       "weight": 2,
@@ -465,6 +483,14 @@
       ]
     },
     {
+      "source": "arm-numbness",
+      "target": "neck-pain",
+      "weight": 2,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "source": "neck-pain",
       "target": "nerve-block-injection",
       "weight": 2,
@@ -482,6 +508,30 @@
     },
     {
       "source": "neck-pain",
+      "target": "rehabilitation-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "arm-numbness",
+      "target": "nerve-block-injection",
+      "weight": 2,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "arm-numbness",
+      "target": "manual-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "arm-numbness",
       "target": "rehabilitation-therapy",
       "weight": 1,
       "tenant_keys": [
@@ -1043,6 +1093,22 @@
     {
       "source": "cervical-spine",
       "target": "neck-pain",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "arm-numbness",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "arm-numbness",
+      "target": "cervical-spine",
       "weight": 1,
       "tenant_keys": [
         null

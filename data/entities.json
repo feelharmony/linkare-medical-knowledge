@@ -888,6 +888,31 @@
     "version": 1
   },
   {
+    "id": "arm-numbness",
+    "type": "symptom",
+    "name_ko": "팔 저림·방사통",
+    "name_en": "arm numbness and radiating pain",
+    "aliases": [
+      "팔 저림",
+      "팔저림",
+      "팔 방사통",
+      "팔 통증·저림",
+      "팔로 뻗치는 통증",
+      "어깨에서 팔로 내려오는 통증",
+      "상지 방사통",
+      "arm numbness",
+      "upper extremity paresthesia",
+      "upper extremity radiating pain",
+      "radicular arm pain",
+      "brachialgia"
+    ],
+    "description_ko": "팔로 내려가는 감각 이상(저림·찌릿·무감각)과 신경근에서 시작해 피부절을 따라 뻗치는 방사통을 함께 포괄하는 임상 용어. 경추 신경근병증·말초신경 포착·말초신경병증 등 원인이 다양하며, 진행성 신경 결손·척수증은 빠른 평가가 필요합니다.",
+    "status": "approved",
+    "last_reviewed": "2026-05-03",
+    "source_count": 10,
+    "version": 4
+  },
+  {
     "id": "upper-extremity-radiating-pain",
     "type": "symptom",
     "name_ko": "상지 방사통",
@@ -897,9 +922,9 @@
       "팔 저림",
       "어깨에서 팔로 내려오는 통증"
     ],
-    "description_ko": "어깨에서 팔·손으로 뻗치는 신경성 통증",
-    "status": "approved",
-    "last_reviewed": null,
+    "description_ko": "[archived] arm-numbness canonical로 통합됨 (2026-05-03)",
+    "status": "archived",
+    "last_reviewed": "2026-05-03",
     "source_count": 0,
     "version": 1
   },
