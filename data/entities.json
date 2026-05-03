@@ -475,15 +475,20 @@
     "name_ko": "목 통증",
     "name_en": "neck pain",
     "aliases": [
+      "목 통증",
+      "목통증",
+      "경부통",
+      "뒷목 통증",
       "목 결림",
       "승모근 통증",
-      "뒷목 통증"
+      "cervical pain",
+      "neck pain"
     ],
-    "description_ko": "경추 및 승모근 영역의 통증 (어깨 관절 통증과 구분)",
+    "description_ko": "경추 주변 구조의 다양한 원인으로 발생하는 임상 용어. 대부분 비특이성·기계적 통증이며 보존 치료로 호전되지만, 척수증·신경학적 결손이 있을 때는 빠른 평가가 필요합니다.",
     "status": "approved",
-    "last_reviewed": "2026-04-28",
-    "source_count": 6,
-    "version": 2
+    "last_reviewed": "2026-05-03",
+    "source_count": 10,
+    "version": 4
   },
   {
     "id": "cervical-disc-herniation",
