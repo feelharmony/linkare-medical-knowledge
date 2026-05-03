@@ -102,16 +102,19 @@
     "name_ko": "신경차단술",
     "name_en": "nerve block injection",
     "aliases": [
+      "신경차단술",
       "신경차단주사",
+      "nerve block",
+      "nerve block injection",
       "초음파 유도 주사",
-      "ultrasound-guided injection",
-      "신경차단술"
+      "C-arm 유도 주사",
+      "영상 유도 신경차단"
     ],
-    "description_ko": "신경 주위에 약물을 주사하여 통증을 차단하는 시술",
+    "description_ko": "신경 주위에 국소마취제·스테로이드 등을 주사하여 통증·신경 염증을 차단하는 중재시술",
     "status": "approved",
-    "last_reviewed": "2026-04-28",
+    "last_reviewed": "2026-05-03",
     "source_count": 4,
-    "version": 3
+    "version": 4
   },
   {
     "id": "shoulder",
@@ -130,30 +133,76 @@
   {
     "id": "antiviral-medicine",
     "type": "treatment",
-    "name_ko": "항바이러스제",
-    "name_en": "anti-viral medicine",
+    "name_ko": "항바이러스제 (대상포진)",
+    "name_en": "antiviral medicine (acyclovir, valacyclovir, famciclovir)",
     "aliases": [
-      "항바이러스제"
+      "항바이러스제",
+      "antiviral",
+      "acyclovir",
+      "아시클로비르",
+      "valacyclovir",
+      "발라시클로비르",
+      "famciclovir",
+      "팜시클로비르"
     ],
-    "description_ko": "",
+    "description_ko": "대상포진(VZV) 재활성화를 억제하는 acyclovir·valacyclovir·famciclovir 등 항바이러스 치료",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
+    "last_reviewed": "2026-05-03",
+    "source_count": 3,
+    "version": 1
+  },
+  {
+    "id": "shingles-vaccination",
+    "type": "treatment",
+    "name_ko": "대상포진 백신 (Shingrix)",
+    "name_en": "shingles vaccination (Shingrix, recombinant zoster vaccine)",
+    "aliases": [
+      "대상포진 백신",
+      "대상포진 예방접종",
+      "Shingrix",
+      "싱그릭스",
+      "RZV",
+      "recombinant zoster vaccine"
+    ],
+    "description_ko": "재조합 대상포진 백신(RZV, Shingrix) — 대상포진·PHN 예방의 가장 효과적인 수단",
+    "status": "approved",
+    "last_reviewed": "2026-05-03",
+    "source_count": 4,
     "version": 1
   },
   {
     "id": "zoster",
     "type": "condition",
     "name_ko": "대상포진",
-    "name_en": "zoster",
+    "name_en": "herpes zoster (shingles)",
     "aliases": [
       "대상포진",
-      "대상포진후신경통"
+      "헤르페스 조스터",
+      "shingles",
+      "herpes zoster",
+      "HZ"
     ],
-    "description_ko": "",
+    "description_ko": "잠복 수두대상포진 바이러스 재활성화로 발생하는 신경 분포 영역의 통증성 발진",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 1,
+    "last_reviewed": "2026-05-03",
+    "source_count": 5,
+    "version": 1
+  },
+  {
+    "id": "postherpetic-neuralgia",
+    "type": "condition",
+    "name_ko": "대상포진 후 신경통 (PHN)",
+    "name_en": "postherpetic neuralgia (PHN)",
+    "aliases": [
+      "PHN",
+      "대상포진후신경통",
+      "postherpetic neuralgia",
+      "post-herpetic neuralgia"
+    ],
+    "description_ko": "대상포진 발진 회복 후에도 지속되는 만성 신경병증성 통증",
+    "status": "approved",
+    "last_reviewed": "2026-05-03",
+    "source_count": 4,
     "version": 1
   },
   {

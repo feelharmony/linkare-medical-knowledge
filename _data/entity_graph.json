@@ -75,7 +75,7 @@
       "type": "treatment",
       "name_ko": "신경차단술",
       "name_en": "nerve block injection",
-      "post_count": 4,
+      "post_count": 5,
       "tenant_keys": [
         null
       ]
@@ -91,10 +91,40 @@
       ]
     },
     {
+      "id": "antiviral-medicine",
+      "type": "treatment",
+      "name_ko": "항바이러스제 (대상포진)",
+      "name_en": "anti-viral medicine",
+      "post_count": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "id": "shingles-vaccination",
+      "type": "treatment",
+      "name_ko": "대상포진 백신 (Shingrix)",
+      "name_en": "shingles vaccination (Shingrix, recombinant zoster vaccine)",
+      "post_count": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "id": "zoster",
       "type": "condition",
       "name_ko": "대상포진",
       "name_en": "zoster",
+      "post_count": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "id": "postherpetic-neuralgia",
+      "type": "condition",
+      "name_ko": "대상포진 후 신경통 (PHN)",
+      "name_en": "postherpetic neuralgia",
       "post_count": 1,
       "tenant_keys": [
         null
@@ -275,7 +305,7 @@
       "type": "condition",
       "name_ko": "마미증후군",
       "name_en": "cauda equina syndrome",
-      "post_count": 5,
+      "post_count": 4,
       "tenant_keys": [
         null
       ]
@@ -1189,7 +1219,7 @@
     {
       "source": "dr-kwon-jinyeol",
       "target": "nerve-block-injection",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
         null
       ]
@@ -1197,7 +1227,7 @@
     {
       "source": "hospital-ansimpainfree",
       "target": "nerve-block-injection",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
         null
       ]
@@ -1211,7 +1241,31 @@
       ]
     },
     {
-      "source": "cauda-equina-syndrome",
+      "source": "postherpetic-neuralgia",
+      "target": "zoster",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "antiviral-medicine",
+      "target": "zoster",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "nerve-block-injection",
+      "target": "zoster",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "shingles-vaccination",
       "target": "zoster",
       "weight": 1,
       "tenant_keys": [
@@ -1235,7 +1289,63 @@
       ]
     },
     {
-      "source": "cauda-equina-syndrome",
+      "source": "antiviral-medicine",
+      "target": "postherpetic-neuralgia",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "nerve-block-injection",
+      "target": "postherpetic-neuralgia",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "postherpetic-neuralgia",
+      "target": "shingles-vaccination",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "postherpetic-neuralgia",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "hospital-ansimpainfree",
+      "target": "postherpetic-neuralgia",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "antiviral-medicine",
+      "target": "nerve-block-injection",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "antiviral-medicine",
+      "target": "shingles-vaccination",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "antiviral-medicine",
       "target": "dr-kwon-jinyeol",
       "weight": 1,
       "tenant_keys": [
@@ -1243,8 +1353,32 @@
       ]
     },
     {
-      "source": "cauda-equina-syndrome",
+      "source": "antiviral-medicine",
       "target": "hospital-ansimpainfree",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "nerve-block-injection",
+      "target": "shingles-vaccination",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "shingles-vaccination",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "hospital-ansimpainfree",
+      "target": "shingles-vaccination",
       "weight": 1,
       "tenant_keys": [
         null

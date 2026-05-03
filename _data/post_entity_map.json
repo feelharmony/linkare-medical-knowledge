@@ -327,7 +327,10 @@
     "primary_entity_id": "zoster",
     "entity_ids": [
       "zoster",
-      "cauda-equina-syndrome"
+      "postherpetic-neuralgia",
+      "antiviral-medicine",
+      "nerve-block-injection",
+      "shingles-vaccination"
     ],
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree",
