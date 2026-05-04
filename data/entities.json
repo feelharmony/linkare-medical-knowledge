@@ -1094,20 +1094,23 @@
   {
     "id": "prolotherapy",
     "type": "treatment",
-    "name_ko": "프롤로테라피",
+    "name_ko": "프롤로테라피(증식 치료)",
     "name_en": "prolotherapy",
     "aliases": [
+      "프롤로테라피",
+      "프롤로",
+      "프롤로주사",
       "증식치료",
       "인대강화주사",
-      "prolo",
-      "프롤로주사",
-      "프롤로테라피"
+      "prolotherapy",
+      "dextrose prolotherapy",
+      "hypertonic dextrose injection"
     ],
-    "description_ko": "인대·힘줄을 자극하여 강화하는 증식 치료",
+    "description_ko": "고장성 포도당 등 자극 용액을 인대·건·관절 부위에 주사해 통증 완화·기능 회복을 유도하는 증식 치료. 무릎 골관절염·외측상과염·족저근막염 등에서 보존 치료에 반응이 부족할 때 검토되는 옵션이며, 가이드라인별 권고는 갈립니다.",
     "status": "approved",
-    "last_reviewed": "2026-04-28",
-    "source_count": 1,
-    "version": 4
+    "last_reviewed": "2026-05-04",
+    "source_count": 5,
+    "version": 5
   },
   {
     "id": "aging-symptoms",

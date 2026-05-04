@@ -373,7 +373,7 @@
     {
       "id": "prolotherapy",
       "type": "treatment",
-      "name_ko": "프롤로테라피",
+      "name_ko": "프롤로테라피(증식 치료)",
       "name_en": "prolotherapy",
       "post_count": 1,
       "tenant_keys": [
