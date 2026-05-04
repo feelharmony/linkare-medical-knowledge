@@ -63,8 +63,8 @@
     {
       "id": "eswt",
       "type": "treatment",
-      "name_ko": "체외충격파",
-      "name_en": "extracorporeal shock wave therapy",
+      "name_ko": "체외충격파(ESWT)",
+      "name_en": "extracorporeal shock wave therapy (ESWT)",
       "post_count": 2,
       "tenant_keys": [
         null
@@ -383,8 +383,8 @@
     {
       "id": "aging-symptoms",
       "type": "symptom",
-      "name_ko": "노화",
-      "name_en": "aging",
+      "name_ko": "노화 증상",
+      "name_en": "aging-related symptoms",
       "post_count": 3,
       "tenant_keys": [
         null

@@ -81,20 +81,22 @@
   {
     "id": "eswt",
     "type": "treatment",
-    "name_ko": "체외충격파",
-    "name_en": "extracorporeal shock wave therapy",
+    "name_ko": "체외충격파(ESWT)",
+    "name_en": "extracorporeal shock wave therapy (ESWT)",
     "aliases": [
-      "ESWT",
+      "체외충격파",
       "체외충격파 치료",
       "충격파 치료",
-      "체외충격파",
-      "체외충격파치료"
+      "체외충격파치료",
+      "ESWT",
+      "extracorporeal shock wave therapy",
+      "shockwave therapy"
     ],
-    "description_ko": "체외에서 충격파를 가해 조직 회복을 유도하는 치료",
+    "description_ko": "음향 압력파를 체외에서 조직에 전달해 통증 완화·조직 회복을 유도하는 비수술 치료. 외측상과염·석회성 회전근개 건병증·족저근막염 등 만성 건병증에 활용되며, 보존 치료에 반응이 부족한 환자에서 단계적으로 검토합니다.",
     "status": "approved",
-    "last_reviewed": "2026-04-28",
-    "source_count": 2,
-    "version": 4
+    "last_reviewed": "2026-05-04",
+    "source_count": 8,
+    "version": 5
   },
   {
     "id": "nerve-block-injection",
