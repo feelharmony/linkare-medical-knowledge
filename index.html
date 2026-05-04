@@ -8,28 +8,15 @@ description: "의료 전문가가 작성한 질환별 의학 정보 아카이브
   <h1>Medical Knowledge</h1>
   <p class="index-desc">전문의가 작성하고 Linkare가 큐레이션한 의학 지식 아카이브입니다.</p>
 
-  {% assign articles = site.pages | where: "layout", "article" | sort: "last_updated" | reverse %}
-  {% assign profiles = site.pages | where: "layout", "profile" | sort: "hospital" %}
+  {%- comment -%}
+    2026-05-04: 메인 페이지 정리
+    - 참여 의료기관 list 제거 (헤더 메뉴에서 /hospitals/ 진입)
+    - 집필진 list 제거 (헤더 메뉴에서 /doctors/ 진입)
+    - 메인은 토픽별 entity 만 (의학 위키 정체성)
+    - 옛 article tenant section 제거 (v2.4 Phase 6에서 article layout 폐기됨)
+  {%- endcomment -%}
 
-  {% if profiles.size > 0 %}
-  <section class="hospital-list">
-    <h2>참여 의료기관</h2>
-    <ul>
-      {% for profile in profiles %}
-      {% assign tenant_articles = articles | where: "tenant_key", profile.tenant_key %}
-      {% assign ko_articles = tenant_articles | where: "lang", "ko" %}
-      {% assign en_articles = tenant_articles | where: "lang", "en" %}
-      <li>
-        <a href="{{ profile.url | relative_url }}">{{ profile.hospital }}</a>
-        {% if profile.doctor %}<span class="hospital-doctor">{{ profile.doctor }}</span>{% endif %}
-        <span class="article-count">{{ ko_articles.size }}건 (EN {{ en_articles.size }})</span>
-      </li>
-      {% endfor %}
-    </ul>
-  </section>
-  {% endif %}
-
-  {%- comment -%} 주제별 탐색 섹션 {%- endcomment -%}
+  {%- comment -%} 주제별 탐색 섹션 (메인) {%- endcomment -%}
   <section class="index-topics">
     <h2>주제별 탐색</h2>
     <p class="index-topics-desc">질환, 증상, 치료, 부위별로 콘텐츠를 탐색할 수 있습니다.</p>
@@ -68,58 +55,6 @@ description: "의료 전문가가 작성한 질환별 의학 정보 아카이브
       <a href="{{ '/graph/' | relative_url }}" class="index-topics-link index-topics-link--graph">🔗 지식 그래프</a>
     </div>
   </section>
-
-  {% for profile in profiles %}
-  {% assign tenant_articles = articles | where: "tenant_key", profile.tenant_key %}
-  {% if tenant_articles.size > 0 %}
-  <section class="tenant-section">
-    <h2><a href="{{ profile.url | relative_url }}">{{ profile.hospital }}</a></h2>
-
-    {%- comment -%} 이 병원이 사용한 카테고리 집합 계산 {%- endcomment -%}
-    {% assign tenant_categories = "" %}
-    {% for article in tenant_articles %}
-      {% if article.categories and article.categories.size > 0 %}
-        {% for cat in article.categories %}
-          {% unless tenant_categories contains cat %}
-            {% if tenant_categories == "" %}
-              {% assign tenant_categories = cat %}
-            {% else %}
-              {% assign tenant_categories = tenant_categories | append: "," | append: cat %}
-            {% endif %}
-          {% endunless %}
-        {% endfor %}
-      {% endif %}
-    {% endfor %}
-
-    {% assign cat_array = tenant_categories | split: "," | sort %}
-    {% for cat in cat_array %}
-    {% assign cat_articles_ko = tenant_articles | where: "lang", "ko" | where_exp: "a", "a.categories contains cat" %}
-    {% assign cat_articles_en = tenant_articles | where: "lang", "en" | where_exp: "a", "a.categories contains cat" %}
-    {% if cat_articles_ko.size > 0 or cat_articles_en.size > 0 %}
-    <div class="category-group">
-      <h3 class="category-title">{{ cat }}</h3>
-      <ul class="article-list">
-        {% for article in cat_articles_ko %}
-        <li>
-          <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
-          <span class="article-lang">KO</span>
-          <span class="article-date">{{ article.last_updated }}</span>
-        </li>
-        {% endfor %}
-        {% for article in cat_articles_en %}
-        <li>
-          <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
-          <span class="article-lang">EN</span>
-          <span class="article-date">{{ article.last_updated }}</span>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-    {% endif %}
-    {% endfor %}
-  </section>
-  {% endif %}
-  {% endfor %}
 </div>
 
 {% include structured-data-home.html %}

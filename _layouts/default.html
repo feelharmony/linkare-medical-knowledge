@@ -62,7 +62,9 @@
     <div class="sub-nav-inner">
       {% assign current_path = page.url | split: '?' | first %}
       <a href="{{ '/' | relative_url }}" class="sub-nav-link {% if current_path == '/' %}sub-nav-link--active{% endif %}">Articles</a>
-      <a href="{{ '/topics/' | relative_url }}" class="sub-nav-link {% if current_path contains '/topics' or current_path contains '/conditions' or current_path contains '/symptoms' or current_path contains '/treatments' or current_path contains '/body-parts' or current_path contains '/doctors' or current_path contains '/hospitals' %}sub-nav-link--active{% endif %}">Topics</a>
+      <a href="{{ '/topics/' | relative_url }}" class="sub-nav-link {% if current_path contains '/topics' or current_path contains '/conditions' or current_path contains '/symptoms' or current_path contains '/treatments' or current_path contains '/body-parts' %}sub-nav-link--active{% endif %}">Topics</a>
+      <a href="{{ '/doctors/' | relative_url }}" class="sub-nav-link {% if current_path contains '/doctors' %}sub-nav-link--active{% endif %}">집필진</a>
+      <a href="{{ '/hospitals/' | relative_url }}" class="sub-nav-link {% if current_path contains '/hospitals' %}sub-nav-link--active{% endif %}">참여 병원</a>
       <a href="{{ '/graph/' | relative_url }}" class="sub-nav-link {% if current_path contains '/graph' %}sub-nav-link--active{% endif %}">Graph</a>
     </div>
   </nav>
