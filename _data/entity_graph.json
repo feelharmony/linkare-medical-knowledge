@@ -141,6 +141,16 @@
       ]
     },
     {
+      "id": "ultrasound-guided-injection",
+      "type": "treatment",
+      "name_ko": "초음파 유도 주사",
+      "name_en": "ultrasound-guided injection",
+      "post_count": 2,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "id": "forward-head-posture",
       "type": "condition",
       "name_ko": "거북목·일자목",
@@ -468,6 +478,14 @@
     },
     {
       "source": "cervical-disc-herniation",
+      "target": "ultrasound-guided-injection",
+      "weight": 2,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "cervical-disc-herniation",
       "target": "manual-therapy",
       "weight": 1,
       "tenant_keys": [
@@ -499,6 +517,14 @@
       ]
     },
     {
+      "source": "neck-pain",
+      "target": "ultrasound-guided-injection",
+      "weight": 2,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "source": "manual-therapy",
       "target": "neck-pain",
       "weight": 2,
@@ -524,6 +550,14 @@
     },
     {
       "source": "arm-numbness",
+      "target": "ultrasound-guided-injection",
+      "weight": 2,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "arm-numbness",
       "target": "manual-therapy",
       "weight": 1,
       "tenant_keys": [
@@ -539,6 +573,14 @@
       ]
     },
     {
+      "source": "nerve-block-injection",
+      "target": "ultrasound-guided-injection",
+      "weight": 2,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "source": "manual-therapy",
       "target": "nerve-block-injection",
       "weight": 1,
@@ -549,6 +591,22 @@
     {
       "source": "nerve-block-injection",
       "target": "rehabilitation-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "manual-therapy",
+      "target": "ultrasound-guided-injection",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "rehabilitation-therapy",
+      "target": "ultrasound-guided-injection",
       "weight": 1,
       "tenant_keys": [
         null
@@ -1125,6 +1183,22 @@
     {
       "source": "cervical-spine",
       "target": "nerve-block-injection",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "physical-therapy",
+      "target": "ultrasound-guided-injection",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "cervical-spine",
+      "target": "ultrasound-guided-injection",
       "weight": 1,
       "tenant_keys": [
         null

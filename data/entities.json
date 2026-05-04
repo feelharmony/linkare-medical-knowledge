@@ -224,6 +224,26 @@
     "version": 4
   },
   {
+    "id": "ultrasound-guided-injection",
+    "type": "treatment",
+    "name_ko": "초음파 유도 주사",
+    "name_en": "ultrasound-guided injection",
+    "aliases": [
+      "초음파 유도 주사",
+      "초음파유도주사",
+      "초음파 주사",
+      "초음파주사",
+      "ultrasound-guided injection",
+      "US-guided injection",
+      "sonographically guided injection"
+    ],
+    "description_ko": "실시간 초음파 영상으로 표적 구조를 확인하면서 약물을 정확한 위치에 전달하는 주사 시술 방식. 관절강·건·인대·신경 부위 등 다양한 영역에 활용되며, blind/landmark 방식 대비 표적 정확도가 높다고 보고됩니다.",
+    "status": "approved",
+    "last_reviewed": "2026-05-04",
+    "source_count": 2,
+    "version": 4
+  },
+  {
     "id": "ultrasound-injection",
     "type": "treatment",
     "name_ko": "초음파 유도 주사",
@@ -232,11 +252,11 @@
       "초음파 유도 주사",
       "초음파주사"
     ],
-    "description_ko": "",
-    "status": "approved",
-    "last_reviewed": null,
+    "description_ko": "[archived] ultrasound-guided-injection canonical로 통합됨 (2026-05-04)",
+    "status": "archived",
+    "last_reviewed": "2026-05-04",
     "source_count": 0,
-    "version": 2
+    "version": 3
   },
   {
     "id": "forward-head-posture",
