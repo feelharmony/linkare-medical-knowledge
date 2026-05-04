@@ -72,7 +72,7 @@ Sjaastad CHISG 1998 진단 기준의 핵심 임상 특징은 다음과 같습니
 ---
 
 ## 관련 임상 자료
-- [더웰스 — 두통 관련 글](https://thewellsr.kr/blog/2026-04-10-308b3e30)
+- [더웰스 — 두통 관련 글](https://thewellsr.kr/blog/forward-head-posture)
 
 ## Citations
 [^2]: [Headache Classification Committee of the International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition (ICHD-3). Cephalalgia. 2018;38(1):1-211. PMID 29368949. DOI 10.1177/0333102417738202](https://pubmed.ncbi.nlm.nih.gov/29368949/)

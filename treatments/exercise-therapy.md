@@ -25,7 +25,7 @@ version: 4
 
 ## Citations
 [^1]: [thewellsr.kr/en/blog/understanding-straight-neck-and-forward-head-postu](https://thewellsr.kr/en/blog/understanding-straight-neck-and-forward-head-postu)
-[^2]: [thewellsr.kr/blog/2026-04-10-308b3e30](https://thewellsr.kr/blog/2026-04-10-308b3e30)
+[^2]: [thewellsr.kr/blog/forward-head-posture](https://thewellsr.kr/blog/forward-head-posture)
 [^3]: [thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits](https://thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits)
 
 ## Changelog

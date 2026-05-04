@@ -83,7 +83,7 @@ version: 4
 ---
 
 ## Citations
-[^1]: [안심튼튼 — 목디스크 관련 글](https://ansimpainfree.kr/blog/2026-04-08-f5bbae53)
+[^1]: [안심튼튼 — 목디스크 관련 글](https://ansimpainfree.kr/blog/cervical-disc-herniation)
 [^2]: [Iyer S, Kim HJ. Cervical radiculopathy. Curr Rev Musculoskelet Med. 2016;9(3):272-280. PMID 27250042. DOI 10.1007/s12178-016-9349-4](https://pubmed.ncbi.nlm.nih.gov/27250042/)
 [^3]: [Engquist M et al. Surgery versus nonsurgical treatment of cervical radiculopathy: a prospective, randomized study comparing surgery plus physiotherapy with physiotherapy alone with a 2-year follow-up. Spine. 2013. PMID 23778373](https://pubmed.ncbi.nlm.nih.gov/23778373/)
 [^4]: [Bono CM et al. North American Spine Society. An evidence-based clinical guideline for the diagnosis and treatment of cervical radiculopathy from degenerative disorders. Spine J. 2011;11(1):64-72. PMID 21168100](https://pubmed.ncbi.nlm.nih.gov/21168100/)

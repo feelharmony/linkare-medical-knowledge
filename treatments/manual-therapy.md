@@ -30,7 +30,7 @@ version: 3
 ---
 
 ## Citations
-[^1]: [ansimpainfree.kr/blog/2026-04-08-f5bbae53](https://ansimpainfree.kr/blog/2026-04-08-f5bbae53)
+[^1]: [ansimpainfree.kr/blog/cervical-disc-herniation](https://ansimpainfree.kr/blog/cervical-disc-herniation)
 [^2]: [thewellsr.kr/en/blog/understanding-straight-neck-and-forward-head-postu](https://thewellsr.kr/en/blog/understanding-straight-neck-and-forward-head-postu)
 
 ## Changelog

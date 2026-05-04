@@ -25,4 +25,4 @@ version: 2
 
 ## Citations
 [^1]: [thewellsr.kr/blog/rotator-cuff-damage-muscle-perspective](https://thewellsr.kr/blog/rotator-cuff-damage-muscle-perspective)
-[^2]: [ansimpainfree.kr/blog/2026-04-08-f5bbae53](https://ansimpainfree.kr/blog/2026-04-08-f5bbae53)
+[^2]: [ansimpainfree.kr/blog/cervical-disc-herniation](https://ansimpainfree.kr/blog/cervical-disc-herniation)

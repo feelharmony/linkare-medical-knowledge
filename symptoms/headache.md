@@ -108,7 +108,7 @@ ACR Appropriateness Criteria Headache 2022 Update(JACR 2023)는 8개 임상 시�
 ---
 
 ## Citations
-[^1]: [더웰스 — 두통 관련 글](https://thewellsr.kr/blog/2026-04-10-308b3e30)
+[^1]: [더웰스 — 두통 관련 글](https://thewellsr.kr/blog/forward-head-posture)
 [^2]: [Headache Classification Committee of the International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition (ICHD-3). Cephalalgia. 2018;38(1):1-211. PMID 29368949. DOI 10.1177/0333102417738202](https://pubmed.ncbi.nlm.nih.gov/29368949/)
 [^3]: [GBD 2021 Nervous System Disorders Collaborators. Global, regional, and national burden of disorders affecting the nervous system, 1990-2021: a systematic analysis for the Global Burden of Disease Study 2021. Lancet Neurol. 2024;23(4):344-381. PMID 38493795. DOI 10.1016/S1474-4422(24)00038-3](https://pubmed.ncbi.nlm.nih.gov/38493795/)
 [^4]: [Viera AJ, Antono B. Acute Headache in Adults: A Diagnostic Approach. Am Fam Physician. 2022;106(3):260-268. PMID 36126007](https://pubmed.ncbi.nlm.nih.gov/36126007/)

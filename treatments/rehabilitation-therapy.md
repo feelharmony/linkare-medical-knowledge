@@ -24,7 +24,7 @@ version: 2
 ---
 
 ## Citations
-[^1]: [ansimpainfree.kr/blog/2026-04-08-f5bbae53](https://ansimpainfree.kr/blog/2026-04-08-f5bbae53)
+[^1]: [ansimpainfree.kr/blog/cervical-disc-herniation](https://ansimpainfree.kr/blog/cervical-disc-herniation)
 
 ## Changelog
 - 2026-04-23 v2: 적응증 new, 언제 고려 new, 기대효과 new, 한계/주의점 new

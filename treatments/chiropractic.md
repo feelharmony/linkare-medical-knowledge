@@ -36,7 +36,7 @@ robots: noindex, nofollow
 ---
 
 ## Citations
-[^1]: [thewellsr.kr/blog/2026-04-10-308b3e30](https://thewellsr.kr/blog/2026-04-10-308b3e30)
+[^1]: [thewellsr.kr/blog/forward-head-posture](https://thewellsr.kr/blog/forward-head-posture)
 [^2]: [ansimpainfree.kr/en/blog/herniated-lumbar-disc-causes-symptoms-diagnosis](https://ansimpainfree.kr/en/blog/herniated-lumbar-disc-causes-symptoms-diagnosis)
 
 ## Changelog

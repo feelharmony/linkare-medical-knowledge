@@ -98,7 +98,7 @@ version: 2
 ---
 
 ## 관련 임상 자료
-- [안심튼튼 — 좌골신경통](https://ansimpainfree.kr/blog/df09dd16-391f-4453-a8f3-2e241f254522)
+- [안심튼튼 — 좌골신경통](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
 
 ## Citations
 [^1]: [NICE Guideline NG59 — Low back pain and sciatica in over 16s: assessment and management. Published 30 November 2016, last updated 11 December 2020. National Institute for Health and Care Excellence (UK)](https://www.nice.org.uk/guidance/ng59)

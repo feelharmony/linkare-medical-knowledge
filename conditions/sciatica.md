@@ -55,7 +55,7 @@ version: 1
 ---
 
 ## Citations
-[^1]: [안심튼튼 — 좌골신경통](https://ansimpainfree.kr/blog/df09dd16-391f-4453-a8f3-2e241f254522)
+[^1]: [안심튼튼 — 좌골신경통](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
 [^2]: [안심튼튼 — 다리 통증이 허리 통증보다 먼저 나타나는 이유](https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk)
 [^3]: [NICE Guideline NG59 — Low back pain and sciatica in over 16s: assessment and management. Published 30 November 2016, last updated 11 December 2020. National Institute for Health and Care Excellence (UK)](https://www.nice.org.uk/guidance/ng59)
 [^4]: [Monteleone G, Stevanato G, Alimandi M, Cappa E, Sorge R. Piriformis syndrome: a systematic review of case reports. BMC Surgery. 2025;25(1). DOI 10.1186/s12893-025-03202-2 (PMID 41068685, 97 articles 212 patients, 47.6% 진단 시 영상·수술 소견 없음 — 진단 기준 한계)](https://link.springer.com/article/10.1186/s12893-025-03202-2)

@@ -15,7 +15,7 @@ version: 2
 ---
 
 ## Citations
-[^1]: [thewellsr.kr/blog/2026-04-10-308b3e30](https://thewellsr.kr/blog/2026-04-10-308b3e30)
+[^1]: [thewellsr.kr/blog/forward-head-posture](https://thewellsr.kr/blog/forward-head-posture)
 
 ## Changelog
 - 2026-04-23 v2: 한계/주의점 new

@@ -26,9 +26,9 @@ version: 5
 
 ## Citations
 [^1]: [thewellsr.kr/en/blog/understanding-straight-neck-and-forward-head-postu](https://thewellsr.kr/en/blog/understanding-straight-neck-and-forward-head-postu)
-[^2]: [thewellsr.kr/blog/2026-04-10-308b3e30](https://thewellsr.kr/blog/2026-04-10-308b3e30)
+[^2]: [thewellsr.kr/blog/forward-head-posture](https://thewellsr.kr/blog/forward-head-posture)
 [^3]: [ansimpainfree.kr/en/blog/herniated-lumbar-disc-causes-symptoms-diagnosis](https://ansimpainfree.kr/en/blog/herniated-lumbar-disc-causes-symptoms-diagnosis)
-[^4]: [ansimpainfree.kr/blog/df09dd16-391f-4453-a8f3-2e241f254522](https://ansimpainfree.kr/blog/df09dd16-391f-4453-a8f3-2e241f254522)
+[^4]: [ansimpainfree.kr/blog/lumbar-disc-herniation](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
 
 ## Changelog
 - 2026-04-23 v2: 적응증 new, 언제 고려 new, 기대효과 new, 한계/주의점 new

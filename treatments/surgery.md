@@ -31,7 +31,7 @@ robots: noindex, nofollow
 ---
 
 ## Citations
-[^1]: [ansimpainfree.kr/blog/df09dd16-391f-4453-a8f3-2e241f254522](https://ansimpainfree.kr/blog/df09dd16-391f-4453-a8f3-2e241f254522)
+[^1]: [ansimpainfree.kr/blog/lumbar-disc-herniation](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
 
 ## Changelog
 - 2026-04-23 v2: 적응증 new, 언제 고려 new, 기대효과 new, 한계/주의점 new
