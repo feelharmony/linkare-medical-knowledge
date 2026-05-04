@@ -360,7 +360,7 @@ a:hover { text-decoration: underline; }
   background: var(--blockquote-bg);
   font-family: var(--font-serif);
   font-style: italic;
-  border-radius: 0 8px 8px 0;
+  border-radius: 0;
 }
 
 .article-body blockquote p {
@@ -373,12 +373,12 @@ a:hover { text-decoration: underline; }
   background: var(--code-bg);
   color: var(--primary-light);
   padding: 0.15em 0.4em;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 .article-body pre {
   background: var(--code-bg);
-  border-radius: 8px;
+  border-radius: 2px;
   padding: 1.25rem;
   overflow-x: auto;
   margin-bottom: 1.5rem;
@@ -400,7 +400,7 @@ a:hover { text-decoration: underline; }
 
 .article-body img {
   max-width: 100%;
-  border-radius: 12px;
+  border-radius: 2px;
   border: 1px solid var(--border-light);
   margin: 1.5rem 0;
 }
@@ -442,7 +442,7 @@ a:hover { text-decoration: underline; }
   letter-spacing: 0.05em;
   background: rgba(25, 93, 230, 0.08);
   padding: 0.25rem 0.75rem;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 /* ─── Article Footer ─── */
@@ -456,7 +456,7 @@ a:hover { text-decoration: underline; }
 .disclaimer {
   background: var(--paper);
   border: 1px solid var(--border-light);
-  border-radius: 8px;
+  border-radius: 2px;
   padding: 1.25rem;
   margin-bottom: 1.5rem;
   font-size: 0.875rem;
@@ -820,23 +820,40 @@ a:hover { text-decoration: underline; }
   line-height: 1.6;
 }
 
+.entity-meta-top {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: 0.75rem;
+  letter-spacing: 0.02em;
+}
+
+.entity-meta-top span {
+  margin-right: 0.5rem;
+}
+
 .entity-type-badge {
   display: inline-block;
   font-size: 0.7rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding: 0.2rem 0.6rem;
-  border-radius: 4px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--border-light);
+  background: transparent;
+  color: var(--muted);
   margin-bottom: 0.75rem;
 }
 
-.entity-type-badge--condition { background: rgba(239, 68, 68, 0.1); color: #dc2626; }
-.entity-type-badge--symptom { background: rgba(245, 158, 11, 0.1); color: #d97706; }
-.entity-type-badge--treatment { background: rgba(59, 130, 246, 0.1); color: #2563eb; }
-.entity-type-badge--body_part { background: rgba(34, 197, 94, 0.1); color: #16a34a; }
-.entity-type-badge--doctor { background: rgba(139, 92, 246, 0.1); color: #7c3aed; }
-.entity-type-badge--hospital { background: rgba(236, 72, 153, 0.1); color: #db2777; }
+/* 학술 위키 톤: type별 배경 X. 단색 + 작은 좌측 indicator만. */
+.entity-type-badge--condition,
+.entity-type-badge--symptom,
+.entity-type-badge--treatment,
+.entity-type-badge--body_part,
+.entity-type-badge--doctor,
+.entity-type-badge--hospital {
+  background: transparent;
+  color: var(--muted);
+  border-color: var(--border-light);
+}
 
 .entity-section {
   margin-bottom: 2rem;
@@ -904,7 +921,7 @@ a:hover { text-decoration: underline; }
 .entity-body code {
   background: var(--code-bg, rgba(0, 0, 0, 0.04));
   padding: 0.125rem 0.375rem;
-  border-radius: 4px;
+  border-radius: 2px;
   font-size: 0.9em;
 }
 
@@ -974,7 +991,7 @@ a:hover { text-decoration: underline; }
   background: rgba(25, 93, 230, 0.1);
   color: var(--primary);
   padding: 0.1rem 0.4rem;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
 .entity-footer {
@@ -1001,7 +1018,7 @@ a:hover { text-decoration: underline; }
   align-items: center;
   gap: 0.3rem;
   padding: 0.3rem 0.75rem;
-  border-radius: 16px;
+  border-radius: 2px;
   font-size: 0.85rem;
   text-decoration: none;
   border: 1px solid var(--border-light);
@@ -1009,20 +1026,23 @@ a:hover { text-decoration: underline; }
   transition: all 0.15s;
 }
 
-.entity-chip:hover { background: var(--paper); text-decoration: none; }
+.entity-chip:hover {
+  background: var(--paper);
+  border-color: var(--primary);
+  color: var(--primary);
+  text-decoration: none;
+}
 
-.entity-chip--condition { border-color: rgba(239, 68, 68, 0.3); color: #dc2626; }
-.entity-chip--condition:hover { background: rgba(239, 68, 68, 0.05); }
-.entity-chip--symptom { border-color: rgba(245, 158, 11, 0.3); color: #d97706; }
-.entity-chip--symptom:hover { background: rgba(245, 158, 11, 0.05); }
-.entity-chip--treatment { border-color: rgba(59, 130, 246, 0.3); color: #2563eb; }
-.entity-chip--treatment:hover { background: rgba(59, 130, 246, 0.05); }
-.entity-chip--body_part { border-color: rgba(34, 197, 94, 0.3); color: #16a34a; }
-.entity-chip--body_part:hover { background: rgba(34, 197, 94, 0.05); }
-.entity-chip--doctor { border-color: rgba(139, 92, 246, 0.3); color: #7c3aed; }
-.entity-chip--doctor:hover { background: rgba(139, 92, 246, 0.05); }
-.entity-chip--hospital { border-color: rgba(236, 72, 153, 0.3); color: #db2777; }
-.entity-chip--hospital:hover { background: rgba(236, 72, 153, 0.05); }
+/* 학술 위키 톤: type별 색상 X. 단색 + hover 시 primary accent. */
+.entity-chip--condition,
+.entity-chip--symptom,
+.entity-chip--treatment,
+.entity-chip--body_part,
+.entity-chip--doctor,
+.entity-chip--hospital {
+  border-color: var(--border-light);
+  color: var(--body);
+}
 
 .chip-count {
   font-size: 0.7rem;
@@ -1119,7 +1139,7 @@ a:hover { text-decoration: underline; }
   padding: 0.75rem 1.5rem;
   background: var(--primary);
   color: white;
-  border-radius: 8px;
+  border-radius: 2px;
   text-decoration: none;
   font-size: 0.9rem;
   font-weight: 500;
@@ -1161,7 +1181,7 @@ a:hover { text-decoration: underline; }
   background: rgba(25, 93, 230, 0.1);
   color: var(--primary);
   padding: 0.1rem 0.35rem;
-  border-radius: 3px;
+  border-radius: 2px;
   margin-left: 0.5rem;
   vertical-align: middle;
 }
@@ -1284,7 +1304,7 @@ a:hover { text-decoration: underline; }
 
 .graph-hospital-toggle {
   padding: 0.35rem 0.75rem;
-  border-radius: 16px;
+  border-radius: 2px;
   border: 1px solid var(--border-light);
   background: white;
   cursor: pointer;
@@ -1302,7 +1322,7 @@ a:hover { text-decoration: underline; }
 
 .graph-demo-btn {
   padding: 0.35rem 0.75rem;
-  border-radius: 16px;
+  border-radius: 2px;
   border: 1px solid #10b981;
   background: white;
   cursor: pointer;
@@ -1320,14 +1340,14 @@ a:hover { text-decoration: underline; }
   height: calc(100vh - 340px);
   min-height: 400px;
   border: 1px solid var(--border-light);
-  border-radius: 12px;
+  border-radius: 2px;
   background: white;
 }
 
 .graph-crawl-path {
   padding: 0.75rem 1rem;
   background: var(--paper);
-  border-radius: 8px;
+  border-radius: 2px;
   font-size: 0.85rem;
   color: var(--body);
   display: none;
@@ -1390,7 +1410,7 @@ a:hover { text-decoration: underline; }
   display: block;
   padding: 1.25rem;
   border: 1px solid var(--border-light);
-  border-radius: 10px;
+  border-radius: 2px;
   text-decoration: none;
   transition: all 0.15s;
   position: relative;
@@ -1553,7 +1573,7 @@ a:hover { text-decoration: underline; }
 }
 .profile-specialties li {
   padding: 0.2rem 0.6rem;
-  border-radius: 4px;
+  border-radius: 2px;
   background: rgba(139, 92, 246, 0.08);
   color: #7c3aed;
   font-size: 0.82rem;
@@ -1599,7 +1619,7 @@ a:hover { text-decoration: underline; }
   display: inline-block;
   padding: 0.35rem 0.75rem;
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 2px;
   font-size: 0.85rem;
   color: var(--ink);
   text-decoration: none;

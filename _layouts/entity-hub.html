@@ -47,6 +47,15 @@ layout: default
     {% endif %}
     <p class="entity-description">{{ page.description }}</p>
 
+    {%- comment -%} 메타 정보 상단 (학술 위키 권위 신호) {%- endcomment -%}
+    {% if entity_type != 'doctor' and entity_type != 'hospital' %}
+    <p class="entity-meta-top">
+      {% if page.last_reviewed %}<span>마지막 검토: {{ page.last_reviewed | date: "%Y-%m-%d" }}</span>{% endif %}
+      {% if page.source_count %}<span>· 참고 문헌 {{ page.source_count }}건</span>{% endif %}
+      {% if page.version %}<span>· v{{ page.version }}</span>{% endif %}
+    </p>
+    {% endif %}
+
     {%- comment -%} 소속 병원 링크 (doctor) {%- endcomment -%}
     {% if entity_type == 'doctor' and page.hospital %}
     <p class="profile-hospital">
