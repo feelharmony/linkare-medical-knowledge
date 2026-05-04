@@ -1195,17 +1195,20 @@
     "name_ko": "도수치료",
     "name_en": "manual therapy",
     "aliases": [
+      "도수치료",
       "수기치료",
       "교정치료",
-      "카이로프랙틱",
-      "chiropractic",
-      "도수치료"
+      "manual therapy",
+      "manipulation",
+      "mobilization",
+      "spinal manipulative therapy",
+      "SMT"
     ],
-    "description_ko": "손으로 근골격계를 교정하는 비수술 치료",
+    "description_ko": "평가에 기반해 의료진 손 기술로 관절 가동·연부 조직·신경 가동을 다루는 비수술 보존 치료. 만성 LBP·neck pain·외측상과염 등에서 운동치료와 결합한 형태로 가이드라인이 권고하며, 환자 평가·기법 선택·치료 순응이 결과에 영향을 줍니다.",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 2,
-    "version": 2
+    "last_reviewed": "2026-05-04",
+    "source_count": 5,
+    "version": 5
   },
   {
     "id": "chronic-fatigue",
