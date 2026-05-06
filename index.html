@@ -1,59 +1,94 @@
 ---
 layout: default
 title: "Linkare Medical Knowledge"
-description: "의료 전문가가 작성한 질환별 의학 정보 아카이브"
+description: "전문의가 작성한 의학 정보 위키"
 ---
 
 <div class="index-page">
-  <h1>Medical Knowledge</h1>
-  <p class="index-desc">전문의가 작성하고 Linkare가 큐레이션한 의학 지식 아카이브입니다.</p>
+  {%- comment -%} 카테고리별 entity 카운트 (data.entity_graph 기반) {%- endcomment -%}
+  {% assign condition_count = 0 %}
+  {% assign symptom_count = 0 %}
+  {% assign treatment_count = 0 %}
+  {% assign body_part_count = 0 %}
+  {% for node in site.data.entity_graph.nodes %}
+    {% case node.type %}
+      {% when 'condition' %}{% assign condition_count = condition_count | plus: 1 %}
+      {% when 'symptom' %}{% assign symptom_count = symptom_count | plus: 1 %}
+      {% when 'treatment' %}{% assign treatment_count = treatment_count | plus: 1 %}
+      {% when 'body_part' %}{% assign body_part_count = body_part_count | plus: 1 %}
+    {% endcase %}
+  {% endfor %}
+  {% assign total_entity = condition_count | plus: symptom_count | plus: treatment_count | plus: body_part_count %}
 
-  {%- comment -%}
-    2026-05-04: 메인 페이지 정리
-    - 참여 의료기관 list 제거 (헤더 메뉴에서 /hospitals/ 진입)
-    - 집필진 list 제거 (헤더 메뉴에서 /doctors/ 진입)
-    - 메인은 토픽별 entity 만 (의학 위키 정체성)
-    - 옛 article tenant section 제거 (v2.4 Phase 6에서 article layout 폐기됨)
-  {%- endcomment -%}
+  {%- comment -%} 참여 의료기관 + 집필진 카운트 {%- endcomment -%}
+  {% assign hospital_pages = site.pages | where: "entity_type", "hospital" %}
+  {% assign doctor_pages = site.pages | where: "entity_type", "doctor" %}
 
-  {%- comment -%} 주제별 탐색 섹션 (메인) {%- endcomment -%}
-  <section class="index-topics">
-    <h2>주제별 탐색</h2>
-    <p class="index-topics-desc">질환, 증상, 치료, 부위별로 콘텐츠를 탐색할 수 있습니다.</p>
+  {%- comment -%} 최근 업데이트 entity 5건 (last_reviewed 정렬) {%- endcomment -%}
+  {% assign all_entities = "" | split: "" %}
+  {% for p in site.pages %}
+    {% if p.layout == "entity-hub" and p.entity_type != "doctor" and p.entity_type != "hospital" and p.last_reviewed %}
+      {% assign all_entities = all_entities | push: p %}
+    {% endif %}
+  {% endfor %}
+  {% assign recent_entities = all_entities | sort: "last_reviewed" | reverse %}
 
-    {% assign type_map = "condition:질환,symptom:증상,treatment:치료,body_part:부위" | split: "," %}
-    {% for type_label in type_map %}
-      {% assign parts = type_label | split: ":" %}
-      {% assign type_key = parts[0] %}
-      {% assign type_name = parts[1] %}
-      {% assign type_nodes = "" | split: "" %}
-      {% for node in site.data.entity_graph.nodes %}
-        {% if node.type == type_key %}
-          {% assign type_nodes = type_nodes | push: node %}
-        {% endif %}
+  <header class="index-hero">
+    <h1>Linkare Medical Knowledge</h1>
+    <p class="index-tagline">전문의가 작성한 의학 정보 위키</p>
+  </header>
+
+  {%- comment -%} 카테고리 진입 — 텍스트 link, 카운트만 {%- endcomment -%}
+  <section class="index-browse">
+    <h2 class="index-section-label">Browse</h2>
+    <ul class="index-browse-list">
+      <li>
+        <a href="{{ '/conditions/' | relative_url }}">질환</a>
+        <span class="index-browse-count">{{ condition_count }}</span>
+      </li>
+      <li>
+        <a href="{{ '/symptoms/' | relative_url }}">증상</a>
+        <span class="index-browse-count">{{ symptom_count }}</span>
+      </li>
+      <li>
+        <a href="{{ '/treatments/' | relative_url }}">치료</a>
+        <span class="index-browse-count">{{ treatment_count }}</span>
+      </li>
+      <li>
+        <a href="{{ '/body-parts/' | relative_url }}">부위</a>
+        <span class="index-browse-count">{{ body_part_count }}</span>
+      </li>
+    </ul>
+  </section>
+
+  {%- comment -%} 최근 업데이트 5건 (활발히 운영 중 신호) {%- endcomment -%}
+  {% if recent_entities.size > 0 %}
+  <section class="index-recent">
+    <h2 class="index-section-label">최근 업데이트</h2>
+    <ul class="index-recent-list">
+      {% for entity in recent_entities limit: 5 %}
+      <li>
+        <a href="{{ entity.url | relative_url }}">{{ entity.title }}</a>
+        <span class="index-recent-meta">{{ entity.last_reviewed | date: "%Y-%m-%d" }}</span>
+      </li>
       {% endfor %}
-      {% if type_nodes.size > 0 %}
-      <div class="index-topic-row">
-        <span class="index-topic-label">{{ type_name }}</span>
-        <div class="entity-chips">
-          {% for node in type_nodes %}
-            {% case node.type %}
-              {% when 'condition' %}{% assign type_path = "conditions" %}
-              {% when 'symptom' %}{% assign type_path = "symptoms" %}
-              {% when 'treatment' %}{% assign type_path = "treatments" %}
-              {% when 'body_part' %}{% assign type_path = "body-parts" %}
-            {% endcase %}
-            <a href="{{ '/' | append: type_path | append: '/' | append: node.id | append: '/' | relative_url }}" class="entity-chip entity-chip--{{ node.type }}">{{ node.name_ko }}</a>
-          {% endfor %}
-        </div>
-      </div>
-      {% endif %}
-    {% endfor %}
+    </ul>
+    <p class="index-recent-more">
+      <a href="{{ '/topics/' | relative_url }}">전체 주제 보기 →</a>
+    </p>
+  </section>
+  {% endif %}
 
-    <div class="index-topics-links">
-      <a href="{{ '/topics/' | relative_url }}" class="index-topics-link">전체 주제 보기 →</a>
-      <a href="{{ '/graph/' | relative_url }}" class="index-topics-link index-topics-link--graph">🔗 지식 그래프</a>
-    </div>
+  {%- comment -%} 신뢰 신호 — 참여 의료기관, 집필진, entity 수 {%- endcomment -%}
+  <section class="index-trust">
+    <p class="index-trust-stats">
+      등재 entity {{ total_entity }}개
+      {% if doctor_pages.size > 0 %} · 집필진 {{ doctor_pages.size }}명{% endif %}
+      {% if hospital_pages.size > 0 %} · 참여 의료기관 {{ hospital_pages.size }}곳{% endif %}
+    </p>
+    <p class="index-trust-note">
+      각 entity는 전문의가 작성하고 최신 의학 근거(PubMed/CPG)로 검수합니다.
+    </p>
   </section>
 </div>
 

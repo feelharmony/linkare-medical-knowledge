@@ -588,7 +588,7 @@ a:hover { text-decoration: underline; }
   font-family: var(--font-mono);
 }
 
-/* ─── Index Page ─── */
+/* ─── Index Page (학술 위키 톤) ─── */
 
 .index-page {
   max-width: var(--reading-width);
@@ -596,14 +596,155 @@ a:hover { text-decoration: underline; }
   padding: 3rem 1.5rem 4rem;
 }
 
+.index-hero {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
 .index-page h1 {
   font-family: var(--font-serif);
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-weight: 600;
   color: var(--charcoal);
   margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
 }
 
+.index-tagline {
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.index-section-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+/* Browse — 카테고리 진입 */
+.index-browse {
+  margin-bottom: 3rem;
+}
+
+.index-browse-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem 2rem;
+}
+
+.index-browse-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.5rem 0;
+  border-bottom: 1px dotted var(--border-light);
+}
+
+.index-browse-list a {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  color: var(--charcoal);
+  text-decoration: none;
+}
+
+.index-browse-list a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.index-browse-count {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* 최근 업데이트 */
+.index-recent {
+  margin-bottom: 3rem;
+}
+
+.index-recent-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.index-recent-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.index-recent-list li:last-child {
+  border-bottom: none;
+}
+
+.index-recent-list a {
+  color: var(--body);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.index-recent-list a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.index-recent-meta {
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+  margin-left: 1rem;
+}
+
+.index-recent-more {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+
+.index-recent-more a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.index-recent-more a:hover {
+  text-decoration: underline;
+}
+
+/* 신뢰 신호 */
+.index-trust {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-light);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.index-trust-stats {
+  font-weight: 500;
+  color: var(--body);
+  margin-bottom: 0.5rem;
+}
+
+.index-trust-note {
+  line-height: 1.6;
+}
+
+/* 옛 .index-desc 호환 (다른 페이지에서 쓸 수도) */
 .index-desc {
   color: var(--muted);
   font-size: 1rem;
