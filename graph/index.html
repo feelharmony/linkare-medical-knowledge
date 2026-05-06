@@ -22,8 +22,6 @@ robots: "noindex, follow"
   </div>
 
   <div class="graph-controls">
-    <span class="graph-controls-label">병원 필터:</span>
-    <div id="hospital-toggles"></div>
     <button class="graph-demo-btn" id="crawl-demo-btn">🤖 AI 탐색 경로 시연</button>
   </div>
 
@@ -53,38 +51,17 @@ robots: "noindex, follow"
     condition: '/conditions/', symptom: '/symptoms/', treatment: '/treatments/',
     body_part: '/body-parts/', doctor: '/doctors/', hospital: '/hospitals/'
   };
-  const HOSPITAL_NAMES = {};
-  graphData.nodes.filter(n => n.type === 'hospital').forEach(n => {
-    n.tenant_keys.forEach(tk => { HOSPITAL_NAMES[tk] = n.name_ko; });
-  });
-
-  let activeHospitals = new Set();
-  const allHospitals = [...new Set(graphData.nodes.flatMap(n => n.tenant_keys || []))];
-  allHospitals.forEach(h => activeHospitals.add(h));
-
-  const toggleContainer = document.getElementById('hospital-toggles');
-  allHospitals.forEach(h => {
-    const btn = document.createElement('button');
-    btn.className = 'graph-hospital-toggle active';
-    btn.textContent = HOSPITAL_NAMES[h] || h;
-    btn.dataset.hospital = h;
-    btn.onclick = () => {
-      if (activeHospitals.has(h)) { activeHospitals.delete(h); btn.classList.remove('active'); }
-      else { activeHospitals.add(h); btn.classList.add('active'); }
-      updateGraph();
-    };
-    toggleContainer.appendChild(btn);
-  });
-
+  // 2026-05-06: hospital 필터 토글 폐기 — entity_graph tenant_keys 데이터가 stale (옛 워크플로 잔재).
+  // 모든 entity 다 표시. type별 색만 시각 구분.
   const container = document.getElementById('graph-container');
   let network = null;
 
   function buildVisData() {
-    const filteredEdges = graphData.edges.filter(e =>
-      e.tenant_keys.some(t => activeHospitals.has(t))
-    );
+    const allEdges = graphData.edges;
     const connectedIds = new Set();
-    filteredEdges.forEach(e => { connectedIds.add(e.source); connectedIds.add(e.target); });
+    allEdges.forEach(e => { connectedIds.add(e.source); connectedIds.add(e.target); });
+    // edge 없는 isolated entity도 포함
+    graphData.nodes.forEach(n => connectedIds.add(n.id));
 
     const nodes = graphData.nodes
       .filter(n => connectedIds.has(n.id))
@@ -98,7 +75,7 @@ robots: "noindex, follow"
         borderWidth: 2, shadow: { enabled: true, size: 4, color: 'rgba(0,0,0,0.08)' }
       }));
 
-    const edges = filteredEdges.map(e => ({
+    const edges = allEdges.map(e => ({
       from: e.source, to: e.target,
       width: Math.max(1, Math.min(e.weight * 1.5, 6)),
       color: { color: '#e5e7eb', highlight: '#2563eb', hover: '#93c5fd' },
@@ -111,7 +88,7 @@ robots: "noindex, follow"
   function updateGraph() {
     const data = buildVisData();
     document.getElementById('graph-stats').textContent =
-      `${data.nodes.length} entities · ${data.edges.length} connections · ${activeHospitals.size} hospitals`;
+      `${data.nodes.length} entities · ${data.edges.length} connections`;
 
     if (network) {
       network.setData(data);
@@ -173,7 +150,7 @@ robots: "noindex, follow"
 
     for (let i = 0; i < 4; i++) {
       const neighbors = graphData.edges
-        .filter(e => (e.source === current.id || e.target === current.id) && e.tenant_keys.some(t => activeHospitals.has(t)))
+        .filter(e => (e.source === current.id || e.target === current.id))
         .map(e => e.source === current.id ? e.target : e.source)
         .filter(id => !visited.has(id));
       if (neighbors.length === 0) break;
