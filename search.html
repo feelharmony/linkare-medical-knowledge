@@ -1,0 +1,143 @@
+---
+layout: default
+title: "검색 — Linkare Medical Knowledge"
+description: "의학 entity 검색"
+permalink: /search/
+robots: "noindex, follow"
+---
+
+<div class="search-page">
+  <h1>검색</h1>
+  <p class="search-desc">질환·증상·치료·부위 entity 이름·영문·별칭으로 검색합니다.</p>
+
+  <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" placeholder="검색어 입력 (예: 허리디스크, lumbar disc, 다리 저림)" autofocus />
+  </div>
+
+  <div id="search-stats" class="search-stats"></div>
+
+  <ul id="search-results" class="search-results"></ul>
+
+  <div id="search-empty" class="search-empty" style="display:none;">
+    <p>검색 결과가 없습니다.</p>
+    <p class="search-empty-hint">전체 분류로 둘러보시려면 <a href="{{ '/topics/' | relative_url }}">전체 주제 보기</a>를 이용해 주세요.</p>
+  </div>
+</div>
+
+<script>
+(function() {
+  const input = document.getElementById('search-input');
+  const resultsEl = document.getElementById('search-results');
+  const statsEl = document.getElementById('search-stats');
+  const emptyEl = document.getElementById('search-empty');
+  let entities = [];
+  let loaded = false;
+
+  // type → 한국어 라벨
+  const typeLabel = {
+    condition: '질환',
+    symptom: '증상',
+    treatment: '치료',
+    body_part: '부위',
+    doctor: '집필진',
+    hospital: '병원',
+  };
+
+  // 페이지 로드 시 search.json 가져옴
+  fetch('{{ "/search.json" | relative_url }}')
+    .then(r => r.json())
+    .then(data => {
+      entities = data.entities || [];
+      loaded = true;
+      // URL ?q= 자동 검색
+      const q = new URLSearchParams(window.location.search).get('q');
+      if (q) {
+        input.value = q;
+        runSearch(q);
+      }
+    });
+
+  function normalize(s) {
+    return (s || '').toString().toLowerCase().trim();
+  }
+
+  function score(entity, q) {
+    const nq = normalize(q);
+    if (!nq) return 0;
+    const title = normalize(entity.title);
+    const titleEn = normalize(entity.title_en);
+    const desc = normalize(entity.description);
+    const aliases = (entity.aliases || []).map(normalize);
+
+    // 정확 일치
+    if (title === nq || titleEn === nq) return 100;
+    // 시작 일치
+    if (title.startsWith(nq) || titleEn.startsWith(nq)) return 80;
+    // 별칭 일치
+    if (aliases.some(a => a === nq || a.startsWith(nq))) return 70;
+    // 부분 일치
+    if (title.includes(nq) || titleEn.includes(nq)) return 50;
+    // 별칭 부분 일치
+    if (aliases.some(a => a.includes(nq))) return 40;
+    // 설명 부분 일치
+    if (desc.includes(nq)) return 20;
+    return 0;
+  }
+
+  function runSearch(q) {
+    if (!loaded) return;
+    const nq = normalize(q);
+    if (!nq) {
+      resultsEl.innerHTML = '';
+      statsEl.textContent = '';
+      emptyEl.style.display = 'none';
+      return;
+    }
+    const scored = entities
+      .map(e => ({ e, s: score(e, q) }))
+      .filter(x => x.s > 0)
+      .sort((a, b) => b.s - a.s)
+      .slice(0, 30);
+
+    if (scored.length === 0) {
+      resultsEl.innerHTML = '';
+      statsEl.textContent = '';
+      emptyEl.style.display = 'block';
+      return;
+    }
+
+    emptyEl.style.display = 'none';
+    statsEl.textContent = scored.length + '건' + (scored.length >= 30 ? ' 이상' : '');
+
+    resultsEl.innerHTML = scored.map(({ e }) => `
+      <li>
+        <a href="${e.url}" class="search-result-link">
+          <span class="search-result-type">${typeLabel[e.type] || e.type}</span>
+          <span class="search-result-title">${escapeHtml(e.title)}</span>
+          ${e.title_en ? `<span class="search-result-en">${escapeHtml(e.title_en)}</span>` : ''}
+        </a>
+        ${e.description ? `<p class="search-result-desc">${escapeHtml(e.description)}</p>` : ''}
+      </li>
+    `).join('');
+  }
+
+  function escapeHtml(s) {
+    return (s || '').toString()
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+  }
+
+  let timer;
+  input.addEventListener('input', e => {
+    clearTimeout(timer);
+    timer = setTimeout(() => runSearch(e.target.value), 80);
+  });
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      const first = resultsEl.querySelector('a');
+      if (first) window.location.href = first.href;
+    }
+  });
+})();
+</script>

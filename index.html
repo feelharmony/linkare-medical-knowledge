@@ -38,6 +38,14 @@ description: "전문의가 작성한 의학 정보 위키"
     <p class="index-tagline">전문의가 작성한 의학 정보 위키</p>
   </header>
 
+  {%- comment -%} 검색 진입 (이미 search.html 있음) {%- endcomment -%}
+  <section class="index-search">
+    <form action="{{ '/search/' | relative_url }}" method="get" class="index-search-form">
+      <input type="text" name="q" class="index-search-input" placeholder="질환·증상·치료·부위 검색" autocomplete="off" />
+      <button type="submit" class="index-search-btn" aria-label="검색">검색</button>
+    </form>
+  </section>
+
   {%- comment -%} 카테고리 진입 — 텍스트 link, 카운트만 {%- endcomment -%}
   <section class="index-browse">
     <h2 class="index-section-label">Browse</h2>
