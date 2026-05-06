@@ -1005,43 +1005,55 @@ a:hover { text-decoration: underline; }
 .entity-graph-link { margin-top: 0.5rem; }
 .entity-graph-link a { color: var(--primary); font-size: 0.85rem; }
 
-/* ─── Entity Chips ─── */
+/* ─── Entity Links (Wikipedia 스타일 — 박스 X, 인라인 텍스트 link) ─── */
 
 .entity-chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
+  display: inline;
+  line-height: 1.9;
 }
 
 .entity-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  padding: 0.3rem 0.75rem;
-  border-radius: 2px;
-  font-size: 0.85rem;
-  text-decoration: none;
-  border: 1px solid var(--border-light);
-  color: var(--body);
-  transition: all 0.15s;
+  display: inline;
+  padding: 0;
+  border: none;
+  background: transparent;
+  font-size: 0.95rem;
+  color: var(--primary);
+  text-decoration: underline;
+  text-decoration-color: rgba(25, 93, 230, 0.3);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.15s;
 }
 
 .entity-chip:hover {
-  background: var(--paper);
-  border-color: var(--primary);
+  background: transparent;
+  border: none;
   color: var(--primary);
-  text-decoration: none;
+  text-decoration-color: var(--primary);
 }
 
-/* 학술 위키 톤: type별 색상 X. 단색 + hover 시 primary accent. */
+/* 항목 사이 가운데 점(·) 구분자 (CSS 자동) */
+.entity-chip + .entity-chip::before {
+  content: " · ";
+  color: var(--muted);
+  text-decoration: none;
+  margin: 0 0.35em;
+}
+
+/* 학술 위키 톤: type별 색상 X. 모두 동일한 텍스트 link. */
 .entity-chip--condition,
 .entity-chip--symptom,
 .entity-chip--treatment,
 .entity-chip--body_part,
 .entity-chip--doctor,
 .entity-chip--hospital {
-  border-color: var(--border-light);
-  color: var(--body);
+  color: var(--primary);
+  border: none;
+}
+
+.chip-count {
+  display: none; /* Wikipedia 스타일에선 숫자 카운트 노출 X */
 }
 
 .chip-count {
@@ -1210,20 +1222,23 @@ a:hover { text-decoration: underline; }
 }
 
 .index-topic-row {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  margin-bottom: 0.75rem;
+  display: block;
+  margin-bottom: 1.25rem;
+  line-height: 1.9;
 }
 
 .index-topic-label {
-  font-size: 0.75rem;
-  font-weight: 500;
+  display: inline-block;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--charcoal);
+  margin-right: 0.6em;
+}
+
+.index-topic-label::after {
+  content: ":";
   color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  min-width: 3rem;
-  padding-top: 0.4rem;
+  font-weight: 400;
 }
 
 .index-topics-links {
