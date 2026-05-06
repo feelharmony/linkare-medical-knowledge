@@ -20,9 +20,9 @@ description: "전문의가 작성한 의학 정보 위키"
   {% endfor %}
   {% assign total_entity = condition_count | plus: symptom_count | plus: treatment_count | plus: body_part_count %}
 
-  {%- comment -%} 참여 의료기관 + 집필진 카운트 {%- endcomment -%}
-  {% assign hospital_pages = site.pages | where: "entity_type", "hospital" %}
-  {% assign doctor_pages = site.pages | where: "entity_type", "doctor" %}
+  {%- comment -%} 참여 의료기관 + 집필진 카운트 (list index 페이지 제외 — layout=entity-hub 인 것만) {%- endcomment -%}
+  {% assign hospital_pages = site.pages | where: "entity_type", "hospital" | where: "layout", "entity-hub" %}
+  {% assign doctor_pages = site.pages | where: "entity_type", "doctor" | where: "layout", "entity-hub" %}
 
   {%- comment -%} 최근 업데이트 entity 5건 (last_reviewed 정렬) {%- endcomment -%}
   {% assign all_entities = "" | split: "" %}
