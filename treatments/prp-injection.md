@@ -65,11 +65,13 @@ PRP는 안드로겐성 탈모와 원형 탈모에서 두피 주사로 활용되�
 
 ---
 
+## 관련 임상 자료
+[^4]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
+
 ## Citations
 [^1]: Anitua E, Tierno R, Alkhraisat MH. Platelet-Rich Plasma in the Management of Alopecia: A Systematic Review and Meta-Analysis of Clinical Evidence. *Dermatol Ther (Heidelb).* 2025;15(11):3213-3252. PMID 40944844. DOI: [10.1007/s13555-025-01542-8](https://link.springer.com/article/10.1007/s13555-025-01542-8)
 [^2]: Zhang X, Ji Y, Zhou M, et al. Platelet-Rich Plasma for Androgenetic Alopecia: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. *J Cutan Med Surg.* 2023;27(5):504-508. PMID 37533146. DOI: [10.1177/12034754231191461](https://journals.sagepub.com/doi/abs/10.1177/12034754231191461)
 [^3]: Abid A, Fazal F, Mumtaz H, Raja HAA, Malik BH. Comparison of the efficacy of platelet-rich plasma with topical minoxidil in treating patients with androgenetic alopecia: a systematic review of clinical trials. *Skin Health Dis.* 2025;5(5):311-318. DOI: [10.1093/skinhd/vzaf040](https://academic.oup.com/skinhd/article/5/5/311/8211118)
-[^4]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
 
 ## Changelog
 - 2026-05-03 v3: **본문 전면 재작성 + 외부 출처 3건 보강** (룰 14·15 적용). "정의·기전" + "적응증 영역(근골격/두피/안면)" + "시술 절차" + "한계·주의점" 섹션 구조. 두피 영역에 Anitua 2025 메타(Dermatol Ther, 43 RCT/1877명, activated PRP 효과 + non-activated 부작용↑), Zhang 2023 메타(J Cutan Med Surg, 9 RCT/238명, 3·6개월 hair density 유의), Abid 2025 PRP vs minoxidil SR(Skin Health Dis, 6 RCT/322명, "nearly comparable" — outcome별 차이) 인용. 근골격 영역은 link로 분산 (외측상과염·무릎 OA·회전근개·석회성). 룰 15: PRP-minoxidil "outcome별 차이" 사실은 정확히 인용 + "환자 선호·접근성에 따라 선택지" 톤. 모발 굵기 outcome 한계 솔직 표기. 보건복지부 고시 직접 인용은 룰 12에 따라 일반 표현으로. **검증 라운드(GPT 의견)**: source_count 5→4로 정정(자체 출처 1 + 외부 3 = 4), Abid 2025 SR 정확 인용(저자/n=6 RCT/322명·outcome별 결과), "차이 없음" 단정 → "nearly comparable + outcome별" 정확.

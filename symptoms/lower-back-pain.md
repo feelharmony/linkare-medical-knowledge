@@ -70,9 +70,11 @@ NICE는 또한 STarT Back 같은 위험 분류 도구를 첫 진료 시점에 �
 
 ---
 
-## Citations
+## 관련 임상 자료
 [^1]: [안심튼튼 — 허리디스크 원인, 증상, 진단](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
 [^2]: [안심튼튼 — 허리디스크 증상, 허리보다 다리가 먼저 아픈 이유](https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk)
+
+## Citations
 [^3]: [Foster NE, Anema JR, Cherkin D, et al.; Lancet Low Back Pain Series Working Group. Prevention and treatment of low back pain: evidence, challenges, and promising directions. Lancet. 2018;391(10137):2368-2383. PMID 29573872. DOI 10.1016/S0140-6736(18)30489-6](https://pubmed.ncbi.nlm.nih.gov/29573872/)
 [^4]: [NICE Guideline NG59 — Low back pain and sciatica in over 16s: assessment and management (2016, last updated 2020)](https://www.nice.org.uk/guidance/ng59/chapter/recommendations)
 [^5]: [Lee JJ et al. Evidence-Based Clinical Practice Guidelines for Patients With Lumbar Disc Herniation With Radiculopathy in South Korea. Neurospine. 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12242740/)

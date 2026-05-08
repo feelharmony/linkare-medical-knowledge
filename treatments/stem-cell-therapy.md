@@ -71,11 +71,13 @@ version: 2
 
 ---
 
+## 관련 임상 자료
+[^4]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
+
 ## Citations
 [^1]: Gasteratos K, Kouzounis K, Goverman J. Autologous Stem Cell-derived Therapies for Androgenetic Alopecia: A Systematic Review of Randomized Control Trials on Efficacy, Safety, and Outcomes. *Plast Reconstr Surg Glob Open.* 2024;12(2):e5606. PMID 38352219. DOI: [10.1097/GOX.0000000000005606](https://pmc.ncbi.nlm.nih.gov/articles/PMC10863936/)
 [^2]: Innovative method of alopecia treatment by autologous adipose-derived SVF. *Stem Cell Res Ther.* 2021. DOI: [10.1186/s13287-021-02557-6](https://stemcellres.biomedcentral.com/articles/10.1186/s13287-021-02557-6)
 [^3]: Behrangi E, Rahimi ST, Zare S, et al. Evaluation of the effects of adding an adipose tissue-derived stromal vascular fraction to platelet-rich plasma injection in the treatment of androgenetic alopecia: A randomized clinical trial. *Skin Res Technol.* 2024;30(4):e13700. PMID 38634195. DOI: [10.1111/srt.13700](https://pmc.ncbi.nlm.nih.gov/articles/PMC11024502/)
-[^4]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
 
 ## Changelog
 - 2026-05-03 v2: **본문 신규 작성 + 외부 출처 3건 보강** (frontmatter only → 정식 entity). "정의·기전(자가지방 ADSC/SVF·골수 BMSC)" + "적응증 영역(두피·근골격·안면)" + "시술 절차" + "한계·주의점" 섹션. 두피 영역에 Gasteratos 2024 SR(12 RCT/514명, AGA 줄기세포 SR), SVF 단일 주입 임상(n=9, 6개월 hair density 48%↑), Behrangi 2024 RCT(Skin Res Technol, n=18, SVF+PRP vs PRP 단독 P=0.917 군 간 차이 없음) 인용. 근골격 영역은 knee-osteoarthritis link로 분산. 룰 14 적용 — FDA·식약처 승인 한정 표현은 사용하지 않고, 한국 신의료기술 framework 일반 표현(룰 12). 룰 15 적용 — 효과 일시성·표준화 부족 사실은 솔직히 인용하되 "효과 없다" 결론은 박지 않음. **검증 라운드(GPT 의견)**: SVF+PRP RCT 인용 정정 — J Cosmet Dermatol 2024 n=22 +52% 잘못 → Skin Res Technol 2024 n=18, 군 간 P=0.917 차이 없음 (논문 사실 그대로 인용, "부가 효과" 단정 회피).

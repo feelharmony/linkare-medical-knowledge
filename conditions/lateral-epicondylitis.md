@@ -41,8 +41,10 @@ version: 5
 
 ---
 
-## Citations
+## 관련 임상 자료
 [^1]: [안심튼튼 — 외측상과염 증상·진단](https://ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis)
+
+## Citations
 [^2]: [Lucado AM, Day JM, Vincent JI, MacDermid JC, Fedorczyk J, Grewal R, Martin RL. Lateral Elbow Pain and Muscle Function Impairments — Clinical Practice Guidelines (Academy of Hand and Upper Extremity Physical Therapy + Academy of Orthopaedic Physical Therapy, APTA). J Orthop Sports Phys Ther. 2022;52(12):CPG1-CPG111. DOI 10.2519/jospt.2022.0302 (PMID 36453071)](https://www.jospt.org/doi/10.2519/jospt.2022.0302)
 [^3]: [한국보건의료연구원(NECA) 의료기술재평가 — 상과염 환자에서의 자가 혈소판 풍부 혈장 치료술 (2026 재평가). 안전성 우려 낮음, 6개월 시점 통증·기능 개선이 스테로이드 주사보다 우수(연구 간 이질성 높음)](https://k-knowledge.kr/srch/read.jsp?id=281258142)
 [^4]: [보건복지부 고시 제2023-60호 — 자가 혈소판 풍부 혈장 치료(PRP) 급여 기준 (2023-04-01 시행, 작업 시점 2026-05 인용). 외측·내측 상과염: 3개월 이상 적절한 보존 치료에도 기능 이상·통증 지속 환자에게 6개월 간격 부위별 각각 1회 인정. ⚠️ 행정 규정으로 변경 가능 — 진료 시점 의료진 상담 권장](https://www.mohw.go.kr/board.es?act=view&bid=0026&list_no=375681&mid=a10409020000)

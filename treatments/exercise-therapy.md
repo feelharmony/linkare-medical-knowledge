@@ -26,10 +26,12 @@ version: 4
 
 ---
 
-## Citations
+## 관련 임상 자료
 [^1]: [thewellsr.kr/en/blog/understanding-straight-neck-and-forward-head-postu](https://thewellsr.kr/en/blog/understanding-straight-neck-and-forward-head-postu)
 [^2]: [thewellsr.kr/blog/forward-head-posture](https://thewellsr.kr/blog/forward-head-posture)
 [^3]: [thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits](https://thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits)
+
+## Citations
 
 ## Changelog
 - 2026-04-23 v2: 적응증 new, 언제 고려 new, 기대효과 new, 한계/주의점 new

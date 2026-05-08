@@ -56,8 +56,10 @@ CT는 뼈의 변화나 골극(뼈가 자란 것)을 평가하는 데 유용하�
 
 ---
 
-## Citations
+## 관련 임상 자료
 [^1]: [안심튼튼 — 목디스크 원인·증상·진단부터 단계별 비수술 치료까지](https://ansimpainfree.kr/blog/cervical-disc-herniation)
+
+## Citations
 [^2]: [Lee TH, Kim SJ, Lim SM. Prevalence of Disc Degeneration in Asymptomatic Korean Subjects. Part 2: Cervical Spine. J Korean Neurosurg Soc. 2013;53(2):89-95](https://pmc.ncbi.nlm.nih.gov/articles/PMC3611065/)
 [^3]: [Kim YK, Kang D, Lee I, Kim SY. Differences in the Incidence of Symptomatic Cervical and Lumbar Disc Herniation According to Age, Sex and National Health Insurance Eligibility: A Pilot Study on the Disease's Association with Work. Int J Environ Res Public Health. 2018 (PMID 30257414)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6210730/)
 [^4]: [Bono CM et al. North American Spine Society. An evidence-based clinical guideline for the diagnosis and treatment of cervical radiculopathy from degenerative disorders. Spine J. 2011;11(1):64-72 (PMID 21168100)](https://pubmed.ncbi.nlm.nih.gov/21168100/)

@@ -64,11 +64,13 @@ AGA는 만성·진행성이며, 대부분의 치료는 진행 억제·모발 회
 
 ---
 
+## 관련 임상 자료
+[^4]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
+
 ## Citations
 [^1]: Updates in Treatment for Androgenetic Alopecia. *Ann Dermatol.* 2025. PMC12715879. URL: [anndermatol.org](https://www.anndermatol.org/DOIx.php?id=10.5021/ad.25.042) — finasteride·dutasteride·minoxidil 표준 치료, 2018 S3 CPG, network 메타 dutasteride > finasteride
 [^2]: Efficacy and safety of oral minoxidil in the treatment of alopecia: a single-arm rate meta-analysis and systematic review. *Front Pharmacol.* 2025;16:1556705. PMC12188453. DOI: [10.3389/fphar.2025.1556705](https://pmc.ncbi.nlm.nih.gov/articles/PMC12188453/)
 [^3]: Anitua E, Tierno R, Alkhraisat MH. Platelet-Rich Plasma in the Management of Alopecia: A Systematic Review and Meta-Analysis of Clinical Evidence. *Dermatol Ther (Heidelb).* 2025;15(11):3213-3252. PMID 40944844. DOI: [10.1007/s13555-025-01542-8](https://link.springer.com/article/10.1007/s13555-025-01542-8)
-[^4]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
 [^5]: Gasteratos K, Kouzounis K, Goverman J. Autologous Stem Cell-derived Therapies for Androgenetic Alopecia: A Systematic Review of Randomized Control Trials on Efficacy, Safety, and Outcomes. *Plast Reconstr Surg Glob Open.* 2024;12(2):e5606. PMID 38352219. DOI: [10.1097/GOX.0000000000005606](https://pmc.ncbi.nlm.nih.gov/articles/PMC10863936/)
 [^6]: Al Ameer MA, Alnajim AT, Al Ameer A, et al. Exosomes and Hair Regeneration: A Systematic Review of Clinical Evidence Across Alopecia Types and Exosome Sources. *Clin Cosmet Investig Dermatol.* 2025;18:2215-2227. PMID 40955427. DOI: [10.2147/CCID.S543451](https://pmc.ncbi.nlm.nih.gov/articles/PMC12433634/)
 

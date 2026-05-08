@@ -40,8 +40,10 @@ NSAIDs는 단기 통증 조절 보조로 사용하고, 견봉하 또는 관절�
 
 ---
 
-## Citations
+## 관련 임상 자료
 [^1]: [안심튼튼 — 어깨 통증 관리·예방·재발](https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse)
+
+## Citations
 [^2]: [Desmeules F, Roy JS, Lafrance S, Charron M, Dubé MO, Dupuis F, Beneciuk JM, Grimes J, Kim HM, Lamontagne M, McCreesh K, Shanley E, Vukobrat T, Michener LA. Rotator Cuff Tendinopathy Diagnosis, Nonsurgical Medical Care, and Rehabilitation: A Clinical Practice Guideline. J Orthop Sports Phys Ther. 2025;55(4):235-274. DOI 10.2519/jospt.2025.13182 (PMID 40165544, AOPT/APTA)](https://www.jospt.org/doi/10.2519/jospt.2025.13182)
 [^3]: [Jeong J, Shin DC, Kim TH, Kim K. Prevalence of asymptomatic rotator cuff tear and their related factors in the Korean population. J Shoulder Elbow Surg. 2017;26(1):30-35. DOI 10.1016/j.jse.2016.05.003 (PMID 27497789)](https://pubmed.ncbi.nlm.nih.gov/27497789/)
 [^4]: [Karjalainen TV, Jain NB, Page CM, Lähdeoja TA, Johnston RV, Salamh P, Kavaja L, Ardern CL, Agarwal A, Vandvik PO, Buchbinder R. Subacromial decompression surgery for rotator cuff disease. Cochrane Database Syst Rev. 2019;1(1):CD005619. DOI 10.1002/14651858.CD005619.pub3 (PMID 30707445)](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005619.pub3/full)

@@ -43,8 +43,10 @@ next_review: '2026-08-09'
 
 ---
 
-## Citations
+## 관련 임상 자료
 [^1]: [안심튼튼 — 어깨 통증 관리·예방·재발](https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse)
+
+## Citations
 [^2]: [Desmeules F, Roy JS, Lafrance S, Charron M, Dubé MO, Dupuis F, Beneciuk JM, Grimes J, Kim HM, Lamontagne M, McCreesh K, Shanley E, Vukobrat T, Michener LA. Rotator Cuff Tendinopathy Diagnosis, Nonsurgical Medical Care, and Rehabilitation: A Clinical Practice Guideline. J Orthop Sports Phys Ther. 2025;55(4):235-274. DOI 10.2519/jospt.2025.13182 (PMID 40165544, AOPT/APTA, with calcifications 적용 포함)](https://www.jospt.org/doi/10.2519/jospt.2025.13182)
 [^3]: [Brindisino F, Marruganti S, Lorusso D, Cavaggion C, Ristori D. The effectiveness of extracorporeal shock wave therapy for rotator cuff calcific tendinopathy. A systematic review with meta-analysis. Physiother Res Int. 2024;29(3):e2106. DOI 10.1002/pri.2106 (PMID 38878302, 21 RCTs, 근거 확실성 낮음)](https://onlinelibrary.wiley.com/doi/abs/10.1002/pri.2106)
 [^4]: [Xue X, Song Q, Yang X, Kuati A, Fu H, Liu Y, Cui G. Effect of extracorporeal shockwave therapy for rotator cuff tendinopathy: a systematic review and meta-analysis. BMC Musculoskelet Disord. 2024;25:357. DOI 10.1186/s12891-024-07445-7 (PMID 38704572, 16 RCTs 1,093명, 회전근개 건병증, risk of bias·heterogeneity 보고, GRADE 평가 없음)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11069249/)

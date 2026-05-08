@@ -45,9 +45,11 @@ version: 4
 
 ---
 
-## Citations
+## 관련 임상 자료
 [^1]: [안심튼튼 — 허리디스크 원인, 증상, 진단](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
 [^2]: [안심튼튼 — 허리디스크 증상, 허리보다 다리가 먼저 아픈 이유](https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk)
+
+## Citations
 [^3]: [Shiga Y. The Essence of Clinical Practice Guidelines for Lumbar Disc Herniation, 2021: 1. Epidemiology and Natural Course. Spine Surg Relat Res. 2022 (JSSR/JOA, 일본)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9381076/)
 [^4]: [Lee JJ et al. Evidence-Based Clinical Practice Guidelines for Patients With Lumbar Disc Herniation With Radiculopathy in South Korea. Neurospine. 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12242740/)
 [^5]: [Penchev et al. Comprehensive Analysis of Treatment Approaches for Lumbar Disc Herniation — Systematic Review. 2024 (PMID 39328604)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11425427/)

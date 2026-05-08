@@ -46,8 +46,10 @@ version: 3
 
 ---
 
-## Citations
+## 관련 임상 자료
 [^1]: [안심튼튼 — 어깨 통증 관리·예방·재발](https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse)
+
+## Citations
 [^2]: [Lee BC et al. Clinical Practice Guidelines for Diagnosis and Non-Surgical Treatment of Primary Frozen Shoulder. Ann Rehabil Med. 2025;49(3):113-138 (대한재활의학회). DOI 10.5535/arm.250057](https://www.e-arm.org/journal/view.php?number=4407)
 [^3]: [Kim JH, Kim BS, Han KD, Kwon HS. The Risk of Shoulder Adhesive Capsulitis in Individuals with Prediabetes and Type 2 Diabetes Mellitus: A Longitudinal Nationwide Population-Based Study. Diabetes Metab J. 2023;47(6):869-878. DOI 10.4093/dmj.2022.0275 (PMID 37915186)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10695720/)
 [^4]: [Pandey V, Madi S. Clinical Guidelines in the Management of Frozen Shoulder: An Update! Indian J Orthop. 2021;55(2):299-309. DOI 10.1007/s43465-021-00351-3](https://pmc.ncbi.nlm.nih.gov/articles/PMC8046676/)

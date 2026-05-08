@@ -38,8 +38,10 @@ version: 3
 
 ---
 
-## Citations
+## 관련 임상 자료
 [^1]: [안심튼튼 — 어깨 통증 관리·예방·재발](https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse)
+
+## Citations
 [^2]: [Desmeules F, Roy JS, Lafrance S, Charron M, Dubé MO, Dupuis F, Beneciuk JM, Grimes J, Kim HM, Lamontagne M, McCreesh K, Shanley E, Vukobrat T, Michener LA. Rotator Cuff Tendinopathy Diagnosis, Nonsurgical Medical Care, and Rehabilitation: A Clinical Practice Guideline. J Orthop Sports Phys Ther. 2025;55(4):235-274. DOI 10.2519/jospt.2025.13182 (PMID 40165544, AOPT/APTA)](https://www.jospt.org/doi/10.2519/jospt.2025.13182)
 [^3]: [Karjalainen TV, Jain NB, Page CM, Lähdeoja TA, Johnston RV, Salamh P, Kavaja L, Ardern CL, Agarwal A, Vandvik PO, Buchbinder R. Subacromial decompression surgery for rotator cuff disease. Cochrane Database Syst Rev. 2019;1(1):CD005619. DOI 10.1002/14651858.CD005619.pub3 (PMID 30707445)](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005619.pub3/full)
 

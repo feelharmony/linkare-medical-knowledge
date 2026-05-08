@@ -45,8 +45,10 @@ version: 3
 
 ---
 
-## Citations
+## 관련 임상 자료
 [^1]: [더웰스 — 회전근개 손상: 근육 관점](https://thewellsr.kr/blog/rotator-cuff-damage-muscle-perspective)
+
+## Citations
 [^2]: [American Academy of Orthopaedic Surgeons. Clinical Practice Guideline: Management of Rotator Cuff Injuries in Adults. Published August 18, 2025](https://www.aaos.org/quality/quality-programs/rotator-cuff/)
 [^3]: [Jeong J, Shin DC, Kim TH, Kim K. Prevalence of asymptomatic rotator cuff tear and their related factors in the Korean population. J Shoulder Elbow Surg. 2017;26(1):30-35. DOI 10.1016/j.jse.2016.05.003 (PMID 27497789)](https://pubmed.ncbi.nlm.nih.gov/27497789/)
 [^4]: [한국 신의료기술평가 — 정형외과 분야 PRP 적용은 상과염·무릎 골관절염·회전근개봉합술 중 주입으로 제한 (메디칼타임즈 보도)](https://www.medicaltimes.com/Mobile/News/NewsView.html?ID=1152725)

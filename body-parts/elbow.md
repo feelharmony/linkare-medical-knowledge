@@ -27,8 +27,10 @@ version: 3
 
 ---
 
-## Citations
+## 관련 임상 자료
 [^1]: [ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis](https://ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis)
+
+## Citations
 
 ## Changelog
 - 2026-04-23 v2: 정의 new, 관련 증상 new, 관련 질환 new, 관련 치료 new

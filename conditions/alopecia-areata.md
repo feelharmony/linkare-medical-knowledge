@@ -83,11 +83,13 @@ JAK 억제제는 면역억제 작용으로 감염·대상포진·혈전 등의 �
 
 ---
 
+## 관련 임상 자료
+[^4]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
+
 ## Citations
 [^1]: Sanchez K, Englander H, Salloum L, Gregoire S, Biba U, Ershadi S, Mostaghimi A. Evaluating Current and Emergent JAK Inhibitors for Alopecia Areata: A Narrative Review. *Dermatol Ther (Heidelb).* 2025;15(10):2749-2764. PMID 40794245. DOI: [10.1007/s13555-025-01517-9](https://pmc.ncbi.nlm.nih.gov/articles/PMC12454744/) — baricitinib·ritlecitinib·deuruxolitinib 임상 evidence + FDA 승인
 [^2]: Anitua E, Tierno R, Alkhraisat MH. Platelet-Rich Plasma in the Management of Alopecia: A Systematic Review and Meta-Analysis of Clinical Evidence. *Dermatol Ther (Heidelb).* 2025;15(11):3213-3252. PMID 40944844. DOI: [10.1007/s13555-025-01542-8](https://link.springer.com/article/10.1007/s13555-025-01542-8) — alopecia 통합 PRP 메타
 [^3]: Comparison of Current International Guidelines for the Management of Alopecia Areata. *Int J Mol Sci.* 2025;26(17):8632. URL: [mdpi.com/1422-0067/26/17/8632](https://www.mdpi.com/1422-0067/26/17/8632) — 원형 탈모 국제 가이드라인 비교
-[^4]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
 
 ## Changelog
 - 2026-05-03 v4: **본문 전면 재작성 + 외부 출처 3건 보강** (룰 14·15 적용). "정의(ICD-10 L63, 분류 4종)" + "병태(JAK-STAT)" + "증상(원형 탈모반·손톱 변화·자가면역 동반·심리)" + "진단(trichoscopy 4가지 sign)" + "치료(국소·중증·재생 보조)" + "예후(자연 경과 50%↑)" 6섹션. 중증 치료에 **JAK 억제제 FDA 승인 3종 정확 인용** — baricitinib(2022), ritlecitinib(2023, 12세+ 첫 승인), deuruxolitinib(2024-07). 재생 시술은 안드로겐성 대비 evidence 작음을 솔직히 표기 + 보완 옵션 톤(룰 15). 한국 적응증·급여는 일반 표현(룰 12). 자연 경과 50% 자발 회복·재발률은 사실 인용. 심리적 지원 언급으로 환자 친화 톤. PRP/줄기세포/엑소좀 treatment entity link로 분산. **검증 라운드(GPT 의견)**: 증상 섹션 추가(원래 누락), [^2] 본문 호출 추가(재생 시술 섹션, 알로페시아 통합 PRP 메타 43 RCT/1877 근거), [^3] 본문 호출 추가(증상 섹션 자가면역 동반).

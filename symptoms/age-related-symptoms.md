@@ -30,8 +30,10 @@ NAD+ IV 요법은 NAD+ 또는 그 전구체를 생리식염수에 녹여 정맥�
 
 ---
 
-## Citations
+## 관련 임상 자료
 [^1]: [thewellsr.kr/en/blog/nad-iv-therapy-new-possibilities-and-current-reali](https://thewellsr.kr/en/blog/nad-iv-therapy-new-possibilities-and-current-reali)
+
+## Citations
 
 ## Changelog
 - 2026-04-23 v2: 정의 new, 흔한 원인 new, 치료 옵션 new

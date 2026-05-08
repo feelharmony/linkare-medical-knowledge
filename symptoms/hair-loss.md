@@ -69,8 +69,10 @@ version: 4
 
 ---
 
-## Citations
+## 관련 임상 자료
 [^1]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
+
+## Citations
 
 ## Changelog
 - 2026-05-03 v4: **canonical "탈모" hub를 symptom entity로 결정** — 탈모는 환자 호소(symptom) 성격이 강해 conditions/hair-thinning 삭제하고 symptoms/hair-loss로 통합. 분류 hub 본문 이전(비반흔성/반흔성·진단 흐름 5단계·치료 옵션 link). conditions/hair-thinning은 같은 commit에서 삭제. data/entities.json·post-entity-map.json에서 hair-thinning entry 정리, hair 글의 primary_entity_id를 hair-loss로 통합. AGA·AA·treatment entity의 hair-thinning link → hair-loss로 정정. aliases에 hair thinning 흡수.

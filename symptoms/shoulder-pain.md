@@ -72,8 +72,10 @@ JOSPT 2025 회전근개 건병증 CPG는 **subacromial pain syndrome / rotator c
 
 ---
 
-## Citations
+## 관련 임상 자료
 [^1]: [안심튼튼 — 어깨 통증 관리·예방·재발](https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse)
+
+## Citations
 [^2]: [Mitchell C, Adebajo A, Hay E, Carr A. Shoulder pain: diagnosis and management in primary care. BMJ. 2005;331(7525):1124-1128. PMID 16282408. DOI 10.1136/bmj.331.7525.1124](https://pubmed.ncbi.nlm.nih.gov/16282408/)
 [^3]: [Greenberg DL. Evaluation and treatment of shoulder pain. Med Clin North Am. 2014;98(3):487-504. PMID 24758957. DOI 10.1016/j.mcna.2014.01.016](https://pubmed.ncbi.nlm.nih.gov/24758957/)
 [^4]: [Luime JJ, Koes BW, Hendriksen IJ, et al. Prevalence and incidence of shoulder pain in the general population; a systematic review. Scand J Rheumatol. 2004;33(2):73-81. PMID 15163107. DOI 10.1080/03009740310004667](https://pubmed.ncbi.nlm.nih.gov/15163107/)

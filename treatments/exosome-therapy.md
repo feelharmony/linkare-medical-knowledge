@@ -60,10 +60,12 @@ version: 3
 
 ---
 
+## 관련 임상 자료
+[^3]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
+
 ## Citations
 [^1]: Al Ameer MA, Alnajim AT, Al Ameer A, et al. Exosomes and Hair Regeneration: A Systematic Review of Clinical Evidence Across Alopecia Types and Exosome Sources. *Clin Cosmet Investig Dermatol.* 2025;18:2215-2227. PMID 40955427. DOI: [10.2147/CCID.S543451](https://pmc.ncbi.nlm.nih.gov/articles/PMC12433634/)
 [^2]: Ersan M, Ozer E, Akin O, et al. Effectiveness of Exosome Treatment in Androgenetic Alopecia: Outcomes of a Prospective Study. *Aesthetic Plast Surg.* 2024;48(21):4262-4271. PMID 39174804. DOI: [10.1007/s00266-024-04332-3](https://pmc.ncbi.nlm.nih.gov/articles/PMC11588828/)
-[^3]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
 
 ## Changelog
 - 2026-05-03 v3: **본문 전면 재작성 + 외부 출처 2건 보강** (룰 14·15 적용). "정의·기전(MSC 유래 cell-free 전략)" + "적응증 영역(두피·안면·기타)" + "시술 절차" + "한계·주의점" 섹션. 두피 영역에 **Al Ameer 2025 SR**(11 임상/MSC source 다양, hair density 9.5~35 hairs/cm² 증가) + **Ersan 2024 prospective study**(n=30 남성, 포피 MSC 엑소좀, 12주 hair density 149.7→157 hairs/cm² P=0.002) 인용. SR 1건 + prospective study 1건 구성. 룰 14·15 — 표준화 부족·소규모 RCT 한계는 솔직히 표기하되 "효과 없다" 결론은 박지 않음. 식약처·신의료기술 framework은 룰 12에 따라 일반 표현으로. **검증 라운드(GPT 의견)**: Ersan 2024 PMID 정정 (39447204 → 39174804), 저자명·정확한 hair density 수치(149.7→157 P=0.002) 추가.

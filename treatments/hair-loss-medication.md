@@ -69,11 +69,13 @@ version: 2
 
 ---
 
+## 관련 임상 자료
+[^4]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
+
 ## Citations
 [^1]: Updates in Treatment for Androgenetic Alopecia. *Ann Dermatol.* 2025. PMC12715879. URL: [annals of dermatology — anndermatol.org](https://www.anndermatol.org/DOIx.php?id=10.5021/ad.25.042) — finasteride·dutasteride·minoxidil 표준 치료, 2018 S3 CPG, network 메타 dutasteride > finasteride
 [^2]: Liu C, Liu X, Shi T, et al. Efficacy and safety of oral minoxidil in the treatment of alopecia: a single-arm rate meta-analysis and systematic review. *Front Pharmacol.* 2025;16:1556705. PMID 40567364. DOI: [10.3389/fphar.2025.1556705](https://pmc.ncbi.nlm.nih.gov/articles/PMC12188453/)
 [^3]: Vañó-Galván S, Pirmez R, Hermosa-Gelbard A, et al. Safety of low-dose oral minoxidil for hair loss: A multicenter study of 1404 patients. *J Am Acad Dermatol.* 2021;84(6):1644-1651. PMID 33639244. DOI: [10.1016/j.jaad.2021.02.054](https://www.jaad.org/article/S0190-9622(21)00418-7/abstract)
-[^4]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
 
 ## Changelog
 - 2026-05-03 v2: **본문 신규 작성 + 외부 출처 3건 보강** (frontmatter only → 정식 entity, **review 1건 + SR/메타 1건 + multicenter safety 1건 구성**). "정의·개요" + "약물별 evidence(미녹시딜·5ARI)" + "약물 간 비교·병용" + "부작용·주의 환자군" + "약물과 시술의 관계" 섹션. Ann Dermatol 2025 review(피나스테리드·두타스테리드 표준 + dutasteride 우월 network 메타), Liu 2025 SR/메타(Front Pharmacol, 27 연구/2,933명, 저용량 경구 minoxidil 효과·안전성, hypertrichosis 35%), Vañó-Galván 2021 다기관 안전성(JAAD, n=1,404, hypertrichosis 15.1%·중단 0.5%) 인용. 룰 14 적용 — FDA 승인은 사실로 명시(미녹시딜 외용·피나스테리드)하되 "이것만 쓰라"는 단정은 회피, 환자별 약물 선택지·시술 병용 가능성 평행 기술. 룰 15 — 부작용 사실은 정확히, 임신·수유 금기는 안전 문구로 강조. **검증 라운드(GPT 의견)**: Liu 2025 PMID 추가(40567364), Vañó-Galván 2021 별도 footnote [^3]로 분리해 본문에서 호출(이전엔 [^2] 안에 합쳐 1404명 데이터 미호출), hypertrichosis 두 수치(SR 풀링 35% / 다기관 15.1%) 명시 분리, 경구 부작용 섹션 [^3] 정확 mapping. 출처 구성을 "SR/메타 3건"이 아닌 "review 1 + SR 1 + safety 1"으로 정직하게 표기.

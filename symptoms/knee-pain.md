@@ -88,8 +88,10 @@ OA 진단은 임상 양상과 단순방사선 결과를 종합해 평가하며, 
 
 ---
 
-## Citations
+## 관련 임상 자료
 [^1]: [더웰스 — 무릎 통증 관리·예방 운동 습관](https://thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits)
+
+## Citations
 [^2]: [Bunt CW, Jonas CE, Chang JG. Knee Pain in Adults and Adolescents: The Initial Evaluation. Am Fam Physician. 2018;98(9):576-585. PMID 30325638](https://pubmed.ncbi.nlm.nih.gov/30325638/)
 [^3]: [Hong JW, Noh JH, Kim D-J. The prevalence of and demographic factors associated with radiographic knee osteoarthritis in Korean adults aged ≥ 50 years: The 2010-2013 Korea National Health and Nutrition Examination Survey. PLOS One. 2020;15(3):e0230613](https://pmc.ncbi.nlm.nih.gov/articles/PMC7083301/)
 [^4]: [Brophy RH, Fillingham YA. AAOS Clinical Practice Guideline Summary: Management of Osteoarthritis of the Knee (Nonarthroplasty), Third Edition. J Am Acad Orthop Surg. 2022;30(9):e721-e729. PMID 35383651](https://pubmed.ncbi.nlm.nih.gov/35383651/)
