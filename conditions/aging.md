@@ -7,9 +7,6 @@ title: 노화
 description: 시간의 경과에 따라 신체 기능이 저하되는 과정.
 title_en: aging
 last_reviewed: '2026-05-02'
-locked: true
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
-next_review: '2026-08-09'
 source_count: 0
 version: 3
 status: archived

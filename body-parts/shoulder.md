@@ -7,9 +7,6 @@ title: 어깨
 description: 어깨 관절 부위
 title_en: shoulder
 last_reviewed: '2026-04-25'
-locked: true
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
-next_review: '2026-08-09'
 source_count: 0
 version: 2
 ---
