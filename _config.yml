@@ -4,6 +4,9 @@ url: "https://knowledge.linkerai.io"
 baseurl: ""
 lang: "ko"
 
+# OG 기본 이미지 — jekyll-seo-tag가 자동으로 og:image에 반영
+image: "/assets/og-image.png"
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
