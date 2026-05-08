@@ -7,6 +7,9 @@ title: 오십견
 description: 어깨 관절낭이 굳어 통증과 운동 범위 제한을 일으키는 질환
 title_en: frozen shoulder
 last_reviewed: '2026-05-02'
+locked: true
+verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+next_review: '2026-08-09'
 source_count: 5
 version: 3
 ---

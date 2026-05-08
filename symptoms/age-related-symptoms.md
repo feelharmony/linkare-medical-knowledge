@@ -7,6 +7,9 @@ title: 노화 관련 증상 (archived, aging-symptoms로 통합)
 description: aging-symptoms entity가 canonical hub
 title_en: age-related symptoms (deprecated)
 last_reviewed: '2026-05-03'
+locked: true
+verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+next_review: '2026-08-09'
 source_count: 0
 version: 3
 status: archived

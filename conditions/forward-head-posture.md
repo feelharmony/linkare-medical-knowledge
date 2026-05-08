@@ -13,6 +13,9 @@ aliases:
   - straight neck
   - cervical lordosis loss
 last_reviewed: '2026-05-02'
+locked: true
+verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+next_review: '2026-08-09'
 source_count: 4
 version: 3
 ---

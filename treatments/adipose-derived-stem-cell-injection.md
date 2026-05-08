@@ -6,6 +6,9 @@ permalink: /treatments/adipose-derived-stem-cell-injection/
 title: 자가조직 줄기세포 주사
 description: 지방에서 추출한 줄기세포를 주입하는 치료법
 last_reviewed: '2026-04-23'
+locked: true
+verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+next_review: '2026-08-09'
 source_count: 0
 version: 2
 ---

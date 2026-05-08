@@ -7,6 +7,9 @@ title: 무릎 관절염
 description: 무릎 연골 마모로 발생하는 퇴행성 관절 질환
 title_en: knee osteoarthritis
 last_reviewed: '2026-05-01'
+locked: true
+verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+next_review: '2026-08-09'
 source_count: 8
 version: 3
 ---

@@ -6,6 +6,9 @@ permalink: /treatments/regenerative-injection-treatment/
 title: 재생주사치료
 description: 모발 성장을 돕기 위해 재생 인자를 주입하는 치료법
 last_reviewed: '2026-04-23'
+locked: true
+verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+next_review: '2026-08-09'
 source_count: 0
 version: 2
 ---

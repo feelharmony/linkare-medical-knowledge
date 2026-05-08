@@ -9,6 +9,9 @@ title_en: calcific tendinitis
 last_reviewed: '2026-05-09'
 source_count: 6
 version: 4
+locked: true
+verified_by: 사장님 + Claude + GPT 합의 (5/2 v3, 5/9 v4 정정)
+next_review: '2026-08-09'
 ---
 ## 정의
 석회성 건염(calcific tendinitis)은 회전근개 힘줄에 칼슘 하이드록시아파타이트(hydroxyapatite) 결정이 침착되어 통증과 운동 제한을 일으키는 질환입니다 [^1]. 회전근개 건병증의 한 양상으로 다뤄지며, 2025 JOSPT 임상진료지침은 회전근개 건병증의 적용 범위에 석회가 동반된 경우를 함께 포함합니다 [^2].

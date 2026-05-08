@@ -7,6 +7,9 @@ title: 마미증후군
 description: 마미신경 다발 압박으로 발생하는 응급 신경 증후군 — 즉시 응급실 평가가 필요
 title_en: cauda equina syndrome
 last_reviewed: '2026-05-02'
+locked: true
+verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+next_review: '2026-08-09'
 source_count: 4
 version: 5
 ---

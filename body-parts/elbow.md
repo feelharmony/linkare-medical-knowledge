@@ -7,6 +7,9 @@ title: 팔꿈치
 description: 팔꿈치 관절 부위
 title_en: elbow
 last_reviewed: '2026-04-25'
+locked: true
+verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+next_review: '2026-08-09'
 source_count: 1
 version: 3
 ---

@@ -6,6 +6,9 @@ permalink: /conditions/rotator-cuff-tendinopathy/
 title: 회전근개 건병증
 description: 회전근개 힘줄에 미세 손상이 누적되어 통증과 기능 저하를 일으키는 만성 건병증
 last_reviewed: '2026-05-02'
+locked: true
+verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+next_review: '2026-08-09'
 source_count: 4
 version: 3
 ---

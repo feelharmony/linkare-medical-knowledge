@@ -7,6 +7,9 @@ title: 좌골신경통
 title_en: sciatica
 description: 좌골 신경 분포 영역의 방사통을 가리키는 임상 용어 — 단일 진단명이 아닌 다양한 원인의 결과
 last_reviewed: '2026-05-02'
+locked: true
+verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+next_review: '2026-08-09'
 source_count: 4
 version: 1
 ---

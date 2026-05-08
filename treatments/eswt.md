@@ -17,6 +17,9 @@ aliases:
 last_reviewed: '2026-05-09'
 source_count: 8
 version: 7
+locked: true
+verified_by: 사장님 + Claude + GPT 합의 (5/4 v6, 5/9 v7 정정)
+next_review: '2026-08-09'
 ---
 ## 정의
 체외충격파 치료(extracorporeal shock wave therapy, ESWT)는 체외에서 발생시킨 **고에너지 음향 압력파**를 표적 조직에 전달해 통증 완화·조직 회복을 유도하는 비수술 치료입니다 [^1]. 음향 매질 안에서 음속보다 빠르게 전파되는 압력파를 만들어 표적 부위에 적용하며, 시술자가 평가에 기반해 표적·강도·횟수를 조정합니다.

@@ -7,6 +7,9 @@ title: 물리치료
 description: 물리적 모달리티(전기·열·초음파 등)를 활용한 치료
 title_en: physical therapy
 last_reviewed: '2026-04-25'
+locked: true
+verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+next_review: '2026-08-09'
 source_count: 5
 version: 5
 ---

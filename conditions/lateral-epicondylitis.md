@@ -7,6 +7,9 @@ title: 외측상과염
 description: 팔꿈치 외측 힘줄의 만성 손상으로 통증과 기능 저하를 일으키는 질환
 title_en: lateral epicondylitis
 last_reviewed: '2026-05-02'
+locked: true
+verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+next_review: '2026-08-09'
 source_count: 5
 version: 5
 ---

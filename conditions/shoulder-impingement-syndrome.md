@@ -6,6 +6,9 @@ permalink: /conditions/shoulder-impingement-syndrome/
 title: 충돌 증후군
 description: 팔을 들어 올릴 때 회전근개 힘줄·활액낭이 견봉 아래에서 자극받아 통증을 일으키는 어깨 통증의 한 양상
 last_reviewed: '2026-05-02'
+locked: true
+verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+next_review: '2026-08-09'
 source_count: 3
 version: 3
 ---
