@@ -1,56 +1,99 @@
 /* ─── Linkare Medical Knowledge ───
-   Design tokens aligned with linkerai.io
+   Design System v2 — LinkerAI Light Token (linkerai-design-system-v1.md 동기화)
+   Knowledge sub-brand accent: #3B4A5C (Slate ink)
    ─────────────────────────────────── */
 
 :root {
-  /* Colors — from linkerai.io globals.css */
-  --primary: rgb(25, 93, 230);        /* #195DE6 */
-  --primary-light: rgb(110, 148, 225); /* #6E94E1 */
-  --accent: rgb(60, 100, 220);        /* #3C64DC */
+  /* ── Core Light Tokens ── */
+  --color-bg:           #FFFFFF;
+  --color-bg-soft:      #F7F7F5;   /* 웜 오프화이트 — 섹션 교차 */
+  --color-bg-sunken:    #EFEFEC;   /* 인용/코드 블록 강조 영역 */
+  --color-ink:          #0F1115;   /* 헤드라인·강조 본문 */
+  --color-body:         #1F232B;   /* 일반 본문 */
+  --color-muted:        #5A6270;   /* 캡션·메타·보조 */
+  --color-muted-soft:   #8A929E;   /* 가장 약한 텍스트 (큰 텍스트만) */
+  --color-line:         #E5E5E2;   /* 보더·디바이더 */
+  --color-line-soft:    #EFEFEC;   /* 약한 디바이더 */
+  --color-primary:      #1F4FD1;   /* LinkerAI 메인 컬러 */
+  --color-primary-hover:#1A43B5;
+  --color-primary-soft: #EAF0FB;   /* primary 배경 */
 
-  --bg-dark: rgb(28, 28, 30);         /* #1C1C1E — header/footer */
-  --bg-light: rgb(253, 253, 253);     /* #FDFDFD — blog pages */
-  --surface: rgb(255, 255, 255);      /* #FFFFFF */
-  --surface-dark: rgb(44, 44, 46);    /* #2C2C2E */
-  --paper: rgb(250, 250, 250);        /* #FAFAFA */
+  /* ── Knowledge sub-brand accent ── */
+  --color-accent:       #3B4A5C;   /* Slate ink — wordmark, 헤더 강조 */
 
-  --charcoal: rgb(26, 26, 26);        /* #1A1A1A */
-  --body: rgb(45, 45, 45);            /* #2D2D2D */
-  --muted: rgb(142, 142, 147);        /* #8E8E93 */
+  /* ── Layout ── */
+  --width-narrow:   680px;
+  --width-reading:  760px;
+  --width-content: 1200px;
+  --header-height:   64px;
 
-  --blockquote-bg: rgb(253, 250, 240); /* #FDFAF0 */
-  --code-bg: rgb(37, 37, 40);         /* #252528 */
-
-  --border-dark: rgba(255, 255, 255, 0.1);
-  --border-light: rgba(26, 26, 26, 0.1);
-
-  /* Layout */
-  --reading-width: 700px;
-  --content-width: 1152px;
-  --header-height: 80px;
-
-  /* Fonts */
+  /* ── Fonts ── */
   --font-display: "Pretendard Variable", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
-  --font-serif: "Newsreader", Georgia, serif;
-  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-serif:   "Newsreader", Georgia, serif;
+  --font-mono:    "JetBrains Mono", ui-monospace, monospace;
+
+  /* ── 하위 호환 — 이전 토큰 이름을 새 토큰에 연결 ── */
+  --primary:        var(--color-primary);
+  --primary-light:  #6E94E1;
+  --accent:         var(--color-accent);
+  --bg-light:       var(--color-bg);
+  --surface:        var(--color-bg);
+  --paper:          var(--color-bg-soft);
+  --charcoal:       var(--color-ink);
+  --body:           var(--color-body);
+  --muted:          var(--color-muted);
+  --border-light:   var(--color-line);
+  --blockquote-bg:  var(--color-bg-sunken);
+  --code-bg:        var(--color-bg-sunken);
+  --reading-width:  var(--width-narrow);
+  --content-width:  var(--width-content);
+
+  /* entity-body에서 참조하는 미정의 토큰 보완 */
+  --text:           var(--color-body);
+  --ink:            var(--color-ink);
+  --border:         var(--color-line);
 }
 
+/* ─── Reset ─── */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+/* ─── Base ─── */
 body {
   font-family: var(--font-display);
-  color: var(--body);
-  background: var(--bg-light);
-  line-height: 1.7;
+  color: var(--color-body);
+  background: var(--color-bg);
+  line-height: 1.75;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-a { color: var(--primary); text-decoration: none; }
+/* 한글 텍스트 블록 단어 중간 줄바꿈 방지 */
+p, li, dd, dt, blockquote {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  word-break: keep-all;
+  text-wrap: balance;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
 a:hover { text-decoration: underline; }
 
-/* ─── Header (matches linkerai.io exactly) ─── */
+/* ─── Knowledge wordmark (영문 brand → Newsreader 세리프, slate ink) ─── */
+.logo-knowledge {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  color: var(--color-accent);
+  letter-spacing: -0.01em;
+}
 
+/* ─── Header ─── */
 .site-header {
   position: fixed;
   top: 0;
@@ -58,106 +101,123 @@ a:hover { text-decoration: underline; }
   right: 0;
   z-index: 50;
   height: var(--header-height);
-  background: rgba(28, 28, 30, 0.7);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border-dark);
+  border-bottom: 1px solid var(--color-line);
 }
 
 .header-inner {
-  max-width: var(--content-width);
+  max-width: var(--width-content);
   margin: 0 auto;
   padding: 0 1.5rem;
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-
-.site-logo {
-  font-size: 1.125rem;
-  font-weight: 700;
-  color: var(--paper);
-  text-decoration: none;
-  letter-spacing: -0.01em;
-}
-
-.site-logo:hover { text-decoration: none; color: var(--primary); }
-
-.site-nav {
-  display: none;
   gap: 2rem;
 }
 
-.site-nav a {
-  font-size: 0.875rem;
-  color: var(--muted);
+/* 로고 영역 */
+.site-logo {
+  flex-shrink: 0;
+  font-size: 1.125rem;
+  font-weight: 700;
   text-decoration: none;
-  transition: color 0.2s;
+  line-height: 1;
+}
+.site-logo:hover { text-decoration: none; }
+.site-logo:hover .logo-knowledge { color: var(--color-primary); }
+
+/* 데스크톱 nav */
+.site-nav {
+  display: none;
+  align-items: center;
+  gap: 0;
+  flex: 1;
 }
 
-.site-nav a:hover { color: var(--paper); text-decoration: none; }
-.site-nav a.nav-active { color: var(--paper); }
+.site-nav-link {
+  font-size: 0.875rem;
+  color: var(--color-muted);
+  text-decoration: none;
+  padding: 0.375rem 0.875rem;
+  border-radius: 4px;
+  transition: color 0.15s, background 0.15s;
+  font-weight: 400;
+}
+.site-nav-link:hover {
+  color: var(--color-ink);
+  background: var(--color-bg-soft);
+  text-decoration: none;
+}
+.site-nav-link--active {
+  color: var(--color-accent);
+  font-weight: 500;
+}
+.site-nav-link--active:hover {
+  color: var(--color-accent);
+  background: var(--color-bg-soft);
+}
 
+/* 우측 액션 그룹 */
+.header-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* 본사 복귀 링크 */
+.back-to-parent {
+  display: none;
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  text-decoration: none;
+  padding: 0.25rem 0.625rem;
+  border: 1px solid var(--color-line);
+  border-radius: 4px;
+  transition: color 0.15s, border-color 0.15s;
+  white-space: nowrap;
+  letter-spacing: 0.01em;
+}
+.back-to-parent:hover {
+  color: var(--color-ink);
+  border-color: var(--color-muted);
+  text-decoration: none;
+}
+.back-arrow {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+/* 모바일 햄버거 */
 .mobile-menu-btn {
-  display: block;
-  padding: 0.5rem;
-  margin-right: -0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
   background: none;
   border: none;
-  color: var(--muted);
+  color: var(--color-muted);
   cursor: pointer;
-  transition: color 0.2s;
+  transition: color 0.15s;
+  border-radius: 4px;
 }
-
-.mobile-menu-btn:hover { color: var(--paper); }
-
-/* ─── Sub Navigation (Knowledge 내부 탭) ─── */
-
-.sub-nav {
-  position: fixed;
-  top: var(--header-height);
-  left: 0;
-  right: 0;
-  z-index: 49;
-  background: var(--bg-dark);
-  border-bottom: 1px solid var(--border-dark);
-}
-
-.sub-nav-inner {
-  max-width: var(--content-width);
-  margin: 0 auto;
-  padding: 0 1.5rem;
-  display: flex;
-  gap: 0;
-}
-
-.sub-nav-link {
-  font-size: 0.8rem;
-  color: var(--muted);
-  text-decoration: none;
-  padding: 0.6rem 1rem;
-  transition: color 0.2s;
-  border-bottom: 2px solid transparent;
-}
-
-.sub-nav-link:hover { color: var(--paper); text-decoration: none; }
-.sub-nav-link--active { color: var(--paper); border-bottom-color: var(--primary); }
+.mobile-menu-btn:hover { color: var(--color-ink); background: var(--color-bg-soft); }
 
 /* ─── Mobile Menu ─── */
-
 .mobile-menu {
   position: fixed;
   inset: 0;
   z-index: 100;
-  background: var(--bg-dark);
+  background: var(--color-bg);
   display: flex;
   flex-direction: column;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.25s;
+  transition: opacity 0.2s ease;
 }
-
 .mobile-menu.open {
   opacity: 1;
   pointer-events: auto;
@@ -169,18 +229,23 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid var(--color-line);
 }
 
 .mobile-menu-close {
-  padding: 0.5rem;
-  margin-right: -0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
   background: none;
   border: none;
-  color: var(--muted);
+  color: var(--color-muted);
   cursor: pointer;
+  border-radius: 4px;
+  transition: color 0.15s;
 }
-
-.mobile-menu-close:hover { color: var(--paper); }
+.mobile-menu-close:hover { color: var(--color-ink); background: var(--color-bg-soft); }
 
 .mobile-menu-nav {
   flex: 1;
@@ -188,60 +253,174 @@ a:hover { text-decoration: underline; }
   flex-direction: column;
   justify-content: center;
   padding: 0 2rem;
-  gap: 0.5rem;
+  gap: 0.25rem;
 }
 
 .mobile-menu-item {
   display: flex;
   align-items: baseline;
   gap: 1rem;
-  padding: 0.75rem 0;
+  padding: 0.875rem 0;
   text-decoration: none;
+  border-bottom: 1px solid var(--color-line-soft);
 }
-
-.mobile-menu-item:hover .mobile-menu-text { color: var(--primary); }
-.mobile-menu-item:hover .mobile-menu-num { color: var(--primary); }
-.mobile-menu-item--active .mobile-menu-text { color: var(--primary); }
+.mobile-menu-item:last-child { border-bottom: none; }
+.mobile-menu-item:hover .mobile-menu-text { color: var(--color-primary); }
+.mobile-menu-item:hover .mobile-menu-num { color: var(--color-primary); }
+.mobile-menu-item:hover { text-decoration: none; }
 
 .mobile-menu-num {
   font-family: var(--font-mono);
   font-size: 0.75rem;
-  color: var(--muted);
+  color: var(--color-muted-soft);
+  letter-spacing: 0.06em;
+  min-width: 1.8em;
 }
 
 .mobile-menu-text {
   font-family: var(--font-serif);
-  font-size: 2.5rem;
-  color: var(--paper);
-  transition: color 0.2s;
+  font-size: 2rem;
+  color: var(--color-ink);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  transition: color 0.15s;
 }
 
-.mobile-menu-sub {
+/* 모바일 메뉴 하단 본사 복귀 */
+.mobile-menu-footer {
   padding: 1.5rem 2rem 2.5rem;
-  border-top: 1px solid rgba(255,255,255,0.05);
-  display: flex;
-  gap: 1.5rem;
+  border-top: 1px solid var(--color-line);
+}
+.mobile-back-link {
+  font-size: 0.875rem;
+  color: var(--color-muted);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.mobile-back-link:hover { color: var(--color-ink); text-decoration: none; }
+
+/* ─── Main content offset ─── */
+.main-content {
+  margin-top: var(--header-height);
+  min-height: calc(100vh - var(--header-height));
 }
 
-.mobile-menu-sub a {
+/* ─── Footer ─── */
+.site-footer {
+  background: var(--color-bg-soft);
+  border-top: 1px solid var(--color-line);
+  color: var(--color-muted);
+}
+
+.footer-inner {
+  max-width: var(--width-content);
+  margin: 0 auto;
+  padding: 3rem 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* 좌측 브랜드 블록 */
+.footer-brand {}
+
+.footer-logo {
+  display: inline-block;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+.footer-logo:hover { text-decoration: none; }
+.footer-logo:hover .logo-knowledge { color: var(--color-primary); }
+
+.footer-desc {
   font-size: 0.875rem;
-  color: var(--muted);
+  color: var(--color-muted);
+  line-height: 1.6;
+  margin-top: 0.5rem;
+  word-break: keep-all;
+}
+
+.footer-license {
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  color: var(--color-muted-soft);
+  font-family: var(--font-mono);
+  letter-spacing: 0.02em;
+}
+
+/* 우측 Part of LinkerAI 블록 */
+.footer-parent {
+  text-align: right;
+}
+
+.footer-parent-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--color-muted-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.75rem;
+  font-family: var(--font-mono);
+}
+
+.footer-crosslinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.4rem;
+}
+
+.footer-crosslinks a {
+  font-size: 0.875rem;
+  color: var(--color-muted);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.footer-crosslinks a:hover {
+  color: var(--color-ink);
   text-decoration: none;
 }
 
-.mobile-menu-sub a:hover { color: var(--paper); }
-
-/* ─── Main ─── */
-
-.main-content {
-  margin-top: calc(var(--header-height) + 36px);
-  min-height: calc(100vh - var(--header-height) - 36px);
+/* 사업자 정보 */
+.footer-info {
+  max-width: var(--width-content);
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem;
+  border-top: 1px solid var(--color-line);
+  font-size: 0.7rem;
+  color: var(--color-muted-soft);
+  line-height: 1.7;
+  word-break: keep-all;
 }
+
+/* 최하단 copyright */
+.footer-bottom {
+  max-width: var(--width-content);
+  margin: 0 auto;
+  padding: 0.875rem 1.5rem 1.5rem;
+  font-size: 0.7rem;
+  color: var(--color-muted-soft);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom a {
+  font-size: 0.7rem;
+  color: var(--color-muted-soft);
+  text-decoration: none;
+}
+.footer-bottom a:hover { color: var(--color-muted); text-decoration: none; }
 
 /* ─── Article Layout ─── */
 
 .article {
-  max-width: var(--reading-width);
+  max-width: var(--width-narrow);
   margin: 0 auto;
   padding: 3rem 1.5rem 4rem;
 }
@@ -249,40 +428,40 @@ a:hover { text-decoration: underline; }
 /* Breadcrumb */
 .article-breadcrumb {
   font-size: 0.8rem;
-  color: var(--muted);
+  color: var(--color-muted);
   margin-bottom: 1.5rem;
 }
 
 .article-breadcrumb a {
-  color: var(--muted);
+  color: var(--color-muted);
   text-decoration: none;
-  transition: color 0.2s;
+  transition: color 0.15s;
 }
-
-.article-breadcrumb a:hover { color: var(--primary); text-decoration: none; }
+.article-breadcrumb a:hover { color: var(--color-primary); text-decoration: none; }
 
 .breadcrumb-sep {
   margin: 0 0.4rem;
-  color: var(--border-light);
+  color: var(--color-line);
 }
 
 .breadcrumb-current {
-  color: var(--charcoal);
+  color: var(--color-ink);
 }
 
 .article-header {
   margin-bottom: 2.5rem;
   padding-bottom: 1.5rem;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--color-line);
 }
 
 .article-header h1 {
   font-family: var(--font-serif);
   font-size: 2rem;
   font-weight: 600;
-  color: var(--charcoal);
+  color: var(--color-ink);
   line-height: 1.3;
   margin-bottom: 1rem;
+  letter-spacing: -0.01em;
 }
 
 .article-meta {
@@ -290,7 +469,7 @@ a:hover { text-decoration: underline; }
   flex-wrap: wrap;
   gap: 0.75rem;
   font-size: 0.875rem;
-  color: var(--muted);
+  color: var(--color-muted);
 }
 
 .original-source {
@@ -298,14 +477,14 @@ a:hover { text-decoration: underline; }
 }
 
 .original-source a {
-  color: var(--primary);
+  color: var(--color-primary);
   font-size: 0.875rem;
   text-decoration: underline;
-  text-decoration-color: rgba(25, 93, 230, 0.4);
+  text-decoration-color: rgba(31, 79, 209, 0.35);
   text-underline-offset: 3px;
 }
 
-/* ─── Article Body (matches linkerai.io MDX) ─── */
+/* ─── Article Body ─── */
 
 .article-body {
   margin-bottom: 2.5rem;
@@ -315,24 +494,25 @@ a:hover { text-decoration: underline; }
   font-family: var(--font-serif);
   font-size: 1.75rem;
   font-weight: 700;
-  color: var(--charcoal);
+  color: var(--color-ink);
   margin-top: 3rem;
   margin-bottom: 1rem;
+  letter-spacing: -0.01em;
 }
 
 .article-body h3 {
   font-family: var(--font-serif);
   font-size: 1.4rem;
   font-weight: 700;
-  color: var(--charcoal);
+  color: var(--color-ink);
   margin-top: 2.5rem;
   margin-bottom: 0.75rem;
 }
 
 .article-body p {
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   line-height: 1.8;
-  color: var(--body);
+  color: var(--color-body);
   margin-bottom: 1.5rem;
 }
 
@@ -343,24 +523,23 @@ a:hover { text-decoration: underline; }
 }
 
 .article-body li {
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   line-height: 1.8;
-  color: var(--body);
+  color: var(--color-body);
   margin-bottom: 0.5rem;
 }
 
 .article-body li::marker {
-  color: var(--primary);
+  color: var(--color-accent);
 }
 
 .article-body blockquote {
   padding: 1rem 1.5rem;
   margin: 1.5rem 0;
-  border-left: 4px solid var(--primary);
-  background: var(--blockquote-bg);
+  border-left: 3px solid var(--color-accent);
+  background: var(--color-bg-soft);
   font-family: var(--font-serif);
   font-style: italic;
-  border-radius: 0;
 }
 
 .article-body blockquote p {
@@ -370,38 +549,39 @@ a:hover { text-decoration: underline; }
 .article-body code {
   font-family: var(--font-mono);
   font-size: 0.85em;
-  background: var(--code-bg);
-  color: var(--primary-light);
+  background: var(--color-bg-sunken);
+  color: var(--color-ink);
   padding: 0.15em 0.4em;
   border-radius: 2px;
 }
 
 .article-body pre {
-  background: var(--code-bg);
+  background: var(--color-bg-sunken);
   border-radius: 2px;
   padding: 1.25rem;
   overflow-x: auto;
   margin-bottom: 1.5rem;
+  border: 1px solid var(--color-line);
 }
 
 .article-body pre code {
   background: none;
   padding: 0;
   font-size: 0.9rem;
-  color: var(--paper);
+  color: var(--color-ink);
 }
 
 .article-body a {
-  color: var(--primary);
+  color: var(--color-primary);
   text-decoration: underline;
-  text-decoration-color: rgba(25, 93, 230, 0.4);
+  text-decoration-color: rgba(31, 79, 209, 0.35);
   text-underline-offset: 3px;
 }
 
 .article-body img {
   max-width: 100%;
   border-radius: 2px;
-  border: 1px solid var(--border-light);
+  border: 1px solid var(--color-line);
   margin: 1.5rem 0;
 }
 
@@ -415,14 +595,14 @@ a:hover { text-decoration: underline; }
 .article-body th,
 .article-body td {
   padding: 0.75rem 1rem;
-  border: 1px solid var(--border-light);
+  border: 1px solid var(--color-line);
   text-align: left;
 }
 
 .article-body th {
-  background: var(--paper);
+  background: var(--color-bg-soft);
   font-weight: 600;
-  color: var(--charcoal);
+  color: var(--color-ink);
 }
 
 /* ─── Tags ─── */
@@ -437,10 +617,10 @@ a:hover { text-decoration: underline; }
 .tag {
   font-size: 0.75rem;
   font-weight: 500;
-  color: var(--primary);
+  color: var(--color-accent);
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  background: rgba(25, 93, 230, 0.08);
+  background: rgba(59, 74, 92, 0.08);
   padding: 0.25rem 0.75rem;
   border-radius: 2px;
 }
@@ -448,20 +628,20 @@ a:hover { text-decoration: underline; }
 /* ─── Article Footer ─── */
 
 .article-footer {
-  border-top: 1px solid var(--border-light);
+  border-top: 1px solid var(--color-line);
   padding-top: 2rem;
   margin-top: 2.5rem;
 }
 
 .disclaimer {
-  background: var(--paper);
-  border: 1px solid var(--border-light);
+  background: var(--color-bg-soft);
+  border: 1px solid var(--color-line);
   border-radius: 2px;
   padding: 1.25rem;
   margin-bottom: 1.5rem;
   font-size: 0.875rem;
-  color: var(--muted);
-  line-height: 1.6;
+  color: var(--color-muted);
+  line-height: 1.65;
 }
 
 .disclaimer-en {
@@ -476,13 +656,13 @@ a:hover { text-decoration: underline; }
 
 .license {
   font-size: 0.8rem;
-  color: var(--muted);
+  color: var(--color-muted);
 }
 
 /* ─── Profile Layout ─── */
 
 .profile {
-  max-width: var(--reading-width);
+  max-width: var(--width-narrow);
   margin: 0 auto;
   padding: 3rem 1.5rem 4rem;
 }
@@ -490,20 +670,21 @@ a:hover { text-decoration: underline; }
 .profile-header {
   margin-bottom: 2rem;
   padding-bottom: 1.5rem;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--color-line);
 }
 
 .profile-header h1 {
   font-family: var(--font-serif);
   font-size: 2rem;
   font-weight: 600;
-  color: var(--charcoal);
+  color: var(--color-ink);
   margin-bottom: 0.5rem;
+  letter-spacing: -0.01em;
 }
 
 .profile-doctor {
   font-size: 1rem;
-  color: var(--muted);
+  color: var(--color-muted);
 }
 
 .profile-website {
@@ -513,41 +694,43 @@ a:hover { text-decoration: underline; }
 
 .profile-location {
   font-size: 0.875rem;
-  color: var(--muted);
+  color: var(--color-muted);
   margin-top: 0.25rem;
 }
 
 .profile-body {
   margin-bottom: 2rem;
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   line-height: 1.8;
-  color: var(--body);
+  color: var(--color-body);
 }
 
 .profile-body h2 {
   font-family: var(--font-serif);
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--charcoal);
+  color: var(--color-ink);
   margin-top: 2rem;
   margin-bottom: 0.75rem;
+  letter-spacing: -0.01em;
 }
 
 .profile-articles {
   margin-top: 3rem;
   padding-top: 2rem;
-  border-top: 1px solid var(--border-light);
+  border-top: 1px solid var(--color-line);
 }
 
 .profile-articles h2 {
   font-family: var(--font-serif);
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--charcoal);
+  color: var(--color-ink);
   margin-bottom: 1.25rem;
+  letter-spacing: -0.01em;
 }
 
-/* ─── Article List (index + profile) ─── */
+/* ─── Article List ─── */
 
 .article-list {
   list-style: none;
@@ -556,7 +739,7 @@ a:hover { text-decoration: underline; }
 
 .article-list li {
   padding: 1rem 0;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--color-line);
 }
 
 .article-list li:last-child {
@@ -564,34 +747,34 @@ a:hover { text-decoration: underline; }
 }
 
 .article-list a {
-  color: var(--charcoal);
+  color: var(--color-ink);
   font-weight: 500;
   text-decoration: none;
-  transition: color 0.2s;
+  transition: color 0.15s;
 }
 
 .article-list a:hover {
-  color: var(--primary);
+  color: var(--color-primary);
   text-decoration: none;
 }
 
 .article-desc {
   font-size: 0.875rem;
-  color: var(--muted);
+  color: var(--color-muted);
   margin-top: 0.25rem;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 .article-date {
   font-size: 0.8rem;
-  color: var(--muted);
+  color: var(--color-muted);
   font-family: var(--font-mono);
 }
 
-/* ─── Index Page (학술 위키 톤) ─── */
+/* ─── Index Page ─── */
 
 .index-page {
-  max-width: var(--reading-width);
+  max-width: var(--width-narrow);
   margin: 0 auto;
   padding: 3rem 1.5rem 4rem;
 }
@@ -599,35 +782,35 @@ a:hover { text-decoration: underline; }
 .index-hero {
   margin-bottom: 3rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--color-line);
 }
 
 .index-page h1 {
   font-family: var(--font-serif);
   font-size: 2.25rem;
   font-weight: 600;
-  color: var(--charcoal);
+  color: var(--color-ink);
   margin-bottom: 0.5rem;
   letter-spacing: -0.02em;
 }
 
 .index-tagline {
-  color: var(--muted);
+  color: var(--color-muted);
   font-size: 1rem;
 }
 
 .index-section-label {
   font-size: 0.7rem;
   font-weight: 600;
-  color: var(--muted);
+  color: var(--color-muted);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--color-line);
 }
 
-/* Browse — 카테고리 진입 */
+/* Browse */
 .index-browse {
   margin-bottom: 3rem;
 }
@@ -646,25 +829,25 @@ a:hover { text-decoration: underline; }
   justify-content: space-between;
   align-items: baseline;
   padding: 0.5rem 0;
-  border-bottom: 1px dotted var(--border-light);
+  border-bottom: 1px dotted var(--color-line);
 }
 
 .index-browse-list a {
   font-family: var(--font-serif);
-  font-size: 1.15rem;
-  color: var(--charcoal);
+  font-size: 1.1rem;
+  color: var(--color-ink);
   text-decoration: none;
 }
 
 .index-browse-list a:hover {
-  color: var(--primary);
+  color: var(--color-primary);
   text-decoration: underline;
   text-underline-offset: 4px;
 }
 
 .index-browse-count {
   font-size: 0.8rem;
-  color: var(--muted);
+  color: var(--color-muted);
   font-variant-numeric: tabular-nums;
 }
 
@@ -684,7 +867,7 @@ a:hover { text-decoration: underline; }
   justify-content: space-between;
   align-items: baseline;
   padding: 0.5rem 0;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--color-line);
 }
 
 .index-recent-list li:last-child {
@@ -692,20 +875,20 @@ a:hover { text-decoration: underline; }
 }
 
 .index-recent-list a {
-  color: var(--body);
+  color: var(--color-body);
   text-decoration: none;
   font-size: 0.95rem;
 }
 
 .index-recent-list a:hover {
-  color: var(--primary);
+  color: var(--color-primary);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
 .index-recent-meta {
   font-size: 0.75rem;
-  color: var(--muted);
+  color: var(--color-muted);
   font-variant-numeric: tabular-nums;
   flex-shrink: 0;
   margin-left: 1rem;
@@ -717,7 +900,7 @@ a:hover { text-decoration: underline; }
 }
 
 .index-recent-more a {
-  color: var(--primary);
+  color: var(--color-primary);
   text-decoration: none;
 }
 
@@ -729,14 +912,14 @@ a:hover { text-decoration: underline; }
 .index-trust {
   margin-top: 3rem;
   padding-top: 2rem;
-  border-top: 1px solid var(--border-light);
+  border-top: 1px solid var(--color-line);
   font-size: 0.85rem;
-  color: var(--muted);
+  color: var(--color-muted);
 }
 
 .index-trust-stats {
   font-weight: 500;
-  color: var(--body);
+  color: var(--color-body);
   margin-bottom: 0.5rem;
 }
 
@@ -752,8 +935,12 @@ a:hover { text-decoration: underline; }
 .index-search-form {
   display: flex;
   gap: 0;
-  border: 1px solid var(--border-light);
-  background: var(--surface);
+  border: 1px solid var(--color-line);
+  background: var(--color-bg);
+}
+
+.index-search-form:focus-within {
+  border-color: var(--color-accent);
 }
 
 .index-search-input {
@@ -762,38 +949,35 @@ a:hover { text-decoration: underline; }
   border: none;
   font-size: 1rem;
   font-family: var(--font-display);
-  color: var(--charcoal);
+  color: var(--color-ink);
   background: transparent;
   outline: none;
 }
 
 .index-search-input::placeholder {
-  color: var(--muted);
-}
-
-.index-search-form:focus-within {
-  border-color: var(--primary);
+  color: var(--color-muted-soft);
 }
 
 .index-search-btn {
   padding: 0.75rem 1.25rem;
   border: none;
-  border-left: 1px solid var(--border-light);
+  border-left: 1px solid var(--color-line);
   background: transparent;
   font-size: 0.875rem;
   font-weight: 500;
-  color: var(--primary);
+  color: var(--color-accent);
   cursor: pointer;
   font-family: var(--font-display);
+  transition: background 0.15s;
 }
 
 .index-search-btn:hover {
-  background: var(--paper);
+  background: var(--color-bg-soft);
 }
 
 /* /search/ 페이지 */
 .search-page {
-  max-width: var(--reading-width);
+  max-width: var(--width-narrow);
   margin: 0 auto;
   padding: 3rem 1.5rem 4rem;
 }
@@ -803,11 +987,12 @@ a:hover { text-decoration: underline; }
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 0.4rem;
-  color: var(--charcoal);
+  color: var(--color-ink);
+  letter-spacing: -0.01em;
 }
 
 .search-desc {
-  color: var(--muted);
+  color: var(--color-muted);
   font-size: 0.9rem;
   margin-bottom: 1.5rem;
 }
@@ -819,21 +1004,21 @@ a:hover { text-decoration: underline; }
 .search-input {
   width: 100%;
   padding: 0.875rem 1rem;
-  border: 1px solid var(--border-light);
-  background: var(--surface);
+  border: 1px solid var(--color-line);
+  background: var(--color-bg);
   font-size: 1rem;
   font-family: var(--font-display);
-  color: var(--charcoal);
+  color: var(--color-ink);
   outline: none;
 }
 
 .search-input:focus {
-  border-color: var(--primary);
+  border-color: var(--color-accent);
 }
 
 .search-stats {
   font-size: 0.8rem;
-  color: var(--muted);
+  color: var(--color-muted);
   margin-bottom: 1.5rem;
   font-variant-numeric: tabular-nums;
   min-height: 1.2em;
@@ -847,7 +1032,7 @@ a:hover { text-decoration: underline; }
 
 .search-results li {
   padding: 1rem 0;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--color-line);
 }
 
 .search-result-link {
@@ -859,8 +1044,8 @@ a:hover { text-decoration: underline; }
 .search-result-type {
   display: inline-block;
   font-size: 0.7rem;
-  color: var(--muted);
-  border: 1px solid var(--border-light);
+  color: var(--color-muted);
+  border: 1px solid var(--color-line);
   padding: 0.1rem 0.4rem;
   margin-right: 0.5rem;
   letter-spacing: 0.05em;
@@ -871,27 +1056,27 @@ a:hover { text-decoration: underline; }
   font-family: var(--font-serif);
   font-size: 1.1rem;
   font-weight: 600;
-  color: var(--charcoal);
+  color: var(--color-ink);
   margin-right: 0.5rem;
 }
 
 .search-result-link:hover .search-result-title {
-  color: var(--primary);
+  color: var(--color-primary);
   text-decoration: underline;
   text-underline-offset: 4px;
 }
 
 .search-result-en {
   font-size: 0.85rem;
-  color: var(--muted);
+  color: var(--color-muted);
   font-style: italic;
   font-family: var(--font-serif);
 }
 
 .search-result-desc {
   font-size: 0.875rem;
-  color: var(--body);
-  line-height: 1.5;
+  color: var(--color-body);
+  line-height: 1.55;
   margin-top: 0.3rem;
 }
 
@@ -899,7 +1084,7 @@ a:hover { text-decoration: underline; }
   margin-top: 2rem;
   padding: 2rem 0;
   text-align: center;
-  color: var(--muted);
+  color: var(--color-muted);
 }
 
 .search-empty-hint {
@@ -908,12 +1093,12 @@ a:hover { text-decoration: underline; }
 }
 
 .search-empty-hint a {
-  color: var(--primary);
+  color: var(--color-primary);
 }
 
-/* 옛 .index-desc 호환 (다른 페이지에서 쓸 수도) */
+/* 옛 .index-desc 호환 */
 .index-desc {
-  color: var(--muted);
+  color: var(--color-muted);
   font-size: 1rem;
   margin-bottom: 3rem;
 }
@@ -925,7 +1110,7 @@ a:hover { text-decoration: underline; }
 .hospital-list h2 {
   font-size: 0.75rem;
   font-weight: 500;
-  color: var(--muted);
+  color: var(--color-muted);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 1rem;
@@ -938,7 +1123,7 @@ a:hover { text-decoration: underline; }
 
 .hospital-list li {
   padding: 0.75rem 0;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--color-line);
   display: flex;
   align-items: baseline;
   gap: 0.75rem;
@@ -949,23 +1134,23 @@ a:hover { text-decoration: underline; }
 }
 
 .hospital-list a {
-  color: var(--charcoal);
+  color: var(--color-ink);
   font-weight: 500;
   text-decoration: none;
-  transition: color 0.2s;
+  transition: color 0.15s;
 }
 
-.hospital-list a:hover { color: var(--primary); text-decoration: none; }
+.hospital-list a:hover { color: var(--color-primary); text-decoration: none; }
 
 .hospital-doctor {
   font-size: 0.875rem;
-  color: var(--muted);
+  color: var(--color-muted);
 }
 
 .article-count {
   font-size: 0.8rem;
   font-family: var(--font-mono);
-  color: var(--primary);
+  color: var(--color-accent);
   margin-left: auto;
 }
 
@@ -976,7 +1161,7 @@ a:hover { text-decoration: underline; }
 .recent-articles h2 {
   font-size: 0.75rem;
   font-weight: 500;
-  color: var(--muted);
+  color: var(--color-muted);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 1rem;
@@ -985,152 +1170,63 @@ a:hover { text-decoration: underline; }
 .meta-hospital {
   font-size: 0.75rem;
   font-weight: 500;
-  color: var(--primary);
+  color: var(--color-accent);
   text-transform: uppercase;
   margin-left: 0.5rem;
 }
 
-/* ─── Footer (matches linkerai.io exactly) ─── */
-
-.site-footer {
-  background: var(--bg-dark);
-  border-top: 1px solid var(--border-dark);
-  color: var(--muted);
-}
-
-.footer-inner {
-  max-width: var(--content-width);
-  margin: 0 auto;
-  padding: 4rem 1.5rem 2rem;
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  gap: 2rem;
-}
-
-.footer-brand { grid-column: 1; }
-
-.footer-logo {
-  display: inline-block;
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: var(--paper);
-  text-decoration: none;
-}
-
-.footer-logo:hover { text-decoration: none; color: var(--primary); }
-
-.footer-desc {
-  margin-top: 0.75rem;
-  font-size: 0.875rem;
-  color: var(--muted);
-  max-width: var(--reading-width);
-  line-height: 1.6;
-}
-
-.footer-col {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.footer-col h4 {
-  font-size: 0.7rem;
-  font-weight: 600;
-  color: var(--paper);
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  margin-bottom: 0.25rem;
-}
-
-.footer-col a {
-  font-size: 0.875rem;
-  color: var(--muted);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.footer-col a:hover { color: var(--paper); text-decoration: none; }
-
-.footer-info {
-  max-width: var(--content-width);
-  margin: 0 auto;
-  padding: 1.5rem;
-  border-top: 1px solid var(--border-dark);
-  font-size: 0.7rem;
-  color: rgba(142, 142, 147, 0.5);
-  line-height: 1.6;
-}
-
-.footer-bottom {
-  max-width: var(--content-width);
-  margin: 0 auto;
-  padding: 1rem 1.5rem 1.5rem;
-  font-size: 0.7rem;
-  color: rgba(142, 142, 147, 0.4);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer-bottom a {
-  font-size: 0.7rem;
-  color: rgba(142, 142, 147, 0.4);
-  text-decoration: none;
-}
-
-.footer-bottom a:hover { color: var(--paper); text-decoration: none; }
-
 /* ─── Entity Hub ─── */
 
 .entity-hub {
-  max-width: var(--reading-width);
+  max-width: var(--width-narrow);
   margin: 0 auto;
   padding: 3rem 1.5rem 4rem;
 }
 
 .entity-breadcrumb {
   font-size: 0.8rem;
-  color: var(--muted);
+  color: var(--color-muted);
   margin-bottom: 1.5rem;
 }
 
 .entity-breadcrumb a {
-  color: var(--muted);
+  color: var(--color-muted);
   text-decoration: none;
-  transition: color 0.2s;
+  transition: color 0.15s;
 }
 
-.entity-breadcrumb a:hover { color: var(--primary); text-decoration: none; }
+.entity-breadcrumb a:hover { color: var(--color-primary); text-decoration: none; }
 
 .entity-header {
   margin-bottom: 2.5rem;
   padding-bottom: 1.5rem;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--color-line);
 }
 
 .entity-header h1 {
   font-family: var(--font-serif);
   font-size: 2rem;
   font-weight: 600;
-  color: var(--charcoal);
+  color: var(--color-ink);
   margin-bottom: 0.25rem;
+  letter-spacing: -0.01em;
 }
 
 .entity-title-en {
   font-size: 0.9rem;
-  color: var(--muted);
+  color: var(--color-muted);
   margin-bottom: 0.75rem;
 }
 
 .entity-description {
-  font-size: 1.05rem;
-  color: var(--body);
-  line-height: 1.6;
+  font-size: 1.0625rem;
+  color: var(--color-body);
+  line-height: 1.65;
 }
 
 .entity-meta-top {
   font-size: 0.75rem;
-  color: var(--muted);
+  color: var(--color-muted);
   margin-top: 0.75rem;
   letter-spacing: 0.02em;
 }
@@ -1145,13 +1241,12 @@ a:hover { text-decoration: underline; }
   font-weight: 500;
   letter-spacing: 0.04em;
   padding: 0.15rem 0.5rem;
-  border: 1px solid var(--border-light);
+  border: 1px solid var(--color-line);
   background: transparent;
-  color: var(--muted);
+  color: var(--color-muted);
   margin-bottom: 0.75rem;
 }
 
-/* 학술 위키 톤: type별 배경 X. 단색 + 작은 좌측 indicator만. */
 .entity-type-badge--condition,
 .entity-type-badge--symptom,
 .entity-type-badge--treatment,
@@ -1159,8 +1254,8 @@ a:hover { text-decoration: underline; }
 .entity-type-badge--doctor,
 .entity-type-badge--hospital {
   background: transparent;
-  color: var(--muted);
-  border-color: var(--border-light);
+  color: var(--color-muted);
+  border-color: var(--color-line);
 }
 
 .entity-section {
@@ -1170,29 +1265,29 @@ a:hover { text-decoration: underline; }
 .entity-section h2 {
   font-size: 0.75rem;
   font-weight: 500;
-  color: var(--muted);
+  color: var(--color-muted);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 0.75rem;
 }
 
-/* v2.5: thick entity body (MD 렌더) */
+/* v2.5: thick entity body */
 .entity-body {
   margin: 2rem 0 3rem;
   line-height: 1.75;
-  color: var(--text);
+  color: var(--color-body);
   font-size: 1rem;
 }
 
 .entity-body h2 {
   font-size: 1.375rem;
   font-weight: 600;
-  color: var(--text);
+  color: var(--color-ink);
   margin: 2.25rem 0 0.75rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--color-line);
   text-transform: none;
-  letter-spacing: normal;
+  letter-spacing: -0.005em;
 }
 
 .entity-body h2:first-child { margin-top: 0; }
@@ -1201,6 +1296,7 @@ a:hover { text-decoration: underline; }
   font-size: 1.125rem;
   font-weight: 600;
   margin: 1.5rem 0 0.5rem;
+  color: var(--color-ink);
 }
 
 .entity-body p {
@@ -1217,36 +1313,38 @@ a:hover { text-decoration: underline; }
 }
 
 .entity-body a {
-  color: var(--accent);
+  color: var(--color-primary);
   text-decoration: underline;
   text-underline-offset: 2px;
+  text-decoration-color: rgba(31, 79, 209, 0.35);
 }
 
 .entity-body a:hover {
-  text-decoration: none;
+  text-decoration-color: var(--color-primary);
 }
 
 .entity-body code {
-  background: var(--code-bg, rgba(0, 0, 0, 0.04));
+  background: var(--color-bg-sunken);
   padding: 0.125rem 0.375rem;
   border-radius: 2px;
   font-size: 0.9em;
+  font-family: var(--font-mono);
 }
 
 .entity-body blockquote {
   margin: 1rem 0;
   padding: 0.5rem 1rem;
-  border-left: 3px solid var(--border);
-  color: var(--muted);
+  border-left: 3px solid var(--color-line);
+  color: var(--color-muted);
 }
 
-/* Citation footnotes (Kramdown 기본 렌더) */
+/* Citation footnotes */
 .entity-body .footnotes {
   margin-top: 2.5rem;
   padding-top: 1rem;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--color-line);
   font-size: 0.875rem;
-  color: var(--muted);
+  color: var(--color-muted);
 }
 
 .entity-body .footnotes ol {
@@ -1256,12 +1354,12 @@ a:hover { text-decoration: underline; }
 .entity-body sup a {
   text-decoration: none;
   padding: 0 0.125rem;
+  color: var(--color-accent);
 }
 
-/* footer metadata */
 .entity-source-count,
 .entity-version {
-  color: var(--muted);
+  color: var(--color-muted);
 }
 
 .entity-post-list {
@@ -1271,33 +1369,33 @@ a:hover { text-decoration: underline; }
 
 .entity-post-item {
   padding: 0.75rem 0;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--color-line);
 }
 
 .entity-post-item:last-child { border-bottom: none; }
 
 .entity-post-item a {
-  color: var(--charcoal);
+  color: var(--color-ink);
   font-weight: 500;
   text-decoration: none;
-  transition: color 0.2s;
+  transition: color 0.15s;
 }
 
-.entity-post-item a:hover { color: var(--primary); text-decoration: none; }
+.entity-post-item a:hover { color: var(--color-primary); text-decoration: none; }
 
 .entity-post-meta {
   display: flex;
   gap: 0.75rem;
   font-size: 0.8rem;
-  color: var(--muted);
+  color: var(--color-muted);
   margin-top: 0.25rem;
 }
 
 .post-lang {
   font-size: 0.7rem;
   font-weight: 600;
-  background: rgba(25, 93, 230, 0.1);
-  color: var(--primary);
+  background: rgba(59, 74, 92, 0.08);
+  color: var(--color-accent);
   padding: 0.1rem 0.4rem;
   border-radius: 2px;
 }
@@ -1305,15 +1403,15 @@ a:hover { text-decoration: underline; }
 .entity-footer {
   margin-top: 2rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--border-light);
+  border-top: 1px solid var(--color-line);
   font-size: 0.85rem;
-  color: var(--muted);
+  color: var(--color-muted);
 }
 
 .entity-graph-link { margin-top: 0.5rem; }
-.entity-graph-link a { color: var(--primary); font-size: 0.85rem; }
+.entity-graph-link a { color: var(--color-primary); font-size: 0.85rem; }
 
-/* ─── Entity Links (Wikipedia 스타일 — 박스 X, 인라인 텍스트 link) ─── */
+/* ─── Entity Links (Wikipedia 스타일) ─── */
 
 .entity-chips {
   display: inline;
@@ -1326,9 +1424,9 @@ a:hover { text-decoration: underline; }
   border: none;
   background: transparent;
   font-size: 0.95rem;
-  color: var(--primary);
+  color: var(--color-primary);
   text-decoration: underline;
-  text-decoration-color: rgba(25, 93, 230, 0.3);
+  text-decoration-color: rgba(31, 79, 209, 0.3);
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
   transition: text-decoration-color 0.15s;
@@ -1337,50 +1435,43 @@ a:hover { text-decoration: underline; }
 .entity-chip:hover {
   background: transparent;
   border: none;
-  color: var(--primary);
-  text-decoration-color: var(--primary);
+  color: var(--color-primary);
+  text-decoration-color: var(--color-primary);
 }
 
-/* 항목 사이 가운데 점(·) 구분자 (CSS 자동) */
 .entity-chip + .entity-chip::before {
   content: " · ";
-  color: var(--muted);
+  color: var(--color-muted);
   text-decoration: none;
   margin: 0 0.35em;
 }
 
-/* 학술 위키 톤: type별 색상 X. 모두 동일한 텍스트 link. */
 .entity-chip--condition,
 .entity-chip--symptom,
 .entity-chip--treatment,
 .entity-chip--body_part,
 .entity-chip--doctor,
 .entity-chip--hospital {
-  color: var(--primary);
+  color: var(--color-primary);
   border: none;
 }
 
 .chip-count {
-  display: none; /* Wikipedia 스타일에선 숫자 카운트 노출 X */
+  display: none;
 }
 
-.chip-count {
-  font-size: 0.7rem;
-  color: var(--muted);
-}
-
-/* ─── Related Links (article footer) ─── */
+/* ─── Related Links ─── */
 
 .related-links {
   margin-top: 2.5rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--border-light);
+  border-top: 1px solid var(--color-line);
 }
 
 .related-links h3 {
   font-size: 0.75rem;
   font-weight: 500;
-  color: var(--muted);
+  color: var(--color-muted);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 0.75rem;
@@ -1397,16 +1488,16 @@ a:hover { text-decoration: underline; }
 }
 
 .related-post-list a {
-  color: var(--charcoal);
+  color: var(--color-ink);
   font-weight: 500;
   text-decoration: none;
 }
 
-.related-post-list a:hover { color: var(--primary); }
+.related-post-list a:hover { color: var(--color-primary); }
 
 .related-hospital {
   font-size: 0.8rem;
-  color: var(--muted);
+  color: var(--color-muted);
   margin-left: 0.5rem;
 }
 
@@ -1417,7 +1508,7 @@ a:hover { text-decoration: underline; }
 /* ─── Topics Page ─── */
 
 .topics-page {
-  max-width: var(--reading-width);
+  max-width: var(--width-narrow);
   margin: 0 auto;
   padding: 3rem 1.5rem 4rem;
 }
@@ -1426,12 +1517,13 @@ a:hover { text-decoration: underline; }
   font-family: var(--font-serif);
   font-size: 2.5rem;
   font-weight: 600;
-  color: var(--charcoal);
+  color: var(--color-ink);
   margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
 }
 
 .topics-desc {
-  color: var(--muted);
+  color: var(--color-muted);
   font-size: 1rem;
   margin-bottom: 3rem;
 }
@@ -1443,7 +1535,7 @@ a:hover { text-decoration: underline; }
 .topic-section h2 {
   font-size: 0.75rem;
   font-weight: 500;
-  color: var(--muted);
+  color: var(--color-muted);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 0.75rem;
@@ -1457,18 +1549,18 @@ a:hover { text-decoration: underline; }
 .graph-cta-link {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background: var(--primary);
-  color: white;
+  background: var(--color-accent);
+  color: #FFFFFF;
   border-radius: 2px;
   text-decoration: none;
   font-size: 0.9rem;
   font-weight: 500;
-  transition: opacity 0.2s;
+  transition: opacity 0.15s;
 }
 
-.graph-cta-link:hover { opacity: 0.9; text-decoration: none; color: white; }
+.graph-cta-link:hover { opacity: 0.88; text-decoration: none; color: #FFFFFF; }
 
-/* ─── Category/Tenant sections ─── */
+/* ─── Category/Tenant ─── */
 
 .tenant-section {
   margin-bottom: 3rem;
@@ -1478,8 +1570,9 @@ a:hover { text-decoration: underline; }
   font-family: var(--font-serif);
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--charcoal);
+  color: var(--color-ink);
   margin-bottom: 1rem;
+  letter-spacing: -0.01em;
 }
 
 .category-group {
@@ -1489,7 +1582,7 @@ a:hover { text-decoration: underline; }
 .category-title {
   font-size: 0.75rem;
   font-weight: 500;
-  color: var(--muted);
+  color: var(--color-muted);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 0.5rem;
@@ -1498,8 +1591,8 @@ a:hover { text-decoration: underline; }
 .article-lang {
   font-size: 0.65rem;
   font-weight: 600;
-  background: rgba(25, 93, 230, 0.1);
-  color: var(--primary);
+  background: rgba(59, 74, 92, 0.08);
+  color: var(--color-accent);
   padding: 0.1rem 0.35rem;
   border-radius: 2px;
   margin-left: 0.5rem;
@@ -1511,21 +1604,22 @@ a:hover { text-decoration: underline; }
 .index-topics {
   margin: 2.5rem 0 3rem;
   padding: 2rem 0;
-  border-top: 1px solid var(--border-light);
-  border-bottom: 1px solid var(--border-light);
+  border-top: 1px solid var(--color-line);
+  border-bottom: 1px solid var(--color-line);
 }
 
 .index-topics h2 {
   font-family: var(--font-serif);
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--charcoal);
+  color: var(--color-ink);
   margin-bottom: 0.25rem;
+  letter-spacing: -0.01em;
 }
 
 .index-topics-desc {
   font-size: 0.9rem;
-  color: var(--muted);
+  color: var(--color-muted);
   margin-bottom: 1.5rem;
 }
 
@@ -1539,13 +1633,13 @@ a:hover { text-decoration: underline; }
   display: inline-block;
   font-size: 0.95rem;
   font-weight: 600;
-  color: var(--charcoal);
+  color: var(--color-ink);
   margin-right: 0.6em;
 }
 
 .index-topic-label::after {
   content: ":";
-  color: var(--muted);
+  color: var(--color-muted);
   font-weight: 400;
 }
 
@@ -1557,7 +1651,7 @@ a:hover { text-decoration: underline; }
 
 .index-topics-link {
   font-size: 0.9rem;
-  color: var(--primary);
+  color: var(--color-primary);
   text-decoration: none;
   font-weight: 500;
 }
@@ -1565,13 +1659,13 @@ a:hover { text-decoration: underline; }
 .index-topics-link:hover { text-decoration: underline; }
 
 .index-topics-link--graph {
-  color: var(--muted);
+  color: var(--color-muted);
 }
 
-/* ─── Graph Page (inside default layout) ─── */
+/* ─── Graph Page ─── */
 
 .graph-page {
-  max-width: 1152px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem 1.5rem 4rem;
 }
@@ -1580,12 +1674,13 @@ a:hover { text-decoration: underline; }
   font-family: var(--font-serif);
   font-size: 2rem;
   font-weight: 600;
-  color: var(--charcoal);
+  color: var(--color-ink);
+  letter-spacing: -0.01em;
 }
 
 .graph-subtitle {
   font-size: 0.9rem;
-  color: var(--muted);
+  color: var(--color-muted);
   margin-top: 0.25rem;
   margin-bottom: 1rem;
 }
@@ -1602,7 +1697,7 @@ a:hover { text-decoration: underline; }
   align-items: center;
   gap: 0.35rem;
   font-size: 0.8rem;
-  color: var(--muted);
+  color: var(--color-muted);
 }
 
 .legend-dot {
@@ -1621,33 +1716,33 @@ a:hover { text-decoration: underline; }
 
 .graph-controls-label {
   font-size: 0.8rem;
-  color: var(--muted);
+  color: var(--color-muted);
   margin-right: 0.25rem;
 }
 
 .graph-hospital-toggle {
   padding: 0.35rem 0.75rem;
   border-radius: 2px;
-  border: 1px solid var(--border-light);
-  background: white;
+  border: 1px solid var(--color-line);
+  background: var(--color-bg);
   cursor: pointer;
   font-size: 0.8rem;
   font-family: var(--font-display);
-  color: var(--body);
+  color: var(--color-body);
   transition: all 0.15s;
 }
 
 .graph-hospital-toggle.active {
-  background: var(--primary);
-  color: white;
-  border-color: var(--primary);
+  background: var(--color-accent);
+  color: #FFFFFF;
+  border-color: var(--color-accent);
 }
 
 .graph-demo-btn {
   padding: 0.35rem 0.75rem;
   border-radius: 2px;
   border: 1px solid #10b981;
-  background: white;
+  background: var(--color-bg);
   cursor: pointer;
   font-size: 0.8rem;
   font-family: var(--font-display);
@@ -1662,17 +1757,17 @@ a:hover { text-decoration: underline; }
 .graph-container {
   height: calc(100vh - 340px);
   min-height: 400px;
-  border: 1px solid var(--border-light);
+  border: 1px solid var(--color-line);
   border-radius: 2px;
-  background: white;
+  background: var(--color-bg);
 }
 
 .graph-crawl-path {
   padding: 0.75rem 1rem;
-  background: var(--paper);
+  background: var(--color-bg-soft);
   border-radius: 2px;
   font-size: 0.85rem;
-  color: var(--body);
+  color: var(--color-body);
   display: none;
   margin-top: 0.75rem;
 }
@@ -1683,7 +1778,7 @@ a:hover { text-decoration: underline; }
   display: flex;
   gap: 1.5rem;
   font-size: 0.8rem;
-  color: var(--muted);
+  color: var(--color-muted);
   margin-top: 0.75rem;
 }
 
@@ -1695,18 +1790,16 @@ a:hover { text-decoration: underline; }
 }
 
 .graph-back-links a {
-  color: var(--primary);
+  color: var(--color-primary);
   text-decoration: none;
 }
 
 .graph-back-links a:hover { text-decoration: underline; }
 
-/* ─── Entity Type Index ─── */
-
-/* ─── Entity Index Page (학술 위키 톤 — Wikipedia 분류 페이지 풍) ─── */
+/* ─── Entity Index Page ─── */
 
 .entity-index-page {
-  max-width: var(--reading-width);
+  max-width: var(--width-narrow);
   margin: 0 auto;
   padding: 3rem 1.5rem 4rem;
 }
@@ -1714,32 +1807,31 @@ a:hover { text-decoration: underline; }
 .entity-index-header {
   margin-bottom: 2.5rem;
   padding-bottom: 1.5rem;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--color-line);
 }
 
 .entity-index-page h1 {
   font-family: var(--font-serif);
   font-size: 2rem;
   font-weight: 600;
-  color: var(--charcoal);
+  color: var(--color-ink);
   margin-bottom: 0.4rem;
   letter-spacing: -0.02em;
 }
 
 .entity-index-meta {
   font-size: 0.8rem;
-  color: var(--muted);
+  color: var(--color-muted);
   font-variant-numeric: tabular-nums;
   margin-bottom: 0.5rem;
 }
 
 .entity-index-desc {
-  color: var(--body);
+  color: var(--color-body);
   font-size: 0.95rem;
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
-/* 가나다 정렬 entity list — 텍스트 위주 */
 .entity-index-list {
   list-style: none;
   padding: 0;
@@ -1748,7 +1840,7 @@ a:hover { text-decoration: underline; }
 
 .entity-index-list li {
   padding: 1rem 0;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--color-line);
 }
 
 .entity-index-list li:last-child {
@@ -1765,34 +1857,34 @@ a:hover { text-decoration: underline; }
   font-family: var(--font-serif);
   font-size: 1.15rem;
   font-weight: 600;
-  color: var(--charcoal);
+  color: var(--color-ink);
   margin-right: 0.5rem;
 }
 
 .entity-index-link:hover .entity-index-name {
-  color: var(--primary);
+  color: var(--color-primary);
   text-decoration: underline;
   text-underline-offset: 4px;
 }
 
 .entity-index-name-en {
   font-size: 0.85rem;
-  color: var(--muted);
+  color: var(--color-muted);
   font-style: italic;
   font-family: var(--font-serif);
 }
 
 .entity-index-link-desc {
   font-size: 0.875rem;
-  color: var(--body);
-  line-height: 1.5;
+  color: var(--color-body);
+  line-height: 1.55;
   margin-top: 0.3rem;
   margin-bottom: 0.3rem;
 }
 
 .entity-index-link-meta {
   font-size: 0.7rem;
-  color: var(--muted);
+  color: var(--color-muted);
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.02em;
 }
@@ -1800,12 +1892,12 @@ a:hover { text-decoration: underline; }
 .entity-index-footer {
   margin-top: 3rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--border-light);
+  border-top: 1px solid var(--color-line);
   font-size: 0.85rem;
 }
 
 .entity-index-footer a {
-  color: var(--primary);
+  color: var(--color-primary);
   text-decoration: none;
 }
 
@@ -1823,7 +1915,7 @@ a:hover { text-decoration: underline; }
 }
 
 .entity-footer-links a {
-  color: var(--primary);
+  color: var(--color-primary);
   text-decoration: none;
 }
 
@@ -1832,7 +1924,121 @@ a:hover { text-decoration: underline; }
 .entity-siblings {
   margin-top: 2rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--border-light);
+  border-top: 1px solid var(--color-line);
+}
+
+/* ─── Doctor/Hospital Profile ─── */
+.entity-header--profile {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.entity-header--profile .profile-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--color-line);
+  flex-shrink: 0;
+}
+.entity-header--profile .profile-header-text {
+  flex: 1;
+  min-width: 240px;
+}
+.profile-hospital {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+.profile-hospital a { color: var(--color-muted); text-decoration: underline; }
+.profile-specialties {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.profile-specialties li {
+  padding: 0.2rem 0.6rem;
+  border-radius: 2px;
+  background: rgba(59, 74, 92, 0.08);
+  color: var(--color-accent);
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+.profile-section h2 { font-size: 1rem; }
+.profile-list { list-style: none; padding: 0; margin: 0; }
+.profile-list li {
+  padding: 0.35rem 0;
+  border-bottom: 1px dotted var(--color-line);
+  font-size: 0.92rem;
+}
+.profile-list li:last-child { border-bottom: none; }
+
+.profile-timeline { list-style: none; padding: 0; margin: 0; }
+.profile-timeline li {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  padding: 0.4rem 0;
+  border-bottom: 1px dotted var(--color-line);
+  font-size: 0.92rem;
+}
+.profile-timeline li:last-child { border-bottom: none; }
+.profile-year {
+  flex: 0 0 95px;
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+.profile-detail { flex: 1; }
+
+.profile-social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.profile-social li a {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--color-line);
+  border-radius: 2px;
+  font-size: 0.85rem;
+  color: var(--color-ink);
+  text-decoration: none;
+}
+.profile-social li a:hover { background: var(--color-bg-soft); }
+
+.profile-article-list { list-style: none; padding: 0; margin: 0; }
+.profile-article-list li {
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--color-line);
+}
+.profile-article-list li:last-child { border-bottom: none; }
+.profile-article-list li a {
+  font-weight: 500;
+  color: var(--color-ink);
+  text-decoration: none;
+  font-size: 0.96rem;
+}
+.profile-article-list li a:hover { text-decoration: underline; }
+.profile-article-list li time {
+  display: inline-block;
+  margin-left: 0.5rem;
+  color: var(--color-muted);
+  font-size: 0.82rem;
+}
+.profile-article-desc {
+  margin: 0.25rem 0 0;
+  color: var(--color-muted);
+  font-size: 0.86rem;
+  line-height: 1.55;
 }
 
 /* ─── Responsive ─── */
@@ -1840,6 +2046,7 @@ a:hover { text-decoration: underline; }
 @media (min-width: 769px) {
   .site-nav { display: flex; }
   .mobile-menu-btn { display: none; }
+  .back-to-parent { display: flex; align-items: center; gap: 0.25rem; }
 }
 
 @media (max-width: 768px) {
@@ -1847,16 +2054,6 @@ a:hover { text-decoration: underline; }
   .graph-controls { gap: 0.35rem; }
   .index-topic-row { display: block; }
 
-  /* sub-nav 길어졌으니 horizontal scroll 허용 */
-  .sub-nav-inner {
-    overflow-x: auto;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-  }
-  .sub-nav-inner::-webkit-scrollbar { display: none; }
-  .sub-nav-link { flex-shrink: 0; }
-
-  /* 메인 카테고리 grid 모바일 */
   .index-browse-list {
     grid-template-columns: 1fr;
     gap: 0;
@@ -1878,14 +2075,22 @@ a:hover { text-decoration: underline; }
   .article-body h2 { font-size: 1.4rem; }
   .article-body h3 { font-size: 1.2rem; }
 
+  /* 푸터 세로 배치 */
   .footer-inner {
-    grid-template-columns: 1fr;
-    padding: 3rem 1.5rem 1.5rem;
+    flex-direction: column;
+    padding: 2.5rem 1.5rem 1.5rem;
+    gap: 1.5rem;
   }
 
-  .footer-col:first-of-type,
-  .footer-col:last-of-type {
-    display: flex;
+  .footer-parent {
+    text-align: left;
+  }
+
+  .footer-crosslinks {
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.75rem;
   }
 
   .mobile-menu-text { font-size: 2rem; }
@@ -1898,120 +2103,6 @@ a:hover { text-decoration: underline; }
     padding-left: 1rem;
     padding-right: 1rem;
   }
-}
-
-/* ---- Doctor/Hospital Profile on entity-hub (v2.7 Phase 3) ---- */
-.entity-header--profile {
-  display: flex;
-  gap: 1.25rem;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-.entity-header--profile .profile-photo {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid var(--border);
-  flex-shrink: 0;
-}
-.entity-header--profile .profile-header-text {
-  flex: 1;
-  min-width: 240px;
-}
-.profile-hospital {
-  margin: 0.5rem 0 0;
-  font-size: 0.9rem;
-  color: var(--muted);
-}
-.profile-hospital a { color: var(--muted); text-decoration: underline; }
-.profile-specialties {
-  list-style: none;
-  padding: 0;
-  margin: 0.75rem 0 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-}
-.profile-specialties li {
-  padding: 0.2rem 0.6rem;
-  border-radius: 2px;
-  background: rgba(139, 92, 246, 0.08);
-  color: #7c3aed;
-  font-size: 0.82rem;
-  font-weight: 500;
-}
-
-.profile-section h2 { font-size: 1rem; }
-.profile-list { list-style: none; padding: 0; margin: 0; }
-.profile-list li {
-  padding: 0.35rem 0;
-  border-bottom: 1px dotted var(--border);
-  font-size: 0.92rem;
-}
-.profile-list li:last-child { border-bottom: none; }
-
-.profile-timeline { list-style: none; padding: 0; margin: 0; }
-.profile-timeline li {
-  display: flex;
-  gap: 1rem;
-  align-items: baseline;
-  padding: 0.4rem 0;
-  border-bottom: 1px dotted var(--border);
-  font-size: 0.92rem;
-}
-.profile-timeline li:last-child { border-bottom: none; }
-.profile-year {
-  flex: 0 0 95px;
-  color: var(--muted);
-  font-size: 0.85rem;
-  font-variant-numeric: tabular-nums;
-}
-.profile-detail { flex: 1; }
-
-.profile-social {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-.profile-social li a {
-  display: inline-block;
-  padding: 0.35rem 0.75rem;
-  border: 1px solid var(--border);
-  border-radius: 2px;
-  font-size: 0.85rem;
-  color: var(--ink);
-  text-decoration: none;
-}
-.profile-social li a:hover { background: var(--paper); }
-
-.profile-article-list { list-style: none; padding: 0; margin: 0; }
-.profile-article-list li {
-  padding: 0.7rem 0;
-  border-bottom: 1px solid var(--border);
-}
-.profile-article-list li:last-child { border-bottom: none; }
-.profile-article-list li a {
-  font-weight: 500;
-  color: var(--ink);
-  text-decoration: none;
-  font-size: 0.96rem;
-}
-.profile-article-list li a:hover { text-decoration: underline; }
-.profile-article-list li time {
-  display: inline-block;
-  margin-left: 0.5rem;
-  color: var(--muted);
-  font-size: 0.82rem;
-}
-.profile-article-desc {
-  margin: 0.25rem 0 0;
-  color: var(--muted);
-  font-size: 0.86rem;
-  line-height: 1.5;
 }
 
 @media (max-width: 560px) {
