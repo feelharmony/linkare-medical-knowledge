@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Linkare Medical Knowledge"
-description: "전문의가 작성한 의학 정보 위키"
+title: "Linkbase"
+description: "LinkerAI의 의료 지식 베이스 — 전문의가 작성·검토한 의료 정보를 엔티티 단위로 정리"
 ---
 
 <div class="index-page">
@@ -34,8 +34,8 @@ description: "전문의가 작성한 의학 정보 위키"
   {% assign recent_entities = all_entities | sort: "last_reviewed" | reverse %}
 
   <header class="index-hero">
-    <h1>Linkare Medical Knowledge</h1>
-    <p class="index-tagline">전문의가 작성한 의학 정보 위키</p>
+    <h1>Linkbase</h1>
+    <p class="index-tagline">LinkerAI의 의료 지식 베이스</p>
   </header>
 
   {%- comment -%} 검색 진입 (이미 search.html 있음) {%- endcomment -%}

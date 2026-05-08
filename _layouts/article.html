@@ -6,7 +6,7 @@ layout: default
 
 <article class="article">
   <nav class="article-breadcrumb" aria-label="Breadcrumb">
-    <a href="{{ '/' | relative_url }}">Knowledge</a>
+    <a href="{{ '/' | relative_url }}">Linkbase</a>
     <span class="breadcrumb-sep">/</span>
     {% if hospital_profile %}
     <a href="{{ hospital_profile.url | relative_url }}">{{ page.hospital | default: hospital_profile.hospital }}</a>
@@ -59,7 +59,7 @@ layout: default
     {% endif %}
 
     <div class="license">
-      <p>{{ page.source | default: 'Linkare Medical Knowledge' }} &middot; {{ page.license | default: 'CC BY-NC 4.0' }}</p>
+      <p>{{ page.source | default: 'Linkbase' }} &middot; {{ page.license | default: 'CC BY-NC 4.0' }}</p>
     </div>
   </footer>
 </article>

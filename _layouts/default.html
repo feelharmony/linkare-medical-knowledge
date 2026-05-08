@@ -41,17 +41,17 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  {%- comment -%} ═══ Header: Knowledge sub-brand ═══ {%- endcomment -%}
+  {%- comment -%} ═══ Header: Linkbase sub-brand ═══ {%- endcomment -%}
   <header class="site-header">
     <div class="header-inner">
-      <!-- Knowledge wordmark — 클릭 시 Knowledge 메인 -->
+      <!-- Linkbase wordmark — 클릭 시 Linkbase 메인 -->
       <a href="{{ '/' | relative_url }}" class="site-logo">
-        <span class="logo-knowledge">Knowledge</span>
+        <span class="logo-knowledge">Linkbase</span>
       </a>
 
-      <!-- 데스크톱 nav: Knowledge 자체 탭 -->
+      <!-- 데스크톱 nav: Linkbase 자체 탭 -->
       {% assign current_path = page.url | split: '?' | first %}
-      <nav class="site-nav" aria-label="Knowledge 탐색">
+      <nav class="site-nav" aria-label="Linkbase 탐색">
         <a href="{{ '/topics/' | relative_url }}"
            class="site-nav-link {% if current_path contains '/topics' or current_path contains '/conditions' or current_path contains '/symptoms' or current_path contains '/treatments' or current_path contains '/body-parts' %}site-nav-link--active{% endif %}">Topics</a>
         <a href="{{ '/doctors/' | relative_url }}"
@@ -80,11 +80,11 @@
     </div>
   </header>
 
-  {%- comment -%} ═══ 모바일 메뉴: Knowledge 자체 nav만 ═══ {%- endcomment -%}
+  {%- comment -%} ═══ 모바일 메뉴: Linkbase 자체 nav만 ═══ {%- endcomment -%}
   <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
     <div class="mobile-menu-header">
       <a href="{{ '/' | relative_url }}" class="site-logo">
-        <span class="logo-knowledge">Knowledge</span>
+        <span class="logo-knowledge">Linkbase</span>
       </a>
       <button class="mobile-menu-close" id="mobile-menu-close" aria-label="메뉴 닫기">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
@@ -93,7 +93,7 @@
         </svg>
       </button>
     </div>
-    <nav class="mobile-menu-nav" aria-label="Knowledge 모바일 탐색">
+    <nav class="mobile-menu-nav" aria-label="Linkbase 모바일 탐색">
       <a href="{{ '/topics/' | relative_url }}" class="mobile-menu-item">
         <span class="mobile-menu-num">01</span>
         <span class="mobile-menu-text">Topics</span>
@@ -126,15 +126,15 @@
     {{ content }}
   </main>
 
-  {%- comment -%} ═══ Footer: Knowledge sub-brand ═══ {%- endcomment -%}
+  {%- comment -%} ═══ Footer: Linkbase sub-brand ═══ {%- endcomment -%}
   <footer class="site-footer">
     <div class="footer-inner">
-      <!-- 좌측: Knowledge 브랜드 + 설명 -->
+      <!-- 좌측: Linkbase 브랜드 + 설명 -->
       <div class="footer-brand">
         <a href="{{ '/' | relative_url }}" class="footer-logo">
-          <span class="logo-knowledge">Knowledge</span>
+          <span class="logo-knowledge">Linkbase</span>
         </a>
-        <p class="footer-desc">전문의가 작성한 의학 정보 위키</p>
+        <p class="footer-desc">LinkerAI의 의료 지식 베이스</p>
         <p class="footer-license">CC BY-NC 4.0</p>
       </div>
 
