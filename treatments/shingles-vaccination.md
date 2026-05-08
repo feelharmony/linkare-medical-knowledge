@@ -13,16 +13,19 @@ aliases:
   - 싱그릭스
   - RZV
   - recombinant zoster vaccine
-last_reviewed: '2026-05-03'
-source_count: 4
-version: 1
+last_reviewed: '2026-05-09'
+source_count: 5
+version: 2
+locked: true
+verified_by: 사장님 + Claude + GPT 합의 (5/3 v1, 5/9 v2 자사 보강)
+next_review: '2026-08-09'
 ---
 
 ## 정의·종류
 대상포진 백신은 잠복 수두대상포진 바이러스(VZV)의 재활성화를 예방하는 능동 면역 수단입니다. 현재 가장 널리 사용되는 백신은 **Shingrix(재조합 대상포진 백신, recombinant zoster vaccine, RZV)**입니다.
 
 - **Shingrix (RZV, GSK)** — **재조합 사백신(비생백신, recombinant non-live subunit vaccine)**. VZV 당단백 E 항원 + AS01B 보조제로 구성되며 살아있는 바이러스 입자가 없어 **면역억제 환자에서도 사용 가능**. **2회 접종**(2~6개월 간격, 근육내 주사)
-- **Zostavax (ZVL, Merck)** — 약독화 생백신. 미국에서는 단종, 일부 국가에서 제한적 잔존. 면역억제 환자 금기
+- **Zostavax (ZVL, Merck)** — 약독화 생백신. 미국에서는 단종, 일부 국가에서 제한적 잔존. 면역억제 환자 금기. 임상시험에서 60세 이상 약 51%, 70세 이상 약 38% 수준의 예방률이 보고되었고, 접종 후 5년 전후로 면역 효과가 의미 있게 감소하는 것으로 알려져 있습니다 [^5]
 
 본 entity의 evidence 정리는 임상 표준이 된 **Shingrix(RZV) 중심**입니다.
 
@@ -38,6 +41,9 @@ version: 1
 
 ### 대상포진 이력자도 권고
 대상포진을 이미 앓은 환자에서도 재발 위험이 있으므로 Shingrix 접종이 권고됩니다 — 일반적으로 발진 회복(통증·발진 완전 소실) 후 시점에 의료진과 상담 후 접종 시기를 결정합니다.
+
+### 과거 Zostavax 접종자
+과거에 Zostavax(약독화 생백신)를 접종한 환자도 시간이 지나면서 면역 효과가 감소하므로, 일정 간격을 둔 뒤 Shingrix로 추가 접종하는 것이 가능합니다. 구체적 간격은 진료 시점 의료진과 결정합니다 [^5].
 
 ## 임상 evidence
 
@@ -85,6 +91,7 @@ ZOE-50/70·ZOE-LTFU 11년 추적에서 RZV와 인과관계가 명확한 중대 �
 - 50세 이상은 대상포진 이력 여부와 관계없이 접종 권고
 - 면역억제·면역저하 환자도 19세 이상에서 접종 가능 (RZV는 살아있는 바이러스가 없는 재조합 사백신)
 - 2차 접종 일정을 놓치지 않도록 사전 일정 관리
+- 백신 선택 시 고려 요소 — 임상에서는 나이·면역 상태·과거 접종 이력·비용을 함께 검토합니다. Shingrix 2회 접종은 1회 접종 백신 대비 일정 부담이 있으나 효과 지속 기간(11년 추적 82% 유지)과 PHN 예방 효과(88.8%)를 함께 고려하면 환자별 트레이드오프가 달라집니다 [^5]
 
 관련 entity:
 - [zoster](../conditions/zoster.md) — 대상포진 진단·치료 흐름
@@ -93,6 +100,9 @@ ZOE-50/70·ZOE-LTFU 11년 추적에서 RZV와 인과관계가 명확한 중대 �
 
 ---
 
+## 관련 임상 자료
+[^5]: [안심튼튼 — 싱그릭스 vs 조스터박스 대상포진 예방접종 백신 비교](https://ansimpainfree.kr/blog/shingles-vaccine-singrrix-vs-shingrix)
+
 ## Citations
 [^1]: Clinical Considerations for Shingrix Use in Immunocompromised Adults Aged ≥19 Years. *CDC.* 2024 update. URL: [cdc.gov/shingles/hcp/vaccine-considerations/immunocompromised-adults](https://www.cdc.gov/shingles/hcp/vaccine-considerations/immunocompromised-adults.html) — 19세 이상 면역억제 권고
 [^2]: Lal H, Cunningham AL, Godeaux O, et al. Efficacy of an Adjuvanted Herpes Zoster Subunit Vaccine in Older Adults (ZOE-50). *N Engl J Med.* 2015;372(22):2087-2096. DOI: [10.1056/NEJMoa1501184](https://www.nejm.org/doi/full/10.1056/NEJMoa1501184) // Cunningham AL, Lal H, Kovac M, et al. Efficacy of the Herpes Zoster Subunit Vaccine in Adults 70 Years of Age or Older (ZOE-70). *N Engl J Med.* 2016;375(11):1019-1032. DOI: [10.1056/NEJMoa1603800](https://www.nejm.org/doi/full/10.1056/NEJMoa1603800)
@@ -100,4 +110,5 @@ ZOE-50/70·ZOE-LTFU 11년 추적에서 RZV와 인과관계가 명확한 중대 �
 [^4]: Adriaansen EJM, Jacobs JG, Vernooij LM, et al. 8. Herpes zoster and post herpetic neuralgia. *Pain Practice.* 2025;25(1):e13423. PMID 39364882. DOI: [10.1111/papr.13423](https://onlinelibrary.wiley.com/doi/full/10.1111/papr.13423) — PHN 예방의 가장 효과적인 수단으로 백신 강조
 
 ## Changelog
+- 2026-05-09 v2: **자사 글 1단계 본문 보강 (룰 v2.3 적용)**. 자사 apfree pillar `싱그릭스 vs 조스터박스`(`48d8f308`)에서 한국 임상 정보 3건 추출 — Zostavax 51%/38% 예방률 + 5년 후 효과 감소 / 과거 Zostavax 접종자 Shingrix 추가 접종 가능 / 백신 선택 시 환자별 트레이드오프(나이·면역·이력·비용·일정 부담 vs 효과 지속·PHN 예방). 정의(Zostavax 항목)·적응증(과거 Zostavax 접종자 신규 항목)·환자 안내 3곳에 분산 추가 + `[^5]` 자사 footnote. 관련 임상 자료 섹션 신설. source_count 4→5, version 1→2. ⚠️ 향후 entity 보강은 1-2개 한도 (룰 v2.3 신규 룰).
 - 2026-05-03 v1: **신규 entity 발행** — 대상포진 시리즈 묶음의 일부. 통증의학과 PHN 예방 포지셔닝 강점 영역. 외부 출처 4건 — CDC 2024 (50+ 권고·19+ 면역억제), ZOE-50 NEJM 2015 (VE 97.2%), ZOE-70 NEJM 2016 (VE 91.3%·PHN VE 88.8%), Strezova 2025 *eClinicalMedicine* ZOE-LTFU(11년 추적, VE 87.7% 유지·11년차 82.0%·PHN VE 87.5%), Adriaansen 2025 *Pain Practice*. 5섹션 구조 (정의·종류·적응증·임상 evidence·시술 절차·부작용·환자 안내). 룰 14·15 적용 — 부작용 양상(주사 부위·전신 반응 24~72시간) 정확히, 길랭-바레 증후군 같은 매우 드문 시판 후 보고도 솔직히 표기, 한국 급여·국가 예방접종 사업 포함 여부는 일반 표현(룰 12). zoster·PHN·antiviral entity 모두 link 분산. **검증 라운드(GPT 의견)**: Shingrix 분류를 "불활화 백신"에서 "재조합 사백신(비생백신, recombinant non-live subunit vaccine)"으로 정정 — 정확한 분류는 inactivated whole virus가 아닌 recombinant subunit이므로 "재조합 사백신/비생백신" 표현이 더 정확.

@@ -11,9 +11,12 @@ aliases:
   - 대상포진후신경통
   - postherpetic neuralgia
   - post-herpetic neuralgia
-last_reviewed: '2026-05-03'
-source_count: 5
-version: 2
+last_reviewed: '2026-05-09'
+source_count: 6
+version: 3
+locked: true
+verified_by: 사장님 + Claude + GPT 합의 (5/3 v2, 5/9 v3 자사 보강)
+next_review: '2026-08-09'
 ---
 
 ## 정의
@@ -84,6 +87,9 @@ PHN의 만성 단계에서 다음과 같은 중재시술이 검토됩니다 — 
 - **신경차단술** — 흉부 PHN의 척추주위 차단(paravertebral block)·늑간 신경 차단·경막외 차단. 안부 PHN의 별모양 신경절 차단(SGB) 등. 부위·증상에 따라 선택. 흉부 PHN 9 RCT 네트워크 메타분석에서 **PVB(척추주위 차단) + 국소마취제·스테로이드 또는 메틸렌블루** 조합이 다른 차단보다 통증 감소·전체 효과 면에서 우월[^3]
 - **펄스 고주파(pulsed RF)** — 후근신경절(DRG) 또는 말초 신경 표적
 - **척수 자극기(SCS)** — 다른 치료에 반응하지 않는 만성 PHN에 검토
+- **체외충격파(ESWT) 보조** — 일부 연구에서 PHN에 대한 보조적 활용이 시도되고 있으나 근거 수준은 제한적이며, 약물·신경차단술과 층층이 쌓는 복합 접근의 한 옵션으로 선택적으로 검토됩니다 [^6]
+
+한국 임상 관찰에서는 진통제 단독으로 6개월 이상 흘려보낸 환자에서 중추 감작이 굳어져 시술 반응이 더딘 패턴이 보고되며, 치료 일정은 일반적으로 처음 4~6주는 통증 강도·수면 안정에 집중하고 이후 시술 간격을 늘리며 약물 용량을 줄여나가는 단계적 흐름으로 운영됩니다 [^6].
 
 → [nerve-block-injection](../treatments/nerve-block-injection.md) 참조
 
@@ -106,6 +112,9 @@ PHN으로 진행한 환자에서도 다학제 통증 관리로 의미 있는 회
 
 ---
 
+## 관련 임상 자료
+[^6]: [안심튼튼 — 대구 대상포진 후 신경통, 수포가 나아도 통증이 계속된다면](https://blog.naver.com/ansimpainfree/224271572126)
+
 ## Citations
 [^1]: Adriaansen EJM, Jacobs JG, Vernooij LM, et al. 8. Herpes zoster and post herpetic neuralgia. *Pain Practice.* 2025;25(1):e13423. PMID 39364882. DOI: [10.1111/papr.13423](https://onlinelibrary.wiley.com/doi/full/10.1111/papr.13423) — 통증의학 표준 8장 review
 [^2]: Efficacy and safety of different medications compared for the treatment of postherpetic neuralgia: a network meta-analysis. *Front Pharmacol.* 2025;16:1614587. URL: [frontiersin.org](https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1614587/full) — 38 RCT/8,621명, gabapentinoid·TCA·lidocaine 1차 옵션 평가
@@ -114,5 +123,6 @@ PHN으로 진행한 환자에서도 다학제 통증 관리로 의미 있는 회
 [^5]: Shingles Facts and Stats. *CDC.* 2024 update. URL: [cdc.gov/shingles/data-research](https://www.cdc.gov/shingles/data-research/index.html) — PHN 발생률 약 10~18% (대상포진 환자 중)
 
 ## Changelog
+- 2026-05-09 v3: **자사 글 1단계 본문 보강 (룰 v2.2 적용)**. 자사 apfree naver pillar `대구 대상포진 후 신경통`(`5b43da51`)에서 한국 임상 정보 2건 추출 — ESWT 보조 복합 접근 옵션 / 약물 단독 6개월 이상 시 중추 감작 굳어 시술 반응 더딘 임상 패턴 + 치료 일정 4-6주 안정 후 단계적 감량 흐름. 치료 섹션 중재시술 list에 ESWT 보조 1줄 추가 + 한국 임상 흐름 1문단 추가 + `[^6]` 자사 footnote. 관련 임상 자료 섹션 신설. source_count 5→6, version 2→3.
 - 2026-05-03 v2: **검증 라운드 2 (GPT 의견)** — CDC PHN 통계(약 10~18%) claim-source mapping 정합을 위해 [^5] CDC Shingles Facts and Stats 출처 추가. source_count 4 → 5. 본문 발생률 표기에 CDC와 Pain Practice review를 분리 인용([^5] vs [^1])하여 출처 추적 가능하게 정리.
 - 2026-05-03 v1: **신규 entity 발행** — 통증의학과 만성 통증 핵심 영역. 외부 권위 출처 4건 — Adriaansen 2025 *Pain Practice* 8장 review (PHN 1차 약물·중재시술·다학제), Front Pharmacol 2025 network meta (38 RCT/8,621명 약물 비교), Lu 2025 *Front Neurol* (흉부 PHN nerve block PVB 우월), ZOE-50/70(예방). 6섹션 구조 (정의·병태(위험요인 하위)·증상·진단·치료·예후) + 신경병증성 통증 양상(이질통·통각과민) 명시 + 다학제 접근(수면·우울·심리) 권고. 룰 14·15 적용 — 단일 치료 실패율 높음·완전 소실보다 환자별 목표 통증 강도가 합리적이라는 사실은 정직하게 표기, "효과 없다" 결론 회피. **검증 라운드 1 (GPT 의견)**: ① PHN 발생률 "약 4명 중 1명" → "10~25% 범위(CDC 10~18%·Pain Practice review 약 25%)"로 균형화, ② 위험요인 독립 섹션 → 병태 하위 ###로 접어 SOP 6섹션 strict schema 정합, ③ "[hair-loss-medication]" 링크 복붙 오류 제거, ④ citation mapping 보강(증상·진단·1차 약물 섹션에 [^1][^2] footnote).

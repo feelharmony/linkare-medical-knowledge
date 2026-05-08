@@ -7,10 +7,10 @@ title: 석회성 건염
 description: 회전근개 힘줄에 칼슘 결정이 침착되어 통증과 기능 저하를 일으키는 질환
 title_en: calcific tendinitis
 last_reviewed: '2026-05-09'
-source_count: 6
-version: 4
+source_count: 7
+version: 5
 locked: true
-verified_by: 사장님 + Claude + GPT 합의 (5/2 v3, 5/9 v4 정정)
+verified_by: 사장님 + Claude + GPT 합의 (5/2 v3, 5/9 v4 정정, 5/9 v5 자사 보강)
 next_review: '2026-08-09'
 ---
 ## 정의
@@ -30,7 +30,7 @@ next_review: '2026-08-09'
 
 체외충격파 치료(ESWT)에 대한 근거는 축적되고 있습니다. 21개 RCT를 분석한 석회성 회전근개 건병증 메타분석(Brindisino et al., 2024)에서 ESWT는 sham 대비 24주 시점 통증·기능 개선에 임상적으로 의미 있는 효과를 보였고, 고에너지 ESWT가 저에너지 ESWT보다 12주 시점 통증·기능·석회 흡수율에서 우수했으며, focal과 radial 방식은 동등한 효과를 보였습니다. 다만 이 메타분석은 GRADE 근거 확실성을 매우 낮음(very low)으로 평가했고, 단기 통증 감소에서는 ultrasound-guided needling이 ESWT보다 우수했습니다 [^3]. 회전근개 건병증을 다룬 또 다른 메타분석(Xue et al., 2024, 16 RCTs 1,093명)도 ESWT가 통증(VAS), 기능(Constant-Murley·UCLA·ASES), 외회전 가동범위에서 대조군 대비 통계적으로 의미 있는 개선을 보고했지만 외전 가동범위에서는 차이가 확인되지 않았으며, 연구 간 편향 위험과 이질성이 보고되어 결과 해석에 주의가 필요합니다 [^4]. 두 메타분석 모두 효과 신호는 일관되지만 근거 확실성은 제한적이라, 표준 진료 지침에서의 권고 강도는 평가가 진행 중인 단계입니다.
 
-초음파 유도 침흡인술(ultrasound-guided needle lavage, barbotage)은 근거가 상충됩니다. 22개 연구 779명을 분석한 업데이트된 메타분석(Forogh et al., 2024)에서는 1주 단기 통증 감소는 ESWT가 우수했으나 1주 이후 장기 통증 감소에서는 UGPL이 ESWT보다 우수하다고 보고했습니다 [^6]. 반면 220명을 대상으로 한 sham 대조 무작위 비교연구(Moosmayer et al., BMJ 2023)에서는 lavage + 견봉하 스테로이드와 sham 시술이 24개월까지 임상 결과에 차이를 보이지 않았습니다 [^5]. 따라서 barbotage는 환자의 석회 형태·증상 양상·기존 치료 반응·비용·기대효과를 설명한 뒤 선택적으로 논의하는 영역입니다.
+초음파 유도 침흡인술(ultrasound-guided needle lavage, barbotage)은 근거가 상충됩니다. 22개 연구 779명을 분석한 업데이트된 메타분석(Forogh et al., 2024)에서는 1주 단기 통증 감소는 ESWT가 우수했으나 1주 이후 장기 통증 감소에서는 UGPL이 ESWT보다 우수하다고 보고했습니다 [^6]. 반면 220명을 대상으로 한 sham 대조 무작위 비교연구(Moosmayer et al., BMJ 2023)에서는 lavage + 견봉하 스테로이드와 sham 시술이 24개월까지 임상 결과에 차이를 보이지 않았습니다 [^5]. 따라서 barbotage는 환자의 석회 형태·증상 양상·기존 치료 반응·비용·기대효과를 설명한 뒤 선택적으로 논의하는 영역입니다. 한국 임상에서는 초음파 유도 주사와 체외충격파(focal·radial 병행)를 단계적으로 함께 적용해 통증 단계 조절과 석회 흡수 환경 개선을 동시에 도모하는 흐름도 활용되고 있습니다 [^7].
 
 자가 혈소판 풍부 혈장(PRP) 등 다른 재생 주사 치료는 석회성 건염 단독 진단에 대한 표준 권고 치료에는 들어 있지 않으며, 환자별로 비용·기대효과·근거 수준을 설명한 뒤 선택적으로 논의하는 영역입니다 [^2].
 
@@ -45,6 +45,7 @@ next_review: '2026-08-09'
 
 ## 관련 임상 자료
 [^1]: [안심튼튼 — 어깨 통증 관리·예방·재발](https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse)
+[^7]: [안심튼튼 — 대구 석회성건염 치료, 초음파주사와 체외충격파](https://blog.naver.com/ansimpainfree/224242287894)
 
 ## Citations
 [^2]: [Desmeules F, Roy JS, Lafrance S, Charron M, Dubé MO, Dupuis F, Beneciuk JM, Grimes J, Kim HM, Lamontagne M, McCreesh K, Shanley E, Vukobrat T, Michener LA. Rotator Cuff Tendinopathy Diagnosis, Nonsurgical Medical Care, and Rehabilitation: A Clinical Practice Guideline. J Orthop Sports Phys Ther. 2025;55(4):235-274. DOI 10.2519/jospt.2025.13182 (PMID 40165544, AOPT/APTA, with calcifications 적용 포함)](https://www.jospt.org/doi/10.2519/jospt.2025.13182)
@@ -54,6 +55,7 @@ next_review: '2026-08-09'
 [^6]: [Forogh B, Karami A, Bagherzadeh Cham M. Effect of extracorporeal shock wave therapy and ultrasound-guided percutaneous lavage in reducing the pain of rotator cuff calcific tendinopathy; an updated systematic review and meta-analysis. J Orthop. 2024;56:151-160. DOI 10.1016/j.jor.2024.05.023 (PMID 38882231, 22 studies 779명, 단기 1주 ESWT 우수·장기 UGPL 우수)](https://pubmed.ncbi.nlm.nih.gov/38882231/)
 
 ## Changelog
+- 2026-05-09 v5: **자사 글 1단계 본문 보강 (룰 v2.2 적용)**. 자사 apfree naver pillar `대구 석회성건염 치료`(`30e16772`)에서 한국 임상 정보 1건 추출 — 초음파 유도 주사와 체외충격파(focal·radial 병행) 단계적 결합 흐름. barbotage 섹션 끝에 1문장 추가 + `[^7]` 자사 footnote 박음. 관련 임상 자료 섹션에 자사 link 추가. source_count 6→7, version 4→5.
 - 2026-05-09 v4: **citation 룰 v2.1 abstract 정합성 정정 4건**. Brindisino 2024 [^3] "24주 미만 통증·기능" → "12주 시점" + UGN 단기 우수 추가 + focal·radial 동등 효과 / Xue 2024 [^4] "(석회성·비석회성 포함)" 제거 + 외전 ROM 차이 없음 균형 + footnote 메타 표기 정정 / Forogh 2024 [^6] "장기 석회 흡수 우수" → "단기 1주 ESWT 우수·장기 1주 이후 UGPL 우수" 균형 + footnote 메타 정정 / 예후 섹션 "석회의 완전 흡수" → "석회 흡수율 개선" abstract 표현. version 3→4.
 - 2026-04-25 v2: 수동 편집
 - 2026-05-02 v3: 외부 권위 출처 5개 추가 (JOSPT 2025 회전근개 건병증 CPG — Desmeules et al., AOPT/APTA, with calcifications 적용 포함; Brindisino 2024 ESWT 메타분석 — 21 RCTs 석회성 회전근개 건병증, GRADE very low; Xue 2024 ESWT 메타분석 — 16 RCTs 1,093명 회전근개 건병증 전반(석회/비석회 포함), risk of bias·heterogeneity 보고; Moosmayer 2023 BMJ — 220명 sham 대조 lavage RCT, sham 대비 차이 없음; Forogh 2024 J Orthop — 22 studies 779명, UGPL > ESWT 통증·장기 석회 흡수) — 정의·병태·증상·진단·치료·예후 6섹션으로 재정렬(원본 4섹션, 병태·진단 신설). 검증 라운드 반영: 칼슘 → 하이드록시아파타이트 결정 정정, 병태 원인을 다인자성·tenocyte metaplasia·결정 침착으로 정정 (단정 약화), 스테로이드 견봉하 중심 정정 (관절강 내 제외). ESWT는 Brindisino(석회성 specific, GRADE very low) + Xue(회전근개 건병증 전반, GRADE 평가 없음) 균형 인용. Barbotage는 양면 근거 — Forogh 2024 긍정 + Moosmayer 2023 음성 — 정직하게 표기 (모든 인용 위치에 출처 매핑). PRP는 SOP 룰 12 적용 일반 표현 (행정 사실 빼고 "표준 권고 X"만). 학술 톤 다운(의학 용어·수치·권고 강도 보존). source_count 0→6.
