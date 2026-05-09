@@ -14,12 +14,12 @@ aliases:
   - 초음파 유도 주사
   - C-arm 유도 주사
   - 영상 유도 신경차단
-last_reviewed: '2026-05-03'
+last_reviewed: '2026-05-09'
 locked: true
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 사장님 + Claude + GPT 합의 (5/3 v4, 5/9 v5 자사 보강)
 next_review: '2026-08-09'
-source_count: 4
-version: 4
+source_count: 5
+version: 5
 ---
 
 ## 정의·기전
@@ -109,10 +109,14 @@ VAS 통증 감소 순위:
 - 시술 시점에 **항응고제 일시 중단 여부**를 의료진과 상의
 - 시술 후 24~48시간 내 발열·심한 두통·신경 증상 악화 시 즉시 진료
 
+### 다층 결합 흐름 (한국 통증의학 임상)
+한국 통증의학 임상에서는 신경차단술이 단독 시술이 아닌 통증 양상·조직 손상 단계에 따른 다층 결합의 출발점으로 운영되는 흐름이 일반적입니다. 급성기에는 신경차단으로 통증·신경 염증을 빠르게 잡고, 관절·힘줄 염증이 동반되면 초음파 유도 관절강 주사를 추가하며, 조직 재생이 필요한 단계에서는 프롤로테라피·PRP가 함께 검토되고, 체외충격파와 도수치료가 회복 환경 보강에 결합됩니다. 단일 시술의 단점을 다른 시술의 장점으로 보완해 만성화 위험을 줄이는 단계적 접근이 핵심으로 보고됩니다 [^5].
+
 ---
 
 ## 관련 임상 자료
 [^4]: [ansimpainfree.kr/blog/cervical-disc-herniation](https://ansimpainfree.kr/blog/cervical-disc-herniation)
+[^5]: [안심튼튼 — 대구 신경차단술, 통증 때문에 밤잠 설치는 분들 꼭 읽어보세요](https://blog.naver.com/ansimpainfree/224254679040)
 
 ## Citations
 [^1]: Adriaansen EJM, Jacobs JG, Vernooij LM, et al. 8. Herpes zoster and post herpetic neuralgia. *Pain Practice.* 2025;25(1):e13423. PMID 39364882. DOI: [10.1111/papr.13423](https://onlinelibrary.wiley.com/doi/full/10.1111/papr.13423) — 통증의학 표준 8장 review (영상 유도·중재시술 evidence)
@@ -120,5 +124,6 @@ VAS 통증 감소 순위:
 [^3]: Kim HJ, Ahn HS, Lee JY, Choi SS, Cheong YS, Kwon K, Yoon SH, Leem JG. Effects of applying nerve blocks to prevent postherpetic neuralgia in patients with acute herpes zoster: a systematic review and meta-analysis. *Korean J Pain.* 2017;30(1):3-17. PMID 28119767. DOI: [10.3344/kjp.2017.30.1.3](https://pubmed.ncbi.nlm.nih.gov/28119767/) — 9 trials SR/메타, somatic block(PVB·반복 epidural) > sympathetic block(SGB)·단회 epidural in PHN 예방
 
 ## Changelog
+- 2026-05-09 v5: **자사 글 1단계 본문 보강 (룰 v2.3 1-2개 한도)**. 자사 apfree naver spoke `대구 신경차단술 밤잠 설치는`(`cd11257c`)에서 한국 임상 정보 1건 추출 — 신경차단 + 관절 초음파주사 + 프롤로/PRP + 체외충격파 + 도수치료 다층 결합 흐름 (만성화 위험 감소 단계적 접근). 환자 안내 섹션 끝에 신규 하위 섹션 + `[^5]` 자사 footnote. source_count 4→5, version 4→5.
 - 2026-05-03 v4: **광범위 entity로 전면 재작성** — 시술 카테고리 자체가 광범위해 부위·적응증별로 구조화. "정의·기전"(국소마취·스테로이드·진단·치료 동시) + "적응증 영역"(척추·사지·**대상포진/PHN**·두통) + "시술 절차" + "한계·주의점" 섹션. 외부 출처 3건 — Adriaansen 2025 *Pain Practice*, Lu 2025 *Front Neurol* 흉부 PHN nerve block 네트워크 메타(9 RCT/741명, PVB+국소마취제+메틸렌블루 SUCRA 96.0), Kim 2017 *Korean J Pain* SR(9 trials, somatic > sympathetic block PHN 예방). 각 부위는 disease entity로 link 분산 (lumbar-disc·cervical-disc·sciatica·frozen-shoulder·rotator-cuff·knee-OA·zoster·PHN). PRP entity의 영역별 적응증 패턴 적용 (룰 14 모범 사례). 룰 15: SGB·단회 epidural PHN 예방 효과 제한적이라는 사실은 정확히 인용하되 "효과 없다" 결론은 박지 않음 — "안면 PHN(V1) 등 환자별 검토" 톤. 자체 글 1건 유지. **검증 라운드(GPT 의견)**: Kim 2017 "32 RCT 네트워크 메타분석" → "9 trials SR/메타" 정정 (실제 PubMed 기준 9 trials).
 - 2026-04-23 v3: 자체 글 1건 기반 3섹션 (적응증·언제 고려·기대효과) — 목디스크 중심 좁은 본문

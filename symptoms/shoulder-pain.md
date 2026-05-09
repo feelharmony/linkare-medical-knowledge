@@ -12,12 +12,12 @@ aliases:
   - shoulder pain
   - glenohumeral pain
   - 견관절 통증
-last_reviewed: '2026-05-03'
+last_reviewed: '2026-05-09'
 locked: true
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 사장님 + Claude + GPT 합의 (5/3 v5, 5/9 v6 자사 보강)
 next_review: '2026-08-09'
 source_count: 9
-version: 5
+version: 6
 ---
 ## 정의
 어깨 통증은 단일 진단명이 아니라 **어깨 관절(견갑상완관절)·견봉하 공간·회전근개·관절낭·이두근 장두건** 같은 어깨 영역 구조에서 발생하는 통증을 가리키는 임상 용어입니다. 환자에 따라 회전근개·관절낭·견봉하 공간·관절순·이두근 등 여러 구조가 원인이 될 수 있고, 영상 소견은 무증상 인구에서도 흔하게 관찰되어 증상과 늘 일치하지 않습니다 [^3][^9]. 일반인구 SR(Luime 2004)에서 어깨 통증의 시점 유병률은 약 6.9~26%, 1년 유병률 4.7~46.7%, 평생 유병률 6.7~66.7%로 보고됩니다 [^4]. 본 페이지는 **목·승모근에서 비롯된 후경부 통증은 다루지 않으며**, 그 영역은 [목 통증](/symptoms/neck-pain/)·[거북목·일자목](/conditions/forward-head-posture/)에서 정리합니다.
@@ -70,6 +70,9 @@ JOSPT 2025 회전근개 건병증 CPG는 **subacromial pain syndrome / rotator c
 ### 경과·예후
 대부분의 비외상성 어깨 통증은 보존 치료로 호전되지만 만성화·재발이 적지 않습니다 — 일반인구 SR에서 1년 유병률이 4.7~46.7%, 평생 유병률 6.7~66.7%로 폭이 큰 것은 만성·반복 환자가 상당 비율을 차지함을 시사합니다 [^4]. 회전근개 파열·동결견 등 원인 질환별 회복 양상은 해당 항목을 참고하세요. 인구 고령화로 어깨 통증 부담은 증가 추세로 보고됩니다 [^4].
 
+### 재발 방지 운동 부하 조절
+운동치료 부하는 점진적 증가 원칙이 핵심이며, JOSPT 2025 RCRSP CPG는 운동 중 통증이 NRS(숫자 통증 척도) 0~5/10 이내에서 유지되도록 조절할 것을 권고합니다 [^5]. 5점을 넘으면 강도·횟수를 한 단계 낮추고, 운동 후 24시간 내에 통증이 원래 수준으로 돌아오는지를 확인합니다. 24시간 후에도 남으면 과한 부하 신호입니다. 한국 임상에서는 회전근개 강화(저항 밴드 외회전·내회전)와 어깨뼈 안정화(견갑골 모음·펴기) 두 축을 기본으로, 통증이 가라앉은 후의 수개월이 어깨 구조 자체를 다시 만드는 시기로 운영됩니다 [^1].
+
 ---
 
 ## 관련 임상 자료
@@ -86,6 +89,7 @@ JOSPT 2025 회전근개 건병증 CPG는 **subacromial pain syndrome / rotator c
 [^9]: [Jeong J, Shin DC, Kim TH, Kim K. Prevalence of asymptomatic rotator cuff tear and their related factors in the Korean population. J Shoulder Elbow Surg. 2017;26(1):30-35. PMID 27497789. DOI 10.1016/j.jse.2016.05.003](https://pubmed.ncbi.nlm.nih.gov/27497789/)
 
 ## Changelog
+- 2026-05-09 v6: **자사 글 1단계 본문 보강 (룰 v2.3 1-2개 한도)**. 자사 apfree pillar `어깨 통증 환자의 일상 관리와 재발 방지`(`0c579259`)에서 한국 임상 정보 1건 추출 — JOSPT 2025 NRS 0-5/10 운동 부하 조절 룰 + 회전근개 강화·어깨뼈 안정화 두 축 (24시간 통증 지속 여부로 부하 평가). 경과·예후 섹션 끝에 신규 하위 섹션 추가, 기존 [^5] JOSPT 2025와 [^1] 자사 글로 받침. source_count 9 유지, version 5→6.
 - 2026-04-28 v3: 수동 편집 — 오타수정 (단, 본문이 "어깨 통증=목·승모근 자세 불균형" 톤으로 어긋나 있었음)
 - 2026-05-03 v5: **검증 라운드 3건 반영**. ① **본질적 매핑 오류 수정** — [^3] Cohen 2015 Mayo Clin Proc는 목 통증 논문이라 어깨 entity에서 정의·원인·위험요인·증상 일반 원리를 받치는 출처로 부적절. **Greenberg DL. Evaluation and treatment of shoulder pain. Med Clin North Am. 2014;98(3):487-504. PMID 24758957**(어깨 통증 일반 review, SIS 가장 흔한 원인·임상 진단 강조)으로 교체. 본문 4곳(line 20·23·31·42) 매핑은 그대로 유지(어깨 review가 자연스럽게 받침). ② 치료 옵션 약물·주사·감압술 한 문단 [^6]만 달림 → **문장 분리 + citation 정확 매핑**: NSAIDs·일차 진통은 [^2] Mitchell 2005, 견봉하 스테로이드 단회 주사는 [^5] JOSPT 2025 RCRSP CPG, 견봉 성형술은 [^6] Cochrane 2019. ③ progress 파일 stale은 별도 commit에서 갱신. source_count 9 유지, version 4→5.
 - 2026-05-03 v4: **D 옵션 — 어깨 영역 우산 용어 재정의**. 사용자 명시 — TPZ(승모근)·후경부 통증 제외, **순수 어깨 관절(견갑상완·견봉하·회전근개·관절낭·이두건) 영역 포커스**. 목·승모근 통증은 [neck-pain](/symptoms/neck-pain/)·[forward-head-posture](/conditions/forward-head-posture/)로 link. 원인 5분류 — 회전근개 건병증(RCRSP 우산, JOSPT 2025) / 회전근개 파열(전층·부분층, Jeong 2017 한국 무증상 데이터) / 유착성 관절낭염 / 석회성 건염 / 그 외(견관절 OA·SLAP·이두건·외상). symptom 표준 schema(정의·원인·레드플래그·평가·치료 옵션) 적용. 외부 권위 출처 8개 + 자체 1개로 재구성: Mitchell 2005 BMJ primary care(PMID 16282408, RC 건병증 가장 흔함·red flag 분류), Cohen 2015 Mayo Clin Proc(PMID 25659245, MRI 무증상 흔함 일반 원리), Luime 2004 Scand J Rheumatol SR(PMID 15163107, 일반인구 점유병률 6.9~26%·1년 4.7~46.7%·평생 6.7~66.7%), JOSPT 2025 RCRSP CPG(PMID 40165544, 운동 권고 등급 A·RCRSP 우산 용어), Cochrane 2019 견봉 성형술 RCT(PMID 30707445, 위약 대비 차이 무효), ACR Acute Shoulder Pain 2024 Update(JACR 2025, PMID 40409888, 외상성 단순방사선 1차), ACR Shoulder Pain-Atraumatic(JACR 2018, PMID 30392607, 비외상성 임상군별 알고리즘), Jeong 2017 한국 무증상 RC 파열 유병률(PMID 27497789, 50대 3.5%·60대 13.3%·70+ 11.1%). source_count 3→9, version 3→4. SOP 룰 9·10·11·12·13·14 적용 — 한미 출처 분리(BMJ·Mayo·JOSPT·Cochrane·ACR vs Jeong 2017 한국), 가이드라인 최신성(JOSPT 2025·ACR 2024 Update·ACR 2018 atraumatic 분리 인용), 공식 출처(보도 기사 X), PMID 직접 인용, 학술 톤 다운, 정형/통증 영역 빡센 강도. 병원명 본문 노출 없음. Cochrane 2019 견봉 성형술 사실은 인용하되 "수술 무용론"은 박지 않음(SOP 룰 15).
