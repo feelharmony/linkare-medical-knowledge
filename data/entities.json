@@ -1183,11 +1183,11 @@
       "엠셀라",
       "Hi-EMS"
     ],
-    "description_ko": "고강도 자기장 자극으로 근육·신경을 자극하는 비침습 시술 (근육 강화·요실금 등)",
+    "description_ko": "펄스 자기장으로 motor neuron을 직접 자극해 supramaximal 근수축을 유도하는 비침습 시술. 근골격계 재활·노인 근력 유지 보조에서 evidence가 누적되는 단계입니다.",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 2
+    "last_reviewed": "2026-05-09",
+    "source_count": 7,
+    "version": 1
   },
   {
     "id": "manual-therapy",
