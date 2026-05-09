@@ -25,7 +25,8 @@
   --width-narrow:   680px;
   --width-reading:  760px;
   --width-content: 1200px;
-  --header-height:   64px;
+  --header-height:   64px;       /* 모바일 */
+  --header-height-md: 80px;      /* 데스크톱 — LinkerAI 톤 정합 */
 
   /* ── Fonts ── */
   --font-display: "Pretendard Variable", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
@@ -86,14 +87,16 @@ a {
 a:hover { text-decoration: underline; }
 
 /* ─── Knowledge wordmark (영문 brand → Newsreader 세리프, slate ink) ─── */
+/* LinkerAI 톤 정합 — weight 700, letter-spacing -0.025em (tracking-tight) */
 .logo-knowledge {
   font-family: var(--font-serif);
-  font-weight: 600;
+  font-weight: 700;
   color: var(--color-accent);
-  letter-spacing: -0.01em;
+  letter-spacing: -0.025em;
 }
 
 /* ─── Header ─── */
+/* LinkerAI 톤 정합 — 데스크톱 80px, 모바일 64px */
 .site-header {
   position: fixed;
   top: 0;
@@ -107,6 +110,12 @@ a:hover { text-decoration: underline; }
   border-bottom: 1px solid var(--color-line);
 }
 
+@media (min-width: 768px) {
+  .site-header {
+    height: var(--header-height-md);
+  }
+}
+
 .header-inner {
   max-width: var(--width-content);
   margin: 0 auto;
@@ -115,6 +124,13 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+
+/* LinkerAI 톤 정합 — 데스크톱 좌우 padding 2.5rem (40px) */
+@media (min-width: 768px) {
+  .header-inner {
+    padding: 0 2.5rem;
+  }
 }
 
 /* 로고 영역 */
