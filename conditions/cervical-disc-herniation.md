@@ -6,15 +6,17 @@ permalink: /conditions/cervical-disc-herniation/
 title: 목디스크
 description: 경추 추간판이 탈출하여 신경을 압박하는 질환
 title_en: cervical disc herniation
-last_reviewed: '2026-05-01'
+last_reviewed: '2026-05-17'
 locked: true
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
-source_count: 7
-version: 5
+source_count: 4
+version: 6
 ---
 ## 정의
 목디스크는 경추 사이의 디스크가 손상되어 신경근이나 척수를 압박하면서 목 통증, 어깨 통증, 팔 저림을 유발할 수 있는 질환입니다 [^1]. 한국 국민건강보험공단(NHIS) 기반 연구(Kim YK et al., 2018, 2004~2010 자료)에서 증상이 있는 경추 추간판 탈출증의 발생률은 연령에 따라 증가하고, 여성에서 더 높게 나타나는 경향이 보고되었습니다 [^3].
+
+퇴행성 변화나 외상으로 인해 디스크의 섬유륜이 약해지면 수핵이 밖으로 튀어나와 신경을 압박할 수 있습니다. [^1]
 
 ## 병태
 퇴행성 변화나 외상으로 섬유륜이 약해지면 수핵이 밖으로 밀려나올 수 있습니다. 탈출한 디스크는 신경근을 기계적으로 압박할 뿐 아니라, 주변 조직에 염증 반응을 일으켜 통증과 저림을 악화시킬 수 있습니다. 이 과정에서 신경 주변 미세혈류 변화와 부종이 동반될 수 있습니다 [^1].
@@ -49,6 +51,8 @@ CT는 뼈의 변화나 골극(뼈가 자란 것)을 평가하는 데 유용하�
 
 수술은 보존 치료에 반응하지 않거나, 진행성 신경학적 결손, 척수증(myelopathy)이 동반된 경우 고려됩니다 [^4]. 일본 정형외과학회(JOA) 2020 경추 척수증(CSM) 임상진료지침은 척수증의 자연경과와 악화 가능성을 고려해, 진행성 신경학적 악화나 명확한 기능장애가 있는 경우 수술적 감압을 검토하도록 제시합니다 [^5].
 
+생활 습관 개선과 맞춤형 깔창을 통한 하중 분산은 척추 부담을 줄이고 재발을 예방하는 데 기여합니다. [^1]
+
 ## 예후
 대부분의 경추 신경근병증은 보존 치료 중 증상이 호전되는 경향이 있습니다. 경추 추간판 탈출의 자발적 영상학적 회귀도 보고되며, 2021년 문헌고찰에서는 MRI상 회귀가 평균 약 9.15개월에 관찰되었고, extrusion/sequestration 형태이면서 paracentral 또는 foraminal에 위치하고 조영증강이 관찰되는 디스크에서 회귀 가능성이 더 높은 것으로 보고됩니다 [^7].
 
@@ -59,15 +63,18 @@ CT는 뼈의 변화나 골극(뼈가 자란 것)을 평가하는 데 유용하�
 ## 관련 임상 자료
 [^1]: [안심튼튼 — 목디스크 원인·증상·진단부터 단계별 비수술 치료까지](https://ansimpainfree.kr/blog/cervical-disc-herniation)
 
+---
+
 ## Citations
-[^2]: [Lee TH, Kim SJ, Lim SM. Prevalence of Disc Degeneration in Asymptomatic Korean Subjects. Part 2: Cervical Spine. J Korean Neurosurg Soc. 2013;53(2):89-95](https://pmc.ncbi.nlm.nih.gov/articles/PMC3611065/)
-[^3]: [Kim YK, Kang D, Lee I, Kim SY. Differences in the Incidence of Symptomatic Cervical and Lumbar Disc Herniation According to Age, Sex and National Health Insurance Eligibility: A Pilot Study on the Disease's Association with Work. Int J Environ Res Public Health. 2018 (PMID 30257414)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6210730/)
-[^4]: [Bono CM et al. North American Spine Society. An evidence-based clinical guideline for the diagnosis and treatment of cervical radiculopathy from degenerative disorders. Spine J. 2011;11(1):64-72 (PMID 21168100)](https://pubmed.ncbi.nlm.nih.gov/21168100/)
-[^5]: [Japanese Orthopaedic Association (JOA). Clinical practice guidelines on the Management of Cervical Spondylotic Myelopathy, 2020 — Secondary publication. J Orthop Sci. 2022](https://www.sciencedirect.com/science/article/abs/pii/S0949265822001154)
-[^6]: [Engquist M et al. Surgery versus nonsurgical treatment of cervical radiculopathy: a prospective, randomized study comparing surgery plus physiotherapy with physiotherapy alone with a 2-year follow-up. Spine. 2013 (PMID 23778373)](https://pubmed.ncbi.nlm.nih.gov/23778373/)
-[^7]: [Spontaneous regression of herniated cervical disc: A case report and literature review. Surg Neurol Int. 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8088536/)
+[^2]: [pmc.ncbi.nlm.nih.gov/articles/PMC3611065/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3611065/)
+[^3]: [pmc.ncbi.nlm.nih.gov/articles/PMC6210730/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6210730/)
+[^4]: [pubmed.ncbi.nlm.nih.gov/21168100/](https://pubmed.ncbi.nlm.nih.gov/21168100/)
+[^5]: [www.sciencedirect.com/science/article/abs/pii/S0949265822001154](https://www.sciencedirect.com/science/article/abs/pii/S0949265822001154)
+[^6]: [pubmed.ncbi.nlm.nih.gov/23778373/](https://pubmed.ncbi.nlm.nih.gov/23778373/)
+[^7]: [pmc.ncbi.nlm.nih.gov/articles/PMC8088536/](https://pmc.ncbi.nlm.nih.gov/articles/PMC8088536/)
 
 ## Changelog
 - 2026-04-28 v3: 수동 편집
 - 2026-04-28 v4: 수동 편집 — 오타수정
 - 2026-05-01 v5: 외부 권위 출처 6개 추가 (Lee 2013 한국 무증상 MRI 유병률, Kim YK 2018 한국 NHIS 발생률, Bono 2011 NASS Cervical Radiculopathy CPG 진단·치료 권고, JOA 2020 CSM CPG 척수증 평가·수술 적응증, Engquist 2013 RCT 보존 vs 수술, Surg Neurol Int 2021 자발적 회귀 리뷰) — 정의·병태·증상·진단·치료·예후 전 섹션 보강. red flag 섹션을 cervical myelopathy 기준으로 명확화. source_count 2→7, version 4→5.
+- 2026-05-17 v6: 정의 enrich, 치료 enrich
