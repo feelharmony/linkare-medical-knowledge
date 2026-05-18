@@ -16,8 +16,8 @@ last_reviewed: '2026-05-18'
 locked: true
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
-source_count: 5
-version: 2
+source_count: 6
+version: 3
 ---
 ## 정의
 
@@ -73,6 +73,8 @@ version: 2
 
 일자목은 목뼈의 C자 곡선이 무너지면서 척추 전체의 균형이 흔들리는 구조적 변화로 진단됩니다[^5].
 
+X-ray와 MRI 검사는 경추의 구조적 변화와 신경 압박 여부를 평가하는 데 유용합니다[^5]. [^4]
+
 ## 치료
 
 거북목·일자목 자체를 "교정"하는 것보다, **동반된 목 통증과 기능 제한을 완화**하고 자세 부담을 줄이는 데 초점을 둡니다.
@@ -97,6 +99,8 @@ APTA 2017 목 통증 CPG는 만성 목 통증과 가동성 결손형에서 **경
 ### 수술
 거북목·일자목 자체는 수술의 적응증이 아닙니다. 동반된 추간판 탈출, 척수증 등 신경학적 원인이 명확하고 보존적 치료에 실패한 경우에 한해 해당 병변에 대한 수술을 고려합니다.
 
+목 앞쪽 깊은 근육을 강화하는 운동은 목 곡선 회복에 도움이 됩니다[^5]. [^4]
+
 ## 예후
 
 거북목·일자목과 동반된 목 통증은 대부분 **보존적 치료(운동치료 ± 도수치료)에 호전**됩니다. 다만 자세는 일상 습관에서 비롯된 부분이 크기 때문에, 작업 자세·화면 높이·휴식 패턴·운동 습관을 개선하지 않으면 재발하기 쉽습니다.
@@ -110,6 +114,8 @@ APTA 2017 목 통증 CPG는 만성 목 통증과 가동성 결손형에서 **경
 
 ---
 
+---
+
 ## Citations
 [^5]: [ansimpainfree.kr/blog/text-neck-prevention-posture-exercise-guide](https://ansimpainfree.kr/blog/text-neck-prevention-posture-exercise-guide)
 
@@ -117,3 +123,4 @@ APTA 2017 목 통증 CPG는 만성 목 통증과 가동성 결손형에서 **경
 - 2026-05-02 v3: **일자목(straight-neck)·거북목 통합 entity로 재정의** — sciatica D 패턴 적용. 두 용어를 자세 소견(거북목, CVA) vs 영상 소견(일자목, Cobb) 두 차원으로 분리 정의. 외부 출처 3건 보강 — Mahmoud 2019 SR/메타(PMID 31773477, 성인 CVA MD 4.84°, 인과관계 미입증), Yang 2023 systematic review(PMID 37830641, 16 RCT 운동·도수치료), JOSPT 2017 neck pain CPG(Blanpied et al., 4분류·multimodal 권고). conditions/straight-neck.md는 같은 commit에서 삭제. aliases에 일자목·거북목·straight neck 모두 등록. **검증 라운드(GPT 의견)**: ① JOSPT 2017 만성 neck pain + mobility deficits multimodal 권고 등급 A → **B로 정정**(공식 등급 확인), ② CVA 정의 정정 — "어깨(C7)" → "이주(tragus)와 C7 극돌기를 잇는 선이 수평선과 이루는 각", ③ "한국 직장인·학생 인구에서 매우 흔한 편" 미부착 일반화 표현 → 출처 가능 범위로 톤 다운 + [^4] 호출, ④ MRI/CT 적응증 좁힘 — "방사통이 동반되거나" → "진행성 신경학적 결손, 척수증 의심, 충분한 보존 치료에도 지속·악화되는 신경근 증상", ⑤ 미호출 [^4] 본문 2회 연결(병태 일자목 영상 해석 + 약물 치료 보조 위치). **레포 정합성**: data/entities.json id `straight-neck` → `forward-head-posture`로 교체 + aliases 확장, data/post-entity-map.json straight-neck 전건 치환 + 중복 제거, scripts/build-graph.js 실행해 _data/entity_graph.json 재생성(38 nodes 95 edges).
 - 2026-04-23 v2: 정의·병태·증상·진단·치료·예후 신설 (자체 출처 1건)
 - 2026-05-18 v2: 증상 enrich, 진단 enrich
+- 2026-05-18 v3: 치료 enrich, 진단 enrich
