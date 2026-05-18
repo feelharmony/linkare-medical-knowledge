@@ -4,7 +4,7 @@ entity_id: knee-pain
 entity_type: symptom
 permalink: /symptoms/knee-pain/
 title: 무릎 통증
-description: 무릎 관절·연골·반월상연골·인대·슬개대퇴 영역의 통증을 가리키는 임상 용어. 골관절염·전방슬관절통·반월상연골 손상이 대표 원인이며, 외상·감염·심부정맥혈전증은 빠른 평가가 필요합니다.
+description: 무릎 관절 부위의 통증
 title_en: knee pain
 aliases:
   - 무릎 통증
@@ -13,15 +13,17 @@ aliases:
   - 슬관절 통증
   - knee pain
   - gonalgia
-last_reviewed: '2026-05-03'
+last_reviewed: '2026-05-18'
 locked: true
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
-source_count: 12
-version: 4
+source_count: 13
+version: 3
 ---
 ## 정의
 무릎 통증은 단일 진단명이 아니라 **무릎 관절(슬관절)·연골·반월상연골·인대·슬개대퇴 관절·주변 건** 같은 무릎 영역 구조에서 발생하는 통증을 가리키는 임상 용어입니다. 환자에 따라 관절 연골·반월상연골·인대·슬개골·건·점액낭·대퇴슬개 정렬 등 여러 구조가 원인이 될 수 있고, 영상 소견은 무증상 인구에서도 흔하게 관찰되어 증상과 늘 일치하지 않습니다 [^2]. 무릎 골관절염은 전 세계적으로 가장 흔한 OA 부위이며, GBD 2021 분석에서 무릎 OA 사례는 2020년 대비 2050년 약 74.9%(95% UI 59.4~89.9) 증가가 전망됩니다 [^9]. 한국 KNHANES 자료(Hong 2020, 2010~2013)에서 50세 이상 한국 성인의 방사선학적 무릎 OA 유병률은 약 35.1%로 보고되며, 여성·고령·고체질량지수·저학력에서 더 높게 나타납니다 [^3].
+
+무릎 통증의 재발을 줄이기 위해서는 통증이 없는 시기에도 꾸준한 운동과 생활습관 관리가 중요합니다. [^1]
 
 ## 흔한 원인
 무릎 통증은 원인에 따라 다음과 같이 구분합니다 [^2][^4][^5][^6].
@@ -91,20 +93,26 @@ OA 진단은 임상 양상과 단순방사선 결과를 종합해 평가하며, 
 ## 관련 임상 자료
 [^1]: [더웰스 — 무릎 통증 관리·예방 운동 습관](https://thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits)
 
+## 예후
+무릎 통증의 재발을 줄이기 위해서는 통증이 없는 시기에도 꾸준한 운동과 생활습관 관리가 중요합니다. [^1]
+
+---
+
 ## Citations
-[^2]: [Bunt CW, Jonas CE, Chang JG. Knee Pain in Adults and Adolescents: The Initial Evaluation. Am Fam Physician. 2018;98(9):576-585. PMID 30325638](https://pubmed.ncbi.nlm.nih.gov/30325638/)
-[^3]: [Hong JW, Noh JH, Kim D-J. The prevalence of and demographic factors associated with radiographic knee osteoarthritis in Korean adults aged ≥ 50 years: The 2010-2013 Korea National Health and Nutrition Examination Survey. PLOS One. 2020;15(3):e0230613](https://pmc.ncbi.nlm.nih.gov/articles/PMC7083301/)
-[^4]: [Brophy RH, Fillingham YA. AAOS Clinical Practice Guideline Summary: Management of Osteoarthritis of the Knee (Nonarthroplasty), Third Edition. J Am Acad Orthop Surg. 2022;30(9):e721-e729. PMID 35383651](https://pubmed.ncbi.nlm.nih.gov/35383651/)
-[^5]: [Bannuru RR et al. OARSI guidelines for the non-surgical management of knee, hip, and polyarticular osteoarthritis. Osteoarthritis Cartilage. 2019;27(11):1578-1589. PMID 31278997](https://pubmed.ncbi.nlm.nih.gov/31278997/)
-[^6]: [Kolasinski SL et al. 2019 American College of Rheumatology/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee. Arthritis Rheumatol. 2020;72(2):220-233. PMID 31908163](https://pubmed.ncbi.nlm.nih.gov/31908163/)
-[^7]: [Expert Panel on Musculoskeletal Imaging. ACR Appropriateness Criteria® Chronic Knee Pain. J Am Coll Radiol. 2018;15(11S):S302-S312. PMID 30392599. DOI 10.1016/j.jacr.2018.09.016](https://pubmed.ncbi.nlm.nih.gov/30392599/)
-[^8]: [Expert Panel on Musculoskeletal Imaging. ACR Appropriateness Criteria® Acute Trauma to the Knee. J Am Coll Radiol. 2020;17(5S):S12-S25. PMID 32370956. DOI 10.1016/j.jacr.2020.01.041](https://pubmed.ncbi.nlm.nih.gov/32370956/)
-[^9]: [GBD 2021 Osteoarthritis Collaborators. Global, regional, and national burden of osteoarthritis, 1990-2020 and projections to 2050: a systematic analysis for the Global Burden of Disease Study 2021. Lancet Rheumatol. 2023;5(9):e508-e522. PMID 37675071. DOI 10.1016/S2665-9913(23)00163-7](https://pubmed.ncbi.nlm.nih.gov/37675071/)
-[^10]: [Willy RW, Hoglund LT, Barton CJ, et al. Patellofemoral Pain: Clinical Practice Guidelines Linked to the International Classification of Functioning, Disability and Health From the Academy of Orthopaedic Physical Therapy of the American Physical Therapy Association. J Orthop Sports Phys Ther. 2019;49(9):CPG1-CPG95. PMID 31475628. DOI 10.2519/jospt.2019.0302](https://pubmed.ncbi.nlm.nih.gov/31475628/)
-[^11]: [무릎 골관절염의 자가 혈소판 풍부 혈장 관절강내 주사 — 신의료기술평가 결과 (보건복지부 고시 제2024-254호, 2024-12-13; 작업 시점 2026-05 인용). ⚠️ 행정 규정으로 변경 가능 — 진료 시점 의료진 상담 권장](https://k-knowledge.kr/srch/read.jsp?id=265937048)
-[^12]: [Bensa A, Previtali D, Sangiorgio A, Boffa A, Salerno M, Filardo G. PRP Injections for the Treatment of Knee Osteoarthritis: The Improvement Is Clinically Significant and Influenced by Platelet Concentration: A Meta-analysis of Randomized Controlled Trials. Am J Sports Med. 2025;53(3):745-754. DOI 10.1177/03635465241246524](https://pmc.ncbi.nlm.nih.gov/articles/PMC11874499/)
+[^2]: [pubmed.ncbi.nlm.nih.gov/30325638/](https://pubmed.ncbi.nlm.nih.gov/30325638/)
+[^3]: [pmc.ncbi.nlm.nih.gov/articles/PMC7083301/](https://pmc.ncbi.nlm.nih.gov/articles/PMC7083301/)
+[^4]: [pubmed.ncbi.nlm.nih.gov/35383651/](https://pubmed.ncbi.nlm.nih.gov/35383651/)
+[^5]: [pubmed.ncbi.nlm.nih.gov/31278997/](https://pubmed.ncbi.nlm.nih.gov/31278997/)
+[^6]: [pubmed.ncbi.nlm.nih.gov/31908163/](https://pubmed.ncbi.nlm.nih.gov/31908163/)
+[^7]: [pubmed.ncbi.nlm.nih.gov/30392599/](https://pubmed.ncbi.nlm.nih.gov/30392599/)
+[^8]: [pubmed.ncbi.nlm.nih.gov/32370956/](https://pubmed.ncbi.nlm.nih.gov/32370956/)
+[^9]: [pubmed.ncbi.nlm.nih.gov/37675071/](https://pubmed.ncbi.nlm.nih.gov/37675071/)
+[^10]: [pubmed.ncbi.nlm.nih.gov/31475628/](https://pubmed.ncbi.nlm.nih.gov/31475628/)
+[^11]: [k-knowledge.kr/srch/read.jsp](https://k-knowledge.kr/srch/read.jsp?id=265937048)
+[^12]: [pmc.ncbi.nlm.nih.gov/articles/PMC11874499/](https://pmc.ncbi.nlm.nih.gov/articles/PMC11874499/)
 
 ## Changelog
 - 2026-04-25 v2: 자체 출처 1건 (frontmatter source_count=0 어긋남)
 - 2026-05-03 v4: **검증 라운드 5건(권고 강도 정정) + 1건(출처 최신성) 반영**. ① **AAOS 2021 체중 감량** strong → **moderate**로 정정 (knee-OA v3에서 한 번 정정한 영역과 일관성 회복). ② **ACR/AF 2019 manual therapy** "강한 권고"는 오기 → **운동에 도수 추가는 운동 단독 대비 조건부 비권고(conditionally against)**로 정정. ③ **JOSPT 2019 PFP CPG 도수치료 등급 A** 과장 → 등급 A는 운동치료에 한정, **도수치료는 단독 권고하지 않고 보조적 중재**로 약화. ④ **파라세타몰 ACR/AF 2019 비권고 표현** 부정확 → **AAOS 2021 strong vs ACR/AF 2019 conditional + 효과 크기 작음 부연**으로 분리 인용(룰 9). ⑤ **PRP controversial 균형(룰 15)** 누락 → AAOS 2021 limited / ACR/AF 2019 strongly against / NECA 등재 / Bensa 2025 메타 긍정을 4축으로 분리 인용. KL 등급·보존 치료 반응·비용·동반 질환 환자 선택지로 정리. ⑥ **[^2] Calmbach 2003 AAFP → Bunt 2018 AAFP**(PMID 30325638) 교체 — 룰 10 가이드라인 최신성. HA 권고도 ACR/AF 조건부 비권고 사실 추가. version 3→4.
 - 2026-05-03 v3: **D 옵션 — 무릎 영역 우산 용어 재정의** (sciatica·forward-head-posture·lower-back-pain·neck-pain·shoulder-pain 패턴 적용). 단일 진단명 X, 무릎 관절·연골·반월상연골·인대·슬개대퇴·주변 건 영역 구조의 다양한 원인 임상 용어. 원인 6분류 — 무릎 OA(knee-osteoarthritis link, 가장 흔함) / 전방슬관절통 PFP(JOSPT 2019 CPG) / 반월상연골 손상 / 인대 손상(ACL·MCL·LCL·PCL) / 건병증·점액낭염 / 그 외(결정성·류마티스·감염·연관통). symptom 표준 schema(정의·원인·레드플래그·평가·치료 옵션) 적용. 외부 권위 출처 11개 + 자체 link 1개로 재구성: Calmbach 2003 AAFP(PMID 13678139, primary care 평가), Hong 2020 KNHANES(한국 50+ 35.1%, 여성·고령 우세), AAOS 2021 Knee OA 비수술 CPG(PMID 35383651, 운동·체중 강한 권고), OARSI 2019(PMID 31278997, 운동·체중·교육 핵심), ACR/AF 2019(PMID 31908163, 파라세타몰 단독 비권고), **ACR Chronic Knee Pain(JACR 2018, PMID 30392599)**, **ACR Acute Trauma to the Knee(JACR 2020, PMID 32370956)**, **GBD 2021 OA Collaborators(Lancet Rheumatol, PMID 37675071, knee 가장 흔한 OA·2050년 74.9% 증가)**, **JOSPT 2019 PFP CPG(Willy, PMID 31475628, 운동·도수 권고 등급 A)**, NECA 신의료기술평가 PRP(보건복지부 고시 제2024-254호, KL 2~3 적응증), Bensa 2025 PRP 메타분석(Am J Sports Med, 18 RCTs 임상적 유의·혈소판 농도 영향). source_count 0→12(자체 1 외부 11), version 2→3. Red flag 박스: 외상 골절·감염성 관절염·DVT·종양·잠김. SOP 룰 9·10·11·12·13·14·15 적용 — 한미 출처 분리(AAOS·OARSI·ACR·JOSPT·ACR Imaging·GBD vs Hong 2020·NECA), 가이드라인 최신성(AAOS 2021·OARSI 2019·ACR/AF 2019·JOSPT 2019·ACR 2018/2020·GBD 2023), 공식 출처(보도 기사 X), PMID 직접 인용, 학술 톤 다운, 정형/통증 영역 빡센 강도, controversial 사실 균형(HA 가이드라인별 권고 차이 분리 표기). 병원명 본문 노출 없음. PRP 행정 규정 인용은 작업 시점 표시 추가(룰 12).
+- 2026-05-18 v3: 예후 enrich, 정의 enrich
