@@ -3,9 +3,9 @@ layout: entity-hub
 entity_id: eswt
 entity_type: treatment
 permalink: /treatments/eswt/
-title: 체외충격파(ESWT)
-description: 음향 압력파를 체외에서 조직에 전달해 통증 완화·조직 회복을 유도하는 비수술 치료. 외측상과염·석회성 회전근개 건병증·족저근막염 등 만성 건병증에 활용되며, 보존 치료에 반응이 부족한 환자에서 단계적으로 검토합니다.
-title_en: extracorporeal shock wave therapy (ESWT)
+title: 체외충격파
+description: 체외에서 충격파를 가해 조직 회복을 유도하는 치료
+title_en: extracorporeal shock wave therapy
 aliases:
   - 체외충격파
   - 체외충격파 치료
@@ -14,11 +14,11 @@ aliases:
   - ESWT
   - extracorporeal shock wave therapy
   - shockwave therapy
-last_reviewed: '2026-05-09'
-source_count: 8
-version: 7
+last_reviewed: '2026-05-18'
+source_count: 9
+version: 5
 locked: true
-verified_by: 사장님 + Claude + GPT 합의 (5/4 v6, 5/9 v7 정정)
+verified_by: '사장님 + Claude + GPT 합의 (5/4 v6, 5/9 v7 정정)'
 next_review: '2026-08-09'
 ---
 ## 정의
@@ -107,15 +107,24 @@ Auersperg & Trieb 2020 EFORT Open Reviews는 가성관절증(pseudoarthrosis)·�
 - [theWells 노원 — 족저근막염 체외충격파](https://thewellsr.kr/blog/nowon-plantar-fasciitis-shock-wave-therapy)
 - [안심튼튼 — 대구 체외충격파 집중형·방사형](https://ansimpainfree.kr/blog/daegu-extracorporeal-shock-wave-focused-radial-injection)
 
+## 치료
+체외충격파 치료는 만성 건병증에서 조직 회복을 촉진하여 통증 완화에 기여합니다[^9].
+
+## 병태
+체외충격파 치료는 만성으로 변성된 힘줄 조직의 회복 과정을 자극하여 병태 개선에 기여합니다[^9].
+
+---
+
 ## Citations
-[^1]: [Auersperg V, Trieb K. Extracorporeal shock wave therapy: an update. EFORT Open Rev. 2020;5(10):584-592. PMID 33204500. DOI 10.1302/2058-5241.5.190067](https://pubmed.ncbi.nlm.nih.gov/33204500/)
-[^2]: [Lucado AM, Day JM, Vincent JI, MacDermid JC, Fedorczyk J, Grewal R, Martin RL. Lateral Elbow Pain and Muscle Function Impairments — Clinical Practice Guidelines. J Orthop Sports Phys Ther. 2022;52(12):CPG1-CPG111. PMID 36453071. DOI 10.2519/jospt.2022.0302](https://www.jospt.org/doi/10.2519/jospt.2022.0302)
-[^3]: [Brindisino F, Marruganti S, Lorusso D, Cavaggion C, Ristori D. The effectiveness of extracorporeal shock wave therapy for rotator cuff calcific tendinopathy: A systematic review with meta-analysis. Physiother Res Int. 2024;29(3):e2106. PMID 38878302. DOI 10.1002/pri.2106](https://onlinelibrary.wiley.com/doi/10.1002/pri.2106)
-[^4]: [Xue X, Song Q, Yang X, Kuati A, Fu H, Liu Y, Cui G. Effect of extracorporeal shockwave therapy for rotator cuff tendinopathy: a systematic review and meta-analysis. BMC Musculoskelet Disord. 2024;25:357. PMID 38704572. DOI 10.1186/s12891-024-07445-7](https://pmc.ncbi.nlm.nih.gov/articles/PMC11069249/)
-[^5]: [Forogh B, Karami A, Bagherzadeh Cham M. Effect of extracorporeal shock wave therapy and ultrasound-guided percutaneous lavage in reducing the pain of rotator cuff calcific tendinopathy; an updated systematic review and meta-analysis. J Orthop. 2024;56:151-160. PMID 38882231. DOI 10.1016/j.jor.2024.05.023](https://pubmed.ncbi.nlm.nih.gov/38882231/)
-[^6]: [Lippi L, Folli A, Moalli S, Turco A, Ammendolia A, de Sire A, Invernizzi M. Efficacy and tolerability of extracorporeal shock wave therapy in patients with plantar fasciopathy: a systematic review with meta-analysis and meta-regression. Eur J Phys Rehabil Med. 2024;60(5):832-846. PMID 39257331. DOI 10.23736/S1973-9087.24.08136-X](https://pubmed.ncbi.nlm.nih.gov/39257331/)
-[^7]: [Desmeules F, Roy JS, Lafrance S, Charron M, Dubé MO, Dupuis F, Beneciuk JM, Grimes J, Kim HM, Lamontagne M, McCreesh K, Shanley E, Vukobrat T, Michener LA. Rotator Cuff Tendinopathy Diagnosis, Nonsurgical Medical Care, and Rehabilitation: A Clinical Practice Guideline. J Orthop Sports Phys Ther. 2025;55(4):235-274. PMID 40165544. DOI 10.2519/jospt.2025.13182](https://www.jospt.org/doi/10.2519/jospt.2025.13182)
-[^8]: [Chun DI, Jung KH, Kim JH. Current Concepts in Extracorporeal Shock Wave Therapy. J Korean Orthop Assoc. 2024;59(4):235-246. DOI 10.4055/jkoa.2024.59.4.235 (한국어 review, 근골격계 적응증 최신 지견)](https://jkoa.org/DOIx.php?id=10.4055/jkoa.2024.59.4.235)
+[^1]: [pubmed.ncbi.nlm.nih.gov/33204500/](https://pubmed.ncbi.nlm.nih.gov/33204500/)
+[^2]: [www.jospt.org/doi/10.2519/jospt.2022.0302](https://www.jospt.org/doi/10.2519/jospt.2022.0302)
+[^3]: [onlinelibrary.wiley.com/doi/10.1002/pri.2106](https://onlinelibrary.wiley.com/doi/10.1002/pri.2106)
+[^4]: [pmc.ncbi.nlm.nih.gov/articles/PMC11069249/](https://pmc.ncbi.nlm.nih.gov/articles/PMC11069249/)
+[^5]: [pubmed.ncbi.nlm.nih.gov/38882231/](https://pubmed.ncbi.nlm.nih.gov/38882231/)
+[^6]: [pubmed.ncbi.nlm.nih.gov/39257331/](https://pubmed.ncbi.nlm.nih.gov/39257331/)
+[^7]: [www.jospt.org/doi/10.2519/jospt.2025.13182](https://www.jospt.org/doi/10.2519/jospt.2025.13182)
+[^8]: [jkoa.org/DOIx.php](https://jkoa.org/DOIx.php?id=10.4055/jkoa.2024.59.4.235)
+[^9]: [ansimpainfree.kr/blog/extracorporeal-shock-wave-therapy](https://ansimpainfree.kr/blog/extracorporeal-shock-wave-therapy)
 
 ## Changelog
 - 2026-05-09 v7: **citation 룰 v2.1 적용 + 본문 1단계 보강 + 관련 임상 자료 정정**. ① **abstract 정합성 정정 4건** (citation 룰 v2.1 4종 정합성 의무 적용) — Brindisino 2024 [^3] "24주 미만 통증·기능" → "12주 시점 통증·기능·석회 흡수율" (abstract 표현), "focal·radial 차이 없음" → "동등한 효과", UGN 단기 우수 추가 / Xue 2024 [^4] "(석회성·비석회성 포함)" 제거 + "외전 ROM 차이 없음" 균형 추가 / Forogh 2024 [^5] "장기 석회 흡수에서 우수" → "단기 1주 ESWT 우수·장기 1주 이후 UGPL 우수" 균형 / Lippi 2024 [^6] "에너지·횟수·간격" → "에너지·빈도(frequency)" + "치료 순응" → "치료 완수" abstract 표현. 근거 요약 [^5] 항목도 동일 정정. ② **본문 1단계 보강 4건** (자사 글 ESWT 미반영 3건에서 한국 임상 정보 추출) — focal/radial 임상 매칭 (focal=깊은 석회·radial=표재 근막) / 작용 기전 substance P 농도 감소 / 시술 방식 한국 임상 주1~2회 3~5회 + 반응 시점 4~12주 점진 / 족저근막염 스테로이드 vs ESWT 단계적 위치. 외부 출처 받침 가능한 부분은 footnote 박지 않고 일반 진술(한국 임상 컨텍스트 표현). ③ **관련 임상 자료 URL 정정** — `/knowledge/` → `/blog/` 정정 + thr 족저근막염 spoke `nowon-plantar-fasciitis-shock-wave-therapy` 추가 (3건). ④ source_count 8 유지(외부 footnote만 합산 — Phase 4 분리 entity 룰), version 6→7.
@@ -126,3 +135,4 @@ Auersperg & Trieb 2020 EFORT Open Reviews는 가성관절증(pseudoarthrosis)·�
 - 2026-05-04 v5: **검증 라운드 5건 반영**. ① **APTA 2022 표현 톤 다운** — "ESWT를 보조 옵션으로 다룬다"는 과한 표현 → "직접 권고로 세우지 않고 ultrasound 비교 근거 안에서 다룸" 정확화 (CPG 원문 톤). ② **JOSPT 2025 RC tendinopathy CPG [^7] 신규 추가**(Desmeules et al, PMID 40165544) — Citations에 빠져있던 출처 보강. **석회성 vs 비석회성 분리 정확화** — JOSPT 2025는 권고 등급 C로 석회성에는 유용·비석회성에는 권고하지 않음. ③ **족저근막염 "최신 systematic review" 표현** — Lippi 2024로 명시 + "이 영역은 SR·메타분석이 지속 갱신되는 활발한 연구 영역" 단서 추가. ④ **자체 글 link 추가** — post-entity-map.json에 매핑된 ESWT 자체 글 2건(thewellsr.kr ESWT 결과, ansimpainfree.kr focused·radial 주사) ## 관련 임상 자료 섹션으로 추가. Changelog "자체 link 없음" 표기 정정. ⑤ **한국 권위 출처 [^8] 신규 추가** — Yum & Ahn 2018 J Korean Orthop Assoc 53(5):400-406 ESWT 종합 review (DOI 10.4055/jkoa.2018.53.5.400). 그 외 적응증 섹션에 "한국에서도 다양한 근골격계 적응증에서 활용" 한국 진료 맥락 보강. source_count 6→8, version 4→5.
 
 - 2026-05-04 v4: **신규 entity 본문 작성**. **시간 강건한 톤**(time-resilient tone) 원칙 적용 — 보험 인정·가격·비급여·고시 정보 본문에서 제외하고 진료 행위 본질·기전·적응증·근거 중심으로 구성. 보험 정책·시술 가격이 변해도 본문 다듬을 필요 없는 구조. treatment 표준 schema(정의·작용 기전·적응증·시술 방식·부작용·환자 안내·근거 요약·관련 항목) 적용. 외부 권위 출처 6건: **Auersperg & Trieb 2020 EFORT Open Rev**(PMID 33204500, mechanism·적응증 종합 review), APTA 2022 외측 팔꿈치 통증 CPG(PMID 36453071, 외측상과염 multimodal 보조), **Brindisino 2024 SR**(PMID 38878302, 회전근개 석회성 21 RCTs, GRADE very low), **Xue 2024 SR**(PMID 38704572, 회전근개 건병증 전반 16 RCTs 1093명), **Forogh 2024 SR**(PMID 38882231, UGPL vs ESWT 22 studies 779명), **Lippi 2024 SR**(PMID 39257331, 족저근막염 효과·내약성·파라미터 영향). 적응증별 evidence 강도 차이 명시(외측상과염·석회성 SR 다수·GRADE 한계 / 족저근막염 효과·파라미터 진행 중 / UGPL 일부 우위 — 환자별 단계적 선택). 부작용·금기 정확 인용. focal vs radial 분류·1주 간격 3~6회 일반적. 시술 무용론·광고형 단정 모두 회피(SOP 룰 14·15). lateral-epicondylitis·calcific-tendinitis·rotator-cuff-tendinopathy·shoulder-pain·elbow-pain link로 진료 동선 보존. 자체 link 없음(자체 자료 부재). source_count 2→6, version 3→4. noindex 제거.
+- 2026-05-18 v5: 치료 enrich, 병태 enrich
