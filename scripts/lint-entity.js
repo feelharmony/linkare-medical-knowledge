@@ -35,15 +35,34 @@ const REQUIRED_FRONTMATTER = [
   'external_footnote_ids',
 ];
 
+// Entity Anchor Enum v1 (2026-05-20, wiki/decisions/entity_anchor_enum_v1.md)
+// yhlinker backend pillar-patch-proposer.service.ts ANCHOR_TO_HEADING_BY_TYPE 와 일치.
+//
+// 헤딩 구조:
+//   - 단일 string: 1:1 매핑 (필수)
+//   - string[]: 동의어 그룹 — 그룹 내 1개 이상 매치되면 통과 (필수)
+//   - { synonyms: string[], optional: true }: 선택 동의어 그룹 — 없어도 통과
+
 const CONDITION_HEADINGS = ['정의', '병태', '증상', '진단', '치료', '예후'];
+
+// treatment: 필수 2 (indication + limitations) + 선택 4
 const TREATMENT_HEADINGS = [
-  '적응증',
-  ['분자 기전', '작동 원리'],
-  ['임상 evidence', '임상 근거'],
-  '언제 고려',
-  '기대효과',
-  ['한계/주의점', '한계·주의점'],
+  // indication 동의어 그룹 — 필수
+  { synonyms: ['적응증', '정의·종류', '정의·개요', '정의·overview', '적응증·접종 권고'], optional: false, anchor: 'indication' },
+  // mechanism 동의어 그룹 — 선택
+  { synonyms: ['분자 기전', '작동 원리', '작용 기전', '정의·기전', '정의', '작용 기전·근거'], optional: true, anchor: 'mechanism' },
+  // evidence 동의어 그룹 — 선택
+  { synonyms: ['임상 evidence', '임상 근거', '근거 요약', '약물별 evidence'], optional: true, anchor: 'evidence' },
+  // when_considered — 선택
+  { synonyms: ['언제 고려'], optional: true, anchor: 'when_considered' },
+  // expected_effect — 선택
+  { synonyms: ['기대효과'], optional: true, anchor: 'expected_effect' },
+  // limitations 동의어 그룹 — 필수
+  { synonyms: ['한계/주의점', '한계·주의점', '부작용·주의사항', '부작용·금기', '부작용·주의 환자군', '약물과 시술의 관계'], optional: false, anchor: 'limitations' },
 ];
+
+const SYMPTOM_HEADINGS = ['정의', '흔한 원인', '레드플래그', '평가', '치료 옵션'];
+const BODY_PART_HEADINGS = ['정의', '관련 증상', '관련 질환', '관련 치료'];
 
 // yhlinker pillar-patch-proposer.service.ts:651-665 와 동일
 const BRAND_BANNED = [
@@ -118,10 +137,12 @@ function checkFrontmatter(fm, errors, warnings) {
   if (typeof fm.source_count_clinic_pillar === 'number' && fm.source_count_clinic_pillar !== clinic) {
     errors.push(`source_count_clinic_pillar(${fm.source_count_clinic_pillar}) ≠ clinic_footnote_ids.length(${clinic})`);
   }
-  // LOCK hard 조건
+  // LOCK hard 조건 (linkbase_pillar_only_gate_v1.md K절)
+  // body-parts는 광역 검색 색인 성격이라 external 권장 ≥3 (룰 B :56)
   if (fm.locked === 'true' || fm.locked === true) {
-    if (ext < 5) {
-      errors.push(`locked=true인데 external sources ${ext} < 5 (LOCK hard 위반)`);
+    const minExternal = fm.entity_type === 'body_part' ? 3 : 5;
+    if (ext < minExternal) {
+      errors.push(`locked=true인데 external sources ${ext} < ${minExternal} (LOCK hard 위반)`);
     }
     if (clinic > 2) {
       errors.push(`locked=true인데 clinic sources ${clinic} > 2 (LOCK hard 위반)`);
@@ -135,12 +156,31 @@ function checkHeadings(body, entityType, errors, warnings) {
     const m = line.match(/^##\s+(.+?)\s*$/);
     if (m) h2Headings.push(m[1].trim());
   }
-  const required = entityType === 'treatment' ? TREATMENT_HEADINGS : CONDITION_HEADINGS;
+  const required =
+    entityType === 'treatment' ? TREATMENT_HEADINGS :
+    entityType === 'symptom' ? SYMPTOM_HEADINGS :
+    entityType === 'body_part' ? BODY_PART_HEADINGS :
+    CONDITION_HEADINGS;
   for (const target of required) {
-    const candidates = Array.isArray(target) ? target : [target];
-    const found = candidates.some((c) => h2Headings.includes(c));
-    if (!found) {
-      errors.push(`H2 헤딩 누락: ${candidates.join(' 또는 ')}`);
+    // Entity Anchor Enum v1 형식 3가지:
+    //   1) string: 1:1 매핑 (condition/symptom/body_part — 모두 필수)
+    //   2) string[]: 동의어 그룹 (필수, 옛 호환 — 사용 안 함 현재)
+    //   3) { synonyms: string[], optional: bool, anchor: string }: 동의어 그룹 + 선택 플래그
+    if (typeof target === 'string') {
+      if (!h2Headings.includes(target)) {
+        errors.push(`H2 헤딩 누락: ${target}`);
+      }
+    } else if (Array.isArray(target)) {
+      const found = target.some((c) => h2Headings.includes(c));
+      if (!found) {
+        errors.push(`H2 헤딩 누락: ${target.join(' 또는 ')}`);
+      }
+    } else if (target && typeof target === 'object' && target.synonyms) {
+      const found = target.synonyms.some((c) => h2Headings.includes(c));
+      if (!found && !target.optional) {
+        errors.push(`H2 헤딩 누락 (필수 anchor=${target.anchor}): ${target.synonyms.join(' 또는 ')}`);
+      }
+      // optional이면서 본문에 없으면 그냥 skip (warning도 아님)
     }
   }
   // Citations 헤딩 분리

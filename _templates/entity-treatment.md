@@ -6,23 +6,40 @@ Entity 형판 — treatment (시술/치료)
 복제 방법:
   cp _templates/entity-treatment.md treatments/<slug>.md
 
-기반 운영본: treatments/transcranial-magnetic-stimulation.md (v1.1, source_count 9)
-            treatments/nad-infusion-therapy.md (v6, source_count 7)
+기반 운영본:
+  - treatments/transcranial-magnetic-stimulation.md (v1.1, source_count 9, 옵션 C 표준 6섹션)
+  - treatments/nad-infusion-therapy.md (v6, source_count 7, 옵션 C 표준 6섹션)
+  - treatments/eswt.md (옵션 B 시술 표준 7섹션)
+  - treatments/exercise-therapy.md (옵션 A 간소화 4섹션)
 
 작성 규칙 — entity-condition.md 형판 1~9번 룰 모두 적용. 차이점만 아래.
 
 ▼ treatment 전용 차이
 
-A. **본문 6섹션** (condition과 다름):
-   적응증 / 분자 기전 (또는 작동 원리) / 임상 evidence (또는 임상 근거) / 언제 고려 / 기대효과 / 한계·주의점
-   - linkbase_tone_and_ai_search_strategy.md:34 — nad-infusion-therapy.md 템플릿
-   - 비약물 시술(TMS 등)은 "분자 기전" 대신 "작동 원리"
-   - "임상 evidence" 또는 "임상 근거" — 한글 일관성 유지
+A. **anchor enum + H2 헤딩 매핑** (Entity Anchor Enum v1, 2026-05-20)
+   wiki/decisions/entity_anchor_enum_v1.md 결정문 — yhlinker backend
+   pillar-patch-proposer.service.ts ANCHOR_TO_HEADING_BY_TYPE.treatment 와 일치.
 
-B. **anchor 매핑 미정** (yhlinker backend 누락):
-   - pillar-patch-proposer.service.ts:42-49 VALID_ANCHORS는 condition 어휘 6개 (definition/pathophysiology/symptoms/diagnosis/treatment/prognosis)
-   - treatment entity는 한국어 헤딩과 매칭 안 됨. backend 보강 전까지는 anchor 활용 제한적
-   - pillar 글 frontmatter knowledge_entity_anchors에는 적응증/임상 evidence/기대효과 등을 박더라도 LLM patch는 헤딩 매칭 실패 가능
+   treatment는 운영본 28개가 6패턴으로 정착되어 단일 헤딩 강제 불가.
+   anchor enum 6개 (필수 2 + 선택 4) + 동의어 그룹 H2 헤딩으로 흡수:
+
+   | anchor (영문)     | H2 헤딩 동의어 그룹                                                              | 필수 여부 |
+   |-------------------|--------------------------------------------------------------------------------|-----------|
+   | indication        | 적응증 / 정의·종류 / 정의·개요 / 정의·overview / 적응증·접종 권고                   | 필수     |
+   | mechanism         | 분자 기전 / 작동 원리 / 작용 기전 / 정의·기전 / 정의 / 작용 기전·근거               | 선택     |
+   | evidence          | 임상 evidence / 임상 근거 / 근거 요약 / 약물별 evidence                           | 선택     |
+   | when_considered   | 언제 고려                                                                       | 선택     |
+   | expected_effect   | 기대효과                                                                        | 선택     |
+   | limitations       | 한계/주의점 / 한계·주의점 / 부작용·주의사항 / 부작용·금기 / 부작용·주의 환자군 / 약물과 시술의 관계 | 필수     |
+
+   pillar-patch가 blog의 knowledge_entity_anchors 에서 anchor 받아
+   본문에 있는 동의어 그룹 첫 매치 헤딩으로 patch 적용.
+
+B. **추천 패턴 — 옵션 C 표준 6섹션** (이 형판 기본 골격, TMS/NAD+ 패턴):
+   적응증 / 분자 기전(또는 작동 원리) / 임상 evidence(또는 임상 근거) / 언제 고려 / 기대효과 / 한계·주의점
+
+   운영본 다른 변형 (옵션 A 간소화, 옵션 B 시술, 옵션 D 카테고리)도 anchor enum
+   동의어 그룹으로 자동 매칭됨 — 신규 entity는 추천 패턴부터 시작 권장.
 
 C. **하위 섹션 (H3)**:
    - 임상 evidence는 적응증별로 ### 만성 통증 / ### 두통 / ### 불면 같이 분할 가능 (TMS 패턴)

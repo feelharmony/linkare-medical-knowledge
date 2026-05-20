@@ -8,6 +8,21 @@ Entity 형판 — condition (질환)
 
 작성 규칙 (linkbase_pillar_only_gate_v1.md 룰 + yhlinker backend 명세 정합):
 
+0. **anchor enum + H2 헤딩 매핑** (Entity Anchor Enum v1, 2026-05-20)
+   wiki/decisions/entity_anchor_enum_v1.md 결정문 — yhlinker backend
+   pillar-patch-proposer.service.ts ANCHOR_TO_HEADING_BY_TYPE.condition 와 일치.
+
+   | anchor (영문)   | H2 헤딩 (한국어) | 필수 여부 |
+   |-----------------|-----------------|-----------|
+   | definition      | 정의           | 필수      |
+   | pathophysiology | 병태           | 필수      |
+   | symptoms        | 증상           | 필수      |
+   | diagnosis       | 진단           | 필수      |
+   | treatment       | 치료           | 필수      |
+   | prognosis       | 예후           | 필수      |
+
+   condition은 6개 모두 1:1 매핑 — 운영본 30+개 일관 준수.
+
 1. **frontmatter 필수 필드 12개** (아래 frontmatter 그대로 채우기)
    - 기본 8개: entity_id / entity_type / permalink / title / title_en / description / last_reviewed / version / locked / source_count
    - footnote 4개: source_count_external / source_count_clinic_pillar / clinic_footnote_ids / external_footnote_ids
