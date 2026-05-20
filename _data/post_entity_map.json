@@ -361,5 +361,18 @@
     "sub_topic_type": null,
     "is_pillar": false,
     "tenant_key": "apfree"
+  },
+  {
+    "post_path": "content/thr/en/treatments/tms-transcranial-magnetic-stimulation-a-non-invasive-neuromo.md",
+    "source_article_url": "https://thewellsr.kr/en/blog/tms-transcranial-magnetic-stimulation-a-non-invasive-neuromo",
+    "source_article_title": "TMS (Transcranial Magnetic Stimulation) — A Non-Invasive Neuromodulation Treatment for Chronic Headache, Insomnia, and Nervous System Sensitization",
+    "primary_entity_id": "transcranial-magnetic-stimulation",
+    "entity_ids": [
+      "transcranial-magnetic-stimulation"
+    ],
+    "updated_at": "2026-05-20",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr"
   }
 ]
