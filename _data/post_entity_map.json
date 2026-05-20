@@ -348,5 +348,18 @@
     "sub_topic_type": null,
     "is_pillar": false,
     "tenant_key": "thr"
+  },
+  {
+    "post_path": "content/apfree/en/conditions/calcific-tendinitis-from-the-causes-of-shoulder-pain-to-non-.md",
+    "source_article_url": "https://ansimpainfree.kr/en/blog/calcific-tendinitis-from-the-causes-of-shoulder-pain-to-non-",
+    "source_article_title": "Calcific Tendinitis — From the Causes of Shoulder Pain to Non-Surgical Treatment",
+    "primary_entity_id": "calcific-tendinitis",
+    "entity_ids": [
+      "calcific-tendinitis"
+    ],
+    "updated_at": "2026-05-20",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree"
   }
 ]
