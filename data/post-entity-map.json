@@ -335,5 +335,18 @@
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree",
     "updated_at": "2026-05-01"
+  },
+  {
+    "post_path": "content/thr/ko/---tms/tms.md",
+    "source_article_url": "https://thewellsr.kr/blog/tms",
+    "source_article_title": "TMS(경두개 자기 자극) — 만성 두통·불면증·신경계 민감도 조절의 비침습 신경조절 치료",
+    "primary_entity_id": "transcranial-magnetic-stimulation",
+    "entity_ids": [
+      "transcranial-magnetic-stimulation"
+    ],
+    "updated_at": "2026-05-20",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr"
   }
 ]
