@@ -20,6 +20,10 @@ version: 5
 locked: true
 verified_by: '사장님 + Claude + GPT 합의 (5/4 v6, 5/9 v7 정정)'
 next_review: '2026-08-09'
+source_count_external: 8
+source_count_clinic_pillar: 1
+clinic_footnote_ids: [9]
+external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8]
 ---
 ## 정의
 체외충격파 치료(extracorporeal shock wave therapy, ESWT)는 체외에서 발생시킨 **고에너지 음향 압력파**를 표적 조직에 전달해 통증 완화·조직 회복을 유도하는 비수술 치료입니다 [^1]. 음향 매질 안에서 음속보다 빠르게 전파되는 압력파를 만들어 표적 부위에 적용하며, 시술자가 평가에 기반해 표적·강도·횟수를 조정합니다.
@@ -116,15 +120,27 @@ Auersperg & Trieb 2020 EFORT Open Reviews는 가성관절증(pseudoarthrosis)·�
 ---
 
 ## Citations
-[^1]: [pubmed.ncbi.nlm.nih.gov/33204500/](https://pubmed.ncbi.nlm.nih.gov/33204500/)
-[^2]: [www.jospt.org/doi/10.2519/jospt.2022.0302](https://www.jospt.org/doi/10.2519/jospt.2022.0302)
-[^3]: [onlinelibrary.wiley.com/doi/10.1002/pri.2106](https://onlinelibrary.wiley.com/doi/10.1002/pri.2106)
-[^4]: [pmc.ncbi.nlm.nih.gov/articles/PMC11069249/](https://pmc.ncbi.nlm.nih.gov/articles/PMC11069249/)
-[^5]: [pubmed.ncbi.nlm.nih.gov/38882231/](https://pubmed.ncbi.nlm.nih.gov/38882231/)
-[^6]: [pubmed.ncbi.nlm.nih.gov/39257331/](https://pubmed.ncbi.nlm.nih.gov/39257331/)
-[^7]: [www.jospt.org/doi/10.2519/jospt.2025.13182](https://www.jospt.org/doi/10.2519/jospt.2025.13182)
-[^8]: [jkoa.org/DOIx.php](https://jkoa.org/DOIx.php?id=10.4055/jkoa.2024.59.4.235)
+### 자사 임상 자료
+
 [^9]: [ansimpainfree.kr/blog/extracorporeal-shock-wave-therapy](https://ansimpainfree.kr/blog/extracorporeal-shock-wave-therapy)
+
+### 외부 권위 출처
+
+[^1]: [pubmed.ncbi.nlm.nih.gov/33204500/](https://pubmed.ncbi.nlm.nih.gov/33204500/)
+
+[^2]: [www.jospt.org/doi/10.2519/jospt.2022.0302](https://www.jospt.org/doi/10.2519/jospt.2022.0302)
+
+[^3]: [onlinelibrary.wiley.com/doi/10.1002/pri.2106](https://onlinelibrary.wiley.com/doi/10.1002/pri.2106)
+
+[^4]: [pmc.ncbi.nlm.nih.gov/articles/PMC11069249/](https://pmc.ncbi.nlm.nih.gov/articles/PMC11069249/)
+
+[^5]: [pubmed.ncbi.nlm.nih.gov/38882231/](https://pubmed.ncbi.nlm.nih.gov/38882231/)
+
+[^6]: [pubmed.ncbi.nlm.nih.gov/39257331/](https://pubmed.ncbi.nlm.nih.gov/39257331/)
+
+[^7]: [www.jospt.org/doi/10.2519/jospt.2025.13182](https://www.jospt.org/doi/10.2519/jospt.2025.13182)
+
+[^8]: [jkoa.org/DOIx.php](https://jkoa.org/DOIx.php?id=10.4055/jkoa.2024.59.4.235)
 
 ## Changelog
 - 2026-05-09 v7: **citation 룰 v2.1 적용 + 본문 1단계 보강 + 관련 임상 자료 정정**. ① **abstract 정합성 정정 4건** (citation 룰 v2.1 4종 정합성 의무 적용) — Brindisino 2024 [^3] "24주 미만 통증·기능" → "12주 시점 통증·기능·석회 흡수율" (abstract 표현), "focal·radial 차이 없음" → "동등한 효과", UGN 단기 우수 추가 / Xue 2024 [^4] "(석회성·비석회성 포함)" 제거 + "외전 ROM 차이 없음" 균형 추가 / Forogh 2024 [^5] "장기 석회 흡수에서 우수" → "단기 1주 ESWT 우수·장기 1주 이후 UGPL 우수" 균형 / Lippi 2024 [^6] "에너지·횟수·간격" → "에너지·빈도(frequency)" + "치료 순응" → "치료 완수" abstract 표현. 근거 요약 [^5] 항목도 동일 정정. ② **본문 1단계 보강 4건** (자사 글 ESWT 미반영 3건에서 한국 임상 정보 추출) — focal/radial 임상 매칭 (focal=깊은 석회·radial=표재 근막) / 작용 기전 substance P 농도 감소 / 시술 방식 한국 임상 주1~2회 3~5회 + 반응 시점 4~12주 점진 / 족저근막염 스테로이드 vs ESWT 단계적 위치. 외부 출처 받침 가능한 부분은 footnote 박지 않고 일반 진술(한국 임상 컨텍스트 표현). ③ **관련 임상 자료 URL 정정** — `/knowledge/` → `/blog/` 정정 + thr 족저근막염 spoke `nowon-plantar-fasciitis-shock-wave-therapy` 추가 (3건). ④ source_count 8 유지(외부 footnote만 합산 — Phase 4 분리 entity 룰), version 6→7.

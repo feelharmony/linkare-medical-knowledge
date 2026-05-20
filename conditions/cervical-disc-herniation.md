@@ -12,6 +12,10 @@ verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 7
 version: 6
+source_count_external: 6
+source_count_clinic_pillar: 1
+clinic_footnote_ids: [1]
+external_footnote_ids: [2, 3, 4, 5, 6, 7]
 ---
 ## 정의
 목디스크는 경추 사이의 디스크가 손상되어 신경근이나 척수를 압박하면서 목 통증, 어깨 통증, 팔 저림을 유발할 수 있는 질환입니다 [^1]. 한국 국민건강보험공단(NHIS) 기반 연구(Kim YK et al., 2018, 2004~2010 자료)에서 증상이 있는 경추 추간판 탈출증의 발생률은 연령에 따라 증가하고, 여성에서 더 높게 나타나는 경향이 보고되었습니다 [^3].
@@ -66,11 +70,22 @@ CT는 뼈의 변화나 골극(뼈가 자란 것)을 평가하는 데 유용하�
 ---
 
 ## Citations
+### 자사 임상 자료
+
+[^1]: [안심튼튼 — 목디스크 원인·증상·진단부터 단계별 비수술 치료까지](https://ansimpainfree.kr/blog/cervical-disc-herniation)
+
+### 외부 권위 출처
+
 [^2]: [pmc.ncbi.nlm.nih.gov/articles/PMC3611065/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3611065/)
+
 [^3]: [pmc.ncbi.nlm.nih.gov/articles/PMC6210730/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6210730/)
+
 [^4]: [pubmed.ncbi.nlm.nih.gov/21168100/](https://pubmed.ncbi.nlm.nih.gov/21168100/)
+
 [^5]: [www.sciencedirect.com/science/article/abs/pii/S0949265822001154](https://www.sciencedirect.com/science/article/abs/pii/S0949265822001154)
+
 [^6]: [pubmed.ncbi.nlm.nih.gov/23778373/](https://pubmed.ncbi.nlm.nih.gov/23778373/)
+
 [^7]: [pmc.ncbi.nlm.nih.gov/articles/PMC8088536/](https://pmc.ncbi.nlm.nih.gov/articles/PMC8088536/)
 
 ## Changelog

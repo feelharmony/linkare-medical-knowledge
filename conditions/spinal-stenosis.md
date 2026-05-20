@@ -21,6 +21,10 @@ verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 7
 version: 2
+source_count_external: 7
+source_count_clinic_pillar: 0
+clinic_footnote_ids: []
+external_footnote_ids: [1, 2, 3, 4, 5, 6, 7]
 ---
 ## 정의
 척추관 협착증(spinal stenosis)은 척추관·외측 함요(lateral recess)·신경공(foramen)이 퇴행성 변화로 좁아져 신경근·마미 신경이 압박되는 질환입니다 [^2][^3]. 가장 흔한 형태는 **요추 척추관 협착증**(lumbar spinal stenosis, LSS)으로, 요추 부위에서 척수원뿔(conus medullaris) 아래 마미 신경(cauda equina)이 지나가는 구간이라 압박 대상이 척수가 아닌 신경근·마미 신경입니다 [^3]. 50대 이후 발생률이 증가하며 미국에서 매년 약 20만 명 이상이 진료를 받는 흔한 만성 통증 원인입니다 (평균 진료 연령 약 64세) [^3]. 한국 NHIS 자료(Lee CH 2018)에서 **60세 이상 척추 질환 중 M48 진단 코드**(spondylopathies, 척추관 협착증·강직성 척추뼈비대 등 포함)가 발생률·의료비 모두 1위로 보고되며, 75~79세 연령군에서 척추 질환 발생률이 약 42.6%에 이릅니다 [^7]. 환자가 흔히 호소하는 다리 저림·방사통의 더 큰 임상 분류는 [다리 저림·방사통](/symptoms/leg-numbness/) 항목 참고.
@@ -104,12 +108,20 @@ version: 2
 - [안심튼튼 — 좌골신경통](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
 
 ## Citations
+### 외부 권위 출처
+
 [^1]: [NICE Guideline NG59 — Low back pain and sciatica in over 16s: assessment and management. Published 30 November 2016, last updated 11 December 2020. National Institute for Health and Care Excellence (UK)](https://www.nice.org.uk/guidance/ng59)
+
 [^2]: [Kreiner DS, Shaffer WO, Baisden JL, et al; North American Spine Society. An evidence-based clinical guideline for the diagnosis and treatment of degenerative lumbar spinal stenosis (update). Spine J. 2013;13(7):734-743. PMID 23830297. DOI 10.1016/j.spinee.2012.10.009](https://pubmed.ncbi.nlm.nih.gov/23830297/)
+
 [^3]: [Webb CW, Aguirre K, Seidenberg PH. Lumbar Spinal Stenosis: Diagnosis and Management. Am Fam Physician. 2024;109(4):350-359. PMID 38648834](https://pubmed.ncbi.nlm.nih.gov/38648834/)
+
 [^4]: [Expert Panel on Neurological, Spine, and Other MSK Imaging. ACR Appropriateness Criteria® Low Back Pain: 2021 Update. J Am Coll Radiol. 2021;18(11S):S361-S379. PMID 34794594. DOI 10.1016/j.jacr.2021.08.002](https://pubmed.ncbi.nlm.nih.gov/34794594/)
+
 [^5]: [AANS — Cauda Equina Syndrome (Patient Information)](https://www.aans.org/patients/conditions-treatments/cauda-equina-syndrome/)
+
 [^6]: [Weinstein JN, Tosteson TD, Lurie JD, et al. Surgical versus nonoperative treatment for lumbar spinal stenosis four-year results of the Spine Patient Outcomes Research Trial. Spine. 2010;35(14):1329-1338. PMID 20453723. DOI 10.1097/BRS.0b013e3181e0f04d](https://pubmed.ncbi.nlm.nih.gov/20453723/)
+
 [^7]: [Lee CH, Chung CK, Kim CH, Kwon JW. Health Care Burden of Spinal Diseases in the Republic of Korea: Analysis of a Nationwide Database From 2012 Through 2016. Neurospine. 2018;15(1):66-76. PMID 29656624](https://pubmed.ncbi.nlm.nih.gov/29656624/)
 
 ## Changelog

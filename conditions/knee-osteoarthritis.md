@@ -12,6 +12,10 @@ verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 8
 version: 3
+source_count_external: 6
+source_count_clinic_pillar: 2
+clinic_footnote_ids: [1, 2]
+external_footnote_ids: [3, 4, 5, 6, 7, 8]
 ---
 ## 정의
 무릎 골관절염(knee osteoarthritis)은 무릎 관절 연골이 닳으면서 통증과 움직임 제한을 일으키는 대표적 퇴행성 관절 질환입니다 [^1][^4]. 한국인을 대상으로 한 국민건강영양조사(KNHANES 2010~2013) 분석(Hong JW et al., 2020)에서 50세 이상 한국 성인 가운데 영상으로 진단되는 무릎 골관절염(Kellgren-Lawrence 등급 2 이상)이 35.1%(남 24.4%, 여 44.3%)에서 발견되었고, 80세 이상 여성에서는 약 78.7%까지 올라갔습니다 [^3]. 다만 이 연구는 영상 소견에 초점을 맞췄으므로, 영상에서 보이는 정도가 곧바로 환자가 느끼는 통증의 정도를 의미하지는 않습니다 [^3].
@@ -50,11 +54,24 @@ OARSI 2019 가이드라인도 핵심 치료(core treatment)로 환자 교육, �
 [^2]: [안심튼튼 — 자가조직 줄기세포 치료](https://ansimpainfree.kr/blog/autologous-stem-cell-therapy)
 
 ## Citations
+### 자사 임상 자료
+
+[^1]: [더웰스 — 무릎 통증 관리·예방 운동 습관](https://thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits)
+
+[^2]: [안심튼튼 — 자가조직 줄기세포 치료](https://ansimpainfree.kr/blog/autologous-stem-cell-therapy)
+
+### 외부 권위 출처
+
 [^3]: [Hong JW, Noh JH, Kim D-J. The prevalence of and demographic factors associated with radiographic knee osteoarthritis in Korean adults aged ≥ 50 years: The 2010-2013 Korea National Health and Nutrition Examination Survey. PLOS One. 2020;15(3):e0230613](https://pmc.ncbi.nlm.nih.gov/articles/PMC7083301/)
+
 [^4]: [Brophy RH, Fillingham YA. AAOS Clinical Practice Guideline Summary: Management of Osteoarthritis of the Knee (Nonarthroplasty), Third Edition. J Am Acad Orthop Surg. 2022;30(9):e721-e729 (PMID 35383651)](https://pubmed.ncbi.nlm.nih.gov/35383651/)
+
 [^5]: [Bannuru RR et al. OARSI guidelines for the non-surgical management of knee, hip, and polyarticular osteoarthritis. Osteoarthritis Cartilage. 2019;27(11):1578-1589 (PMID 31278997)](https://pubmed.ncbi.nlm.nih.gov/31278997/)
+
 [^6]: [Kolasinski SL et al. 2019 American College of Rheumatology/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee. Arthritis Rheumatol. 2020;72(2):220-233 (PMID 31908163)](https://pubmed.ncbi.nlm.nih.gov/31908163/)
+
 [^7]: [무릎 골관절염의 자가 혈소판 풍부 혈장 관절강내 주사 — 신의료기술평가 결과 (보건복지부 고시 제2024-254호, 2024-12-13; 작업 시점 2026-05 인용). ⚠️ 행정 규정으로 변경 가능 — 진료 시점 의료진 상담 권장](https://k-knowledge.kr/srch/read.jsp?id=265937048)
+
 [^8]: [Bensa A, Previtali D, Sangiorgio A, Boffa A, Salerno M, Filardo G. PRP Injections for the Treatment of Knee Osteoarthritis: The Improvement Is Clinically Significant and Influenced by Platelet Concentration: A Meta-analysis of Randomized Controlled Trials. Am J Sports Med. 2025;53(3):745-754. DOI 10.1177/03635465241246524](https://pmc.ncbi.nlm.nih.gov/articles/PMC11874499/)
 
 ## Changelog

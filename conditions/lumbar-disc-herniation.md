@@ -12,6 +12,10 @@ verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 10
 version: 5
+source_count_external: 7
+source_count_clinic_pillar: 2
+clinic_footnote_ids: [1, 2]
+external_footnote_ids: [3, 4, 5, 6, 7, 8, 9]
 ---
 ## 정의
 허리디스크는 척추뼈 사이의 추간판이 탈출하여 신경을 압박하는 상태를 말합니다. 추간판은 중심부의 수핵과 이를 둘러싼 섬유륜으로 구성되며, 추간판 탈출 시 통증과 신경학적 증상을 유발할 수 있습니다 [^1]. 한국 19세 남성 인구 기반 연구(Kim DK et al., 2011, n=39,673)에서 유병률은 약 0.60%로 보고되며, 가장 흔한 탈출 부위는 L4/5(약 50.6%)와 L5/S1(약 40.8%)입니다 [^8].
@@ -56,12 +60,26 @@ version: 5
 ---
 
 ## Citations
+### 자사 임상 자료
+
+[^1]: [안심튼튼 — 허리디스크 원인, 증상, 진단](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
+
+[^2]: [안심튼튼 — 허리디스크 증상, 허리보다 다리가 먼저 아픈 이유](https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk)
+
+### 외부 권위 출처
+
 [^3]: [pmc.ncbi.nlm.nih.gov/articles/PMC9381076/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9381076/)
+
 [^4]: [pmc.ncbi.nlm.nih.gov/articles/PMC12242740/](https://pmc.ncbi.nlm.nih.gov/articles/PMC12242740/)
+
 [^5]: [pmc.ncbi.nlm.nih.gov/articles/PMC11425427/](https://pmc.ncbi.nlm.nih.gov/articles/PMC11425427/)
+
 [^6]: [www.spine.org/documents/researchclinicalcare/guidelines/lumbardischerniation.pdf](https://www.spine.org/documents/researchclinicalcare/guidelines/lumbardischerniation.pdf)
+
 [^7]: [www.aans.org/patients/conditions-treatments/cauda-equina-syndrome/](https://www.aans.org/patients/conditions-treatments/cauda-equina-syndrome/)
+
 [^8]: [pmc.ncbi.nlm.nih.gov/articles/PMC4461737/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4461737/)
+
 [^9]: [pubmed.ncbi.nlm.nih.gov/37559207/](https://pubmed.ncbi.nlm.nih.gov/37559207/)
 
 ## Changelog

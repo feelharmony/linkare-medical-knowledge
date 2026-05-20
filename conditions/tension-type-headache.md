@@ -19,6 +19,10 @@ verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 5
 version: 2
+source_count_external: 5
+source_count_clinic_pillar: 0
+clinic_footnote_ids: []
+external_footnote_ids: [2, 3, 4, 5, 6]
 ---
 ## 정의
 긴장형 두통(tension-type headache, TTH)은 ICHD-3 분류의 1차성 두통 중 가장 흔한 유형으로, 양측성·압박성·조이는 듯한 양상의 가벼운~중등도 두통이 특징입니다. 일상 활동으로 악화되지 않으며 구역·구토를 동반하지 않습니다 [^2]. 빈도에 따라 **드문 발작성**(infrequent episodic, 월 1일 미만), **잦은 발작성**(frequent episodic, 월 1~14일), **만성**(chronic, 월 15일 이상)으로 구분됩니다 [^2]. 한국 1년 유병률은 약 30.8%로 보고되며 모든 두통 중 가장 흔합니다 [^4]. 더 큰 두통 분류와 감별 진단 흐름은 [두통](/symptoms/headache/) 항목 참고.
@@ -67,10 +71,16 @@ EFNS 가이드라인은 비약물 치료를 항상 먼저 고려하도록 권고
 - [더웰스 — 두통 관련 글](https://thewellsr.kr/blog/forward-head-posture)
 
 ## Citations
+### 외부 권위 출처
+
 [^2]: [Headache Classification Committee of the International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition (ICHD-3). Cephalalgia. 2018;38(1):1-211. PMID 29368949. DOI 10.1177/0333102417738202](https://pubmed.ncbi.nlm.nih.gov/29368949/)
+
 [^3]: [Viera AJ, Antono B. Acute Headache in Adults: A Diagnostic Approach. Am Fam Physician. 2022;106(3):260-268. PMID 36126007](https://pubmed.ncbi.nlm.nih.gov/36126007/)
+
 [^4]: [Kim BK, Chu MK, Lee TG, Kim JM, Chung CS, Lee KS. Prevalence and impact of migraine and tension-type headache in Korea. J Clin Neurol. 2012;8(3):204-211. PMID 23091530. DOI 10.3988/jcn.2012.8.3.204](https://pubmed.ncbi.nlm.nih.gov/23091530/)
+
 [^5]: [Expert Panel on Neurological Imaging. ACR Appropriateness Criteria® Headache: 2022 Update. J Am Coll Radiol. 2023;20(5S):S70-S93. PMID 37236753. DOI 10.1016/j.jacr.2023.02.018](https://pubmed.ncbi.nlm.nih.gov/37236753/)
+
 [^6]: [Bendtsen L, Evers S, Linde M, Mitsikostas DD, Sandrini G, Schoenen J. EFNS guideline on the treatment of tension-type headache - report of an EFNS task force. Eur J Neurol. 2010;17(11):1318-1325. PMID 20482606. DOI 10.1111/j.1468-1331.2010.03070.x](https://pubmed.ncbi.nlm.nih.gov/20482606/)
 
 ## Changelog

@@ -15,6 +15,10 @@ aliases:
 last_reviewed: '2026-05-03'
 source_count: 5
 version: 1
+source_count_external: 5
+source_count_clinic_pillar: 0
+clinic_footnote_ids: []
+external_footnote_ids: [1, 2, 3, 4, 5]
 ---
 
 ## 정의
@@ -100,8 +104,19 @@ PHN 예방을 위해 **급성기에 적극적 통증 조절·신경차단**이 �
 ---
 
 ## Citations
+### 외부 권위 출처
+
 [^1]: Adriaansen EJM, Jacobs JG, Vernooij LM, et al. 8. Herpes zoster and post herpetic neuralgia. *Pain Practice.* 2025;25(1):e13423. PMID 39364882. DOI: [10.1111/papr.13423](https://onlinelibrary.wiley.com/doi/full/10.1111/papr.13423) — 통증의학 표준 8장 review (2011·2019 update)
+
 [^2]: Clinical Overview of Shingles (Herpes Zoster). *CDC.* 2024 update. URL: [cdc.gov/shingles/hcp/clinical-overview](https://www.cdc.gov/shingles/hcp/clinical-overview/index.html) — 항바이러스 표준(acyclovir·valacyclovir·famciclovir), 72시간 골든타임
+
+[^3]: Lu W, He S, Liu Q, Gu Y, Bai J. Comparative effectiveness of nerve block strategies for preventing postherpetic neuralgia in thoracic herpes zoster: a network meta-analysis. *Front Neurol.* 2025;16:1612871. PMID 40901665. DOI: [10.3389/fneur.2025.1612871](https://pmc.ncbi.nlm.nih.gov/articles/PMC12399379/) — 9 RCT/741명, PVB·ESPB·SGB 비교, PVB 우월
+
+[^4]: Lal H, Cunningham AL, Godeaux O, et al. Efficacy of an Adjuvanted Herpes Zoster Subunit Vaccine in Older Adults (ZOE-50/70). *N Engl J Med.* 2015;372(22):2087-2096 / 2016;375(11):1019-1032. DOI: [10.1056/NEJMoa1501184](https://www.nejm.org/doi/full/10.1056/NEJMoa1501184) — VE 91~97%, PHN VE 88.8%
+
+[^5]: Strezova A, Diez-Domingo J, Al Shawafi K, et al. Final analysis of the ZOE-LTFU trial to 11 years post-vaccination: efficacy of the adjuvanted recombinant zoster vaccine against herpes zoster and related complications. *eClinicalMedicine.* 2025;83:103241. PMID 40630610. DOI: [10.1016/j.eclinm.2025.103241](https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(25)00173-7/fulltext) — 11년 추적, VE 87.7% 유지
+
+Zoster). *CDC.* 2024 update. URL: [cdc.gov/shingles/hcp/clinical-overview](https://www.cdc.gov/shingles/hcp/clinical-overview/index.html) — 항바이러스 표준(acyclovir·valacyclovir·famciclovir), 72시간 골든타임
 [^3]: Lu W, He S, Liu Q, Gu Y, Bai J. Comparative effectiveness of nerve block strategies for preventing postherpetic neuralgia in thoracic herpes zoster: a network meta-analysis. *Front Neurol.* 2025;16:1612871. PMID 40901665. DOI: [10.3389/fneur.2025.1612871](https://pmc.ncbi.nlm.nih.gov/articles/PMC12399379/) — 9 RCT/741명, PVB·ESPB·SGB 비교, PVB 우월
 [^4]: Lal H, Cunningham AL, Godeaux O, et al. Efficacy of an Adjuvanted Herpes Zoster Subunit Vaccine in Older Adults (ZOE-50/70). *N Engl J Med.* 2015;372(22):2087-2096 / 2016;375(11):1019-1032. DOI: [10.1056/NEJMoa1501184](https://www.nejm.org/doi/full/10.1056/NEJMoa1501184) — VE 91~97%, PHN VE 88.8%
 [^5]: Strezova A, Diez-Domingo J, Al Shawafi K, et al. Final analysis of the ZOE-LTFU trial to 11 years post-vaccination: efficacy of the adjuvanted recombinant zoster vaccine against herpes zoster and related complications. *eClinicalMedicine.* 2025;83:103241. PMID 40630610. DOI: [10.1016/j.eclinm.2025.103241](https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(25)00173-7/fulltext) — 11년 추적, VE 87.7% 유지

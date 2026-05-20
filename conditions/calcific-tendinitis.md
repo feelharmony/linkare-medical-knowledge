@@ -12,6 +12,10 @@ version: 5
 locked: true
 verified_by: 사장님 + Claude + GPT 합의 (5/2 v3, 5/9 v4 정정, 5/9 v5 자사 보강)
 next_review: '2026-08-09'
+source_count_external: 5
+source_count_clinic_pillar: 2
+clinic_footnote_ids: [1, 7]
+external_footnote_ids: [2, 3, 4, 5, 6]
 ---
 ## 정의
 석회성 건염(calcific tendinitis)은 회전근개 힘줄에 칼슘 하이드록시아파타이트(hydroxyapatite) 결정이 침착되어 통증과 운동 제한을 일으키는 질환입니다 [^1]. 회전근개 건병증의 한 양상으로 다뤄지며, 2025 JOSPT 임상진료지침은 회전근개 건병증의 적용 범위에 석회가 동반된 경우를 함께 포함합니다 [^2].
@@ -48,10 +52,22 @@ next_review: '2026-08-09'
 [^7]: [안심튼튼 — 대구 석회성건염 치료, 초음파주사와 체외충격파](https://blog.naver.com/ansimpainfree/224242287894)
 
 ## Citations
+### 자사 임상 자료
+
+[^1]: [안심튼튼 — 어깨 통증 관리·예방·재발](https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse)
+
+[^7]: [안심튼튼 — 대구 석회성건염 치료, 초음파주사와 체외충격파](https://blog.naver.com/ansimpainfree/224242287894)
+
+### 외부 권위 출처
+
 [^2]: [Desmeules F, Roy JS, Lafrance S, Charron M, Dubé MO, Dupuis F, Beneciuk JM, Grimes J, Kim HM, Lamontagne M, McCreesh K, Shanley E, Vukobrat T, Michener LA. Rotator Cuff Tendinopathy Diagnosis, Nonsurgical Medical Care, and Rehabilitation: A Clinical Practice Guideline. J Orthop Sports Phys Ther. 2025;55(4):235-274. DOI 10.2519/jospt.2025.13182 (PMID 40165544, AOPT/APTA, with calcifications 적용 포함)](https://www.jospt.org/doi/10.2519/jospt.2025.13182)
+
 [^3]: [Brindisino F, Marruganti S, Lorusso D, Cavaggion C, Ristori D. The effectiveness of extracorporeal shock wave therapy for rotator cuff calcific tendinopathy. A systematic review with meta-analysis. Physiother Res Int. 2024;29(3):e2106. DOI 10.1002/pri.2106 (PMID 38878302, 21 RCTs, 근거 확실성 낮음)](https://onlinelibrary.wiley.com/doi/abs/10.1002/pri.2106)
+
 [^4]: [Xue X, Song Q, Yang X, Kuati A, Fu H, Liu Y, Cui G. Effect of extracorporeal shockwave therapy for rotator cuff tendinopathy: a systematic review and meta-analysis. BMC Musculoskelet Disord. 2024;25:357. DOI 10.1186/s12891-024-07445-7 (PMID 38704572, 16 RCTs 1,093명, 회전근개 건병증, risk of bias·heterogeneity 보고, GRADE 평가 없음)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11069249/)
+
 [^5]: [Moosmayer S et al. Ultrasound guided lavage with corticosteroid injection versus sham lavage with and without corticosteroid injection for calcific tendinopathy of shoulder: randomised double blinded multi-arm study. BMJ. 2023;383:e076447. DOI 10.1136/bmj-2023-076447 (PMID 37821122, 220명 sham 대조 RCT, 24개월 추적, lavage+steroid vs sham 차이 없음)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10565688/)
+
 [^6]: [Forogh B, Karami A, Bagherzadeh Cham M. Effect of extracorporeal shock wave therapy and ultrasound-guided percutaneous lavage in reducing the pain of rotator cuff calcific tendinopathy; an updated systematic review and meta-analysis. J Orthop. 2024;56:151-160. DOI 10.1016/j.jor.2024.05.023 (PMID 38882231, 22 studies 779명, 단기 1주 ESWT 우수·장기 UGPL 우수)](https://pubmed.ncbi.nlm.nih.gov/38882231/)
 
 ## Changelog

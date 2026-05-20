@@ -17,6 +17,10 @@ version: 3
 locked: true
 verified_by: 사장님 + Claude + GPT 합의 (5/3 v2, 5/9 v3 자사 보강)
 next_review: '2026-08-09'
+source_count_external: 5
+source_count_clinic_pillar: 1
+clinic_footnote_ids: [6]
+external_footnote_ids: [1, 2, 3, 4, 5]
 ---
 
 ## 정의
@@ -116,10 +120,23 @@ PHN으로 진행한 환자에서도 다학제 통증 관리로 의미 있는 회
 [^6]: [안심튼튼 — 대구 대상포진 후 신경통, 수포가 나아도 통증이 계속된다면](https://blog.naver.com/ansimpainfree/224271572126)
 
 ## Citations
+### 자사 임상 자료
+
+[^6]: [안심튼튼 — 대구 대상포진 후 신경통, 수포가 나아도 통증이 계속된다면](https://blog.naver.com/ansimpainfree/224271572126)
+
+### 외부 권위 출처
+
 [^1]: Adriaansen EJM, Jacobs JG, Vernooij LM, et al. 8. Herpes zoster and post herpetic neuralgia. *Pain Practice.* 2025;25(1):e13423. PMID 39364882. DOI: [10.1111/papr.13423](https://onlinelibrary.wiley.com/doi/full/10.1111/papr.13423) — 통증의학 표준 8장 review
+
 [^2]: Efficacy and safety of different medications compared for the treatment of postherpetic neuralgia: a network meta-analysis. *Front Pharmacol.* 2025;16:1614587. URL: [frontiersin.org](https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1614587/full) — 38 RCT/8,621명, gabapentinoid·TCA·lidocaine 1차 옵션 평가
+
 [^3]: Lu W, He S, Liu Q, Gu Y, Bai J. Comparative effectiveness of nerve block strategies for preventing postherpetic neuralgia in thoracic herpes zoster: a network meta-analysis. *Front Neurol.* 2025;16:1612871. PMID 40901665. DOI: [10.3389/fneur.2025.1612871](https://pmc.ncbi.nlm.nih.gov/articles/PMC12399379/) — 9 RCT/741명, PVB·ESPB 우월
+
 [^4]: Lal H, Cunningham AL, Godeaux O, et al. Efficacy of an Adjuvanted Herpes Zoster Subunit Vaccine in Older Adults (ZOE-50/70). *N Engl J Med.* 2015;372(22):2087-2096 / 2016;375(11):1019-1032. — 백신 효과 91~97%, PHN VE 88.8%
+
+[^5]: Shingles Facts and Stats. *CDC.* 2024 update. URL: [cdc.gov/shingles/data-research](https://www.cdc.gov/shingles/data-research/index.html) — PHN 발생률 약 10~18% (대상포진 환자 중)
+
+Zoster Subunit Vaccine in Older Adults (ZOE-50/70). *N Engl J Med.* 2015;372(22):2087-2096 / 2016;375(11):1019-1032. — 백신 효과 91~97%, PHN VE 88.8%
 [^5]: Shingles Facts and Stats. *CDC.* 2024 update. URL: [cdc.gov/shingles/data-research](https://www.cdc.gov/shingles/data-research/index.html) — PHN 발생률 약 10~18% (대상포진 환자 중)
 
 ## Changelog

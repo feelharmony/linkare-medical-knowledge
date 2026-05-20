@@ -873,13 +873,15 @@
     "name_en": "medial epicondylitis",
     "aliases": [
       "골프엘보",
-      "golfer's elbow"
+      "골프 엘보",
+      "golfer's elbow",
+      "medial epicondylitis"
     ],
-    "description_ko": "팔꿈치 내측 힘줄의 만성 손상",
+    "description_ko": "팔꿈치 내측 힘줄의 만성 손상으로 통증·기능 저하를 일으키는 힘줄병증",
     "status": "approved",
-    "last_reviewed": "2026-04-29",
-    "source_count": 0,
-    "version": 4
+    "last_reviewed": "2026-05-20",
+    "source_count": 6,
+    "version": 3
   },
   {
     "id": "meniscus-tear",
@@ -1306,5 +1308,23 @@
     "last_reviewed": null,
     "source_count": 1,
     "version": 1
+  },
+  {
+    "id": "transcranial-magnetic-stimulation",
+    "type": "treatment",
+    "name_ko": "경두개 자기 자극 (TMS)",
+    "name_en": "transcranial magnetic stimulation",
+    "aliases": [
+      "TMS",
+      "rTMS",
+      "repetitive Transcranial Magnetic Stimulation",
+      "경두개자기자극",
+      "두뇌 자기 자극"
+    ],
+    "description_ko": "펄스 자기장으로 두피 위에서 대뇌피질 신경회로를 비침습적으로 자극하는 시술. 만성 통증·두통·불면·신경계 민감도 영역에서 근거가 누적되고 있으며, 우울·OCD는 FDA 시판 허가 적응증.",
+    "status": "approved",
+    "last_reviewed": "2026-05-20",
+    "source_count": 9,
+    "version": 1.1
   }
 ]

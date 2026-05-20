@@ -18,6 +18,10 @@ verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 7
 version: 2
+source_count_external: 6
+source_count_clinic_pillar: 0
+clinic_footnote_ids: []
+external_footnote_ids: [2, 3, 4, 5, 6, 7]
 ---
 ## 정의
 경추기원 두통(cervicogenic headache, CGH)은 ICHD-3 분류의 11.2.1 항목에 해당하는 **2차성 두통**으로, 경추(cervical spine) 구조에서 비롯된 통증이 머리 부위로 referred 양상으로 나타나는 두통입니다 [^2]. 1990년대 Sjaastad·Cervicogenic Headache International Study Group(CHISG) 진단 기준이 확립되었으며 [^4][^5], ICHD-3는 이를 기반으로 경추 구조 병변에 의한 2차성 두통으로 분류합니다 [^2]. 더 큰 두통 분류와 감별 진단 흐름은 [두통](/symptoms/headache/) 항목 참고. 자세·근막·신경 자극이 함께 관여하며 [거북목·일자목](/conditions/forward-head-posture/)·[목 통증](/symptoms/neck-pain/) 평가와 연결됩니다.
@@ -78,11 +82,18 @@ Sjaastad CHISG 1998 진단 기준의 핵심 임상 특징은 다음과 같습니
 - [더웰스 — 두통 관련 글](https://thewellsr.kr/blog/forward-head-posture)
 
 ## Citations
+### 외부 권위 출처
+
 [^2]: [Headache Classification Committee of the International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition (ICHD-3). Cephalalgia. 2018;38(1):1-211. PMID 29368949. DOI 10.1177/0333102417738202](https://pubmed.ncbi.nlm.nih.gov/29368949/)
+
 [^3]: [Expert Panel on Neurological Imaging. ACR Appropriateness Criteria® Headache: 2022 Update. J Am Coll Radiol. 2023;20(5S):S70-S93. PMID 37236753. DOI 10.1016/j.jacr.2023.02.018](https://pubmed.ncbi.nlm.nih.gov/37236753/)
+
 [^4]: [Antonaci F, Sjaastad O. Cervicogenic headache: clinical presentation, diagnostic criteria, and differential diagnosis. Curr Pain Headache Rep. 2001;5(4):387-392. PMID 11403744. DOI 10.1007/s11916-001-0030-1](https://pubmed.ncbi.nlm.nih.gov/11403744/)
+
 [^5]: [Sjaastad O, Fredriksen TA, Pfaffenrath V. Cervicogenic headache: diagnostic criteria. The Cervicogenic Headache International Study Group. Headache. 1998;38(6):442-445. PMID 9664748. DOI 10.1046/j.1526-4610.1998.3806442.x](https://pubmed.ncbi.nlm.nih.gov/9664748/)
+
 [^6]: [Page P. Cervicogenic headaches: an evidence-led approach to clinical management. Int J Sports Phys Ther. 2011;6(3):254-266. PMC 3201065](https://pmc.ncbi.nlm.nih.gov/articles/PMC3201065/)
+
 [^7]: [Pareek AV, Edmondson E, Kung D. Cervicogenic Headaches: A Literature Review and Proposed Multifaceted Approach to Diagnosis and Management. Neurol Clin. 2024;42(2):543-557. PMID 38575265. DOI 10.1016/j.ncl.2023.12.008](https://pubmed.ncbi.nlm.nih.gov/38575265/)
 
 ## Changelog

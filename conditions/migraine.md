@@ -19,6 +19,10 @@ verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 8
 version: 2
+source_count_external: 8
+source_count_clinic_pillar: 0
+clinic_footnote_ids: []
+external_footnote_ids: [2, 3, 4, 5, 6, 7, 8, 9]
 ---
 ## 정의
 편두통(migraine)은 ICHD-3 분류의 1차성 두통 중 임상적으로 가장 부담이 큰 유형으로, 발작성 두통이 4~72시간 지속되며 편측성·박동성·중등도 이상 강도가 특징입니다. 일상 활동으로 악화되며 구역·구토 또는 빛·소리 과민이 동반됩니다 [^2]. **전조 없는 편두통**(without aura)과 **전조 있는 편두통**(with aura, 일시적 시각·감각·언어 증상 동반)으로 분류되며, 월 15일 이상·3개월 이상 지속되면 **만성 편두통**으로 분류됩니다 [^2].
@@ -81,13 +85,22 @@ ICHD-3 진단 기준은 다음과 같습니다 [^2]:
 - [더웰스 — 두통 관련 글](https://thewellsr.kr/blog/forward-head-posture)
 
 ## Citations
+### 외부 권위 출처
+
 [^2]: [Headache Classification Committee of the International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition (ICHD-3). Cephalalgia. 2018;38(1):1-211. PMID 29368949. DOI 10.1177/0333102417738202](https://pubmed.ncbi.nlm.nih.gov/29368949/)
+
 [^3]: [Viera AJ, Antono B. Acute Headache in Adults: A Diagnostic Approach. Am Fam Physician. 2022;106(3):260-268. PMID 36126007](https://pubmed.ncbi.nlm.nih.gov/36126007/)
+
 [^4]: [Kim BK, Chu MK, Lee TG, Kim JM, Chung CS, Lee KS. Prevalence and impact of migraine and tension-type headache in Korea. J Clin Neurol. 2012;8(3):204-211. PMID 23091530. DOI 10.3988/jcn.2012.8.3.204](https://pubmed.ncbi.nlm.nih.gov/23091530/)
+
 [^5]: [Expert Panel on Neurological Imaging. ACR Appropriateness Criteria® Headache: 2022 Update. J Am Coll Radiol. 2023;20(5S):S70-S93. PMID 37236753. DOI 10.1016/j.jacr.2023.02.018](https://pubmed.ncbi.nlm.nih.gov/37236753/)
+
 [^6]: [Kim BS, Chung PW, Chung JM, et al; Korean Headache Society. Evidence-Based Recommendations on Pharmacologic Treatment for Migraine Prevention: A Clinical Practice Guideline from the Korean Headache Society. Headache Pain Res. 2025;26(1):5-20. DOI 10.62087/hpr.2024.0019](https://e-hpr.org/journal/view.php?number=907)
+
 [^7]: [GBD 2021 Nervous System Disorders Collaborators. Global, regional, and national burden of disorders affecting the nervous system, 1990-2021: a systematic analysis for the Global Burden of Disease Study 2021. Lancet Neurol. 2024;23(4):344-381. PMID 38493795. DOI 10.1016/S1474-4422(24)00038-3](https://pubmed.ncbi.nlm.nih.gov/38493795/)
+
 [^8]: [Charles AC, Digre KB, Goadsby PJ, Robbins MS, Hershey A; American Headache Society. Calcitonin gene-related peptide-targeting therapies are a first-line option for the prevention of migraine: An American Headache Society position statement update. Headache. 2024;64(4):333-341. PMID 38466028. DOI 10.1111/head.14692](https://pubmed.ncbi.nlm.nih.gov/38466028/)
+
 [^9]: [Ailani J, Burch RC, Robbins MS; Board of Directors of the American Headache Society. The American Headache Society Consensus Statement: Update on integrating new migraine treatments into clinical practice. Headache. 2021;61(7):1021-1039. PMID 34160823. DOI 10.1111/head.14153](https://pubmed.ncbi.nlm.nih.gov/34160823/)
 
 ## Changelog

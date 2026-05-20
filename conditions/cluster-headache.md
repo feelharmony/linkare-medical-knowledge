@@ -18,6 +18,10 @@ verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 6
 version: 2
+source_count_external: 5
+source_count_clinic_pillar: 0
+clinic_footnote_ids: []
+external_footnote_ids: [2, 3, 4, 5, 6]
 ---
 ## 정의
 군발성 두통(cluster headache, CH)은 ICHD-3 분류의 삼차자율신경두통(trigeminal autonomic cephalalgias) 가운데 가장 흔한 1차성 두통으로, **편측 안와·관자놀이의 매우 심한 통증**이 15~180분 발작 형태로 반복되며 **같은 쪽 자율신경 증상**을 동반합니다 [^2]. 발작이 수 주~수 개월 동안 군집(cluster)을 이루며 그 사이 관해기를 가지는 **발작성 군발성 두통**(episodic CH, 약 80~90%)과 1년 이상 관해 없이 지속되는 **만성 군발성 두통**(chronic CH)으로 구분됩니다 [^2][^5]. 빈도는 낮지만 통증 강도가 매우 높아 신경과 평가가 필요한 1차성 두통입니다 [^3][^5]. 더 큰 두통 분류와 감별 진단 흐름은 [두통](/symptoms/headache/) 항목 참고.
@@ -81,10 +85,16 @@ Level B로 비강 sumatriptan, sphenopalatine ganglion 자극이 제시됩니다
 - [더웰스 — 두통 관련 글](https://thewellsr.kr/blog/forward-head-posture)
 
 ## Citations
+### 외부 권위 출처
+
 [^2]: [Headache Classification Committee of the International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition (ICHD-3). Cephalalgia. 2018;38(1):1-211. PMID 29368949. DOI 10.1177/0333102417738202](https://pubmed.ncbi.nlm.nih.gov/29368949/)
+
 [^3]: [Viera AJ, Antono B. Acute Headache in Adults: A Diagnostic Approach. Am Fam Physician. 2022;106(3):260-268. PMID 36126007](https://pubmed.ncbi.nlm.nih.gov/36126007/)
+
 [^4]: [Expert Panel on Neurological Imaging. ACR Appropriateness Criteria® Headache: 2022 Update. J Am Coll Radiol. 2023;20(5S):S70-S93. PMID 37236753. DOI 10.1016/j.jacr.2023.02.018](https://pubmed.ncbi.nlm.nih.gov/37236753/)
+
 [^5]: [Robbins MS, Starling AJ, Pringsheim TM, Becker WJ, Schwedt TJ. Treatment of Cluster Headache: The American Headache Society Evidence-Based Guidelines. Headache. 2016;56(7):1093-1106. PMID 27432623. DOI 10.1111/head.12866](https://pubmed.ncbi.nlm.nih.gov/27432623/)
+
 [^6]: [May A, Evers S, Goadsby PJ, et al. European Academy of Neurology guidelines on the treatment of cluster headache. Eur J Neurol. 2023;30(10):2955-2979. PMID 37515405. DOI 10.1111/ene.15956](https://pubmed.ncbi.nlm.nih.gov/37515405/)
 
 ## Changelog
