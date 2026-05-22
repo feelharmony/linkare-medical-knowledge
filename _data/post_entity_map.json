@@ -374,5 +374,18 @@
     "sub_topic_type": null,
     "is_pillar": false,
     "tenant_key": "thr"
+  },
+  {
+    "post_path": "content/thr/ko/-------/nad-tca.md",
+    "source_article_url": "https://thewellsr.kr/blog/nad-tca",
+    "source_article_title": "영양수액과 세포 에너지 대사 — NAD+·마이어스·라이넥·글리시리진의 TCA 사이클 회복 원리",
+    "primary_entity_id": "nutrition-iv-therapy",
+    "entity_ids": [
+      "nutrition-iv-therapy"
+    ],
+    "updated_at": "2026-05-22",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr"
   }
 ]
