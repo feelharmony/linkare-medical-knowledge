@@ -400,5 +400,18 @@
     "sub_topic_type": null,
     "is_pillar": true,
     "tenant_key": "apfree"
+  },
+  {
+    "post_path": "content/thr/ko/-------/hi-ems-tecar-rf.md",
+    "source_article_url": "https://thewellsr.kr/blog/hi-ems-tecar-rf",
+    "source_article_title": "도수치료 · 윈백 Hi-EMS · TECAR RF 결합 — 세 치료가 함께할 때 회복이 달라지는 이유",
+    "primary_entity_id": "hi-ems",
+    "entity_ids": [
+      "hi-ems"
+    ],
+    "updated_at": "2026-05-26",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr"
   }
 ]
