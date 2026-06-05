@@ -413,5 +413,18 @@
     "sub_topic_type": null,
     "is_pillar": false,
     "tenant_key": "thr"
+  },
+  {
+    "post_path": "content/thr/ko/------/frozen-shoulder-pathophysiology.md",
+    "source_article_url": "https://thewellsr.kr/blog/frozen-shoulder-pathophysiology",
+    "source_article_title": "오십견이란 무엇인가 — 굳어가는 관절낭의 병태생리",
+    "primary_entity_id": "frozen-shoulder",
+    "entity_ids": [
+      "frozen-shoulder"
+    ],
+    "updated_at": "2026-06-05",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr"
   }
 ]
