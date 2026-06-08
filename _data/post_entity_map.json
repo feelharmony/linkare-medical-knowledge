@@ -426,5 +426,18 @@
     "sub_topic_type": null,
     "is_pillar": true,
     "tenant_key": "thr"
+  },
+  {
+    "post_path": "content/thr/en/------/what-is-frozen-shoulder-the-pathophysiology-of-a-stiffening-.md",
+    "source_article_url": "https://thewellsr.kr/en/blog/what-is-frozen-shoulder-the-pathophysiology-of-a-stiffening-",
+    "source_article_title": "What Is Frozen Shoulder? — The Pathophysiology of a Stiffening Joint Capsule",
+    "primary_entity_id": "frozen-shoulder",
+    "entity_ids": [
+      "frozen-shoulder"
+    ],
+    "updated_at": "2026-06-08",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr"
   }
 ]
