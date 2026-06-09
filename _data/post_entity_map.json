@@ -439,5 +439,18 @@
     "sub_topic_type": null,
     "is_pillar": true,
     "tenant_key": "thr"
+  },
+  {
+    "post_path": "content/apfree/ko/conditions/cervical-disc-herniation.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/daegu-neck-disc-treatment-methods",
+    "source_article_title": "대구 목디스크 치료 3가지 방법, 잘못 선택하면 계속 재발할 수 있습니다",
+    "primary_entity_id": "cervical-disc-herniation",
+    "entity_ids": [
+      "cervical-disc-herniation"
+    ],
+    "updated_at": "2026-06-09",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree"
   }
 ]
