@@ -338,13 +338,13 @@
   },
   {
     "post_path": "content/thr/ko/---tms/tms.md",
-    "source_article_url": "https://thewellsr.kr/blog/tms",
-    "source_article_title": "TMS(경두개 자기 자극) — 만성 두통·불면증·신경계 민감도 조절의 비침습 신경조절 치료",
+    "source_article_url": "https://thewellsr.kr/blog/chronic-migraine-tms-when-to-consider",
+    "source_article_title": "약과 주사로도 잡히지 않는 만성 두통, TMS는 언제 고려하나",
     "primary_entity_id": "transcranial-magnetic-stimulation",
     "entity_ids": [
       "transcranial-magnetic-stimulation"
     ],
-    "updated_at": "2026-05-20",
+    "updated_at": "2026-06-09",
     "sub_topic_type": null,
     "is_pillar": false,
     "tenant_key": "thr"
