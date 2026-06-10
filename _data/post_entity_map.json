@@ -452,5 +452,18 @@
     "sub_topic_type": null,
     "is_pillar": false,
     "tenant_key": "apfree"
+  },
+  {
+    "post_path": "content/thr/ko/---nad--/nad-infusion-cellular-energy-metabolism.md",
+    "source_article_url": "https://thewellsr.kr/blog/nad-infusion-cellular-energy-metabolism",
+    "source_article_title": "NAD+ 수액 — 세포 에너지 대사부터 적응증·안전 관리까지",
+    "primary_entity_id": "nad-infusion-therapy",
+    "entity_ids": [
+      "nad-infusion-therapy"
+    ],
+    "updated_at": "2026-06-10",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr"
   }
 ]
