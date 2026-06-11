@@ -465,5 +465,18 @@
     "sub_topic_type": null,
     "is_pillar": true,
     "tenant_key": "thr"
+  },
+  {
+    "post_path": "content/thr/en/---nad--/nad-iv-therapy-from-cellular-energy-metabolism-to-indication.md",
+    "source_article_url": "https://thewellsr.kr/en/blog/nad-iv-therapy-from-cellular-energy-metabolism-to-indication",
+    "source_article_title": "NAD+ IV Therapy — From Cellular Energy Metabolism to Indications and Safety",
+    "primary_entity_id": "nad-infusion-therapy",
+    "entity_ids": [
+      "nad-infusion-therapy"
+    ],
+    "updated_at": "2026-06-11",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr"
   }
 ]
