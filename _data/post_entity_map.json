@@ -478,5 +478,18 @@
     "sub_topic_type": null,
     "is_pillar": true,
     "tenant_key": "thr"
+  },
+  {
+    "post_path": "content/apfree/ko/---prp--/prp-4.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/prp-4",
+    "source_article_title": "PRP 재생주사 — 자가 혈소판 농축 치료의 원리·적응증·회복",
+    "primary_entity_id": "prp-injection",
+    "entity_ids": [
+      "prp-injection"
+    ],
+    "updated_at": "2026-06-12",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree"
   }
 ]
