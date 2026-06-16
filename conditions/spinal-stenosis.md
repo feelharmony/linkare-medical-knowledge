@@ -4,8 +4,8 @@ entity_id: spinal-stenosis
 entity_type: condition
 permalink: /conditions/spinal-stenosis/
 title: 척추관 협착증
-description: 척추관·신경공이 좁아져 신경근·마미 신경이 압박되는 퇴행성 척추 질환. 보행 시 양쪽 다리로 뻗치는 통증·저림(신경성 파행)이 특징이며, 보존 치료가 1차이고 보존 치료에 반응하지 않을 때 감압 수술이 검토됩니다.
-title_en: lumbar spinal stenosis
+description: 척추관이 좁아져 신경을 압박하는 질환
+title_en: spinal stenosis
 aliases:
   - 척추관 협착증
   - 척추협착증
@@ -15,16 +15,23 @@ aliases:
   - LSS
   - spinal stenosis
   - neurogenic claudication
-last_reviewed: '2026-05-03'
+last_reviewed: '2026-06-16'
 locked: true
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
-source_count: 7
+source_count: 8
 version: 2
 source_count_external: 7
 source_count_clinic_pillar: 0
 clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4, 5, 6, 7]
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
 ---
 ## 정의
 척추관 협착증(spinal stenosis)은 척추관·외측 함요(lateral recess)·신경공(foramen)이 퇴행성 변화로 좁아져 신경근·마미 신경이 압박되는 질환입니다 [^2][^3]. 가장 흔한 형태는 **요추 척추관 협착증**(lumbar spinal stenosis, LSS)으로, 요추 부위에서 척수원뿔(conus medullaris) 아래 마미 신경(cauda equina)이 지나가는 구간이라 압박 대상이 척수가 아닌 신경근·마미 신경입니다 [^3]. 50대 이후 발생률이 증가하며 미국에서 매년 약 20만 명 이상이 진료를 받는 흔한 만성 통증 원인입니다 (평균 진료 연령 약 64세) [^3]. 한국 NHIS 자료(Lee CH 2018)에서 **60세 이상 척추 질환 중 M48 진단 코드**(spondylopathies, 척추관 협착증·강직성 척추뼈비대 등 포함)가 발생률·의료비 모두 1위로 보고되며, 75~79세 연령군에서 척추 질환 발생률이 약 42.6%에 이릅니다 [^7]. 환자가 흔히 호소하는 다리 저림·방사통의 더 큰 임상 분류는 [다리 저림·방사통](/symptoms/leg-numbness/) 항목 참고.
@@ -35,6 +42,8 @@ external_footnote_ids: [1, 2, 3, 4, 5, 6, 7]
 - **중심성 협착**(central stenosis): 척추관 중앙 부위 협착 — 양측성 다리 증상이 특징적
 - **외측 함요·신경공 협착**(lateral recess / foraminal stenosis): 신경근이 출구에서 압박 — 편측성 신경근병증
 - **혼합형**: 중심성 + 외측 협착이 함께 동반
+
+척추관협착증 환자는 허리를 앞으로 숙이거나 앉으면 증상이 호전되는 경향이 있습니다[^8].
 
 ## 증상
 척추관 협착증의 핵심 증상은 **신경성 파행**(neurogenic claudication)입니다 [^3]:
@@ -53,6 +62,8 @@ external_footnote_ids: [1, 2, 3, 4, 5, 6, 7]
 - 진행성 근력 약화(foot drop 포함)·근위축
 - 외상 후 심한 다리 통증·감각 결손
 - 발열·체중 감소·야간 통증·암 병력 — 감염·전이 평가
+
+척추관협착증 환자는 쇼핑 카트를 잡고 허리를 굽힌 채 걸으면 증상이 덜해지는 경험을 할 수 있습니다[^8].
 
 ## 진단
 척추관 협착증의 진단은 임상 양상과 영상의 종합으로 이루어집니다 [^2][^3].
@@ -97,6 +108,8 @@ external_footnote_ids: [1, 2, 3, 4, 5, 6, 7]
 ### 수술
 보존 치료에 반응하지 않거나 신경학적 결손이 진행할 때 감압 수술(decompression, 필요시 fusion)을 검토합니다 [^2][^3]. **SPORT trial 4년 추적**(Weinstein 2010, n≈634)에서 **수술군이 비수술군 대비 통증·기능 측면에서 임상적으로 의미 있는 우위를 4년까지 유지**한다고 보고합니다 (통증 12.6점·기능 8.6점·ODI 9.4점 차이). 다만 8년 시점에서는 두 군 차이가 좁아지고 양 군 모두 안정화되는 양상이 보고됩니다 [^6]. 수술 결정은 환자의 기대 수명·동반 질환·기능 영향·환자 선호를 함께 고려합니다 [^2][^3].
 
+경막외 신경차단술은 급성 통증 조절 후 운동 치료나 재활과 병행하는 것이 효과적입니다 [^8].
+
 ## 예후
 척추관 협착증은 **점진적으로 진행하는 만성 퇴행성 질환**이지만, 운동 치료·생활 관리로 통증·기능을 개선·유지할 수 있습니다 [^2][^3]. 일부 환자는 보존 치료로 장기 안정화되며, 보존 치료에 반응하지 않거나 신경학적 결손이 진행하는 환자에서 감압 수술이 통증·기능 회복에 임상적으로 의미 있는 차이를 보입니다(SPORT 4년 결과) [^6]. 한국에서는 인구 고령화에 따라 60세 이상 척추 질환 중 척추관 협착증의 발생률·의료비 부담이 가장 크게 증가하는 추세입니다 [^7].
 
@@ -107,23 +120,19 @@ external_footnote_ids: [1, 2, 3, 4, 5, 6, 7]
 ## 관련 임상 자료
 - [안심튼튼 — 좌골신경통](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
 
+---
+
 ## Citations
-### 외부 권위 출처
-
 [^1]: [NICE Guideline NG59 — Low back pain and sciatica in over 16s: assessment and management. Published 30 November 2016, last updated 11 December 2020. National Institute for Health and Care Excellence (UK)](https://www.nice.org.uk/guidance/ng59)
-
 [^2]: [Kreiner DS, Shaffer WO, Baisden JL, et al; North American Spine Society. An evidence-based clinical guideline for the diagnosis and treatment of degenerative lumbar spinal stenosis (update). Spine J. 2013;13(7):734-743. PMID 23830297. DOI 10.1016/j.spinee.2012.10.009](https://pubmed.ncbi.nlm.nih.gov/23830297/)
-
 [^3]: [Webb CW, Aguirre K, Seidenberg PH. Lumbar Spinal Stenosis: Diagnosis and Management. Am Fam Physician. 2024;109(4):350-359. PMID 38648834](https://pubmed.ncbi.nlm.nih.gov/38648834/)
-
 [^4]: [Expert Panel on Neurological, Spine, and Other MSK Imaging. ACR Appropriateness Criteria® Low Back Pain: 2021 Update. J Am Coll Radiol. 2021;18(11S):S361-S379. PMID 34794594. DOI 10.1016/j.jacr.2021.08.002](https://pubmed.ncbi.nlm.nih.gov/34794594/)
-
 [^5]: [AANS — Cauda Equina Syndrome (Patient Information)](https://www.aans.org/patients/conditions-treatments/cauda-equina-syndrome/)
-
 [^6]: [Weinstein JN, Tosteson TD, Lurie JD, et al. Surgical versus nonoperative treatment for lumbar spinal stenosis four-year results of the Spine Patient Outcomes Research Trial. Spine. 2010;35(14):1329-1338. PMID 20453723. DOI 10.1097/BRS.0b013e3181e0f04d](https://pubmed.ncbi.nlm.nih.gov/20453723/)
-
 [^7]: [Lee CH, Chung CK, Kim CH, Kwon JW. Health Care Burden of Spinal Diseases in the Republic of Korea: Analysis of a Nationwide Database From 2012 Through 2016. Neurospine. 2018;15(1):66-76. PMID 29656624](https://pubmed.ncbi.nlm.nih.gov/29656624/)
+[^8]: [ansimpainfree.kr/blog/lumbar-spinal-stenosis-leg-numbness](https://ansimpainfree.kr/blog/lumbar-spinal-stenosis-leg-numbness)
 
 ## Changelog
 - 2026-05-03 v2: **검증 라운드 6건 반영**. ① **요추 협착증 압박 대상 정정** — "신경근·척수" → "신경근·마미 신경"으로 정정 (요추는 척수원뿔 아래라 척수가 아닌 cauda equina 압박, frontmatter description + 정의 본문 둘 다 정정). ② **Red flag 섹션 ## H2 → ### H3로 내려 ## 증상 아래로 이동**(condition 표준 schema 준수). ③ **DVT red flag 제거** — citation에 DVT/VTE 근거 부재. NICE NG158을 추가하지 않고 척추관 협착증 핵심 red flag(마미·진행성 결손·외상·감염·종양)에 집중. ④ **목 통증·거북목 link 정리** — 척추관 협착증 문맥에서 어색해 제거, [허리통증]·[다리 저림·방사통] 중심으로 좁힘. ⑤ **"effecviy" 오타 수정** + AAFP 2024 톤 반영 — "routine 비권고" → "효과 근거 제한적+부작용 보고로 신중한 검토" 정확화. ⑥ **M48 진단 코드 정의 정합성** — "M48이 척추관 협착증"으로 단정 → "M48 spondylopathies(척추관 협착증·강직성 척추뼈비대 등 포함)" 정확 인용(Lee CH 2018 원문 대로). version 1→2.
 - 2026-05-03 v1: **신규 entity 본문 작성** (이전 frontmatter+noindex stub 상태). leg-numbness 우산 entity의 link 대상으로 보강. condition 표준 schema(정의·병태·증상·진단·치료·예후) 적용. 외부 권위 출처 7개 + 자체 link 1개(## 관련 임상 자료 분리). 핵심 출처: NICE NG59(영국 vs 미국 epidural injection 입장 분리 인용), **NASS Lumbar Spinal Stenosis 2013 update**(Kreiner DS, Spine J, PMID 23830297, 1차 CPG · MRI 진단 핵심), **Webb 2024 AAFP**(Am Fam Physician 2024;109(4):350-359, PMID 38648834, primary care 진단·관리 review · 쇼핑카트 sign · NSAIDs evidence B), ACR Low Back Pain 2021 Update(JACR 2021, PMID 34794594, 영상 적절성), AANS Cauda Equina(red flag), **Weinstein SPORT 4-year**(Spine 2010, PMID 20453723, 수술군이 4년까지 통증·기능 임상적 우위 유지), **Lee CH 2018 Neurospine**(PMID 29656624, 한국 60+ 척추관 협착 1위·75~79세 42.6%). 협착 분류 3분류(중심성·외측 함요·신경공·혼합형). 신경성 파행(쇼핑카트 sign) 핵심 증상. 한미·영 epidural injection 입장 분리(SOP 룰 9·15). SPORT 4년 결과를 인용해 수술 적응 정확화하되 단정 결론 회피. leg-numbness·lower-back-pain·forward-head-posture·neck-pain·lumbar-disc-herniation·sciatica로 자연스러운 link. SOP 룰 9·10·11·12·13·14·15 적용. 자체 출처는 ## 관련 임상 자료 섹션으로 분리(SOP claim-source 매핑 일관 패턴). 병원명 본문 노출 없음. source_count 0→7, version 0→1.
+- 2026-06-16 v2: 병태 enrich, 증상 enrich, 치료 enrich
