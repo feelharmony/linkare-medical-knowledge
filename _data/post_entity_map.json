@@ -491,5 +491,18 @@
     "sub_topic_type": null,
     "is_pillar": true,
     "tenant_key": "apfree"
+  },
+  {
+    "post_path": "content/thr/ko/----/frozen-shoulder-non-surgical-treatment.md",
+    "source_article_url": "https://thewellsr.kr/blog/frozen-shoulder-non-surgical-treatment",
+    "source_article_title": "오십견 — 굳은 관절낭을 풀어가는 비수술 치료 기준",
+    "primary_entity_id": "frozen-shoulder",
+    "entity_ids": [
+      "frozen-shoulder"
+    ],
+    "updated_at": "2026-06-17",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr"
   }
 ]
