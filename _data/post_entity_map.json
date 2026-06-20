@@ -517,5 +517,18 @@
     "sub_topic_type": null,
     "is_pillar": false,
     "tenant_key": "thr"
+  },
+  {
+    "post_path": "content/apfree/ko/------/knee-osteoarthritis.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/knee-osteoarthritis",
+    "source_article_title": "무릎 연골이 닳는다는 것의 의미 — 원인과 병태생리",
+    "primary_entity_id": "knee-osteoarthritis",
+    "entity_ids": [
+      "knee-osteoarthritis"
+    ],
+    "updated_at": "2026-06-20",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree"
   }
 ]
