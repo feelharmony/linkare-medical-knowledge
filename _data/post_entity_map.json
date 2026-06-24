@@ -530,5 +530,18 @@
     "sub_topic_type": null,
     "is_pillar": true,
     "tenant_key": "apfree"
+  },
+  {
+    "post_path": "content/thr/ko/----/nowon-lower-back-pain-radiculopathy-muscle-tension.md",
+    "source_article_url": "https://thewellsr.kr/blog/nowon-lower-back-pain-radiculopathy-muscle-tension",
+    "source_article_title": "노원 허리통증, 방사통과 근긴장 유형별 맞춤 치료",
+    "primary_entity_id": "lower-back-pain",
+    "entity_ids": [
+      "lower-back-pain"
+    ],
+    "updated_at": "2026-06-24",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr"
   }
 ]
