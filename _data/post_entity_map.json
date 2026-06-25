@@ -543,5 +543,18 @@
     "sub_topic_type": null,
     "is_pillar": false,
     "tenant_key": "thr"
+  },
+  {
+    "post_path": "content/thr/en/----/nowon-back-pain-tailored-treatment-for-radicular-pain-and-mu.md",
+    "source_article_url": "https://thewellsr.kr/en/blog/nowon-back-pain-tailored-treatment-for-radicular-pain-and-mu",
+    "source_article_title": "Nowon Back Pain: Tailored Treatment for Radicular Pain and Muscle Tension",
+    "primary_entity_id": "lower-back-pain",
+    "entity_ids": [
+      "lower-back-pain"
+    ],
+    "updated_at": "2026-06-25",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr"
   }
 ]
