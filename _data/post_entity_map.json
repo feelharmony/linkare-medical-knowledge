@@ -556,5 +556,18 @@
     "sub_topic_type": null,
     "is_pillar": false,
     "tenant_key": "thr"
+  },
+  {
+    "post_path": "content/apfree/ko/---/frozen-shoulder.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/frozen-shoulder",
+    "source_article_title": "대구 오십견: 어깨 통증과 운동 제한, 정확한 진단과 치료는?",
+    "primary_entity_id": "frozen-shoulder",
+    "entity_ids": [
+      "frozen-shoulder"
+    ],
+    "updated_at": "2026-06-26",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree"
   }
 ]
