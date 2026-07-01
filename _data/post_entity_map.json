@@ -569,5 +569,18 @@
     "sub_topic_type": null,
     "is_pillar": true,
     "tenant_key": "apfree"
+  },
+  {
+    "post_path": "content/thr/ko/----/nowon-shoulder-pain-impingement-rotator-cuff.md",
+    "source_article_url": "https://thewellsr.kr/blog/nowon-shoulder-pain-impingement-rotator-cuff",
+    "source_article_title": "노원 어깨 통증, 충돌증후군·회전근개 손상 구분과 치료",
+    "primary_entity_id": "shoulder-impingement-syndrome",
+    "entity_ids": [
+      "shoulder-impingement-syndrome"
+    ],
+    "updated_at": "2026-07-01",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr"
   }
 ]
