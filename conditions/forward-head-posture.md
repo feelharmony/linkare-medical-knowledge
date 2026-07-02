@@ -14,14 +14,15 @@ aliases:
   - cervical lordosis loss
 last_reviewed: '2026-05-20'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude (2026-05-20 외부 footnote 3건 복원 — pillar-patch GC 회귀 사고 정정)
 next_review: '2026-08-20'
-source_count: 5
-version: 5
-source_count_external: 3
+source_count: 7
+version: 6
+source_count_external: 5
 source_count_clinic_pillar: 2
 clinic_footnote_ids: [4, 5]
-external_footnote_ids: [1, 2, 3]
+external_footnote_ids: [1, 2, 3, 6, 7]
 ---
 ## 정의
 
@@ -84,7 +85,7 @@ X-ray와 MRI 검사는 경추의 구조적 변화와 신경 압박 여부를 평
 거북목·일자목 자체를 "교정"하는 것보다, **동반된 목 통증과 기능 제한을 완화**하고 자세 부담을 줄이는 데 초점을 둡니다.
 
 ### 운동치료 (1차 권고)
-운동치료는 거북목을 동반한 만성 목 통증에서 가장 일관된 근거를 가집니다. 16편의 무작위대조시험을 분석한 2023년 체계적 문헌고찰(Yang 등, *Healthcare*)은 다음 운동이 통증 감소와 자세 개선에 도움이 된다고 보고했습니다[^2].
+운동치료는 거북목을 동반한 만성 목 통증에서 가장 일관된 근거를 가집니다. 16편의 무작위대조시험을 분석한 2023년 체계적 문헌고찰(Yang 등, *Healthcare*)과 forward head posture 대상 무작위 임상시험은 다음 운동이 통증 감소와 자세 개선에 도움이 된다고 보고했습니다[^2][^6].
 
 - **심부 경부 굴곡근 훈련(deep cervical flexor training)** — 머리를 가볍게 끄덕이는 동작으로 longus colli·longus capitis를 활성화
 - **견갑 안정화 운동(scapular stabilization)** — 중하부 승모근·전거근 강화
@@ -92,7 +93,7 @@ X-ray와 MRI 검사는 경추의 구조적 변화와 신경 압박 여부를 평
 - **경추-요추 운동 협응(motor control) 훈련**
 
 ### 도수치료·물리치료
-APTA 2017 목 통증 CPG는 만성 목 통증과 가동성 결손형에서 **경추·흉추 도수 가동/조작 + 운동치료의 병행(multimodal approach)**을 권고합니다(만성 단계 권고 등급 B)[^3]. 단독 도수치료보다 운동과의 병행이 일관된 근거를 가집니다. 단순 온열·전기자극 치료는 보조적 역할에 머무릅니다.
+APTA 2017 목 통증 CPG와 비특이적 목 통증 물리치료 지침은 만성 목 통증과 가동성 결손형에서 **경추·흉추 도수 가동/조작 + 운동치료의 병행(multimodal approach)**을 권고합니다(만성 단계 권고 등급 B)[^3][^7]. 단독 도수치료보다 운동과의 병행이 일관된 근거를 가집니다. 단순 온열·전기자극 치료는 보조적 역할에 머무릅니다.
 
 ### 약물 치료
 급성기 통증·근육 긴장에 단기 비스테로이드 소염진통제, 근이완제를 사용할 수 있습니다. 약물은 통증·기능 회복 기간 동안의 보조 수단이며, 자세·근육 문제의 원인 치료는 운동·도수 중심입니다[^4].
@@ -135,7 +136,12 @@ APTA 2017 목 통증 CPG는 만성 목 통증과 가동성 결손형에서 **경
 
 [^3]: Blanpied PR, Gross AR, Elliott JM, et al. Neck Pain: Revision 2017. Clinical Practice Guidelines Linked to the International Classification of Functioning, Disability and Health From the Orthopaedic Section of the American Physical Therapy Association. *J Orthop Sports Phys Ther.* 2017;47(7):A1-A83. PMID 28666405. DOI: [10.2519/jospt.2017.0302](https://www.jospt.org/doi/10.2519/jospt.2017.0302)
 
+[^6]: Shih HS, Chen SS, Cheng SC, et al. Upper cervical and upper thoracic spine mobilization versus deep cervical flexors exercise in individuals with forward head posture: A randomized clinical trial investigating their effectiveness. *J Back Musculoskelet Rehabil.* 2019;32(4):595-602. PMID 30584118. DOI: [10.3233/BMR-181228](https://pubmed.ncbi.nlm.nih.gov/30584118/)
+
+[^7]: Bier JD, Scholten-Peeters WGM, Staal JB, et al. Clinical Practice Guideline for Physical Therapy Assessment and Treatment in Patients With Nonspecific Neck Pain. *Phys Ther.* 2018;98(3):162-171. PMID 29228289. DOI: [10.1093/ptj/pzx118](https://pubmed.ncbi.nlm.nih.gov/29228289/)
+
 ## Changelog
+- 2026-05-31 v6: external source 2건 보강(Shih 2019 FHP RCT, Bier 2018 비특이적 목 통증 물리치료 CPG)해 verified evidence gate 통과. 운동치료·도수/운동 병행 권고 근거 footnote 추가.
 - 2026-05-02 v3: **일자목(straight-neck)·거북목 통합 entity로 재정의** — sciatica D 패턴 적용. 두 용어를 자세 소견(거북목, CVA) vs 영상 소견(일자목, Cobb) 두 차원으로 분리 정의. 외부 출처 3건 보강 — Mahmoud 2019 SR/메타(PMID 31773477, 성인 CVA MD 4.84°, 인과관계 미입증), Yang 2023 systematic review(PMID 37830641, 16 RCT 운동·도수치료), JOSPT 2017 neck pain CPG(Blanpied et al., 4분류·multimodal 권고). conditions/straight-neck.md는 같은 commit에서 삭제. aliases에 일자목·거북목·straight neck 모두 등록. **검증 라운드(GPT 의견)**: ① JOSPT 2017 만성 neck pain + mobility deficits multimodal 권고 등급 A → **B로 정정**(공식 등급 확인), ② CVA 정의 정정 — "어깨(C7)" → "이주(tragus)와 C7 극돌기를 잇는 선이 수평선과 이루는 각", ③ "한국 직장인·학생 인구에서 매우 흔한 편" 미부착 일반화 표현 → 출처 가능 범위로 톤 다운 + [^4] 호출, ④ MRI/CT 적응증 좁힘 — "방사통이 동반되거나" → "진행성 신경학적 결손, 척수증 의심, 충분한 보존 치료에도 지속·악화되는 신경근 증상", ⑤ 미호출 [^4] 본문 2회 연결(병태 일자목 영상 해석 + 약물 치료 보조 위치). **레포 정합성**: data/entities.json id `straight-neck` → `forward-head-posture`로 교체 + aliases 확장, data/post-entity-map.json straight-neck 전건 치환 + 중복 제거, scripts/build-graph.js 실행해 _data/entity_graph.json 재생성(38 nodes 95 edges).
 - 2026-04-23 v2: 정의·병태·증상·진단·치료·예후 신설 (자체 출처 1건)
 - 2026-05-18 v2: 증상 enrich, 진단 enrich

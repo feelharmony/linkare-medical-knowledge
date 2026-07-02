@@ -15,9 +15,15 @@ aliases:
   - 발라시클로비르
   - famciclovir
   - 팜시클로비르
-last_reviewed: '2026-05-03'
-source_count: 3
-version: 1
+last_reviewed: '2026-05-31'
+locked: true
+source_count: 5
+source_count_external: 5
+source_count_clinic_pillar: 0
+clinic_footnote_ids: []
+external_footnote_ids: [1, 2, 3, 4, 5]
+quality_status: verified
+version: 2
 ---
 
 ## 정의·기전
@@ -27,12 +33,12 @@ version: 1
 - **Valacyclovir** — Acyclovir의 prodrug, 경구 흡수율 향상으로 **하루 3회**로 단순화
 - **Famciclovir** — Penciclovir의 prodrug, 하루 3회
 
-Valacyclovir·famciclovir가 dosing이 간편해 일반적으로 우선 검토됩니다[^1].
+Valacyclovir·famciclovir가 dosing이 간편해 일반적으로 우선 검토되며, 면역적격 성인의 급성 대상포진 통증 조절 근거도 비교 연구와 네트워크 메타분석에서 다뤄졌습니다[^1][^5].
 
 ## 적응증
 
 ### 대상포진 (1차 적응증)
-**증상 시작 후 72시간 이내** 항바이러스 시작이 가장 일관된 권고로, 다음 효과가 RCT로 입증되었습니다[^1][^2].
+**증상 시작 후 72시간 이내** 항바이러스 시작이 가장 일관된 권고로, 다음 효과가 RCT와 메타분석에서 확인됩니다[^1][^2][^4][^5].
 - 발진 기간 단축
 - 새 병변 발생 감소·바이러스 복제 억제
 - 급성 통증 강도·기간 감소
@@ -83,9 +89,13 @@ Acyclovir·valacyclovir·famciclovir는 대상포진 외에 단순 헤르페스(
 ---
 
 ## Citations
+### 외부 권위 출처
 [^1]: Adriaansen EJM, Jacobs JG, Vernooij LM, et al. 8. Herpes zoster and post herpetic neuralgia. *Pain Practice.* 2025;25(1):e13423. PMID 39364882. DOI: [10.1111/papr.13423](https://onlinelibrary.wiley.com/doi/full/10.1111/papr.13423) — 통증의학 표준 8장 review (항바이러스 표준·면역억제·신부전 조정)
 [^2]: Clinical Overview of Shingles (Herpes Zoster). *CDC.* 2024 update. URL: [cdc.gov/shingles/hcp/clinical-overview](https://www.cdc.gov/shingles/hcp/clinical-overview/index.html) — 72시간 골드타임, 3 약물 표준
 [^3]: Lal H, Cunningham AL, Godeaux O, et al. Efficacy of an Adjuvanted Herpes Zoster Subunit Vaccine in Older Adults (ZOE-50/70). *N Engl J Med.* 2015;372(22):2087-2096 / 2016;375(11):1019-1032. — 백신 효과 91~97%, PHN VE 88.8%
+[^4]: Chen N, Li Q, Yang J, Zhou M, Zhou D, He L. Antiviral treatment for preventing postherpetic neuralgia. *Cochrane Database Syst Rev.* 2014;(2):CD006866. PMID 24500927. DOI: [10.1002/14651858.CD006866.pub3](https://pubmed.ncbi.nlm.nih.gov/24500927/)
+[^5]: Li Q, Chen N, Yang J, Zhou M, Zhou D, Zhang Q, He L. A Network Meta-Analysis of Randomized Clinical Trials to Assess the Efficacy and Safety of Antiviral Agents for Immunocompetent Patients with Herpes Zoster-Associated Pain. *Pain Physician.* 2023;26(4):E385-E394. PMID 37535772. URL: [pubmed.ncbi.nlm.nih.gov/37535772](https://pubmed.ncbi.nlm.nih.gov/37535772/)
 
 ## Changelog
+- 2026-05-31 v2: external source 2건 보강(Cochrane 2014 antiviral-PHN review, Pain Physician 2023 antiviral network meta-analysis) 후 verified 승격. 72시간 이내 항바이러스 치료와 약제 비교 근거 footnote 보강.
 - 2026-05-03 v1: **신규 발행** (frontmatter only → 정식 entity). 대상포진 시리즈 묶음 작업의 일부로 본문 구성 — 정의·기전(3 약물 비교) + 적응증(대상포진 1차 + 기타) + 표준 용법(면역적격 성인) + 부작용·주의 환자군(신기능·임신) + 환자 안내. 외부 출처 3건 — Adriaansen 2025 *Pain Practice*, CDC 2024 임상 overview, ZOE-50/70(예방 link). 룰 14·15 적용 — 표준 dosing은 정확히, 신독성·약물 상호작용은 안전 문구로 강조. 단순 헤르페스(HSV) 등 대상포진 외 적응증은 짧게 언급하되 본 entity는 VZV 중심으로 좁힘.

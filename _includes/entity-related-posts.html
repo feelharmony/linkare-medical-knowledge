@@ -1,0 +1,216 @@
+{%- comment -%}
+  M5 — Linkbase Pillar-only Gate v1 D5
+  Entity 페이지 하단 "관련 임상 자료" 섹션 자동 빌드.
+
+  데이터 소스: _data/post_entity_map.json
+  매칭: primary_entity_id == page.entity_id
+  분류: sub_topic_type (disease_overview / treatment_options / management_prevention)
+        article frontmatter 또는 entry frontmatter에서 추출.
+  표시: pillar 별도 / 카테고리당 최신 3개 visible + 전체 보기 link
+  Tenant: post_path의 첫 디렉토리 (apfree / thr 등)
+
+  Pillar 글은 entity 본문 [^N]으로 박혀있으므로 여기서는 인덱스만.
+{%- endcomment -%}
+
+{% assign entity_id = page.entity_id %}
+
+{%- comment -%} 1. primary_entity_id 매칭 post 수집 {%- endcomment -%}
+{% assign related_posts = site.data.post_entity_map | where: "primary_entity_id", entity_id %}
+
+{% if related_posts.size > 0 %}
+<section class="entity-section entity-related-posts">
+  <h2>관련 임상 자료</h2>
+
+  {%- comment -%} 2. site.pages article 매칭 + frontmatter 추출 {%- endcomment -%}
+  {% assign enriched = "" | split: "" %}
+  {% for post in related_posts %}
+    {% assign expected = post.post_path | remove: "content/" | remove: ".md" %}
+    {% assign tenant_segments = post.post_path | remove: "content/" | split: "/" %}
+    {% assign post_tenant = tenant_segments[0] %}
+
+    {%- comment -%} site.pages에서 article URL 매칭 {%- endcomment -%}
+    {% assign matched = nil %}
+    {% for article in site.pages %}
+      {% if article.layout == "article" and article.url contains expected %}
+        {% assign matched = article %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% if matched %}
+      {%- comment -%} sub_topic_type 추출 — article frontmatter 우선, 없으면 unclassified {%- endcomment -%}
+      {% assign stt = matched.sub_topic_type | default: "unclassified" %}
+      {% assign is_pillar = matched.is_pillar | default: false %}
+      {% assign last_updated = matched.last_updated | default: post.updated_at %}
+
+      {%- comment -%} push as hash via capture trick: Jekyll Liquid array of object은 site.data 외엔 어려움 → 별 array 4개로 분기 {%- endcomment -%}
+      {% if is_pillar %}
+        {% assign pillar_posts = pillar_posts | default: ("" | split: "") | push: matched %}
+        {% capture _tenant %}{{ post_tenant }}{% endcapture %}
+        {% assign pillar_tenants = pillar_tenants | default: ("" | split: "") | push: _tenant %}
+        {% assign pillar_dates = pillar_dates | default: ("" | split: "") | push: last_updated %}
+      {% elsif stt == "disease_overview" %}
+        {% assign overview_posts = overview_posts | default: ("" | split: "") | push: matched %}
+        {% capture _tenant %}{{ post_tenant }}{% endcapture %}
+        {% assign overview_tenants = overview_tenants | default: ("" | split: "") | push: _tenant %}
+        {% assign overview_dates = overview_dates | default: ("" | split: "") | push: last_updated %}
+      {% elsif stt == "treatment_options" %}
+        {% assign treatment_posts = treatment_posts | default: ("" | split: "") | push: matched %}
+        {% capture _tenant %}{{ post_tenant }}{% endcapture %}
+        {% assign treatment_tenants = treatment_tenants | default: ("" | split: "") | push: _tenant %}
+        {% assign treatment_dates = treatment_dates | default: ("" | split: "") | push: last_updated %}
+      {% elsif stt == "management_prevention" %}
+        {% assign management_posts = management_posts | default: ("" | split: "") | push: matched %}
+        {% capture _tenant %}{{ post_tenant }}{% endcapture %}
+        {% assign management_tenants = management_tenants | default: ("" | split: "") | push: _tenant %}
+        {% assign management_dates = management_dates | default: ("" | split: "") | push: last_updated %}
+      {% else %}
+        {% assign other_posts = other_posts | default: ("" | split: "") | push: matched %}
+        {% capture _tenant %}{{ post_tenant }}{% endcapture %}
+        {% assign other_tenants = other_tenants | default: ("" | split: "") | push: _tenant %}
+        {% assign other_dates = other_dates | default: ("" | split: "") | push: last_updated %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {%- comment -%} 3. 카테고리별 렌더. 카테고리당 최신 3개 visible + 전체 보기 {%- endcomment -%}
+
+  {% if pillar_posts and pillar_posts.size > 0 %}
+  <div class="related-category related-category--pillar">
+    <h3>Pillar (종합 가이드)</h3>
+    <ul class="related-post-list">
+      {%- comment -%} M5 결정: GitHub Pages 자동 페이지 생성 제약 → 전체 보기 별도 페이지 폐기. 카테고리당 노출 5개로 확장. 5개 이상은 추가 펼침 UI는 후속. {%- endcomment -%}
+      {% assign limit = 5 %}
+      {% if pillar_posts.size < limit %}{% assign limit = pillar_posts.size %}{% endif %}
+      {% for i in (0..limit) %}
+        {% if i < pillar_posts.size %}
+          {% assign p = pillar_posts[i] %}
+          {% assign t = pillar_tenants[i] %}
+          {% assign d = pillar_dates[i] %}
+          <li>
+            <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+            <span class="related-meta"><span class="tenant-badge tenant-badge--{{ t }}">{{ t }}</span> · <time>{{ d }}</time></span>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    {%- comment -%} 5개 초과는 후속 UI (추가 펼침 또는 별도 페이지). 현재는 카운트만 표시. {%- endcomment -%}
+    {% if pillar_posts.size > 5 %}
+    <p class="related-more-hint">+ 추가 {{ pillar_posts.size | minus: 5 }}건 (아래 카테고리 함께 확인)</p>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if overview_posts and overview_posts.size > 0 %}
+  <div class="related-category related-category--overview">
+    <h3>질환 개요 ({{ overview_posts.size }})</h3>
+    <ul class="related-post-list">
+      {%- comment -%} M5 결정: GitHub Pages 자동 페이지 생성 제약 → 전체 보기 별도 페이지 폐기. 카테고리당 노출 5개로 확장. 5개 이상은 추가 펼침 UI는 후속. {%- endcomment -%}
+      {% assign limit = 5 %}
+      {% if overview_posts.size < limit %}{% assign limit = overview_posts.size %}{% endif %}
+      {% for i in (0..limit) %}
+        {% if i < overview_posts.size %}
+          {% assign p = overview_posts[i] %}
+          {% assign t = overview_tenants[i] %}
+          {% assign d = overview_dates[i] %}
+          <li>
+            <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+            <span class="related-meta"><span class="tenant-badge tenant-badge--{{ t }}">{{ t }}</span> · <time>{{ d }}</time></span>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    {% if overview_posts.size > 5 %}
+    <p class="related-more-hint">+ 추가 {{ overview_posts.size | minus: 5 }}건</p>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if treatment_posts and treatment_posts.size > 0 %}
+  <div class="related-category related-category--treatment">
+    <h3>치료 옵션 ({{ treatment_posts.size }})</h3>
+    <ul class="related-post-list">
+      {%- comment -%} M5 결정: GitHub Pages 자동 페이지 생성 제약 → 전체 보기 별도 페이지 폐기. 카테고리당 노출 5개로 확장. 5개 이상은 추가 펼침 UI는 후속. {%- endcomment -%}
+      {% assign limit = 5 %}
+      {% if treatment_posts.size < limit %}{% assign limit = treatment_posts.size %}{% endif %}
+      {% for i in (0..limit) %}
+        {% if i < treatment_posts.size %}
+          {% assign p = treatment_posts[i] %}
+          {% assign t = treatment_tenants[i] %}
+          {% assign d = treatment_dates[i] %}
+          <li>
+            <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+            <span class="related-meta"><span class="tenant-badge tenant-badge--{{ t }}">{{ t }}</span> · <time>{{ d }}</time></span>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    {% if treatment_posts.size > 5 %}
+    <p class="related-more-hint">+ 추가 {{ treatment_posts.size | minus: 5 }}건</p>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if management_posts and management_posts.size > 0 %}
+  <div class="related-category related-category--management">
+    <h3>일상 관리·예방 ({{ management_posts.size }})</h3>
+    <ul class="related-post-list">
+      {%- comment -%} M5 결정: GitHub Pages 자동 페이지 생성 제약 → 전체 보기 별도 페이지 폐기. 카테고리당 노출 5개로 확장. 5개 이상은 추가 펼침 UI는 후속. {%- endcomment -%}
+      {% assign limit = 5 %}
+      {% if management_posts.size < limit %}{% assign limit = management_posts.size %}{% endif %}
+      {% for i in (0..limit) %}
+        {% if i < management_posts.size %}
+          {% assign p = management_posts[i] %}
+          {% assign t = management_tenants[i] %}
+          {% assign d = management_dates[i] %}
+          <li>
+            <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+            <span class="related-meta"><span class="tenant-badge tenant-badge--{{ t }}">{{ t }}</span> · <time>{{ d }}</time></span>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    {% if management_posts.size > 5 %}
+    <p class="related-more-hint">+ 추가 {{ management_posts.size | minus: 5 }}건</p>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if other_posts and other_posts.size > 0 %}
+  <div class="related-category related-category--other">
+    <h3>기타 자료 ({{ other_posts.size }})</h3>
+    <ul class="related-post-list">
+      {%- comment -%} M5 결정: GitHub Pages 자동 페이지 생성 제약 → 전체 보기 별도 페이지 폐기. 카테고리당 노출 5개로 확장. 5개 이상은 추가 펼침 UI는 후속. {%- endcomment -%}
+      {% assign limit = 5 %}
+      {% if other_posts.size < limit %}{% assign limit = other_posts.size %}{% endif %}
+      {% for i in (0..limit) %}
+        {% if i < other_posts.size %}
+          {% assign p = other_posts[i] %}
+          {% assign t = other_tenants[i] %}
+          {% assign d = other_dates[i] %}
+          <li>
+            <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+            <span class="related-meta"><span class="tenant-badge tenant-badge--{{ t }}">{{ t }}</span> · <time>{{ d }}</time></span>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    {% if other_posts.size > 5 %}
+    <p class="related-more-hint">+ 추가 {{ other_posts.size | minus: 5 }}건</p>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {%- comment -%} Tenant 카운트 요약 (전체) {%- endcomment -%}
+  {% assign total_count = related_posts.size %}
+  <p class="related-summary">
+    총 {{ total_count }}개 자료 (
+    {% assign apfree_count = related_posts | where_exp: "p", "p.post_path contains 'content/apfree/'" | size %}
+    {% assign thr_count = related_posts | where_exp: "p", "p.post_path contains 'content/thr/'" | size %}
+    {% if apfree_count > 0 %}안심튼튼 {{ apfree_count }}{% endif %}
+    {% if apfree_count > 0 and thr_count > 0 %} · {% endif %}
+    {% if thr_count > 0 %}더웰스 노원 {{ thr_count }}{% endif %}
+    )
+  </p>
+</section>
+{% endif %}

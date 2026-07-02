@@ -7,7 +7,12 @@ title: 자세 교정
 description: 올바른 자세를 유지하기 위한 치료
 title_en: posture correction
 last_reviewed: '2026-04-23'
-source_count: 0
+source_count: 1
+source_count_external: 0
+source_count_clinic_pillar: 1
+clinic_footnote_ids: [1]
+external_footnote_ids: []
+quality_status: review
 version: 2
 ---
 ## 적응증

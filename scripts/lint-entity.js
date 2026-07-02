@@ -5,7 +5,7 @@
  * 사용:
  *   node scripts/lint-entity.js [file1.md] [file2.md] ...      # 인자 지정
  *   node scripts/lint-entity.js                                 # 변경된 파일 자동 감지 (pre-commit)
- *   node scripts/lint-entity.js --all                           # conditions/treatments 전체
+ *   node scripts/lint-entity.js --all                           # entity 디렉토리 전체
  *
  * 종료 코드:
  *   0 — 모두 통과
@@ -27,7 +27,7 @@ const REPO_ROOT = path.resolve(__dirname, '..');
 
 const REQUIRED_FRONTMATTER = [
   'layout', 'entity_id', 'entity_type', 'permalink',
-  'title', 'description', 'last_reviewed', 'version', 'locked',
+  'title', 'description', 'last_reviewed', 'version', 'locked', 'quality_status',
   'source_count',
   'source_count_external',
   'source_count_clinic_pillar',
@@ -48,7 +48,7 @@ const CONDITION_HEADINGS = ['정의', '병태', '증상', '진단', '치료', '�
 // treatment: 필수 2 (indication + limitations) + 선택 4
 const TREATMENT_HEADINGS = [
   // indication 동의어 그룹 — 필수
-  { synonyms: ['적응증', '정의·종류', '정의·개요', '정의·overview', '적응증·접종 권고'], optional: false, anchor: 'indication' },
+  { synonyms: ['적응증', '적응증 영역', '정의·종류', '정의·개요', '정의·overview', '적응증·접종 권고'], optional: false, anchor: 'indication' },
   // mechanism 동의어 그룹 — 선택
   { synonyms: ['분자 기전', '작동 원리', '작용 기전', '정의·기전', '정의', '작용 기전·근거'], optional: true, anchor: 'mechanism' },
   // evidence 동의어 그룹 — 선택
@@ -56,13 +56,32 @@ const TREATMENT_HEADINGS = [
   // when_considered — 선택
   { synonyms: ['언제 고려'], optional: true, anchor: 'when_considered' },
   // expected_effect — 선택
-  { synonyms: ['기대효과'], optional: true, anchor: 'expected_effect' },
+  { synonyms: ['기대효과', '기대 가능한 범위', '관찰되는 변화와 해석'], optional: true, anchor: 'expected_effect' },
   // limitations 동의어 그룹 — 필수
-  { synonyms: ['한계/주의점', '한계·주의점', '부작용·주의사항', '부작용·금기', '부작용·주의 환자군', '약물과 시술의 관계'], optional: false, anchor: 'limitations' },
+  { synonyms: ['한계/주의점', '한계·주의점', '부작용·주의사항', '부작용·주의점', '부작용·금기', '부작용·주의 환자군', '약물과 시술의 관계', '적합하지 않을 수 있는 경우', '확인이 필요한 경우'], optional: false, anchor: 'limitations' },
 ];
 
-const SYMPTOM_HEADINGS = ['정의', '흔한 원인', '레드플래그', '평가', '치료 옵션'];
+const SYMPTOM_HEADINGS = [
+  { synonyms: ['정의', '정의·overview'], optional: false, anchor: 'definition' },
+  { synonyms: ['흔한 원인', '흔한 영역 (intrinsic capacity domains)', '분류'], optional: false, anchor: 'common_causes' },
+  { synonyms: ['레드플래그', '언제 진료를'], optional: false, anchor: 'red_flags' },
+  { synonyms: ['평가', '진단 흐름'], optional: false, anchor: 'evaluation' },
+  { synonyms: ['치료 옵션', '치료 옵션 영역', '관리·치료 옵션'], optional: false, anchor: 'treatment_options' },
+];
 const BODY_PART_HEADINGS = ['정의', '관련 증상', '관련 질환', '관련 치료'];
+
+// Wellness / concept entity schema v1 (2026-05-30)
+// entity_type=concept 은 concept_group별로 H2 구조를 다르게 강제한다.
+// 목적: 웰니스 글을 자유형 홍보문으로 풀지 않되, 모든 글에 "통증과의 관련성"을 억지로 넣지 않는다.
+const CONCEPT_GROUP_HEADINGS = {
+  pain_wellness: ['정의', '통증과의 관련성', '관련 기전', '평가', '관리 접근', '해석과 한계'],
+  general_wellness: ['정의', '흔한 양상', '관련 요인', '평가', '관리 접근', '해석과 한계'],
+  metabolism: ['정의', '생리적 역할', '관련 상태', '평가 지표', '관리 접근', '해석과 한계'],
+  lifestyle: ['정의', '적용 대상', '핵심 원칙', '실천 방법', '평가 기준', '무리하지 않아야 할 상황'],
+};
+
+const VALID_ENTITY_TYPES = ['condition', 'treatment', 'symptom', 'body_part', 'concept'];
+const VALID_QUALITY_STATUSES = ['draft', 'review', 'verified', 'archived'];
 
 // yhlinker pillar-patch-proposer.service.ts:651-665 와 동일
 const BRAND_BANNED = [
@@ -125,8 +144,18 @@ function checkFrontmatter(fm, errors, warnings) {
       errors.push(`frontmatter 누락: ${key}`);
     }
   }
-  if (fm.entity_type && !['condition', 'treatment', 'symptom', 'body_part'].includes(fm.entity_type)) {
-    errors.push(`entity_type 잘못됨: ${fm.entity_type} (condition/treatment/symptom/body_part)`);
+  if (fm.entity_type && !VALID_ENTITY_TYPES.includes(fm.entity_type)) {
+    errors.push(`entity_type 잘못됨: ${fm.entity_type} (${VALID_ENTITY_TYPES.join('/')})`);
+  }
+  if (fm.quality_status && !VALID_QUALITY_STATUSES.includes(fm.quality_status)) {
+    errors.push(`quality_status 잘못됨: ${fm.quality_status} (${VALID_QUALITY_STATUSES.join('/')})`);
+  }
+  if (fm.entity_type === 'concept') {
+    if (!fm.concept_group) {
+      errors.push(`entity_type=concept인데 frontmatter 누락: concept_group (${Object.keys(CONCEPT_GROUP_HEADINGS).join('/')})`);
+    } else if (!CONCEPT_GROUP_HEADINGS[fm.concept_group]) {
+      errors.push(`concept_group 잘못됨: ${fm.concept_group} (${Object.keys(CONCEPT_GROUP_HEADINGS).join('/')})`);
+    }
   }
   // 카운트 정합
   const ext = Array.isArray(fm.external_footnote_ids) ? fm.external_footnote_ids.length : 0;
@@ -137,26 +166,40 @@ function checkFrontmatter(fm, errors, warnings) {
   if (typeof fm.source_count_clinic_pillar === 'number' && fm.source_count_clinic_pillar !== clinic) {
     errors.push(`source_count_clinic_pillar(${fm.source_count_clinic_pillar}) ≠ clinic_footnote_ids.length(${clinic})`);
   }
-  // LOCK hard 조건 (linkbase_pillar_only_gate_v1.md K절)
-  // body-parts는 광역 검색 색인 성격이라 external 권장 ≥3 (룰 B :56)
-  if (fm.locked === 'true' || fm.locked === true) {
-    const minExternal = fm.entity_type === 'body_part' ? 3 : 5;
+  // quality_status 의미:
+  //   locked=true  = 내용 보호 lock. 전체 rewrite 금지, 1~3문장/citation/H2 보강만 허용.
+  //   verified     = 품질 승인. 외부 근거·clinic source 비율 hard gate 적용.
+  //   review/draft = source 기준 미달은 warning으로만 노출.
+  const minExternal = fm.entity_type === 'body_part' ? 3 : 5;
+  if (fm.quality_status === 'verified') {
     if (ext < minExternal) {
-      errors.push(`locked=true인데 external sources ${ext} < ${minExternal} (LOCK hard 위반)`);
+      errors.push(`quality_status=verified인데 external sources ${ext} < ${minExternal} (verified evidence gate 위반)`);
     }
     if (clinic > 2) {
-      errors.push(`locked=true인데 clinic sources ${clinic} > 2 (LOCK hard 위반)`);
+      warnings.push(`quality_status=verified이나 clinic sources ${clinic} > 2 (통과: clinic citation은 provenance일 수 있음. 의학적 claim은 external source가 받치는지 확인 권장)`);
+    }
+  } else if (fm.locked === 'true' || fm.locked === true) {
+    if (ext < minExternal) {
+      warnings.push(`locked=true이나 external sources ${ext} < ${minExternal} (quality_status=verified 전 보강 필요)`);
+    }
+    if (clinic > 2) {
+      warnings.push(`locked=true이나 clinic sources ${clinic} > 2 (verified 전 대표 clinic citation 1~2개로 정리 권장)`);
     }
   }
 }
 
-function checkHeadings(body, entityType, errors, warnings) {
+function checkHeadings(body, fm, errors, warnings) {
+  if (fm.quality_status === 'archived' || fm.status === 'archived') {
+    return;
+  }
   const h2Headings = [];
   for (const line of body.split('\n')) {
     const m = line.match(/^##\s+(.+?)\s*$/);
     if (m) h2Headings.push(m[1].trim());
   }
+  const entityType = fm.entity_type;
   const required =
+    entityType === 'concept' ? (CONCEPT_GROUP_HEADINGS[fm.concept_group] || []) :
     entityType === 'treatment' ? TREATMENT_HEADINGS :
     entityType === 'symptom' ? SYMPTOM_HEADINGS :
     entityType === 'body_part' ? BODY_PART_HEADINGS :
@@ -280,7 +323,7 @@ function lintFile(absPath) {
   const warnings = [];
 
   checkFrontmatter(fm, errors, warnings);
-  checkHeadings(body, fm.entity_type, errors, warnings);
+  checkHeadings(body, fm, errors, warnings);
   checkFootnoteIds(body, fm, errors, warnings);
   checkTone(body, errors, warnings);
 
@@ -290,7 +333,7 @@ function lintFile(absPath) {
 function collectFiles(args) {
   if (args.includes('--all')) {
     const files = [];
-    for (const dir of ['conditions', 'treatments']) {
+    for (const dir of ['conditions', 'treatments', 'symptoms', 'body-parts', 'concepts']) {
       const full = path.join(REPO_ROOT, dir);
       if (!fs.existsSync(full)) continue;
       for (const f of fs.readdirSync(full)) {
@@ -303,7 +346,7 @@ function collectFiles(args) {
   if (explicit.length > 0) return explicit;
   // 변경된 파일 자동 감지 (staged + unstaged + untracked)
   try {
-    const out = execSync('git -C "' + REPO_ROOT + '" status --porcelain -- conditions treatments', { encoding: 'utf8' });
+    const out = execSync('git -C "' + REPO_ROOT + '" status --porcelain -- conditions treatments symptoms body-parts concepts', { encoding: 'utf8' });
     const files = [];
     for (const line of out.split('\n')) {
       const m = line.match(/^\s*\S+\s+(.+\.md)\s*$/);

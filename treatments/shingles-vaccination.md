@@ -13,10 +13,15 @@ aliases:
   - 싱그릭스
   - RZV
   - recombinant zoster vaccine
-last_reviewed: '2026-05-09'
-source_count: 5
+last_reviewed: '2026-05-31'
+source_count: 6
+source_count_external: 5
+source_count_clinic_pillar: 1
+clinic_footnote_ids: [5]
+external_footnote_ids: [1, 2, 3, 4, 6]
 version: 2
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (5/3 v1, 5/9 v2 자사 보강)
 next_review: '2026-08-09'
 ---
@@ -32,7 +37,7 @@ next_review: '2026-08-09'
 ## 적응증·접종 권고
 
 ### 미국 CDC·ACIP 권고 (표준)
-- **50세 이상 면역적격 성인** — 모두 권고
+- **50세 이상 면역적격 성인** — 모두 권고 [^6]
 - **19세 이상 면역억제 또는 면역저하 성인** — 면역억제·면역저하(질환 또는 치료) 성인에서도 권고[^1]
 - **2회 접종**: 1차 후 2~6개월 간격으로 2차
 
@@ -100,14 +105,16 @@ ZOE-50/70·ZOE-LTFU 11년 추적에서 RZV와 인과관계가 명확한 중대 �
 
 ---
 
-## 관련 임상 자료
+## Citations
+### 자사 임상 자료
 [^5]: [안심튼튼 — 싱그릭스 vs 조스터박스 대상포진 예방접종 백신 비교](https://ansimpainfree.kr/blog/shingles-vaccine-singrrix-vs-shingrix)
 
-## Citations
+### 외부 권위 출처
 [^1]: Clinical Considerations for Shingrix Use in Immunocompromised Adults Aged ≥19 Years. *CDC.* 2024 update. URL: [cdc.gov/shingles/hcp/vaccine-considerations/immunocompromised-adults](https://www.cdc.gov/shingles/hcp/vaccine-considerations/immunocompromised-adults.html) — 19세 이상 면역억제 권고
 [^2]: Lal H, Cunningham AL, Godeaux O, et al. Efficacy of an Adjuvanted Herpes Zoster Subunit Vaccine in Older Adults (ZOE-50). *N Engl J Med.* 2015;372(22):2087-2096. DOI: [10.1056/NEJMoa1501184](https://www.nejm.org/doi/full/10.1056/NEJMoa1501184) // Cunningham AL, Lal H, Kovac M, et al. Efficacy of the Herpes Zoster Subunit Vaccine in Adults 70 Years of Age or Older (ZOE-70). *N Engl J Med.* 2016;375(11):1019-1032. DOI: [10.1056/NEJMoa1603800](https://www.nejm.org/doi/full/10.1056/NEJMoa1603800)
 [^3]: Strezova A, Diez-Domingo J, Al Shawafi K, et al. Final analysis of the ZOE-LTFU trial to 11 years post-vaccination: efficacy of the adjuvanted recombinant zoster vaccine against herpes zoster and related complications. *eClinicalMedicine.* 2025;83:103241. PMID 40630610. DOI: [10.1016/j.eclinm.2025.103241](https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(25)00173-7/fulltext) — 11년 추적, ≥50세 VE 87.7% (11년차 82.0% 유지), PHN VE 87.5%
 [^4]: Adriaansen EJM, Jacobs JG, Vernooij LM, et al. 8. Herpes zoster and post herpetic neuralgia. *Pain Practice.* 2025;25(1):e13423. PMID 39364882. DOI: [10.1111/papr.13423](https://onlinelibrary.wiley.com/doi/full/10.1111/papr.13423) — PHN 예방의 가장 효과적인 수단으로 백신 강조
+[^6]: [CDC. Shingles Vaccine Recommendations. Recombinant zoster vaccine is recommended for adults aged 50 years and older and for adults aged 19 years and older who are or will be immunodeficient or immunosuppressed](https://www.cdc.gov/shingles/hcp/vaccine-considerations/index.html)
 
 ## Changelog
 - 2026-05-09 v2: **자사 글 1단계 본문 보강 (룰 v2.3 적용)**. 자사 apfree pillar `싱그릭스 vs 조스터박스`(`48d8f308`)에서 한국 임상 정보 3건 추출 — Zostavax 51%/38% 예방률 + 5년 후 효과 감소 / 과거 Zostavax 접종자 Shingrix 추가 접종 가능 / 백신 선택 시 환자별 트레이드오프(나이·면역·이력·비용·일정 부담 vs 효과 지속·PHN 예방). 정의(Zostavax 항목)·적응증(과거 Zostavax 접종자 신규 항목)·환자 안내 3곳에 분산 추가 + `[^5]` 자사 footnote. 관련 임상 자료 섹션 신설. source_count 4→5, version 1→2. ⚠️ 향후 entity 보강은 1-2개 한도 (룰 v2.3 신규 룰).

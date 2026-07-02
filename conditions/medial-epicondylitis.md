@@ -15,6 +15,7 @@ last_reviewed: '2026-05-20'
 source_count: 6
 version: 3
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude 합의 (2026-05-20 v3 — 자사 footnote 제거, 외부 권위 출처만으로 정리. 자사 인용은 pillar-patch 백필 흐름에서 anchor별로 박힐 자리 비워둠)
 next_review: '2026-08-20'
 source_count_external: 6

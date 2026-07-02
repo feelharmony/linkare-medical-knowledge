@@ -8,6 +8,12 @@ title_en: rotator cuff tear (deprecated)
 description: rotator-cuff-injury entity가 canonical hub
 last_reviewed: '2026-05-03'
 source_count: 0
+source_count_external: 0
+source_count_clinic_pillar: 0
+clinic_footnote_ids: []
+external_footnote_ids: []
+locked: false
+quality_status: archived
 version: 2
 status: archived
 published: false

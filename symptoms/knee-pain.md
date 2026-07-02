@@ -13,11 +13,16 @@ aliases:
   - 슬관절 통증
   - knee pain
   - gonalgia
-last_reviewed: '2026-05-18'
+last_reviewed: '2026-05-31'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
-source_count: 13
+source_count: 12
+source_count_external: 11
+source_count_clinic_pillar: 1
+clinic_footnote_ids: [1]
+external_footnote_ids: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 version: 3
 ---
 ## 정의
@@ -90,7 +95,8 @@ OA 진단은 임상 양상과 단순방사선 결과를 종합해 평가하며, 
 
 ---
 
-## 관련 임상 자료
+## Citations
+### 자사 임상 자료
 [^1]: [더웰스 — 무릎 통증 관리·예방 운동 습관](https://thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits)
 
 ## 예후
@@ -98,7 +104,7 @@ OA 진단은 임상 양상과 단순방사선 결과를 종합해 평가하며, 
 
 ---
 
-## Citations
+### 외부 권위 출처
 [^2]: [pubmed.ncbi.nlm.nih.gov/30325638/](https://pubmed.ncbi.nlm.nih.gov/30325638/)
 [^3]: [pmc.ncbi.nlm.nih.gov/articles/PMC7083301/](https://pmc.ncbi.nlm.nih.gov/articles/PMC7083301/)
 [^4]: [pubmed.ncbi.nlm.nih.gov/35383651/](https://pubmed.ncbi.nlm.nih.gov/35383651/)

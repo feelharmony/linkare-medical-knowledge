@@ -15,11 +15,16 @@ aliases:
   - prolotherapy
   - dextrose prolotherapy
   - hypertonic dextrose injection
-last_reviewed: '2026-05-04'
+last_reviewed: '2026-05-31'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 5
+source_count_external: 5
+source_count_clinic_pillar: 0
+clinic_footnote_ids: []
+external_footnote_ids: [2, 3, 4, 5, 6]
 version: 5
 ---
 ## 정의
@@ -99,10 +104,11 @@ Reeves 2016 narrative review는 외측상과염·내측상과염·아킬레스�
 
 ---
 
-## 관련 임상 자료
+## Citations
+### 자사 임상 자료
 - [안심튼튼 — 체외충격파·focused·radial·증식 주사](https://ansimpainfree.kr/knowledge/daegu-extracorporeal-shock-wave-focused-radial-injection)
 
-## Citations
+### 외부 권위 출처
 [^2]: [Reeves KD, Sit RW, Rabago DP. Dextrose Prolotherapy: A Narrative Review of Basic Science, Clinical Research, and Best Treatment Recommendations. Phys Med Rehabil Clin N Am. 2016;27(4):783-823. PMID 27788902. DOI 10.1016/j.pmr.2016.06.001](https://pubmed.ncbi.nlm.nih.gov/27788902/)
 [^3]: [Khateri S, Behbahani Nejad F, Kazemi F, Alaei B, Azami M, Moradkhani A, Majidi L, Moradi Y. The effect of dextrose prolotherapy on patients diagnosed with knee osteoarthritis: A comprehensive systematic review and meta-analysis of interventional studies. Health Sci Rep. 2024;7(6):e2145. PMID 38915358. DOI 10.1002/hsr2.2145](https://pubmed.ncbi.nlm.nih.gov/38915358/)
 [^4]: [Brophy RH, Fillingham YA. AAOS Clinical Practice Guideline Summary: Management of Osteoarthritis of the Knee (Nonarthroplasty), Third Edition. J Am Acad Orthop Surg. 2022;30(9):e721-e729. PMID 35383651](https://pubmed.ncbi.nlm.nih.gov/35383651/)

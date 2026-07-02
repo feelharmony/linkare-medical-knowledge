@@ -14,11 +14,16 @@ aliases:
   - aging-related symptoms
   - age-related decline
   - intrinsic capacity decline
-last_reviewed: '2026-05-03'
+last_reviewed: '2026-05-31'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 7
+source_count_external: 7
+source_count_clinic_pillar: 0
+clinic_footnote_ids: []
+external_footnote_ids: [2, 3, 4, 5, 6, 7, 8]
 version: 3
 ---
 ## 정의
@@ -117,11 +122,12 @@ NAD+ 보충(NMN·NR 경구 또는 NAD+ 정맥 주입)·기타 항노화 보충�
 
 ---
 
-## 관련 임상 자료
+## Citations
+### 자사 임상 자료
 - [더웰스 — NAD IV therapy (English)](https://thewellsr.kr/en/blog/nad-iv-therapy-new-possibilities-and-current-reali)
 - [더웰스 — NAD](https://thewellsr.kr/blog/nad)
 
-## Citations
+### 외부 권위 출처
 [^2]: [World Health Organization. Integrated Care for Older People: Guidelines on Community-Level Interventions to Manage Declines in Intrinsic Capacity (ICOPE). Geneva: WHO; 2017. PMID 29608259](https://pubmed.ncbi.nlm.nih.gov/29608259/)
 [^3]: [López-Otín C, Blasco MA, Partridge L, Serrano M, Kroemer G. Hallmarks of aging: An expanding universe. Cell. 2023;186(2):243-278. PMID 36599349. DOI 10.1016/j.cell.2022.11.001](https://pubmed.ncbi.nlm.nih.gov/36599349/)
 [^4]: [Chen LK, Woo J, Assantachai P, et al. Asian Working Group for Sarcopenia: 2019 Consensus Update on Sarcopenia Diagnosis and Treatment. J Am Med Dir Assoc. 2020;21(3):300-307.e2. PMID 32033882. DOI 10.1016/j.jamda.2019.12.012](https://pubmed.ncbi.nlm.nih.gov/32033882/)

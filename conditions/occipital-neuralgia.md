@@ -13,11 +13,16 @@ aliases:
   - occipital neuralgia
   - greater occipital neuralgia
   - GON
-last_reviewed: '2026-05-03'
+last_reviewed: '2026-05-31'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 5
+source_count_external: 5
+source_count_clinic_pillar: 0
+clinic_footnote_ids: []
+external_footnote_ids: [2, 3, 4, 5, 6]
 version: 1
 ---
 ## 정의
@@ -57,7 +62,7 @@ ICHD-3 진단 기준의 임상 특징은 다음과 같습니다 [^2]:
 - 마약성 진통제는 routine 사용을 권고하지 않습니다 [^3].
 
 ### 시술·중재 치료
-**후두신경차단**(occipital nerve block, ONB)이 진단·치료의 1차 minimally invasive 옵션입니다 [^4][^5]:
+**후두신경차단**(occipital nerve block, ONB)이 진단·치료의 1차 minimally invasive 옵션입니다 [^4][^5][^6]:
 
 - **국소마취제**(1~2% lidocaine 또는 0.25~0.5% bupivacaine) 단독 또는 코르티코스테로이드 병용 [^4][^5]
 - **초음파 유도 후두신경차단**: 직접 시각화로 표적 정확도를 높이는 방법으로 보고됩니다 — blind landmark 기반 대비 더 정밀한 표적이 가능합니다 [^4]
@@ -78,10 +83,12 @@ ICHD-3 진단 기준의 임상 특징은 다음과 같습니다 [^2]:
 - [더웰스 — 두통 관련 글](https://thewellsr.kr/blog/forward-head-posture)
 
 ## Citations
+### 외부 권위 출처
 [^2]: [Headache Classification Committee of the International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition (ICHD-3). Cephalalgia. 2018;38(1):1-211. PMID 29368949. DOI 10.1177/0333102417738202](https://pubmed.ncbi.nlm.nih.gov/29368949/)
 [^3]: [Expert Panel on Neurological Imaging. ACR Appropriateness Criteria® Headache: 2022 Update. J Am Coll Radiol. 2023;20(5S):S70-S93. PMID 37236753. DOI 10.1016/j.jacr.2023.02.018](https://pubmed.ncbi.nlm.nih.gov/37236753/)
 [^4]: [Swanson D, Guedry R, Boudreaux M, Muhlenhaupt E, Kaye AD, Viswanath O, Urits I. An Update on the Diagnosis, Treatment, and Management of Occipital Neuralgia. J Craniofac Surg. 2022;33(3):779-783. PMID 34753868. DOI 10.1097/SCS.0000000000008360](https://pubmed.ncbi.nlm.nih.gov/34753868/)
 [^5]: [Choi HJ, Oh IH, Choi SK, Lim YJ. Clinical outcomes of pulsed radiofrequency neuromodulation for the treatment of occipital neuralgia. J Korean Neurosurg Soc. 2012;51(5):281-285. PMID 22792425. PMCID PMC3393863. DOI 10.3340/jkns.2012.51.5.281 (대표적 한국 임상 데이터 — pulsed RF neuromodulation 효과 보고)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3393863/)
+[^6]: [Sharma S, Hashmi MF, Wippold FJ II. Occipital Neuralgia. StatPearls. Treasure Island (FL): StatPearls Publishing; updated 2024. NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/NBK538281/)
 
 ## Changelog
 - 2026-05-03 v2: **검증 라운드 1건 + 정합성 1건 반영**. ① **Choi 2012 PMCID·PMID 정정** — PMC 3393859 → **PMC3393863**, PMID 추가(22792425), DOI 추가(10.3340/jkns.2012.51.5.281). URL도 정정. ② 자체 출처 [^1] **## 관련 임상 자료 섹션으로 분리**. ③ Changelog "4개 시리즈" → "5개 시리즈" 정합. source_count 5 유지(자체 분리), version 1→2.

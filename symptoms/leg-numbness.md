@@ -16,11 +16,16 @@ aliases:
   - leg numbness
   - lower extremity paresthesia
   - radicular leg pain
-last_reviewed: '2026-05-03'
+last_reviewed: '2026-05-31'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 9
+source_count_external: 9
+source_count_clinic_pillar: 0
+clinic_footnote_ids: []
+external_footnote_ids: [2, 3, 4, 5, 6, 7, 8, 9, 10]
 version: 2
 ---
 ## 정의
@@ -84,10 +89,11 @@ version: 2
 
 ---
 
-## 관련 임상 자료
+## Citations
+### 자사 임상 자료
 - [안심튼튼 — 좌골신경통](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
 
-## Citations
+### 외부 권위 출처
 [^2]: [NICE Guideline NG59 — Low back pain and sciatica in over 16s: assessment and management. Published 30 November 2016, last updated 11 December 2020](https://www.nice.org.uk/guidance/ng59)
 [^3]: [Kreiner DS, Hwang SW, Easa JE, et al. An evidence-based clinical guideline for the diagnosis and treatment of lumbar disc herniation with radiculopathy. Spine J. 2014;14(1):180-191. PMID 24239490. DOI 10.1016/j.spinee.2013.08.003](https://pubmed.ncbi.nlm.nih.gov/24239490/)
 [^4]: [Lee JJ et al. Evidence-Based Clinical Practice Guidelines for Patients With Lumbar Disc Herniation With Radiculopathy in South Korea. Neurospine. 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12242740/)

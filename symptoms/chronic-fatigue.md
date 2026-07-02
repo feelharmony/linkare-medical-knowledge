@@ -12,11 +12,16 @@ aliases:
   - 피로감
   - chronic fatigue
   - prolonged fatigue
-last_reviewed: '2026-05-03'
+last_reviewed: '2026-05-31'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 6
+source_count_external: 6
+source_count_clinic_pillar: 0
+clinic_footnote_ids: []
+external_footnote_ids: [2, 3, 4, 5, 6, 7]
 version: 7
 ---
 ## 정의
@@ -109,11 +114,12 @@ NAD+ 관련 수액·보충 옵션은 만성 피로 영역에서 임상에서 논
 
 ---
 
-## 관련 임상 자료
+## Citations
+### 자사 임상 자료
 - [더웰스 — NAD IV therapy (English)](https://thewellsr.kr/en/blog/nad-iv-therapy-new-possibilities-and-current-reali)
 - [더웰스 — NAD](https://thewellsr.kr/blog/nad)
 
-## Citations
+### 외부 권위 출처
 [^2]: [Latimer KM, Gunther A, Kopec M. Fatigue in Adults: Evaluation and Management. Am Fam Physician. 2023;108(1):58-69. PMID 37440739](https://pubmed.ncbi.nlm.nih.gov/37440739/)
 [^3]: [Committee on the Diagnostic Criteria for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome; Institute of Medicine. Beyond Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Redefining an Illness. National Academies Press; 2015. PMID 25695122. DOI 10.17226/19012](https://pubmed.ncbi.nlm.nih.gov/25695122/)
 [^4]: [NICE Guideline NG206 — Myalgic encephalomyelitis (or encephalopathy)/chronic fatigue syndrome: diagnosis and management. Published 29 October 2021. National Institute for Health and Care Excellence (UK)](https://www.nice.org.uk/guidance/ng206)

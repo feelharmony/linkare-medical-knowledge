@@ -6,7 +6,12 @@ permalink: /body-parts/cervical-spine/
 title: 경추
 description: '목의 척추로, 신경이 어깨 근육을 지배하는 부위'
 last_reviewed: '2026-04-23'
-source_count: 0
+source_count: 2
+source_count_external: 0
+source_count_clinic_pillar: 2
+clinic_footnote_ids: [1, 2]
+external_footnote_ids: []
+quality_status: review
 version: 2
 ---
 ## 정의

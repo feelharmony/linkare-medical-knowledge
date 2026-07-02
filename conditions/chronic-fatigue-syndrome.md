@@ -14,14 +14,20 @@ aliases:
   - systemic exertion intolerance disease
   - myalgic encephalomyelitis
   - chronic fatigue syndrome
-last_reviewed: '2026-05-03'
-source_count: 4
-version: 2
+last_reviewed: '2026-05-31'
+locked: true
+source_count: 5
+source_count_external: 5
+source_count_clinic_pillar: 0
+clinic_footnote_ids: []
+external_footnote_ids: [1, 2, 3, 4, 5]
+quality_status: verified
+version: 3
 ---
 ## 정의
 만성피로증후군(myalgic encephalomyelitis / chronic fatigue syndrome, **ME/CFS**)은 단순 만성 피로와 구분되는 별도의 임상 진단명입니다. 단순한 피로 이상으로, **활동 후 악화**(post-exertional malaise, PEM)·**불회복 수면**·**인지 장애 또는 기립성 불내성** 같은 핵심 임상 양상을 특징으로 합니다 [^1][^2]. 미국 IOM 2015 보고서는 이 질환에 대해 **systemic exertion intolerance disease**(SEID)라는 새 명칭을 제안했으며, 동시에 "정신·심리적 illness가 아니라 medical illness"임을 명시했습니다 [^1].
 
-진단은 **트리거와 무관하게 임상 양상**으로 결정됩니다 [^1][^2]. 임상에서 환자의 다수가 바이러스 감염 후 발병한다고 보고되어 ICD-10에서는 G93.3(post-viral fatigue syndrome)으로 분류되지만, **비-감염 발병 환자도 진단 기준 충족 시 동일하게 ME/CFS로 진단**합니다. ICD-11에서는 chronic fatigue syndrome과 myalgic encephalomyelitis를 8E49 Postviral fatigue syndrome 항목에 포함하고, Diseases of the Nervous System 장에 분류합니다.
+진단은 **트리거와 무관하게 임상 양상**으로 결정됩니다 [^1][^2]. 임상에서 환자의 다수가 바이러스 감염 후 발병한다고 보고되어 ICD-10에서는 G93.3(post-viral fatigue syndrome)으로 분류되지만, **비-감염 발병 환자도 진단 기준 충족 시 동일하게 ME/CFS로 진단**합니다. ICD-11에서는 chronic fatigue syndrome과 myalgic encephalomyelitis를 8E49 Postviral fatigue syndrome 항목의 inclusion으로 포함하고, Diseases of the Nervous System 장에 분류합니다 [^5].
 
 만성 피로 일반(증상 우산)과의 분류·평가 흐름은 [만성 피로](/symptoms/chronic-fatigue/) 항목 참고.
 
@@ -117,11 +123,14 @@ ME/CFS의 경과는 환자별 변동이 크며, 완치 개념보다는 **관리�
 ---
 
 ## Citations
+### 외부 권위 출처
 [^1]: [Committee on the Diagnostic Criteria for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome; Institute of Medicine. Beyond Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Redefining an Illness. National Academies Press; 2015. PMID 25695122. DOI 10.17226/19012](https://pubmed.ncbi.nlm.nih.gov/25695122/)
 [^2]: [NICE Guideline NG206 — Myalgic encephalomyelitis (or encephalopathy)/chronic fatigue syndrome: diagnosis and management. Published 29 October 2021. National Institute for Health and Care Excellence (UK)](https://www.nice.org.uk/guidance/ng206)
 [^3]: [Latimer KM, Gunther A, Kopec M. Fatigue in Adults: Evaluation and Management. Am Fam Physician. 2023;108(1):58-69. PMID 37440739](https://pubmed.ncbi.nlm.nih.gov/37440739/)
 [^4]: [Morifuji M, Higashi S, Ebihara S, Nagata M. Ingestion of β-nicotinamide mononucleotide increased blood NAD levels, maintained walking speed, and improved sleep quality in older adults in a double-blind randomized, placebo-controlled study. GeroScience. 2024;46(5):4671-4688. PMID 38789831. DOI 10.1007/s11357-024-01204-1](https://pubmed.ncbi.nlm.nih.gov/38789831/)
+[^5]: [World Health Organization. ICD-11 for Mortality and Morbidity Statistics, 2025-01 release — 8E49 Postviral fatigue syndrome. Foundation URI: http://id.who.int/icd/entity/569175314. Inclusions: chronic fatigue syndrome; myalgic encephalomyelitis](https://icd.who.int/browse/2025-01/mms/en#569175314)
 
 ## Changelog
+- 2026-05-31 v3: **ICD-11 공식 분류 출처 보강** — 본문 ICD-11 문장에 WHO ICD-11 MMS 2025-01 8E49 Postviral fatigue syndrome 공식 페이지를 직접 매핑. 해당 페이지의 Foundation URI `http://id.who.int/icd/entity/569175314`, Code 8E49, inclusions `chronic fatigue syndrome`, `myalgic encephalomyelitis`를 확인해 [^5] 추가. source_count_external 4→5, quality_status review→verified.
 - 2026-05-03 v2: **검증 라운드 5건 반영**. ① **ICD-11 문장 정확화** — "SEID 진단 기준을 받아들이며" 부정확(WHO는 SEID criteria 채택한 적 없음) → "8E49 Postviral fatigue syndrome 항목에 포함하고 Diseases of the Nervous System 장에 분류" 정확 표현. ② **Long COVID NICE 원문 충돌 정정** — NICE NG206은 COVID-19 pandemic 이전 근거로 개발, post-COVID syndrome 자동 적용 X 명시. "동일하게 진단·관리" → "임상적으로 겹칠 수 있으나 별도 주의 필요"로 NICE 원문 정확. ③ **GET 표현 한정** — "운동 치료(GET)" → "정해진 증량 방식의 운동 치료(GET)"로 좁힘 + "일반 신체 활동 자체를 모두 금지하는 것은 아니며 페이싱 일부로 권고" 단서 추가. ④ **통증 관리 NICE 톤 정확화** — "NSAIDs 단기·마약성 routine 비권고"는 ME/CFS-specific 근거 약함 → "표준 통증 평가에 따라 개별 관리, 필요 시 통증 전문 진료" NICE NG206 톤. ⑤ **NMN/NAD 톤 중립화** — "보조 옵션 정도로 평가됩니다" → "환자 특성과 의료진 평가에 따라 개별적으로 결정됩니다" 광고형 단정·시술 무용론 모두 회피(SOP 룰 14·15). version 1→2.
 - 2026-05-03 v1: **신규 entity 작성** — 만성 피로 우산(symptom)과 분리해 ME/CFS 별도 condition entity로 작성. condition 표준 schema(정의·병태·증상·진단·치료·예후) 적용. 외부 권위 출처 4개: **IOM 2015 SEID 진단 기준**(PMID 25695122, 4 핵심 기준), **NICE NG206 ME/CFS CPG**(2021, GET 비권고·CBT 치료 아님·페이싱·6주 의심·3개월 진단), Latimer 2023 AAFP(PMID 37440739, primary care 평가·5% lab rule), Morifuji 2024 NMN RCT(PMID 38789831). 트리거 무관 임상 진단 기준 중심으로 작성 — ICD-10 G93.3(post-viral fatigue syndrome)은 한국·임상 환자의 다수가 부합하지만 ME/CFS 진단은 트리거 무관, IOM·NICE 임상 양상으로 결정. ICD-11 8E49는 SEID 진단 기준 받아들임. Long COVID 환자 일부가 ME/CFS 진단 부합 명시. NICE NG206 핵심 권고(GET 비권고·CBT 치료 아님·페이싱) 정확 인용. NAD+ 전구체는 ME/CFS 직접 evidence 제한적, 만성 피로 보조 옵션 톤. 완치 약물 미확립·동반 증상 별도 관리 framework. 만성 피로 우산 페이지로 link. SOP 룰 9·10·11·13·14·15 적용 — 한미·영 분리(IOM·Latimer·NICE), 가이드라인 최신성, 공식 출처(보도 X), PMID 직접 인용, 학술 톤 다운, controversial 처리(GET·CBT NICE 권고 정확 인용 + NAD/NMN 결정적 근거 형성 중 톤). 병원명 본문 노출 없음. source_count 4, version 1.

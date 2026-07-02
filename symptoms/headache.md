@@ -12,11 +12,16 @@ aliases:
   - 머리아픔
   - headache
   - cephalalgia
-last_reviewed: '2026-05-03'
+last_reviewed: '2026-05-31'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 9
+source_count_external: 8
+source_count_clinic_pillar: 1
+clinic_footnote_ids: [1]
+external_footnote_ids: [2, 3, 4, 5, 6, 7, 8, 9]
 version: 4
 ---
 ## 정의
@@ -110,10 +115,11 @@ ACR Appropriateness Criteria Headache 2022 Update(JACR 2023)는 8개 임상 시�
 
 ---
 
-## 관련 임상 자료
+## Citations
+### 자사 임상 자료
 [^1]: [더웰스 — 두통 관련 글](https://thewellsr.kr/blog/forward-head-posture)
 
-## Citations
+### 외부 권위 출처
 [^2]: [Headache Classification Committee of the International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition (ICHD-3). Cephalalgia. 2018;38(1):1-211. PMID 29368949. DOI 10.1177/0333102417738202](https://pubmed.ncbi.nlm.nih.gov/29368949/)
 [^3]: [GBD 2021 Nervous System Disorders Collaborators. Global, regional, and national burden of disorders affecting the nervous system, 1990-2021: a systematic analysis for the Global Burden of Disease Study 2021. Lancet Neurol. 2024;23(4):344-381. PMID 38493795. DOI 10.1016/S1474-4422(24)00038-3](https://pubmed.ncbi.nlm.nih.gov/38493795/)
 [^4]: [Viera AJ, Antono B. Acute Headache in Adults: A Diagnostic Approach. Am Fam Physician. 2022;106(3):260-268. PMID 36126007](https://pubmed.ncbi.nlm.nih.gov/36126007/)

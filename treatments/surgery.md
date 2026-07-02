@@ -7,7 +7,12 @@ title: 수술 (외과적 치료, archived)
 description: 본 클리닉은 척추·정형 외과적 수술을 운영하지 않으며, 외과 적응증 환자는 의뢰합니다
 title_en: surgery (deprecated, out of scope)
 last_reviewed: '2026-05-03'
-source_count: 0
+source_count: 1
+source_count_external: 0
+source_count_clinic_pillar: 1
+clinic_footnote_ids: [1]
+external_footnote_ids: []
+quality_status: review
 version: 3
 status: archived
 published: false

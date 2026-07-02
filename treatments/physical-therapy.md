@@ -8,9 +8,14 @@ description: 물리적 모달리티(전기·열·초음파 등)를 활용한 치
 title_en: physical therapy
 last_reviewed: '2026-04-25'
 locked: true
+quality_status: review
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
-source_count: 5
+source_count: 4
+source_count_external: 0
+source_count_clinic_pillar: 4
+clinic_footnote_ids: [1, 2, 3, 4]
+external_footnote_ids: []
 version: 5
 ---
 ## 적응증

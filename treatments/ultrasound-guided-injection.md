@@ -16,9 +16,14 @@ aliases:
   - sonographically guided injection
 last_reviewed: '2026-05-04'
 locked: true
+quality_status: review
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 2
+source_count_external: 2
+source_count_clinic_pillar: 0
+clinic_footnote_ids: []
+external_footnote_ids: [1, 2]
 version: 4
 ---
 ## 정의

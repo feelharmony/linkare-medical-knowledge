@@ -8,6 +8,7 @@ title_en: nerve block (deprecated)
 description: nerve-block-injection entity가 canonical hub
 last_reviewed: '2026-05-03'
 source_count: 0
+quality_status: review
 version: 2
 status: archived
 published: false

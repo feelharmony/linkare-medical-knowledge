@@ -7,7 +7,12 @@ title: 어깨
 description: 어깨 관절 부위
 title_en: shoulder
 last_reviewed: '2026-04-25'
-source_count: 0
+source_count: 1
+source_count_external: 0
+source_count_clinic_pillar: 1
+clinic_footnote_ids: [1]
+external_footnote_ids: []
+quality_status: review
 version: 2
 ---
 ## 정의

@@ -8,6 +8,7 @@ title_en: "ultrasound injection (deprecated)"
 description: "ultrasound-guided-injection entity가 canonical hub"
 last_reviewed: '2026-05-04'
 source_count: 0
+quality_status: review
 version: 3
 status: archived
 published: false

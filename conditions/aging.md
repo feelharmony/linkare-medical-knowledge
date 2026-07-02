@@ -7,7 +7,12 @@ title: 노화
 description: 시간의 경과에 따라 신체 기능이 저하되는 과정.
 title_en: aging
 last_reviewed: '2026-05-02'
-source_count: 0
+source_count: 1
+source_count_external: 0
+source_count_clinic_pillar: 1
+clinic_footnote_ids: [1]
+external_footnote_ids: []
+quality_status: review
 version: 3
 status: archived
 published: false

@@ -14,11 +14,16 @@ aliases:
   - mobilization
   - spinal manipulative therapy
   - SMT
-last_reviewed: '2026-05-04'
+last_reviewed: '2026-05-31'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 5
+source_count_external: 5
+source_count_clinic_pillar: 0
+clinic_footnote_ids: []
+external_footnote_ids: [1, 2, 3, 4, 5]
 version: 5
 ---
 ## 정의
@@ -99,11 +104,12 @@ Minnucci 2023 systematic review에서 RCT 보고된 이상반응은 대부분 �
 
 ---
 
-## 관련 임상 자료
+## Citations
+### 자사 임상 자료
 - [안심튼튼 — 목디스크 관련 글](https://ansimpainfree.kr/blog/cervical-disc-herniation)
 - [더웰스 — 거북목·일자목 관련 글](https://thewellsr.kr/en/blog/understanding-straight-neck-and-forward-head-postu)
 
-## Citations
+### 외부 권위 출처
 [^1]: [Blanpied PR, Gross AR, Elliott JM, et al. Neck Pain: Revision 2017. Clinical Practice Guidelines Linked to the International Classification of Functioning, Disability and Health From the Orthopaedic Section of the American Physical Therapy Association. J Orthop Sports Phys Ther. 2017;47(7):A1-A83. PMID 28666405. DOI 10.2519/jospt.2017.0302](https://www.jospt.org/doi/10.2519/jospt.2017.0302)
 [^2]: [NICE Guideline NG59 — Low back pain and sciatica in over 16s: assessment and management. Published 30 November 2016, last updated 11 December 2020. National Institute for Health and Care Excellence (UK)](https://www.nice.org.uk/guidance/ng59)
 [^3]: [Nim CG, Aspinall SL, Cashin AG, et al. The Effectiveness of Spinal Manipulative Therapy in Treating Spinal Pain Does Not Depend on the Application Procedures: A Systematic Review and Network Meta-analysis. J Orthop Sports Phys Ther. 2025;55(2):109-122. PMID 39869665. DOI 10.2519/jospt.2025.12707](https://pubmed.ncbi.nlm.nih.gov/39869665/)

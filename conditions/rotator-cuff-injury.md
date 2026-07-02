@@ -6,11 +6,16 @@ permalink: /conditions/rotator-cuff-injury/
 title: 회전근개 손상
 description: 어깨 회전근개 힘줄의 부분 또는 전층 파열로 통증과 기능 저하를 일으키는 질환
 title_en: rotator cuff injury
-last_reviewed: '2026-05-02'
+last_reviewed: '2026-05-31'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
-source_count: 5
+source_count: 6
+source_count_external: 5
+source_count_clinic_pillar: 1
+clinic_footnote_ids: [1]
+external_footnote_ids: [2, 3, 4, 5, 6]
 version: 3
 ---
 ## 정의
@@ -36,7 +41,7 @@ version: 3
 
 자가 혈소판 풍부 혈장(PRP)은 적용 상황을 구분해서 봐야 합니다. AAOS 2025 가이드라인은 회전근개 봉합술에서 platelet-derived products를 환자 보고 결과 개선 목적으로 일상적으로 사용하는 것은 권고하지 않지만, liquid PRP는 재파열률 감소 측면에서 제한적 근거가 있다고 정리합니다. 회전근개 건병증과 부분 파열, 비수술 단계의 전층 파열에 대한 routine PRP는 권고되지 않습니다 [^2].
 
-한국에서는 회전근개 봉합술이 필요한 환자에게 수술 중 자가 혈소판 풍부 혈장을 손상 부위에 주입하는 기술이 신의료기술로 등재되어 있어, 정형외과 분야에서 PRP 적용 범위는 상과염, 무릎 골관절염, 회전근개 봉합술 중 주입으로 제한됩니다 [^4]. 외래에서 회전근개 건병증에 대해 시행하는 PRP 주사는 안전성은 수용 가능하다고 평가되었으나 효과에 대해서는 추가 연구가 필요한 영역으로 분류된 상태이며, 별도 신의료기술 신청과 평가가 진행되는 단계입니다 [^4][^5]. 따라서 PRP는 수술 중 보강 목적과 비수술 외래 주사를 구분해, 파열 형태·크기·기존 치료 반응·비용·기대효과·근거 수준을 설명한 뒤 선택적으로 논의하는 영역입니다.
+국내 진료 환경에서는 `수술 중 자가 혈소판 풍부 혈장 치료술`이 신의료기술로 등재되어 있습니다. 사용 대상은 회전근개봉합술이 필요한 회전근개 파열 환자이고, 방법은 회전근개 봉합술 중 자가 혈소판 풍부 혈장을 손상 부위에 주입하는 것입니다 [^4]. 따라서 “회전근개 PRP”라는 넓은 표현보다는 수술 중 봉합 보강 목적의 PRP와 비수술 외래 주사를 구분해야 합니다. 외래에서 회전근개 건병증에 대해 시행하는 PRP 주사는 안전성은 수용 가능하다고 평가되었으나 효과에 대해서는 추가 연구가 필요한 영역으로 분류된 상태이며, 별도 신의료기술 신청과 평가가 진행되는 단계입니다 [^5][^6]. 따라서 PRP는 수술 중 보강 목적과 비수술 외래 주사를 구분해, 파열 형태·크기·기존 치료 반응·비용·기대효과·근거 수준을 설명한 뒤 선택적으로 논의하는 영역입니다.
 
 환자 상태에 따라 자세·움직임 평가에 따른 도수 치료, 운동치료, 체외충격파 치료 등을 선택적으로 활용할 수 있습니다 [^1]. PDRN(polydeoxyribonucleotide) 주사는 일부 국내 임상에서 사용되지만, AAOS 2025 회전근개 손상 가이드라인의 표준 권고 치료로는 별도 제시되지 않습니다. 따라서 PRP와도 구분해, 환자별 상태와 비용·기대효과를 설명한 뒤 선택적으로 검토하는 영역입니다 [^2].
 
@@ -45,14 +50,16 @@ version: 3
 
 ---
 
-## 관련 임상 자료
+## Citations
+### 자사 임상 자료
 [^1]: [더웰스 — 회전근개 손상: 근육 관점](https://thewellsr.kr/blog/rotator-cuff-damage-muscle-perspective)
 
-## Citations
+### 외부 권위 출처
 [^2]: [American Academy of Orthopaedic Surgeons. Clinical Practice Guideline: Management of Rotator Cuff Injuries in Adults. Published August 18, 2025](https://www.aaos.org/quality/quality-programs/rotator-cuff/)
 [^3]: [Jeong J, Shin DC, Kim TH, Kim K. Prevalence of asymptomatic rotator cuff tear and their related factors in the Korean population. J Shoulder Elbow Surg. 2017;26(1):30-35. DOI 10.1016/j.jse.2016.05.003 (PMID 27497789)](https://pubmed.ncbi.nlm.nih.gov/27497789/)
-[^4]: [한국 신의료기술평가 — 정형외과 분야 PRP 적용은 상과염·무릎 골관절염·회전근개봉합술 중 주입으로 제한 (메디칼타임즈 보도)](https://www.medicaltimes.com/Mobile/News/NewsView.html?ID=1152725)
-[^5]: [회전근개 건병증 외래 PRP 주사 — 안전성 인정·효과 추가 연구 필요로 분류, 별도 신의료기술 신청·평가 진행 단계 (국내 매체 참조)](https://biz.heraldcorp.com/article/10637622)
+[^4]: [국가법령정보센터. 신의료기술의 안전성·유효성 평가결과 고시 [별표1] 제890호 — 수술 중 자가 혈소판 풍부 혈장 치료술. 사용대상: 회전근개봉합술이 필요한 회전근개 파열 환자; 사용목적: 재발 방지 및 통증 완화; 시술방법: 회전근개 봉합술 중 자가 혈소판 풍부 혈장을 회전근개 손상 부위에 주입. 현행 고시 기준 2026-05-31 인용](https://www.law.go.kr/admRulSc.do?menuId=5&subMenuId=41&tabMenuId=183&query=%EC%8B%A0%EC%9D%98%EB%A3%8C%EA%B8%B0%EC%88%A0%EC%9D%98%20%EC%95%88%EC%A0%84%EC%84%B1%20%EC%9C%A0%ED%9A%A8%EC%84%B1%20%ED%8F%89%EA%B0%80%EA%B2%B0%EA%B3%BC%20%EA%B3%A0%EC%8B%9C)
+[^5]: [한국 신의료기술평가 — 정형외과 분야 PRP 적용 범위 관련 국내 보도](https://www.medicaltimes.com/Mobile/News/NewsView.html?ID=1152725)
+[^6]: [회전근개 건병증 외래 PRP 주사 — 안전성 인정·효과 추가 연구 필요로 분류, 별도 신의료기술 신청·평가 진행 단계 (국내 매체 참조)](https://biz.heraldcorp.com/article/10637622)
 
 ## Changelog
 - 2026-04-25 v2: 수동 편집

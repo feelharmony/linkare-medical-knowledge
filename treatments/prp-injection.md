@@ -10,11 +10,16 @@ aliases:
   - PRP
   - 혈소판 풍부 혈장
   - autologous platelet-rich plasma
-last_reviewed: '2026-05-09'
+last_reviewed: '2026-05-31'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (5/3 v3, 5/9 v4 자사 보강)
 next_review: '2026-08-09'
-source_count: 5
+source_count: 7
+source_count_external: 5
+source_count_clinic_pillar: 2
+clinic_footnote_ids: [4, 5]
+external_footnote_ids: [1, 2, 3, 6, 7]
 version: 4
 ---
 
@@ -29,9 +34,9 @@ PRP는 영역별로 evidence와 적응증이 다릅니다. 본 entity는 영역 
 - **외측상과염** — 보존 치료에 반응하지 않는 경우 선택지로 검토 → [lateral-epicondylitis](../conditions/lateral-epicondylitis.md)
 - **무릎 골관절염** — KL 등급·보존 반응에 따라 환자별 검토 → [knee-osteoarthritis](../conditions/knee-osteoarthritis.md)
 - **회전근개 건병증·석회성 건염** → [rotator-cuff-tendinopathy](../conditions/rotator-cuff-tendinopathy.md), [calcific-tendinitis](../conditions/calcific-tendinitis.md)
-- 한국에서 일부 정형외과 적응증에 신의료기술로 등재되어 있으며, 구체적 보험 인정 기준은 진료 시점 의료진과 상담합니다.
+- 국내 신의료기술 고시상 PRP 적용은 적응증·방법별로 좁게 구분됩니다. 예를 들어 회전근개 영역은 외래 회전근개 건병증 PRP 전체가 아니라 `회전근개봉합술 중 자가 혈소판 풍부 혈장 치료술`로 등재된 범위가 별도로 규정되어 있습니다 [^6]. 구체적 보험 인정 기준은 진료 시점 의료진과 상담합니다.
 
-PRP는 즉각적 통증 억제가 아닌 조직 재생 자극이 기전이라 시간 축의 효과 양상이 스테로이드와 다르게 보고됩니다. 한국 임상에서는 단기(3개월 이내)에는 스테로이드 주사가 통증 완화에서 더 빠른 반응을 보이지만 6~12개월 시점에는 PRP가 효과 유지 면에서 우세한 경향이 보고되어, 단기 진통이 우선이냐 중장기 조직 회복이 우선이냐에 따라 환자별 선택이 달라집니다 [^5].
+PRP는 즉각적 통증 억제가 아닌 조직 재생 자극이 기전이라 시간 축의 효과 양상이 스테로이드와 다르게 보고됩니다. 근골격계 PRP 연구는 질환·프로토콜별 이질성이 커서 일괄적인 효과 단정은 어렵지만, 일부 정형외과 영역에서는 통증 감소 효과가 보고됩니다 [^7]. 한국 임상에서는 단기(3개월 이내)에는 스테로이드 주사가 통증 완화에서 더 빠른 반응을 보이지만 6~12개월 시점에는 PRP가 효과 유지 면에서 우세한 경향이 보고되어, 단기 진통이 우선이냐 중장기 조직 회복이 우선이냐에 따라 환자별 선택이 달라집니다 [^5].
 
 ### 두피 (탈모)
 PRP는 안드로겐성 탈모와 원형 탈모에서 두피 주사로 활용되는 옵션 중 하나입니다.
@@ -67,14 +72,17 @@ PRP는 안드로겐성 탈모와 원형 탈모에서 두피 주사로 활용되�
 
 ---
 
-## 관련 임상 자료
+## Citations
+### 자사 임상 자료
 [^4]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
 [^5]: [안심튼튼 — 대구 PRP주사, 무릎 아프신 분들이 꼭 알아야 할 재생치료의 모든 것](https://blog.naver.com/ansimpainfree/224248542822)
 
-## Citations
+### 외부 권위 출처
 [^1]: Anitua E, Tierno R, Alkhraisat MH. Platelet-Rich Plasma in the Management of Alopecia: A Systematic Review and Meta-Analysis of Clinical Evidence. *Dermatol Ther (Heidelb).* 2025;15(11):3213-3252. PMID 40944844. DOI: [10.1007/s13555-025-01542-8](https://link.springer.com/article/10.1007/s13555-025-01542-8)
 [^2]: Zhang X, Ji Y, Zhou M, et al. Platelet-Rich Plasma for Androgenetic Alopecia: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. *J Cutan Med Surg.* 2023;27(5):504-508. PMID 37533146. DOI: [10.1177/12034754231191461](https://journals.sagepub.com/doi/abs/10.1177/12034754231191461)
 [^3]: Abid A, Fazal F, Mumtaz H, Raja HAA, Malik BH. Comparison of the efficacy of platelet-rich plasma with topical minoxidil in treating patients with androgenetic alopecia: a systematic review of clinical trials. *Skin Health Dis.* 2025;5(5):311-318. DOI: [10.1093/skinhd/vzaf040](https://academic.oup.com/skinhd/article/5/5/311/8211118)
+[^6]: [국가법령정보센터. 신의료기술의 안전성·유효성 평가결과 고시 [별표1] 제890호 — 수술 중 자가 혈소판 풍부 혈장 치료술. 사용대상: 회전근개봉합술이 필요한 회전근개 파열 환자; 사용목적: 재발 방지 및 통증 완화; 시술방법: 회전근개 봉합술 중 자가 혈소판 풍부 혈장을 회전근개 손상 부위에 주입. 현행 고시 기준 2026-05-31 인용](https://www.law.go.kr/admRulSc.do?menuId=5&subMenuId=41&tabMenuId=183&query=%EC%8B%A0%EC%9D%98%EB%A3%8C%EA%B8%B0%EC%88%A0%EC%9D%98%20%EC%95%88%EC%A0%84%EC%84%B1%20%EC%9C%A0%ED%9A%A8%EC%84%B1%20%ED%8F%89%EA%B0%80%EA%B2%B0%EA%B3%BC%20%EA%B3%A0%EC%8B%9C)
+[^7]: [Hurley ET, Fat DL, Moran CJ, Mullett H. Impact of Platelet-Rich Plasma Use on Pain in Orthopaedic Surgery: A Systematic Review and Meta-analysis. Sports Health. 2019;11(4):355-366. DOI 10.1177/1941738119834972 (PMID 31136726)](https://pubmed.ncbi.nlm.nih.gov/31136726/)
 
 ## Changelog
 - 2026-05-09 v4: **자사 글 1단계 본문 보강 (룰 v2.3 1-2개 한도)**. 자사 apfree naver pillar `대구 PRP주사`(`c906648f`)에서 한국 임상 정보 1건 추출 — 단기(3개월 이내) 스테로이드 우세 vs 6-12개월 PRP 우세 트레이드오프 + 환자별 선택 기준. 근골격계 영역 끝에 1문단 추가 + `[^5]` 자사 footnote. source_count 4→5, version 3→4.

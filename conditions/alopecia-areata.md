@@ -10,12 +10,17 @@ aliases:
   - 원형탈모증
   - alopecia areata
   - AA
-last_reviewed: '2026-05-03'
+last_reviewed: '2026-05-31'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
-source_count: 4
-version: 4
+source_count: 6
+source_count_external: 5
+source_count_clinic_pillar: 1
+clinic_footnote_ids: [4]
+external_footnote_ids: [1, 2, 3, 5, 6]
+version: 5
 ---
 
 ## 정의
@@ -56,9 +61,9 @@ ICD-10 L63으로 분류됩니다. 전 세계 일생 유병률은 약 2%로 추�
 - **국소 미녹시딜** — 보조 옵션
 
 ### 중등도~중증 (전두·전신 탈모 포함)
-JAK 억제제(JAK inhibitor)가 중증 원형 탈모의 표적 치료로 자리잡고 있으며, 미국 FDA에서는 다음이 승인되었습니다[^1].
-- **baricitinib (Olumiant®)** — 2022년 FDA 승인, 성인 중증 원형 탈모. 2~4 mg/일 경구. 임상시험에서 36주 시점 SALT ≤20 달성률이 위약 대비 유의하게 높게 보고
-- **ritlecitinib (Litfulo®)** — 2023년 6월 FDA 승인, **12세 이상** 중증 원형 탈모(소아·청소년 첫 승인 약물). 50 mg/일 경구. ALLEGRO 임상시험에서 24주 시점 SALT ≤20 달성률이 위약 대비 유의
+JAK 억제제(JAK inhibitor)가 중증 원형 탈모의 표적 치료로 자리잡고 있으며, 미국 FDA에서는 다음이 승인되었습니다[^1][^5][^6].
+- **baricitinib (Olumiant®)** — 2022년 FDA 승인, 성인 중증 원형 탈모. 2~4 mg/일 경구. BRAVE-AA1/AA2 3상 연구에서 36주 시점 SALT ≤20 달성률이 위약 대비 유의하게 높게 보고[^5]
+- **ritlecitinib (Litfulo®)** — 2023년 6월 FDA 승인, **12세 이상** 중증 원형 탈모(소아·청소년 첫 승인 약물). 50 mg/일 경구. ALLEGRO 2b/3상 연구에서 24주 시점 SALT ≤20 달성률이 위약 대비 유의[^6]
 - **deuruxolitinib (Leqselvi®)** — 2024년 7월 FDA 승인, 성인 중증 원형 탈모
 
 JAK 억제제는 면역억제 작용으로 감염·대상포진·혈전 등의 위험이 있어 처방 전 의료진의 종합 평가·모니터링이 필요합니다. 한국에서의 적응증·급여 인정은 진료 시점 의료진과 확인합니다.
@@ -83,14 +88,19 @@ JAK 억제제는 면역억제 작용으로 감염·대상포진·혈전 등의 �
 
 ---
 
-## 관련 임상 자료
+## Citations
+
+### 자사 임상 자료
 [^4]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
 
-## Citations
+### 외부 권위 출처
 [^1]: Sanchez K, Englander H, Salloum L, Gregoire S, Biba U, Ershadi S, Mostaghimi A. Evaluating Current and Emergent JAK Inhibitors for Alopecia Areata: A Narrative Review. *Dermatol Ther (Heidelb).* 2025;15(10):2749-2764. PMID 40794245. DOI: [10.1007/s13555-025-01517-9](https://pmc.ncbi.nlm.nih.gov/articles/PMC12454744/) — baricitinib·ritlecitinib·deuruxolitinib 임상 evidence + FDA 승인
 [^2]: Anitua E, Tierno R, Alkhraisat MH. Platelet-Rich Plasma in the Management of Alopecia: A Systematic Review and Meta-Analysis of Clinical Evidence. *Dermatol Ther (Heidelb).* 2025;15(11):3213-3252. PMID 40944844. DOI: [10.1007/s13555-025-01542-8](https://link.springer.com/article/10.1007/s13555-025-01542-8) — alopecia 통합 PRP 메타
 [^3]: Comparison of Current International Guidelines for the Management of Alopecia Areata. *Int J Mol Sci.* 2025;26(17):8632. URL: [mdpi.com/1422-0067/26/17/8632](https://www.mdpi.com/1422-0067/26/17/8632) — 원형 탈모 국제 가이드라인 비교
+[^5]: King B, Ohyama M, Kwon O, et al. Two Phase 3 Trials of Baricitinib for Alopecia Areata. *N Engl J Med.* 2022;386(18):1687-1699. PMID 35334197. DOI: [10.1056/NEJMoa2110343](https://pubmed.ncbi.nlm.nih.gov/35334197/)
+[^6]: King B, Zhang X, Harcha WG, et al. Efficacy and safety of ritlecitinib in adults and adolescents with alopecia areata: a randomised, double-blind, multicentre, phase 2b-3 trial. *Lancet.* 2023;401(10387):1518-1529. PMID 37062298. DOI: [10.1016/S0140-6736(23)00222-2](https://pubmed.ncbi.nlm.nih.gov/37062298/)
 
 ## Changelog
+- 2026-05-31 v5: external source 2건 보강(NEJM baricitinib BRAVE-AA1/AA2, Lancet ritlecitinib ALLEGRO 2b/3) 후 verified 승격. JAK 억제제 주요 임상 근거 footnote 보강.
 - 2026-05-03 v4: **본문 전면 재작성 + 외부 출처 3건 보강** (룰 14·15 적용). "정의(ICD-10 L63, 분류 4종)" + "병태(JAK-STAT)" + "증상(원형 탈모반·손톱 변화·자가면역 동반·심리)" + "진단(trichoscopy 4가지 sign)" + "치료(국소·중증·재생 보조)" + "예후(자연 경과 50%↑)" 6섹션. 중증 치료에 **JAK 억제제 FDA 승인 3종 정확 인용** — baricitinib(2022), ritlecitinib(2023, 12세+ 첫 승인), deuruxolitinib(2024-07). 재생 시술은 안드로겐성 대비 evidence 작음을 솔직히 표기 + 보완 옵션 톤(룰 15). 한국 적응증·급여는 일반 표현(룰 12). 자연 경과 50% 자발 회복·재발률은 사실 인용. 심리적 지원 언급으로 환자 친화 톤. PRP/줄기세포/엑소좀 treatment entity link로 분산. **검증 라운드(GPT 의견)**: 증상 섹션 추가(원래 누락), [^2] 본문 호출 추가(재생 시술 섹션, 알로페시아 통합 PRP 메타 43 RCT/1877 근거), [^3] 본문 호출 추가(증상 섹션 자가면역 동반).
 - 2026-04-23 v3 이전: 자체 글 1건 기반 2섹션 (치료·예후), 정의/병태/증상/진단 부재 상태

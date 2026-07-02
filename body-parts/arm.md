@@ -6,4 +6,5 @@ permalink: /body-parts/arm/
 title: "팔"
 title_en: "arm"
 description: "어깨에서 손까지 이어지는 상지 부위"
+quality_status: review
 ---

@@ -7,7 +7,12 @@ title: 카이로프랙틱 (사용 중단)
 description: 한국에서는 "도수치료"·"수기치료" 용어를 사용 — manual-therapy entity로 통합됨
 title_en: chiropractic (deprecated)
 last_reviewed: '2026-05-03'
-source_count: 0
+source_count: 2
+source_count_external: 0
+source_count_clinic_pillar: 2
+clinic_footnote_ids: [1, 2]
+external_footnote_ids: []
+quality_status: review
 version: 4
 status: archived
 published: false

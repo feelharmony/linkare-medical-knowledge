@@ -6,17 +6,22 @@ permalink: /conditions/sciatica/
 title: 좌골신경통
 title_en: sciatica
 description: 좌골 신경 분포 영역의 방사통을 가리키는 임상 용어 — 단일 진단명이 아닌 다양한 원인의 결과
-last_reviewed: '2026-05-02'
+last_reviewed: '2026-05-31'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
-source_count: 4
+source_count: 7
+source_count_external: 5
+source_count_clinic_pillar: 2
+clinic_footnote_ids: [1, 2]
+external_footnote_ids: [3, 4, 5, 6, 7]
 version: 1
 ---
 ## 정의
 좌골신경통(sciatica)은 좌골 신경 분포 영역(엉덩이에서 다리 뒤쪽 또는 옆쪽)에 나타나는 방사통을 가리키는 임상 용어입니다 [^1]. 의학적으로는 단일 진단명이라기보다, 좌골 신경에 영향을 주는 다양한 원인의 결과로 나타나는 증상학적 표현에 가깝습니다. 영국 NICE 가이드라인(NG59)도 환자와 임상의가 이해하는 용어라는 이유로 sciatica를 사용하면서, 실제 의미는 "요천추 신경근 병변에 의한 다리 통증"이라고 명시합니다 [^3]. 따라서 좌골신경통이라는 진단을 들었을 때는 그 뒤의 실제 원인(요추 신경근병증 등)이 무엇인지 함께 확인하는 것이 중요합니다.
 
-## 원인
+## 병태
 좌골신경통은 원인에 따라 임상 양상과 치료 접근이 다르므로, 정확한 원인 파악이 중요합니다 [^3].
 
 ### 가장 흔한 원인 — 요추 신경근병증(lumbar radiculopathy)
@@ -39,14 +44,14 @@ version: 1
 - 배뇨 장애 또는 대변 실금
 
 ## 진단
-좌골신경통 진단은 환자 병력과 신경학적 검사를 종합해 임상적으로 합니다. 통증 위치와 특성을 확인하는 병력 청취가 중요하며, 하지직거상검사(SLR test)와 신경근별 감각·근력·반사 검사로 신경근병증 여부를 평가합니다 [^1][^2]. NICE NG59는 비전문 진료 환경에서는 routine 영상 검사를 권고하지 않고, 전문 진료 환경에서도 영상 결과가 치료 방침을 바꿀 가능성이 있을 때만 영상 검사를 고려하도록 제시합니다. 신경학적 결손이 진행하거나 red flag가 의심될 때는 응급 평가에 영상 검사가 포함됩니다 [^3]. MRI는 디스크 탈출·척추관 협착 등 요추 신경근병증의 원인을 가장 정확히 보여주며, 다른 원인 감별에도 활용됩니다 [^1].
+좌골신경통 진단은 환자 병력과 신경학적 검사를 종합해 임상적으로 합니다. 통증 위치와 특성을 확인하는 병력 청취가 중요하며, 하지직거상검사(SLR test)와 신경근별 감각·근력·반사 검사로 신경근병증 여부를 평가합니다 [^1][^2][^5]. NICE NG59는 비전문 진료 환경에서는 routine 영상 검사를 권고하지 않고, 전문 진료 환경에서도 영상 결과가 치료 방침을 바꿀 가능성이 있을 때만 영상 검사를 고려하도록 제시합니다. 신경학적 결손이 진행하거나 red flag가 의심될 때는 응급 평가에 영상 검사가 포함됩니다 [^3]. MRI는 디스크 탈출·척추관 협착 등 요추 신경근병증의 원인을 가장 정확히 보여주며, 다른 원인 감별에도 활용됩니다 [^1].
 
 이상근 관련 압박이 의심되는 경우에는 다른 원인을 먼저 배제한 뒤, 이상근의 압통과 신경 자극 검사(FAIR test 등)를 함께 평가합니다. 다만 영상으로 진단을 확정하기 어려운 경우가 많아 임상 판단의 비중이 큽니다 [^4].
 
 ## 치료
-좌골신경통은 원인에 따라 치료 접근이 다르지만, 대부분은 보존 치료로 호전됩니다. NICE NG59는 자가 관리(활동 유지·교육)와 운동 치료를 보존 치료의 중심으로 두며, 비스테로이드 진통소염제(NSAIDs)는 좌골신경통에서 이득의 근거가 제한적이고 위해 가능성이 있어 위험 평가 후 최저 용량과 최단 기간으로 사용하도록 권고합니다 [^3]. 환자 안전 측면에서 NICE는 만성 좌골신경통에 마약성 진통제를 제공하지 않도록 명시하고, 가바펜티노이드(가바펜틴·프레가발린)·경구 스테로이드·벤조디아제핀도 좌골신경통 치료로 권고하지 않습니다 [^3].
+좌골신경통은 원인에 따라 치료 접근이 다르지만, 대부분은 보존 치료로 호전됩니다. NICE NG59는 자가 관리(활동 유지·교육)와 운동 치료를 보존 치료의 중심으로 두며, 비스테로이드 진통소염제(NSAIDs)는 좌골신경통에서 이득의 근거가 제한적이고 위해 가능성이 있어 위험 평가 후 최저 용량과 최단 기간으로 사용하도록 권고합니다 [^3][^7]. 환자 안전 측면에서 NICE는 만성 좌골신경통에 마약성 진통제를 제공하지 않도록 명시하고, 가바펜티노이드(가바펜틴·프레가발린)·경구 스테로이드·벤조디아제핀도 좌골신경통 치료로 권고하지 않습니다 [^3].
 
-요추 신경근병증으로 인한 좌골신경통의 표준 치료는 운동치료, 도수 치료, 그리고 급성·심한 신경근병증성 통증의 단기 관리에 한해 경막외 국소마취제+스테로이드 주사를 검토하는 것입니다. 6~12주의 보존 치료에 호전이 없거나 진행성 신경학적 결손이 있을 때는 수술적 평가를 검토합니다 — 자세한 내용은 [허리디스크](/conditions/lumbar-disc-herniation/) 항목 참조.
+요추 신경근병증으로 인한 좌골신경통의 표준 치료는 운동치료, 도수 치료, 그리고 급성·심한 신경근병증성 통증의 단기 관리에 한해 경막외 국소마취제+스테로이드 주사를 검토하는 것입니다. 6~12주의 보존 치료에 호전이 없거나 진행성 신경학적 결손이 있을 때는 수술적 평가를 검토합니다 [^6] — 자세한 내용은 [허리디스크](/conditions/lumbar-disc-herniation/) 항목 참조.
 
 이상근 관련 압박으로 의심되는 경우에는 이상근 스트레칭, 도수 치료, 자세 교정을 시도합니다. 일부 임상에서는 이상근 주위에 주사 치료(국소마취제, 스테로이드 등)를 시행하기도 합니다. 다만 진단 기준의 한계와 evidence 제한을 환자에게 설명한 뒤 선택적으로 논의하는 영역이며, 2025년 SR도 비수술 치료를 우선 시도하도록 권고합니다 [^4].
 
@@ -57,13 +62,17 @@ version: 1
 
 ---
 
-## 관련 임상 자료
+## Citations
+### 자사 임상 자료
 [^1]: [안심튼튼 — 좌골신경통](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
 [^2]: [안심튼튼 — 다리 통증이 허리 통증보다 먼저 나타나는 이유](https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk)
 
-## Citations
+### 외부 권위 출처
 [^3]: [NICE Guideline NG59 — Low back pain and sciatica in over 16s: assessment and management. Published 30 November 2016, last updated 11 December 2020. National Institute for Health and Care Excellence (UK)](https://www.nice.org.uk/guidance/ng59)
 [^4]: [Monteleone G, Stevanato G, Alimandi M, Cappa E, Sorge R. Piriformis syndrome: a systematic review of case reports. BMC Surgery. 2025;25(1). DOI 10.1186/s12893-025-03202-2 (PMID 41068685, 97 articles 212 patients, 47.6% 진단 시 영상·수술 소견 없음 — 진단 기준 한계)](https://link.springer.com/article/10.1186/s12893-025-03202-2)
+[^5]: [Lewis RA, Williams NH, Sutton AJ, et al. Diagnosis and treatment of sciatica. BMJ. 2019;367:l6273. DOI 10.1136/bmj.l6273 (PMID 31744805)](https://pubmed.ncbi.nlm.nih.gov/31744805/)
+[^6]: [Bailey CS, Rasoulinejad P, Taylor D, et al. Surgical versus non-surgical treatment for sciatica: systematic review and meta-analysis of randomised controlled trials. BMJ. 2023;381:e070730. DOI 10.1136/bmj-2022-070730 (PMID 37076169)](https://pubmed.ncbi.nlm.nih.gov/37076169/)
+[^7]: [Mathieson S, Maher CG. Which pain medications are effective for sciatica (radicular leg pain)? BMJ. 2017;359:j4248. DOI 10.1136/bmj.j4248 (PMID 29025735)](https://pubmed.ncbi.nlm.nih.gov/29025735/)
 
 ## Changelog
 - 2026-05-02 v1: entity 신규 작성 — 이전 frontmatter만 있고 본문 비어 있던 상태에서 본문 신설. 외부 권위 출처 2개 + 자체 출처 2개로 구성 (NICE NG59, Monteleone 2025 BMC Surgery piriformis SR, 안심튼튼 좌골신경통·다리 통증 먼저 글). **D 옵션 적용 — sciatica를 우산 용어로 재정의**: 단일 진단명이 아닌 좌골 신경 분포 통증의 임상 용어로 정의하고 원인을 분류 (요추 신경근병증·이상근 관련 압박·기타). 가장 흔한 원인인 요추 신경근병증의 자세한 정보는 [허리디스크](/conditions/lumbar-disc-herniation/) 항목으로 link하여 중복 회피. 이상근 관련 압박은 진단 기준 한계와 evidence 제한 명시. SOP 룰 9(한미 분리 인용) + 룰 11(공식 출처 NICE) + 룰 13(톤 다운) 적용. symptoms/sciatica.md는 같은 commit에서 완전 삭제 (중복 entity 정리). 검증 라운드 1차 반영: Monteleone 2025 수치 분리 (치료 전 50.5% 임상 진단 / 사후 47.6% 기구검사·수술 소견 없음), Red flag에 한쪽 다리 진행성 약화·foot drop 추가, NICE 권고 표현 정정 (자가관리·운동 중심 + NSAIDs 위험 평가 후 최저 용량·최단 기간), 체외충격파 영역 좁힘 (이상근 관련 통증으로 한정). 검증 라운드 2차 반영: NICE 영상 권고 정확화(비전문 진료 환경 routine 비추 + 전문 진료 환경 치료 방침 변경 가능성 있을 때만), NICE 약물 안전 권고 보강(만성 좌골신경통 opioids 비추 + 가바펜티노이드·경구 스테로이드·벤조디아제핀 비추), 표준 치료 표현 정정("신경차단술" → "급성·심한 신경근병증성 통증의 단기 관리에 한해 경막외 국소마취제+스테로이드 주사 검토"), Monteleone 수치 표현 "instrumental finding" 원문 반영. source_count 0→4, version 신규 v1.

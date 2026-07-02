@@ -12,11 +12,16 @@ aliases:
   - shoulder pain
   - glenohumeral pain
   - 견관절 통증
-last_reviewed: '2026-05-09'
+last_reviewed: '2026-05-31'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (5/3 v5, 5/9 v6 자사 보강)
 next_review: '2026-08-09'
 source_count: 9
+source_count_external: 8
+source_count_clinic_pillar: 1
+clinic_footnote_ids: [1]
+external_footnote_ids: [2, 3, 4, 5, 6, 7, 8, 9]
 version: 6
 ---
 ## 정의
@@ -75,10 +80,11 @@ JOSPT 2025 회전근개 건병증 CPG는 **subacromial pain syndrome / rotator c
 
 ---
 
-## 관련 임상 자료
+## Citations
+### 자사 임상 자료
 [^1]: [안심튼튼 — 어깨 통증 관리·예방·재발](https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse)
 
-## Citations
+### 외부 권위 출처
 [^2]: [Mitchell C, Adebajo A, Hay E, Carr A. Shoulder pain: diagnosis and management in primary care. BMJ. 2005;331(7525):1124-1128. PMID 16282408. DOI 10.1136/bmj.331.7525.1124](https://pubmed.ncbi.nlm.nih.gov/16282408/)
 [^3]: [Greenberg DL. Evaluation and treatment of shoulder pain. Med Clin North Am. 2014;98(3):487-504. PMID 24758957. DOI 10.1016/j.mcna.2014.01.016](https://pubmed.ncbi.nlm.nih.gov/24758957/)
 [^4]: [Luime JJ, Koes BW, Hendriksen IJ, et al. Prevalence and incidence of shoulder pain in the general population; a systematic review. Scand J Rheumatol. 2004;33(2):73-81. PMID 15163107. DOI 10.1080/03009740310004667](https://pubmed.ncbi.nlm.nih.gov/15163107/)

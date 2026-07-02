@@ -12,8 +12,10 @@ aliases:
   - shingles
   - herpes zoster
   - HZ
-last_reviewed: '2026-05-03'
+last_reviewed: '2026-05-31'
+locked: true
 source_count: 5
+quality_status: verified
 version: 1
 source_count_external: 5
 source_count_clinic_pillar: 0

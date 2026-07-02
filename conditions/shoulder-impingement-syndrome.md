@@ -5,11 +5,16 @@ entity_type: condition
 permalink: /conditions/shoulder-impingement-syndrome/
 title: 충돌 증후군
 description: 팔을 들어 올릴 때 힘줄이 어깨뼈 아래 좁은 공간에서 끼며 아픈 상태
-last_reviewed: '2026-05-18'
+last_reviewed: '2026-05-31'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
-source_count: 4
+source_count: 7
+source_count_external: 5
+source_count_clinic_pillar: 2
+clinic_footnote_ids: [1, 4]
+external_footnote_ids: [2, 3, 5, 6, 7]
 version: 2
 ---
 ## 정의
@@ -24,14 +29,14 @@ version: 2
 통증은 어깨 꼭대기에만 머물지 않고 팔 바깥쪽 삼각근 부위까지 내려오기도 합니다[^4].
 
 ## 진단
-충돌 증후군 진단은 환자 병력과 신체 검사(painful arc, Neer test, Hawkins-Kennedy test, empty can test 등)를 종합해 시행합니다 [^1][^2]. 다만 신체 검사 단독으로 정확한 진단을 내리기는 어려우며, 회전근개 파열·관절염·석회성 건염·관절순 손상 등 다른 원인을 감별하기 위해 X-ray, 초음파, MRI 등 영상 검사를 보조적으로 사용합니다 [^2]. 2025 JOSPT 임상진료지침은 "subacromial impingement syndrome" 단독 진단보다, 환자의 통증·운동 범위·근력·기능을 종합 평가해 회전근개 관련 어깨 통증의 한 양상으로 접근하도록 권고합니다 [^2].
+충돌 증후군 진단은 환자 병력과 신체 검사(painful arc, Neer test, Hawkins-Kennedy test, empty can test 등)를 종합해 시행합니다 [^1][^2]. 다만 신체 검사 단독으로 정확한 진단을 내리기는 어려우며, 회전근개 파열·관절염·석회성 건염·관절순 손상 등 다른 원인을 감별하기 위해 X-ray, 초음파, MRI 등 영상 검사를 보조적으로 사용합니다 [^2][^6]. 2025 JOSPT 임상진료지침은 "subacromial impingement syndrome" 단독 진단보다, 환자의 통증·운동 범위·근력·기능을 종합 평가해 회전근개 관련 어깨 통증의 한 양상으로 접근하도록 권고합니다 [^2].
 
 어깨 충돌증후군의 진단에서는 아형 분류와 구조적 원인을 파악하는 것이 중요합니다[^4].
 
 ## 치료
 보존 치료가 1차이며, 운동 치료가 핵심입니다. 2025 JOSPT 임상진료지침(Desmeules et al.)은 회전근개 건병증·석회화 동반·부분 파열 환자에게 점진적 부하 운동(progressive loading exercise)과 견갑골 안정화 운동을 핵심으로 권고하며, 도수 치료는 운동치료에 더해 단기 통증 완화 보조로 활용할 수 있다고 제시합니다 [^2]. NSAIDs는 단기 통증 조절에 보조적으로 사용할 수 있고, 견봉하 또는 관절강 내 스테로이드 주사는 단기 통증 개선에 효과가 있으나 반복 사용은 신중해야 합니다 [^2].
 
-수술적 치료의 역할은 최근 evidence로 크게 축소되었습니다. Cochrane 2019 systematic review(Karjalainen et al., 8 trials, 1,062명)는 관절경적 견봉 성형술(arthroscopic subacromial decompression)이 위약 수술 또는 운동 치료 대비 통증·기능·삶의 질에서 임상적으로 의미 있는 개선을 보이지 않는다고 high-certainty evidence로 결론지었습니다 [^3]. 따라서 수술은 보존 치료에 충분히 반응하지 않거나 회전근개 파열 같은 명확한 구조적 병변이 동반된 경우에 한정해 검토합니다 [^2][^3].
+수술적 치료의 역할은 최근 evidence로 크게 축소되었습니다. Cochrane 2019 systematic review(Karjalainen et al., 8 trials, 1,062명)는 관절경적 견봉 성형술(arthroscopic subacromial decompression)이 위약 수술 또는 운동 치료 대비 통증·기능·삶의 질에서 임상적으로 의미 있는 개선을 보이지 않는다고 high-certainty evidence로 결론지었습니다 [^3]. 이후 systematic review도 subacromial decompression의 임상적 이득이 제한적이라고 정리합니다 [^5]. 따라서 수술은 보존 치료에 충분히 반응하지 않거나 회전근개 파열 같은 명확한 구조적 병변이 동반된 경우에 한정해 검토합니다 [^2][^3][^7].
 
 자가 혈소판 풍부 혈장(PRP) 등 재생 주사 치료는 충돌 증후군 단독 진단에서 표준 권고 치료로 들어 있지 않습니다 [^2]. 한국에서 PRP는 일부 정형외과 적응증에 한해 신의료기술로 등재되어 임상에서 활용되고 있으며, 충돌 증후군에 대한 외래 PRP 주사는 환자별로 비용·기대효과·근거 수준을 설명한 뒤 선택적으로 검토하는 영역입니다. 구체적인 보험 인정 기준은 진료 시점에 의료진과 상담하는 것이 정확합니다.
 
@@ -42,15 +47,17 @@ version: 2
 
 ---
 
-## 관련 임상 자료
-[^1]: [안심튼튼 — 어깨 통증 관리·예방·재발](https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse)
-
----
-
 ## Citations
-[^2]: [www.jospt.org/doi/10.2519/jospt.2025.13182](https://www.jospt.org/doi/10.2519/jospt.2025.13182)
-[^3]: [www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005619.pub3/full](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005619.pub3/full)
+### 자사 임상 자료
+[^1]: [안심튼튼 — 어깨 통증 관리·예방·재발](https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse)
 [^4]: [thewellsr.kr/blog/shoulder-impingement-syndrome-causes-treatment](https://thewellsr.kr/blog/shoulder-impingement-syndrome-causes-treatment)
+
+### 외부 권위 출처
+[^2]: [Desmeules F, Roy JS, Lafrance S, et al. Rotator Cuff Tendinopathy Diagnosis, Nonsurgical Medical Care, and Rehabilitation: A Clinical Practice Guideline. J Orthop Sports Phys Ther. 2025;55(4):235-274. DOI 10.2519/jospt.2025.13182](https://www.jospt.org/doi/10.2519/jospt.2025.13182)
+[^3]: [Karjalainen TV, Jain NB, Page CM, et al. Subacromial decompression surgery for rotator cuff disease. Cochrane Database Syst Rev. 2019;1(1):CD005619. DOI 10.1002/14651858.CD005619.pub3](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005619.pub3/full)
+[^5]: [Lähdeoja T, Karjalainen T, Jokihaara J, et al. Subacromial decompression surgery for adults with shoulder pain: a systematic review with meta-analysis. Br J Sports Med. 2020;54(11):665-673. DOI 10.1136/bjsports-2018-100486 (PMID 30647053)](https://pubmed.ncbi.nlm.nih.gov/30647053/)
+[^6]: [Expert Panel on Musculoskeletal Imaging. ACR Appropriateness Criteria® Acute Shoulder Pain: 2024 Update. J Am Coll Radiol. 2025;22(5S):S95-S112. DOI 10.1016/j.jacr.2025.02.015 (PMID 40409888)](https://pubmed.ncbi.nlm.nih.gov/40409888/)
+[^7]: [Diercks R, Bron C, Dorrestijn O, et al. Update of guideline for diagnosis and treatment of subacromial pain syndrome: a multidisciplinary review by the Dutch Orthopedic Association Part 1. Acta Orthop. 2026;97:157-165. DOI 10.2340/17453674.2026.45365 (PMID 41718640)](https://pubmed.ncbi.nlm.nih.gov/41718640/)
 
 ## Changelog
 - 2026-04-25 v2: 수동 편집

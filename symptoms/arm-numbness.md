@@ -19,11 +19,16 @@ aliases:
   - upper extremity radiating pain
   - radicular arm pain
   - brachialgia
-last_reviewed: '2026-05-03'
+last_reviewed: '2026-05-31'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 10
+source_count_external: 9
+source_count_clinic_pillar: 1
+clinic_footnote_ids: [1]
+external_footnote_ids: [2, 3, 4, 5, 6, 7, 8, 9, 10]
 version: 4
 ---
 ## 정의
@@ -85,10 +90,11 @@ version: 4
 
 ---
 
-## 관련 임상 자료
+## Citations
+### 자사 임상 자료
 [^1]: [안심튼튼 — 목디스크 관련 글](https://ansimpainfree.kr/blog/cervical-disc-herniation)
 
-## Citations
+### 외부 권위 출처
 [^2]: [Iyer S, Kim HJ. Cervical radiculopathy. Curr Rev Musculoskelet Med. 2016;9(3):272-280. PMID 27250042. DOI 10.1007/s12178-016-9349-4](https://pubmed.ncbi.nlm.nih.gov/27250042/)
 [^3]: [Engquist M et al. Surgery versus nonsurgical treatment of cervical radiculopathy: a prospective, randomized study comparing surgery plus physiotherapy with physiotherapy alone with a 2-year follow-up. Spine. 2013. PMID 23778373](https://pubmed.ncbi.nlm.nih.gov/23778373/)
 [^4]: [Bono CM et al. North American Spine Society. An evidence-based clinical guideline for the diagnosis and treatment of cervical radiculopathy from degenerative disorders. Spine J. 2011;11(1):64-72. PMID 21168100](https://pubmed.ncbi.nlm.nih.gov/21168100/)

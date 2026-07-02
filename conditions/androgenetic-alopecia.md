@@ -14,6 +14,7 @@ aliases:
   - AGA
 last_reviewed: '2026-05-20'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude (2026-05-20 외부 footnote 5건 복원 — pillar-patch GC 회귀 사고 정정)
 next_review: '2026-08-20'
 source_count: 7

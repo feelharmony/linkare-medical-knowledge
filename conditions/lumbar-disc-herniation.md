@@ -8,9 +8,10 @@ description: 요추 추간판이 탈출하여 신경을 압박하는 질환
 title_en: lumbar disc herniation
 last_reviewed: '2026-05-18'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
-source_count: 10
+source_count: 9
 version: 5
 source_count_external: 7
 source_count_clinic_pillar: 2

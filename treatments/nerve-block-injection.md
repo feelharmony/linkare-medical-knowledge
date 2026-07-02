@@ -14,16 +14,17 @@ aliases:
   - 초음파 유도 주사
   - C-arm 유도 주사
   - 영상 유도 신경차단
-last_reviewed: '2026-05-20'
+last_reviewed: '2026-05-31'
 locked: true
+quality_status: verified
 verified_by: '사장님 + Claude (2026-05-20 외부 footnote 3건 복원 — pillar-patch GC 회귀 사고 정정)'
 next_review: '2026-08-20'
-source_count: 6
+source_count: 7
 version: 6
-source_count_external: 3
-source_count_clinic_pillar: 3
-clinic_footnote_ids: [4, 5, 6]
-external_footnote_ids: [1, 2, 3]
+source_count_external: 5
+source_count_clinic_pillar: 2
+clinic_footnote_ids: [4, 5]
+external_footnote_ids: [1, 2, 3, 6, 7]
 ---
 ## 정의·기전
 신경차단술(nerve block)은 통증 신호를 전달하는 신경의 주위 또는 신경절에 **국소마취제·스테로이드·기타 약물**을 정밀 주입하여 통증을 차단하고 신경 염증을 줄이는 통증의학과의 핵심 중재시술입니다. 작용 기전은 다음과 같이 다층적입니다.
@@ -33,7 +34,7 @@ external_footnote_ids: [1, 2, 3]
 - **악순환 차단** — 통증→근긴장→통증의 악순환을 깨뜨려 회복 환경 조성
 - **진단·치료 동시 효과** — 표적 신경 주변에 주입 후 증상 호전 양상으로 진단 보조도 가능
 
-표준적으로 **C-arm(투시) 또는 초음파 영상 유도** 하에 정밀하게 시행하며, 영상 유도가 안전성·효과를 향상시키는 핵심 요소입니다[^1].
+표준적으로 **C-arm(투시) 또는 초음파 영상 유도** 하에 정밀하게 시행하며, 영상 유도가 안전성·효과를 향상시키는 핵심 요소입니다[^1][^7].
 
 ## 적응증 영역
 
@@ -106,7 +107,7 @@ VAS 통증 감소 순위:
 - **시술 부위 통증·일시적 신경 자극·혈종** — 대부분 경미·일시적
 - **드물지만 심각한 합병증**: 경막 천공·전(全)척수 마취·국소마취제 전신 흡수에 의한 부정맥·발작·신경 손상 — 영상 유도와 무균 prep으로 예방
 - **스테로이드 사용 시**: 일시적 혈당 상승, 안면 홍조, 골다공증 환자의 골밀도 영향 — 반복 시술 시 의료진과 누적량 평가
-- **주의 환자군**: 항응고제 복용·출혈 경향, 활동성 감염, 심한 알레르기 병력, 임신 여성(스테로이드·조영제) — 의료진과 사전 협의
+- **주의 환자군**: 항응고제 복용·출혈 경향, 활동성 감염, 심한 알레르기 병력, 임신 여성(스테로이드·조영제) — 항혈소판제·항응고제 사용자는 시술 종류와 출혈 위험도에 따라 중단·지속 여부를 별도로 판단합니다 [^6].
 
 ### 환자 안내
 - 시술 시점에 **항응고제 일시 중단 여부**를 의료진과 상의
@@ -115,11 +116,6 @@ VAS 통증 감소 순위:
 ### 다층 결합 흐름 (한국 통증의학 임상)
 한국 통증의학 임상에서는 신경차단술이 단독 시술이 아닌 통증 양상·조직 손상 단계에 따른 다층 결합의 출발점으로 운영되는 흐름이 일반적입니다. 급성기에는 신경차단으로 통증·신경 염증을 빠르게 잡고, 관절·힘줄 염증이 동반되면 초음파 유도 관절강 주사를 추가하며, 조직 재생이 필요한 단계에서는 프롤로테라피·PRP가 함께 검토되고, 체외충격파와 도수치료가 회복 환경 보강에 결합됩니다. 단일 시술의 단점을 다른 시술의 장점으로 보완해 만성화 위험을 줄이는 단계적 접근이 핵심으로 보고됩니다 [^5].
 
-## 치료
-신경차단술은 통증 신호를 차단하고 염증 환경을 조절하여 급성 통증이 만성화되는 과정을 줄이는 데 기여합니다[^6].
-
-## 정의
-신경차단술은 통증 신호를 차단하고 염증 환경을 조절하여 급성 통증의 만성화를 예방하는 데 기여합니다[^6].
 
 ---
 
@@ -137,8 +133,6 @@ VAS 통증 감소 순위:
 
 [^5]: [안심튼튼 — 대구 신경차단술, 통증 때문에 밤잠 설치는 분들 꼭 읽어보세요](https://blog.naver.com/ansimpainfree/224254679040)
 
-[^6]: [ansimpainfree.kr/blog/nerve-block-pain-medicine-procedure](https://ansimpainfree.kr/blog/nerve-block-pain-medicine-procedure)
-
 ### 외부 권위 출처
 
 [^1]: Adriaansen EJM, Jacobs JG, Vernooij LM, et al. 8. Herpes zoster and post herpetic neuralgia. *Pain Practice.* 2025;25(1):e13423. PMID 39364882. DOI: [10.1111/papr.13423](https://onlinelibrary.wiley.com/doi/full/10.1111/papr.13423) — 통증의학 표준 8장 review (영상 유도·중재시술 evidence)
@@ -146,6 +140,10 @@ VAS 통증 감소 순위:
 [^2]: Lu W, He S, Liu Q, Gu Y, Bai J. Comparative effectiveness of nerve block strategies for preventing postherpetic neuralgia in thoracic herpes zoster: a network meta-analysis. *Front Neurol.* 2025;16:1612871. PMID 40901665. DOI: [10.3389/fneur.2025.1612871](https://pmc.ncbi.nlm.nih.gov/articles/PMC12399379/) — 9 RCT/741명, PVB·ESPB·SGB 비교, PVB+국소마취제+메틸렌블루 1위
 
 [^3]: Kim HJ, Ahn HS, Lee JY, Choi SS, Cheong YS, Kwon K, Yoon SH, Leem JG. Effects of applying nerve blocks to prevent postherpetic neuralgia in patients with acute herpes zoster: a systematic review and meta-analysis. *Korean J Pain.* 2017;30(1):3-17. PMID 28119767. DOI: [10.3344/kjp.2017.30.1.3](https://pubmed.ncbi.nlm.nih.gov/28119767/) — 9 trials SR/메타, somatic block(PVB·반복 epidural) > sympathetic block(SGB)·단회 epidural in PHN 예방
+
+[^6]: Narouze S, Benzon HT, Provenzano D, et al. Interventional spine and pain procedures in patients on antiplatelet and anticoagulant medications: guidelines from ASRA, ESRA, AAPM, INS, NANS, and WIP. *Reg Anesth Pain Med.* 2015;40(3):182-212. DOI 10.1097/AAP.0000000000000223 (PMID 25899949)
+
+[^7]: Sites BD, Brull R, Chan VW, et al. Artifacts and pitfall errors associated with ultrasound-guided regional anesthesia. Part I: understanding the basic principles of ultrasound physics and machine operations. *Reg Anesth Pain Med.* 2007;32(5):412-418. DOI 10.1016/j.rapm.2007.05.005 (PMID 17961840)
 
 ## Changelog
 - 2026-05-09 v5: **자사 글 1단계 본문 보강 (룰 v2.3 1-2개 한도)**. 자사 apfree naver spoke `대구 신경차단술 밤잠 설치는`(`cd11257c`)에서 한국 임상 정보 1건 추출 — 신경차단 + 관절 초음파주사 + 프롤로/PRP + 체외충격파 + 도수치료 다층 결합 흐름 (만성화 위험 감소 단계적 접근). 환자 안내 섹션 끝에 신규 하위 섹션 + `[^5]` 자사 footnote. source_count 4→5, version 4→5.

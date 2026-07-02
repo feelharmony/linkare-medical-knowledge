@@ -15,6 +15,7 @@ aliases:
   - tension headache
 last_reviewed: '2026-05-03'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 5

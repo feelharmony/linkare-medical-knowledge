@@ -7,9 +7,14 @@ title: 운동 치료
 description: 신체 기능 개선을 위한 운동 기반 치료
 last_reviewed: '2026-04-25'
 locked: true
+quality_status: review
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 3
+source_count_external: 0
+source_count_clinic_pillar: 3
+clinic_footnote_ids: [1, 2, 3]
+external_footnote_ids: []
 version: 4
 ---
 ## 적응증

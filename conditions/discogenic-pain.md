@@ -8,6 +8,7 @@ title_en: internal disc derangement (deprecated)
 description: 외부 권위 출처 부족으로 archived — 디스크 영역은 lumbar-disc-herniation·spinal-stenosis 참조
 last_reviewed: '2026-05-03'
 source_count: 0
+quality_status: review
 version: 2
 status: archived
 published: false

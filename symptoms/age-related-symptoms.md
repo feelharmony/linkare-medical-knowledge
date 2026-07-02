@@ -8,9 +8,14 @@ description: aging-symptoms entity가 canonical hub
 title_en: age-related symptoms (deprecated)
 last_reviewed: '2026-05-03'
 locked: true
+quality_status: review
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
-source_count: 0
+source_count: 1
+source_count_external: 0
+source_count_clinic_pillar: 1
+clinic_footnote_ids: [1]
+external_footnote_ids: []
 version: 3
 status: archived
 published: false

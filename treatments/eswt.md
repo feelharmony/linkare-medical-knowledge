@@ -18,6 +18,7 @@ last_reviewed: '2026-05-18'
 source_count: 9
 version: 5
 locked: true
+quality_status: verified
 verified_by: '사장님 + Claude + GPT 합의 (5/4 v6, 5/9 v7 정정)'
 next_review: '2026-08-09'
 source_count_external: 8

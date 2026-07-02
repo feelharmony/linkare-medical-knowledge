@@ -12,11 +12,16 @@ aliases:
   - 경부통
   - cervical pain
   - neck pain
-last_reviewed: '2026-05-03'
+last_reviewed: '2026-05-31'
 locked: true
+quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 10
+source_count_external: 8
+source_count_clinic_pillar: 2
+clinic_footnote_ids: [1, 2]
+external_footnote_ids: [3, 4, 5, 6, 7, 8, 9, 10]
 version: 4
 ---
 ## 정의
@@ -64,11 +69,12 @@ APTA 임상진료지침(JOSPT 2017)은 목 통증을 임상 양상에 따라 4�
 
 ---
 
-## 관련 임상 자료
+## Citations
+### 자사 임상 자료
 [^1]: [안심튼튼 — 목디스크 관련 글](https://ansimpainfree.kr/blog/cervical-disc-herniation)
 [^2]: [더웰스 — 목 통증 관련 글](https://thewellsr.kr/blog/forward-head-posture)
 
-## Citations
+### 외부 권위 출처
 [^3]: [Cohen SP. Epidemiology, diagnosis, and treatment of neck pain. Mayo Clin Proc. 2015;90(2):284-299. PMID 25659245. DOI 10.1016/j.mayocp.2014.09.008](https://pubmed.ncbi.nlm.nih.gov/25659245/)
 [^4]: [Bono CM et al. North American Spine Society. An evidence-based clinical guideline for the diagnosis and treatment of cervical radiculopathy from degenerative disorders. Spine J. 2011;11(1):64-72. PMID 21168100](https://pubmed.ncbi.nlm.nih.gov/21168100/)
 [^5]: [Blanpied PR, Gross AR, Elliott JM, et al. Neck Pain: Revision 2017. Clinical Practice Guidelines Linked to the International Classification of Functioning, Disability and Health From the Orthopaedic Section of the American Physical Therapy Association. J Orthop Sports Phys Ther. 2017;47(7):A1-A83. PMID 28666405. DOI 10.2519/jospt.2017.0302](https://www.jospt.org/doi/10.2519/jospt.2017.0302)
