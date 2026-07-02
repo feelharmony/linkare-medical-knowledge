@@ -582,5 +582,18 @@
     "sub_topic_type": null,
     "is_pillar": false,
     "tenant_key": "thr"
+  },
+  {
+    "post_path": "content/apfree/ko/-----/plantar-fasciitis.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/plantar-fasciitis",
+    "source_article_title": "대구 족저근막염, 아침 발뒤꿈치 통증 원인과 치료",
+    "primary_entity_id": "plantar-fasciitis",
+    "entity_ids": [
+      "plantar-fasciitis"
+    ],
+    "updated_at": "2026-07-02",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree"
   }
 ]
