@@ -595,5 +595,18 @@
     "sub_topic_type": null,
     "is_pillar": true,
     "tenant_key": "apfree"
+  },
+  {
+    "post_path": "content/thr/en/----/nowon-shoulder-pain-telling-apart-impingement-syndrome-and-r.md",
+    "source_article_url": "https://thewellsr.kr/en/blog/nowon-shoulder-pain-telling-apart-impingement-syndrome-and-r",
+    "source_article_title": "Nowon Shoulder Pain: Telling Apart Impingement Syndrome and Rotator Cuff Injury — and How to Treat Each",
+    "primary_entity_id": "shoulder-impingement-syndrome",
+    "entity_ids": [
+      "shoulder-impingement-syndrome"
+    ],
+    "updated_at": "2026-07-02",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr"
   }
 ]
