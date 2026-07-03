@@ -940,7 +940,7 @@
     "status": "approved",
     "last_reviewed": "2026-07-03",
     "source_count": 6,
-    "version": 3
+    "version": 4
   },
   {
     "id": "neck",
@@ -956,7 +956,7 @@
     "status": "approved",
     "last_reviewed": "2026-07-03",
     "source_count": 6,
-    "version": 1
+    "version": 2
   },
   {
     "id": "hair-loss-medication",
