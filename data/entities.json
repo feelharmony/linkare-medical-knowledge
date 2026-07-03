@@ -301,12 +301,16 @@
     "type": "symptom",
     "name_ko": "손목 통증",
     "name_en": "wrist pain",
-    "aliases": [],
-    "description_ko": "손목 부위의 통증",
+    "aliases": [
+      "손목 통증",
+      "손목통증",
+      "wrist pain"
+    ],
+    "description_ko": "손목 관절, 힘줄, 인대, 신경, 외상성 구조 손상 등 다양한 원인으로 발생하는 손목 부위 통증",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 1
+    "last_reviewed": "2026-07-03",
+    "source_count": 5,
+    "version": 3
   },
   {
     "id": "stem-cell-therapy",
@@ -828,13 +832,17 @@
     "name_ko": "손목터널증후군",
     "name_en": "carpal tunnel syndrome",
     "aliases": [
-      "수근관 증후군"
+      "손목터널증후군",
+      "수근관증후군",
+      "수근관 증후군",
+      "carpal tunnel syndrome",
+      "CTS"
     ],
-    "description_ko": "손목의 정중신경이 압박되어 발생하는 질환",
+    "description_ko": "손목의 수근관 안에서 정중신경이 압박되어 엄지·검지·중지 저림, 야간 통증, 악력 저하를 유발하는 말초신경 포착 질환",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 1
+    "last_reviewed": "2026-07-03",
+    "source_count": 5,
+    "version": 2
   },
   {
     "id": "cubital-tunnel-syndrome",
@@ -859,15 +867,20 @@
     "name_ko": "드퀘르벵 건초염",
     "name_en": "de Quervain's tenosynovitis",
     "aliases": [
+      "드퀘르벵 건초염",
+      "드퀘르뱅 건초염",
+      "드퀘르벵병",
+      "엄지손목건초염",
       "엄지 손목 건초염",
       "산모 손목",
-      "드퀘르뱅"
+      "de Quervain tenosynovitis",
+      "de Quervain's disease"
     ],
-    "description_ko": "엄지를 움직이는 힘줄의 건초염",
+    "description_ko": "엄지 쪽 손목의 첫 번째 신전 구획에서 힘줄과 건초가 좁아져 엄지 사용 시 통증을 유발하는 협착성 건초염",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 1
+    "last_reviewed": "2026-07-03",
+    "source_count": 5,
+    "version": 2
   },
   {
     "id": "finger-pain",
@@ -1171,14 +1184,18 @@
     "name_ko": "손 저림",
     "name_en": "hand numbness",
     "aliases": [
+      "손 저림",
+      "손저림",
       "손가락 저림",
-      "손이 저린 증상"
+      "손 감각 이상",
+      "hand numbness",
+      "hand paresthesia"
     ],
-    "description_ko": "손·손가락의 저림·감각 이상",
+    "description_ko": "손과 손가락의 저림, 감각 둔화, 따끔거림, 화끈거림을 포괄하는 증상으로 손목터널증후군, 경추 신경근병증, 말초신경병증 등을 감별해야 합니다",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 1
+    "last_reviewed": "2026-07-03",
+    "source_count": 5,
+    "version": 3
   },
   {
     "id": "knee-pain",
@@ -1373,13 +1390,16 @@
     "name_ko": "손목",
     "name_en": "wrist",
     "aliases": [
-      "수관절"
+      "손목",
+      "수관절",
+      "wrist",
+      "carpus"
     ],
-    "description_ko": "손목 관절 부위",
+    "description_ko": "요골·척골 원위부와 수근골, 인대, 힘줄, 정중신경·척골신경이 함께 지나는 손과 팔의 연결 부위",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 1
+    "last_reviewed": "2026-07-03",
+    "source_count": 5,
+    "version": 2
   },
   {
     "id": "muscle-relaxants",
