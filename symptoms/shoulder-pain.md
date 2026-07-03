@@ -70,7 +70,7 @@ JOSPT 2025 회전근개 건병증 CPG는 **subacromial pain syndrome / rotator c
 - [회전근개 건병증](/conditions/rotator-cuff-tendinopathy/) · [회전근개 손상](/conditions/rotator-cuff-injury/) · [충돌증후군](/conditions/shoulder-impingement-syndrome/)
 - [오십견](/conditions/frozen-shoulder/) · [석회성 건염](/conditions/calcific-tendinitis/)
 
-임상에서는 환자 평가 후 보존 치료를 우선하고, 만성·반복성 통증에 대해 운동·도수치료를 중심으로 평가하며 외상·신경학적 결손·red flag가 있으면 영상 검사와 시술 적응을 검토합니다 [^1].
+임상에서는 환자 평가 후 보존 치료를 우선하고, 만성·반복성 통증에 대해 운동·도수치료, 윈백 고주파(TECAR/RF) 물리치료, 체외충격파(ESWT)를 함께 평가하며 외상·신경학적 결손·red flag가 있으면 영상 검사와 시술 적응을 검토합니다 [^1].
 
 ### 경과·예후
 대부분의 비외상성 어깨 통증은 보존 치료로 호전되지만 만성화·재발이 적지 않습니다 — 일반인구 SR에서 1년 유병률이 4.7~46.7%, 평생 유병률 6.7~66.7%로 폭이 큰 것은 만성·반복 환자가 상당 비율을 차지함을 시사합니다 [^4]. 회전근개 파열·동결견 등 원인 질환별 회복 양상은 해당 항목을 참고하세요. 인구 고령화로 어깨 통증 부담은 증가 추세로 보고됩니다 [^4].

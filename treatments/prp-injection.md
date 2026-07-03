@@ -10,6 +10,10 @@ aliases:
   - PRP
   - 혈소판 풍부 혈장
   - autologous platelet-rich plasma
+  - PRF
+  - platelet-rich fibrin
+  - 혈소판 풍부 피브린
+  - 자가활성화세포
 last_reviewed: '2026-05-31'
 locked: true
 quality_status: verified
@@ -24,16 +28,17 @@ version: 4
 ---
 
 ## 정의·기전
-PRP(platelet-rich plasma)는 환자 본인의 혈액을 원심분리하여 혈소판 농도를 높인 혈장을 다시 주입하는 자가 치료입니다. 혈소판에서 분비되는 PDGF, VEGF, TGF-β, IGF 등의 성장인자가 조직 재생, 혈관 신생, 콜라겐 합성을 자극하는 것이 알려진 작용 기전입니다. 자가 혈액 기반이라 면역 거부 위험이 낮고, 원심분리·활성화·주입 프로토콜에 따라 혈소판 농도와 방출 인자 양상이 달라집니다.
+PRP(platelet-rich plasma)는 환자 본인의 혈액을 원심분리하여 혈소판 농도를 높인 혈장을 다시 주입하는 자가 치료입니다. PRF(platelet-rich fibrin)는 혈소판과 피브린 매트릭스를 함께 활용해 성장인자 방출 양상과 조직 지지 환경을 다르게 설계하는 자가 혈액 기반 재생 옵션입니다. 환자 설명에서는 PRP·PRF를 넓게 **자가활성화세포** 또는 자가 혈액 기반 재생치료 범주로 묶어 설명할 수 있습니다. 혈소판에서 분비되는 PDGF, VEGF, TGF-β, IGF 등의 성장인자가 조직 재생, 혈관 신생, 콜라겐 합성을 자극하는 것이 알려진 작용 기전입니다. 자가 혈액 기반이라 면역 거부 위험이 낮고, 원심분리·활성화·주입 프로토콜에 따라 혈소판 농도와 방출 인자 양상이 달라집니다.
 
 ## 적응증 영역
 
-PRP는 영역별로 evidence와 적응증이 다릅니다. 본 entity는 영역 overview를 다루며, 각 영역의 자세한 evidence는 해당 entity로 이어집니다.
+PRP/PRF는 영역별로 evidence와 적응증이 다릅니다. 본 entity는 영역 overview를 다루며, 각 영역의 자세한 evidence는 해당 entity로 이어집니다.
 
 ### 근골격계 (정형·통증)
 - **외측상과염** — 보존 치료에 반응하지 않는 경우 선택지로 검토 → [lateral-epicondylitis](../conditions/lateral-epicondylitis.md)
 - **무릎 골관절염** — KL 등급·보존 반응에 따라 환자별 검토 → [knee-osteoarthritis](../conditions/knee-osteoarthritis.md)
 - **회전근개 건병증·석회성 건염** → [rotator-cuff-tendinopathy](../conditions/rotator-cuff-tendinopathy.md), [calcific-tendinitis](../conditions/calcific-tendinitis.md)
+- **슬개건염·만성 건초염** — 운동·부하 조절·ESWT 반응과 함께 선택적으로 논의 → [patellar-tendinitis](../conditions/patellar-tendinitis.md), [de-quervain](../conditions/de-quervain.md)
 - 국내 신의료기술 고시상 PRP 적용은 적응증·방법별로 좁게 구분됩니다. 예를 들어 회전근개 영역은 외래 회전근개 건병증 PRP 전체가 아니라 `회전근개봉합술 중 자가 혈소판 풍부 혈장 치료술`로 등재된 범위가 별도로 규정되어 있습니다 [^6]. 구체적 보험 인정 기준은 진료 시점 의료진과 상담합니다.
 
 PRP는 즉각적 통증 억제가 아닌 조직 재생 자극이 기전이라 시간 축의 효과 양상이 스테로이드와 다르게 보고됩니다. 근골격계 PRP 연구는 질환·프로토콜별 이질성이 커서 일괄적인 효과 단정은 어렵지만, 일부 정형외과 영역에서는 통증 감소 효과가 보고됩니다 [^7]. 한국 임상에서는 단기(3개월 이내)에는 스테로이드 주사가 통증 완화에서 더 빠른 반응을 보이지만 6~12개월 시점에는 PRP가 효과 유지 면에서 우세한 경향이 보고되어, 단기 진통이 우선이냐 중장기 조직 회복이 우선이냐에 따라 환자별 선택이 달라집니다 [^5].

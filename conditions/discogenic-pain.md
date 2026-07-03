@@ -7,7 +7,13 @@ title: 추간판 내장증 (archived)
 title_en: internal disc derangement (deprecated)
 description: 외부 권위 출처 부족으로 archived — 디스크 영역은 lumbar-disc-herniation·spinal-stenosis 참조
 last_reviewed: '2026-05-03'
+next_review: '2026-10-03'
+locked: false
 source_count: 0
+source_count_external: 0
+source_count_clinic_pillar: 0
+clinic_footnote_ids: []
+external_footnote_ids: []
 quality_status: review
 version: 2
 status: archived
