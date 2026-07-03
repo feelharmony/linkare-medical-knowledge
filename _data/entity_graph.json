@@ -205,9 +205,10 @@
       "type": "treatment",
       "name_ko": "NAD+ 수액 치료",
       "name_en": "NAD+ infusion therapy",
-      "post_count": 4,
+      "post_count": 6,
       "tenant_keys": [
-        null
+        null,
+        "thr"
       ]
     },
     {
@@ -265,9 +266,10 @@
       "type": "condition",
       "name_ko": "오십견",
       "name_en": "frozen shoulder",
-      "post_count": 2,
+      "post_count": 4,
       "tenant_keys": [
-        null
+        null,
+        "thr"
       ]
     },
     {
@@ -275,9 +277,10 @@
       "type": "condition",
       "name_ko": "석회성 건염",
       "name_en": "calcific tendinitis",
-      "post_count": 1,
+      "post_count": 2,
       "tenant_keys": [
-        null
+        null,
+        "apfree"
       ]
     },
     {
@@ -295,9 +298,10 @@
       "type": "condition",
       "name_ko": "목디스크",
       "name_en": "cervical disc herniation",
-      "post_count": 2,
+      "post_count": 3,
       "tenant_keys": [
-        null
+        null,
+        "apfree"
       ]
     },
     {
@@ -411,6 +415,16 @@
       ]
     },
     {
+      "id": "hi-ems",
+      "type": "treatment",
+      "name_ko": "하이엠스",
+      "name_en": "high-intensity electromagnetic stimulation",
+      "post_count": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "id": "manual-therapy",
       "type": "treatment",
       "name_ko": "도수치료",
@@ -448,6 +462,16 @@
       "post_count": 1,
       "tenant_keys": [
         null
+      ]
+    },
+    {
+      "id": "transcranial-magnetic-stimulation",
+      "type": "treatment",
+      "name_ko": "경두개 자기 자극 (TMS)",
+      "name_en": "transcranial magnetic stimulation",
+      "post_count": 2,
+      "tenant_keys": [
+        "thr"
       ]
     }
   ],

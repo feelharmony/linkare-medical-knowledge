@@ -13,19 +13,18 @@ aliases:
   - CTS
 last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
-locked: false
-quality_status: review
-verified_by: Hermes + PubMed/가이드라인 기반 초안
+locked: true
+quality_status: verified
+verified_by: Hermes + wrist/hand-numbness 허브 정합화
 source_count: 5
 source_count_external: 5
 source_count_clinic_pillar: 0
 clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5]
-version: 1
-robots: "noindex, follow"
+version: 2
 ---
 ## 정의
-손목터널증후군(carpal tunnel syndrome, CTS)은 [손목](/body-parts/wrist/)의 수근관 안에서 정중신경(median nerve)이 압박되어 손 저림, 야간 통증, 감각 저하, 엄지 힘 저하를 일으키는 말초신경 포착 질환입니다 [^1][^2]. 정중신경은 엄지, 검지, 중지, 약지의 엄지 쪽 절반 감각과 엄지 일부 근육 기능에 관여합니다.
+손목터널증후군(carpal tunnel syndrome, CTS)은 [손목](/body-parts/wrist/)의 수근관 안에서 정중신경(median nerve)이 압박되어 [손 저림](/symptoms/hand-numbness/), 야간 통증, 감각 저하, 엄지 힘 저하를 일으키는 말초신경 포착 질환입니다 [^1][^2]. 정중신경은 엄지, 검지, 중지, 약지의 엄지 쪽 절반 감각과 엄지 일부 근육 기능에 관여합니다.
 
 손목터널증후군은 손 저림의 대표 원인이지만, 모든 손 저림이 CTS는 아닙니다. 약지·새끼손가락 저림은 척골신경 포착을, 목 통증과 팔 전체 방사통은 경추 신경근병증을, 양측 대칭성 손발 저림은 말초신경병증을 함께 감별해야 합니다 [^3][^4].
 
@@ -45,7 +44,7 @@ robots: "noindex, follow"
 전기진단검사(NCS/EMG)는 증상이 비전형적이거나, 수술 전 중증도 평가가 필요하거나, 경추 신경근병증·말초신경병증과 감별해야 할 때 도움이 됩니다 [^1][^4]. 초음파는 정중신경 비대, 힘줄·낭종 등 구조적 원인 확인과 주사 정확도 향상에 활용될 수 있습니다.
 
 ## 치료
-초기 또는 경도·중등도 손목터널증후군은 야간 부목, 손목 중립 자세 교육, 반복 부하 조절, 국소 스테로이드 주사를 단계적으로 사용합니다 [^2][^3]. 국소 스테로이드 주사는 단기 증상 완화에 도움이 될 수 있지만 장기 개선 효과는 제한적일 수 있어, 통증과 저림을 낮추고 생활·작업 조정을 병행하는 치료로 설명하는 것이 안전합니다 [^1][^2].
+초기 또는 경도·중등도 손목터널증후군은 야간 부목, 손목 중립 자세 교육, 반복 부하 조절, [초음파 유도 주사](/treatments/ultrasound-guided-injection/)를 포함한 국소 스테로이드 주사를 단계적으로 사용합니다 [^2][^3]. 국소 스테로이드 주사는 단기 증상 완화에 도움이 될 수 있지만 장기 개선 효과는 제한적일 수 있어, 통증과 저림을 낮추고 생활·작업 조정을 병행하는 치료로 설명하는 것이 안전합니다 [^1][^2].
 
 보존 치료에 반응하지 않거나, 엄지 두덩 근위축, 진행성 근력 저하, 지속 감각 저하가 있으면 수근관 감압술을 검토합니다 [^1][^5]. AAOS/ASSH 가이드라인은 수술적 감압을 강한 권고로 제시하며, 수술 방식은 환자 상태와 술자 판단에 따라 선택됩니다 [^1].
 
@@ -69,4 +68,5 @@ robots: "noindex, follow"
 [^5]: [Shi Q, MacDermid JC. Surgical versus non-surgical treatment for carpal tunnel syndrome. Cochrane Database Syst Rev. 2024;1:CD001552. PMID 38189479](https://pubmed.ncbi.nlm.nih.gov/38189479/)
 
 ## Changelog
+- 2026-07-03 v2: wrist/hand-numbness 허브와 정합화하고 verified로 승격. noindex 제거. 정의에 hand-numbness 내부 링크 추가. 치료 섹션에 ultrasound-guided-injection 링크를 연결하고, 국소 스테로이드 주사는 단기 증상 완화 보조이며 진행성 근위축·약화는 수술 의뢰 기준이라는 경계 유지. source_count 5 유지, version 1→2.
 - 2026-07-03 v1: frontmatter-only stub을 condition entity로 확장. 정중신경 압박, 손 저림 분포, CTS-6·전기진단, 보조기·국소 스테로이드 주사·수근관 감압술 기준을 단계 치료로 정리.

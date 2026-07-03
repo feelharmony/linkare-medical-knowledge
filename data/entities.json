@@ -237,11 +237,11 @@
       "US-guided injection",
       "sonographically guided injection"
     ],
-    "description_ko": "실시간 초음파 영상으로 표적 구조를 확인하면서 약물을 정확한 위치에 전달하는 주사 시술 방식. 관절강·건·인대·신경 부위 등 다양한 영역에 활용되며, blind/landmark 방식 대비 표적 정확도가 높다고 보고됩니다.",
+    "description_ko": "실시간 초음파 영상으로 관절강·건·인대·점액낭·신경 주변·족저근막 등 표적 구조와 바늘 경로를 확인하면서 약물을 전달하는 주사 유도 방식",
     "status": "approved",
-    "last_reviewed": "2026-05-04",
-    "source_count": 2,
-    "version": 4
+    "last_reviewed": "2026-07-03",
+    "source_count": 5,
+    "version": 5
   },
   {
     "id": "ultrasound-injection",
@@ -818,6 +818,23 @@
     "version": 1
   },
   {
+    "id": "cubital-tunnel-syndrome",
+    "type": "condition",
+    "name_ko": "주관절 척골신경 포착",
+    "name_en": "cubital tunnel syndrome",
+    "aliases": [
+      "주관절 터널 증후군",
+      "팔꿈치 척골신경 포착",
+      "척골신경병증",
+      "ulnar neuropathy at the elbow"
+    ],
+    "description_ko": "팔꿈치 주관절 터널 부위에서 척골신경이 압박되어 약지·새끼손가락 저림, 팔꿈치 굽힘 시 악화, 손 힘 저하를 유발하는 말초신경 포착 질환",
+    "status": "approved",
+    "last_reviewed": "2026-07-03",
+    "source_count": 5,
+    "version": 1
+  },
+  {
     "id": "de-quervain",
     "type": "condition",
     "name_ko": "드퀘르벵 건초염",
@@ -831,6 +848,42 @@
     "status": "approved",
     "last_reviewed": null,
     "source_count": 0,
+    "version": 1
+  },
+  {
+    "id": "finger-pain",
+    "type": "symptom",
+    "name_ko": "손가락 통증",
+    "name_en": "finger pain",
+    "aliases": [
+      "손가락통증",
+      "손가락 아픔",
+      "손가락 관절 통증",
+      "finger pain",
+      "painful finger"
+    ],
+    "description_ko": "손가락 관절, 힘줄·건초, 인대, 신경, 외상, 감염, 염증성 관절 질환 등 다양한 원인으로 발생하는 손가락 부위 통증",
+    "status": "approved",
+    "last_reviewed": "2026-07-03",
+    "source_count": 5,
+    "version": 1
+  },
+  {
+    "id": "trigger-finger",
+    "type": "condition",
+    "name_ko": "방아쇠수지",
+    "name_en": "trigger finger",
+    "aliases": [
+      "방아쇠 손가락",
+      "탄발지",
+      "협착성 건초염",
+      "trigger digit",
+      "stenosing tenosynovitis"
+    ],
+    "description_ko": "손가락 굴곡건과 A1 pulley 부위의 협착성 건초염으로 손가락을 굽히고 펼 때 걸림, 딸깍거림, 잠김, 통증을 유발하는 질환",
+    "status": "approved",
+    "last_reviewed": "2026-07-03",
+    "source_count": 5,
     "version": 1
   },
   {
@@ -938,28 +991,33 @@
     "aliases": [
       "족저 근막염",
       "족저근막염",
-      "발바닥 근막염"
+      "발바닥 근막염",
+      "plantar fasciopathy",
+      "plantar heel pain"
     ],
-    "description_ko": "발바닥 근막의 염증성 질환",
+    "description_ko": "발뒤꿈치 아래 안쪽과 발바닥 근막 부착부의 반복 부하·퇴행성 변화로 아침 첫발 통증과 보행 통증을 유발하는 대표적 발뒤꿈치 통증 질환",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 3
+    "last_reviewed": "2026-07-03",
+    "source_count": 5,
+    "version": 4
   },
   {
     "id": "achilles-tendinitis",
     "type": "condition",
     "name_ko": "아킬레스건염",
-    "name_en": "Achilles tendinitis",
+    "name_en": "Achilles tendinopathy",
     "aliases": [
       "아킬레스 건염",
-      "아킬레스건염"
+      "아킬레스건염",
+      "아킬레스건병증",
+      "아킬레스 건병증",
+      "Achilles tendinitis"
     ],
-    "description_ko": "아킬레스건의 염증",
+    "description_ko": "종아리 근육과 발뒤꿈치를 연결하는 아킬레스건의 반복 부하·퇴행성 변화로 뒤꿈치 뒤쪽 통증, 뻣뻣함, 근력 저하를 유발하는 건병증",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 2
+    "last_reviewed": "2026-07-03",
+    "source_count": 5,
+    "version": 3
   },
   {
     "id": "hallux-valgus",
@@ -967,13 +1025,15 @@
     "name_ko": "무지외반증",
     "name_en": "hallux valgus",
     "aliases": [
-      "엄지발가락 휨"
+      "엄지발가락 휨",
+      "엄지발가락 돌출",
+      "bunion"
     ],
-    "description_ko": "엄지발가락이 안쪽으로 휘는 변형 질환",
+    "description_ko": "엄지발가락이 둘째 발가락 쪽으로 휘고 첫 번째 중족골 머리 부위가 돌출되어 통증, 신발 마찰, 앞발 과부하를 유발하는 변형 질환",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 1
+    "last_reviewed": "2026-07-03",
+    "source_count": 5,
+    "version": 2
   },
   {
     "id": "myofascial-pain-syndrome",
@@ -995,12 +1055,17 @@
     "type": "symptom",
     "name_ko": "발 통증",
     "name_en": "foot pain",
-    "aliases": [],
-    "description_ko": "발 부위의 통증",
+    "aliases": [
+      "발통증",
+      "발바닥 통증",
+      "앞발 통증",
+      "forefoot pain"
+    ],
+    "description_ko": "발뒤꿈치·발바닥·앞발·발가락·발등·발목 주변에서 발생하는 통증으로 족저근막염, 아킬레스건병증, 중족골통, Morton 신경종, 무지외반증, 피로골절 등을 감별해야 하는 증상",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 1
+    "last_reviewed": "2026-07-03",
+    "source_count": 5,
+    "version": 2
   },
   {
     "id": "heel-pain",
@@ -1008,13 +1073,15 @@
     "name_ko": "발뒤꿈치 통증",
     "name_en": "heel pain",
     "aliases": [
-      "뒤꿈치 통증"
+      "뒤꿈치 통증",
+      "발꿈치 통증",
+      "plantar heel pain"
     ],
-    "description_ko": "발뒤꿈치 부위의 통증 (족저근막염 진입 증상)",
+    "description_ko": "발뒤꿈치 아래·안쪽·뒤쪽·측면에서 발생하는 통증으로, 족저근막염·아킬레스건병증·뒤꿈치 지방패드 통증·신경 포착·피로골절 등을 감별해야 하는 증상",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 1
+    "last_reviewed": "2026-07-03",
+    "source_count": 5,
+    "version": 2
   },
   {
     "id": "arm-numbness",
