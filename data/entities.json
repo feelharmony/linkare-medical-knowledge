@@ -1099,14 +1099,20 @@
     "name_ko": "근막통증증후군",
     "name_en": "myofascial pain syndrome",
     "aliases": [
-      "근막통",
-      "근막 통증"
+      "근막통증증후군",
+      "근막통증",
+      "근막 통증",
+      "통증유발점",
+      "트리거포인트",
+      "trigger point",
+      "myofascial pain syndrome",
+      "MPS"
     ],
-    "description_ko": "근막에 발생한 통증유발점으로 인한 만성 통증",
+    "description_ko": "근육과 근막의 통증유발점 때문에 국소 통증, 연관통, 근육 긴장, 움직임 제한이 반복되는 통증 상태",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 1
+    "last_reviewed": "2026-07-03",
+    "source_count": 6,
+    "version": 2
   },
   {
     "id": "foot-pain",
