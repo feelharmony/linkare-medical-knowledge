@@ -54,14 +54,16 @@
     "name_en": "exosome therapy",
     "aliases": [
       "엑소좀",
+      "세포외 소포체",
       "exosomes",
-      "extracellular vesicles"
+      "extracellular vesicles",
+      "EV therapy"
     ],
-    "description_ko": "세포가 분비하는 작은 소포체(엑소좀)를 활용한 재생 치료",
+    "description_ko": "세포외 소포체(엑소좀)를 활용해 세포 간 신호 전달·조직 회복 환경 조절을 목표로 하는 재생 치료",
     "status": "approved",
-    "last_reviewed": "2026-05-03",
-    "source_count": 3,
-    "version": 3
+    "last_reviewed": "2026-07-03",
+    "source_count": 7,
+    "version": 4
   },
   {
     "id": "lumbar-disc-herniation",
