@@ -262,6 +262,16 @@
       ]
     },
     {
+      "id": "tecar-rf-therapy",
+      "type": "treatment",
+      "name_ko": "TECAR RF 고주파 치료",
+      "name_en": "TECAR radiofrequency therapy",
+      "post_count": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "id": "shoulder-pain",
       "type": "symptom",
       "name_ko": "어깨 통증",
@@ -1670,6 +1680,14 @@
       "weight": 1,
       "tenant_keys": [
         null
+      ]
+    },
+    {
+      "source": "hi-ems",
+      "target": "tecar-rf-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
       ]
     }
   ]

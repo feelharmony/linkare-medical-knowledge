@@ -107,7 +107,7 @@ rPMS는 만성 근골격계 통증 영역에서 도수치료·운동치료의 �
 
 ## 관련 항목
 
-- [도수치료](./manual-therapy.md) · [체외충격파(ESWT)](./eswt.md) · [운동치료](./exercise-therapy.md)
+- [도수치료](./manual-therapy.md) · [TECAR RF 고주파 치료](/treatments/tecar-rf-therapy/) · [체외충격파(ESWT)](./eswt.md) · [운동치료](./exercise-therapy.md)
 - [허리디스크](../conditions/lumbar-disc-herniation.md) · [목디스크](../conditions/cervical-disc-herniation.md) · [거북목·일자목](../conditions/forward-head-posture.md)
 - [어깨 통증](../symptoms/shoulder-pain.md) · [허리 통증](../symptoms/lower-back-pain.md) · [목 통증](../symptoms/neck-pain.md)
 

@@ -498,6 +498,33 @@
     "version": 6
   },
   {
+    "id": "tecar-rf-therapy",
+    "type": "treatment",
+    "name_ko": "TECAR RF 고주파 치료",
+    "name_en": "TECAR radiofrequency therapy",
+    "aliases": [
+      "TECAR RF 고주파 치료",
+      "TECAR 고주파",
+      "TECAR therapy",
+      "tecar therapy",
+      "capacitive resistive electric transfer",
+      "capacitive-resistive electric transfer",
+      "CRET",
+      "capacitive-resistive radiofrequency",
+      "448 kHz radiofrequency",
+      "radiofrequency diathermy",
+      "윈백",
+      "윈백 고주파",
+      "Winback",
+      "Winback 고주파"
+    ],
+    "description_ko": "고주파 에너지를 capacitive/resistive 방식으로 조직에 전달해 심부열, 혈류, 근긴장 완화, 통증 조절을 목표로 하는 물리치료 모달리티. 운동치료·도수치료·재활 진입을 돕는 보조 치료로 설명합니다.",
+    "status": "approved",
+    "last_reviewed": "2026-07-03",
+    "source_count": 7,
+    "version": 1
+  },
+  {
     "id": "headache",
     "type": "symptom",
     "name_ko": "두통",
