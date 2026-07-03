@@ -324,17 +324,23 @@
     "name_en": "stem cell therapy",
     "aliases": [
       "줄기세포",
+      "줄기세포 치료",
       "자가지방 줄기세포",
+      "골수 줄기세포",
       "SVF",
       "stromal vascular fraction",
       "ADSC",
-      "adipose-derived stem cell"
+      "adipose-derived stem cell",
+      "BMAC",
+      "bone marrow aspirate concentrate",
+      "BMSC",
+      "mesenchymal stem cell"
     ],
-    "description_ko": "자가/타가 줄기세포를 활용한 재생 치료 (혈액·지방·골수 유래 포함)",
+    "description_ko": "지방·골수 등 자가 세포 또는 세포 유래 분획을 활용해 조직 회복 환경 조절을 목표로 하는 재생 치료",
     "status": "approved",
-    "last_reviewed": "2026-05-03",
-    "source_count": 4,
-    "version": 2
+    "last_reviewed": "2026-07-03",
+    "source_count": 10,
+    "version": 4
   },
   {
     "id": "elbow",
