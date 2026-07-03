@@ -23,7 +23,7 @@ source_count_external: 5
 source_count_clinic_pillar: 0
 clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5]
-version: 1
+version: 2
 ---
 ## 정의
 손가락 통증(finger pain)은 손가락 관절, 굴곡·신전 힘줄, 건초, 인대, 뼈, 신경, 피부·연부조직에서 생기는 통증을 포괄하는 증상 용어입니다 [^1][^2]. 같은 “손가락이 아프다”라도 딸깍 걸리는지, 관절이 붓는지, 외상 후 변형이 있는지, 감염 소견이 있는지, 저림이 동반되는지에 따라 진단과 치료가 달라집니다.
@@ -73,4 +73,5 @@ version: 1
 [^5]: [Huisstede BMA et al. Effectiveness of Conservative, Surgical, and Postsurgical Interventions for Trigger Finger, Dupuytren Disease, and De Quervain Disease: A Systematic Review. Arch Phys Med Rehabil. 2018;99(8):1635-1649.e21. PMID 28860097](https://pubmed.ncbi.nlm.nih.gov/28860097/)
 
 ## Changelog
-- 2026-07-03 v1: 신규 symptom entity 발행. 손가락 통증을 방아쇠수지형, 관절 통증형, 외상·힘줄 손상형, 감염형, 저림 동반 신경형으로 분기하고 trigger-finger/CTS/cubital-tunnel/hand-numbness 허브와 연결. source_count 5, verified 발행.
+- 2026-07-03 v2: 손목/손 축 마무리. registry metadata와 정합화하고, 방아쇠수지·손목터널증후군·주관절 척골신경 포착·손 저림으로 이어지는 손가락 통증 분기 구조를 재검증.
+- 2026-07-03 v1: 신규 symptom entity 발행. trigger-finger/hand-numbness/wrist 허브와 정합화. 손가락 통증을 걸림·딸깍형, 관절 통증형, 외상/인대/힘줄 손상형, 감염형, 저림 동반 신경형으로 분기. 방아쇠수지·손목터널·척골신경 포착·감염성 굴곡건초염 레드플래그와 초음파 유도 주사/ESWT/PRP 선택지 경계를 반영. source_count 5, verified 발행.

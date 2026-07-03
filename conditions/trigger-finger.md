@@ -24,7 +24,7 @@ source_count_external: 5
 source_count_clinic_pillar: 0
 clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5]
-version: 1
+version: 2
 ---
 ## 정의
 방아쇠수지(trigger finger, trigger digit)는 손가락 굴곡건과 A1 pulley 부위에서 힘줄이 부드럽게 지나가지 못해 [손가락 통증](/symptoms/finger-pain/), 딸깍거림, 걸림, 잠김을 만드는 협착성 건초염입니다 [^1][^2]. 손가락을 굽혔다 펼 때 방아쇠처럼 “탁” 걸렸다 풀리는 느낌 때문에 방아쇠수지라고 부릅니다.
@@ -32,7 +32,7 @@ version: 1
 엄지에도 생길 수 있으며, 엄지 쪽 손목의 첫 번째 신전 구획 문제인 [드퀘르벵 건초염](/conditions/de-quervain/)과는 다른 질환입니다. 드퀘르벵은 엄지 쪽 손목 통증이 중심이고, 방아쇠수지는 손바닥 쪽 MCP 관절 근처 통증과 손가락 굴곡·신전 걸림이 중심입니다 [^1].
 
 ## 병태
-손가락 굴곡건은 손바닥 쪽의 pulley 구조 아래를 지나갑니다. A1 pulley 또는 굴곡건이 두꺼워지거나 부종이 생기면 힘줄이 통로에서 걸리며 통증과 탄발 현상이 생깁니다 [^1][^2]. 반복적인 쥐기·잡기 동작, 당뇨병, 류마티스 관절염, 손목터널증후군, 드퀘르벵 건초염과의 동반이 보고됩니다 [^1][^3].
+손가락 굴곡건은 손바닥 쪽의 pulley 구조 아래를 지나갑니다. A1 pulley 또는 굴곡건이 두꺼워지거나 부종이 생기면 힘줄이 통로에서 걸리며 통증과 탄발 현상이 생깁니다 [^1][^2]. 반복적인 쥐기·잡기 동작, 당뇨병, 류마티스 관절염, [손목터널증후군](/conditions/carpal-tunnel-syndrome/), [드퀘르벵 건초염](/conditions/de-quervain/)과의 동반이 보고됩니다 [^1][^3].
 
 염증이라는 이름이 붙지만, 만성화된 방아쇠수지는 단순 염증보다 pulley-힘줄 사이의 기계적 협착과 건초 비후가 함께 작용하는 질환으로 설명하는 것이 안전합니다 [^1].
 
@@ -71,4 +71,5 @@ version: 1
 [^5]: [Huisstede BMA et al. Effectiveness of Conservative, Surgical, and Postsurgical Interventions for Trigger Finger, Dupuytren Disease, and De Quervain Disease: A Systematic Review. Arch Phys Med Rehabil. 2018;99(8):1635-1649.e21. PMID 28860097](https://pubmed.ncbi.nlm.nih.gov/28860097/)
 
 ## Changelog
+- 2026-07-03 v2: 손목/손 축 마무리. 병태 섹션에서 동반 가능 질환인 손목터널증후군·드퀘르벵 건초염을 canonical 내부 링크로 연결하고 registry metadata와 정합화.
 - 2026-07-03 v1: 신규 condition entity 발행. finger-pain/de-quervain/ultrasound-guided-injection 허브와 정합화. A1 pulley 협착, 손바닥 쪽 MCP 압통, 딸깍거림·잠김, 스테로이드 주사, 초음파 유도 주사, A1 pulley release 기준을 단계 치료로 정리. source_count 5, verified 발행.

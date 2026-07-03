@@ -650,13 +650,17 @@
     "name_ko": "목디스크",
     "name_en": "cervical disc herniation",
     "aliases": [
-      "경추 추간판 탈출증"
+      "목디스크",
+      "경추 추간판 탈출증",
+      "경추 디스크",
+      "cervical disc herniation",
+      "cervical herniated disc"
     ],
-    "description_ko": "경추 추간판이 탈출하여 신경을 압박하는 질환",
+    "description_ko": "경추 추간판 탈출이나 퇴행성 변화가 신경근을 자극해 목 통증, 어깨·팔 방사통, 손 저림, 근력 저하를 일으킬 수 있는 질환",
     "status": "approved",
-    "last_reviewed": "2026-04-28",
-    "source_count": 2,
-    "version": 4
+    "last_reviewed": "2026-07-03",
+    "source_count": 7,
+    "version": 7
   },
   {
     "id": "androgenetic-alopecia",
@@ -888,6 +892,7 @@
     "name_ko": "손가락 통증",
     "name_en": "finger pain",
     "aliases": [
+      "손가락 통증",
       "손가락통증",
       "손가락 아픔",
       "손가락 관절 통증",
@@ -898,7 +903,7 @@
     "status": "approved",
     "last_reviewed": "2026-07-03",
     "source_count": 5,
-    "version": 1
+    "version": 2
   },
   {
     "id": "trigger-finger",
@@ -906,9 +911,11 @@
     "name_ko": "방아쇠수지",
     "name_en": "trigger finger",
     "aliases": [
+      "방아쇠수지",
       "방아쇠 손가락",
       "탄발지",
       "협착성 건초염",
+      "trigger finger",
       "trigger digit",
       "stenosing tenosynovitis"
     ],
@@ -916,7 +923,7 @@
     "status": "approved",
     "last_reviewed": "2026-07-03",
     "source_count": 5,
-    "version": 1
+    "version": 2
   },
   {
     "id": "cervical-spine",
@@ -924,13 +931,32 @@
     "name_ko": "경추",
     "name_en": "cervical spine",
     "aliases": [
-      "목뼈"
+      "경추",
+      "목뼈",
+      "cervical spine",
+      "C-spine"
     ],
-    "description_ko": "목 부위의 척추",
+    "description_ko": "목을 이루는 7개의 척추 분절과 디스크, 후관절, 신경근, 척수가 포함된 상부 척추 구조",
     "status": "approved",
-    "last_reviewed": "2026-04-28",
-    "source_count": 1,
-    "version": 2
+    "last_reviewed": "2026-07-03",
+    "source_count": 6,
+    "version": 3
+  },
+  {
+    "id": "neck",
+    "type": "body_part",
+    "name_ko": "목",
+    "name_en": "neck",
+    "aliases": [
+      "목",
+      "경부",
+      "neck"
+    ],
+    "description_ko": "머리와 몸통을 연결하며 경추, 근육, 인대, 신경, 혈관이 함께 작동하는 상부 척추·연부조직 부위",
+    "status": "approved",
+    "last_reviewed": "2026-07-03",
+    "source_count": 6,
+    "version": 1
   },
   {
     "id": "hair-loss-medication",
@@ -1134,11 +1160,11 @@
       "radicular arm pain",
       "brachialgia"
     ],
-    "description_ko": "팔로 내려가는 감각 이상(저림·찌릿·무감각)과 신경근에서 시작해 피부절을 따라 뻗치는 방사통을 함께 포괄하는 임상 용어. 경추 신경근병증·말초신경 포착·말초신경병증 등 원인이 다양하며, 진행성 신경 결손·척수증은 빠른 평가가 필요합니다.",
+    "description_ko": "팔로 내려가는 감각 이상과 신경근성 방사통을 포괄하는 증상으로 경추 신경근병증, 손목터널증후군, 주관절 척골신경 포착, 말초신경병증 등을 감별해야 합니다",
     "status": "approved",
-    "last_reviewed": "2026-05-03",
+    "last_reviewed": "2026-07-03",
     "source_count": 10,
-    "version": 4
+    "version": 6
   },
   {
     "id": "upper-extremity-radiating-pain",

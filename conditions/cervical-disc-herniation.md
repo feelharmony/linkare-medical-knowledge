@@ -4,22 +4,22 @@ entity_id: cervical-disc-herniation
 entity_type: condition
 permalink: /conditions/cervical-disc-herniation/
 title: 목디스크
-description: 경추 추간판이 탈출하여 신경을 압박하는 질환
+description: 경추 추간판 탈출이나 퇴행성 변화가 신경근을 자극해 목 통증, 어깨·팔 방사통, 손 저림, 근력 저하를 일으킬 수 있는 질환
 title_en: cervical disc herniation
-last_reviewed: '2026-05-17'
+last_reviewed: '2026-07-03'
 locked: true
 quality_status: verified
 verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
 next_review: '2026-08-09'
 source_count: 7
-version: 6
+version: 7
 source_count_external: 6
 source_count_clinic_pillar: 1
 clinic_footnote_ids: [1]
 external_footnote_ids: [2, 3, 4, 5, 6, 7]
 ---
 ## 정의
-목디스크는 경추 사이의 디스크가 손상되어 신경근이나 척수를 압박하면서 목 통증, 어깨 통증, 팔 저림을 유발할 수 있는 질환입니다 [^1]. 한국 국민건강보험공단(NHIS) 기반 연구(Kim YK et al., 2018, 2004~2010 자료)에서 증상이 있는 경추 추간판 탈출증의 발생률은 연령에 따라 증가하고, 여성에서 더 높게 나타나는 경향이 보고되었습니다 [^3].
+목디스크는 경추 사이의 디스크가 손상되어 신경근이나 척수를 압박하면서 [목 통증](/symptoms/neck-pain/), [어깨 통증](/symptoms/shoulder-pain/), [팔 저림·방사통](/symptoms/arm-numbness/), [손 저림](/symptoms/hand-numbness/)을 유발할 수 있는 질환입니다 [^1]. 한국 국민건강보험공단(NHIS) 기반 연구(Kim YK et al., 2018, 2004~2010 자료)에서 증상이 있는 경추 추간판 탈출증의 발생률은 연령에 따라 증가하고, 여성에서 더 높게 나타나는 경향이 보고되었습니다 [^3].
 
 퇴행성 변화나 외상으로 인해 디스크의 섬유륜이 약해지면 수핵이 밖으로 튀어나와 신경을 압박할 수 있습니다. [^1]
 
@@ -29,7 +29,7 @@ external_footnote_ids: [2, 3, 4, 5, 6, 7]
 영상학적 퇴행성 변화는 무증상 인구에서도 흔합니다. 한국 무증상 성인 102명(14~82세)을 대상으로 한 경추 MRI 연구(Lee TH et al., 2013)에서 추간판 탈출(herniation) 81.0%, 섬유륜 균열 85.9%, 수핵 변성 95.4%가 관찰되었으며, 가장 흔한 호발 부위는 C5/6와 C6/7이었습니다 [^2]. 따라서 영상 소견만으로 임상 진단을 내릴 수 없으며, 영상 소견과 신경학적 증상이 일치할 때 임상적으로 의미가 있습니다 [^4].
 
 ## 증상
-초기에는 목 뒷부분이 뻐근하고 뻣뻣한 느낌이 듭니다. 고개를 돌리기 어렵고 어깨까지 무거운 느낌이 들 수 있습니다. 신경이 눌리면 팔과 손으로 내려가는 저림과 통증이 나타납니다. 팔에 전기가 흐르는 듯한 느낌이나 화끈거리는 감각이 생기기도 합니다. 어느 신경이 눌리느냐에 따라 증상 부위가 다릅니다. C5/6 디스크에서는 C6 신경근 자극으로 엄지·검지 쪽 저림이, C6/7 디스크에서는 C7 신경근 자극으로 중지 중심의 저림이 나타날 수 있습니다. 다만 실제 증상 부위는 개인차가 있고, 인접 신경근 증상이 겹쳐 나타날 수 있습니다 [^1]. 근력이 약해지면 젓가락질이 어렵고 물건을 자주 떨어뜨립니다. 글씨를 쓸 때 손에 힘이 안 들어가거나 단추를 채우기 어려워집니다 [^1].
+초기에는 목 뒷부분이 뻐근하고 뻣뻣한 느낌이 듭니다. 고개를 돌리기 어렵고 어깨까지 무거운 느낌이 들 수 있습니다. 신경이 눌리면 팔과 손으로 내려가는 저림과 통증이 나타납니다. 팔에 전기가 흐르는 듯한 느낌이나 화끈거리는 감각이 생기기도 합니다. 어느 신경이 눌리느냐에 따라 증상 부위가 다릅니다. C5/6 디스크에서는 C6 신경근 자극으로 엄지·검지 쪽 저림이, C6/7 디스크에서는 C7 신경근 자극으로 중지 중심의 저림이 나타날 수 있습니다. 다만 실제 증상 부위는 개인차가 있고, 인접 신경근 증상이 겹쳐 나타날 수 있습니다 [^1]. 근력이 약해지면 젓가락질이 어렵고 물건을 자주 떨어뜨립니다. 글씨를 쓸 때 손에 힘이 안 들어가거나 단추를 채우기 어려워집니다 [^1]. 손가락 분포가 정중신경·척골신경 영역에 국한되면 [손목터널증후군](/conditions/carpal-tunnel-syndrome/)이나 [주관절 척골신경 포착](/conditions/cubital-tunnel-syndrome/)도 함께 감별합니다.
 
 **Red flag — 다음 증상은 경추 척수증(cervical myelopathy) 가능성이 있어 빠른 전문 평가가 필요합니다 [^5]:**
 - 양측 손의 미세 운동 장애 — 단추 채우기, 젓가락질, 글씨쓰기 곤란이 양손에 동시에 발생
@@ -90,6 +90,7 @@ CT는 뼈의 변화나 골극(뼈가 자란 것)을 평가하는 데 유용하�
 [^7]: [pmc.ncbi.nlm.nih.gov/articles/PMC8088536/](https://pmc.ncbi.nlm.nih.gov/articles/PMC8088536/)
 
 ## Changelog
+- 2026-07-03 v7: 경추-상지 저림 축 정합화. 정의와 증상 섹션에서 neck-pain/shoulder-pain/arm-numbness/hand-numbness 및 손목터널증후군·주관절 척골신경 포착 감별 링크를 연결. registry metadata와 version 정합화.
 - 2026-04-28 v3: 수동 편집
 - 2026-04-28 v4: 수동 편집 — 오타수정
 - 2026-05-01 v5: 외부 권위 출처 6개 추가 (Lee 2013 한국 무증상 MRI 유병률, Kim YK 2018 한국 NHIS 발생률, Bono 2011 NASS Cervical Radiculopathy CPG 진단·치료 권고, JOA 2020 CSM CPG 척수증 평가·수술 적응증, Engquist 2013 RCT 보존 vs 수술, Surg Neurol Int 2021 자발적 회귀 리뷰) — 정의·병태·증상·진단·치료·예후 전 섹션 보강. red flag 섹션을 cervical myelopathy 기준으로 명확화. source_count 2→7, version 4→5.
