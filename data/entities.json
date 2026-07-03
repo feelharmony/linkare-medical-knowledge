@@ -1332,6 +1332,23 @@
     "version": 1
   },
   {
+    "id": "leg",
+    "type": "body_part",
+    "name_ko": "다리",
+    "name_en": "leg / lower extremity",
+    "aliases": [
+      "하지",
+      "lower extremity",
+      "lower limb",
+      "leg"
+    ],
+    "description_ko": "골반·고관절에서 허벅지, 무릎, 종아리, 발목, 발까지 이어지는 하지 부위로 통증·저림·부종·보행 장애의 원인을 위치별로 분기하는 허브",
+    "status": "approved",
+    "last_reviewed": "2026-07-03",
+    "source_count": 5,
+    "version": 2
+  },
+  {
     "id": "wrist",
     "type": "body_part",
     "name_ko": "손목",
