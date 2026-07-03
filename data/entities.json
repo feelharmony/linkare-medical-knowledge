@@ -133,6 +133,25 @@
     "version": 2
   },
   {
+    "id": "arm",
+    "type": "body_part",
+    "name_ko": "팔",
+    "name_en": "arm / upper extremity",
+    "aliases": [
+      "상지",
+      "위팔",
+      "아래팔",
+      "upper extremity",
+      "upper limb",
+      "arm"
+    ],
+    "description_ko": "어깨에서 팔꿈치, 전완, 손목, 손까지 이어지는 상지 부위로 통증·저림·근력 저하를 위치와 신경 분포에 따라 분기하는 허브",
+    "status": "approved",
+    "last_reviewed": "2026-07-03",
+    "source_count": 5,
+    "version": 2
+  },
+  {
     "id": "antiviral-medicine",
     "type": "treatment",
     "name_ko": "항바이러스제 (대상포진)",
