@@ -436,6 +436,25 @@
     "version": 5
   },
   {
+    "id": "posture-correction",
+    "type": "treatment",
+    "name_ko": "자세 교정",
+    "name_en": "posture correction",
+    "aliases": [
+      "자세 교정",
+      "자세교정",
+      "자세 교정 운동",
+      "postural correction",
+      "posture correction",
+      "ergonomic correction"
+    ],
+    "description_ko": "통증을 유발하는 자세 부담을 줄이고 목·어깨·허리 기능을 회복하기 위해 운동, 작업환경 조정, 도수·물리치료를 함께 적용하는 보존 치료 전략",
+    "status": "approved",
+    "last_reviewed": "2026-07-03",
+    "source_count": 7,
+    "version": 3
+  },
+  {
     "id": "physical-therapy",
     "type": "treatment",
     "name_ko": "물리치료",

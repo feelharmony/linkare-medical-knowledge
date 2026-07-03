@@ -232,6 +232,16 @@
       ]
     },
     {
+      "id": "posture-correction",
+      "type": "treatment",
+      "name_ko": "자세 교정",
+      "name_en": "posture correction",
+      "post_count": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "id": "physical-therapy",
       "type": "treatment",
       "name_ko": "물리치료",
@@ -717,6 +727,14 @@
       ]
     },
     {
+      "source": "forward-head-posture",
+      "target": "posture-correction",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "source": "neck-pain",
       "target": "shoulder-pain",
       "weight": 2,
@@ -733,9 +751,33 @@
       ]
     },
     {
+      "source": "neck-pain",
+      "target": "posture-correction",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "source": "physical-therapy",
       "target": "shoulder-pain",
       "weight": 2,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "posture-correction",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "physical-therapy",
+      "target": "posture-correction",
+      "weight": 1,
       "tenant_keys": [
         null
       ]
