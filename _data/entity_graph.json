@@ -365,6 +365,16 @@
       ]
     },
     {
+      "id": "scalp",
+      "type": "body_part",
+      "name_ko": "두피",
+      "name_en": "scalp",
+      "post_count": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "id": "lateral-epicondylitis",
       "type": "condition",
       "name_ko": "외측상과염",
@@ -853,6 +863,14 @@
       ]
     },
     {
+      "source": "hair-loss",
+      "target": "scalp",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "source": "androgenetic-alopecia",
       "target": "hair-loss",
       "weight": 1,
@@ -895,6 +913,54 @@
     {
       "source": "hair-loss",
       "target": "hair-loss-medication",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "scalp",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "scalp",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "prp-injection",
+      "target": "scalp",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "scalp",
+      "target": "stem-cell-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "exosome-therapy",
+      "target": "scalp",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "hair-loss-medication",
+      "target": "scalp",
       "weight": 1,
       "tenant_keys": [
         null

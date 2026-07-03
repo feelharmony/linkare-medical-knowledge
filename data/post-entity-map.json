@@ -51,6 +51,7 @@
     "primary_entity_id": "hair-loss",
     "entity_ids": [
       "hair-loss",
+      "scalp",
       "androgenetic-alopecia",
       "alopecia-areata",
       "prp-injection",
@@ -58,7 +59,7 @@
       "exosome-therapy",
       "hair-loss-medication"
     ],
-    "updated_at": "2026-04-23"
+    "updated_at": "2026-07-03"
   },
   {
     "post_path": "content/thr/ko/longevity/nad-iv-therapy.md",

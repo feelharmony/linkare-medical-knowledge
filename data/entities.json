@@ -859,12 +859,17 @@
     "type": "body_part",
     "name_ko": "두피",
     "name_en": "scalp",
-    "aliases": [],
-    "description_ko": "머리 피부 (탈모 영역)",
+    "aliases": [
+      "두피",
+      "머리 피부",
+      "scalp",
+      "scalp skin"
+    ],
+    "description_ko": "모낭·피지샘·혈관·신경이 분포하는 머리 피부층으로, 탈모·염증·감염·반흔성 질환을 평가하는 부위",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 1
+    "last_reviewed": "2026-07-03",
+    "source_count": 5,
+    "version": 2
   },
   {
     "id": "lateral-epicondylitis",
