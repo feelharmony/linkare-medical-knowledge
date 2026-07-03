@@ -285,16 +285,19 @@
     "aliases": [
       "거북목",
       "일자목",
+      "거북목 증후군",
+      "일자목 증후군",
       "forward head posture",
+      "FHP",
       "straight neck",
       "cervical lordosis loss",
-      "일자목 증후군"
+      "loss of cervical lordosis"
     ],
-    "description_ko": "머리가 몸의 중심선보다 앞으로 나오는 자세 변형 및 경추 정상 만곡 소실",
+    "description_ko": "머리가 몸의 중심선보다 앞으로 나오는 자세 소견과 경추 정상 만곡 감소가 목 통증·근막통증·두통과 겹쳐 나타날 수 있는 상태",
     "status": "approved",
-    "last_reviewed": "2026-05-02",
-    "source_count": 4,
-    "version": 3
+    "last_reviewed": "2026-07-03",
+    "source_count": 7,
+    "version": 7
   },
   {
     "id": "wrist-pain",
