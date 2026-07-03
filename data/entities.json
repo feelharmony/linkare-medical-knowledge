@@ -455,6 +455,26 @@
     "version": 3
   },
   {
+    "id": "exercise-therapy",
+    "type": "treatment",
+    "name_ko": "운동치료",
+    "name_en": "exercise therapy",
+    "aliases": [
+      "운동치료",
+      "운동 치료",
+      "치료 운동",
+      "재활 운동",
+      "exercise therapy",
+      "therapeutic exercise",
+      "rehabilitation exercise"
+    ],
+    "description_ko": "통증 감소와 기능 회복을 위해 평가에 따라 근력, 유연성, 가동성, 운동조절, 지구력 운동을 처방하고 단계적으로 조절하는 보존 치료",
+    "status": "approved",
+    "last_reviewed": "2026-07-03",
+    "source_count": 7,
+    "version": 5
+  },
+  {
     "id": "physical-therapy",
     "type": "treatment",
     "name_ko": "물리치료",

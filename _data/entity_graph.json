@@ -242,6 +242,16 @@
       ]
     },
     {
+      "id": "exercise-therapy",
+      "type": "treatment",
+      "name_ko": "운동치료",
+      "name_en": "exercise therapy",
+      "post_count": 4,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "id": "physical-therapy",
       "type": "treatment",
       "name_ko": "물리치료",
@@ -727,6 +737,14 @@
       ]
     },
     {
+      "source": "exercise-therapy",
+      "target": "forward-head-posture",
+      "weight": 3,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "source": "forward-head-posture",
       "target": "posture-correction",
       "weight": 1,
@@ -751,6 +769,14 @@
       ]
     },
     {
+      "source": "exercise-therapy",
+      "target": "neck-pain",
+      "weight": 3,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "source": "neck-pain",
       "target": "posture-correction",
       "weight": 1,
@@ -767,6 +793,14 @@
       ]
     },
     {
+      "source": "exercise-therapy",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "source": "posture-correction",
       "target": "shoulder-pain",
       "weight": 1,
@@ -775,7 +809,23 @@
       ]
     },
     {
+      "source": "exercise-therapy",
+      "target": "physical-therapy",
+      "weight": 3,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "source": "physical-therapy",
+      "target": "posture-correction",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "exercise-therapy",
       "target": "posture-correction",
       "weight": 1,
       "tenant_keys": [
@@ -1095,8 +1145,24 @@
       ]
     },
     {
+      "source": "exercise-therapy",
+      "target": "muscle-relaxants",
+      "weight": 2,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "source": "anti-inflammatory-analgesics",
       "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "anti-inflammatory-analgesics",
+      "target": "exercise-therapy",
       "weight": 1,
       "tenant_keys": [
         null
@@ -1169,6 +1235,22 @@
     {
       "source": "knee-osteoarthritis",
       "target": "knee-pain",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "knee-pain",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "knee-osteoarthritis",
       "weight": 1,
       "tenant_keys": [
         null
