@@ -11,13 +11,13 @@ aliases:
   - 골프 엘보
   - golfer's elbow
   - medial epicondylitis
-last_reviewed: '2026-05-20'
+last_reviewed: '2026-07-03'
 source_count: 6
-version: 3
+version: 4
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude 합의 (2026-05-20 v3 — 자사 footnote 제거, 외부 권위 출처만으로 정리. 자사 인용은 pillar-patch 백필 흐름에서 anchor별로 박힐 자리 비워둠)
-next_review: '2026-08-20'
+verified_by: Hermes + elbow-pain/ESWT/PRP 허브 정합화
+next_review: '2026-10-03'
 source_count_external: 6
 source_count_clinic_pillar: 0
 clinic_footnote_ids: []
@@ -25,9 +25,9 @@ external_footnote_ids: [1, 2, 3, 4, 5, 6]
 ---
 
 ## 정의
-내측상과염(medial epicondylitis, 골프엘보)은 팔꿈치 안쪽 뼈 돌출부인 내측 상과에 붙는 공통 굴곡근(common flexor tendon)의 기시부가 손상되어 통증과 기능 저하를 일으키는 질환입니다 [^3]. 손목을 굽히고 전완을 안쪽으로 회전시키는 여러 근육이 이 자리에 모여 부하가 집중되는 구조입니다.
+내측상과염(medial epicondylitis, 골프엘보)은 [팔꿈치](/body-parts/elbow/) 안쪽 뼈 돌출부인 내측 상과에 붙는 공통 굴곡근(common flexor tendon)의 기시부가 손상되어 통증과 기능 저하를 일으키는 질환입니다 [^3]. 손목을 굽히고 전완을 안쪽으로 회전시키는 여러 근육이 이 자리에 모여 부하가 집중되는 구조입니다.
 
-과거에는 단순한 염증(itis)으로 분류했지만, 최근 20년간의 조직학·영상의학 연구는 만성기 병변에서 염증세포는 드물고 콜라겐 섬유의 무질서한 배열·기질 퇴행·신생 혈관 형성이 두드러지는 **힘줄병증(tendinopathy)** 의 양상을 보고합니다 [^1]. 골프엘보라는 별명과 달리 실제 환자 중 골프와 직접 관련된 경우는 소수이고, 망치질·드라이버 회전·반복적인 쥐기 동작 등 직업·일상 동작에서 더 흔합니다 [^3].
+과거에는 단순한 염증(itis)으로 분류했지만, 최근 20년간의 조직학·영상의학 연구는 만성기 병변에서 염증세포는 드물고 콜라겐 섬유의 무질서한 배열·기질 퇴행·신생 혈관 형성이 두드러지는 **힘줄병증(tendinopathy)** 의 양상을 보고합니다 [^1]. 골프엘보라는 별명과 달리 실제 환자 중 골프와 직접 관련된 경우는 소수이고, 망치질·드라이버 회전·반복적인 쥐기 동작 등 직업·일상 동작에서 더 흔합니다 [^3]. 팔꿈치 통증 콘텐츠에서는 내측상과염을 “안쪽 힘줄 통증”의 대표 질환으로 두고, [외측상과염](/conditions/lateral-epicondylitis/)·척골신경병증·척골측부인대 손상과 구분합니다.
 
 ## 병태
 내측상과에 붙는 굴곡근들은 손목을 굽히고 전완을 안쪽으로 회전시키는 일을 합니다. 반복 동작이 이어지면 힘줄 부착부에 미세 손상이 누적되며, 회복 속도를 초과해 손상이 쌓이면 조직 변화가 진행되어 퇴행성 건병증으로 이어집니다 [^1][^3].
@@ -72,7 +72,7 @@ external_footnote_ids: [1, 2, 3, 4, 5, 6]
 - **경추 신경근병증** — 목에서 내려오는 신경 자극이 팔꿈치·전완 통증으로 나타나는 경우
 
 ## 치료
-내측상과염 치료의 핵심 원칙은 **부하 관리 + 점진적 자극**입니다 [^1]. 저항 운동의 강도·양·빈도(용량)가 힘줄병증 경과를 의미 있게 좌우한다는 메타분석 결과가 이를 뒷받침하며 [^2], 내측상과염 specific으로는 **편심성 운동의 임상 결과를 평가한 SR**이 보존 치료의 핵심 옵션으로 정리합니다 [^6].
+내측상과염 치료의 핵심 원칙은 **부하 관리 + 점진적 자극**입니다 [^1]. 저항 운동의 강도·양·빈도(용량)가 힘줄병증 경과를 의미 있게 좌우한다는 메타분석 결과가 이를 뒷받침하며 [^2], 내측상과염 specific으로는 **편심성 운동의 임상 결과를 평가한 SR**이 보존 치료의 핵심 옵션으로 정리합니다 [^6]. 치료 목표는 안쪽 팔꿈치 통증을 단기적으로 낮추는 것뿐 아니라, 손목 굴곡·전완 회내 부하를 견디는 힘줄의 운동 내성을 회복하는 것입니다.
 
 ### 보존 치료 (1차)
 - **활동 수정** — 통증을 유발하는 반복 동작·갑작스러운 부하 증가를 피하기
@@ -87,13 +87,23 @@ external_footnote_ids: [1, 2, 3, 4, 5, 6]
 - **자가 혈소판 풍부 혈장(PRP)** — 한국 보건복지부 신의료기술 평가에서 안전성·유효성이 인정된 영역이며, 정형외과 신의료기술 등재 PRP 적용은 상과염·무릎 골관절염·회전근개봉합술 중 주입으로 제한됩니다 [^4]. 보건복지부 고시 제2023-60호 PRP 급여 기준에 따라 **3개월 이상의 적절한 보존 치료에도 통증·기능 이상이 지속되는 내·외측 상과염 환자에게 6개월 간격으로 부위별 각각 1회 인정**됩니다(작업 시점 2026-05 기준; 보험 인정 기준은 변경될 수 있어 진료 시점에 의료진과 상담하는 것이 정확합니다) [^5]. NECA 2026 상과염 PRP 재평가는 안전성 우려가 낮고 6개월 시점 통증·기능 개선이 스테로이드 주사보다 우수한 것으로 보고하였습니다(연구 간 이질성은 높음) [^4]
 
 ### 그 외 처치
-- **체외충격파(ESWT)·도수치료·운동치료** — 환자 상태에 따라 단계적으로 활용 [^3]
+- **[체외충격파](/treatments/eswt/)(ESWT)·도수치료·운동치료** — 환자 상태에 따라 단계적으로 활용 [^3]. ESWT는 단독 완결 치료라기보다 통증을 낮춰 운동치료에 들어가게 돕는 보조 옵션으로 설명합니다.
 - **PDRN 등 다른 재생 주사** — 별도 권고로 자리잡지 않아 비용·기대효과·근거 수준을 설명한 뒤 선택적으로 검토
+
+### 단계 치료 구조
+내측상과염은 다음 순서로 설명하면 환자 상담과 콘텐츠 전환이 자연스럽습니다.
+
+1. **진단·부하 확인** — 내측상과 압통, 손목 굴곡·전완 회내 저항 통증, 골프·투구·공구 작업·악력 사용 부하 확인
+2. **신경 동반 평가** — 새끼손가락·약지 저림, 손 미세동작 저하, 팔꿈치 굽힘 시 저림 악화가 있으면 척골신경병증을 함께 평가 [^3]
+3. **활동 조절·보조기** — 반복 굴곡·회내 동작과 강한 악력을 줄이고, 필요 시 카운터포스 브레이스 사용
+4. **운동·도수치료** — 손목 굴곡근·회내근 편심성/등척성 운동, 스트레칭, 작업 동작 교정 [^2][^6]
+5. **통증 조절 보조** — 윈백 고주파, 체외충격파, 단기 NSAIDs, 필요 시 단회 스테로이드 주사 검토
+6. **PRP/PRF 검토** — 3개월 이상 적절한 보존 치료에도 통증·기능 이상이 지속되면 [PRP 주사](/treatments/prp-injection/) 상과염 병변 부위 주입을 논의할 수 있습니다 [^4][^5]
 
 ### 수술
 6~12개월 이상의 충분한 보존 치료에 반응하지 않거나 일상에 큰 지장을 주는 경우에 검토합니다. 손상된 힘줄 부위의 변성 조직 절제·재부착 등이 사용됩니다 [^3].
 
-→ [eswt](../treatments/eswt.md), [prolotherapy](../treatments/prolotherapy.md), [nerve-block-injection](../treatments/nerve-block-injection.md), [elbow-pain](../symptoms/elbow-pain.md), [lateral-epicondylitis](./lateral-epicondylitis.md) 참조
+관련 항목은 [팔꿈치 통증](/symptoms/elbow-pain/), [외측상과염](/conditions/lateral-epicondylitis/), [체외충격파](/treatments/eswt/), [PRP 주사](/treatments/prp-injection/)를 참고하세요.
 
 ## 예후
 대부분의 내측상과염은 자한정적 경과를 보이는 경우가 많고 단계적·장기적 접근으로 호전될 수 있으나 회복 경과는 개인에 따라 차이가 큽니다 [^3]. 재발이 비교적 흔하므로 회복 후에도 작업 자세 개선·적절한 휴식·꾸준한 스트레칭이 권장됩니다. 수개월 이상 증상이 지속되거나 악화되는 경우에는 척골측부인대 손상·척골신경병증·경추 신경근병증 등의 감별이 필요합니다 [^3].
@@ -116,6 +126,7 @@ external_footnote_ids: [1, 2, 3, 4, 5, 6]
 [^6]: [See ZH, Loo CE, Jaafar Z. Eccentric exercise therapy for medial epicondylitis: A systematic review of clinical outcomes. *Complement Ther Med.* 2026 Jun. PMID 41887339](https://pubmed.ncbi.nlm.nih.gov/41887339/) — 내측상과염 specific SR. 편심성 운동이 통증·기능 개선의 핵심 옵션임을 정리
 
 ## Changelog
+- 2026-07-03 v4: elbow-pain, ESWT, PRP 허브와 정합화. 정의에서 팔꿈치 body_part와 외측상과염 링크를 추가하고, 치료 섹션에 단계 치료 구조(진단·부하 확인→척골신경 동반 평가→활동 조절·보조기→운동·도수→윈백/ESWT/단회 스테로이드→PRP/PRF 검토)를 보강. relative markdown 링크를 site permalink 링크로 정리. source_count 6 유지, version 3→4.
 - 2026-05-20 v3: **자사 footnote 제거** — 자사 thewellsr 글 `[^1]` 출처 정의 + 본문 모든 `[^1]` 인용 삭제. pillar-patch 백필 흐름(`/Users/jin/Documents/workspace/yhlinker/backend/src/knowledge/services/pillar-patch-proposer.service.ts`)이 자사 글 ID `2aa04e20`의 anchor `[treatment, prognosis]` 자리에 LLM 패치로 자사 footnote 박을 자리 비워둠. 자사 글에서 흡수한 한국 임상 톤(악수·장바구니·김치 담그기, "팔 안쪽 라인 전체가 무겁다", 절대 빈도 표현 등) 중 외부 PMID로 받칠 수 없는 디테일도 함께 제거. 외부 권위 출처 6건만으로 정리. footnote 번호 재배열 ([^2]→[^1], [^3]→[^2], [^4]→[^3], [^5]→[^4], [^6]→[^5], [^7]→[^6]). 관련 임상 자료 섹션 제거. source_count 7→6, version 2→3.
 - 2026-05-20 v2: **SOP 검토 4건 반영**. ① PRP 보건복지부 고시 끝 각주 `[^4]` → `[^6]` 정정 — 출처 매핑 오류 수정. ② `[^4]` 외측상과염 SR(Landesa-Piñeiro 2022)을 **내측상과염 전용 StatPearls NBK430685 (Buchanan & Varacallo)** 로 교체 — claim-source mapping 강화. 운동 파트는 `[^7] See 2026 BJSM 내측상과염 편심운동 SR (PMID 41887339)` 신규 추가. ③ 진단 톤 다운 — "이학적 검사만으로 확정하기보다 영상검사로…" → **"주로 임상 진단, 영상은 감별·손상 범위·보존 치료 불응·운동선수 평가 시 보조"** 로 정정 (`[^4]` StatPearls 표준 인용). ④ 본문 미호출이던 `[^6]` 보건복지부 고시를 PRP 문단에 정상 호출. 추가 정합: 수술·자한정적 경과·증상·감별진단의 표준 출처를 자사 글 `[^1]`만 의지하지 않고 StatPearls `[^4]`를 보강 인용. source_count 6→7, version 1→2.
 - 2026-05-20 v1: **신규 entity 발행** — 빈 스텁(frontmatter only, robots:noindex)에서 풀스펙으로 1차 발행. 자사 글(thewellsr.kr `golfers-elbow-medial-epicondylitis`, blog_contents id `2aa04e20-2bdc-4539-b24d-c74917bbb83f`)을 본문 골격으로 사용 — 자사가 인용한 PMID 3건(Millar 2021 Nat Rev DP, Landesa-Piñeiro 2022 J Back Musculoskelet Rehabil, Pavlova 2023 BJSM)을 1차 출처로 [^2][^3][^4] 매핑. PRP는 외측상과염 entity와 동일한 외부 권위 출처 2건(NECA 2026 상과염 재평가, 보건복지부 고시 제2023-60호 — 내·외 둘 다 적용) [^5][^6] 추가. SOP 6섹션(정의/병태/증상/진단/치료/예후) + 위험요인 병태 하위·감별진단 진단 하위 구조 — lateral-epicondylitis v5 패턴 일치. 자사 글의 "단순 염증이 아니라 힘줄병증" 프레임을 본문 메시지로 그대로 인용. source_count 0→6, robots:noindex 제거(frontmatter에서 삭제 — entity-hub layout 기본값 검색노출).
