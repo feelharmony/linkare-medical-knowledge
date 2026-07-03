@@ -23,7 +23,7 @@ source_count_external: 11
 source_count_clinic_pillar: 1
 clinic_footnote_ids: [1]
 external_footnote_ids: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-version: 5
+version: 6
 ---
 
 ## 정의
@@ -92,12 +92,12 @@ OA 진단은 임상 양상과 단순방사선 결과를 종합해 평가하며, 
 환자 입장에서는 KL 등급, 보존 치료 반응, 비용, 동반 질환, 기대효과를 함께 고려해 의료진과 적응 여부를 상의하는 것이 적절합니다.
 
 ### 단계 치료 구조
-임상에서는 환자 평가 후 보존 치료를 우선하고, 만성·반복성 통증에 대해 운동·도수치료, [윈백 고주파(TECAR/RF) 물리치료](/treatments/tecar-rf-therapy/), [체외충격파](/treatments/eswt/), 관절강 내 주사, PRP/PRF 자가활성화세포 재생주사, 수술적 평가를 단계적으로 검토합니다 [^1][^4][^5][^6].
+임상에서는 환자 평가 후 보존 치료를 우선하고, 만성·반복성 무릎 통증은 **교육·체중·운동 → [윈백 고주파(TECAR/RF) 물리치료](/treatments/tecar-rf-therapy/)·도수치료로 운동 진입 보조 → [체외충격파](/treatments/eswt/)·관절강 내 주사로 통증 조절 → PRP/PRF 자가활성화세포 재생주사 선택 검토 → 수술적 평가** 순서로 설명합니다 [^1][^4][^5][^6].
 
 - **퇴행성 관절염형**: 교육, 체중 관리, 대퇴사두근·둔근 강화, 유산소·수중 운동, NSAIDs, 관절강 내 스테로이드/HA/PRP 선택지를 병기와 가이드라인 차이에 따라 설명합니다 [^4][^5][^6].
 - **앞무릎 과사용형**: 고관절 외전·외회전 강화, 대퇴사두근 강화, 활동 부하 조절, 신발·운동량 조절을 중심으로 운영합니다 [^10].
 - **반월상연골·인대 외상형**: 외상 직후 부종·잠김·불안정성이 있으면 영상검사와 전문 평가를 우선합니다 [^8].
-- **건병증형**: 점프·달리기 부하 조절, 편심성/등척성 운동, 통증 조절 보조로 [윈백 고주파](/treatments/tecar-rf-therapy/)·ESWT를 검토합니다.
+- **건병증형**: 점프·달리기 부하 조절, 편심성/등척성 운동이 기본입니다. 통증이 강해 재활 진입이 어렵다면 [윈백 고주파](/treatments/tecar-rf-therapy/)를 통증 방어 완화 보조로, 압통이 지속되는 힘줄 부착부 통증에는 [체외충격파](/treatments/eswt/)를 보조 옵션으로 검토합니다. 장기화·재발형에서는 [PRP 주사](/treatments/prp-injection/)·PRF를 운동치료 반응과 영상 소견을 본 뒤 선택적으로 논의합니다.
 - **염증·감염형**: 발열·열감·심한 부종이 있으면 주사·물리치료보다 감염·결정성 관절염 평가가 우선입니다 [^2].
 
 원인 질환별 자세한 약물·시술·재활 적응은 [무릎 관절염](/conditions/knee-osteoarthritis/) 항목을 참고하세요.
@@ -127,6 +127,7 @@ OA 진단은 임상 양상과 단순방사선 결과를 종합해 평가하며, 
 [^12]: [Bensa A, Previtali D, Sangiorgio A, Boffa A, Salerno M, Filardo G. PRP Injections for the Treatment of Knee Osteoarthritis: The Improvement Is Clinically Significant and Influenced by Platelet Concentration: A Meta-analysis of Randomized Controlled Trials. Am J Sports Med. 2025;53(3):745-754. DOI 10.1177/03635465241246524](https://pmc.ncbi.nlm.nih.gov/articles/PMC11874499/)
 
 ## Changelog
+- 2026-07-03 v6: TECAR RF treatment 허브 신설 이후 무릎 통증 단계 치료를 교육·체중·운동→윈백/도수 운동진입 보조→ESWT/관절강 주사 통증 조절→PRP/PRF 선택검토→수술평가 흐름으로 정교화. 건병증형에서 윈백, ESWT, PRP/PRF의 역할을 분리. source_count 12 유지, version 5→6.
 - 2026-07-03 v5: knee body_part, knee-OA, PRP, ESWT 허브와 정합화. 중복 Citations/예후 섹션을 정리하고 source_count 12에 맞춰 citation 정의를 정돈. 원인 분류를 퇴행성 관절염형, 앞무릎 과사용형, 반월상연골·인대 외상형, 건병증형, 염증·감염형으로 재정렬. 치료 옵션에 단계 치료 구조(운동·체중·교육→[윈백](/treatments/tecar-rf-therapy/)/ESWT→스테로이드/HA/PRP→수술/전문 평가)를 보강. PRP는 AAOS limited, ACR/AF strongly against, 한국 NECA KL 2~3 등재, Bensa 2025 메타분석으로 균형 표기. source_count 12 유지, version 4→5.
 - 2026-05-03 v4: 검증 라운드 5건 반영. AAOS 2021 체중 감량 권고 강도, ACR/AF 2019 manual therapy, JOSPT 2019 PFP CPG 도수치료, 파라세타몰 권고 차이, PRP controversial 균형, Bunt 2018 AAFP 교체를 반영.
 - 2026-05-03 v3: D 옵션 — 무릎 영역 우산 용어 재정의. 단일 진단명 X, 무릎 관절·연골·반월상연골·인대·슬개대퇴·주변 건 영역 구조의 다양한 원인 임상 용어. symptom 표준 schema 적용. 외부 권위 출처 11개 + 자체 link 1개로 재구성.

@@ -313,7 +313,7 @@
     "status": "approved",
     "last_reviewed": "2026-07-03",
     "source_count": 5,
-    "version": 3
+    "version": 4
   },
   {
     "id": "stem-cell-therapy",
@@ -431,9 +431,9 @@
     ],
     "description_ko": "팔꿈치 영역(외측·내측·전방·후방) 구조의 다양한 원인으로 발생하는 임상 용어. 외측·내측 상과염이 가장 흔하며, 외상·신경 압박·관절 내 병변은 빠른 평가가 필요합니다.",
     "status": "approved",
-    "last_reviewed": "2026-05-03",
+    "last_reviewed": "2026-07-03",
     "source_count": 8,
-    "version": 5
+    "version": 8
   },
   {
     "id": "posture-correction",
@@ -652,9 +652,9 @@
     ],
     "description_ko": "어깨 관절(견갑상완)·견봉하 공간·회전근개 영역의 통증을 가리키는 임상 용어. 회전근개 건병증·동결견·석회성 건염이 대표 원인이며, 빈도는 낮지만 외상·감염·종양은 빠른 평가가 필요합니다. 목·승모근 통증은 별도 entity.",
     "status": "approved",
-    "last_reviewed": "2026-05-03",
+    "last_reviewed": "2026-07-03",
     "source_count": 9,
-    "version": 5
+    "version": 8
   },
   {
     "id": "knee-osteoarthritis",
@@ -875,11 +875,11 @@
       "테니스엘보",
       "tennis elbow"
     ],
-    "description_ko": "팔꿈치 외측 힘줄의 만성 손상",
+    "description_ko": "팔꿈치 외측 힘줄의 만성 손상으로 통증과 기능 저하를 일으키는 힘줄병증",
     "status": "approved",
-    "last_reviewed": "2026-04-28",
-    "source_count": 2,
-    "version": 4
+    "last_reviewed": "2026-07-03",
+    "source_count": 6,
+    "version": 7
   },
   {
     "id": "rotator-cuff-tear",
@@ -895,6 +895,24 @@
     "last_reviewed": "2026-05-03",
     "source_count": 1,
     "version": 2
+  },
+  {
+    "id": "rotator-cuff-tendinopathy",
+    "type": "condition",
+    "name_ko": "회전근개 건병증",
+    "name_en": "rotator cuff tendinopathy",
+    "aliases": [
+      "회전근개 건병증",
+      "회전근개건병증",
+      "rotator cuff tendinopathy",
+      "rotator cuff related shoulder pain",
+      "RCRSP"
+    ],
+    "description_ko": "회전근개 힘줄에 미세 손상이 누적되어 어깨 통증과 기능 저하를 일으키는 만성 건병증",
+    "status": "approved",
+    "last_reviewed": "2026-07-03",
+    "source_count": 6,
+    "version": 4
   },
   {
     "id": "discogenic-pain",
@@ -964,7 +982,7 @@
     "status": "approved",
     "last_reviewed": "2026-07-03",
     "source_count": 5,
-    "version": 2
+    "version": 3
   },
   {
     "id": "finger-pain",
@@ -1070,9 +1088,9 @@
     ],
     "description_ko": "팔꿈치 내측 힘줄의 만성 손상으로 통증·기능 저하를 일으키는 힘줄병증",
     "status": "approved",
-    "last_reviewed": "2026-05-20",
+    "last_reviewed": "2026-07-03",
     "source_count": 6,
-    "version": 3
+    "version": 6
   },
   {
     "id": "meniscus-tear",
@@ -1111,15 +1129,18 @@
     "name_ko": "슬개건염",
     "name_en": "patellar tendinitis",
     "aliases": [
+      "슬개건염",
+      "슬개건병증",
       "점퍼스 무릎",
       "점퍼 무릎",
-      "jumper's knee"
+      "jumper's knee",
+      "patellar tendinopathy"
     ],
-    "description_ko": "슬개건의 만성 손상",
+    "description_ko": "슬개골 아래 슬개건에 반복 부하가 누적되어 앞무릎 통증과 기능 저하를 일으키는 건병증",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 1
+    "last_reviewed": "2026-07-03",
+    "source_count": 6,
+    "version": 3
   },
   {
     "id": "plantar-fasciitis",
@@ -1324,9 +1345,9 @@
     ],
     "description_ko": "무릎 관절·연골·반월상연골·인대·슬개대퇴 영역의 통증을 가리키는 임상 용어. 골관절염·전방슬관절통·반월상연골 손상이 대표 원인이며, 외상·감염·심부정맥혈전증은 빠른 평가가 필요합니다.",
     "status": "approved",
-    "last_reviewed": "2026-05-03",
+    "last_reviewed": "2026-07-03",
     "source_count": 12,
-    "version": 4
+    "version": 6
   },
   {
     "id": "prolotherapy",

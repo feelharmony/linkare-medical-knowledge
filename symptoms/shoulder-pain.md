@@ -22,7 +22,7 @@ source_count_external: 8
 source_count_clinic_pillar: 1
 clinic_footnote_ids: [1]
 external_footnote_ids: [2, 3, 4, 5, 6, 7, 8, 9]
-version: 7
+version: 8
 ---
 
 ## 정의
@@ -76,12 +76,12 @@ JOSPT 2025 회전근개 건병증 CPG는 **subacromial pain syndrome / rotator c
 
 - [회전근개 건병증](/conditions/rotator-cuff-tendinopathy/) · [회전근개 손상](/conditions/rotator-cuff-injury/) · [충돌증후군](/conditions/shoulder-impingement-syndrome/)
 - [오십견](/conditions/frozen-shoulder/) · [석회성 건염](/conditions/calcific-tendinitis/)
-- [체외충격파](/treatments/eswt/) · [PRP 주사](/treatments/prp-injection/)
+- [윈백 고주파](/treatments/tecar-rf-therapy/) · [체외충격파](/treatments/eswt/) · [PRP 주사](/treatments/prp-injection/)
 
 ### 단계 치료 구조
-임상에서는 환자 평가 후 보존 치료를 우선하고, 만성·반복성 통증에 대해 운동·도수치료, [윈백 고주파(TECAR/RF) 물리치료](/treatments/tecar-rf-therapy/), 체외충격파(ESWT), 초음파 유도 주사, PRP/PRF 자가활성화세포 재생주사, 수술적 평가를 단계적으로 검토합니다 [^1][^2][^5].
+임상에서는 환자 평가 후 보존 치료를 우선하고, 만성·반복성 어깨 힘줄 통증은 **부하 조절·운동치료 → [윈백 고주파](/treatments/tecar-rf-therapy/)·도수치료로 재활 진입 보조 → [체외충격파](/treatments/eswt/)·초음파 유도 주사로 통증 조절 → [PRP 주사](/treatments/prp-injection/)·PRF 자가활성화세포 재생주사 선택 검토 → 수술적 평가** 순서로 설명하면 안전합니다 [^1][^2][^5].
 
-- **회전근개형 힘줄 통증**: 점진적 부하 운동과 견갑 안정화가 기본입니다 [^5]. 통증이 강해 재활 진입이 어려우면 [윈백 고주파](/treatments/tecar-rf-therapy/)·도수치료·단회 스테로이드 주사 등을 보조로 검토하고, 석회가 동반된 경우에는 체외충격파를 별도 옵션으로 평가합니다 [^5].
+- **회전근개형 힘줄 통증**: 점진적 부하 운동과 견갑 안정화가 기본입니다 [^5]. 통증이 강해 운동 진입이 어렵다면 [윈백 고주파](/treatments/tecar-rf-therapy/)·도수치료로 통증 방어와 근긴장을 낮추고, 힘줄 부착부 통증이나 석회가 동반되면 [체외충격파](/treatments/eswt/)를 보조 옵션으로 평가합니다. 반복 스테로이드를 피하고 싶은 만성·부분 파열형에서는 [PRP 주사](/treatments/prp-injection/)·PRF를 표준 1차 치료가 아닌 선택적 재생주사로 논의합니다 [^5].
 - **석회성 급성 통증**: X-ray/초음파로 석회 위치와 양상을 확인하고, NSAIDs·주사·체외충격파·초음파 유도 needling/lavage를 증상 단계에 따라 검토합니다. 석회성 회전근개 건병증에서 ESWT 근거는 축적되어 있으나 근거 확실성에는 한계가 있어, 환자별로 장단점을 설명합니다 [^5].
 - **오십견형 굳음**: 관절낭 문제이므로 통증기와 강직기를 구분해 관절강 내 스테로이드 주사, 관절가동범위 운동, 수액 팽창술, 자가 스트레칭을 단계적으로 적용합니다. 단순히 힘줄 치료만 반복하지 않습니다.
 - **파열·외상형**: 실제 근력 저하, 외상성 급성 파열, 탈구·골절 의심이 있으면 영상검사와 전문 평가가 우선입니다 [^7].
@@ -114,6 +114,7 @@ JOSPT 2025 회전근개 건병증 CPG는 **subacromial pain syndrome / rotator c
 [^9]: [Jeong J, Shin DC, Kim TH, Kim K. Prevalence of asymptomatic rotator cuff tear and their related factors in the Korean population. J Shoulder Elbow Surg. 2017;26(1):30-35. PMID 27497789. DOI 10.1016/j.jse.2016.05.003](https://pubmed.ncbi.nlm.nih.gov/27497789/)
 
 ## Changelog
+- 2026-07-03 v8: TECAR RF treatment 허브 신설 이후 어깨 힘줄 통증 단계 치료를 운동·부하조절→윈백/도수→ESWT/초음파주사→PRP/PRF 선택검토→수술평가 흐름으로 정교화. 회전근개형 통증에서 윈백은 재활 진입 보조, ESWT는 힘줄/석회성 통증 보조, PRP/PRF는 만성·부분 파열형 선택지로 경계를 명확화. source_count 9 유지, version 7→8.
 - 2026-07-03 v7: shoulder body_part, ESWT, PRP 허브와 정합화. 원인 분류를 회전근개형 힘줄 통증/RCRSP, 오십견형 굳음, 석회성 급성 통증, 목·신경 연관형, 외상성 파열/탈구형으로 재정렬. 치료 옵션에 단계 치료 구조(운동·도수→윈백 고주파·ESWT→초음파 유도 주사→PRP/PRF 선택 검토→수술/전문 의뢰)를 보강하고, 회전근개 PRP는 수술 중 봉합 보강 목적과 비수술 외래 PRP를 구분해야 한다는 문장을 추가. source_count 9 유지, version 6→7.
 - 2026-05-09 v6: 자사 글 1단계 본문 보강. 자사 apfree pillar `어깨 통증 환자의 일상 관리와 재발 방지`에서 한국 임상 정보 1건 추출 — JOSPT 2025 NRS 0-5/10 운동 부하 조절 룰 + 회전근개 강화·어깨뼈 안정화 두 축. 경과·예후 섹션 끝에 신규 하위 섹션 추가, 기존 [^5] JOSPT 2025와 [^1] 자사 글로 받침. source_count 9 유지, version 5→6.
 - 2026-05-03 v5: 검증 라운드 3건 반영. [^3] Cohen 2015 Mayo Clin Proc를 어깨 통증 일반 review인 Greenberg 2014로 교체. NSAIDs·일차 진통은 Mitchell 2005, 견봉하 스테로이드 단회 주사는 JOSPT 2025, 견봉 성형술은 Cochrane 2019로 문장별 citation 정밀화.

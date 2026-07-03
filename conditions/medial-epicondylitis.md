@@ -13,7 +13,7 @@ aliases:
   - medial epicondylitis
 last_reviewed: '2026-07-03'
 source_count: 6
-version: 5
+version: 6
 locked: true
 quality_status: verified
 verified_by: Hermes + elbow-pain/ESWT/PRP 허브 정합화
@@ -87,7 +87,7 @@ external_footnote_ids: [1, 2, 3, 4, 5, 6]
 - **자가 혈소판 풍부 혈장(PRP)** — 한국 보건복지부 신의료기술 평가에서 안전성·유효성이 인정된 영역이며, 정형외과 신의료기술 등재 PRP 적용은 상과염·무릎 골관절염·회전근개봉합술 중 주입으로 제한됩니다 [^4]. 보건복지부 고시 제2023-60호 PRP 급여 기준에 따라 **3개월 이상의 적절한 보존 치료에도 통증·기능 이상이 지속되는 내·외측 상과염 환자에게 6개월 간격으로 부위별 각각 1회 인정**됩니다(작업 시점 2026-05 기준; 보험 인정 기준은 변경될 수 있어 진료 시점에 의료진과 상담하는 것이 정확합니다) [^5]. NECA 2026 상과염 PRP 재평가는 안전성 우려가 낮고 6개월 시점 통증·기능 개선이 스테로이드 주사보다 우수한 것으로 보고하였습니다(연구 간 이질성은 높음) [^4]
 
 ### 그 외 처치
-- **[체외충격파](/treatments/eswt/)(ESWT)·도수치료·운동치료** — 환자 상태에 따라 단계적으로 활용 [^3]. ESWT는 단독 완결 치료라기보다 통증을 낮춰 운동치료에 들어가게 돕는 보조 옵션으로 설명합니다.
+- **[윈백 고주파](/treatments/tecar-rf-therapy/)·[체외충격파](/treatments/eswt/)(ESWT)·도수치료·운동치료** — 환자 상태에 따라 단계적으로 활용 [^3]. 윈백은 통증 방어와 근긴장을 낮춰 운동치료에 들어가게 돕는 보조, ESWT는 힘줄 부착부 통증 조절 보조로 설명합니다.
 - **PDRN 등 다른 재생 주사** — 별도 권고로 자리잡지 않아 비용·기대효과·근거 수준을 설명한 뒤 선택적으로 검토
 
 ### 단계 치료 구조
@@ -97,13 +97,13 @@ external_footnote_ids: [1, 2, 3, 4, 5, 6]
 2. **신경 동반 평가** — 새끼손가락·약지 저림, 손 미세동작 저하, 팔꿈치 굽힘 시 저림 악화가 있으면 주관절 척골신경 포착을 함께 평가 [^3]
 3. **활동 조절·보조기** — 반복 굴곡·회내 동작과 강한 악력을 줄이고, 필요 시 카운터포스 브레이스 사용
 4. **운동·도수치료** — 손목 굴곡근·회내근 편심성/등척성 운동, 스트레칭, 작업 동작 교정 [^2][^6]
-5. **통증 조절 보조** — 윈백 고주파, 체외충격파, 단기 NSAIDs, 필요 시 단회 스테로이드 주사 검토
+5. **통증 조절 보조** — [윈백 고주파](/treatments/tecar-rf-therapy/)로 운동 진입을 돕고, [체외충격파](/treatments/eswt/)로 힘줄 부착부 통증 조절을 보조하며, 단기 NSAIDs·필요 시 단회 스테로이드 주사를 검토
 6. **PRP/PRF 검토** — 3개월 이상 적절한 보존 치료에도 통증·기능 이상이 지속되면 [PRP 주사](/treatments/prp-injection/) 상과염 병변 부위 주입을 논의할 수 있습니다 [^4][^5]
 
 ### 수술
 6~12개월 이상의 충분한 보존 치료에 반응하지 않거나 일상에 큰 지장을 주는 경우에 검토합니다. 손상된 힘줄 부위의 변성 조직 절제·재부착 등이 사용됩니다 [^3].
 
-관련 항목은 [팔꿈치 통증](/symptoms/elbow-pain/), [외측상과염](/conditions/lateral-epicondylitis/), [체외충격파](/treatments/eswt/), [PRP 주사](/treatments/prp-injection/)를 참고하세요.
+관련 항목은 [팔꿈치 통증](/symptoms/elbow-pain/), [외측상과염](/conditions/lateral-epicondylitis/), [윈백 고주파](/treatments/tecar-rf-therapy/), [체외충격파](/treatments/eswt/), [PRP 주사](/treatments/prp-injection/)를 참고하세요.
 
 ## 예후
 대부분의 내측상과염은 자한정적 경과를 보이는 경우가 많고 단계적·장기적 접근으로 호전될 수 있으나 회복 경과는 개인에 따라 차이가 큽니다 [^3]. 재발이 비교적 흔하므로 회복 후에도 작업 자세 개선·적절한 휴식·꾸준한 스트레칭이 권장됩니다. 수개월 이상 증상이 지속되거나 악화되는 경우에는 척골측부인대 손상·주관절 척골신경 포착·경추 신경근병증 등의 감별이 필요합니다 [^3].
@@ -126,6 +126,7 @@ external_footnote_ids: [1, 2, 3, 4, 5, 6]
 [^6]: [See ZH, Loo CE, Jaafar Z. Eccentric exercise therapy for medial epicondylitis: A systematic review of clinical outcomes. *Complement Ther Med.* 2026 Jun. PMID 41887339](https://pubmed.ncbi.nlm.nih.gov/41887339/) — 내측상과염 specific SR. 편심성 운동이 통증·기능 개선의 핵심 옵션임을 정리
 
 ## Changelog
+- 2026-07-03 v6: TECAR RF treatment 허브 신설 이후 내측상과염 단계 치료에서 윈백은 운동진입 보조, ESWT는 힘줄 부착부 통증 조절 보조, PRP/PRF는 3개월 이상 보존치료 불응 시 선택지로 역할을 분리. source_count 6 유지, version 5→6.
 - 2026-07-03 v5: 신규 cubital-tunnel-syndrome condition spoke와 정합화. 내측상과염에서 새끼손가락·약지 저림이 동반될 때 주관절 척골신경 포착을 감별하도록 내부 링크를 연결하고, 힘줄병증 치료와 신경 평가의 분기점을 명확화. source_count 6 유지, version 4→5.
 - 2026-07-03 v4: elbow-pain, ESWT, PRP 허브와 정합화. 정의에서 팔꿈치 body_part와 외측상과염 링크를 추가하고, 치료 섹션에 단계 치료 구조(진단·부하 확인→척골신경 동반 평가→활동 조절·보조기→운동·도수→윈백/ESWT/단회 스테로이드→PRP/PRF 검토)를 보강. relative markdown 링크를 site permalink 링크로 정리. source_count 6 유지, version 3→4.
 - 2026-05-20 v3: **자사 footnote 제거** — 자사 thewellsr 글 `[^1]` 출처 정의 + 본문 모든 `[^1]` 인용 삭제. pillar-patch 백필 흐름(`/Users/jin/Documents/workspace/yhlinker/backend/src/knowledge/services/pillar-patch-proposer.service.ts`)이 자사 글 ID `2aa04e20`의 anchor `[treatment, prognosis]` 자리에 LLM 패치로 자사 footnote 박을 자리 비워둠. 자사 글에서 흡수한 한국 임상 톤(악수·장바구니·김치 담그기, "팔 안쪽 라인 전체가 무겁다", 절대 빈도 표현 등) 중 외부 PMID로 받칠 수 없는 디테일도 함께 제거. 외부 권위 출처 6건만으로 정리. footnote 번호 재배열 ([^2]→[^1], [^3]→[^2], [^4]→[^3], [^5]→[^4], [^6]→[^5], [^7]→[^6]). 관련 임상 자료 섹션 제거. source_count 7→6, version 2→3.

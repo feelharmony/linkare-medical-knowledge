@@ -15,7 +15,7 @@ source_count_external: 5
 source_count_clinic_pillar: 1
 clinic_footnote_ids: [1]
 external_footnote_ids: [2, 3, 4, 5, 6]
-version: 3
+version: 4
 ---
 ## 정의
 회전근개 건병증(rotator cuff tendinopathy)은 어깨를 움직이는 4개 힘줄(극상근·극하근·소원근·견갑하근)에 미세 손상이 누적되어 힘줄 구조와 기능이 점차 약해지는 만성 건병증입니다 [^1][^2]. 단순 염증보다는 건의 퇴행성 변화와 기능 저하가 함께 작용하는 상태로 이해됩니다 [^2]. 충돌 증후군과 함께 회전근개 관련 어깨 통증(rotator cuff related shoulder pain, RCRSP) 범주로 묶어 다루는 접근이 일부 최근 가이드라인에서 제시됩니다 [^2].
@@ -38,7 +38,7 @@ NSAIDs는 단기 통증 조절 보조로 사용하고, 견봉하 또는 관절�
 
 수술적 치료의 역할은 최근 evidence로 크게 축소되었습니다. Cochrane 2019 systematic review(Karjalainen et al., 8 trials, 1,062명)는 관절경적 견봉 성형술(arthroscopic subacromial decompression)이 위약 수술 또는 운동 치료 대비 통증·기능·삶의 질에서 임상적으로 의미 있는 개선을 보이지 않는다고 high-certainty evidence로 결론지었습니다 [^4]. 따라서 수술은 보존 치료에 충분히 반응하지 않거나 회전근개 파열 같은 명확한 구조적 병변이 동반된 경우에 한정해 검토합니다 [^2][^4].
 
-환자 상태에 따라 어깨 주변 근력 강화, 자세 평가에 따른 도수 치료, 통증 단계에 맞춘 운동 치료, 체외충격파 치료 등을 단계적으로 활용할 수 있습니다 [^1].
+회전근개 건병증은 **부하 조절·점진적 운동치료가 기본**입니다. 통증이 강해 운동 진입이 어렵다면 [윈백 고주파](/treatments/tecar-rf-therapy/)·도수치료를 통증 방어와 근긴장 완화 보조로 연결하고, 힘줄 부착부 통증이나 석회 동반 양상이 뚜렷하면 [체외충격파](/treatments/eswt/)를 선택적으로 검토합니다 [^1][^2]. [PRP 주사](/treatments/prp-injection/)·PRF는 표준 1차 치료가 아니라, 만성·반복성 통증 또는 부분 파열형에서 기존 치료 반응·비용·기대효과를 설명한 뒤 선택적으로 논의하는 영역입니다.
 
 ## 예후
 대부분의 회전근개 건병증은 보존 치료로 호전되지만, 회복까지 수개월이 걸리는 경우가 많습니다 [^1]. 통증이 줄어든 뒤에도 어깨 안정화 운동과 자세 교정을 꾸준히 유지하는 것이 재발 예방에 중요합니다 [^1]. 동반 질환(당뇨·흡연)이 있는 환자는 회복이 느리고 재발 위험도 높아, 동반 질환 관리가 함께 이루어져야 합니다 [^3]. 회전근개 파열로 진행할 가능성이 있는 환자는 증상 변화와 기능 저하 여부에 따라 정기적 평가를 고려합니다 [^2].
@@ -57,5 +57,6 @@ NSAIDs는 단기 통증 조절 보조로 사용하고, 견봉하 또는 관절�
 [^6]: [American Academy of Orthopaedic Surgeons. Clinical Practice Guideline: Management of Rotator Cuff Injuries in Adults. Published August 18, 2025](https://www.aaos.org/quality/quality-programs/rotator-cuff/)
 
 ## Changelog
-- 2026-04-25 v2: 수동 편집
+- 2026-07-03 v4: TECAR RF treatment 허브 신설 이후 회전근개 건병증 치료를 부하 조절·운동 기본, 윈백/도수는 재활 진입 보조, ESWT는 힘줄 부착부·석회 동반 통증 보조, PRP/PRF는 만성·부분 파열형 선택지로 정교화. source_count 6 유지, version 3→4.
 - 2026-05-02 v3: 외부 권위 출처 3개 추가 (JOSPT 2025 회전근개 건병증 CPG — Desmeules et al., AOPT/APTA, 운동치료 핵심·약물 보조; Jeong 2017 한국 무증상 회전근개 변화 유병률; Cochrane 2019 견봉 성형술 evidence 축소) — 정의·병태·증상·진단·치료·예후 6섹션 보강 (원본 정의·증상·진단·치료·예후 5섹션, 병태 신설). RCRSP 우산 범주로 충돌 증후군과 함께 다루는 접근 명시. JOSPT 2025 핵심 권고: 운동치료 우선, 도수 치료·테이핑·침은 단기 통증 완화 보조, 조기 영상 비추. SOP 룰 10(가이드라인 최신성: JOSPT 2025) + 룰 12(행정 규정 위키 부적합) 적용 — PRP는 보건복지부 고시 직접 인용 대신 일반 표현("일부 정형외과 적응증에 신의료기술 등재")으로 처리해 위키 long-lived 자산 안정성 확보. 학술 톤 다운(의학 용어·수치·권고 강도 보존). source_count 0→4.
+- 2026-04-25 v2: 수동 편집.

@@ -22,7 +22,7 @@ source_count_external: 5
 source_count_clinic_pillar: 1
 clinic_footnote_ids: [1]
 external_footnote_ids: [2, 3, 4, 5, 6]
-version: 2
+version: 3
 ---
 ## 정의
 슬개건염(patellar tendinitis)은 [무릎](/body-parts/knee/) 앞쪽, 슬개골 아래에서 정강이뼈까지 이어지는 슬개건에 반복 부하가 누적되어 [무릎 통증](/symptoms/knee-pain/)과 기능 저하가 생기는 상태입니다. 최근에는 단순 염증보다 힘줄 구조와 부하 적응의 문제를 반영해 **슬개건병증(patellar tendinopathy)** 이라는 표현을 함께 씁니다 [^2][^3]. 점프와 착지가 많은 농구·배구·축구·러닝에서 흔해 “점퍼스 니(jumper's knee)”라고도 부릅니다 [^2].
@@ -47,7 +47,7 @@ version: 2
 ## 치료
 치료의 핵심은 “쉬기만 하는 것”이 아니라 통증을 악화시키는 부하를 줄이고, 힘줄이 견딜 수 있는 범위 안에서 점진적으로 다시 부하를 올리는 것입니다 [^2][^3]. 초기에는 점프·스프린트·깊은 스쿼트처럼 통증을 크게 올리는 동작을 줄이고, 통증 수준을 보며 등척성 운동, 편심성 운동, heavy slow resistance 같은 단계적 근력 운동을 적용합니다 [^2][^4]. 2024 네트워크 메타분석은 성인 슬개건병증에서 편심성, 등척성, heavy slow resistance 운동이 VISA-P 점수 개선과 관련될 수 있음을 비교했습니다 [^4].
 
-체외충격파 치료([ESWT](/treatments/eswt/))는 일부 건병증에서 보조 치료로 사용되며, 2023 체계적 문헌고찰·메타분석은 슬개건병증, 아킬레스건병증, 족저근막염에서 충격파 치료 효과를 함께 검토했습니다 [^5]. 즉 슬개건염 치료를 “운동/물리치료만”으로 좁히기보다, 부하 관리와 운동치료를 기본 축으로 두고 ESWT, [윈백 고주파(TECAR/RF) 물리치료](/treatments/tecar-rf-therapy/), 초음파 유도 주사치료, [PRP 주사](/treatments/prp-injection/)·PRF 같은 자가활성화세포 기반 재생주사 선택지를 환자 상태에 따라 검토하는 방식이 현실적입니다 [^5][^6]. PRP는 슬개건병증에서 연구가 축적되어 있으나 프로토콜과 결과가 균일하지 않으므로, PRF를 포함한 자가 혈액 기반 재생치료는 증상 기간, 영상 소견, 운동치료 반응, 비용과 기대효과를 설명한 뒤 선택적으로 논의하는 영역입니다 [^6].
+체외충격파 치료([ESWT](/treatments/eswt/))는 일부 건병증에서 보조 치료로 사용되며, 2023 체계적 문헌고찰·메타분석은 슬개건병증, 아킬레스건병증, 족저근막염에서 충격파 치료 효과를 함께 검토했습니다 [^5]. 즉 슬개건염 치료는 **부하 관리·운동치료를 기본 축**으로 두고, 통증이 강해 운동 진입이 어려우면 [윈백 고주파(TECAR/RF) 물리치료](/treatments/tecar-rf-therapy/)를 통증 방어 완화 보조로, 압통이 지속되는 힘줄 부착부 통증에는 ESWT를 보조 옵션으로 연결합니다. 장기화·재발형에서는 초음파 유도 주사치료와 [PRP 주사](/treatments/prp-injection/)·PRF 같은 자가활성화세포 기반 재생주사 선택지를 환자 상태에 따라 검토하는 방식이 현실적입니다 [^5][^6]. PRP는 슬개건병증에서 연구가 축적되어 있으나 프로토콜과 결과가 균일하지 않으므로, PRF를 포함한 자가 혈액 기반 재생치료는 증상 기간, 영상 소견, 운동치료 반응, 비용과 기대효과를 설명한 뒤 선택적으로 논의하는 영역입니다 [^6].
 
 스테로이드 주사는 단기 통증 완화를 줄 수 있지만 힘줄 조직에 부담을 줄 수 있어 반복 사용에 신중해야 합니다. 수술은 충분한 보존 치료에도 6~12개월 이상 기능 제한이 지속되는 일부 환자에서 검토합니다 [^2].
 
@@ -68,5 +68,6 @@ version: 2
 [^6]: [Barman A et al. Platelet-rich plasma injection in the treatment of patellar tendinopathy: a systematic review and meta-analysis. Knee Surg Sports Traumatol Arthrosc. 2022;30(6):2092-2102. PMID 35509070](https://pubmed.ncbi.nlm.nih.gov/35509070/)
 
 ## Changelog
+- 2026-07-03 v3: TECAR RF treatment 허브 신설 이후 슬개건병증 치료 흐름을 부하 관리·운동 기본, 윈백은 운동진입 보조, ESWT는 힘줄 부착부 통증 보조, PRP/PRF는 장기화·재발형 선택지로 정교화. source_count 6 유지, version 2→3.
 - 2026-07-03 v2: knee/knee-pain/ESWT/PRP 허브와 정합화하고 verified로 승격. noindex 제거. 정의에 knee body_part/symptom 내부 링크 추가. 치료 섹션에 ESWT/PRP treatment 링크를 연결하고, 슬개건병증의 핵심은 부하 관리·점진적 운동치료이며 ESWT/PRP는 선택적 보조 치료라는 경계를 유지. source_count 6 유지, version 1→2.
 - 2026-07-03 v1: frontmatter-only stub을 condition entity로 확장. 슬개건염을 슬개건병증 관점으로 정리하고, 부하 관리·운동치료·충격파·[윈백 고주파](/treatments/tecar-rf-therapy/)를 보수적으로 반영.

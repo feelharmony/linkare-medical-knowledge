@@ -375,6 +375,16 @@
       ]
     },
     {
+      "id": "rotator-cuff-tendinopathy",
+      "type": "condition",
+      "name_ko": "회전근개 건병증",
+      "name_en": "rotator cuff tendinopathy",
+      "post_count": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
       "id": "cervical-spine",
       "type": "body_part",
       "name_ko": "경추",
@@ -1227,7 +1237,7 @@
       ]
     },
     {
-      "source": "calcific-tendinitis",
+      "source": "rotator-cuff-tendinopathy",
       "target": "shoulder-pain",
       "weight": 1,
       "tenant_keys": [
@@ -1236,7 +1246,31 @@
     },
     {
       "source": "calcific-tendinitis",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "frozen-shoulder",
+      "target": "rotator-cuff-tendinopathy",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "calcific-tendinitis",
       "target": "frozen-shoulder",
+      "weight": 1,
+      "tenant_keys": [
+        null
+      ]
+    },
+    {
+      "source": "calcific-tendinitis",
+      "target": "rotator-cuff-tendinopathy",
       "weight": 1,
       "tenant_keys": [
         null

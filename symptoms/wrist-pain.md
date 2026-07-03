@@ -20,7 +20,7 @@ source_count_external: 5
 source_count_clinic_pillar: 0
 clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5]
-version: 3
+version: 4
 ---
 ## 정의
 손목 통증(wrist pain)은 [손목](/body-parts/wrist/)의 관절, 인대, 힘줄, 건초, 신경, 뼈 손상 때문에 생기는 통증을 가리키는 증상 용어입니다 [^1][^2]. 통증 위치가 엄지 쪽인지, 새끼손가락 쪽인지, 손바닥 쪽인지, 외상 뒤 시작됐는지에 따라 의심 질환이 달라집니다.
@@ -53,7 +53,7 @@ version: 3
 외상성 통증이나 골절 의심 시 X-ray가 필요하고, 주상골·TFCC·인대 손상이 의심되면 MRI나 초음파를 추가로 고려할 수 있습니다 [^1][^3]. 손 저림이 주증상인 경우에는 경추 신경근병증, [주관절 척골신경 포착](/conditions/cubital-tunnel-syndrome/), 말초신경병증과 감별해야 하며, 필요 시 전기진단검사를 사용합니다 [^2][^4].
 
 ## 치료 옵션
-치료는 원인별로 다릅니다. 과사용성 건초염과 비외상성 손목 통증은 활동 조절, 부목, NSAIDs, 스트레칭·운동, [윈백 고주파(TECAR/RF) 물리치료](/treatments/tecar-rf-therapy/), [체외충격파](/treatments/eswt/)(ESWT), [초음파 유도 주사](/treatments/ultrasound-guided-injection/)를 단계적으로 사용합니다 [^3]. 드퀘르벵 건초염에서는 엄지 포함 부목과 국소 스테로이드 주사가 핵심 보존 치료이며, 초음파 유도 주사는 구획 변이를 확인해 정확도를 높이는 데 도움이 될 수 있습니다 [^3]. [윈백 고주파](/treatments/tecar-rf-therapy/)와 체외충격파는 통증 조절과 조직 회복 환경 보조를 목표로 병행할 수 있지만, 골절·감염·진행성 신경 손상처럼 먼저 배제해야 할 원인을 대신하지 않습니다.
+치료는 원인별로 다릅니다. 과사용성 건초염과 비외상성 손목 통증은 **활동 조절·부목·NSAIDs → 스트레칭·운동 → [윈백 고주파(TECAR/RF) 물리치료](/treatments/tecar-rf-therapy/)로 통증 방어 완화 → [체외충격파](/treatments/eswt/)(ESWT)·[초음파 유도 주사](/treatments/ultrasound-guided-injection/) → 만성·반복성 건초염에서 [PRP 주사](/treatments/prp-injection/)·PRF 선택 검토** 순서로 설명합니다 [^3]. 드퀘르벵 건초염에서는 엄지 포함 부목과 국소 스테로이드 주사가 핵심 보존 치료이며, 초음파 유도 주사는 구획 변이를 확인해 정확도를 높이는 데 도움이 될 수 있습니다 [^3]. [윈백 고주파](/treatments/tecar-rf-therapy/)와 체외충격파는 통증 조절과 조직 회복 환경 보조를 목표로 병행할 수 있지만, 골절·감염·진행성 신경 손상처럼 먼저 배제해야 할 원인을 대신하지 않습니다.
 
 손목터널증후군이 의심되면 야간 부목, 활동 조절, 국소 스테로이드 주사, 전기진단 또는 CTS-6 기반 평가를 활용하고, 보존 치료에 반응하지 않거나 근위축·진행성 약화가 있으면 수근관 감압술을 검토합니다 [^4][^5]. 외상성 손목 통증은 골절·인대 손상 배제를 먼저 하고, 고정·영상검사·전문 의뢰를 결정합니다 [^1].
 
@@ -72,6 +72,7 @@ version: 3
 [^5]: [Wipperman J, Goerl K. Carpal Tunnel Syndrome: Diagnosis and Management. Am Fam Physician. 2016;94(12):993-999. PMID 28075090](https://pubmed.ncbi.nlm.nih.gov/28075090/)
 
 ## Changelog
+- 2026-07-03 v4: TECAR RF treatment 허브 신설 이후 손목 과사용성 건초염 치료 흐름을 활동 조절·부목→운동→윈백 통증 방어 완화→ESWT/초음파 유도 주사→만성 반복성 건초염 PRP/PRF 선택검토로 정교화. source_count 5 유지, version 3→4.
 - 2026-07-03 v3: 신규 cubital-tunnel-syndrome condition spoke와 정합화. 손목 통증 평가에서 손 저림이 주증상일 때 주관절 척골신경 포착 내부 링크로 감별 흐름을 연결. source_count 5 유지, version 2→3.
 - 2026-07-03 v2: wrist/hand-numbness/CTS/de Quervain 허브와 정합화하고 verified로 승격. noindex 제거. 치료 섹션에 ESWT/ultrasound-guided-injection/PRP treatment 링크를 연결하고, 통증형 손목 콘텐츠가 골절·감염·진행성 신경 손상 평가를 대체하지 않는다는 경계 유지. source_count 5 유지, version 1→2.
 - 2026-07-03 v1: frontmatter-only stub을 손목 통증 symptom entity로 확장. 엄지 쪽 건초염, 손목터널, 외상성 구조 손상, 척골측 통증, 목·팔꿈치 연관 저림을 분기하고 초음파 유도 주사·체외충격파·윈백 고주파·보조기·전기진단·수술 의뢰 기준을 반영.
