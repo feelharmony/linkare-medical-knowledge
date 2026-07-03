@@ -479,12 +479,23 @@
     "type": "treatment",
     "name_ko": "물리치료",
     "name_en": "physical therapy",
-    "aliases": [],
-    "description_ko": "물리적 모달리티(전기·열·초음파 등)를 활용한 치료",
+    "aliases": [
+      "물리치료",
+      "물리 치료",
+      "재활치료",
+      "재활 치료",
+      "전기치료",
+      "온열치료",
+      "ultrasound therapy",
+      "electrotherapy",
+      "physical therapy",
+      "physiotherapy"
+    ],
+    "description_ko": "통증 감소와 기능 회복을 위해 온열·전기·초음파 같은 물리적 모달리티와 교육·운동·재활 전략을 환자 상태에 맞춰 조합하는 보존 치료",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 8,
-    "version": 1
+    "last_reviewed": "2026-07-03",
+    "source_count": 7,
+    "version": 6
   },
   {
     "id": "headache",
