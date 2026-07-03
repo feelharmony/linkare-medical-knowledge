@@ -11,12 +11,11 @@ canonical_url: "https://ansimpainfree.kr/blog/lumbar-disc-herniation"
 source: Linkare Medical Knowledge
 license: CC BY-NC 4.0
 last_updated: 2026-05-26
-tags: []
-description: "---
-title: \"허리디스크, 수술 없이도 회복 가능한가? 원인부터 진단까지\"
-description: \"허리디스크의 60~80%는 6~12주 내에 자연 호전됩니다. 추간판 탈출의 메커니즘과 증상, 정확한 진단 과정을 통해 적절한 치료 시기를 판단하는 방법을 알아봅니다.\"
-date: \"2026-03-28\"
-tags: [\"허리디스크\", \"추간판탈출증\", \""
+tags:
+  - 허리디스크
+  - 추간판탈출증
+  - 요추 추간판 탈출증
+description: "허리디스크의 60~80%는 6~12주 내에 자연 호전됩니다. 추간판 탈출의 메커니즘과 증상, 정확한 진단 과정을 통해 적절한 치료 시기를 판단하는 방법을 알아봅니다."
 ---
 
 ## 도입: 허리디스크, 정말 수술이 필요할까요?
