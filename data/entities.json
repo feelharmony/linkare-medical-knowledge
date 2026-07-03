@@ -1409,13 +1409,19 @@
     "name_ko": "탈모",
     "name_en": "hair loss",
     "aliases": [
-      "모발 손실"
+      "탈모",
+      "머리 빠짐",
+      "모발 손실",
+      "머리카락 빠짐",
+      "hair loss",
+      "alopecia",
+      "hair thinning"
     ],
-    "description_ko": "모발이 빠지거나 가늘어지는 증상",
+    "description_ko": "모발이 비정상적으로 빠지거나 가늘어지는 증상. 안드로겐성·원형·휴지기·반흔성 패턴을 감별해 원인별 치료로 연결하는 symptom hub입니다.",
     "status": "approved",
-    "last_reviewed": "2026-05-03",
-    "source_count": 1,
-    "version": 3
+    "last_reviewed": "2026-07-04",
+    "source_count": 7,
+    "version": 5
   },
   {
     "id": "hi-ems",
