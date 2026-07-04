@@ -164,7 +164,7 @@ layout: default
 
   {%- comment -%}
     v2.5: MD body 섹션 렌더 (thick entity 본문 + Citations + Changelog).
-    "관련 글" 섹션은 제거 — body 내 citation [^N] 각주가 그 역할 대체.
+    관련 임상 자료는 post_entity_map 기반 include로 자동 렌더한다.
 
     v2.6: kramdown footnotes 자동 출력 위치 보정.
     kramdown은 footnote 정의를 페이지 맨 아래에 자동 출력하므로
@@ -184,6 +184,7 @@ layout: default
   <noscript>
     <style>.entity-body .footnotes { visibility: visible; }</style>
   </noscript>
+  {% include entity-related-posts.html %}
   <script>
     (function() {
       function repositionFootnotes() {

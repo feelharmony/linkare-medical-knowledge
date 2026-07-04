@@ -13,7 +13,10 @@
       "manual-therapy",
       "rehabilitation-therapy"
     ],
-    "updated_at": "2026-04-28"
+    "updated_at": "2026-04-28",
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   },
   {
     "post_path": "content/apfree/ko/spine/herniated-disc-causes-symptoms-diagnosis.md",
@@ -27,7 +30,10 @@
       "cauda-equina-syndrome",
       "conservative-treatment"
     ],
-    "updated_at": "2026-04-28"
+    "updated_at": "2026-04-28",
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   },
   {
     "post_path": "content/thr/ko/pain/straight-neck-forward-head.md",
@@ -44,7 +50,10 @@
       "posture-correction",
       "neck-stretching"
     ],
-    "updated_at": "2026-04-28"
+    "updated_at": "2026-04-28",
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "content/thr/ko/hair/hair-loss-regeneration-injection-treatment.md",
@@ -59,7 +68,12 @@
       "exosome-therapy",
       "hair-loss-medication"
     ],
-    "updated_at": "2026-07-03"
+    "updated_at": "2026-07-03",
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon",
+    "source_article_title": "노원 탈모주사, 약만으로 부족할 때 모발재생 치료를 고려하는 기준",
+    "source_article_url": "https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment"
   },
   {
     "post_path": "content/thr/ko/longevity/nad-iv-therapy.md",
@@ -70,7 +84,10 @@
       "chronic-fatigue",
       "dna-repair"
     ],
-    "updated_at": "2026-04-23"
+    "updated_at": "2026-04-23",
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "content/apfree/en/spine/herniated-disc-causes-symptoms-diagnosis.md",
@@ -84,7 +101,10 @@
       "manual-therapy",
       "pilates"
     ],
-    "updated_at": "2026-04-23"
+    "updated_at": "2026-04-23",
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   },
   {
     "post_path": "content/thr/en/longevity/nad-iv-therapy.md",
@@ -94,7 +114,10 @@
       "chronic-fatigue",
       "aging-symptoms"
     ],
-    "updated_at": "2026-04-23"
+    "updated_at": "2026-04-23",
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "content/thr/en/pain/straight-neck-forward-head.md",
@@ -109,7 +132,10 @@
       "exercise-therapy",
       "imaging-tests"
     ],
-    "updated_at": "2026-04-23"
+    "updated_at": "2026-04-23",
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "content/apfree/ko/joint/lateral-epicondylitis-symptoms-diagnosis.md",
@@ -122,7 +148,10 @@
       "treatment-for-lateral-epicondylitis",
       "elbow"
     ],
-    "updated_at": "2026-04-28"
+    "updated_at": "2026-04-28",
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   },
   {
     "post_path": "db:308b3e30-1e16-44d5-9700-36cf3a4524ec",
@@ -140,7 +169,10 @@
       "manual-therapy",
       "injection-therapy"
     ],
-    "updated_at": "2026-04-28"
+    "updated_at": "2026-04-28",
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "db:b62253c1-115c-437a-b398-652b2468dc34",
@@ -169,7 +201,10 @@
       "calcific-tendinitis",
       "shoulder-rehabilitation"
     ],
-    "updated_at": "2026-04-28"
+    "updated_at": "2026-04-28",
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   },
   {
     "post_path": "db:1bfebe68-fd4f-4fe4-89a0-4cd9cfe9ad08",
@@ -199,7 +234,10 @@
       "steroid-injections",
       "elbow"
     ],
-    "updated_at": "2026-04-28"
+    "updated_at": "2026-04-28",
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   },
   {
     "post_path": "db:80ee22ec-385d-476d-95d4-ca6dceb541c8",
@@ -227,7 +265,10 @@
       "regenerative-injection-therapy",
       "cervical-spine"
     ],
-    "updated_at": "2026-04-28"
+    "updated_at": "2026-04-28",
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   },
   {
     "post_path": "db:df09dd16-391f-4453-a8f3-2e241f254522",
@@ -242,7 +283,10 @@
       "conservative-treatment",
       "physical-therapy"
     ],
-    "updated_at": "2026-04-28"
+    "updated_at": "2026-04-28",
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   },
   {
     "post_path": "https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk",
@@ -257,9 +301,10 @@
       "nerve-block-injection",
       "rehabilitation-exercise"
     ],
-    "doctor_id": "kwon-jin-yeol",
-    "hospital_id": "ansim-tun-tun-pain-medicine",
-    "updated_at": "2026-04-28"
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree",
+    "updated_at": "2026-04-28",
+    "tenant_key": "apfree"
   },
   {
     "post_path": "content/apfree/df09dd16-391f-4453-a8f3-2e241f254522.md",
@@ -269,7 +314,10 @@
     "entity_ids": [
       "lumbar-disc-herniation"
     ],
-    "updated_at": "2026-04-28"
+    "updated_at": "2026-04-28",
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   },
   {
     "post_path": "https://thewellsr.kr/blog/shoulder-impingement-syndrome-causes-treatment",
@@ -283,7 +331,8 @@
     ],
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon",
-    "updated_at": "2026-04-27"
+    "updated_at": "2026-04-27",
+    "tenant_key": "thr"
   },
   {
     "post_path": "https://thewellsr.kr/knowledge/extracorporeal-shock-wave-therapy-results",
@@ -295,7 +344,8 @@
     ],
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon",
-    "updated_at": "2026-04-27"
+    "updated_at": "2026-04-27",
+    "tenant_key": "thr"
   },
   {
     "post_path": "https://ansimpainfree.kr/knowledge/daegu-extracorporeal-shock-wave-focused-radial-injection",
@@ -309,7 +359,8 @@
     ],
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree",
-    "updated_at": "2026-04-27"
+    "updated_at": "2026-04-27",
+    "tenant_key": "apfree"
   },
   {
     "post_path": "https://thewellsr.kr/blog/nad-vs",
@@ -319,7 +370,10 @@
     "entity_ids": [
       "nad-infusion-therapy"
     ],
-    "updated_at": "2026-05-01"
+    "updated_at": "2026-05-01",
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "https://ansimpainfree.kr/blog/daegu-shingles-post-neuralgia-pain",
@@ -335,7 +389,8 @@
     ],
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree",
-    "updated_at": "2026-05-01"
+    "updated_at": "2026-05-01",
+    "tenant_key": "apfree"
   },
   {
     "post_path": "content/thr/ko/---tms/tms.md",
@@ -348,7 +403,9 @@
     "updated_at": "2026-06-09",
     "sub_topic_type": null,
     "is_pillar": false,
-    "tenant_key": "thr"
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "content/apfree/en/conditions/calcific-tendinitis-from-the-causes-of-shoulder-pain-to-non-.md",
@@ -361,7 +418,9 @@
     "updated_at": "2026-05-20",
     "sub_topic_type": null,
     "is_pillar": false,
-    "tenant_key": "apfree"
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   },
   {
     "post_path": "content/thr/en/treatments/tms-transcranial-magnetic-stimulation-a-non-invasive-neuromo.md",
@@ -374,7 +433,9 @@
     "updated_at": "2026-05-20",
     "sub_topic_type": null,
     "is_pillar": false,
-    "tenant_key": "thr"
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "content/thr/ko/-------/nad-tca.md",
@@ -387,7 +448,9 @@
     "updated_at": "2026-05-22",
     "sub_topic_type": null,
     "is_pillar": true,
-    "tenant_key": "thr"
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "content/apfree/ko/-----------/lower-back-pain-hospital-choice-matters.md",
@@ -411,7 +474,9 @@
     "updated_at": "2026-07-04",
     "sub_topic_type": null,
     "is_pillar": true,
-    "tenant_key": "apfree"
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   },
   {
     "post_path": "content/thr/ko/-------/hi-ems-tecar-rf.md",
@@ -425,7 +490,9 @@
     "updated_at": "2026-05-26",
     "sub_topic_type": null,
     "is_pillar": false,
-    "tenant_key": "thr"
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "content/thr/ko/------/frozen-shoulder-pathophysiology.md",
@@ -438,7 +505,9 @@
     "updated_at": "2026-06-05",
     "sub_topic_type": null,
     "is_pillar": true,
-    "tenant_key": "thr"
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "content/thr/en/------/what-is-frozen-shoulder-the-pathophysiology-of-a-stiffening-.md",
@@ -451,7 +520,9 @@
     "updated_at": "2026-06-08",
     "sub_topic_type": null,
     "is_pillar": true,
-    "tenant_key": "thr"
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "content/apfree/ko/conditions/cervical-disc-herniation.md",
@@ -464,7 +535,9 @@
     "updated_at": "2026-06-09",
     "sub_topic_type": null,
     "is_pillar": false,
-    "tenant_key": "apfree"
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   },
   {
     "post_path": "content/thr/ko/---nad--/nad-infusion-cellular-energy-metabolism.md",
@@ -477,7 +550,9 @@
     "updated_at": "2026-06-10",
     "sub_topic_type": null,
     "is_pillar": true,
-    "tenant_key": "thr"
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "content/thr/en/---nad--/nad-iv-therapy-from-cellular-energy-metabolism-to-indication.md",
@@ -490,7 +565,9 @@
     "updated_at": "2026-06-11",
     "sub_topic_type": null,
     "is_pillar": true,
-    "tenant_key": "thr"
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "content/apfree/ko/---prp--/prp-4.md",
@@ -503,7 +580,9 @@
     "updated_at": "2026-06-12",
     "sub_topic_type": null,
     "is_pillar": true,
-    "tenant_key": "apfree"
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   },
   {
     "post_path": "content/thr/ko/----/frozen-shoulder-non-surgical-treatment.md",
@@ -516,7 +595,9 @@
     "updated_at": "2026-06-17",
     "sub_topic_type": null,
     "is_pillar": false,
-    "tenant_key": "thr"
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "content/thr/en/----/frozen-shoulder-non-surgical-treatment-for-a-stiffened-joint.md",
@@ -529,7 +610,9 @@
     "updated_at": "2026-06-18",
     "sub_topic_type": null,
     "is_pillar": false,
-    "tenant_key": "thr"
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "content/apfree/ko/------/knee-osteoarthritis.md",
@@ -542,7 +625,9 @@
     "updated_at": "2026-06-20",
     "sub_topic_type": null,
     "is_pillar": true,
-    "tenant_key": "apfree"
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   },
   {
     "post_path": "content/thr/ko/----/nowon-lower-back-pain-radiculopathy-muscle-tension.md",
@@ -555,7 +640,9 @@
     "updated_at": "2026-06-24",
     "sub_topic_type": null,
     "is_pillar": false,
-    "tenant_key": "thr"
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "content/thr/en/----/nowon-back-pain-tailored-treatment-for-radicular-pain-and-mu.md",
@@ -568,7 +655,9 @@
     "updated_at": "2026-06-25",
     "sub_topic_type": null,
     "is_pillar": false,
-    "tenant_key": "thr"
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "content/apfree/ko/---/frozen-shoulder.md",
@@ -581,7 +670,9 @@
     "updated_at": "2026-06-26",
     "sub_topic_type": null,
     "is_pillar": true,
-    "tenant_key": "apfree"
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   },
   {
     "post_path": "content/thr/ko/----/nowon-shoulder-pain-impingement-rotator-cuff.md",
@@ -594,7 +685,9 @@
     "updated_at": "2026-07-01",
     "sub_topic_type": null,
     "is_pillar": false,
-    "tenant_key": "thr"
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   },
   {
     "post_path": "content/apfree/ko/-----/plantar-fasciitis.md",
@@ -607,7 +700,9 @@
     "updated_at": "2026-07-02",
     "sub_topic_type": null,
     "is_pillar": true,
-    "tenant_key": "apfree"
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   },
   {
     "post_path": "content/thr/en/----/nowon-shoulder-pain-telling-apart-impingement-syndrome-and-r.md",
@@ -620,6 +715,8 @@
     "updated_at": "2026-07-02",
     "sub_topic_type": null,
     "is_pillar": false,
-    "tenant_key": "thr"
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
