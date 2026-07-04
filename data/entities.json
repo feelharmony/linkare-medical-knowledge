@@ -170,9 +170,9 @@
     ],
     "description_ko": "대상포진(VZV) 재활성화를 억제하는 acyclovir·valacyclovir·famciclovir 등 항바이러스 치료",
     "status": "approved",
-    "last_reviewed": "2026-05-03",
-    "source_count": 3,
-    "version": 1
+    "last_reviewed": "2026-05-31",
+    "source_count": 5,
+    "version": 2
   },
   {
     "id": "shingles-vaccination",
@@ -189,9 +189,9 @@
     ],
     "description_ko": "재조합 대상포진 백신(RZV, Shingrix) — 대상포진·PHN 예방의 가장 효과적인 수단",
     "status": "approved",
-    "last_reviewed": "2026-05-03",
-    "source_count": 4,
-    "version": 1
+    "last_reviewed": "2026-05-31",
+    "source_count": 6,
+    "version": 2
   },
   {
     "id": "zoster",
@@ -207,7 +207,7 @@
     ],
     "description_ko": "잠복 수두대상포진 바이러스 재활성화로 발생하는 신경 분포 영역의 통증성 발진",
     "status": "approved",
-    "last_reviewed": "2026-05-03",
+    "last_reviewed": "2026-05-31",
     "source_count": 5,
     "version": 1
   },
@@ -224,9 +224,9 @@
     ],
     "description_ko": "대상포진 발진 회복 후에도 지속되는 만성 신경병증성 통증",
     "status": "approved",
-    "last_reviewed": "2026-05-03",
-    "source_count": 5,
-    "version": 2
+    "last_reviewed": "2026-05-09",
+    "source_count": 6,
+    "version": 3
   },
   {
     "id": "alopecia-areata",

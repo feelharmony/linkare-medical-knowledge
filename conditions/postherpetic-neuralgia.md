@@ -117,9 +117,6 @@ PHN으로 진행한 환자에서도 다학제 통증 관리로 의미 있는 회
 
 ---
 
-## 관련 임상 자료
-[^6]: [안심튼튼 — 대구 대상포진 후 신경통, 수포가 나아도 통증이 계속된다면](https://blog.naver.com/ansimpainfree/224271572126)
-
 ## Citations
 ### 자사 임상 자료
 
@@ -137,8 +134,6 @@ PHN으로 진행한 환자에서도 다학제 통증 관리로 의미 있는 회
 
 [^5]: Shingles Facts and Stats. *CDC.* 2024 update. URL: [cdc.gov/shingles/data-research](https://www.cdc.gov/shingles/data-research/index.html) — PHN 발생률 약 10~18% (대상포진 환자 중)
 
-Zoster Subunit Vaccine in Older Adults (ZOE-50/70). *N Engl J Med.* 2015;372(22):2087-2096 / 2016;375(11):1019-1032. — 백신 효과 91~97%, PHN VE 88.8%
-[^5]: Shingles Facts and Stats. *CDC.* 2024 update. URL: [cdc.gov/shingles/data-research](https://www.cdc.gov/shingles/data-research/index.html) — PHN 발생률 약 10~18% (대상포진 환자 중)
 
 ## Changelog
 - 2026-05-09 v3: **자사 글 1단계 본문 보강 (룰 v2.2 적용)**. 자사 apfree naver pillar `대구 대상포진 후 신경통`(`5b43da51`)에서 한국 임상 정보 2건 추출 — ESWT 보조 복합 접근 옵션 / 약물 단독 6개월 이상 시 중추 감작 굳어 시술 반응 더딘 임상 패턴 + 치료 일정 4-6주 안정 후 단계적 감량 흐름. 치료 섹션 중재시술 list에 ESWT 보조 1줄 추가 + 한국 임상 흐름 1문단 추가 + `[^6]` 자사 footnote. 관련 임상 자료 섹션 신설. source_count 5→6, version 2→3.
