@@ -4,7 +4,7 @@ entity_id: antiviral-medicine
 entity_type: treatment
 permalink: /treatments/antiviral-medicine/
 title: 항바이러스제 (대상포진)
-description: 대상포진(VZV) 재활성화를 억제하는 acyclovir·valacyclovir·famciclovir 등 항바이러스 치료
+description: 대상포진 72시간 골든타임에 VZV 복제를 억제해 발진·급성 통증을 줄이고 PHN 예방 전략의 1차 축이 되는 항바이러스 치료
 title_en: antiviral medicine (acyclovir, valacyclovir, famciclovir)
 aliases:
   - 항바이러스제
@@ -15,7 +15,7 @@ aliases:
   - 발라시클로비르
   - famciclovir
   - 팜시클로비르
-last_reviewed: '2026-05-31'
+last_reviewed: '2026-07-04'
 locked: true
 source_count: 5
 source_count_external: 5
@@ -23,17 +23,17 @@ source_count_clinic_pillar: 0
 clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5]
 quality_status: verified
-version: 2
+version: 3
 ---
 
 ## 정의·기전
-대상포진 항바이러스제는 수두대상포진 바이러스(VZV)의 DNA 합성을 억제하여 바이러스 복제·신경 염증을 줄이는 약물입니다. 임상에서 활용되는 표준 약물 세 가지가 있습니다[^1].
+대상포진 항바이러스제는 수두대상포진 바이러스(VZV)의 DNA 합성을 억제하여 바이러스 복제·신경 염증을 줄이는 약물입니다. 임상에서 활용되는 표준 약물 세 가지가 있습니다[^1]. 이 entity는 단순 약물 목록이 아니라, [대상포진](/conditions/zoster/) 진단 직후 **72시간 골든타임에 시작해야 하는 PHN 예방 전략의 1차 축**으로 다룹니다.
 
 - **Acyclovir** — 1세대 nucleoside analog. 경구 흡수율이 낮아 하루 5회 투약 필요
 - **Valacyclovir** — Acyclovir의 prodrug, 경구 흡수율 향상으로 **하루 3회**로 단순화
 - **Famciclovir** — Penciclovir의 prodrug, 하루 3회
 
-Valacyclovir·famciclovir가 dosing이 간편해 일반적으로 우선 검토되며, 면역적격 성인의 급성 대상포진 통증 조절 근거도 비교 연구와 네트워크 메타분석에서 다뤄졌습니다[^1][^5].
+Valacyclovir·famciclovir가 dosing이 간편해 일반적으로 우선 검토되며, 면역적격 성인의 급성 대상포진 통증 조절 근거도 비교 연구와 네트워크 메타분석에서 다뤄졌습니다[^1][^5]. 항바이러스제는 통증을 직접 차단하는 시술은 아니지만, 바이러스 복제와 병변 진행을 줄여 급성 통증 기간을 낮추고 이후 [대상포진 후 신경통](/conditions/postherpetic-neuralgia/)으로 이어질 위험을 줄이는 초기 레버입니다.
 
 ## 적응증
 
@@ -44,18 +44,22 @@ Valacyclovir·famciclovir가 dosing이 간편해 일반적으로 우선 검토�
 - 급성 통증 강도·기간 감소
 - 일부 관찰 연구에서 PHN 위험 감소 시사
 
+환자 커뮤니케이션에서는 “약을 먹을까 말까”보다 **발진·한쪽 띠 모양 통증을 느낀 즉시 72시간 안에 시작해야 한다**는 메시지가 핵심입니다. 특히 고령·면역저하·당뇨·심한 급성 통증 환자에서는 항바이러스만으로 끝내지 않고 급성 통증 조절과 [신경차단술](/treatments/nerve-block-injection/) 조기 검토까지 연결합니다.
+
 72시간을 넘긴 경우에도 다음과 같은 상황에서 항바이러스 치료를 검토합니다[^1][^2].
 - 새 병변이 계속 발생하는 경우
 - 면역억제 환자
 - 안부 대상포진(zoster ophthalmicus) 등 합병증 위험이 큰 부위
 - 심한 급성 통증이 지속되는 경우
 
+즉 “72시간이 지나면 아무 의미 없다”가 아니라, **72시간 이내가 가장 좋고, 이후에도 진행성 병변·고위험군·심한 통증이면 치료 판단이 필요하다**는 균형 잡힌 설명이 적절합니다.
+
 ### 기타 적응증
 Acyclovir·valacyclovir·famciclovir는 대상포진 외에 단순 헤르페스(HSV-1·2, 구순포진·생식기 포진) 적응증을 가지며, valacyclovir는 면역적격 성인의 단순 헤르페스 재발 억제에도 사용됩니다. 본 entity의 evidence 정리는 대상포진(VZV) 영역 중심입니다.
 
 ## 표준 용법
 
-면역적격 성인의 일반 대상포진 표준 용법(7일 간 경구):
+항바이러스 선택은 효과뿐 아니라 복용 편의성, 신기능, 고령, 면역저하 여부를 함께 봅니다. 면역적격 성인의 일반 대상포진 표준 용법(7일 간 경구):
 
 - **Valacyclovir** 1,000 mg 1일 3회
 - **Famciclovir** 500 mg 1일 3회 (또는 750 mg 1일 1회 일부 국가)
@@ -79,6 +83,8 @@ Acyclovir·valacyclovir·famciclovir는 대상포진 외에 단순 헤르페스(
 ## 환자 안내
 - **발진 발생 → 72시간 골든타임** — 빠른 진료 권장
 - 발진 없이 한쪽 부위 통증·이상감각만 있는 전구기에도 의심되면 진료
+- 약을 시작한 뒤에도 밤잠을 깰 정도의 통증, 옷 스침 통증, 통증 범위 확대가 있으면 급성 통증 조절을 함께 평가
+- 고령·면역저하·심한 통증 환자는 항바이러스제 + 신경병증성 통증 약물 + 신경차단술을 단계적으로 검토
 - 50세 이상은 대상포진 이력 후에도 **Shingrix 백신 접종**이 권장되며, 백신은 PHN 예방의 가장 효과적인 수단입니다[^3] → [shingles-vaccination](./shingles-vaccination.md)
 
 관련 entity:
@@ -97,5 +103,6 @@ Acyclovir·valacyclovir·famciclovir는 대상포진 외에 단순 헤르페스(
 [^5]: Li Q, Chen N, Yang J, Zhou M, Zhou D, Zhang Q, He L. A Network Meta-Analysis of Randomized Clinical Trials to Assess the Efficacy and Safety of Antiviral Agents for Immunocompetent Patients with Herpes Zoster-Associated Pain. *Pain Physician.* 2023;26(4):E385-E394. PMID 37535772. URL: [pubmed.ncbi.nlm.nih.gov/37535772](https://pubmed.ncbi.nlm.nih.gov/37535772/)
 
 ## Changelog
+- 2026-07-04 v3: 항바이러스제를 대상포진 72시간 골든타임/PHN 예방 전략의 1차 축으로 재포지셔닝. 정의·적응증·표준 용법·환자 안내에 조기 시작 메시지, 72시간 이후 예외 판단, 고위험군의 통증 조절·신경차단술 연결을 보강하고 registry date/version 동기화.
 - 2026-05-31 v2: external source 2건 보강(Cochrane 2014 antiviral-PHN review, Pain Physician 2023 antiviral network meta-analysis) 후 verified 승격. 72시간 이내 항바이러스 치료와 약제 비교 근거 footnote 보강.
 - 2026-05-03 v1: **신규 발행** (frontmatter only → 정식 entity). 대상포진 시리즈 묶음 작업의 일부로 본문 구성 — 정의·기전(3 약물 비교) + 적응증(대상포진 1차 + 기타) + 표준 용법(면역적격 성인) + 부작용·주의 환자군(신기능·임신) + 환자 안내. 외부 출처 3건 — Adriaansen 2025 *Pain Practice*, CDC 2024 임상 overview, ZOE-50/70(예방 link). 룰 14·15 적용 — 표준 dosing은 정확히, 신독성·약물 상호작용은 안전 문구로 강조. 단순 헤르페스(HSV) 등 대상포진 외 적응증은 짧게 언급하되 본 entity는 VZV 중심으로 좁힘.

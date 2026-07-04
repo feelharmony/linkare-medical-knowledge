@@ -114,11 +114,11 @@
       "C-arm 유도 주사",
       "영상 유도 신경차단"
     ],
-    "description_ko": "신경 주위에 국소마취제·스테로이드 등을 주사하여 통증·신경 염증을 차단하는 중재시술",
+    "description_ko": "신경 주위에 약물을 주사해 통증 신호와 신경 염증을 낮추는 시술. 대상포진/PHN에서는 조기 통증 개입과 만성화 예방의 핵심 축입니다.",
     "status": "approved",
-    "last_reviewed": "2026-05-03",
-    "source_count": 4,
-    "version": 4
+    "last_reviewed": "2026-07-04",
+    "source_count": 7,
+    "version": 7
   },
   {
     "id": "shoulder",
@@ -168,11 +168,11 @@
       "famciclovir",
       "팜시클로비르"
     ],
-    "description_ko": "대상포진(VZV) 재활성화를 억제하는 acyclovir·valacyclovir·famciclovir 등 항바이러스 치료",
+    "description_ko": "대상포진 72시간 골든타임에 VZV 복제를 억제해 발진·급성 통증을 줄이고 PHN 예방 전략의 1차 축이 되는 항바이러스 치료",
     "status": "approved",
-    "last_reviewed": "2026-05-31",
+    "last_reviewed": "2026-07-04",
     "source_count": 5,
-    "version": 2
+    "version": 3
   },
   {
     "id": "shingles-vaccination",
