@@ -222,11 +222,11 @@
       "postherpetic neuralgia",
       "post-herpetic neuralgia"
     ],
-    "description_ko": "대상포진 발진 회복 후에도 지속되는 만성 신경병증성 통증",
+    "description_ko": "대상포진 발진 회복 후에도 지속되는 만성 신경병증성 통증. 급성 대상포진기 조기 통증 조절부터 만성 PHN 관리까지 통증의학과 개입 타이밍을 연결하는 condition hub입니다.",
     "status": "approved",
-    "last_reviewed": "2026-05-09",
+    "last_reviewed": "2026-07-04",
     "source_count": 6,
-    "version": 3
+    "version": 4
   },
   {
     "id": "alopecia-areata",
