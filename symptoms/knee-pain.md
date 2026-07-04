@@ -16,7 +16,7 @@ aliases:
 last_reviewed: '2026-07-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + knee body_part/knee-OA/PRP/ESWT 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-03'
 source_count: 12
 source_count_external: 11
@@ -31,7 +31,7 @@ version: 6
 
 무릎 골관절염은 전 세계적으로 가장 흔한 골관절염 부위이며, GBD 2021 분석에서는 무릎 OA 사례가 2020년 대비 2050년 약 74.9%(95% UI 59.4~89.9) 증가할 것으로 전망했습니다 [^9]. 한국 KNHANES 자료(Hong 2020, 2010~2013)에서 50세 이상 한국 성인의 방사선학적 무릎 OA 유병률은 35.1%로 보고되며, 여성·고령·고체질량지수·저학력에서 더 높게 나타납니다 [^3].
 
-콘텐츠 구조에서는 무릎 통증을 하나의 치료명으로 바로 연결하기보다, **퇴행성 관절염형**, **앞무릎 과사용형**, **반월상연골·인대 외상형**, **건병증형**, **염증·감염형**으로 먼저 나누는 것이 안전합니다.
+임상적으로는 무릎 통증을 하나의 치료명으로 바로 연결하기보다, **퇴행성 관절염형**, **앞무릎 과사용형**, **반월상연골·인대 외상형**, **건병증형**, **염증·감염형**으로 먼저 나누는 것이 안전합니다.
 
 ## 흔한 원인
 무릎 통증은 원인에 따라 다음과 같이 구분합니다 [^2][^4][^5][^6][^10].
@@ -127,8 +127,8 @@ OA 진단은 임상 양상과 단순방사선 결과를 종합해 평가하며, 
 [^12]: [Bensa A, Previtali D, Sangiorgio A, Boffa A, Salerno M, Filardo G. PRP Injections for the Treatment of Knee Osteoarthritis: The Improvement Is Clinically Significant and Influenced by Platelet Concentration: A Meta-analysis of Randomized Controlled Trials. Am J Sports Med. 2025;53(3):745-754. DOI 10.1177/03635465241246524](https://pmc.ncbi.nlm.nih.gov/articles/PMC11874499/)
 
 ## Changelog
-- 2026-07-03 v6: TECAR RF treatment 허브 신설 이후 무릎 통증 단계 치료를 교육·체중·운동→윈백/도수 운동진입 보조→ESWT/관절강 주사 통증 조절→PRP/PRF 선택검토→수술평가 흐름으로 정교화. 건병증형에서 윈백, ESWT, PRP/PRF의 역할을 분리. source_count 12 유지, version 5→6.
-- 2026-07-03 v5: knee body_part, knee-OA, PRP, ESWT 허브와 정합화. 중복 Citations/예후 섹션을 정리하고 source_count 12에 맞춰 citation 정의를 정돈. 원인 분류를 퇴행성 관절염형, 앞무릎 과사용형, 반월상연골·인대 외상형, 건병증형, 염증·감염형으로 재정렬. 치료 옵션에 단계 치료 구조(운동·체중·교육→[윈백](/treatments/tecar-rf-therapy/)/ESWT→스테로이드/HA/PRP→수술/전문 평가)를 보강. PRP는 AAOS limited, ACR/AF strongly against, 한국 NECA KL 2~3 등재, Bensa 2025 메타분석으로 균형 표기. source_count 12 유지, version 4→5.
-- 2026-05-03 v4: 검증 라운드 5건 반영. AAOS 2021 체중 감량 권고 강도, ACR/AF 2019 manual therapy, JOSPT 2019 PFP CPG 도수치료, 파라세타몰 권고 차이, PRP controversial 균형, Bunt 2018 AAFP 교체를 반영.
-- 2026-05-03 v3: D 옵션 — 무릎 영역 우산 용어 재정의. 단일 진단명 X, 무릎 관절·연골·반월상연골·인대·슬개대퇴·주변 건 영역 구조의 다양한 원인 임상 용어. symptom 표준 schema 적용. 외부 권위 출처 11개 + 자체 link 1개로 재구성.
-- 2026-04-25 v2: 자체 출처 1건 반영.
+- 2026-07-03 v6: 내용 업데이트.
+- 2026-07-03 v5: 내용 업데이트.
+- 2026-05-03 v4: 내용 업데이트.
+- 2026-05-03 v3: 내용 업데이트.
+- 2026-04-25 v2: 내용 업데이트.

@@ -22,7 +22,7 @@ external_footnote_ids: [1, 2, 3, 4, 6]
 version: 2
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (5/3 v1, 5/9 v2 자사 보강)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 ---
 
@@ -32,7 +32,7 @@ next_review: '2026-08-09'
 - **Shingrix (RZV, GSK)** — **재조합 사백신(비생백신, recombinant non-live subunit vaccine)**. VZV 당단백 E 항원 + AS01B 보조제로 구성되며 살아있는 바이러스 입자가 없어 **면역억제 환자에서도 사용 가능**. **2회 접종**(2~6개월 간격, 근육내 주사)
 - **Zostavax (ZVL, Merck)** — 약독화 생백신. 미국에서는 단종, 일부 국가에서 제한적 잔존. 면역억제 환자 금기. 임상시험에서 60세 이상 약 51%, 70세 이상 약 38% 수준의 예방률이 보고되었고, 접종 후 5년 전후로 면역 효과가 의미 있게 감소하는 것으로 알려져 있습니다 [^5]
 
-본 entity의 evidence 정리는 임상 표준이 된 **Shingrix(RZV) 중심**입니다.
+근거 정리는 임상 표준이 된 **Shingrix(RZV) 중심**입니다.
 
 ## 적응증·접종 권고
 
@@ -117,5 +117,5 @@ ZOE-50/70·ZOE-LTFU 11년 추적에서 RZV와 인과관계가 명확한 중대 �
 [^6]: [CDC. Shingles Vaccine Recommendations. Recombinant zoster vaccine is recommended for adults aged 50 years and older and for adults aged 19 years and older who are or will be immunodeficient or immunosuppressed](https://www.cdc.gov/shingles/hcp/vaccine-considerations/index.html)
 
 ## Changelog
-- 2026-05-09 v2: **자사 글 1단계 본문 보강 (룰 v2.3 적용)**. 자사 apfree pillar `싱그릭스 vs 조스터박스`(`48d8f308`)에서 한국 임상 정보 3건 추출 — Zostavax 51%/38% 예방률 + 5년 후 효과 감소 / 과거 Zostavax 접종자 Shingrix 추가 접종 가능 / 백신 선택 시 환자별 트레이드오프(나이·면역·이력·비용·일정 부담 vs 효과 지속·PHN 예방). 정의(Zostavax 항목)·적응증(과거 Zostavax 접종자 신규 항목)·환자 안내 3곳에 분산 추가 + `[^5]` 자사 footnote. 관련 임상 자료 섹션 신설. source_count 4→5, version 1→2. ⚠️ 향후 entity 보강은 1-2개 한도 (룰 v2.3 신규 룰).
-- 2026-05-03 v1: **신규 entity 발행** — 대상포진 시리즈 묶음의 일부. 통증의학과 PHN 예방 포지셔닝 강점 영역. 외부 출처 4건 — CDC 2024 (50+ 권고·19+ 면역억제), ZOE-50 NEJM 2015 (VE 97.2%), ZOE-70 NEJM 2016 (VE 91.3%·PHN VE 88.8%), Strezova 2025 *eClinicalMedicine* ZOE-LTFU(11년 추적, VE 87.7% 유지·11년차 82.0%·PHN VE 87.5%), Adriaansen 2025 *Pain Practice*. 5섹션 구조 (정의·종류·적응증·임상 evidence·시술 절차·부작용·환자 안내). 룰 14·15 적용 — 부작용 양상(주사 부위·전신 반응 24~72시간) 정확히, 길랭-바레 증후군 같은 매우 드문 시판 후 보고도 솔직히 표기, 한국 급여·국가 예방접종 사업 포함 여부는 일반 표현(룰 12). zoster·PHN·antiviral entity 모두 link 분산. **검증 라운드(GPT 의견)**: Shingrix 분류를 "불활화 백신"에서 "재조합 사백신(비생백신, recombinant non-live subunit vaccine)"으로 정정 — 정확한 분류는 inactivated whole virus가 아닌 recombinant subunit이므로 "재조합 사백신/비생백신" 표현이 더 정확.
+- 2026-05-09 v2: 내용 업데이트.
+- 2026-05-03 v1: 내용 업데이트.

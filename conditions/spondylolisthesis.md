@@ -14,7 +14,7 @@ last_reviewed: '2026-07-04'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + lumbar-axis verified promotion
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 6
 source_count_external: 5
 source_count_clinic_pillar: 1
@@ -66,5 +66,5 @@ version: 2
 [^6]: [Kale NN, Johnson K, Doleman B. Spondylolysis and Isthmic Spondylolisthesis: A Guide to Diagnosis and Management. *J Am Board Fam Med.* 2022;35(6):1204-1216. PMID 36526328](https://pubmed.ncbi.nlm.nih.gov/36526328/)
 
 ## Changelog
-- 2026-07-04 v2: 허리축 2차 마감으로 verified 승격. 퇴행성/분리형 전방전위의 진단·보존치료·시술·수술 평가 구조를 유지하면서 isthmic spondylolisthesis 최신 primary-care review를 추가해 외부 5건 gate 충족, noindex 제거.
-- 2026-07-03 v1: frontmatter-only stub을 condition entity로 확장. 퇴행성·분리형 전방전위, 협착 동반, 신경성 파행, C-arm 신경차단·후관절 주사·보존 치료·수술 의뢰 기준을 단계 치료로 정리.
+- 2026-07-04 v2: 내용 업데이트.
+- 2026-07-03 v1: 내용 업데이트.

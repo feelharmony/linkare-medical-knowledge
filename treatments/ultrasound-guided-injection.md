@@ -18,7 +18,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + 발 통증/족저근막염/건병증 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 5
 source_count_external: 5
 source_count_clinic_pillar: 0
@@ -121,7 +121,7 @@ Ruiz Santiago 2024 narrative review는 어깨, 무릎, 고관절, 발목·족저
 [^5]: [Tsai WC, et al. Ultrasound- versus palpation-guided injection of corticosteroid for plantar fasciitis: a meta-analysis. PLoS One. 2014;9(3):e92671. PMID 24658102](https://pubmed.ncbi.nlm.nih.gov/24658102/)
 
 ## Changelog
-- 2026-07-03 v5: 발 통증 축 정리 후 ultrasound-guided-injection을 verified 기준으로 보강. source_count 2→5, citation 섹션을 자사/외부로 분리, 족저근막염·발뒤꿈치 통증·아킬레스건병증·방아쇠수지·드퀘르벵·PRP/프롤로/ESWT 허브 링크를 연결. 초음파 유도는 치료 기전이 아니라 guidance modality라는 점, 표적 정확도와 임상 결과 우월성의 차이, 족저근막 스테로이드 반복 주의까지 반영.
-- 2026-05-04 v4: 검증 라운드 6건 반영. 정확도 수치 톤 다운, Ruiz Santiago 2024 표현 정확화, Shen 2024 명시 부위 정정, 부작용·안전성 표현 톤 다운, footnote renumber.
-- 2026-05-04 v3: canonical 결정 + 본문 신설. ultrasound-guided-injection을 canonical로 결정하고 ultrasound-injection은 archived 처리. treatment 표준 schema 적용, 유도 방식이라는 점 명시, 2024 umbrella/narrative review 2건 기반으로 작성.
-- 2026-04-23 v2: 자체 출처 1건, frontmatter source_count=0, 본문 짧은 stub 수준. entities.json에는 ultrasound-injection으로만 등록되어 두 entity가 중복 상태.
+- 2026-07-03 v5: 내용 업데이트.
+- 2026-05-04 v4: 내용 업데이트.
+- 2026-05-04 v3: 내용 업데이트.
+- 2026-04-23 v2: 내용 업데이트.

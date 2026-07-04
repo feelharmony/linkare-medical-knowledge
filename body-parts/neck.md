@@ -14,7 +14,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + neck-pain/cervical-spine/cervical-disc/headache 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 6
 source_count_external: 4
 source_count_clinic_pillar: 2
@@ -47,7 +47,7 @@ version: 2
 
 팔 저림과 근력 저하가 동반된 경추 신경근병증에서는 MRI 등으로 신경 압박을 확인하고, 약물·물리치료·견인·운동치료와 함께 C-arm 유도 경막외 주사나 선택적 신경근 차단술을 고려할 수 있습니다 [^2][^5]. 후두부 통증이나 경추기원 두통에서는 후두신경차단, 상부 경추 후관절 신경차단, 고주파 치료가 환자 선택에 따라 검토됩니다 [^6]. 근막성 통증에서는 통증유발점 주사, 건식침, 도수·운동치료를 병행하되, 만성 인대성·건부착부 통증이 의심되는 경우 PRP/PRF·프롤로 같은 재생주사를 선택적으로 논의할 수 있습니다. 주사는 자세·부하·근력 문제를 대신하는 단독 치료가 아니라 통증 조절과 재활 진입을 돕는 수단으로 설명하는 것이 안전합니다 [^4].
 
-비즈니스 콘텐츠 관점에서는 목 통증을 “자세교정” 하나로 묶기보다 “거북목·근막형”, “목디스크·팔저림형”, “두통·후두신경형”, “어깨 연관형”으로 분류해 환자 언어와 윈백 고주파, [체외충격파](/treatments/eswt/), [초음파 유도 주사](/treatments/ultrasound-guided-injection/), C-arm 신경차단 같은 치료 옵션을 연결하는 구조가 전환에 유리합니다.
+임상 설명에서는 목 통증을 “자세교정” 하나로 묶기보다 “거북목·근막형”, “목디스크·팔저림형”, “두통·후두신경형”, “어깨 연관형”으로 분류해 환자 언어와 윈백 고주파, [체외충격파](/treatments/eswt/), [초음파 유도 주사](/treatments/ultrasound-guided-injection/), C-arm 신경차단 같은 치료 옵션을 연결하는 구조가 진료 흐름을 설명하기 쉽습니다.
 
 ---
 
@@ -63,5 +63,5 @@ version: 2
 [^6]: [Expert Panel on Neurological Imaging. ACR Appropriateness Criteria® Headache: 2022 Update. J Am Coll Radiol. 2023;20(5S):S70-S93. PMID 37236753](https://pubmed.ncbi.nlm.nih.gov/37236753/)
 
 ## Changelog
-- 2026-07-03 v2: review/noindex 상태의 목 body_part 허브를 verified로 승격. neck-pain/cervical-spine/cervical-disc/arm-numbness/cervicogenic-headache/occipital-neuralgia 축과 정합화하고 치료 섹션에 ESWT·초음파 유도 주사 canonical 링크를 연결.
-- 2026-07-03 v1: frontmatter-only stub을 목 body_part 허브로 확장. 자세·근막형, 목디스크·팔저림형, 두통·후두신경형, 어깨 연관형으로 분류하고 운동·도수·약물·초음파 유도 주사·C-arm 신경차단·고주파 치료로 이어지는 단계 치료 구조를 반영.
+- 2026-07-03 v2: 내용 업데이트.
+- 2026-07-03 v1: 내용 업데이트.

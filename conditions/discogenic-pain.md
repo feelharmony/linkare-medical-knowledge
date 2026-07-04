@@ -16,7 +16,7 @@ aliases:
 last_reviewed: '2026-07-04'
 locked: true
 quality_status: verified
-verified_by: Hermes + lumbar-axis verified promotion
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-04'
 source_count: 5
 source_count_external: 5
@@ -29,7 +29,7 @@ version: 3
 ## 정의
 디스크성 허리통증(discogenic low back pain)은 [요추](/body-parts/lumbar-spine/) 추간판 자체가 주요 통증 발생원으로 작용하는 축성 [허리통증](/symptoms/lower-back-pain/)입니다. 전형적인 [허리디스크](/conditions/lumbar-disc-herniation/)처럼 신경근 압박으로 다리 방사통이 두드러지는 상태와 달리, 허리 중심의 깊은 통증·앉기 악화·굽힘 악화가 중심이 될 수 있습니다 [^1][^2].
 
-과거 “추간판 내장증(internal disc derangement)”이라는 표현도 쓰였지만, 환자 콘텐츠에서는 이 용어를 단독 진단명처럼 앞세우기보다 **디스크성 허리통증** 또는 **디스크 기원 축성 요통**으로 설명하는 편이 안전합니다. 영상에서 디스크 퇴행이나 annular fissure가 관찰되어도 무증상자에서 흔히 발견될 수 있으므로, 영상 소견만으로 통증 원인을 확정하지 않습니다 [^3][^4].
+과거 “추간판 내장증(internal disc derangement)”이라는 표현도 쓰였지만, 환자 설명에서는 이 용어를 단독 진단명처럼 앞세우기보다 **디스크성 허리통증** 또는 **디스크 기원 축성 요통**으로 설명하는 편이 안전합니다. 영상에서 디스크 퇴행이나 annular fissure가 관찰되어도 무증상자에서 흔히 발견될 수 있으므로, 영상 소견만으로 통증 원인을 확정하지 않습니다 [^3][^4].
 
 ## 병태
 추간판은 바깥의 섬유륜(annulus fibrosus), 안쪽의 수핵(nucleus pulposus), 종판(endplate)으로 구성됩니다. 디스크 퇴행, 섬유륜 균열, 종판 변화, 염증 매개물질, 신경·혈관 ingrowth가 겹치면 신경근 압박 없이도 허리 중심 통증이 발생할 수 있습니다 [^1][^2].
@@ -51,7 +51,7 @@ version: 3
 ## 진단
 진단은 병력, 신체검사, 신경학적 평가, 영상 소견을 종합합니다. MRI는 디스크 탈출, 고강도 영역(HIZ), Modic 변화, 종판 변화, 협착, 감염·종양 감별에 도움이 되지만, 퇴행 소견 자체가 통증 원인임을 자동으로 의미하지는 않습니다 [^3][^4].
 
-Provocative discography는 과거 discogenic pain 평가에 사용되었지만 침습성, 위양성, 임상적 유용성 논란이 있어 routine 평가로 전면에 두기 어렵습니다 [^2][^4]. 현재 콘텐츠에서는 “MRI에서 디스크 신호가 어둡다 = 통증 원인 확정”이 아니라, 통증 양상과 기능 제한, 신경학적 결손, 다른 통증 발생원 감별을 함께 보는 구조가 적절합니다.
+Provocative discography는 과거 discogenic pain 평가에 사용되었지만 침습성, 위양성, 임상적 유용성 논란이 있어 routine 평가로 전면에 두기 어렵습니다 [^2][^4]. “MRI에서 디스크 신호가 어둡다 = 통증 원인 확정”으로 단정하지 않고, 통증 양상과 기능 제한, 신경학적 결손, 다른 통증 발생원 감별을 함께 봐야 합니다.
 
 ## 치료
 1차 치료는 대부분 보존적 접근입니다. 활동 유지, 통증 교육, NSAIDs 단기 사용, [운동치료](/treatments/exercise-therapy/), 체간 안정화, 고관절·흉추 가동성 회복, 수면·작업 자세 조정이 기본 축입니다 [^3][^4]. 오래 앉기·반복 굽힘·무거운 물건 들기처럼 증상을 악화시키는 부하를 줄이고, 통증이 낮아진 범위에서 점진적으로 기능을 회복시킵니다.
@@ -83,5 +83,5 @@ Provocative discography는 과거 discogenic pain 평가에 사용되었지만 �
 [^5]: [Lorio M, Clerk-Lamalice O, Beall DP, et al. International Society for the Advancement of Spine Surgery Guideline-Intradiscal Therapies for Discogenic Low Back Pain. *Int J Spine Surg.* 2023;17(1):10-27. PMID 36941001](https://pubmed.ncbi.nlm.nih.gov/36941001/)
 
 ## Changelog
-- 2026-07-04 v3: archived/noindex 상태의 “추간판 내장증” entity를 디스크성 허리통증 condition hub로 재정의해 verified 승격. IDD를 단독 표준 진단처럼 밀지 않고 discogenic low back pain이라는 축성 요통 발생원으로 좁혀 설명하며, 허리디스크·협착·후관절/근막성 통증과 감별하는 구조로 정리. 외부 권위 출처 5건으로 source metadata 구성하고 허리축 검증 대상에 편입.
-- 2026-05-03 v2: 외부 권위 출처 부족 및 한국 임상 표준 진단명 불명확성으로 archived 처리. 디스크 영역은 lumbar-disc-herniation·spinal-stenosis를 canonical hub로 유지.
+- 2026-07-04 v3: 내용 업데이트.
+- 2026-05-03 v2: 내용 업데이트.

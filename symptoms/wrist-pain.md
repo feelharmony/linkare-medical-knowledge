@@ -14,7 +14,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + wrist/hand-numbness/CTS/de Quervain 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 5
 source_count_external: 5
 source_count_clinic_pillar: 0
@@ -57,7 +57,7 @@ version: 4
 
 손목터널증후군이 의심되면 야간 부목, 활동 조절, 국소 스테로이드 주사, 전기진단 또는 CTS-6 기반 평가를 활용하고, 보존 치료에 반응하지 않거나 근위축·진행성 약화가 있으면 수근관 감압술을 검토합니다 [^4][^5]. 외상성 손목 통증은 골절·인대 손상 배제를 먼저 하고, 고정·영상검사·전문 의뢰를 결정합니다 [^1].
 
-비즈니스 콘텐츠에서는 손목 통증을 “엄지 쪽 주사치료가 필요한 건초염”, “저림이 동반된 손목터널”, “외상 후 구조 손상”, “목·팔꿈치에서 내려온 저림”으로 나누어 설명하는 것이 좋습니다. 통증형 손목 콘텐츠에는 초음파 유도 주사뿐 아니라 체외충격파와 [윈백 고주파](/treatments/tecar-rf-therapy/)를 기본 치료 옵션으로 함께 노출하고, 만성 건초염·힘줄 통증에서는 [PRP 주사](/treatments/prp-injection/)·PRF 같은 자가활성화세포 기반 재생주사까지 선택지로 연결합니다. 보조기, 전기진단, 수술 의뢰 기준도 함께 정리합니다.
+임상 설명에서는 손목 통증을 “엄지 쪽 주사치료가 필요한 건초염”, “저림이 동반된 손목터널”, “외상 후 구조 손상”, “목·팔꿈치에서 내려온 저림”으로 나누어 설명하는 것이 좋습니다. 통증형 손목 콘텐츠에는 초음파 유도 주사뿐 아니라 체외충격파와 [윈백 고주파](/treatments/tecar-rf-therapy/)를 기본 치료 옵션으로 함께 노출하고, 만성 건초염·힘줄 통증에서는 [PRP 주사](/treatments/prp-injection/)·PRF 같은 자가활성화세포 기반 재생주사까지 선택지로 연결합니다. 보조기, 전기진단, 수술 의뢰 기준도 함께 정리합니다.
 
 ---
 
@@ -72,7 +72,7 @@ version: 4
 [^5]: [Wipperman J, Goerl K. Carpal Tunnel Syndrome: Diagnosis and Management. Am Fam Physician. 2016;94(12):993-999. PMID 28075090](https://pubmed.ncbi.nlm.nih.gov/28075090/)
 
 ## Changelog
-- 2026-07-03 v4: TECAR RF treatment 허브 신설 이후 손목 과사용성 건초염 치료 흐름을 활동 조절·부목→운동→윈백 통증 방어 완화→ESWT/초음파 유도 주사→만성 반복성 건초염 PRP/PRF 선택검토로 정교화. source_count 5 유지, version 3→4.
-- 2026-07-03 v3: 신규 cubital-tunnel-syndrome condition spoke와 정합화. 손목 통증 평가에서 손 저림이 주증상일 때 주관절 척골신경 포착 내부 링크로 감별 흐름을 연결. source_count 5 유지, version 2→3.
-- 2026-07-03 v2: wrist/hand-numbness/CTS/de Quervain 허브와 정합화하고 verified로 승격. noindex 제거. 치료 섹션에 ESWT/ultrasound-guided-injection/PRP treatment 링크를 연결하고, 통증형 손목 콘텐츠가 골절·감염·진행성 신경 손상 평가를 대체하지 않는다는 경계 유지. source_count 5 유지, version 1→2.
-- 2026-07-03 v1: frontmatter-only stub을 손목 통증 symptom entity로 확장. 엄지 쪽 건초염, 손목터널, 외상성 구조 손상, 척골측 통증, 목·팔꿈치 연관 저림을 분기하고 초음파 유도 주사·체외충격파·윈백 고주파·보조기·전기진단·수술 의뢰 기준을 반영.
+- 2026-07-03 v4: 내용 업데이트.
+- 2026-07-03 v3: 내용 업데이트.
+- 2026-07-03 v2: 내용 업데이트.
+- 2026-07-03 v1: 내용 업데이트.

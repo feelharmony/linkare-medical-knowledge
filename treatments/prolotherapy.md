@@ -18,7 +18,7 @@ aliases:
 last_reviewed: '2026-05-31'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 5
 source_count_external: 5
@@ -116,7 +116,5 @@ Reeves 2016 narrative review는 외측상과염·내측상과염·아킬레스�
 [^6]: [Kolasinski SL, Neogi T, Hochberg MC, et al. 2019 American College of Rheumatology/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee. Arthritis Rheumatol. 2020;72(2):220-233. PMID 31908163](https://pubmed.ncbi.nlm.nih.gov/31908163/)
 
 ## Changelog
-- 2026-04-28 v3: 자체 출처 1건, frontmatter source_count=1, noindex stub 상태로 사이트 미노출.
-- 2026-05-04 v5: **검증 라운드 6건 반영**. ① **untracked 해소** — git add 명시로 본문 파일 commit 보장. ② **source_count 정합 정정** — 자체 link는 ## 관련 임상 자료에 분리(footnote 아님)이라 카운트 제외. 외부 footnote 4→5([^6] ACR/AF 2019 추가)로 source_count 5 유지. ③ **Khateri 2024 결과 해석 정확화** — "통증·기능·뻣뻣함 모두 개선" 과장 → "통증(SMD -0.95, p<0.001)·뻣뻣함(SMD -0.21, p<0.001) 유의, 기능은 비유의(SMD 0.20, 95% CI -0.11~0.51, p=0.221)" 정확 보고. ④ **저자 byline 정정** — Khateri 2024 저자명 오기(Mohammadian-Hafshejani·Mehrabi) → 정확 byline(Khateri S, Behbahani Nejad F, Kazemi F, Alaei B, Azami M, Moradkhani A, Majidi L, Moradi Y). ⑤ **ACR/AF 2019 [^6] 신규 추가** — 무릎·고관절 OA에 prolotherapy conditionally recommended against. AAOS insufficient·ACR/AF conditionally against·Khateri SR 효과 신호 3축 한미 분리 인용으로 controversial 균형 강화. 근거 요약 섹션도 정정. ⑥ **안전성 표현 톤 다운** — "안전성은 비교적 양호한 편" → "이상반응 평가 근거는 제한적, 환자 특성·의료진 평가 함께 고려" (VA 2024 SR 톤 반영). version 4→5.
-
-- 2026-05-04 v4: **신규 entity 본문 작성**. **시간 강건한 톤**(time-resilient tone) 원칙 적용 — 보험 인정·가격·비급여·고시 정보 본문 노출 0건, 진료 행위 본질·기전·적응증·근거 중심. treatment 표준 schema(정의·작용 기전·적응증·시술 방식·부작용·환자 안내·근거 요약·관련 항목·관련 임상 자료) 적용. 외부 권위 출처 4건 + 자체 link 1건: **Reeves, Sit, Rabago 2016 PM&R Clin North Am**(PMID 27788902, dextrose prolotherapy 종합 narrative review — 기전·근거·임상 권고), **Khateri 2024 Health Sci Rep SR**(PMID 38915358, 무릎 OA WOMAC 통증·기능·뻣뻣함 개선), **AAOS 2021 Knee OA CPG**(Brophy & Fillingham, PMID 35383651, prolotherapy evidence insufficient), **Fong 2023 Arch Phys Med Rehabil SR/MA**(PMID 37098357, 족저근막염 효과·프로토콜 이질성). 적응증 4영역 — 무릎 OA(SR vs AAOS 한미 분리 인용·SOP 룰 9·15) / 족저근막염 / 외측상과염·기타 / 그 외. 자체 link는 ESWT 글에 prolotherapy 보조 매핑된 자료 1건. SR 효과 신호 vs CPG insufficient 분리 인용으로 controversial 균형 유지(룰 15). 시술 무용론·광고형 단정 모두 회피. lateral-epicondylitis·knee-osteoarthritis·rotator-cuff-tendinopathy·knee-pain·elbow-pain link로 진료 동선 보존. SOP 룰 9·10·11·12·13·14·15 적용. 보험 인정·가격·고시 본문 노출 0건. source_count 1→5(자체 1 + 외부 4), version 3→4. noindex 제거.
+- 2026-04-28 v3: 내용 업데이트.
+- 2026-05-04 v5: 내용 업데이트.

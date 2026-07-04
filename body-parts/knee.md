@@ -14,7 +14,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + knee-pain/knee-OA/PRP/ESWT 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 5
 source_count_external: 4
 source_count_clinic_pillar: 1
@@ -25,7 +25,7 @@ version: 2
 ## 정의
 무릎(knee, 슬관절)은 대퇴골·경골·슬개골이 만나는 체중 부하 관절입니다. 굽힘과 폄을 중심으로 움직이지만, 실제 안정성은 반월상연골, 전·후방십자인대, 내·외측측부인대, 관절연골, 슬개건, 대퇴사두근, 햄스트링, 고관절·발목 정렬이 함께 결정합니다 [^2][^3]. 무릎은 걷기·계단·쪼그려 앉기·달리기에서 반복 부하를 받기 때문에 퇴행성 변화, 스포츠 손상, 건병증이 모두 흔하게 나타나는 부위입니다 [^1][^2].
 
-무릎 영상 소견은 증상과 항상 일치하지 않습니다. 반월상연골 변성, 연골 변화, 골극 같은 소견은 무증상 성인에서도 발견될 수 있어, 영상 결과는 통증 위치·부종·잠김·불안정성·기능 제한과 함께 해석해야 합니다 [^2][^4]. 콘텐츠 구조에서는 무릎을 하나의 치료명으로 밀기보다 **퇴행성 관절염형**, **반월상연골·인대 외상형**, **앞무릎 과사용형**, **염증·감염형**으로 나누어 설명하는 것이 안전합니다.
+무릎 영상 소견은 증상과 항상 일치하지 않습니다. 반월상연골 변성, 연골 변화, 골극 같은 소견은 무증상 성인에서도 발견될 수 있어, 영상 결과는 통증 위치·부종·잠김·불안정성·기능 제한과 함께 해석해야 합니다 [^2][^4]. 임상적으로는 무릎을 하나의 치료명으로 밀기보다 **퇴행성 관절염형**, **반월상연골·인대 외상형**, **앞무릎 과사용형**, **염증·감염형**으로 나누어 설명하는 것이 안전합니다.
 
 ## 관련 증상
 무릎 관련 증상은 원인 구조에 따라 다르게 나타납니다. 관절 안쪽 또는 전체가 뻐근하고 계단에서 심해지는 통증은 [무릎 통증](/symptoms/knee-pain/)과 [무릎 관절염](/conditions/knee-osteoarthritis/) 평가로 이어집니다 [^1][^4]. 회전 동작 뒤 잠김(locking)·걸림(catching)이 반복되면 [반월상연골 손상](/conditions/meniscus-tear/)을 고려합니다 [^5]. 스포츠 중 ‘뚝’ 하는 느낌, 빠른 부종, 무릎이 빠질 듯한 불안정감은 [십자인대 손상](/conditions/cruciate-ligament-injury/) 평가가 필요합니다 [^3]. 슬개골 아래 앞쪽 통증이 점프·달리기·계단에서 악화되면 [슬개건염](/conditions/patellar-tendinitis/) 같은 신전 기전 과사용 손상을 감별합니다.
@@ -60,5 +60,5 @@ version: 2
 [^5]: [American Academy of Orthopaedic Surgeons OrthoInfo — Meniscus Tears](https://orthoinfo.aaos.org/en/diseases--conditions/meniscus-tears/)
 
 ## Changelog
-- 2026-07-03 v2: knee-pain/knee-OA/PRP/ESWT 허브와 정합화하고 verified로 승격. noindex 제거. 무릎 콘텐츠 분류를 퇴행성 관절염형, 반월상연골·인대 외상형, 앞무릎 과사용형, 염증·감염형으로 명확화하고, PRP/ESWT treatment 허브 링크와 가이드라인 차이 맥락을 보강. source_count 5 유지, version 1→2.
-- 2026-07-03 v1: frontmatter-only stub을 body_part entity로 확장. 무릎 해부·증상·질환·치료 허브 구조 작성, 윈백 고주파·체외충격파를 통증 조절 옵션에 반영, PubMed/ACR/AAOS 및 기존 무릎 통증 임상 자료 인용.
+- 2026-07-03 v2: 내용 업데이트.
+- 2026-07-03 v1: 내용 업데이트.

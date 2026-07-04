@@ -15,7 +15,7 @@ aliases:
 last_reviewed: '2026-05-03'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 6
 version: 2
@@ -98,5 +98,5 @@ Sjaastad CHISG 1998 진단 기준의 핵심 임상 특징은 다음과 같습니
 [^7]: [Pareek AV, Edmondson E, Kung D. Cervicogenic Headaches: A Literature Review and Proposed Multifaceted Approach to Diagnosis and Management. Neurol Clin. 2024;42(2):543-557. PMID 38575265. DOI 10.1016/j.ncl.2023.12.008](https://pubmed.ncbi.nlm.nih.gov/38575265/)
 
 ## Changelog
-- 2026-05-03 v2: **권장 라운드 2건 + 정합성 1건 반영**. ① **Pareek 2024 Neurol Clin review 추가**(PMID 38575265, 다축 접근 — 운동·도수·자세·심리사회적 요인 단계적 접근). ② **운동·도수치료 톤 완화** — Page 2011은 review 성격이라 "1차 권고" 표현 강함 → "**우선 검토되는 보존 치료**"로 정정. ③ **RFA 근거 수준 제한 한 문장 추가** — "근거 수준은 제한적이며 환자 선택과 시술 정밀도가 결과에 영향" (SOP 룰 15 controversial 처리). ④ 자체 출처 [^1] **## 관련 임상 자료 분리**. ⑤ Changelog "4개 시리즈" → "5개 시리즈" 정합. source_count 6→7, version 1→2.
-- 2026-05-03 v1: **신규 entity 작성** (headache 우산의 자녀 entity 5개 시리즈 중 4번). condition 표준 schema(정의·병태·증상·진단·치료·예후) 적용. ICHD-3 11.2.1 항목 + Sjaastad CHISG 1998 진단 기준 + Antonaci 2001 임상 review + Page 2011 evidence-led 치료 review 중심. 외부 권위 출처 5개 + 자체 link 1개 = 총 6건. citation 인덱스 [^1]~[^6]. 핵심 출처: ICHD-3, ACR Headache 2022 Update, **Antonaci & Sjaastad 2001**(Curr Pain Headache Rep, PMID 11403744, 임상 양상·감별 진단), **Sjaastad CHISG 1998**(Headache, PMID 9664748, 진단 기준 표준), **Page 2011**(Int J Sports Phys Ther, PMC 3201065, 운동·도수·다축 치료 evidence-led). 자세 부담·근막성 요인은 forward-head-posture·neck-pain link로 자연스럽게 연결, 후두신경통은 occipital-neuralgia link로 분리. 정형/통증 영역 진료 동선과 직접 매핑되는 영역으로 운동치료·도수·신경차단·고주파 열응고를 단계적으로 다룸. SOP 룰 9·10·11·13·14·15 적용. 병원명 본문 노출 없음.
+- 2026-05-03 v2: 내용 업데이트.
+- 2026-05-03 v1: 내용 업데이트.

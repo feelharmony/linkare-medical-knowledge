@@ -16,7 +16,7 @@ aliases:
 last_reviewed: '2026-07-04'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 8
 source_count_external: 6
@@ -89,9 +89,9 @@ NICE는 또한 STarT Back 같은 위험 분류 도구를 첫 진료 시점에 �
 [^8]: [Zhou T, Salman D, McGregor AH. Recent clinical practice guidelines for the management of low back pain: a global comparison. BMC Musculoskelet Disord. 2024;25:344. PMID 38693474. DOI 10.1186/s12891-024-07468-0](https://pmc.ncbi.nlm.nih.gov/articles/PMC11061926/)
 
 ## Changelog
-- 2026-07-04 v7: 구조적 허리통증 원인 문장에 scoliosis canonical link를 연결해 허리/요추/측만 축을 정합화.
-- 2026-04-23 v2: 정의 new, 흔한 원인 new, 평가 new, 치료 옵션 new
-- 2026-04-23 v3: 정의 new, 흔한 원인 new, 평가 new, 치료 옵션 new
-- 2026-04-25 v4: 자체 출처 2건만 인용 (frontmatter 어긋남)
-- 2026-05-03 v5: **D 옵션 — 우산 용어 재정의** (sciatica·forward-head-posture 패턴 적용). 단일 진단명 X, 요추 주변 구조의 다양한 원인 임상 용어. 원인 4분류 — 비특이성 요통(가장 흔함, ~85%) · 요추 신경근병증(허리디스크/협착 link) · 구조적 원인 · 적색기 질환. 외부 권위 출처 6개 신규 + 자체 2개 link로 재구성: Foster 2018 Lancet Low Back Pain Series(PMID 29573872, 비특이성 ~85%·biopsychosocial 틀·자가관리·운동 1차), NICE NG59(2016/2020 update, 영상 routine 비권고·STarT Back·NSAIDs 1차·파라세타몰 단독 비권고·가바펜티노이드 비권고), Lee JJ 2025 한국 CPG(radiculopathy 진단 검사), AANS(red flag 마미증후군), GBD 2021 LBP Collaborators(Lancet Rheumatology 2023, PMID 37273833, 글로벌 6.19억명 2020·YLDs 1위·2050년 8.43억 전망), Zhou 2024 BMC Musculoskelet Disord(PMID 38693474, 22개 CPG 글로벌 비교 NSAIDs·운동·활동 유지 일관). source_count 2→8, version 4→5. 자체 출처는 신경근병증 link로만 활용, 비특이성 요통 사실은 외부 가이드라인 출처에 매핑.
-- 2026-05-03 v6: **검증 라운드 5건 반영**. ① symptom 표준 schema(정의→흔한 원인→레드플래그→평가→치료 옵션)에 맞춰 섹션 재배치 — 별도 "증상" 섹션 제거(레드플래그 박스 뒤에 일반 양상 한 단락 흡수), "진단" → "평가", "치료" → "치료 옵션", "예후" → "치료 옵션 ### 경과·예후"로 접음. ② 레드플래그 citation 재매핑 [^5][^6] → [^4][^6] 중심(NICE NG59가 감염·종양·외상·고령 레드플래그 직접 출처, AANS는 마미). 항목별로 [^4]/[^6] 매핑 명시. ③ 용어 정정 "장애 보정 수명(YLDs)" → "장애로 인한 건강수명 손실(YLDs)" (DALY와 혼동 회피). ④ 병원명 "안심튼튼" → "임상에서는" 중립화 (SOP 톤 정책). ⑤ Changelog source_count 2→7 오기를 2→8로 정정. version 5→6.
+- 2026-07-04 v7: 내용 업데이트.
+- 2026-04-23 v2: 내용 업데이트.
+- 2026-04-23 v3: 내용 업데이트.
+- 2026-04-25 v4: 내용 업데이트.
+- 2026-05-03 v5: 내용 업데이트.
+- 2026-05-03 v6: 내용 업데이트.

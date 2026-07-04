@@ -16,7 +16,7 @@ aliases:
 last_reviewed: '2026-07-04'
 locked: true
 quality_status: verified
-verified_by: Hermes + PubMed/가이드라인 기반 허리축 정합화
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-04'
 source_count: 7
 source_count_external: 7
@@ -27,9 +27,9 @@ version: 2
 ---
 
 ## 정의
-척추측만증(scoliosis)은 척추가 정면에서 볼 때 옆으로 휘고, 동시에 척추체 회전이 동반되는 3차원 척추 변형입니다. 단순히 “자세가 삐뚤다”는 표현이 아니라, X-ray에서 Cobb angle을 측정해 변형의 정도와 진행 위험을 평가하는 condition입니다 [^1][^2].
+척추측만증(scoliosis)은 척추가 정면에서 볼 때 옆으로 휘고, 동시에 척추체 회전이 동반되는 3차원 척추 변형입니다. 단순히 “자세가 삐뚤다”는 표현이 아니라, X-ray에서 Cobb angle을 측정해 변형의 정도와 진행 위험을 평가하는 질환입니다 [^1][^2].
 
-환자 콘텐츠에서는 척추측만증을 크게 두 축으로 나누어 설명하는 것이 안전합니다. 첫째, 성장기에서 발견되는 **청소년 특발성 척추측만증(adolescent idiopathic scoliosis, AIS)**은 성장 잔여량과 Cobb angle에 따라 관찰·운동·보조기·수술 의뢰가 결정됩니다 [^1][^2][^3]. 둘째, 성인에서는 디스크·후관절 퇴행, 골다공증, 척추관 협착, 전방전위가 겹치며 **성인 퇴행성 측만/성인 척추변형** 형태로 허리통증·다리 저림·보행 장애를 만들 수 있습니다 [^6][^7].
+척추측만증은 크게 두 축으로 나누어 평가합니다. 첫째, 성장기에서 발견되는 **청소년 특발성 척추측만증(adolescent idiopathic scoliosis, AIS)**은 성장 잔여량과 Cobb angle에 따라 관찰·운동·보조기·수술 의뢰가 결정됩니다 [^1][^2][^3]. 둘째, 성인에서는 디스크·후관절 퇴행, 골다공증, 척추관 협착, 전방전위가 겹치며 **성인 퇴행성 측만/성인 척추변형** 형태로 허리통증·다리 저림·보행 장애를 만들 수 있습니다 [^6][^7].
 
 ## 병태
 청소년 특발성 척추측만증은 명확한 단일 원인보다 유전적 소인, 성장 속도, 호르몬·신경근 조절, 척추 성장의 비대칭이 복합적으로 관여하는 것으로 이해됩니다 [^2]. 진행 위험은 특히 여아, 빠른 성장기, 초경 전후, 큰 Cobb angle, 낮은 Risser sign처럼 성장 여지가 많이 남은 경우에서 높습니다 [^1][^3].
@@ -97,4 +97,4 @@ version: 2
 [^7]: [Cho KJ, Kim YT, Shin SH, Suk SI. Degenerative Scoliosis. *Curr Rev Musculoskelet Med.* 2017;10(4):547-558. PMID 28980155](https://pubmed.ncbi.nlm.nih.gov/28980155/)
 
 ## Changelog
-- 2026-07-04 v2: review/noindex frontmatter-only stub을 verified condition hub로 승격. 청소년 특발성 측만과 성인 퇴행성 측만을 구분하고, Cobb angle/성장 잔여량/보조기/PSSE/수술 평가 및 성인 허리통증·협착·신경차단 연결을 정리. 외부 권위 출처 7건으로 source metadata 구성하고 허리/요추 축 정합화 대상으로 편입.
+- 2026-07-04 v2: 내용 업데이트.

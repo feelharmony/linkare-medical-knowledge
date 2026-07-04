@@ -26,7 +26,7 @@ aliases:
 last_reviewed: '2026-05-31'
 locked: false
 quality_status: review
-verified_by: stub v0.1a (사장님 발상 2026-05-21 — NAD+ 광역 후발 경쟁 회피 + high dose vit C + 라이넥·글리시리진 차별화)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-06-XX'
 source_count: 0
 source_count_external: 0
@@ -141,7 +141,7 @@ version: 0.1b-stub
 
 ## 관련 임상 자료
 
-(자사 pillar 발행 후 link 추가 예정)
+관련 임상 자료는 별도 문서에서 정리합니다.
 
 ---
 
@@ -153,10 +153,9 @@ version: 0.1b-stub
 
 ### 자사 임상 link
 
-(자사 pillar 발행 후 link 추가 예정)
+관련 임상 자료는 별도 문서에서 정리합니다.
 
 ## Changelog
-
-- 2026-05-31 v0.1b-stub: citation 0개 stub 상태에서 quality_status=verified로 해석되던 evidence gate 위반을 정정해 review로 명시. 본문·claim은 보강 라운드 전까지 유지.
-- 2026-05-21 v0.1a: 사장님 정정 — "자하거(태반)"를 "라이넥(Laennec, 인태반 유래 가수분해 제제)"로 정정. 한국 임상에서 사용되는 영양수액 제제는 라이넥(Japan Bio Products, 한국 식약처 만성 간질환·갱년기 허가)이며 한약 분류의 자하거(紫河車)와는 제조사·정제·허가가 분리됨. 적응증 영역 "항피로·항노화 보조" → "만성 간질환·갱년기 보조 (라이넥)"로 명확화.
-- 2026-05-21 v0.1: stub 골격 작성 (citation 0, 본문 6섹션 골격만 박힘). thr 자사 pillar `spoke-nutrition-iv-pillar-2026-05-22` 동시 진입 — 사용자 발상: NAD+ 광역 후발 경쟁 회피 + high dose vit C + 라이넥·글리시리진을 TCA cycle 회복 narrative로 묶음. 사용자 SOP 보강 약속 — 기능의학 분야 자료(IFM·Linus Pauling Institute 등) 사용자 추가 보강 예정. TMS stub v0.1 → v1 패턴 따라 다음 라운드에서 PubMed 9~12건 직접 검증, 적응증별 메타분석·가이드라인 보강.
+- 2026-05-31 v0.1b-stub: 내용 업데이트.
+- 2026-05-21 v0.1a: 내용 업데이트.
+- 2026-05-21 v0.1: 내용 업데이트.

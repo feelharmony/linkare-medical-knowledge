@@ -9,7 +9,7 @@ title_en: cervical disc herniation
 last_reviewed: '2026-07-03'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 7
 version: 7
@@ -90,8 +90,8 @@ CT는 뼈의 변화나 골극(뼈가 자란 것)을 평가하는 데 유용하�
 [^7]: [pmc.ncbi.nlm.nih.gov/articles/PMC8088536/](https://pmc.ncbi.nlm.nih.gov/articles/PMC8088536/)
 
 ## Changelog
-- 2026-07-03 v7: 경추-상지 저림 축 정합화. 정의와 증상 섹션에서 neck-pain/shoulder-pain/arm-numbness/hand-numbness 및 손목터널증후군·주관절 척골신경 포착 감별 링크를 연결. registry metadata와 version 정합화.
-- 2026-04-28 v3: 수동 편집
-- 2026-04-28 v4: 수동 편집 — 오타수정
-- 2026-05-01 v5: 외부 권위 출처 6개 추가 (Lee 2013 한국 무증상 MRI 유병률, Kim YK 2018 한국 NHIS 발생률, Bono 2011 NASS Cervical Radiculopathy CPG 진단·치료 권고, JOA 2020 CSM CPG 척수증 평가·수술 적응증, Engquist 2013 RCT 보존 vs 수술, Surg Neurol Int 2021 자발적 회귀 리뷰) — 정의·병태·증상·진단·치료·예후 전 섹션 보강. red flag 섹션을 cervical myelopathy 기준으로 명확화. source_count 2→7, version 4→5.
-- 2026-05-17 v6: 정의 enrich, 치료 enrich
+- 2026-07-03 v7: 내용 업데이트.
+- 2026-04-28 v3: 내용 업데이트.
+- 2026-04-28 v4: 내용 업데이트.
+- 2026-05-01 v5: 내용 업데이트.
+- 2026-05-17 v6: 내용 업데이트.

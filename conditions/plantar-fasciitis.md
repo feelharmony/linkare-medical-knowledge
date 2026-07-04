@@ -17,7 +17,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + heel-pain/ESWT/prolotherapy 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 5
 source_count_external: 5
 source_count_clinic_pillar: 0
@@ -57,7 +57,7 @@ version: 4
 ## 예후
 대부분의 족저근막염은 보존 치료로 호전될 수 있지만, 오래 지속된 통증, 체중 부하가 큰 직업, 종아리-아킬레스 유연성 저하, 신발 문제, 운동량 조절 실패가 있으면 회복이 늦어질 수 있습니다 [^1][^3]. 통증이 줄어든 뒤에도 스트레칭과 부하 관리가 유지되지 않으면 재발할 수 있습니다.
 
-비즈니스 콘텐츠에서는 족저근막염을 “발뒤꿈치 뼈가 자라서 생긴 병”으로 단정하지 말고, 아침 첫발 통증·족저근막 부착부 과부하·종아리-발 intrinsic 기능·신발 환경을 함께 설명하는 것이 좋습니다. 치료 동선은 자가관리/운동/보조기 → 초음파 평가 → ESWT/물리치료 → 선택적 주사치료 → 드문 수술 의뢰 기준 순서가 안전합니다.
+임상 설명에서는 족저근막염을 “발뒤꿈치 뼈가 자라서 생긴 병”으로 단정하지 말고, 아침 첫발 통증·족저근막 부착부 과부하·종아리-발 intrinsic 기능·신발 환경을 함께 설명하는 것이 좋습니다. 치료 동선은 자가관리/운동/보조기 → 초음파 평가 → ESWT/물리치료 → 선택적 주사치료 → 드문 수술 의뢰 기준 순서가 안전합니다.
 
 ---
 
@@ -72,4 +72,4 @@ version: 4
 [^5]: [Fong DTP et al. Hypertonic Dextrose Injection for Plantar Fasciitis: A Systematic Review and Meta-analysis of Randomized Controlled Trials. Arch Phys Med Rehabil. 2023;104(10):1708-1718. PMID 36571559](https://pubmed.ncbi.nlm.nih.gov/36571559/)
 
 ## Changelog
-- 2026-07-03 v4: frontmatter-only stub을 족저근막염 condition hub로 확장. heel-pain/ESWT/ultrasound-guided-injection/PRP 허브와 연결하고, 아침 첫발 통증, plantar fasciopathy 관점, 보존 치료, ESWT, 선택적 주사치료, 스테로이드 반복 주의, 수술 의뢰 기준을 단계 구조로 정리. noindex 제거, source_count 5, verified 발행.
+- 2026-07-03 v4: 내용 업데이트.

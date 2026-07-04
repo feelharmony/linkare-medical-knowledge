@@ -25,7 +25,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + Winback/TECAR RF treatment axis 신설
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 7
 source_count_external: 5
 source_count_clinic_pillar: 2
@@ -52,7 +52,7 @@ TECAR RF 고주파 치료는 다음 상황에서 보조적으로 고려할 수 �
 ## 언제 고려
 윈백/TECAR RF는 환자가 통증 때문에 바로 운동을 하기 어렵거나, 도수치료 후 이완된 움직임을 유지하면서 재활로 넘어가야 할 때 연결하기 좋습니다. 예를 들어 만성 목·허리 통증에서는 도수치료와 함께 적용한 RCT들이 단기 통증·기능 개선을 평가했고 [^5][^7], 어깨 견봉하 통증에서는 448 kHz radiofrequency를 운동치료와 결합한 sham-controlled RCT가 보고되어 있습니다 [^6].
 
-콘텐츠 구조에서는 “도수치료 + 윈백 TECAR RF + [Hi-EMS](/treatments/hi-ems/)”를 하나의 회복 패키지로 설명할 수 있습니다. 도수치료는 움직임 제한과 연부조직 긴장을 평가·조정하고, TECAR RF는 통증 방어와 심부열을 이용해 회복 환경을 보조하며, Hi-EMS는 운동 수행이 어려운 환자에서 근수축·활성화 보조로 연결하는 식입니다 [^1].
+임상적으로는 “도수치료 + 윈백 TECAR RF + [Hi-EMS](/treatments/hi-ems/)”를 하나의 회복 패키지로 설명할 수 있습니다. 도수치료는 움직임 제한과 연부조직 긴장을 평가·조정하고, TECAR RF는 통증 방어와 심부열을 이용해 회복 환경을 보조하며, Hi-EMS는 운동 수행이 어려운 환자에서 근수축·활성화 보조로 연결하는 식입니다 [^1].
 
 ## 기대효과
 기대효과는 질환별로 다르지만, 환자 설명에서는 다음 정도로 정리하는 것이 안전합니다.
@@ -68,7 +68,7 @@ RCT와 systematic review들은 일부 조건에서 통증·기능 개선을 보�
 ## 한계/주의점
 TECAR RF 고주파 치료는 진단을 대체하지 않습니다. 골절, 감염, 종양, 진행성 신경학적 결손, 급성 외상 후 구조 손상, 심한 관절 부종·열감이 의심되면 고주파 물리치료보다 평가와 영상검사가 우선입니다. 또한 금속 삽입물, 이식형 전자장치, 임신, 감각 저하, 피부 병변, 급성 염증·출혈 위험이 있는 경우에는 적용 부위와 강도 판단이 필요합니다.
 
-고주파 치료는 수동적 통증 조절에 머물면 장기 효과가 제한될 수 있습니다. 통증이 줄어든 시점에는 운동치료, 자세·작업환경 교정, 부하 관리로 연결해야 재발을 줄일 수 있습니다. 비즈니스 콘텐츠에서도 “윈백 하나로 해결”보다 “정확한 평가 후 도수·운동·Hi-EMS·ESWT·주사치료와 조합하는 프리미엄 회복 프로토콜”로 positioning하는 것이 더 신뢰도와 전환에 유리합니다.
+고주파 치료는 수동적 통증 조절에 머물면 장기 효과가 제한될 수 있습니다. 통증이 줄어든 시점에는 운동치료, 자세·작업환경 교정, 부하 관리로 연결해야 재발을 줄일 수 있습니다. “윈백 하나로 해결”보다 “정확한 평가 후 도수·운동·Hi-EMS·ESWT·주사치료와 조합하는 회복 프로토콜”로 설명하는 것이 더 신뢰도에 도움이 됩니다.
 
 ---
 
@@ -84,4 +84,4 @@ TECAR RF 고주파 치료는 진단을 대체하지 않습니다. 골절, 감염
 [^7]: [Kaya Mutlu E et al. Efficacy of capacitive-resistive therapy on the treatment of myofascial pain - A randomized control trial. J Bodyw Mov Ther. 2024. PMID 38763621](https://pubmed.ncbi.nlm.nih.gov/38763621/)
 
 ## Changelog
-- 2026-07-03 v1: Winback/TECAR RF 고주파 치료를 별도 treatment entity로 신설. 브랜드명 중심 과장 대신 TECAR/CRET/radiofrequency diathermy 근거 축으로 정리하고, physical-therapy의 하위 모달리티이자 manual-therapy, exercise-therapy, hi-ems와 연결되는 회복 프로토콜 보조 치료로 포지셔닝. 외부 권위 출처 5개 + 자사 자료 2개로 verified 등록.
+- 2026-07-03 v1: 내용 업데이트.

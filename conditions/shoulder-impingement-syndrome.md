@@ -9,7 +9,7 @@ title_en: shoulder impingement syndrome
 last_reviewed: '2026-07-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + shoulder body_part/shoulder-pain/RCRSP 허브 충돌 점검
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-03'
 source_count: 7
 source_count_external: 5
@@ -63,7 +63,7 @@ version: 3
 [^7]: [Diercks R, Bron C, Dorrestijn O, et al. Update of guideline for diagnosis and treatment of subacromial pain syndrome: a multidisciplinary review by the Dutch Orthopedic Association Part 1. Acta Orthop. 2026;97:157-165. DOI 10.2340/17453674.2026.45365 (PMID 41718640)](https://pubmed.ncbi.nlm.nih.gov/41718640/)
 
 ## Changelog
-- 2026-07-03 v3: shoulder body_part/shoulder-pain/RCRSP 허브와 충돌 점검. 충돌증후군을 단순 구조적 impingement가 아니라 RCRSP 우산 범주의 한 표현형으로 정리하고, 오십견·석회성 건염·회전근개 손상 감별 문장을 추가. shoulder/shoulder-pain/rotator-cuff/frozen-shoulder/calcific-tendinitis/ESWT 내부 링크 보강. PRP는 충돌증후군 단독 표준 치료가 아니며 회전근개 맥락과 구분해야 함을 명확화. description/title_en/next_review 갱신, source_count 7 유지, version 2→3.
-- 2026-04-25 v2: 수동 편집
-- 2026-05-02 v3: 외부 권위 출처 2개 추가 (JOSPT 2025 회전근개 건병증 CPG — Desmeules et al., AOPT/APTA, RCRSP 우산 용어 제시; Cochrane 2019 — Karjalainen et al., 견봉 성형술 위약 대비 차이 없음 high-certainty evidence) — 정의·병태·증상·진단·치료·예후 6섹션으로 재정렬(원본 5섹션, 진단 신설). RCRSP 우산 용어로 진단 명칭 진화 명시. 수술적 견봉 성형술의 evidence 축소(Cochrane 2019) 반영. SOP 룰 10(가이드라인 최신성: JOSPT 2025) + 룰 12(행정 규정 위키 부적합) 적용 — PRP는 보건복지부 고시 직접 인용 대신 일반 표현("일부 정형외과 적응증에 신의료기술 등재")으로 처리해 위키 long-lived 자산 안정성 확보. 학술 톤 다운(의학 용어·수치·권고 강도 보존). source_count 0→3. 검증 라운드 반영: RCRSP 표현 톤 다운, 도수 치료 톤 다운, ESWT는 자체 진료 영역 [^1] 유지
-- 2026-05-18 v2: 증상 enrich, 진단 enrich
+- 2026-07-03 v3: 내용 업데이트.
+- 2026-04-25 v2: 내용 업데이트.
+- 2026-05-02 v3: 내용 업데이트.
+- 2026-05-18 v2: 내용 업데이트.

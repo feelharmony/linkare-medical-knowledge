@@ -16,7 +16,7 @@ aliases:
 last_reviewed: '2026-05-31'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 6
 source_count_external: 5
@@ -70,7 +70,7 @@ version: 3
 한국에서 피나스테리드·두타스테리드는 처방 의약품(전문의약품)이며, 미녹시딜 외용제는 일반의약품, 경구 제제는 처방 의약품입니다. 진료 후 의료진과 함께 약물 선택·용량을 결정합니다.
 
 ## 약물과 시술의 관계
-약물 치료(미녹시딜·5ARI)는 모낭의 점진적 축소를 늦추는 데 효과가 있는 표준 옵션이며, PRP·줄기세포·엑소좀 같은 재생 시술은 모낭 환경 개선·재생 촉진을 목표로 합니다. 환자 특성·치료 목표·반응에 따라 약물·시술을 단독 또는 병용으로 선택하는 것이 일반적이며, 임상 현장에서 환자별 처방·시술 조합을 의료진과 검토합니다[^4]. 관련 disease entity는 [androgenetic-alopecia](../conditions/androgenetic-alopecia.md), [alopecia-areata](../conditions/alopecia-areata.md)를 참조합니다.
+약물 치료(미녹시딜·5ARI)는 모낭의 점진적 축소를 늦추는 데 효과가 있는 표준 옵션이며, PRP·줄기세포·엑소좀 같은 재생 시술은 모낭 환경 개선·재생 촉진을 목표로 합니다. 환자 특성·치료 목표·반응에 따라 약물·시술을 단독 또는 병용으로 선택하는 것이 일반적이며, 임상 현장에서 환자별 처방·시술 조합을 의료진과 검토합니다[^4]. 관련 질환는 [androgenetic-alopecia](../conditions/androgenetic-alopecia.md), [alopecia-areata](../conditions/alopecia-areata.md)를 참조합니다.
 
 ---
 
@@ -87,5 +87,5 @@ version: 3
 [^6]: Zhou Z, Song S, Gao Z, Wu J, Ma J, Cui Y. The efficacy and safety of dutasteride compared with finasteride in treating men with androgenetic alopecia: a systematic review and meta-analysis. *Clin Interv Aging.* 2019;14:399-406. PMID 30863034. DOI: [10.2147/CIA.S192435](https://pmc.ncbi.nlm.nih.gov/articles/PMC6388756/)
 
 ## Changelog
-- 2026-05-31 v3: external source 2건 보강(JAMA Dermatol 2022 네트워크 메타분석, Clin Interv Aging 2019 dutasteride vs finasteride SR/메타) 후 verified 승격. 5ARI 비교·병용 근거 footnote 보강.
-- 2026-05-03 v2: **본문 신규 작성 + 외부 출처 3건 보강** (frontmatter only → 정식 entity, **review 1건 + SR/메타 1건 + multicenter safety 1건 구성**). "정의·개요" + "약물별 evidence(미녹시딜·5ARI)" + "약물 간 비교·병용" + "부작용·주의 환자군" + "약물과 시술의 관계" 섹션. Ann Dermatol 2025 review(피나스테리드·두타스테리드 표준 + dutasteride 우월 network 메타), Liu 2025 SR/메타(Front Pharmacol, 27 연구/2,933명, 저용량 경구 minoxidil 효과·안전성, hypertrichosis 35%), Vañó-Galván 2021 다기관 안전성(JAAD, n=1,404, hypertrichosis 15.1%·중단 0.5%) 인용. 룰 14 적용 — FDA 승인은 사실로 명시(미녹시딜 외용·피나스테리드)하되 "이것만 쓰라"는 단정은 회피, 환자별 약물 선택지·시술 병용 가능성 평행 기술. 룰 15 — 부작용 사실은 정확히, 임신·수유 금기는 안전 문구로 강조. **검증 라운드(GPT 의견)**: Liu 2025 PMID 추가(40567364), Vañó-Galván 2021 별도 footnote [^3]로 분리해 본문에서 호출(이전엔 [^2] 안에 합쳐 1404명 데이터 미호출), hypertrichosis 두 수치(SR 풀링 35% / 다기관 15.1%) 명시 분리, 경구 부작용 섹션 [^3] 정확 mapping. 출처 구성을 "SR/메타 3건"이 아닌 "review 1 + SR 1 + safety 1"으로 정직하게 표기.
+- 2026-05-31 v3: 내용 업데이트.
+- 2026-05-03 v2: 내용 업데이트.

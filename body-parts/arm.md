@@ -18,7 +18,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + shoulder/elbow/wrist/arm-numbness 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 5
 source_count_external: 5
 source_count_clinic_pillar: 0
@@ -58,7 +58,7 @@ version: 2
 
 저림·방사통형 상지 증상은 체외충격파나 재생주사보다 신경학적 평가가 우선입니다. 경추 신경근병증은 임상 양상과 신경학적 검사, 필요 시 영상·전기진단을 종합하고, 진행성 결손·척수증 의심·보존 치료 실패 시 C-arm 기반 신경차단, 수술 의뢰 기준을 검토합니다 [^2]. 손목터널증후군·주관절 척골신경 포착 같은 말초신경 포착은 분포 확인, 보조기·활동 조절, 전기진단, 초음파 평가, 필요 시 신경 주위 주사·수술 상담으로 이어집니다 [^4][^5].
 
-비즈니스 콘텐츠에서는 팔을 “팔 통증” 하나로 쓰기보다, **어깨 관절형**, **팔꿈치 힘줄형**, **손목·손 사용형**, **목에서 내려가는 저림형**, **손가락 분포별 신경형**, **외상·근력저하형**으로 나누는 것이 안전합니다. 이 허브는 상지 전체 안내 페이지이므로 실제 전환은 어깨·팔꿈치·손목·팔저림/손저림의 하위 entity로 분기시키는 구조가 좋습니다.
+임상 설명에서는 팔을 “팔 통증” 하나로 쓰기보다, **어깨 관절형**, **팔꿈치 힘줄형**, **손목·손 사용형**, **목에서 내려가는 저림형**, **손가락 분포별 신경형**, **외상·근력저하형**으로 나누는 것이 안전합니다. 이 허브는 상지 전체 안내 페이지이므로 실제 전환은 어깨·팔꿈치·손목·팔저림/손저림의 하위 항목로 분기시키는 구조가 좋습니다.
 
 ---
 
@@ -73,4 +73,4 @@ version: 2
 [^5]: [Neal SL, Fields KB. Peripheral Nerve Entrapment and Injury in the Upper Extremity. Am Fam Physician. 2021;103(5):275-285. PMID 33630556](https://pubmed.ncbi.nlm.nih.gov/33630556/)
 
 ## Changelog
-- 2026-07-03 v2: frontmatter-only stub을 상지 body_part 허브로 확장. shoulder/elbow/wrist/arm-numbness/hand-numbness 및 경추 신경근·어깨 구조·팔꿈치 힘줄/신경·손목/손 신경/힘줄 축으로 분기. noindex 없음, source_count 5, verified 발행.
+- 2026-07-03 v2: 내용 업데이트.

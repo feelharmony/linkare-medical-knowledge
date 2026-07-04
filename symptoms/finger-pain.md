@@ -17,7 +17,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + trigger-finger/hand-numbness/wrist 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 5
 source_count_external: 5
 source_count_clinic_pillar: 0
@@ -58,7 +58,7 @@ version: 2
 
 손가락 골관절염은 교육, 보조기, 운동, 국소 NSAIDs 같은 보존 치료가 중심이며, EULAR 2018 hand osteoarthritis 권고는 비약물·약물·수술 선택지를 단계적으로 제시합니다 [^4]. 외상성 통증은 고정·영상검사·전문 의뢰 기준을 먼저 정하고, 감염 의심은 항생제·절개 배농·수부외과 평가가 필요할 수 있습니다 [^1][^2]. 저림이 주증상이면 손가락 자체 치료보다 손목·팔꿈치·목 신경 평가가 우선입니다.
 
-비즈니스 콘텐츠에서는 손가락 통증을 “방아쇠처럼 걸리는 손가락”, “마디가 붓고 뻣뻣한 관절형”, “외상 후 펴지지 않는 손가락”, “빨갛게 붓는 감염형”, “저림 동반 신경형”으로 나누면 전환 동선이 안전합니다. 주사치료는 방아쇠수지·건초염형에서 핵심 옵션으로 연결하되, 감염·골절·힘줄 파열·진행성 신경 결손을 먼저 배제하는 구조가 필요합니다.
+임상 설명에서는 손가락 통증을 “방아쇠처럼 걸리는 손가락”, “마디가 붓고 뻣뻣한 관절형”, “외상 후 펴지지 않는 손가락”, “빨갛게 붓는 감염형”, “저림 동반 신경형”으로 나누면 진료 흐름이 안전합니다. 주사치료는 방아쇠수지·건초염형에서 핵심 옵션으로 연결하되, 감염·골절·힘줄 파열·진행성 신경 결손을 먼저 배제하는 구조가 필요합니다.
 
 ---
 
@@ -73,5 +73,5 @@ version: 2
 [^5]: [Huisstede BMA et al. Effectiveness of Conservative, Surgical, and Postsurgical Interventions for Trigger Finger, Dupuytren Disease, and De Quervain Disease: A Systematic Review. Arch Phys Med Rehabil. 2018;99(8):1635-1649.e21. PMID 28860097](https://pubmed.ncbi.nlm.nih.gov/28860097/)
 
 ## Changelog
-- 2026-07-03 v2: 손목/손 축 마무리. registry metadata와 정합화하고, 방아쇠수지·손목터널증후군·주관절 척골신경 포착·손 저림으로 이어지는 손가락 통증 분기 구조를 재검증.
-- 2026-07-03 v1: 신규 symptom entity 발행. trigger-finger/hand-numbness/wrist 허브와 정합화. 손가락 통증을 걸림·딸깍형, 관절 통증형, 외상/인대/힘줄 손상형, 감염형, 저림 동반 신경형으로 분기. 방아쇠수지·손목터널·척골신경 포착·감염성 굴곡건초염 레드플래그와 초음파 유도 주사/ESWT/PRP 선택지 경계를 반영. source_count 5, verified 발행.
+- 2026-07-03 v2: 내용 업데이트.
+- 2026-07-03 v1: 내용 업데이트.

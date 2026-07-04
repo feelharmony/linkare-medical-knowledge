@@ -16,7 +16,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + foot-pain/forefoot 통증 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 5
 source_count_external: 5
 source_count_clinic_pillar: 0
@@ -54,7 +54,7 @@ version: 2
 ## 예후
 가벼운 무지외반증은 신발 조정과 보조기, 발 관리로 통증을 줄이며 지낼 수 있습니다. 변형이 진행하거나 앞발 과부하가 커지면 통증 부위가 엄지 돌출부에서 둘째·셋째 중족골통, 발가락 변형으로 확장될 수 있습니다 [^1][^3].
 
-비즈니스 콘텐츠에서는 무지외반증을 “교정기만으로 뼈가 바로잡힌다”거나 “무조건 수술해야 한다”로 양극화하지 않는 것이 좋습니다. 통증클리닉 관점에서는 신발·보조기·발 기능 평가·앞발 통증 감별을 먼저 제공하고, 진행 변형·기능 제한·신발 착용 장애가 뚜렷한 경우 수부/족부 정형외과 수술 상담으로 연결하는 구조가 안전합니다.
+임상 설명에서는 무지외반증을 “교정기만으로 뼈가 바로잡힌다”거나 “무조건 수술해야 한다”로 양극화하지 않는 것이 좋습니다. 통증클리닉 관점에서는 신발·보조기·발 기능 평가·앞발 통증 감별을 먼저 제공하고, 진행 변형·기능 제한·신발 착용 장애가 뚜렷한 경우 수부/족부 정형외과 수술 상담으로 연결하는 구조가 안전합니다.
 
 ---
 
@@ -69,4 +69,4 @@ version: 2
 [^5]: [Hurn SE, et al. Adjusted Indirect and Mixed Comparisons of Conservative Treatments for Hallux Valgus: A Systematic Review and Network Meta-Analysis. Int J Environ Res Public Health. 2021;18(7):3841. PMID 33917568](https://pubmed.ncbi.nlm.nih.gov/33917568/)
 
 ## Changelog
-- 2026-07-03 v2: frontmatter-only stub을 무지외반증 condition hub로 확장. foot-pain/forefoot pain 흐름과 연결하고, 3차원 변형, 신발 마찰·앞발 과부하, 보존 치료의 현실적 목표, 수술 상담 기준을 정리. noindex 제거, source_count 5, verified 발행.
+- 2026-07-03 v2: 내용 업데이트.

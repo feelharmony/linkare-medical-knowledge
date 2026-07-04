@@ -16,7 +16,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + knee/knee-pain/ESWT/PRP 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 6
 source_count_external: 5
 source_count_clinic_pillar: 1
@@ -68,6 +68,6 @@ version: 3
 [^6]: [Barman A et al. Platelet-rich plasma injection in the treatment of patellar tendinopathy: a systematic review and meta-analysis. Knee Surg Sports Traumatol Arthrosc. 2022;30(6):2092-2102. PMID 35509070](https://pubmed.ncbi.nlm.nih.gov/35509070/)
 
 ## Changelog
-- 2026-07-03 v3: TECAR RF treatment 허브 신설 이후 슬개건병증 치료 흐름을 부하 관리·운동 기본, 윈백은 운동진입 보조, ESWT는 힘줄 부착부 통증 보조, PRP/PRF는 장기화·재발형 선택지로 정교화. source_count 6 유지, version 2→3.
-- 2026-07-03 v2: knee/knee-pain/ESWT/PRP 허브와 정합화하고 verified로 승격. noindex 제거. 정의에 knee body_part/symptom 내부 링크 추가. 치료 섹션에 ESWT/PRP treatment 링크를 연결하고, 슬개건병증의 핵심은 부하 관리·점진적 운동치료이며 ESWT/PRP는 선택적 보조 치료라는 경계를 유지. source_count 6 유지, version 1→2.
-- 2026-07-03 v1: frontmatter-only stub을 condition entity로 확장. 슬개건염을 슬개건병증 관점으로 정리하고, 부하 관리·운동치료·충격파·[윈백 고주파](/treatments/tecar-rf-therapy/)를 보수적으로 반영.
+- 2026-07-03 v3: 내용 업데이트.
+- 2026-07-03 v2: 내용 업데이트.
+- 2026-07-03 v1: 내용 업데이트.

@@ -18,7 +18,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + finger-pain/de-quervain/ultrasound 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 5
 source_count_external: 5
 source_count_clinic_pillar: 0
@@ -56,7 +56,7 @@ version: 2
 ## 예후
 많은 환자가 보존 치료와 국소 주사로 호전될 수 있지만, 당뇨병, 여러 손가락 침범, 오래 지속된 잠김, 반복 재발이 있으면 반응이 제한될 수 있습니다 [^1][^3]. 치료 후에도 반복적인 강한 쥐기 동작과 손 사용 패턴을 조정하지 않으면 재발할 수 있습니다.
 
-비즈니스 콘텐츠에서는 방아쇠수지를 “손가락 마디 관절염”과 혼동하지 않도록, 손바닥 쪽 A1 pulley 통증·딸깍거림·잠김을 전면에 두는 것이 좋습니다. 치료 동선은 활동 조절·보조기 → 초음파 평가/국소 주사 → 재발·잠김 지속 시 수술 의뢰 기준 순서가 안전합니다. PRP/PRF 재생주사는 방아쇠수지의 표준 1차 치료로 과장하지 말고, 현 단계에서는 건초염·힘줄병증 전반의 선택적 상담 영역으로만 다루는 것이 좋습니다.
+임상 설명에서는 방아쇠수지를 “손가락 마디 관절염”과 혼동하지 않도록, 손바닥 쪽 A1 pulley 통증·딸깍거림·잠김을 전면에 두는 것이 좋습니다. 치료 동선은 활동 조절·보조기 → 초음파 평가/국소 주사 → 재발·잠김 지속 시 수술 의뢰 기준 순서가 안전합니다. PRP/PRF 재생주사는 방아쇠수지의 표준 1차 치료로 과장하지 말고, 현 단계에서는 건초염·힘줄병증 전반의 선택적 상담 영역으로만 다루는 것이 좋습니다.
 
 ---
 
@@ -71,5 +71,5 @@ version: 2
 [^5]: [Huisstede BMA et al. Effectiveness of Conservative, Surgical, and Postsurgical Interventions for Trigger Finger, Dupuytren Disease, and De Quervain Disease: A Systematic Review. Arch Phys Med Rehabil. 2018;99(8):1635-1649.e21. PMID 28860097](https://pubmed.ncbi.nlm.nih.gov/28860097/)
 
 ## Changelog
-- 2026-07-03 v2: 손목/손 축 마무리. 병태 섹션에서 동반 가능 질환인 손목터널증후군·드퀘르벵 건초염을 canonical 내부 링크로 연결하고 registry metadata와 정합화.
-- 2026-07-03 v1: 신규 condition entity 발행. finger-pain/de-quervain/ultrasound-guided-injection 허브와 정합화. A1 pulley 협착, 손바닥 쪽 MCP 압통, 딸깍거림·잠김, 스테로이드 주사, 초음파 유도 주사, A1 pulley release 기준을 단계 치료로 정리. source_count 5, verified 발행.
+- 2026-07-03 v2: 내용 업데이트.
+- 2026-07-03 v1: 내용 업데이트.

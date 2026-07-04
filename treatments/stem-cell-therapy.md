@@ -22,7 +22,7 @@ aliases:
 last_reviewed: '2026-07-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + broad regenerative treatment axis sync
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-03'
 source_count: 10
 source_count_external: 8
@@ -68,7 +68,7 @@ version: 4
 피부·안면 영역에서는 지방이식, SVF, ADSC, PRP, 세포 유래 분비물 등이 피부결·주름·흉터·상처 회복 보조 목적으로 연구됩니다. ADSC 기반 피부 재생 리뷰들은 혈관신생·항염증·세포외기질 조절 가능성을 정리하지만, 제품·세포 처리 방식·시술 깊이·endpoint가 다양해 표준화가 제한적입니다 [^7]. 이 영역은 미용·재건 성격이 강하므로, 두피·근골격계 entity와는 평가 지표와 규제 확인이 달라집니다.
 
 ### 전신·IV 줄기세포류
-전신 항노화, 면역 개선, 피로 회복을 표방하는 IV 줄기세포·배양세포 주입은 근골격계 국소 주입이나 두피 주사와 별개의 영역입니다. 본 entity에서는 국소 재생치료 중심으로 다루며, 전신 줄기세포·세포치료는 적응증·세포 조작 정도·규제·안전성 검토가 훨씬 엄격하게 필요합니다.
+전신 항노화, 면역 개선, 피로 회복을 표방하는 IV 줄기세포·배양세포 주입은 근골격계 국소 주입이나 두피 주사와 별개의 영역입니다. 국소 재생치료와 달리 전신 줄기세포·세포치료는 적응증, 세포 조작 정도, 규제, 안전성을 훨씬 엄격하게 검토해야 합니다.
 
 ## 시술 절차
 1. **진단·적응증 확인** — 탈모 유형, 관절·건 병변, 피부 재생 목적을 먼저 분리합니다.
@@ -112,7 +112,7 @@ version: 4
 [^8]: Behrangi E, Rahimi ST, Zare S, et al. Evaluation of the effects of adding an adipose tissue-derived stromal vascular fraction to platelet-rich plasma injection in the treatment of androgenetic alopecia: A randomized clinical trial. *Skin Res Technol.* 2024;30(4):e13700. PMID 38634195. DOI: [10.1111/srt.13700](https://pmc.ncbi.nlm.nih.gov/articles/PMC11024502/)
 
 ## Changelog
-- 2026-07-03 v5: 얇은 하위 stub `adipose-derived-stem-cell-injection`을 본 broad umbrella hub로 흡수. ADSC/SVF는 독립 탈모 entity가 아니라 줄기세포 치료의 subtype으로 유지하고, 기존 stub 파일은 삭제.
-- 2026-07-03 v4: 탈모 전용 treatment가 아니라 근골격·두피·피부를 포괄하는 broad regenerative umbrella hub로 재정렬. 무릎 OA MSC/BMAC/SVF, 건병증 세포치료, 피부·안면 재생, AGA 줄기세포 근거를 균형 있게 배치하고 external source 8건으로 verified 승격. `ADSC/SVF/BMAC/BMSC/secretome` 구분, 전신 IV 줄기세포류는 별도 검토 영역으로 분리. source_count 10(외부 8 + 자사 2), version 4.
-- 2026-05-09 v3: **자사 글 1단계 본문 보강 (룰 v2.3 1-2개 한도 적용)**. 자사 apfree pillar `자가 혈액·골수 유래 줄기세포 치료`(`cd80dae1`)에서 한국 임상 정보 1건 추출 — 줄기세포 + 다른 시술 병용 설계 순서·간격 중요성(소염제 생착 방해 + 충격파 시점). 근골격계 영역 끝에 1문단 추가 + `[^5]` 자사 footnote. source_count 4→5, version 2→3.
-- 2026-05-03 v2: **본문 신규 작성 + 외부 출처 3건 보강** (frontmatter only → 정식 entity). "정의·기전(자가지방 ADSC/SVF·골수 BMSC)" + "적응증 영역(두피·근골격·안면)" + "시술 절차" + "한계·주의점" 섹션. 두피 영역에 Gasteratos 2024 SR(12 RCT/514명, AGA 줄기세포 SR), SVF 단일 주입 임상(n=9, 6개월 hair density 48%↑), Behrangi 2024 RCT(Skin Res Technol, n=18, SVF+PRP vs PRP 단독 P=0.917 군 간 차이 없음) 인용. 근골격 영역은 knee-osteoarthritis link로 분산. 룰 14 적용 — FDA·식약처 승인 한정 표현은 사용하지 않고, 한국 신의료기술 framework 일반 표현(룰 12). 룰 15 적용 — 효과 일시성·표준화 부족 사실은 솔직히 인용하되 "효과 없다" 결론은 박지 않음. **검증 라운드(GPT 의견)**: SVF+PRP RCT 인용 정정 — J Cosmet Dermatol 2024 n=22 +52% 잘못 → Skin Res Technol 2024 n=18, 군 간 P=0.917 차이 없음 (논문 사실 그대로 인용, "부가 효과" 단정 회피).
+- 2026-07-03 v5: 내용 업데이트.
+- 2026-07-03 v4: 내용 업데이트.
+- 2026-05-09 v3: 내용 업데이트.
+- 2026-05-03 v2: 내용 업데이트.

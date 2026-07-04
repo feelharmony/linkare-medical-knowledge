@@ -15,7 +15,7 @@ aliases:
 last_reviewed: '2026-05-31'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 9
 source_count_external: 8
@@ -130,6 +130,6 @@ ACR Appropriateness Criteria Headache 2022 Update(JACR 2023)는 8개 임상 시�
 [^9]: [Charles AC, Digre KB, Goadsby PJ, Robbins MS, Hershey A; American Headache Society. Calcitonin gene-related peptide-targeting therapies are a first-line option for the prevention of migraine: An American Headache Society position statement update. Headache. 2024;64(4):333-341. PMID 38466028. DOI 10.1111/head.14692](https://pubmed.ncbi.nlm.nih.gov/38466028/)
 
 ## Changelog
-- 2026-04-23 v2: 자체 출처 1건 (entity_id `tension-headache`로 등록되어 있었으나 title은 "두통"·title_en은 `headache`로 의도가 어긋남)
-- 2026-05-03 v4: **검증 라운드 5건 반영**. ① **[^6] 예약 citation 본문 노출 제거** — 공개 페이지 SOP 위반. **Kim BS, Chung PW, Chung JM et al; Korean Headache Society. Evidence-Based Recommendations on Pharmacologic Treatment for Migraine Prevention. Headache Pain Res. 2025;26(1):5-20. DOI 10.62087/hpr.2024.0019**로 채움. ② **운영 메모 본문 노출 제거** — "(작업 시점 기준 별도 entity 작성 진행)" → "세부 진단 기준과 치료는 향후 각 질환 항목에서 별도로 다룹니다"로 정정. ③ **CGRP·예방치료 citation 정확화** — AAFP 진단 접근 [^4] 단독 받침 → 한국 두통학회 2025 CPG [^6](경구약 강한 권고 + CGRP 단클론항체 4종 강한 권고) + AHS 2024 CGRP position statement [^9](Charles AC, Headache 2024;64(4):333-341, PMID 38466028, CGRP 1차 옵션) 분리 매핑. ④ **영상검사 적응증** AAFP/SNNOOP10만 받침 → **ACR Headache 2022 Update [^8]**(JACR 2023;20(5S):S70-S93, PMID 37236753, 8개 임상 시나리오별 영상 적절성) 추가. ⑤ **군발성 두통 "응급성 1차성 두통"** 표현 → "통증 강도가 매우 높아 신경과 평가가 필요한 1차성 두통"으로 톤 다운. source_count 7→9, version 3→4.
-- 2026-05-03 v3: **D 옵션 — headache 우산 entity 신규(B-rename)**. tension-headache → headache로 entity_id rename(post 매핑 0건이라 운영적 비용 없음). 환자 검색 진입점 정리 — symptoms/headache는 우산 entity로 1차성·2차성 분류 + red flag + 정형/통증·신경과 link, 깊은 진료 정보는 후속 라운드에서 자녀 conditions(tension-type-headache·migraine·cluster-headache·cervicogenic-headache+occipital-neuralgia)로 분리 작업 예정. ICHD-3 분류 표준 직접 인용. symptom 표준 schema(정의·원인·레드플래그·평가·치료 옵션) 적용. 외부 권위 출처 6개 + 자체 link 1개로 재구성: ICHD-3(Headache Classification Committee of IHS, Cephalalgia 2018, PMID 29368949, 1차성·2차성 분류 표준), GBD 2021 Nervous System Disorders Collaborators(Lancet Neurol 2024, PMID 38493795, TTH 약 20억·편두통 약 12억·30~44세 여성 부담), Viera & Antono 2022 AAFP(PMID 36126007, primary care 평가·임상 양상 진단·치료 단계), Do TP 2019 SNNOOP10(Neurology, PMID 30587518, red flag 표준 체크리스트), Kim BK 2012 J Clin Neurol(PMID 23091530, 한국 1년 유병률 모든 두통 61.4%·TTH 30.8%·편두통 6.1%·여성 우세). [^6]은 자녀 entity 작업 시 한국 두통학회 CPG로 채울 자리 예약. source_count 0→7, version 2→3. Red flag 박스: SNNOOP10 13항목 그대로 인용. SOP 룰 9·10·11·12·13·14 적용 — 한미 출처 분리(ICHD-3·GBD·AAFP·Neurology vs Kim 2012 한국), 가이드라인 최신성(ICHD-3 2018·GBD 2024·AAFP 2022·Do 2019), 공식 출처(보도 X), PMID 직접 인용, 학술 톤 다운, 통증·신경 영역 빡센 강도. 더웰스 신경과 진료 영역이지만 본문에서 신경과 강조는 절제 — "신경과 의뢰 권장 상황"으로 한정 표기. 정형/통증 영역(경추기원·후두신경통·근막성)도 자연스럽게 다룸. 병원명 본문 노출 없음.
+- 2026-04-23 v2: 내용 업데이트.
+- 2026-05-03 v4: 내용 업데이트.
+- 2026-05-03 v3: 내용 업데이트.

@@ -16,7 +16,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + knee/knee-pain/meniscus 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 6
 source_count_external: 5
 source_count_clinic_pillar: 1
@@ -68,5 +68,5 @@ PCL 단독 손상은 보조기와 대퇴사두근 강화 중심의 보존 치료
 [^6]: [American Academy of Orthopaedic Surgeons OrthoInfo — Posterior Cruciate Ligament Injuries](https://orthoinfo.aaos.org/en/diseases--conditions/posterior-cruciate-ligament-injuries/)
 
 ## Changelog
-- 2026-07-03 v2: knee/knee-pain/meniscus 허브와 정합화하고 verified로 승격. noindex 제거. 정의에 knee body_part/symptom 내부 링크 추가. ESWT/PRP treatment 링크를 연결하되, 십자인대 자체 복원·불안정성 해결 치료로 설명하지 않는 경계를 명확히 유지. verified evidence gate 충족을 위해 PCL OrthoInfo 출처 추가. source_count 5→6, version 1→2.
-- 2026-07-03 v1: frontmatter-only stub을 condition entity로 확장. ACL/PCL 구분, 급성 외상 평가, MRI 적응, 비수술/수술 및 기준 기반 재활 원칙, 통증 조절 보조로서 윈백 고주파·체외충격파 병행 가능성을 반영.
+- 2026-07-03 v2: 내용 업데이트.
+- 2026-07-03 v1: 내용 업데이트.

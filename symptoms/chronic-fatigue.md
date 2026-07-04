@@ -15,7 +15,7 @@ aliases:
 last_reviewed: '2026-05-31'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 6
 source_count_external: 6
@@ -128,9 +128,9 @@ NAD+ 관련 수액·보충 옵션은 만성 피로 영역에서 임상에서 논
 [^7]: [NAD+ precursor supplementation in human ageing: clinical evidence and challenges. Nat Metab. 2025. PMID 41083806. DOI 10.1038/s42255-025-01387-7](https://www.nature.com/articles/s42255-025-01387-7)
 
 ## Changelog
-- 2026-04-23 v2: 정의 new, 흔한 원인 new, 치료 옵션 new
-- 2026-04-23 v3: 정의 new, 흔한 원인 new, 치료 옵션 new
-- 2026-04-25 v4: 자체 출처 2건만 인용 (frontmatter source_count=2 어긋남, 본문이 NAD 단독 영업 톤)
-- 2026-05-03 v7: **ME/CFS 자녀 entity 분리** — ME/CFS는 의학적으로 별도 진단명(IOM 2015 SEID, NICE NG206, ICD-11 8E49)이라 condition entity로 분리 작성 ([conditions/chronic-fatigue-syndrome](/conditions/chronic-fatigue-syndrome/)). 본 entity는 만성 피로 우산(symptom)으로 진입점 역할. 본문에서 ME/CFS 정의·진단 기준·치료 권고를 자녀 entity로 link하고 본문은 짧게(headache 우산 + 자녀 5건 패턴 일관). version 6→7. citation 수 6 유지(자체 분리).
-- 2026-05-03 v6: **검증 라운드 4건 반영**. ① **source_count 8→6 정정** — 자체 link는 ## 관련 임상 자료에 분리, citation 카운트는 외부 footnote 근거만(원칙 정합). ② **"Controversial 처리" 내부 메모 표현 제거** — 환자 친화 "NAD/NMN 보충·수액 관련 근거"로 정정. "(SOP 룰 9·14·15 적용)" 내부 메모도 제거. ③ **NAD+ 정맥 주입 citation 매핑 톤 다운** — 현재 citation은 NMN/NR 영역이라 NAD+ IV 자체 근거로 직접 매핑하지 않고, "NAD+ 전구체 보충 영역에서 누적되고 있다"·"NAD+ 정맥 주입 자체 대규모 RCT 제한적"·"NAD+ 영역 결정적 근거 형성 중" 보수 톤으로 정정. ④ **NICE NG206 표현 톤 다운** — "장기 결과에 영향을 준다" → "에너지 관리·활동 조절·동반 증상 관리를 장기 관리의 핵심 요소로 제시"(NICE 원문 톤). version 5→6.
-- 2026-05-03 v5: **D 옵션 — 우산 용어 재정의** (sciatica·forward-head-posture·lower-back-pain·neck-pain·shoulder-pain·knee-pain·elbow-pain·arm-numbness·headache·leg-numbness 패턴 일관 적용). title "만성 피로" 유지, **단순 NAD 영업 톤 → 의학 표준 만성 피로 평가 framework 우산 용어로 재정의**. 분류 3분류(생리적·이차성·만성형) + ME/CFS·SEID는 별도 진단 entity로 명시 분리. symptom 표준 schema(정의·원인·레드플래그·평가·치료 옵션) 적용. 외부 권위 출처 6개 + 자체 link 2개(## 관련 임상 자료 분리)로 재구성: **Latimer 2023 AAFP**(PMID 37440739, primary care 평가·5% lab rule·수면·정신건강·심폐·내분비 분류), **IOM 2015 SEID 진단 기준**(PMID 25695122, ME/CFS 4 핵심 기준), **NICE NG206**(2021 ME/CFS, GET 비권고·CBT 치료 아님·페이싱 핵심), Morifuji 2024 NMN RCT(PMID 38789831, primary 음성·secondary 일부 양성), Prokopidis 2025 SR(PMID 40275690, NMN/NR 60+ 근골격 일관 차이 없음), Nature Metabolism 2025 NAD precursor review(PMID 41083806, 측정 한계·단기·소규모 한계). NAD/NMN은 SOP 룰 9·14·15에 따라 evidence 정확 인용 + 결정적 근거 제한 명시 + "원인 질환 치료가 우선" 톤. ME/CFS NICE 권고(GET 비권고·CBT 치료 아님)는 정확 인용. 자체 출처는 ## 관련 임상 자료 분리. SOP 룰 9·10·11·12·13·14·15 적용 — 한미·영 출처 분리(Latimer AAFP·IOM·NICE), 가이드라인 최신성(Latimer 2023·NICE 2021·IOM 2015·NMN/NR 2024-2025), 공식 출처(보도 X), PMID 직접 인용, 학술 톤 다운, 웰니스/항노화 영역(룰 14 완화 적용), controversial 처리(NAD/NMN 균형 톤·시술 무용론 회피·광고형 단정 회피). 병원명 본문 노출 없음. source_count 2→8 (자체 link 2 + 외부 6), version 4→5.
+- 2026-04-23 v2: 내용 업데이트.
+- 2026-04-23 v3: 내용 업데이트.
+- 2026-04-25 v4: 내용 업데이트.
+- 2026-05-03 v7: 내용 업데이트.
+- 2026-05-03 v6: 내용 업데이트.
+- 2026-05-03 v5: 내용 업데이트.

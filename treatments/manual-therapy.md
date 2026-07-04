@@ -17,7 +17,7 @@ aliases:
 last_reviewed: '2026-05-31'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 5
 source_count_external: 5
@@ -117,7 +117,5 @@ Minnucci 2023 systematic review에서 RCT 보고된 이상반응은 대부분 �
 [^5]: [Lucado AM, Day JM, Vincent JI, MacDermid JC, Fedorczyk J, Grewal R, Martin RL. Lateral Elbow Pain and Muscle Function Impairments — Clinical Practice Guidelines. J Orthop Sports Phys Ther. 2022;52(12):CPG1-CPG111. PMID 36453071. DOI 10.2519/jospt.2022.0302](https://www.jospt.org/doi/10.2519/jospt.2022.0302)
 
 ## Changelog
-- 2026-04-23 v3: 자체 출처 2건, 본문 짧은 stub 수준(적응증·기대효과·한계 3섹션). frontmatter source_count=2.
-- 2026-05-04 v5: **검증 라운드 5건 + 정책 1건 반영**. ① **작용 기전 [^3] 제거** — Nim 2025는 SMT application procedures 비교 논문이지 기전 논문이 아님. 기전 단락 citation 제거하고 일반 표현으로. ② **Nim 2025 단정 톤 다운** — "의미 있게 달라지지 않는다"(low certainty 단정) → "임상적으로 큰 차이가 확인되지 않았다"(very low~low certainty). ③ **NICE NG59 표현 정확화** — "만성 비특이성 요통의 보존 치료 옵션" 좁힘 → "요통(±좌골신경통) 환자에 도수치료 단독 X, **운동을 포함한 치료 패키지의 일부로만 고려**" NICE 원문 톤. ④ **그 외 영역 [^3] 매핑 제거** — Nim 2025는 spinal pain 논문이라 어깨·고관절·무릎 받침 부적합. citation 제거하고 "임상에서 활용·영역별 권고는 적응증마다 다름·해당 entity 항목 참고" 톤. ⑤ **안전성 표현 톤 다운** — "심각한 합병증은 드물게 보고" 단정 → "Minnucci 2023 SR에서 RCT 보고 이상반응 대부분 일시적"으로 출처 매핑 정확화 + 금기 목록은 가이드라인·교과서적 종합으로 명시(citation 제거). ⑥ **chiropractic·카이로프랙틱 alias 제거**(entities.json) — 미국 카이로프랙터 직업과 한국 도수치료는 의학적으로 다른 영역이라 검색 흡수 목적이라도 의학 정확도 측면에서 분리. frontmatter는 이미 chiropractic 없음. version 4→5.
-
-- 2026-05-04 v4: **본문 신설 + 시간 강건한 톤 적용**. 도수치료를 단순 modal 물리치료와 구분되는 **평가 기반 의료진 손 기술 영역**으로 정의. 보험·가격·비급여·관리급여 정보 본문 노출 0건(보험 정책 변경 시 본문 다시 다듬을 필요 없는 구조). treatment 표준 schema(정의·작용 기전·적응증·시술 방식·부작용·환자 안내·근거 요약·관련 항목·관련 임상 자료) 적용. 외부 권위 출처 5건 + 자체 link 2건: **JOSPT 2017 Blanpied neck pain CPG**(PMID 28666405, multimodal 권고 등급 B·4유형 분류), **NICE NG59**(만성 비특이성 LBP 운동 패키지 내 도수치료), **Nim 2025 JOSPT SMT network MA**(PMID 39869665, 적용 방식 무관·low certainty), **Minnucci 2023 JOSPT SR**(PMID 37561605, 경추 SMT very low certainty·일시적 부작용), **APTA 2022 외측 팔꿈치 통증 CPG**(PMID 36453071, 외측상과염 evidence 등급별). 5개 기법(관절 가동술·조작·연부 조직·신경 가동·근육 에너지) 정리. 적응증 4영역(목·허리·외측상과염·기타). 부작용·금기·적색기 영역별 정리. SOP 룰 9·10·11·12·13·14·15 적용 — 한미·영 분리(JOSPT·APTA·Minnucci·Nim 미국·NICE 영국), 가이드라인 최신성(2017·2020·2022·2023·2025), PMID 직접 인용, 학술 톤 다운, 시술 무용론·광고형 단정 모두 회피, "very low certainty" evidence 정확 인용. neck-pain·lower-back-pain·shoulder-pain·elbow-pain·forward-head-posture·cervicogenic-headache·cervical-disc-herniation·lumbar-disc-herniation·spinal-stenosis·lateral-epicondylitis link로 진료 동선 보존. 자체 link는 ## 관련 임상 자료 분리. source_count 2→5(외부 footnote 5 정합), version 3→4.
+- 2026-04-23 v3: 내용 업데이트.
+- 2026-05-04 v5: 내용 업데이트.

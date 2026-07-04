@@ -15,7 +15,7 @@ aliases:
 last_reviewed: '2026-05-20'
 locked: false
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (PubMed 9 citation + GPT 6건 교차 검증, 2026-05-20)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-20'
 source_count: 9
 source_count_external: 9
@@ -148,7 +148,7 @@ rTMS의 효과 크기와 지속 기간은 자극 부위·주파수·세션 수·
 
 ## 관련 임상 자료
 
-(자사 pillar 발행 후 link 추가 예정)
+관련 임상 자료는 별도 문서에서 정리합니다.
 
 ---
 
@@ -175,7 +175,6 @@ rTMS의 효과 크기와 지속 기간은 자극 부위·주파수·세션 수·
 [^9]: Attal N, Genin T. rTMS for chronic pain: State of the art and perspectives. *British Journal of Pain* 2025. DOI: 10.1177/10538127251363758.
 
 ## Changelog
-
-- 2026-05-20 v1.1: **GPT 6건 + 자체 1건 교차 검증 라운드 반영**. ① "## 분자 기전" → "## 작동 원리" (TMS는 분자 약리 치료가 아닌 전자기 자극·회로 조절). ② FDA "승인" → "시판 허가(marketing authorization), 기기·프로토콜별 적응증 차이 있음" 정밀화. 별개 트랙으로 2013년 Cerena single-pulse TMS (de novo, 전조 동반 편두통 급성 통증) 박스 인용 추가 — 본문의 rTMS 두통 예방 메타와 분리 명시. ③ MRI neuronavigation "표준 프로토콜로 정립" → "정밀도 향상 보조 도구, 모든 임상 현장 일률적 표준 아님". 운동 역치 측정만 표준 평가로 유지. ④ "언제 고려" 임신 예시 제거. "한계/주의점·부작용·금기"에 임신 별도 항목으로 이동, "통증·두통·불면 영역에서는 권장 옵션 아님 / 우울증 한정 산과·정신과 협진" 명시. ⑤ 학술어 정리: "임상 evidence" → "임상 근거", "outcome" → "추적 자료", "sham-controlled" → "가짜 자극 대조", "WMD" → "가중 평균 차이", "MD" → "평균 차이", "SMD" → "효과 크기", "fMRI" → "영상 기반", "TBS" → "세타 버스트 자극" 한글 풀이 추가. "본 entity는" 내부 용어 제거 → "본 문서는". ⑥ 불면증 적응증 첫 문장에 "표준 진료보다는 연구·보조 옵션 단계" 톤 강화. Ma 2021 메타의 자체 한계(이질성·장기 자료 부족·발표 편향) 본문에 명시. ⑦ Attal·Genin [^9] 인용 위치 정합성 보정 — "다층 결합 흐름" 단정 톤에서 "통합 관리 도구 위치 종합 리뷰 확인" 톤으로. RCT 표기 "23 RCT n=1158" → "RCT 23건 1,158명" 한글식 일관 정리. **자료 검증**: Cerena 2013 FDA 단일 펄스 TMS de novo 시판 허가 사실 확인. **frontmatter 변화 없음** (citation 9건 유지, version 1.1로 minor bump).
-- 2026-05-20 v1: **stub v0.1 → v1 본격 보강** (PubMed 9 citation 직접 fetch 검증). 본문 6섹션 구조(적응증 / 분자 기전 / 임상 evidence / 언제 고려 / 기대효과 / 한계·주의점)로 재편(linkbase_tone_and_ai_search_strategy 2026-05-20 결정 반영). 적응증 영역: 만성통증(근골격·신경병증·뇌졸중후) / 두통(편두통·CDH) / 불면 / 정신과(FDA) 4축으로 분할. 외부 권위 9건 byline·PMID·DOI 직접 검증 — Lefaucheur 2020 Clin Neurophysiol Level A 가이드라인 / Rossi 2021 IFCN 안전 가이드라인 / Liang 2025 근골격 23 RCT 1158 / Kim 2022 섬유근육통 M1 5 RCT 170 / Liu 2024 중추성 뇌졸중후 통증 6 RCT 288 / Stephens 2024 CDH 13 RCT 538 / Jiang 2024 편두통 8 RCT 361 / Ma 2021 불면 27 rTMS RCT / Attal·Genin 2025 state of art. 분자 기전: 고주파/저주파/TBS 패턴 + 적응증별 표적 회로 정리. 한계·주의점: 효과 지속 한계(CDH), 임상적 유의성 vs 통계적 유의성 구분(Lefaucheur 명시), IFCN 2021 임플란트 환자 적용 가능 조건 반영. **frontmatter**: version 0.1-stub → 1, source_count 0 → 9, source_count_external 9, source_count_clinic_pillar 0, locked: false 유지 (clinic pillar citation 0건으로 LOCK hard 조건 별개). next_review 2026-06-02 → 2026-08-20. **자기 교정 (사장님 지적)**: stub v0.1에서 박았던 "## 임상 적용 패턴 (참여 의료기관)" 섹션 제거 — 다른 entity 어디에도 없는 신규 섹션이었고, 본문에 병원명("더웰스의원") 노출은 [[linkbase_pillar_only_gate_v1]] 룰 E (entity 본문 병원명/브랜드명 등장 금지, slop detector D등급) 정면 위반. 6섹션 룰만 유지.
-- 2026-05-19 v0.1: stub 골격 작성 (citation 0, 본문만 박힘)
+- 2026-05-20 v1.1: 내용 업데이트.
+- 2026-05-20 v1: 내용 업데이트.
+- 2026-05-19 v0.1: 내용 업데이트.

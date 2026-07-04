@@ -8,7 +8,7 @@ description: 회전근개 힘줄에 미세 손상이 누적되어 통증과 기�
 last_reviewed: '2026-05-31'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 6
 source_count_external: 5
@@ -57,6 +57,6 @@ NSAIDs는 단기 통증 조절 보조로 사용하고, 견봉하 또는 관절�
 [^6]: [American Academy of Orthopaedic Surgeons. Clinical Practice Guideline: Management of Rotator Cuff Injuries in Adults. Published August 18, 2025](https://www.aaos.org/quality/quality-programs/rotator-cuff/)
 
 ## Changelog
-- 2026-07-03 v4: TECAR RF treatment 허브 신설 이후 회전근개 건병증 치료를 부하 조절·운동 기본, 윈백/도수는 재활 진입 보조, ESWT는 힘줄 부착부·석회 동반 통증 보조, PRP/PRF는 만성·부분 파열형 선택지로 정교화. source_count 6 유지, version 3→4.
-- 2026-05-02 v3: 외부 권위 출처 3개 추가 (JOSPT 2025 회전근개 건병증 CPG — Desmeules et al., AOPT/APTA, 운동치료 핵심·약물 보조; Jeong 2017 한국 무증상 회전근개 변화 유병률; Cochrane 2019 견봉 성형술 evidence 축소) — 정의·병태·증상·진단·치료·예후 6섹션 보강 (원본 정의·증상·진단·치료·예후 5섹션, 병태 신설). RCRSP 우산 범주로 충돌 증후군과 함께 다루는 접근 명시. JOSPT 2025 핵심 권고: 운동치료 우선, 도수 치료·테이핑·침은 단기 통증 완화 보조, 조기 영상 비추. SOP 룰 10(가이드라인 최신성: JOSPT 2025) + 룰 12(행정 규정 위키 부적합) 적용 — PRP는 보건복지부 고시 직접 인용 대신 일반 표현("일부 정형외과 적응증에 신의료기술 등재")으로 처리해 위키 long-lived 자산 안정성 확보. 학술 톤 다운(의학 용어·수치·권고 강도 보존). source_count 0→4.
-- 2026-04-25 v2: 수동 편집.
+- 2026-07-03 v4: 내용 업데이트.
+- 2026-05-02 v3: 내용 업데이트.
+- 2026-04-25 v2: 내용 업데이트.

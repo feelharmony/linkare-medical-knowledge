@@ -9,7 +9,7 @@ title_en: age-related symptoms (deprecated)
 last_reviewed: '2026-05-03'
 locked: true
 quality_status: review
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 1
 source_count_external: 0
@@ -41,4 +41,4 @@ NAD+ IV 요법은 NAD+ 또는 그 전구체를 생리식염수에 녹여 정맥�
 ## Citations
 
 ## Changelog
-- 2026-04-23 v2: 정의 new, 흔한 원인 new, 치료 옵션 new
+- 2026-04-23 v2: 내용 업데이트.

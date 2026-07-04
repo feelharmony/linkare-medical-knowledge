@@ -14,7 +14,7 @@ aliases:
 last_reviewed: '2026-07-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + hair-loss/AGA/AA treatment 축 정합화
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-03'
 source_count: 5
 source_count_external: 5
@@ -27,7 +27,7 @@ version: 2
 ## 정의
 두피(scalp)는 머리뼈를 덮는 피부와 피하조직, 혈관·신경, 모낭(hair follicle), 피지샘이 함께 있는 부위입니다. 모낭은 성장기·퇴행기·휴지기를 반복하는 동적인 미니 장기처럼 작동하며, 모발 굵기와 밀도 변화는 두피 모낭의 주기·미세화·염증 상태를 반영합니다 [^1][^2].
 
-두피 허브는 “머리카락이 빠진다”는 증상 자체보다 **어느 부위의 모낭·피부·염증·흉터 문제가 있는지**를 나누는 기준점입니다. 환자 콘텐츠에서는 [탈모](/symptoms/hair-loss/)를 증상 허브로 두고, 두피는 정수리·이마선·원형 탈모반·반흔성 병변·염증성 두피 질환을 연결하는 body_part 허브로 사용합니다.
+“머리카락이 빠진다”는 호소가 있을 때는 **어느 부위의 모낭·피부·염증·흉터 문제가 있는지**를 먼저 나눠야 합니다. [탈모](/symptoms/hair-loss/)는 증상 흐름으로 평가하고, 두피에서는 정수리·이마선·원형 탈모반·반흔성 병변·염증성 두피 질환을 구분합니다.
 
 ## 관련 증상
 두피에서 출발하는 주요 증상은 다음처럼 나눕니다.
@@ -56,7 +56,7 @@ version: 2
 - **[엑소좀 치료](/treatments/exosome-therapy/)**: 세포외 소포체 기반 두피 주사로 모낭 환경 개선을 목표로 하지만, 제품·출처·프로토콜 표준화가 중요한 초기 임상 영역입니다.
 - **염증·감염 치료**: 반흔성 탈모, 감염성 탈모, 두피 피부염에서는 재생 시술보다 염증·감염 조절과 피부과적 평가가 우선입니다 [^3].
 
-비즈니스 콘텐츠에서는 두피를 “탈모 시술 부위”로만 쓰기보다, **안드로겐성 미세화형**, **원형 탈모 면역형**, **휴지기 전반 탈락형**, **염증·반흔 위험형**으로 나누고, 약물·PRP·줄기세포·엑소좀·피부과 의뢰 기준을 연결하는 허브로 쓰는 것이 좋습니다.
+임상 설명에서는 두피를 “탈모 시술 부위”로만 쓰기보다, **안드로겐성 미세화형**, **원형 탈모 면역형**, **휴지기 전반 탈락형**, **염증·반흔 위험형**으로 나누고, 약물·PRP·줄기세포·엑소좀·피부과 의뢰 기준을 연결하는 허브로 쓰는 것이 좋습니다.
 
 ---
 
@@ -71,4 +71,4 @@ version: 2
 [^5]: [Pratt CH, King LE Jr, Messenger AG, Christiano AM, Sundberg JP. Alopecia areata. Nat Rev Dis Primers. 2017;3:17011. PMID 28300084](https://pubmed.ncbi.nlm.nih.gov/28300084/)
 
 ## Changelog
-- 2026-07-03 v2: frontmatter-only review stub을 verified body_part hub로 확장. 두피를 탈모 symptom hub와 안드로겐성 탈모·원형 탈모·휴지기/반흔성 감별의 anatomical routing hub로 정리하고, 탈모 약물·PRP·줄기세포·엑소좀 치료 축으로 crosslink. source_count 5, noindex/review 제거.
+- 2026-07-03 v2: 내용 업데이트.

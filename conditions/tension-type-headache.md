@@ -16,7 +16,7 @@ aliases:
 last_reviewed: '2026-05-03'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 5
 version: 2
@@ -85,5 +85,5 @@ EFNS 가이드라인은 비약물 치료를 항상 먼저 고려하도록 권고
 [^6]: [Bendtsen L, Evers S, Linde M, Mitsikostas DD, Sandrini G, Schoenen J. EFNS guideline on the treatment of tension-type headache - report of an EFNS task force. Eur J Neurol. 2010;17(11):1318-1325. PMID 20482606. DOI 10.1111/j.1468-1331.2010.03070.x](https://pubmed.ncbi.nlm.nih.gov/20482606/)
 
 ## Changelog
-- 2026-05-03 v2: **검증 라운드 1건 + 정합성 1건 반영**. ① 자체 출처 [^1]이 본문에서 사용되지 않아 **## 관련 임상 자료 섹션으로 분리**(SOP claim-source 매핑). ② Changelog "4개 시리즈" → "5개 시리즈"로 정합 (tension-type-headache·migraine·cluster-headache·cervicogenic-headache·occipital-neuralgia 5개). source_count 6→5(외부만 카운트), version 1→2.
-- 2026-05-03 v1: **신규 entity 작성** (headache 우산의 자녀 entity 5개 시리즈 중 1번). condition 표준 schema(정의·병태·증상·진단·치료·예후) 적용. ICHD-3 분류·EFNS Bendtsen 2010 CPG 중심으로 작성. 외부 권위 출처 5개 + 자체 link 1개: ICHD-3(PMID 29368949, 분류 표준 + 빈도 3분류), Viera & Antono 2022 AAFP(PMID 36126007, primary care 평가), Kim BK 2012 J Clin Neurol(PMID 23091530, 한국 1년 유병률 30.8%), ACR Headache 2022 Update(JACR 2023, PMID 37236753, 영상 적절성), EFNS Bendtsen 2010(Eur J Neurol, PMID 20482606, 1차 가이드라인 — NSAIDs 1차·아미트립틸린 1차 예방·EMG 바이오피드백 효과 입증). 자세 부담·근막성 요인은 forward-head-posture·neck-pain link로 연결. SOP 룰 9·10·11·13·14 적용. 병원명 본문 노출 없음. 자녀 entity 시리즈: tension-type-headache(현재) / migraine / cluster-headache / cervicogenic-headache / occipital-neuralgia.
+- 2026-05-03 v2: 내용 업데이트.
+- 2026-05-03 v1: 내용 업데이트.

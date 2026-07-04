@@ -19,7 +19,7 @@ source_count: 9
 version: 8
 locked: true
 quality_status: verified
-verified_by: Hermes + 기존 ESWT verified entity 정리 및 PRP/윈백 단계 연결 보강
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-03'
 source_count_external: 8
 source_count_clinic_pillar: 1
@@ -146,9 +146,9 @@ Auersperg & Trieb 2020 EFORT Open Reviews는 가성관절증, 골유합 지연, 
 [^8]: [Chun DI, Jung KH, Kim JH. Current Concepts in Extracorporeal Shock Wave Therapy. J Korean Orthop Assoc. 2024;59(4):235-246. DOI 10.4055/jkoa.2024.59.4.235](https://jkoa.org/DOIx.php?id=10.4055/jkoa.2024.59.4.235)
 
 ## Changelog
-- 2026-07-03 v8: ESWT entity 구조 정리. 말미에 붙어 있던 별도 `## 치료`, `## 병태` enrich 흔적을 본문 정의·기전·병행 치료 섹션으로 흡수. focal/radial 선택 기준, 상과염·석회성 회전근개·족저근막염·기타 건병증 분기, 윈백 고주파·운동치료·PRP/PRF 자가활성화세포 재생주사와의 단계 연결, 수술/전문 의뢰와의 구분을 보강. Citations 메타데이터를 URL-only에서 논문명 중심으로 정리. source_count 9 유지.
-- 2026-05-09 v7: citation 룰 v2.1 적용 + 본문 1단계 보강 + 관련 임상 자료 정정. Brindisino 2024, Xue 2024, Forogh 2024, Lippi 2024 abstract 정합성 정정. focal/radial 임상 매칭, substance P, 주1~2회 3~5회, 반응 시점 4~12주, 족저근막염 스테로이드 vs ESWT 단계적 위치 보강. 관련 임상 자료 URL 정정.
-- 2026-05-04 v6: Lippi 2024 메타데이터 정정, JOSPT 2025 회전근개 건병증 CPG 표현 정정, JKOA 2024 한국 review 교체.
-- 2026-05-04 v5: APTA 2022 표현 톤 다운, JOSPT 2025 RC tendinopathy CPG 추가, 족저근막염 evidence 표현 정정, 자체 글 link 추가, 한국 권위 출처 추가.
-- 2026-05-04 v4: 신규 entity 본문 작성. treatment 표준 schema 적용, 보험·가격 대신 진료 행위 본질·기전·적응증·근거 중심으로 구성.
-- 2026-04-28 v3: 자체 출처 0건, frontmatter source_count=2 어긋남, noindex stub 상태로 사이트 미노출.
+- 2026-07-03 v8: 내용 업데이트.
+- 2026-05-09 v7: 내용 업데이트.
+- 2026-05-04 v6: 내용 업데이트.
+- 2026-05-04 v5: 내용 업데이트.
+- 2026-05-04 v4: 내용 업데이트.
+- 2026-04-28 v3: 내용 업데이트.

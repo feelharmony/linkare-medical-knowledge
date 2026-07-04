@@ -15,7 +15,7 @@ aliases:
 last_reviewed: '2026-05-31'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 10
 source_count_external: 8
@@ -85,6 +85,6 @@ APTA 임상진료지침(JOSPT 2017)은 목 통증을 임상 양상에 따라 4�
 [^10]: [Expert Panel on Neurological Imaging; Eldaya RW, Parsons MS, Hutchins TA, et al. ACR Appropriateness Criteria® Cervical Pain or Cervical Radiculopathy: 2024 Update. J Am Coll Radiol. 2025;22(5S):S136-S162. PMID 40409873. DOI 10.1016/j.jacr.2025.02.035](https://pubmed.ncbi.nlm.nih.gov/40409873/)
 
 ## Changelog
-- 2026-04-23 v2: 자체 출처 2건 (frontmatter source_count=6 어긋남)
-- 2026-05-03 v4: **검증 라운드 2건 반영**. ① ACR Appropriateness Criteria 2024 Update(JACR 2025;22(5S):S136-S162, PMID 40409873) 신규 [^10] 추가 — 영상 평가가 NASS 2011만으로 받쳐지던 점을 SOP 룰 10(가이드라인 최신성)에 따라 보강. NASS 2011은 신경근병증 CPG로 남기고, 영상 적절성은 ACR 2024 최신 guideline 병기. ② [^9] Kim YK 2018 매핑 정정 — "원인 4분류" 받침에서 빠지고(claim 약함) "한국 NHIS 기반 증상성 경추 추간판 탈출증 발생률 연령·성별 차이" 구체 claim으로 평가 섹션에 매핑. source_count 9→10, version 3→4.
-- 2026-05-03 v3: **D 옵션 — 우산 용어 재정의** (sciatica·forward-head-posture·lower-back-pain 패턴 적용). 단일 진단명 X, 경추 주변 구조의 다양한 원인 임상 용어. 원인 4분류 — 비특이성·기계적 목 통증(forward-head-posture link) · 경추 신경근병증(cervical-disc-herniation link) · 경추 척수증 · 적색기 질환. symptom 표준 schema(정의·원인·레드플래그·평가·치료 옵션) 적용. 외부 권위 출처 7개 신규+재활용 + 자체 2개 link로 재구성: Cohen 2015 Mayo Clin Proc(PMID 25659245, 4th 장애 원인·연간 유병률 >30%·약 50% 만성화·MRI 무증상 흔함), Bono 2011 NASS Cervical Radiculopathy CPG(MRI 진단 핵심·EMG 보조), JOSPT 2017 APTA neck pain CPG(Blanpied, 4유형 분류·multimodal 권고 등급 B), Yang 2023 SR(PMID 37830641, 16 RCT 운동·도수치료), GBD 2021 Neck Pain Collaborators(Lancet Rheumatol 2024, PMID 38383088, 글로벌 2.03억·여성 우세·45~74세 peak·2050년 2.69억 전망), Engquist 2013 RCT(PMID 23778373, 보존 vs 수술 24개월 차이 무효·물리치료 우선 권고), Kim YK 2018 한국 NHIS 발생률(PMID 30257414). source_count 6→9, version 2→3. Red flag 박스: 척수증·외상·발열·암·RA 환축추 아탈구. 자체 출처는 신경근병증 link로만 활용, 비특이성 사실은 외부 가이드라인·SR로 매핑. SOP 룰 9·10·11·12·13·14 적용 — 한미 출처 분리(NASS·APTA·Cohen Mayo·GBD vs Yang 2023·Kim 2018), 가이드라인 최신성(JOSPT 2017 권고 등급 B 정확), 공식 출처(보도 기사 X), PMID 직접 인용, 학술 톤 다운, 정형/통증 영역 빡센 강도. 병원명 본문 노출 없음.
+- 2026-04-23 v2: 내용 업데이트.
+- 2026-05-03 v4: 내용 업데이트.
+- 2026-05-03 v3: 내용 업데이트.

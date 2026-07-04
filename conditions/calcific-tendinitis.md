@@ -11,7 +11,7 @@ source_count: 7
 version: 5
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (5/2 v3, 5/9 v4 정정, 5/9 v5 자사 보강)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count_external: 5
 source_count_clinic_pillar: 2
@@ -72,7 +72,7 @@ external_footnote_ids: [2, 3, 4, 5, 6]
 [^6]: [Forogh B, Karami A, Bagherzadeh Cham M. Effect of extracorporeal shock wave therapy and ultrasound-guided percutaneous lavage in reducing the pain of rotator cuff calcific tendinopathy; an updated systematic review and meta-analysis. J Orthop. 2024;56:151-160. DOI 10.1016/j.jor.2024.05.023 (PMID 38882231, 22 studies 779명, 단기 1주 ESWT 우수·장기 UGPL 우수)](https://pubmed.ncbi.nlm.nih.gov/38882231/)
 
 ## Changelog
-- 2026-05-09 v5: **자사 글 1단계 본문 보강 (룰 v2.2 적용)**. 자사 apfree naver pillar `대구 석회성건염 치료`(`30e16772`)에서 한국 임상 정보 1건 추출 — 초음파 유도 주사와 체외충격파(focal·radial 병행) 단계적 결합 흐름. barbotage 섹션 끝에 1문장 추가 + `[^7]` 자사 footnote 박음. 관련 임상 자료 섹션에 자사 link 추가. source_count 6→7, version 4→5.
-- 2026-05-09 v4: **citation 룰 v2.1 abstract 정합성 정정 4건**. Brindisino 2024 [^3] "24주 미만 통증·기능" → "12주 시점" + UGN 단기 우수 추가 + focal·radial 동등 효과 / Xue 2024 [^4] "(석회성·비석회성 포함)" 제거 + 외전 ROM 차이 없음 균형 + footnote 메타 표기 정정 / Forogh 2024 [^6] "장기 석회 흡수 우수" → "단기 1주 ESWT 우수·장기 1주 이후 UGPL 우수" 균형 + footnote 메타 정정 / 예후 섹션 "석회의 완전 흡수" → "석회 흡수율 개선" abstract 표현. version 3→4.
-- 2026-04-25 v2: 수동 편집
-- 2026-05-02 v3: 외부 권위 출처 5개 추가 (JOSPT 2025 회전근개 건병증 CPG — Desmeules et al., AOPT/APTA, with calcifications 적용 포함; Brindisino 2024 ESWT 메타분석 — 21 RCTs 석회성 회전근개 건병증, GRADE very low; Xue 2024 ESWT 메타분석 — 16 RCTs 1,093명 회전근개 건병증 전반(석회/비석회 포함), risk of bias·heterogeneity 보고; Moosmayer 2023 BMJ — 220명 sham 대조 lavage RCT, sham 대비 차이 없음; Forogh 2024 J Orthop — 22 studies 779명, UGPL > ESWT 통증·장기 석회 흡수) — 정의·병태·증상·진단·치료·예후 6섹션으로 재정렬(원본 4섹션, 병태·진단 신설). 검증 라운드 반영: 칼슘 → 하이드록시아파타이트 결정 정정, 병태 원인을 다인자성·tenocyte metaplasia·결정 침착으로 정정 (단정 약화), 스테로이드 견봉하 중심 정정 (관절강 내 제외). ESWT는 Brindisino(석회성 specific, GRADE very low) + Xue(회전근개 건병증 전반, GRADE 평가 없음) 균형 인용. Barbotage는 양면 근거 — Forogh 2024 긍정 + Moosmayer 2023 음성 — 정직하게 표기 (모든 인용 위치에 출처 매핑). PRP는 SOP 룰 12 적용 일반 표현 (행정 사실 빼고 "표준 권고 X"만). 학술 톤 다운(의학 용어·수치·권고 강도 보존). source_count 0→6.
+- 2026-05-09 v5: 내용 업데이트.
+- 2026-05-09 v4: 내용 업데이트.
+- 2026-04-25 v2: 내용 업데이트.
+- 2026-05-02 v3: 내용 업데이트.

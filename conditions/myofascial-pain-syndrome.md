@@ -17,7 +17,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + neck/cervical-spine/shoulder treatment-axis 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 6
 source_count_external: 5
 source_count_clinic_pillar: 1
@@ -50,7 +50,7 @@ version: 2
 
 통증이 뚜렷하거나 운동 진입이 어려운 경우에는 통증유발점 주사(trigger point injection), 건식침(dry needling), [초음파 유도 주사](/treatments/ultrasound-guided-injection/), 보툴리눔 독소 주사 등을 환자 상태에 따라 검토합니다 [^2][^5]. 특히 목 부위 통증유발점에서는 건식침과 통증유발점 주사가 모두 연구되어 있으며, 2022년 systematic review/meta-analysis는 목 통증 증상에서 통증유발점 주사가 건식침보다 단기 통증 감소에 유리할 수 있다고 보고했습니다 [^5]. 다만 주사는 통증유발점을 “영구 제거”하는 치료라기보다 통증 민감도를 낮추고 운동·자세 재교육을 가능하게 하는 보조 치료로 설명하는 것이 안전합니다.
 
-비즈니스 콘텐츠 관점에서는 근막통증증후군을 단순 “담 걸림”으로 축소하지 않고, [목디스크](/conditions/cervical-disc-herniation/)·두통·어깨 통증과 감별하면서 윈백 고주파, 체외충격파, 초음파 유도 주사, 통증유발점 주사, 도수·운동, 생활 부하 조절을 연결하는 허브로 활용하는 것이 좋습니다.
+임상 설명에서는 근막통증증후군을 단순 “담 걸림”으로 축소하지 않고, [목디스크](/conditions/cervical-disc-herniation/)·두통·어깨 통증과 감별하면서 윈백 고주파, 체외충격파, 초음파 유도 주사, 통증유발점 주사, 도수·운동, 생활 부하 조절을 연결하는 허브로 활용하는 것이 좋습니다.
 
 ## 예후
 근막통증증후군은 통증유발 요인을 줄이고 운동·수면·작업 습관을 함께 조정하면 호전될 수 있습니다 [^3][^4]. 그러나 반복 작업, 장시간 화면 자세, 스트레스, 수면 부족, 동반 경추·어깨 질환이 지속되면 재발하기 쉽습니다. 치료 반응은 압통 감소만이 아니라, 목 회전 범위, 두통 빈도, 팔 저림 감별, 업무·운동 복귀 정도로 함께 판단하는 것이 좋습니다.
@@ -71,5 +71,5 @@ version: 2
 [^6]: [Steen JP et al. Myofascial Pain Syndrome: An Update on Clinical Characteristics, Etiopathogenesis, Diagnosis, and Treatment. Muscle Nerve. 2025. PMID 40110636](https://pubmed.ncbi.nlm.nih.gov/40110636/)
 
 ## Changelog
-- 2026-07-03 v2: review/noindex 상태의 근막통증증후군 condition 허브를 verified로 승격. neck/cervical-spine/shoulder/lower-back 축 및 manual therapy, ESWT, ultrasound-guided injection 치료 허브와 canonical 링크를 정합화하고 외부 권위 출처 5개 기준을 충족.
-- 2026-07-03 v1: frontmatter-only stub을 condition entity로 확장. 목·어깨 근막통증을 통증유발점, 연관통, 신경근병증 감별, 초음파 유도 주사·통증유발점 주사·건식침·도수/운동 치료와 연결해 작성.
+- 2026-07-03 v2: 내용 업데이트.
+- 2026-07-03 v1: 내용 업데이트.

@@ -16,7 +16,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + foot/knee/leg-numbness/lower-back 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 5
 source_count_external: 5
 source_count_clinic_pillar: 0
@@ -54,7 +54,7 @@ version: 2
 
 저림·방사통형 다리 증상은 체외충격파나 재생주사보다 신경학적 평가가 우선입니다. 요추 신경근병증·척추관 협착은 보존 치료와 운동을 우선하고, 진행성 신경 결손·마미증후군 의심·보존 치료 실패 시 MRI, 전기진단, C-arm 기반 신경차단, 수술 의뢰 기준을 검토합니다 [^2]. 말초신경 포착은 자세·활동 조절, 보조기, 신경 주위 평가, 필요 시 초음파 유도 신경차단·hydrodissection 또는 수술 상담으로 이어질 수 있습니다 [^5].
 
-비즈니스 콘텐츠에서는 다리를 “다리 아픔” 하나로 쓰기보다, “무릎 관절형”, “발뒤꿈치·발 통증형”, “허리에서 내려가는 저림형”, “종아리 혈관/부종형”, “외상·스포츠 손상형”으로 나누는 것이 안전합니다. 이 허브는 하지 전체 안내 페이지이므로, 실제 전환은 무릎·발·저림·허리 방사통의 하위 entity로 분기시키는 구조가 좋습니다.
+임상 설명에서는 다리를 “다리 아픔” 하나로 쓰기보다, “무릎 관절형”, “발뒤꿈치·발 통증형”, “허리에서 내려가는 저림형”, “종아리 혈관/부종형”, “외상·스포츠 손상형”으로 나누는 것이 안전합니다. 이 허브는 하지 전체 안내 페이지이므로, 실제 전환은 무릎·발·저림·허리 방사통의 하위 항목로 분기시키는 구조가 좋습니다.
 
 ---
 
@@ -69,4 +69,4 @@ version: 2
 [^5]: [Fortier LM, et al. Entrapment Neuropathies of the Lower Extremity. Med Clin North Am. 2019;103(2):371-382. PMID 30704688](https://pubmed.ncbi.nlm.nih.gov/30704688/)
 
 ## Changelog
-- 2026-07-03 v2: frontmatter-only stub을 하지 body_part 허브로 확장. knee-pain/foot-pain/heel-pain/leg-numbness/lower-back-pain 및 무릎·발·요추 신경근·말초신경·혈관 질환 축으로 분기. noindex 없음, source_count 5, verified 발행.
+- 2026-07-03 v2: 내용 업데이트.

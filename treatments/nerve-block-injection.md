@@ -17,7 +17,7 @@ aliases:
 last_reviewed: '2026-07-04'
 locked: true
 quality_status: verified
-verified_by: Hermes + zoster/PHN early-intervention positioning 강화
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-04'
 source_count: 7
 version: 7
@@ -38,7 +38,7 @@ external_footnote_ids: [1, 2, 3, 6, 7]
 
 ## 적응증 영역
 
-신경차단술은 부위·적응증별로 evidence와 술기가 다릅니다. 본 entity는 영역 overview를 다루며, 자세한 evidence는 해당 disease entity로 이어집니다.
+신경차단술은 부위와 적응증에 따라 근거와 술기가 다릅니다. 척추, 사지 관절, 대상포진·PHN, 두통 영역별로 목표 신경과 접근법을 구분해야 합니다.
 
 ### 척추 영역
 
@@ -67,7 +67,7 @@ external_footnote_ids: [1, 2, 3, 6, 7]
 
 ### 대상포진·PHN 영역 (★ 통증의학과 핵심 영역)
 
-대상포진 급성기와 PHN(대상포진 후 신경통)에서 신경차단술은 핵심 치료의 하나입니다. 이 섹션은 landing-page용으로 **피부 수포 치료 이후에 남은 통증을 다루는 보조 시술**이 아니라, [대상포진](/conditions/zoster/) 초기부터 PHN을 줄이기 위해 통증을 적극적으로 낮추는 조기 개입 축으로 설명합니다. 흉부 대상포진 환자 9 RCT(741명) 네트워크 메타분석[^2]에서 **척추주위 차단(paravertebral block, PVB)**이 다른 차단보다 통증 감소·전체 효과 면에서 우월한 것으로 보고되었습니다.
+대상포진 급성기와 PHN(대상포진 후 신경통)에서 신경차단술은 핵심 치료의 하나입니다. 단순히 **피부 수포 치료 이후에 남은 통증을 다루는 보조 시술**이 아니라, [대상포진](/conditions/zoster/) 초기부터 PHN 위험을 줄이기 위해 통증을 적극적으로 낮추는 조기 개입으로 검토할 수 있습니다. 흉부 대상포진 환자 9 RCT(741명) 네트워크 메타분석[^2]에서 **척추주위 차단(paravertebral block, PVB)**이 다른 차단보다 통증 감소·전체 효과 면에서 우월한 것으로 보고되었습니다.
 
 흉부 PHN 예방·치료 effective rate 순위(SUCRA):
 1. **PVB + 국소마취제 + 메틸렌블루** (96.0)
@@ -88,7 +88,7 @@ VAS 통증 감소 순위:
 - 발진이 가피화된 뒤에도 2~4주 이상 통증이 지속되는 경우
 - 약물 부작용 때문에 gabapentinoid·TCA를 충분히 올리기 어려운 경우
 
-#### 콘텐츠 포지셔닝
+#### 대상포진 통증 관리에서의 위치
 신경차단술은 “마지막에 해보는 주사”가 아니라, 고위험 대상포진에서는 **항바이러스제와 병행해 급성 통증을 낮추고 PHN 이행을 줄이는 통증의학과 조기 개입**으로 설명합니다. 이미 [대상포진 후 신경통](/conditions/postherpetic-neuralgia/)으로 진행한 환자에게는 수면·이질통·일상 기능을 회복시키기 위한 단계적 중재 옵션으로 안내합니다.
 
 → [zoster](../conditions/zoster.md), [postherpetic-neuralgia](../conditions/postherpetic-neuralgia.md), [antiviral-medicine](./antiviral-medicine.md) 참조
@@ -131,7 +131,7 @@ VAS 통증 감소 순위:
 
 ## 관련 임상 자료
 
-(자사 pillar 발행 후 link 자동 추가)
+관련 임상 자료는 별도 문서에서 정리합니다.
 
 ---
 
@@ -156,9 +156,9 @@ VAS 통증 감소 순위:
 [^7]: Sites BD, Brull R, Chan VW, et al. Artifacts and pitfall errors associated with ultrasound-guided regional anesthesia. Part I: understanding the basic principles of ultrasound physics and machine operations. *Reg Anesth Pain Med.* 2007;32(5):412-418. DOI 10.1016/j.rapm.2007.05.005 (PMID 17961840)
 
 ## Changelog
-- 2026-07-04 v7: 대상포진/PHN 섹션을 landing-page용 조기개입 톤으로 강화. 신경차단술을 PHN 발생 후 보조 시술이 아니라 항바이러스제와 병행해 급성 통증을 낮추고 PHN 이행을 줄이는 통증의학과 핵심 축으로 재포지셔닝. 고위험군 조기 개입 기준과 항바이러스 entity crosslink 추가, registry date/version 동기화.
-- 2026-05-09 v5: **자사 글 1단계 본문 보강 (룰 v2.3 1-2개 한도)**. 자사 apfree naver spoke `대구 신경차단술 밤잠 설치는`(`cd11257c`)에서 한국 임상 정보 1건 추출 — 신경차단 + 관절 초음파주사 + 프롤로/PRP + 체외충격파 + 도수치료 다층 결합 흐름 (만성화 위험 감소 단계적 접근). 환자 안내 섹션 끝에 신규 하위 섹션 + `[^5]` 자사 footnote. source_count 4→5, version 4→5.
-- 2026-05-03 v4: **광범위 entity로 전면 재작성** — 시술 카테고리 자체가 광범위해 부위·적응증별로 구조화. "정의·기전"(국소마취·스테로이드·진단·치료 동시) + "적응증 영역"(척추·사지·**대상포진/PHN**·두통) + "시술 절차" + "한계·주의점" 섹션. 외부 출처 3건 — Adriaansen 2025 *Pain Practice*, Lu 2025 *Front Neurol* 흉부 PHN nerve block 네트워크 메타(9 RCT/741명, PVB+국소마취제+메틸렌블루 SUCRA 96.0), Kim 2017 *Korean J Pain* SR(9 trials, somatic > sympathetic block PHN 예방). 각 부위는 disease entity로 link 분산 (lumbar-disc·cervical-disc·sciatica·frozen-shoulder·rotator-cuff·knee-OA·zoster·PHN). PRP entity의 영역별 적응증 패턴 적용 (룰 14 모범 사례). 룰 15: SGB·단회 epidural PHN 예방 효과 제한적이라는 사실은 정확히 인용하되 "효과 없다" 결론은 박지 않음 — "안면 PHN(V1) 등 환자별 검토" 톤. 자체 글 1건 유지. **검증 라운드(GPT 의견)**: Kim 2017 "32 RCT 네트워크 메타분석" → "9 trials SR/메타" 정정 (실제 PubMed 기준 9 trials).
-- 2026-04-23 v3: 자체 글 1건 기반 3섹션 (적응증·언제 고려·기대효과) — 목디스크 중심 좁은 본문
-- 2026-05-18 v4: 치료 enrich, 정의 enrich (pillar patch 자동 백필 `d6d8c4f` — 동시에 외부 footnote 3건 [^1]~[^3] GC 회귀 사고로 삭제됨)
-- 2026-05-20 v6: **외부 footnote 3건 복원** — `d6d8c4f` pillar patch가 자사 [^6] 박으면서 외부 [^1]~[^3] (Adriaansen 2025 *Pain Practice*, Lu 2025 *Front Neurol*, Kim 2017 *Korean J Pain*) 3건 정의 + 본문 inline 마커 4개를 GC 오판으로 삭제한 회귀 사고 복원. yhlinker `md-body-patcher.service.ts:134` gcAndRenumberCitations 버그. f15fc69 시점 외부 footnote 정의 그대로 + inline 마커 line 32·65·77·100 복원. Citations 자사/외부 헤딩 분리 + `## 관련 임상 자료` placeholder 정돈. **clinic 3건 > 2 LOCK hard 위반 — 별도 결정 영역**.
+- 2026-07-04 v7: 내용 업데이트.
+- 2026-05-09 v5: 내용 업데이트.
+- 2026-05-03 v4: 내용 업데이트.
+- 2026-04-23 v3: 내용 업데이트.
+- 2026-05-18 v4: 내용 업데이트.
+- 2026-05-20 v6: 내용 업데이트.

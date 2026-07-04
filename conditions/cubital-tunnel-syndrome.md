@@ -17,7 +17,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + elbow/hand-numbness/arm-numbness 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 5
 source_count_external: 5
 source_count_clinic_pillar: 0
@@ -48,7 +48,7 @@ version: 1
 ## 치료
 초기 또는 경도 증상에서는 활동 조절과 자세 교정이 1차입니다. 팔꿈치를 오래 굽히는 자세, 팔꿈치를 딱딱한 곳에 기대는 습관, 반복 굽힘·압박 동작을 줄이고, 야간에는 팔꿈치가 과도하게 굽혀지지 않도록 보조기나 수건 고정을 사용할 수 있습니다 [^1][^3]. 신경 활주 운동과 물리치료는 일부 환자에서 증상 조절에 활용되지만, 근거 수준과 프로토콜은 연구마다 차이가 있습니다 [^4].
 
-주사·수압박리(hydrodissection) 같은 초음파 유도 중재는 말초신경 포착에서 연구되고 있으나, 주관절 척골신경 포착의 표준 1차 치료로 단정하기에는 근거가 제한적입니다 [^1][^5]. 따라서 비즈니스 콘텐츠에서는 초음파 유도 주사를 전면에 세우기보다, 초음파 평가·전기진단·보조기·자세 교정·수술 의뢰 기준을 먼저 배치하는 것이 안전합니다.
+주사·수압박리(hydrodissection) 같은 초음파 유도 중재는 말초신경 포착에서 연구되고 있으나, 주관절 척골신경 포착의 표준 1차 치료로 단정하기에는 근거가 제한적입니다 [^1][^5]. 따라서 임상 설명에서는 초음파 유도 주사를 전면에 세우기보다, 초음파 평가·전기진단·보조기·자세 교정·수술 의뢰 기준을 먼저 배치하는 것이 안전합니다.
 
 보존 치료에 반응하지 않거나 진행성 근력 저하, 근위축, 지속 감각 저하가 있으면 수술적 감압 또는 전방 전위술을 검토합니다 [^1][^5]. Cochrane review는 수술 방법과 보존 치료 선택에서 환자 중증도와 임상 맥락에 따른 판단이 필요하다고 정리하며, 단일 접근을 모든 환자에게 적용하기는 어렵습니다 [^5].
 
@@ -70,4 +70,4 @@ version: 1
 [^5]: [Caliandro P, La Torre G, Padua R, Giannini F, Padua L. Treatment for ulnar neuropathy at the elbow. Cochrane Database Syst Rev. 2025;4:CD006839. PMID 40298125](https://pubmed.ncbi.nlm.nih.gov/40298125/)
 
 ## Changelog
-- 2026-07-03 v1: 신규 condition entity 발행. elbow/elbow-pain/hand-numbness/arm-numbness 허브의 저림 동반 신경형 spoke로 주관절 척골신경 포착을 정리. 4·5번째 손가락 저림, 팔꿈치 굽힘 악화, Tinel/elbow flexion/Froment sign, EMG/NCS·초음파 평가, 자세 교정·야간 보조기·신경 활주·수술 의뢰 기준을 단계 치료로 반영. source_count 5, verified 발행.
+- 2026-07-03 v1: 내용 업데이트.

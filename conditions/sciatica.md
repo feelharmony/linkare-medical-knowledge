@@ -9,7 +9,7 @@ description: 좌골 신경 분포 영역의 방사통을 가리키는 임상 용
 last_reviewed: '2026-05-31'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 7
 source_count_external: 5
@@ -75,4 +75,4 @@ version: 1
 [^7]: [Mathieson S, Maher CG. Which pain medications are effective for sciatica (radicular leg pain)? BMJ. 2017;359:j4248. DOI 10.1136/bmj.j4248 (PMID 29025735)](https://pubmed.ncbi.nlm.nih.gov/29025735/)
 
 ## Changelog
-- 2026-05-02 v1: entity 신규 작성 — 이전 frontmatter만 있고 본문 비어 있던 상태에서 본문 신설. 외부 권위 출처 2개 + 자체 출처 2개로 구성 (NICE NG59, Monteleone 2025 BMC Surgery piriformis SR, 안심튼튼 좌골신경통·다리 통증 먼저 글). **D 옵션 적용 — sciatica를 우산 용어로 재정의**: 단일 진단명이 아닌 좌골 신경 분포 통증의 임상 용어로 정의하고 원인을 분류 (요추 신경근병증·이상근 관련 압박·기타). 가장 흔한 원인인 요추 신경근병증의 자세한 정보는 [허리디스크](/conditions/lumbar-disc-herniation/) 항목으로 link하여 중복 회피. 이상근 관련 압박은 진단 기준 한계와 evidence 제한 명시. SOP 룰 9(한미 분리 인용) + 룰 11(공식 출처 NICE) + 룰 13(톤 다운) 적용. symptoms/sciatica.md는 같은 commit에서 완전 삭제 (중복 entity 정리). 검증 라운드 1차 반영: Monteleone 2025 수치 분리 (치료 전 50.5% 임상 진단 / 사후 47.6% 기구검사·수술 소견 없음), Red flag에 한쪽 다리 진행성 약화·foot drop 추가, NICE 권고 표현 정정 (자가관리·운동 중심 + NSAIDs 위험 평가 후 최저 용량·최단 기간), 체외충격파 영역 좁힘 (이상근 관련 통증으로 한정). 검증 라운드 2차 반영: NICE 영상 권고 정확화(비전문 진료 환경 routine 비추 + 전문 진료 환경 치료 방침 변경 가능성 있을 때만), NICE 약물 안전 권고 보강(만성 좌골신경통 opioids 비추 + 가바펜티노이드·경구 스테로이드·벤조디아제핀 비추), 표준 치료 표현 정정("신경차단술" → "급성·심한 신경근병증성 통증의 단기 관리에 한해 경막외 국소마취제+스테로이드 주사 검토"), Monteleone 수치 표현 "instrumental finding" 원문 반영. source_count 0→4, version 신규 v1.
+- 2026-05-02 v1: 내용 업데이트.

@@ -16,7 +16,7 @@ source_count: 6
 version: 6
 locked: true
 quality_status: verified
-verified_by: Hermes + elbow-pain/ESWT/PRP 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-03'
 source_count_external: 6
 source_count_clinic_pillar: 0
@@ -126,9 +126,9 @@ external_footnote_ids: [1, 2, 3, 4, 5, 6]
 [^6]: [See ZH, Loo CE, Jaafar Z. Eccentric exercise therapy for medial epicondylitis: A systematic review of clinical outcomes. *Complement Ther Med.* 2026 Jun. PMID 41887339](https://pubmed.ncbi.nlm.nih.gov/41887339/) — 내측상과염 specific SR. 편심성 운동이 통증·기능 개선의 핵심 옵션임을 정리
 
 ## Changelog
-- 2026-07-03 v6: TECAR RF treatment 허브 신설 이후 내측상과염 단계 치료에서 윈백은 운동진입 보조, ESWT는 힘줄 부착부 통증 조절 보조, PRP/PRF는 3개월 이상 보존치료 불응 시 선택지로 역할을 분리. source_count 6 유지, version 5→6.
-- 2026-07-03 v5: 신규 cubital-tunnel-syndrome condition spoke와 정합화. 내측상과염에서 새끼손가락·약지 저림이 동반될 때 주관절 척골신경 포착을 감별하도록 내부 링크를 연결하고, 힘줄병증 치료와 신경 평가의 분기점을 명확화. source_count 6 유지, version 4→5.
-- 2026-07-03 v4: elbow-pain, ESWT, PRP 허브와 정합화. 정의에서 팔꿈치 body_part와 외측상과염 링크를 추가하고, 치료 섹션에 단계 치료 구조(진단·부하 확인→척골신경 동반 평가→활동 조절·보조기→운동·도수→윈백/ESWT/단회 스테로이드→PRP/PRF 검토)를 보강. relative markdown 링크를 site permalink 링크로 정리. source_count 6 유지, version 3→4.
-- 2026-05-20 v3: **자사 footnote 제거** — 자사 thewellsr 글 `[^1]` 출처 정의 + 본문 모든 `[^1]` 인용 삭제. pillar-patch 백필 흐름(`/Users/jin/Documents/workspace/yhlinker/backend/src/knowledge/services/pillar-patch-proposer.service.ts`)이 자사 글 ID `2aa04e20`의 anchor `[treatment, prognosis]` 자리에 LLM 패치로 자사 footnote 박을 자리 비워둠. 자사 글에서 흡수한 한국 임상 톤(악수·장바구니·김치 담그기, "팔 안쪽 라인 전체가 무겁다", 절대 빈도 표현 등) 중 외부 PMID로 받칠 수 없는 디테일도 함께 제거. 외부 권위 출처 6건만으로 정리. footnote 번호 재배열 ([^2]→[^1], [^3]→[^2], [^4]→[^3], [^5]→[^4], [^6]→[^5], [^7]→[^6]). 관련 임상 자료 섹션 제거. source_count 7→6, version 2→3.
-- 2026-05-20 v2: **SOP 검토 4건 반영**. ① PRP 보건복지부 고시 끝 각주 `[^4]` → `[^6]` 정정 — 출처 매핑 오류 수정. ② `[^4]` 외측상과염 SR(Landesa-Piñeiro 2022)을 **내측상과염 전용 StatPearls NBK430685 (Buchanan & Varacallo)** 로 교체 — claim-source mapping 강화. 운동 파트는 `[^7] See 2026 BJSM 내측상과염 편심운동 SR (PMID 41887339)` 신규 추가. ③ 진단 톤 다운 — "이학적 검사만으로 확정하기보다 영상검사로…" → **"주로 임상 진단, 영상은 감별·손상 범위·보존 치료 불응·운동선수 평가 시 보조"** 로 정정 (`[^4]` StatPearls 표준 인용). ④ 본문 미호출이던 `[^6]` 보건복지부 고시를 PRP 문단에 정상 호출. 추가 정합: 수술·자한정적 경과·증상·감별진단의 표준 출처를 자사 글 `[^1]`만 의지하지 않고 StatPearls `[^4]`를 보강 인용. source_count 6→7, version 1→2.
-- 2026-05-20 v1: **신규 entity 발행** — 빈 스텁(frontmatter only, robots:noindex)에서 풀스펙으로 1차 발행. 자사 글(thewellsr.kr `golfers-elbow-medial-epicondylitis`, blog_contents id `2aa04e20-2bdc-4539-b24d-c74917bbb83f`)을 본문 골격으로 사용 — 자사가 인용한 PMID 3건(Millar 2021 Nat Rev DP, Landesa-Piñeiro 2022 J Back Musculoskelet Rehabil, Pavlova 2023 BJSM)을 1차 출처로 [^2][^3][^4] 매핑. PRP는 외측상과염 entity와 동일한 외부 권위 출처 2건(NECA 2026 상과염 재평가, 보건복지부 고시 제2023-60호 — 내·외 둘 다 적용) [^5][^6] 추가. SOP 6섹션(정의/병태/증상/진단/치료/예후) + 위험요인 병태 하위·감별진단 진단 하위 구조 — lateral-epicondylitis v5 패턴 일치. 자사 글의 "단순 염증이 아니라 힘줄병증" 프레임을 본문 메시지로 그대로 인용. source_count 0→6, robots:noindex 제거(frontmatter에서 삭제 — entity-hub layout 기본값 검색노출).
+- 2026-07-03 v6: 내용 업데이트.
+- 2026-07-03 v5: 내용 업데이트.
+- 2026-07-03 v4: 내용 업데이트.
+- 2026-05-20 v3: 내용 업데이트.
+- 2026-05-20 v2: 내용 업데이트.
+- 2026-05-20 v1: 내용 업데이트.

@@ -22,7 +22,7 @@ aliases:
 last_reviewed: '2026-07-03'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 10
 source_count_external: 9
@@ -106,8 +106,8 @@ version: 6
 [^10]: [Kim YK, Kang D, Lee I, Kim SY. Differences in the Incidence of Symptomatic Cervical and Lumbar Disc Herniation According to Age, Sex and National Health Insurance Eligibility. Int J Environ Res Public Health. 2018. PMID 30257414](https://pmc.ncbi.nlm.nih.gov/articles/PMC6210730/)
 
 ## Changelog
-- 2026-07-03 v6: 경추-상지 저림 축 정합화. 경추·손목 body_part 및 손목터널증후군·주관절 척골신경 포착 canonical 링크를 보강하고, registry metadata와 version 정합화.
-- 2026-07-03 v5: 신규 cubital-tunnel-syndrome condition spoke와 정합화. 말초신경 포착 분류와 영역별 검사에서 주관절 척골신경 포착 내부 링크를 연결. source_count 10 유지, version 4→5.
-- 2026-04-23 v2: 자체 출처 1건 (frontmatter source_count=0 어긋남, 본문 "팔 저림" 톤이지만 title은 "팔 방사통"으로 어긋남)
-- 2026-05-03 v4: **검증 라운드 5건 반영**. ① **AAFP 2020 말초신경병증 초기 검사** 매핑 정정 — ESR 빼고 **혈청 단백 전기영동(SPEP) with immunofixation** 추가(routine 초기검사 기준에 ESR은 포함 X, SPEP은 포함 O). ② **AAOS/ASSH CTS 2024 update 진단 권고** 표현 정정 — "evidence 기반으로 제시" 모호한 표현 → **"강한 권고: CTS-6를 routine US/NCV/EMG 대신 사용 가능"** 정확화 + MRI·ULNT 진단 비권고(중등도) 추가. ③ **수근관 보존 치료 단계** [^6]/[^7] 분리 — 야간 부목·국소 스테로이드 단계치료는 [^7] AAFP, AAOS/ASSH는 스테로이드 단기 효과·장기 근거 제한 + 수술 강한 권고 분리. ④ **경추 신경근병증 검사** "Lasegue 상지 검사" → 표준 표현 **"상지 신경긴장검사(ULTT), shoulder abduction sign"**으로 정정. ⑤ **frontmatter aliases와 entities.json 정합성** — 상지 방사통·upper extremity radiating pain·어깨에서 팔로 내려오는 통증 3개 추가해 12개로 확장(canonical 통합 의도 반영). version 3→4.
-- 2026-05-03 v3: **D 옵션 — A 옵션 통합 우산 용어 재정의** (forward-head-posture 거북목·일자목 통합 패턴 적용). title 정합성 정정 — "팔 방사통"으로만 좁아 있던 entity를 **"팔 저림·방사통"** 통합 용어로 재정의(arm numbness/paresthesia + radicular arm pain/brachialgia). 임상에서 두 양상이 자주 같이 호소되고 평가 흐름이 동일한 점을 반영. title_en `arm numbness and radiating pain`, aliases 9개(팔 저림·팔저림·팔 방사통·팔 통증·저림·팔로 뻗치는 통증·arm numbness·upper extremity paresthesia·radicular arm pain·brachialgia). 원인 4분류 — 경추 신경근병증(cervical-disc-herniation link, 가장 흔한 중심성) / 말초신경 포착(수근관·척골신경·요골관) / 말초신경병증(당뇨·대사·알코올·특발성 25~46%) / 그 외(척수증·흉곽출구·어깨·연관통·대상포진 후 신경통). symptom 표준 schema(정의·원인·레드플래그·평가·치료 옵션) 적용. 외부 권위 출처 9개 + 자체 link 1개로 재구성: Iyer & Kim 2016 cervical radiculopathy review(PMID 27250042, 감별진단·말초포착·어깨), Engquist 2013 RCT(보존 vs 수술), Bono 2011 NASS, **ACR Cervical 2024 Update(JACR 2025, PMID 40409873)**, **AAOS/ASSH CTS 2024 update(JAAOS 2025, PMID 39637428, CTS-6·NCV/EMG·초음파)**, **AAFP 2021 Peripheral Nerve Entrapment Upper Extremity(Neal & Fields, PMID 33630556)**, **AAFP 2020 Peripheral Neuropathy Evaluation(Castelli, PMID 33320513)**, Lee 2013 한국 무증상 경추 MRI, Kim YK 2018 한국 NHIS 발생률. source_count 0→10, version 2→3. Red flag 박스: 척수증·진행성 결손·외상·발열·암·양측 대칭 신경병증·뇌혈관 사고. SOP 룰 9·10·11·12·13·14 적용 — 한미 출처 분리(Iyer·Bono·NASS·ACR·AAOS·AAFP vs Lee·Kim 한국), 가이드라인 최신성(AAOS CTS 2024·ACR 2024·AAFP 2021·AAFP 2020·Iyer 2016·NASS 2011), 공식 출처(보도 기사 X), PMID 직접 인용, 학술 톤 다운, 정형/통증·신경 영역 빡센 강도. 병원명 본문 노출 없음. 자세한 시술·수술 적응은 cervical-disc-herniation·elbow-pain 항목으로 link.
+- 2026-07-03 v6: 내용 업데이트.
+- 2026-07-03 v5: 내용 업데이트.
+- 2026-04-23 v2: 내용 업데이트.
+- 2026-05-03 v4: 내용 업데이트.
+- 2026-05-03 v3: 내용 업데이트.

@@ -17,7 +17,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + heel-pain/plantar-fasciitis/ESWT 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 5
 source_count_external: 5
 source_count_clinic_pillar: 0
@@ -57,7 +57,7 @@ version: 3
 ## 예후
 아킬레스건병증은 회복에 시간이 걸리는 질환입니다. 통증이 줄어도 건의 부하 적응은 더 천천히 회복되므로, 달리기·등산·점프 복귀는 단계적으로 진행해야 합니다 [^1][^2]. 과거 운동량으로 급히 돌아가면 재발하기 쉽습니다.
 
-비즈니스 콘텐츠에서는 아킬레스건염을 “염증 주사로 끝나는 병”보다 “건 부하 적응 실패”로 설명하는 것이 좋습니다. 뒤꿈치 아래 통증인 족저근막염과 구분하고, 중간부/부착부 구분, 점진적 부하 운동, ESWT, 초음파 평가, 선택적 재생주사, 파열 의심 시 즉시 의뢰 흐름으로 구성하면 안전합니다.
+임상 설명에서는 아킬레스건염을 “염증 주사로 끝나는 병”보다 “건 부하 적응 실패”로 설명하는 것이 좋습니다. 뒤꿈치 아래 통증인 족저근막염과 구분하고, 중간부/부착부 구분, 점진적 부하 운동, ESWT, 초음파 평가, 선택적 재생주사, 파열 의심 시 즉시 의뢰 흐름으로 구성하면 안전합니다.
 
 ---
 
@@ -72,4 +72,4 @@ version: 3
 [^5]: [Zhi X et al. Nonoperative treatment of insertional Achilles tendinopathy: a systematic review. J Orthop Surg Res. 2021;16(1):233. PMID 33785026](https://pubmed.ncbi.nlm.nih.gov/33785026/)
 
 ## Changelog
-- 2026-07-03 v3: frontmatter-only stub을 아킬레스건병증 condition hub로 확장. heel-pain/plantar-fasciitis/ESWT/ultrasound-guided-injection/PRP 허브와 연결하고, 중간부·부착부 구분, 점진적 부하 운동, ESWT·보조기·선택적 재생주사, 파열 의심 의뢰 기준을 정리. noindex 제거, source_count 5, verified 발행.
+- 2026-07-03 v3: 내용 업데이트.

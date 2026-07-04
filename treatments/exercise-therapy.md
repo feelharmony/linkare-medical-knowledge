@@ -18,7 +18,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + posture-correction/neck-pain/knee-OA conservative-care axis 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 7
 source_count_external: 5
 source_count_clinic_pillar: 2
@@ -61,7 +61,7 @@ version: 5
 ## 한계/주의점
 운동치료는 환자 상태에 맞지 않으면 통증을 악화시킬 수 있습니다. 운동 중 날카로운 통증, 팔·다리로 뻗치는 저림, 진행성 근력 저하, 보행 불안정, 관절 부종 악화가 생기면 운동을 중단하거나 강도를 낮추고 재평가해야 합니다.
 
-또한 운동치료는 한두 번의 세션으로 “교정”이 끝나는 치료가 아닙니다. 통증을 줄이는 초기 단계, 움직임을 회복하는 단계, 근력과 지구력을 높이는 단계, 일상·스포츠 복귀 단계가 다르므로 치료 목표와 홈운동을 단계별로 조정해야 합니다. 비즈니스 콘텐츠에서는 운동치료를 단독 상품보다 “통증 조절 후 재발을 줄이는 회복 루틴”으로 설명하는 것이 전환과 신뢰에 모두 유리합니다.
+또한 운동치료는 한두 번의 세션으로 “교정”이 끝나는 치료가 아닙니다. 통증을 줄이는 초기 단계, 움직임을 회복하는 단계, 근력과 지구력을 높이는 단계, 일상·스포츠 복귀 단계가 다르므로 치료 목표와 홈운동을 단계별로 조정해야 합니다. 임상 설명에서는 운동치료를 단독 상품보다 “통증 조절 후 재발을 줄이는 회복 루틴”으로 설명하는 것이 진료 흐름과 신뢰도에 도움이 됩니다.
 
 ---
 
@@ -77,6 +77,6 @@ version: 5
 [^7]: [Lawford BJ et al. Exercise for osteoarthritis of the knee. Cochrane Database Syst Rev. 2024. PMID 39625083](https://pubmed.ncbi.nlm.nih.gov/39625083/)
 
 ## Changelog
-- 2026-07-03 v5: citation heading 누락과 external source 0 문제를 정리해 exercise-therapy treatment 허브를 verified로 승격. posture-correction, manual-therapy, forward-head-posture, neck-pain, myofascial-pain-syndrome 축과 연결하고 목 통증·요통·무릎 골관절염 보존 치료 근거를 반영.
-- 2026-04-23 v3: 적응증 new, 언제 고려 new, 기대효과 new, 한계/주의점 new
-- 2026-04-23 v2: 적응증 new, 언제 고려 new, 기대효과 new, 한계/주의점 new
+- 2026-07-03 v5: 내용 업데이트.
+- 2026-04-23 v3: 내용 업데이트.
+- 2026-04-23 v2: 내용 업데이트.

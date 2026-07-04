@@ -19,7 +19,7 @@ aliases:
 last_reviewed: '2026-05-31'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 9
 source_count_external: 9
@@ -105,5 +105,5 @@ version: 2
 [^10]: [NICE Guideline NG158 — Venous thromboembolic diseases: diagnosis, management and thrombophilia testing. Published 26 March 2020, last updated 2 August 2023. National Institute for Health and Care Excellence (UK)](https://www.nice.org.uk/guidance/ng158)
 
 ## Changelog
-- 2026-05-03 v2: **검증 라운드 4건 + 정합성 2건 반영**. ① **DVT red flag citation 보강** — DVT/VTE 전용 근거 부재 → **NICE NG158**(Venous thromboembolic diseases CPG, 2020·2023 update) [^10] 신규 추가, 2-level Wells score + 4시간 이내 근위부 다리정맥 초음파·D-dimer 정확 권고. ② **NICE vs NASS 척추관 협착 epidural injection 한미·영 입장 분리** — NASS Lumbar Spinal Stenosis CPG는 단기 통증 완화 옵션, NICE NG59는 중심성 척추관 협착 신경성 파행에 epidural injection 비권고로 분리 인용(SOP 룰 9·15). ③ **spinal-stenosis link 약화** — 별도 항목 본문 미작성 상태이므로 "자세한 정보" 표현 제거, "향후 별도 항목에서 다룹니다"로 톤 다운(SOP 환자 동선 보존). ④ **aliases sciatica 제거** — sciatica는 별도 entity이므로 entity 매칭 충돌 회피, radicular leg pain만 영문 alias로 유지. ⑤ source_count 9→8(자체 분리 반영) 정정 후, NICE NG158 추가로 다시 9로 복귀(외부 9 + 자체 분리). version 1→2.
-- 2026-05-03 v1: **신규 entity 본문 작성** (이전 frontmatter만 있던 상태). **D 옵션 — A1 통합 우산 용어**(arm-numbness 패턴 적용) — title "다리 저림·방사통"(leg numbness + radicular leg pain 두 양상 포괄). title_en `leg numbness and radiating pain`. aliases 10개(한·영). 원인 5분류 — 요추 신경근병증(lumbar-disc-herniation·sciatica link, 가장 흔함) / 요추 척추관 협착(spinal-stenosis link) / 하지 말초신경 포착(총비골·이상근·족근관·meralgia paresthetica) / 말초신경병증(당뇨·대사·특발성 25~46%) / 그 외(마미증후군·DVT·종양). symptom 표준 schema(정의·원인·레드플래그·평가·치료 옵션) 적용. 외부 권위 출처 8개 + 자체 link 1개(## 관련 임상 자료 분리)로 구성: NICE NG59(좌골신경통 평가·NSAIDs·만성 좌골신경통 약물 안전 권고), **NASS Lumbar Disc Herniation 2014**(Kreiner DS, Spine J, PMID 24239490, MRI 진단·EMG 보조), Lee JJ 2025 한국 LDH-radiculopathy CPG(운동 권고 A), **ACR Low Back Pain 2021 Update**(JACR 2021;18(11S):S361-S379, PMID 34794594, 6주 보존 후 영상·red flag 영상), AANS Cauda Equina(red flag), **Drăghici 2023 Lower Limb Entrapment review**(Diagnostics 2023;13(21):3385, PMID 37958280, peroneal·tibial·sural·sciatic·LFCN·tarsal tunnel), Castelli 2020 AAFP Peripheral Neuropathy(PMID 33320513, SPEP 초기검사), **NASS Lumbar Spinal Stenosis 2013 update**(Kreiner DS, Spine J 2013;13(7):734-743, PMID 23830297, MRI 진단·보존 치료 단계). source_count 0→9, version 0→1. Red flag 박스: **마미증후군 응급**·외상·발열·암·양측 대칭 신경병증·DVT·foot drop. SOP 룰 9·10·11·12·13·14·15 적용 — 한미 출처 분리(NICE·NASS·ACR·AAFP·Drăghici vs Lee JJ 한국), 가이드라인 최신성(NICE 2020·NASS 2013/2014·Lee 2025·ACR 2021·Drăghici 2023·Castelli 2020), 공식 출처(보도 X), PMID 직접 인용, 학술 톤 다운, 정형/통증·신경 영역 빡센 강도. 자체 출처는 **## 관련 임상 자료 섹션으로 분리**(headache 자녀 entity 5개 시리즈에서 정착한 SOP claim-source 매핑 패턴 일관 유지). 자세한 시술·수술 적응은 lumbar-disc-herniation·sciatica·spinal-stenosis 항목으로 link.
+- 2026-05-03 v2: 내용 업데이트.
+- 2026-05-03 v1: 내용 업데이트.

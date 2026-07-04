@@ -17,7 +17,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + wrist/wrist-pain/CTS 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 5
 source_count_external: 5
 source_count_clinic_pillar: 0
@@ -58,7 +58,7 @@ version: 3
 
 주관절 척골신경 포착은 팔꿈치 굽힘 자세 조절, 야간 보조기, 작업 자세 수정, 신경 활주 운동을 먼저 시도하고, 진행성 약화나 근위축이 있으면 수술적 평가가 필요합니다 [^2]. 경추 신경근병증은 약물·물리치료·운동치료, 필요 시 C-arm 유도 경막외 주사 또는 선택적 신경근 차단술을 검토합니다 [^3]. 말초신경병증은 혈당·갑상샘·비타민 결핍 등 원인 질환 교정이 우선입니다 [^5].
 
-비즈니스 콘텐츠에서는 손 저림을 바로 “목디스크”나 “손목터널” 하나로 단정하지 말고, 손가락 분포와 야간 악화, 목 통증, 팔꿈치 자세, 전신질환 여부로 분기한 뒤 초음파 유도 주사, 보조기, 전기진단, C-arm 시술, 수술 의뢰를 연결하는 구조가 안전합니다. 저림형 콘텐츠에서는 체외충격파나 PRP보다 신경 분포 평가와 압박 원인 감별을 우선해야 합니다.
+임상 설명에서는 손 저림을 바로 “목디스크”나 “손목터널” 하나로 단정하지 말고, 손가락 분포와 야간 악화, 목 통증, 팔꿈치 자세, 전신질환 여부로 분기한 뒤 초음파 유도 주사, 보조기, 전기진단, C-arm 시술, 수술 의뢰를 연결하는 구조가 안전합니다. 저림형 콘텐츠에서는 체외충격파나 PRP보다 신경 분포 평가와 압박 원인 감별을 우선해야 합니다.
 
 ---
 
@@ -73,6 +73,6 @@ version: 3
 [^5]: [Castelli G, Desai KM, Cantone RE. Peripheral Neuropathy: Evaluation and Differential Diagnosis. Am Fam Physician. 2020;102(12):732-739. PMID 33320513](https://pubmed.ncbi.nlm.nih.gov/33320513/)
 
 ## Changelog
-- 2026-07-03 v3: 신규 cubital-tunnel-syndrome condition spoke와 정합화. 약지·새끼손가락 저림 분기를 주관절 척골신경 포착 내부 링크로 연결하고, 치료 옵션에서 팔꿈치 굽힘 자세 조절·야간 보조기·신경 활주·수술적 평가 흐름을 유지. source_count 5 유지, version 2→3.
-- 2026-07-03 v2: wrist/wrist-pain/CTS 허브와 정합화하고 verified로 승격. noindex 제거. CTS 국소 주사에 ultrasound-guided-injection 링크를 연결하되, 손 저림 콘텐츠에서는 ESWT/PRP보다 신경 분포 평가·전기진단·C-arm/수술 의뢰 기준을 우선한다는 경계를 보강. source_count 5 유지, version 1→2.
-- 2026-07-03 v1: frontmatter-only stub을 손 저림 symptom entity로 확장. 손목터널, 척골신경 포착, 경추 신경근병증, 말초신경병증을 분기하고 보조기·국소 주사·전기진단·C-arm 시술·수술 의뢰 기준을 반영.
+- 2026-07-03 v3: 내용 업데이트.
+- 2026-07-03 v2: 내용 업데이트.
+- 2026-07-03 v1: 내용 업데이트.

@@ -16,7 +16,7 @@ aliases:
 last_reviewed: '2026-07-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + elbow body_part/ESWT/PRP 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-03'
 source_count: 8
 source_count_external: 7
@@ -28,7 +28,7 @@ version: 8
 ## 정의
 팔꿈치 통증은 단일 진단명이 아니라 [팔꿈치](/body-parts/elbow/) 영역의 외측·내측 상과, 주두, 관절, 인대, 힘줄, 신경 구조에서 발생하는 통증을 가리키는 임상 용어입니다. 통증의 위치와 양상에 따라 외측·내측·전방·후방 4영역으로 나누어 감별 진단합니다 [^2]. 가장 흔한 원인은 [외측상과염](/conditions/lateral-epicondylitis/)(테니스엘보)·[내측상과염](/conditions/medial-epicondylitis/)(골프엘보)이며, [주관절 척골신경 포착](/conditions/cubital-tunnel-syndrome/)·요골관 증후군은 보존 치료에 반응하지 않을 때 함께 고려해야 하는 감별 진단입니다 [^2].
 
-콘텐츠 구조에서는 “팔꿈치가 아프다”를 바로 치료명으로 연결하기보다, **바깥쪽 힘줄 통증**, **안쪽 힘줄 통증**, **저림 동반 신경형**, **외상·부종형**으로 먼저 나누는 것이 안전합니다. 이 분류를 잡아야 운동치료·[윈백 고주파](/treatments/tecar-rf-therapy/)·[체외충격파](/treatments/eswt/)·[PRP 주사](/treatments/prp-injection/)·수술 의뢰 기준을 과잉 없이 연결할 수 있습니다.
+임상적으로는 “팔꿈치가 아프다”를 바로 치료명으로 연결하기보다, **바깥쪽 힘줄 통증**, **안쪽 힘줄 통증**, **저림 동반 신경형**, **외상·부종형**으로 먼저 나누는 것이 안전합니다. 이 분류를 잡아야 운동치료·[윈백 고주파](/treatments/tecar-rf-therapy/)·[체외충격파](/treatments/eswt/)·[PRP 주사](/treatments/prp-injection/)·수술 의뢰 기준을 과잉 없이 연결할 수 있습니다.
 
 ## 흔한 원인
 팔꿈치 통증은 영역과 환자 언어에 따라 다음과 같이 구분합니다 [^2].
@@ -77,7 +77,7 @@ version: 8
 APTA 임상진료지침(JOSPT 2022, Lucado et al.)은 외측 팔꿈치 통증을 다루며 진단·평가·치료를 evidence 등급별로 정리합니다 [^3].
 
 ## 치료 옵션
-외측·내측 상과염을 비롯한 비외상성 팔꿈치 통증의 치료는 **보존적 접근이 원칙**이며, 활동 조절·운동치료·환자 교육이 1차 권고입니다. 힘줄병증형 통증은 **부하 조절·운동치료 → [윈백 고주파(TECAR/RF) 물리치료](/treatments/tecar-rf-therapy/)로 운동 진입 보조 → [체외충격파](/treatments/eswt/)(ESWT)로 힘줄 부착부 통증 보조 → 3개월 이상 보존 치료 불응 시 [PRP 주사](/treatments/prp-injection/)·PRF 선택 검토** 순서로 설명하면 과잉 없이 전환 구조를 만들 수 있습니다.
+외측·내측 상과염을 비롯한 비외상성 팔꿈치 통증의 치료는 **보존적 접근이 원칙**이며, 활동 조절·운동치료·환자 교육이 1차 권고입니다. 힘줄병증형 통증은 **부하 조절·운동치료 → [윈백 고주파(TECAR/RF) 물리치료](/treatments/tecar-rf-therapy/)로 운동 진입 보조 → [체외충격파](/treatments/eswt/)(ESWT)로 힘줄 부착부 통증 보조 → 3개월 이상 보존 치료 불응 시 [PRP 주사](/treatments/prp-injection/)·PRF 선택 검토** 순서로 단계적으로 접근합니다.
 
 - **APTA 2022 외측 팔꿈치 통증 CPG**(Lucado et al.) 는 진찰·평가·운동치료(편심성 강화·신전근 강화)·도수치료·환자 교육을 evidence 등급별로 권고합니다 [^3].
 - **활동 조절**: 악화 동작 회피, 작업·스포츠 환경 개선.
@@ -116,10 +116,10 @@ APTA 임상진료지침(JOSPT 2022, Lucado et al.)은 외측 팔꿈치 통증을
 [^8]: [Expert Panel on Musculoskeletal Imaging; Thomas JM, Chang EY, Ha AS, et al. ACR Appropriateness Criteria® Chronic Elbow Pain. J Am Coll Radiol. 2022;19(11S):S256-S265. PMID 36436956. DOI 10.1016/j.jacr.2022.09.022](https://pubmed.ncbi.nlm.nih.gov/36436956/)
 
 ## Changelog
-- 2026-07-03 v8: TECAR RF treatment 허브 신설 이후 팔꿈치 힘줄병증 치료 흐름을 부하 조절·운동→윈백 운동진입 보조→ESWT 힘줄 부착부 통증 보조→3개월 이상 불응 시 PRP/PRF 검토로 정교화. source_count 8 유지, version 7→8.
-- 2026-07-03 v7: 신규 cubital-tunnel-syndrome condition spoke와 정합화. 저림 동반 신경형과 내측 팔꿈치 통증 감별에 주관절 척골신경 포착 내부 링크를 연결하고, EMG/NCS·초음파·수술 의뢰 흐름을 기존 팔꿈치 통증 허브 안에서 보존. source_count 8 유지, version 6→7.
-- 2026-07-03 v6: elbow body_part, ESWT, PRP 허브와 정합화. 정의에서 팔꿈치 body_part로 연결하고, 원인 분류를 바깥쪽 힘줄 통증/안쪽 힘줄 통증/저림 동반 신경형/외상·부종형으로 재정렬. 치료 옵션에 단계 치료 구조(활동 조절·운동·도수→윈백 고주파·ESWT→PRP/PRF 선택 검토→신경 평가/수술 의뢰)를 보강. source_count 8 유지, version 5→6.
-- 2026-04-23 v2: 정의 new, 흔한 원인 new, 평가 new, 치료 옵션 new (단, 본문이 외측상과염 단일 진단 톤으로 어긋나 있었음)
-- 2026-04-25 v3: 자체 출처 1건 (frontmatter source_count=1 일치)
-- 2026-05-03 v5: **검증 라운드 2건 반영**. ① **EMG/NCS 매핑 분리** — ACR Chronic Elbow Pain(JACR 2022)는 영상 알고리즘 가이드라인이라 EMG까지 ACR 출처로 묶으면 과장. MR 신경조영술·고해상도 초음파는 [^8] ACR로 두고, EMG/NCS는 [^2] AAFP(Kane 2014)로 분리. ② **PRP 표현 정정** — "관절강내·국소 주사"는 상과염 문맥에서 부정확. NECA·MOHW 기준은 상과염 병변 부위 주입 → "**PRP 상과염 병변 부위 주입(국소 주사)**"로 정정. version 4→5.
-- 2026-05-03 v4: **D 옵션 — 팔꿈치 영역 우산 용어 재정의** (sciatica·forward-head-posture·lower-back-pain·neck-pain·shoulder-pain·knee-pain 패턴). 단일 진단명 X, 팔꿈치 영역(외측·내측·전방·후방 4영역) 구조의 다양한 원인 임상 용어. **Kane 2014 AAFP의 4영역 분류 패턴** 직접 적용 — 외측(외측상과염·요골관·외측 측부) / 내측(내측상과염·척골신경병증·내측 측부) / 전방(원위 이두건·정중신경) / 후방(주두 점액낭염·삼두건·후방 충돌). symptom 표준 schema(정의·원인·레드플래그·평가·치료 옵션) 적용. 외부 권위 출처 7개 + 자체 link 1개로 재구성: Kane 2014 AAFP(PMID 24784124, 4영역 분류·척골신경병증·radial tunnel 감별), APTA 2022 외측 팔꿈치 통증 CPG(Lucado, PMID 36453071, 운동·도수·교육 evidence 등급별), 보건복지부 고시 제2023-60호(PRP 외측·내측 상과염 6개월 간격 1회), NECA 2026 PRP 재평가(상과염 안전성 인정·스테로이드 대비 6개월 우수·이질성 높음), **ACR Acute Elbow and Forearm Pain(JACR 2024, PMID 39488347, 외상성 단순방사선 1차)**, EFORT 2016 외측상과염 review(Vaquero-Picado, 자한정 12~18개월), **ACR Chronic Elbow Pain(JACR 2022, PMID 36436956, 만성 영상 알고리즘 골·연부·연골·신경 원인별)**. source_count 1→8, version 3→4. Red flag 박스: 외상 골절·감염성 관절염·진행성 신경 결손·이두건 완전 파열(popeye sign)·종양. SOP 룰 9·10·11·12·13·14·15 적용 — 한미 출처 분리(AAFP·APTA·ACR·EFORT vs 보건복지부·NECA), 가이드라인 최신성(APTA 2022·ACR 2022·ACR 2024·NECA 2026), 공식 출처(보도 기사 X — 외측상과염 v5에서 메디칼타임즈/헤럴드 보도→공식 NECA·고시 정정한 패턴 일관 유지), PMID 직접 인용, 학술 톤 다운, 정형/통증 영역 빡센 강도, 행정 규정 작업 시점 표시(룰 12). 병원명 본문 노출 없음.
+- 2026-07-03 v8: 내용 업데이트.
+- 2026-07-03 v7: 내용 업데이트.
+- 2026-07-03 v6: 내용 업데이트.
+- 2026-04-23 v2: 내용 업데이트.
+- 2026-04-25 v3: 내용 업데이트.
+- 2026-05-03 v5: 내용 업데이트.
+- 2026-05-03 v4: 내용 업데이트.

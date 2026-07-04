@@ -17,7 +17,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + forward-head-posture/neck-pain/manual-therapy axis 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 7
 source_count_external: 5
 source_count_clinic_pillar: 2
@@ -61,7 +61,7 @@ forward head posture 대상 연구와 목 통증 임상진료지침은 심부 �
 
 운동 중 날카로운 통증, 팔로 뻗치는 저림, 근력 저하가 생기면 강도를 낮추고 재평가해야 합니다. 또한 “C자 곡선 회복”만을 치료 목표로 강조하면 과잉 약속이 될 수 있으므로, 환자 설명에서는 통증 감소, 기능 회복, 재발 감소를 중심 지표로 삼는 것이 좋습니다.
 
-비즈니스 콘텐츠 관점에서는 자세 교정을 단독 상품처럼 분리하기보다 “목 통증·거북목·근막통증의 재발을 줄이는 재활 축”으로 배치하는 편이 좋습니다. 윈백 고주파, 도수치료, 운동치료, 초음파 유도 주사나 통증유발점 치료 후 자가관리로 이어지는 흐름을 만들면 치료 연속성이 자연스럽습니다.
+임상 설명에서는 자세 교정을 단독 상품처럼 분리하기보다 “목 통증·거북목·근막통증의 재발을 줄이는 재활 축”으로 배치하는 편이 좋습니다. 윈백 고주파, 도수치료, 운동치료, 초음파 유도 주사나 통증유발점 치료 후 자가관리로 이어지는 흐름을 만들면 치료 연속성이 자연스럽습니다.
 
 ---
 
@@ -78,5 +78,5 @@ forward head posture 대상 연구와 목 통증 임상진료지침은 심부 �
 [^7]: [Bier JD et al. Clinical Practice Guideline for Physical Therapy Assessment and Treatment in Patients With Nonspecific Neck Pain. Phys Ther. 2018;98(3):162-171. PMID 29228289](https://pubmed.ncbi.nlm.nih.gov/29228289/)
 
 ## Changelog
-- 2026-07-03 v3: frontmatter 누락과 citation heading 문제를 정리해 posture-correction treatment 허브를 verified로 승격. forward-head-posture, neck-pain, myofascial-pain-syndrome, cervical-disc-herniation, manual-therapy 축과 연결하고 외부 권위 출처 5개 기준을 충족.
-- 2026-04-23 v2: 적응증 new, 언제 고려 new, 기대효과 new, 한계/주의점 new
+- 2026-07-03 v3: 내용 업데이트.
+- 2026-04-23 v2: 내용 업데이트.

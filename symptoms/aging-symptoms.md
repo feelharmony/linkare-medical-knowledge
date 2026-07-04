@@ -17,7 +17,7 @@ aliases:
 last_reviewed: '2026-05-31'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 7
 source_count_external: 7
@@ -137,5 +137,5 @@ NAD+ 보충(NMN·NR 경구 또는 NAD+ 정맥 주입)·기타 항노화 보충�
 [^8]: [World Health Organization. Integrated care for older people (ICOPE): guidance for person-centred assessment and pathways in primary care, 2nd ed. Geneva: WHO; 2025. ISBN 978-92-4-010372-6](https://iris.who.int/handle/10665/383209)
 
 ## Changelog
-- 2026-05-03 v3: **검증 라운드 4건 반영**. ① **WHO ICOPE 2025 handbook 2nd ed 추가** [^8](2025-01-29 launch, ISBN 978-92-4-010372-6, person-centred assessment·primary care pathways) — ICOPE 2017 guideline 단독 받침의 최신성 약점 보강. ② **"5축" 표현 정정** — 5개 domain / 6개 screening 항목 분리 명시(시각·청각이 별도 screening 항목). 본문 "흔한 영역"·"평가" 두 곳 모두 정합화. ③ **한국 sarcopenia 13~17.5% 수치 제거** — AWGS consensus 자체에서 직접 받쳐지지 않고 한국 연구 다수에서 진단 기준·연령 정의에 따라 수치 변동 큼. "진단 기준에 따라 한국·아시아 노인 인구의 상당수에서 보고" 보수 톤으로 정정 + AWGS citation의 "한국 13~17.5% 보고" 부연 설명도 제거. ④ **무릎 OA·척추관 협착 link [^4] 매핑 제거** — AWGS sarcopenia citation은 관절 노화 직접 받침 X. citation 제거하고 entity link만 유지. source_count 6→7, version 2→3.
-- 2026-05-03 v2: **신규 entity 본문 작성** (이전 frontmatter+noindex stub 상태). **D 옵션 — 우산 용어**(다른 symptom entity 시리즈 패턴 일관 적용). title "노화 증상" 유지(name_ko 정합), 단일 진단명이 아닌 multi-system 노화 영역 우산 용어로 정의. **WHO ICOPE intrinsic capacity 5축 framework**를 핵심 평가·관리 framework로 채택 — 이동·영양·시각·청각·인지·심리. **AWGS 2019 sarcopenia** 진단·관리 영역으로 한국·아시아 환자 직접 적용. symptom 표준 schema(정의·흔한 영역·레드플래그·평가·관리·치료) 적용. 외부 권위 출처 6개 + 자체 link 2개(## 관련 임상 자료 분리)로 구성: **WHO ICOPE 2017**(PMID 29608259, 본질 능력 5축·다축 통합 접근), **López-Otín 2023 Cell Hallmarks of Aging**(PMID 36599349, 12 hallmarks 연구 framework — 임상 진단 기준 아님 명시), **AWGS 2019 sarcopenia consensus**(Chen LK et al, JAMDA 2020;21(3):300-307, PMID 32033882, 종아리둘레·SARC-F·SARC-CalF·악력·보행속도·근육량 cutoffs + possible sarcopenia·한국 13~17.5%), Morifuji 2024 NMN RCT(PMID 38789831), Prokopidis 2025 NMN/NR SR(PMID 40275690), Nature Metabolism 2025 NAD precursor review(PMID 41083806). NAD/NMN은 chronic-fatigue-syndrome v2 정착한 중립 톤 일관 적용 — "환자 특성과 의료진 평가에 따라 개별 결정", "NAD+ 영역 결정적 근거 형성 중". hallmarks of aging는 연구 framework로 한정해 임상 진단으로 오해 회피. SOP 룰 9·10·11·12·13·14·15 적용 — 한미·아시아 분리(WHO·López-Otín·AWGS), 가이드라인 최신성(WHO 2017·López-Otín 2023·AWGS 2019·NAD 2024-2025), 공식 출처(보도 X), PMID 직접 인용, 학술 톤 다운, 웰니스/항노화 영역(룰 14 완화 적용 — 광고형 단정 회피·시술 무용론 회피), controversial 처리(NAD/NMN 균형 톤·환자 결정 보존). knee-osteoarthritis·spinal-stenosis·lower-back-pain·chronic-fatigue link로 자연스러운 entity 그래프. 자체 출처는 ## 관련 임상 자료 섹션으로 분리(SOP claim-source 매핑 패턴 일관). 병원명 본문 노출 없음. source_count 0→6, version 1→2.
+- 2026-05-03 v3: 내용 업데이트.
+- 2026-05-03 v2: 내용 업데이트.

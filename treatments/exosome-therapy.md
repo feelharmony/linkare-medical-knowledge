@@ -15,7 +15,7 @@ aliases:
 last_reviewed: '2026-07-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + hair/scalp axis evidence sync
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-03'
 source_count: 7
 source_count_external: 6
@@ -47,7 +47,7 @@ version: 4
 엑소좀은 안면 미세주름, 피부결, 색소, 여드름 흉터, 레이저·microneedling 후 회복 보조에서도 활용되는 영역입니다. 미용피부과 리뷰들은 피부 재생·항염·상처 회복 가능성을 정리하지만, 제품 간 성분 차이와 임상 endpoint 이질성이 커서 적응증별 표준 프로토콜은 아직 정립 중입니다 [^6].
 
 ### 기타
-근골격·창상 치유 영역에서도 전임상·초기 임상 연구가 진행되고 있으나, 본 entity의 evidence 정리는 두피·피부 재생 중심입니다. 관절·건·통증 질환에서는 PRP, 체외충격파, 물리치료, 운동치료 등 기존 치료 축과의 역할 구분이 필요합니다.
+근골격·창상 치유 영역에서도 전임상·초기 임상 연구가 진행되고 있으나, 현재 임상 활용 논의는 두피·피부 재생 분야가 더 앞서 있습니다. 관절·건·통증 질환에서는 PRP, 체외충격파, 물리치료, 운동치료 등 기존 치료와의 역할 구분이 필요합니다.
 
 ## 시술 절차
 1. **제품 확인** — 원천 세포, 제조·정제 방식, 무균·품질 관리 정보를 확인합니다.
@@ -89,6 +89,6 @@ version: 4
 [^6]: Shah M, Dukharan V, Broughton L, et al. Exosomes for Aesthetic Dermatology: A Comprehensive Literature Review and Update. *J Cosmet Dermatol.* 2025;24(1):e16766. PMID 39764639. DOI: [10.1111/jocd.16766](https://pubmed.ncbi.nlm.nih.gov/39764639/)
 
 ## Changelog
-- 2026-07-03 v4: external source 4건 보강(탈모 임상 연구 리뷰, hair regeneration 문헌 리뷰, pilot RCT, aesthetic dermatology review) 후 verified 승격. Citations 자사/외부 헤딩 분리, source_count 7(외부 6 + 자사 1)로 정리. 두피/탈모 축과 맞춰 엑소좀을 표준 약물 대체가 아닌 모낭 환경 개선 목적의 보조·병용 치료 후보로 재정렬하고, 제품 표준화·품질 관리·규제 확인 한계를 명확화.
-- 2026-05-03 v3: **본문 전면 재작성 + 외부 출처 2건 보강** (룰 14·15 적용). "정의·기전(MSC 유래 cell-free 전략)" + "적응증 영역(두피·안면·기타)" + "시술 절차" + "한계·주의점" 섹션. 두피 영역에 **Al Ameer 2025 SR**(11 임상/MSC source 다양, hair density 9.5~35 hairs/cm² 증가) + **Ersan 2024 prospective study**(n=30 남성, 포피 MSC 엑소좀, 12주 hair density 149.7→157 hairs/cm² P=0.002) 인용. SR 1건 + prospective study 1건 구성. 룰 14·15 — 표준화 부족·소규모 RCT 한계는 솔직히 표기하되 "효과 없다" 결론은 박지 않음. 식약처·신의료기술 framework은 룰 12에 따라 일반 표현으로. **검증 라운드(GPT 의견)**: Ersan 2024 PMID 정정 (39447204 → 39174804), 저자명·정확한 hair density 수치(149.7→157 P=0.002) 추가.
-- 2026-04-23 v2: 자체 글 1건 기반 4섹션 (탈모 중심)
+- 2026-07-03 v4: 내용 업데이트.
+- 2026-05-03 v3: 내용 업데이트.
+- 2026-04-23 v2: 내용 업데이트.

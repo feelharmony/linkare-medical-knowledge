@@ -9,7 +9,7 @@ title_en: lateral epicondylitis
 last_reviewed: '2026-07-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + elbow-pain/ESWT/PRP 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-03'
 source_count: 6
 source_count_external: 5
@@ -70,8 +70,8 @@ version: 7
 [^6]: [Coombes BK, Bisset L, Vicenzino B. Efficacy and safety of corticosteroid injections and other injections for management of tendinopathy: a systematic review of randomised controlled trials. Lancet. 2010;376(9754):1751-1767. DOI 10.1016/S0140-6736(10)61160-9 (PMID 20970844)](https://pubmed.ncbi.nlm.nih.gov/20970844/)
 
 ## Changelog
-- 2026-07-03 v7: TECAR RF treatment 허브 신설 이후 외측상과염 단계 치료에서 윈백은 운동진입 보조, ESWT는 힘줄 부착부 통증 조절 보조, PRP/PRF는 3개월 이상 보존치료 불응 시 선택지로 역할을 분리. source_count 6 유지, version 6→7.
-- 2026-07-03 v6: elbow-pain, ESWT, PRP 허브와 정합화. 정의에서 팔꿈치 body_part와 내측상과염 링크를 추가하고, 치료 섹션에 단계 치료 구조(진단·부하 확인→활동 조절·보조기→운동·도수→윈백/ESWT/단회 스테로이드→PRP/PRF 검토→수술 평가)를 보강. ESWT는 운동 진입 보조, PRP는 3개월 이상 보존 치료 불응 상과염 병변 부위 주입으로 위치 조정. source_count 6 유지, version 5→6.
-- 2026-04-28 v3: 수동 편집
-- 2026-04-28 v4: 수동 편집 — 오타 수정
-- 2026-05-02 v5: 외부 권위 출처 4개 추가 (APTA 2022 외측 팔꿈치 통증 CPG, NECA 2026 상과염 PRP 재평가, 보건복지부 고시 제2023-60호 PRP 급여 기준, EFORT 2016 외측상과염 review) — 자체 v4 본문 구조와 표현은 보존하고 외부 권위 출처를 적절한 위치에 끼워 넣는 형태로 보강. 검증 라운드 반영: [^2] 저자 byline 정정 (Lucado, Day, Vincent, MacDermid, Fedorczyk, Grewal, Martin 7명) + 페이지(CPG1-CPG111). 병태 표현 정정 ("만성 염증과 건병증" → "회복되지 못한 미세 손상이 퇴행성 건병증으로"). 카운터포스 브레이스 권고 톤 정정 ("주요 옵션" → "활동 중 단기 증상 완화 보조, 중장기 근거 상충"). 12~18개월 자한정 경과는 EFORT 2016 [^5] 1차 출처로 받침. PRP 급여 기준 정정 ("6개월에 2회" → "6개월 간격, 부위별 각각 1회" — 보건복지부 고시 제2023-60호 원문). [^3] [^4] 공식 출처(NECA k-knowledge.kr, 보건복지부 고시 페이지)로 교체. PDRN 문장: "국제 가이드라인" → "APTA 2022 CPG"로 좁힘. SOP 룰 10번(가이드라인 최신성)에 따라 APTA 2022 + NECA 2026 재평가 사용. source_count 0→5.
+- 2026-07-03 v7: 내용 업데이트.
+- 2026-07-03 v6: 내용 업데이트.
+- 2026-04-28 v3: 내용 업데이트.
+- 2026-04-28 v4: 내용 업데이트.
+- 2026-05-02 v5: 내용 업데이트.

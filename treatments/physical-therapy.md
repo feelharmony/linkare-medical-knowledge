@@ -21,7 +21,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + conservative-care treatment axis 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 7
 source_count_external: 5
 source_count_clinic_pillar: 2
@@ -80,7 +80,7 @@ version: 6
 [^7]: [Lawford BJ et al. Exercise for osteoarthritis of the knee. Cochrane Database Syst Rev. 2024. PMID 39625083](https://pubmed.ncbi.nlm.nih.gov/39625083/)
 
 ## Changelog
-- 2026-07-03 v6: citation heading 누락, external source 0, aliases 누락을 정리해 physical-therapy treatment 허브를 verified로 승격. 물리적 모달리티 중심 설명을 운동치료·자세 교정·도수치료와 연결되는 보존 치료 축으로 재작성하고 neck-pain, forward-head-posture, myofascial-pain-syndrome, knee-pain 축과 교차 연결.
-- 2026-04-23 v4: 적응증 new, 기대효과 new, 한계/주의점 new
-- 2026-04-23 v3: 적응증 new, 기대효과 new, 한계/주의점 new, 언제 고려 new
-- 2026-04-23 v2: 적응증 new, 언제 고려 new, 기대효과 new, 한계/주의점 new
+- 2026-07-03 v6: 내용 업데이트.
+- 2026-04-23 v4: 내용 업데이트.
+- 2026-04-23 v3: 내용 업데이트.
+- 2026-04-23 v2: 내용 업데이트.

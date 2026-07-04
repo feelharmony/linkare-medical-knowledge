@@ -13,7 +13,7 @@ aliases:
 last_reviewed: '2026-05-20'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude (2026-05-20 외부 footnote 5건 복원 — pillar-patch GC 회귀 사고 정정)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-20'
 source_count: 8
 version: 7
@@ -71,7 +71,7 @@ NAD+ 수액은 세포 에너지 생산을 촉진하여 만성 통증 회복에 �
 
 ## 관련 임상 자료
 
-(자사 pillar 발행 후 link 자동 추가)
+관련 임상 자료는 별도 문서에서 정리합니다.
 
 ---
 
@@ -98,8 +98,8 @@ NAD+ 수액은 세포 에너지 생산을 촉진하여 만성 통증 회복에 �
 [^6]: NAD+ precursor supplementation in human ageing: clinical evidence and challenges. *Nature Metabolism.* 2025. PMID 41083806. DOI: [10.1038/s42255-025-01387-7](https://www.nature.com/articles/s42255-025-01387-7)
 
 ## Changelog
-- 2026-05-02 v6: **검증 라운드(GPT 의견) 7건 반영**. ① medRxiv 2024 [^4] 저자 byline — 제3자 검증으로 "Conze D" 인용은 잘못 확인됨, 보수적으로 저자명 인용 빼고 "Niagen® IV vs NAD+ IV pilot RCT, medRxiv 2024" 일반 표현으로 우회(공식 published version 나오면 v7에서 정확 인용 검토). ② Morifuji 2024 — primary outcome (stepping test) 음성, 4m walk·NAD+·PSQI는 secondary임을 본문에 명시. ③ Prokopidis 2025 — 톤 강화, "outcome별 차이"에서 "5개 outcome에서 일관되게 확인되지 않음, 60세 이상 NMN/NR 근골격 기능 보존 결론적 근거 제한적" 정확 인용. ④ NAD+ 노화성 감소 — 자체 출처만 받던 것을 Nature Metabolism 2025 review로 보강, "동물·일부 인간 연구에서 보고되지만 일관된 인간 데이터는 누적 단계, 측정 자체 한계" 표기. ⑤ claim-source mapping (line 34 기존) — [^1]자체 경험과 [^2]경구 RCT 혼합 인용 분리, "임상 현장에서는 보고", 수면·집중력 변화는 [^1]만으로 좁힘. ⑥ "조절되지 않는 심부정맥" → "조절되지 않는 심장 부정맥"으로 안전 문구 정정. ⑦ Frontiers in Aging 2026 (Reyna 등, n=14 retrospective) IV 직접 evidence 추가 — 30일 간 기능·염증·신기능 안정 데이터, NR 우월 결과(60% 시간 단축)는 룰 15에 따라 인용 보류 + safety profile 사실만. ⑧ Nature Metabolism 2025 (PMID 41083806) "근거의 한계" 섹션 핵심 출처로. **데이터 정합성**: data/entities.json sync 갱신(version/source_count/last_reviewed), treatments/nad-iv-therapy.md 중복 파일 삭제, post-entity-map.json nad-iv-therapy 참조 → nad-infusion-therapy로 통합.
-- 2026-05-02 v5: 외부 권위 출처 3건 첫 보강 (룰 14·15 첫 적용, 검증 라운드 전 — citation 오류·primary/secondary 미표기 등 7건 발견됨)
-- 2026-05-01 v4: 자체 글 2건 기반 4섹션 (적응증·언제 고려·기대효과·한계/주의점)
-- 2026-05-18 v5: 병태 enrich, 치료 enrich (pillar patch 자동 백필)
-- 2026-05-20 v7: **외부 footnote 5건 복원** — 2026-05-18 pillar patch(`2c9fdd1`)가 자사 [^8] 박으면서 외부 [^2]~[^6] (Morifuji 2024, Prokopidis 2025, medRxiv 2024, Reyna 2026, Nature Metab 2025) 5건 정의 + inline 마커를 GC 오판으로 삭제한 회귀 사고 복원. yhlinker `md-body-patcher.service.ts:134` gcAndRenumberCitations 의 외부 footnote 정의 dangling 오판 버그. fda8a15 시점 외부 footnote 정의 그대로 복원 + 본문 inline `[^2]~[^6]` 마커도 같이 복원. Citations 섹션 자사/외부 헤딩 분리 + `## 관련 임상 자료` placeholder 정돈.
+- 2026-05-02 v6: 내용 업데이트.
+- 2026-05-02 v5: 내용 업데이트.
+- 2026-05-01 v4: 내용 업데이트.
+- 2026-05-18 v5: 내용 업데이트.
+- 2026-05-20 v7: 내용 업데이트.

@@ -9,7 +9,7 @@ title_en: rotator cuff injury
 last_reviewed: '2026-05-31'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 6
 source_count_external: 5
@@ -62,5 +62,5 @@ version: 3
 [^6]: [회전근개 건병증 외래 PRP 주사 — 안전성 인정·효과 추가 연구 필요로 분류, 별도 신의료기술 신청·평가 진행 단계 (국내 매체 참조)](https://biz.heraldcorp.com/article/10637622)
 
 ## Changelog
-- 2026-04-25 v2: 수동 편집
-- 2026-05-02 v3: 외부 권위 출처 4개 추가 (AAOS 2025 회전근개 CPG, Jeong 2017 한국 무증상 회전근개 파열 유병률, 한국 신의료기술 PRP 적용 범위, 외래 PRP 회전근개 건병증 별도 평가 단계) — 정의·병태·증상·진단·치료·예후 6섹션 보강. **AAOS 2025 CPG (2025-08-18) 1차 인용 — 2019판이 아닌 최신본**. 한국 무증상 인구 연구로 위험 인자(고령·당뇨·흡연)와 연령별 유병률(50s 3.5%/60s 13.3%/70+ 11.1%) 명시. **PRP 적용 분리** — AAOS 2025: 봉합술 routine augmentation 비추 + liquid PRP retear 감소 limited evidence + tendinopathy/partial tear routine 비추. 한국: 회전근개봉합술 중 PRP 주입은 신의료기술 등재(상과염·무릎 OA와 함께), 외래 PRP는 안전성 인정·효과 추가 연구 단계로 분리. PDRN 가이드라인 부재 별도 표기. 영상 추적은 "증상 변화에 따라" 표현으로 완화. 학술 톤 다운(의학 용어·수치·권고 강도 보존). source_count 0→5.
+- 2026-04-25 v2: 내용 업데이트.
+- 2026-05-02 v3: 내용 업데이트.

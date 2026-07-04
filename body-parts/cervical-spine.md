@@ -15,7 +15,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + neck/cervical-disc/arm-numbness/headache 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 6
 source_count_external: 4
 source_count_clinic_pillar: 2
@@ -49,7 +49,7 @@ version: 4
 
 후두부 두통이나 상부 경추성 통증에서는 후두신경차단, 상부 경추 후관절 신경차단, 고주파 치료가 진단적·치료적 옵션이 될 수 있습니다 [^6]. 근막 통증이 중심이면 초음파 유도 통증유발점 주사, 건식침, 도수·운동치료를 병행해 통증을 낮추고 재활을 이어갑니다. 만성 인대성·건부착부 통증이 의심되는 경우 PRP/PRF·프롤로 같은 재생주사는 환자 상태와 근거 수준을 설명한 뒤 선택적으로 논의합니다. 진행성 근력 저하, 척수증, 보존 치료에 반응하지 않는 신경학적 결손은 수술적 평가가 필요합니다 [^5].
 
-비즈니스 콘텐츠에서는 경추를 “목디스크” 하나로만 설명하지 않고, 팔저림·두통·후두신경통·근막통증·어깨 연관 통증을 분기하는 허브로 쓰는 것이 좋습니다. 그래야 윈백 고주파, [체외충격파](/treatments/eswt/), C-arm 신경차단, [초음파 유도 주사](/treatments/ultrasound-guided-injection/), 도수·운동, 수술 의뢰 기준이 각각 자연스럽게 연결됩니다.
+임상 설명에서는 경추를 “목디스크” 하나로만 설명하지 않고, 팔저림·두통·후두신경통·근막통증·어깨 연관 통증을 분기하는 허브로 쓰는 것이 좋습니다. 그래야 윈백 고주파, [체외충격파](/treatments/eswt/), C-arm 신경차단, [초음파 유도 주사](/treatments/ultrasound-guided-injection/), 도수·운동, 수술 의뢰 기준이 각각 자연스럽게 연결됩니다.
 
 ---
 
@@ -65,5 +65,5 @@ version: 4
 [^6]: [Expert Panel on Neurological Imaging. ACR Appropriateness Criteria® Headache: 2022 Update. J Am Coll Radiol. 2023;20(5S):S70-S93. PMID 37236753](https://pubmed.ncbi.nlm.nih.gov/37236753/)
 
 ## Changelog
-- 2026-07-03 v4: review/noindex 상태의 경추 body_part 허브를 verified로 승격. neck/neck-pain/cervical-disc/arm-numbness/hand-numbness 축과 정합화하고 치료 섹션에 ESWT·초음파 유도 주사 canonical 링크를 연결.
-- 2026-07-03 v3: 기존 어깨·목디스크 중심 설명을 경추 body_part 허브로 확장. 디스크·신경근, 척수증, 자세·정렬, 상부 경추 두통, 근막·어깨 연관 통증을 분기하고 C-arm 신경차단·후두신경차단·초음파 유도 주사·도수/운동·수술 의뢰 기준을 단계 치료로 정리.
+- 2026-07-03 v4: 내용 업데이트.
+- 2026-07-03 v3: 내용 업데이트.

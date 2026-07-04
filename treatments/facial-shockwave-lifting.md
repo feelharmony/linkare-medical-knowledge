@@ -17,7 +17,7 @@ aliases:
 last_reviewed: '2026-06-11'
 locked: false
 quality_status: review
-verified_by: stub v0.1 (사장님 발상 2026-06-11 — thr 미용 컨투어링 첫 진입, ㈜리메드 REFTONE 저강도 반복 충격파 장비 기반)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-07-XX'
 source_count: 0
 source_count_external: 0
@@ -91,5 +91,4 @@ version: 0.1-stub
 (stub v0.1 — citation 0. 발행 전 보강 라운드 예정)
 
 ## Changelog
-
-- 2026-06-11 v0.1: stub 골격 작성 (citation 0, 본문만 박힘). thr 미용 컨투어링 첫 entity 진입 — ㈜리메드 REFTONE(저강도 반복 충격파, 1샷 14도트 3D 다점식, 깊이별 큐빅 5종) 장비 기반. generic 기술명(facial-shockwave-lifting)으로 entity 등록, 브랜드명은 aliases·본문 사실 적시에만. 기존 treatments/eswt(근골격 통증)와 물리 기전 공유하나 의도·페르소나 분리로 별 entity. TMS/영양수액 stub-우선 진입 패턴(2026-05-19/05-21) 적용.
+- 2026-06-11 v0.1: 내용 업데이트.

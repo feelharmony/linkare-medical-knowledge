@@ -16,7 +16,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + plantar-fasciitis/Achilles/ESWT 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 5
 source_count_external: 5
 source_count_clinic_pillar: 0
@@ -27,7 +27,7 @@ version: 2
 ## 정의
 발뒤꿈치 통증(heel pain)은 뒤꿈치 아래, 안쪽, 뒤쪽, 측면에서 느끼는 통증을 포괄하는 증상입니다 [^1][^2]. 가장 흔한 원인은 [족저근막염](/conditions/plantar-fasciitis/)이지만, 모든 뒤꿈치 통증이 족저근막염은 아닙니다. 통증 위치와 시작 양상에 따라 아킬레스건병증, 뒤꿈치 지방패드 통증, 신경 포착, 피로골절, 소아의 Sever disease까지 감별해야 합니다 [^1][^3].
 
-발뒤꿈치는 보행 때 체중을 먼저 받는 부위이므로, 통증이 오래가면 걷기·운동·체중 관리가 함께 무너질 수 있습니다. 따라서 콘텐츠 구조는 “족저근막염 하나”로 단정하기보다, 아침 첫발 통증인지, 아킬레스건 부착부 통증인지, 딱딱한 바닥에서 심한 중앙부 통증인지, 운동량 증가 후 뼈 통증인지부터 나누는 편이 안전합니다 [^1][^2].
+발뒤꿈치는 보행 때 체중을 먼저 받는 부위이므로, 통증이 오래가면 걷기·운동·체중 관리가 함께 무너질 수 있습니다. “족저근막염 하나”로 단정하기보다, 아침 첫발 통증인지, 아킬레스건 부착부 통증인지, 딱딱한 바닥에서 심한 중앙부 통증인지, 운동량 증가 후 뼈 통증인지부터 나누는 편이 안전합니다 [^1][^2].
 
 ## 흔한 원인
 발뒤꿈치 통증은 위치와 양상으로 크게 나눌 수 있습니다.
@@ -59,7 +59,7 @@ version: 2
 
 [초음파 유도 주사](/treatments/ultrasound-guided-injection/), 증식치료, PRP/PRF 같은 자가활성화세포 기반 재생주사는 만성 건병증·족저근막 통증에서 선택적으로 상담할 수 있습니다. 다만 스테로이드 반복 주사는 족저근막 파열·지방패드 위축 위험을 고려해야 하므로 “빠른 진통”보다 구조와 단계에 맞춘 치료 선택으로 설명하는 편이 좋습니다 [^2][^4].
 
-비즈니스 콘텐츠에서는 발뒤꿈치 통증을 “아침 첫발형 족저근막염”, “뒤쪽 아킬레스건형”, “딱딱한 바닥에서 아픈 쿠션형”, “저림 동반 신경형”, “운동량 증가 후 뼈 통증형”으로 나누면 전환 동선이 안전합니다. 통증클리닉 동선은 초음파 평가, ESWT, 보조기·운동치료, 선택적 주사치료를 묶되, 파열·감염·피로골절 신호는 먼저 배제해야 합니다.
+임상 설명에서는 발뒤꿈치 통증을 “아침 첫발형 족저근막염”, “뒤쪽 아킬레스건형”, “딱딱한 바닥에서 아픈 쿠션형”, “저림 동반 신경형”, “운동량 증가 후 뼈 통증형”으로 나누면 진료 흐름이 안전합니다. 통증클리닉 동선은 초음파 평가, ESWT, 보조기·운동치료, 선택적 주사치료를 묶되, 파열·감염·피로골절 신호는 먼저 배제해야 합니다.
 
 ---
 
@@ -74,4 +74,4 @@ version: 2
 [^5]: [Dingenen B et al. Achilles Pain, Stiffness, and Muscle Power Deficits: Midportion Achilles Tendinopathy Revision - 2024. J Orthop Sports Phys Ther. 2024;54(12):CPG1-CPG38. PMID 39611662](https://pubmed.ncbi.nlm.nih.gov/39611662/)
 
 ## Changelog
-- 2026-07-03 v2: frontmatter-only stub을 발뒤꿈치 통증 symptom hub로 확장. 족저근막염, 아킬레스건병증, heel fat pad syndrome, Baxter nerve entrapment, 피로골절, Sever disease 감별 구조를 반영하고 plantar-fasciitis/achilles-tendinitis/ESWT/ultrasound-guided-injection 허브로 연결. noindex 제거, source_count 5, verified 발행.
+- 2026-07-03 v2: 내용 업데이트.

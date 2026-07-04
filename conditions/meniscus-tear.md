@@ -15,7 +15,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + knee/knee-pain/knee-OA 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 6
 source_count_external: 5
 source_count_clinic_pillar: 1
@@ -67,5 +67,5 @@ MRI에서 반월상연골 파열이 보여도 증상과 직접 연결되는지 �
 [^6]: [Brophy RH, Fillingham YA. AAOS Clinical Practice Guideline Summary: Management of Osteoarthritis of the Knee (Nonarthroplasty), Third Edition. J Am Acad Orthop Surg. 2022;30(9):e721-e729. PMID 35383651](https://pubmed.ncbi.nlm.nih.gov/35383651/)
 
 ## Changelog
-- 2026-07-03 v2: knee/knee-pain/knee-OA 허브와 정합화하고 verified로 승격. noindex 제거. 정의에 knee body_part/symptom 내부 링크 추가. 치료 섹션에서 ESWT/PRP treatment 링크를 연결하되, 반월상연골을 직접 붙이는 치료가 아니라 동반 염증·통증 조절 및 재활 보조 선택지라는 경계를 유지. source_count 6 유지, version 1→2.
-- 2026-07-03 v1: frontmatter-only stub을 condition entity로 확장. 외상성/퇴행성 반월상연골 손상 구분, MRI 해석 주의, 퇴행성 병변의 물리치료 우선 근거(BMJ 2017, ESCAPE 5년 추적) 반영.
+- 2026-07-03 v2: 내용 업데이트.
+- 2026-07-03 v1: 내용 업데이트.

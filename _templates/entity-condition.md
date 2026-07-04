@@ -39,7 +39,7 @@ Entity 형판 — condition (질환)
 
 4. **자사 [^N] 본문 박힘 = pillar 글만** (spoke 금지)
    - anchor 2~3개에만 박힘 (anchor 1개 = anchor enum 1개, 같은 anchor 안에서는 누적 가능)
-   - pillar-patch-proposer가 발행 시점에 LLM patch 제안 → 마케팅 탭 Anchor Review에서 승인
+   - pillar-patch-proposer가 발행 시점에 patch 제안 → 마케팅 탭 Anchor Review에서 승인
    - 형판에서는 외부 권위 [^N]만 박고, 자사 [^N] 자리는 비워둠 (백필 흐름이 채움)
 
 5. **자사 [^N]은 외부 권위가 안 다루는 결만**:
@@ -103,7 +103,7 @@ version: 1
 ## 증상
 
 <!-- 주요 증상 + 동반 증상. 외부 권위 또는 임상 review로 받침.
-     자사 [^N]은 박지 않음 — pillar-patch가 anchor='symptoms'일 때 LLM이 박을 자리. -->
+     자사 [^N]은 박지 않음 — pillar-patch가 anchor='symptoms'일 때 보강될 자리. -->
 
 ## 진단
 
@@ -113,12 +113,12 @@ version: 1
 ## 치료
 
 <!-- 보존/주사/시술/수술 단계. CPG/메타분석/SR 인용.
-     자사 [^N]은 박지 않음 — pillar-patch가 anchor='treatment'일 때 LLM이 박을 자리. -->
+     자사 [^N]은 박지 않음 — pillar-patch가 anchor='treatment'일 때 보강될 자리. -->
 
 ## 예후
 
 <!-- 자한정적 경과·재발률·만성화 패턴. 외부 review 인용.
-     자사 [^N]은 박지 않음 — pillar-patch가 anchor='prognosis'일 때 LLM이 박을 자리. -->
+     자사 [^N]은 박지 않음 — pillar-patch가 anchor='prognosis'일 때 보강될 자리. -->
 
 → <related-treatment-slug>, <related-condition-slug> 참조 <!-- 선택 -->
 
@@ -152,4 +152,4 @@ version: 1
 
 ## Changelog
 
-- YYYY-MM-DD v1: **신규 entity 발행** — <어떤 외부 권위 출처로 어떤 섹션을 받쳤는지>, source_count_external 0→N. <검증 라운드 반영 사항>.
+- YYYY-MM-DD v1: 신규 entity 발행 — <어떤 외부 권위 출처로 어떤 섹션을 받쳤는지>, source_count_external 0→N. <주요 변경 사항>.

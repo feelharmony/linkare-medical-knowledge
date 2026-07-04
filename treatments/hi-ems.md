@@ -16,7 +16,7 @@ aliases:
 last_reviewed: '2026-05-31'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (5/9 v1 신규 작성, GPT 검증 7건 반영)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 7
 version: 1
@@ -36,7 +36,7 @@ Hi-EMS(High-Intensity Electromagnetic Stimulation, 고강도 자기장 자극)�
 - **rPMS** (repetitive Peripheral Magnetic Stimulation) — 재활의학에서 일반적으로 쓰는 학술 용어, 근골격계 통증·근력 유지 영역 evidence 위주
 - 동일 원리(펄스 자기장 → motor neuron 자극)이지만 device 설계·출력·임상 evidence base는 영역별로 다릅니다
 
-본 entity는 **근골격계 재활·노인 근력 유지 보조** 영역을 다룹니다. 안면 근육 자극 시술(HIFES, EMFACE)은 자기장이 아닌 **고강도 안면 전기자극(또는 안면 근육 자극) + synchronized RF** 결합 기술로 별 entity에서 정리합니다.
+이 문서는 **근골격계 재활·노인 근력 유지 보조** 영역을 다룹니다. 안면 근육 자극 시술(HIFES, EMFACE)은 자기장이 아닌 **고강도 안면 전기자극(또는 안면 근육 자극) + synchronized RF** 결합 기술로 별 entity에서 정리합니다.
 
 ### 표면 EMS와의 차이
 
@@ -69,7 +69,7 @@ rPMS는 만성 근골격계 통증 영역에서 도수치료·운동치료의 �
 
 ### 골반저근 자극 (요실금·만성골반통증증후군)
 
-골반저근 자기장 자극은 별 evidence base를 가진 영역입니다. **한국 NECA(2021) 의료기술재평가**는 "체외자기장 치료"(요실금·만성골반통증증후군 골반저근 자극, 17편 문헌)에 대해 **"안전성에는 문제가 없으나 효과성을 입증할 만한 근거가 충분하지 않아 권고하지 않음"** 결론을 내렸습니다 [^6]. 본 entity는 근골격계 영역을 다루며, 골반저근 적응증은 별 평가 기준에 따라 운영됨을 명시합니다.
+골반저근 자기장 자극은 별 evidence base를 가진 영역입니다. **한국 NECA(2021) 의료기술재평가**는 "체외자기장 치료"(요실금·만성골반통증증후군 골반저근 자극, 17편 문헌)에 대해 **"안전성에는 문제가 없으나 효과성을 입증할 만한 근거가 충분하지 않아 권고하지 않음"** 결론을 내렸습니다 [^6]. 이 문서는 근골격계 영역을 다루며, 골반저근 적응증은 별 평가 기준에 따라 운영됨을 명시합니다.
 
 ## 시술 방식
 
@@ -140,4 +140,4 @@ Zhao Q, Liu G. Effect of Repetitive Peripheral Magnetic Stimulation on Patients 
 [^7]: [Magnetic stimulation safety considerations (TMS·PMS 준용) — 이식형 전자장치(심박조율기·ICD·DBS·SCS·VNS·인공와우·약물 펌프) 간섭, 임플란트 가열, 종양 부위 적용 금지 등. StatPearls / NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/NBK568715/)
 
 ## Changelog
-- 2026-05-09 v1: **신규 entity 작성** — 자기장 자극(HIFEM/rPMS) 근골격계 영역 중심. 얼굴 리프팅(HIFES/EMFACE)은 자기장이 아닌 안면용 고강도 전기자극 + synchronized RF 결합 기술이라 별 entity로 분리. 외부 권위 출처 7건 — Diao 2023 SR 6 RCTs (요통, very low~low quality, VAS MD -1.89·ODI MD -8.39), Pan 2025 SR 8 RCTs (만성 근골격계 통증, very low quality, kinesiophobia 유의차 없음), Savulescu 2021 RCT (요추 신경근병증, rPMS+PKT 결합 우월), Lim 2018 pilot RCT (급성 요통), Kamiue 2024 노인 단일군(MVC 호전·둘레 변화 없음·knee joint extensor 영역), NECA 2021 골반저근 영역 "권고하지 않음" 의료기술재평가, StatPearls 자기장 자극 안전성 자료. emerging 영역 안전장치 표현 적용 — "evidence 축적 단계", "보조 도구로서 활용 가능성", "단정 표현 회피". 주요 요통 CPG에서 rPMS 표준 권고 부재 명시(시간 강건 톤). 금기 섹션 이식형 전자장치 전반(심박조율기·ICD·DBS·SCS·VNS·인공와우·약물 펌프)·종양·최근 수술·당뇨/말초신경병증·국소 피부 병변까지 확장. 룰 v2.3 적용. 자사 thr 글(`hi-ems` "노원 도수치료 Hi-EMS")은 자동 생성 흔적 강해 본문 인용 안 함, 향후 정직한 자사 글 작성 시 관련 임상 자료 섹션에 link 추가. **GPT 검증 라운드 7건 반영**: ① PMID 37116558 서지(DOI 10.1016/j.apmr.2023.03.016, 제목·저자) 정정, ② PMID 40501206 서지(Pan J, 2025;61:572-582, DOI 10.23736/S1973-9087.25.08442-4 + kinesiophobia 유의차 없음) 정정, ③ PMID 39479355 서지(knee joint extensor·15:49-57·Kamiue/Tsubahara/Ito/Koike·DOI 10.11336/jjcrs.15.49) 정정, ④ NECA footnote 추가 + 본문 [^6] 인용, ⑤ HIFES "고강도 안면 전기자극 + synchronized RF" 정정, ⑥ 금기 이식형 전자장치 전반·종양·수술·당뇨/말초신경병증·피부 병변 확장 + StatPearls [^7], ⑦ CPG 표준 권고 부재 한 문장 추가(시간 강건). source_count 5→7.
+- 2026-05-09 v1: 내용 업데이트.

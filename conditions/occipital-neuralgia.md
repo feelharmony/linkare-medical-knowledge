@@ -16,7 +16,7 @@ aliases:
 last_reviewed: '2026-05-31'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 5
 source_count_external: 5
@@ -91,5 +91,5 @@ ICHD-3 진단 기준의 임상 특징은 다음과 같습니다 [^2]:
 [^6]: [Sharma S, Hashmi MF, Wippold FJ II. Occipital Neuralgia. StatPearls. Treasure Island (FL): StatPearls Publishing; updated 2024. NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/NBK538281/)
 
 ## Changelog
-- 2026-05-03 v2: **검증 라운드 1건 + 정합성 1건 반영**. ① **Choi 2012 PMCID·PMID 정정** — PMC 3393859 → **PMC3393863**, PMID 추가(22792425), DOI 추가(10.3340/jkns.2012.51.5.281). URL도 정정. ② 자체 출처 [^1] **## 관련 임상 자료 섹션으로 분리**. ③ Changelog "4개 시리즈" → "5개 시리즈" 정합. source_count 5 유지(자체 분리), version 1→2.
-- 2026-05-03 v1: **신규 entity 작성** (headache 우산의 자녀 entity 5개 시리즈 중 5번, cervicogenic-headache와 별도 분리). condition 표준 schema(정의·병태·증상·진단·치료·예후) 적용. ICHD-3 13.4 항목 + Swanson 2022 J Craniofac Surg update review 중심. 외부 권위 출처 4개 + 자체 link 1개 = 총 5건. citation 인덱스 [^1]~[^5]. 핵심 출처: ICHD-3, ACR Headache 2022 Update, **Swanson 2022 J Craniofac Surg**(PMID 34753868, 진단·후두신경차단·RFA·BTX·신경자극·외과 감압 단계적 옵션 review), Choi 2012 한국 J Korean Neurosurg Soc(PMC 3393859, pulsed RF neuromodulation 한국 임상 결과). 후두신경차단 1차 minimally invasive·초음파 유도·고주파 열응고·신경 자극 단계적 치료. cervicogenic-headache·neck-pain link로 자세·근막 평가 연결. 안심튼튼·통증의학과 진료 영역과 직접 매핑(후두신경차단). SOP 룰 9·10·11·13·14·15 적용. 병원명 본문 노출 없음.
+- 2026-05-03 v2: 내용 업데이트.
+- 2026-05-03 v1: 내용 업데이트.

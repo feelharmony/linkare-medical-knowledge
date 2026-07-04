@@ -17,7 +17,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + heel-pain/plantar-fasciitis/Achilles/hallux-valgus 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 5
 source_count_external: 5
 source_count_clinic_pillar: 0
@@ -62,7 +62,7 @@ version: 2
 
 [초음파 유도 주사](/treatments/ultrasound-guided-injection/), 증식치료, [PRP 주사](/treatments/prp-injection/)·PRF 같은 자가활성화세포 기반 재생주사는 족저근막염·건병증·일부 관절/인대성 통증에서 선택적으로 논의할 수 있습니다. 다만 발 통증 전체에 일괄 적용하는 치료가 아니라, 구조 평가와 보존 치료 반응을 본 뒤 선택하는 옵션으로 설명해야 합니다.
 
-비즈니스 콘텐츠에서는 발 통증을 “발뒤꿈치 첫발형”, “아킬레스 뒤꿈치형”, “앞발 과부하형”, “엄지발가락 변형형”, “저림 신경형”, “외상·피로골절형”으로 나누면 안전합니다. 이 구조가 ESWT, 초음파 평가, 보조기·운동치료, 선택적 재생주사, 수술 의뢰 기준을 자연스럽게 연결합니다.
+임상 설명에서는 발 통증을 “발뒤꿈치 첫발형”, “아킬레스 뒤꿈치형”, “앞발 과부하형”, “엄지발가락 변형형”, “저림 신경형”, “외상·피로골절형”으로 나누면 안전합니다. 이 구조가 ESWT, 초음파 평가, 보조기·운동치료, 선택적 재생주사, 수술 의뢰 기준을 자연스럽게 연결합니다.
 
 ---
 
@@ -77,4 +77,4 @@ version: 2
 [^5]: [Hecht PJ, Lin TJ. Hallux valgus. Med Clin North Am. 2014;98(2):227-232. PMID 24559871](https://pubmed.ncbi.nlm.nih.gov/24559871/)
 
 ## Changelog
-- 2026-07-03 v2: frontmatter-only stub을 발 통증 symptom hub로 확장. heel-pain/plantar-fasciitis/achilles-tendinitis/hallux-valgus 및 ESWT/ultrasound-guided-injection/PRP 치료 허브와 연결. noindex 제거, source_count 5, verified 발행.
+- 2026-07-03 v2: 내용 업데이트.

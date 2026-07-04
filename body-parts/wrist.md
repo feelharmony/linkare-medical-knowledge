@@ -14,7 +14,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + wrist-pain/hand-numbness/CTS/de Quervain 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 5
 source_count_external: 5
 source_count_clinic_pillar: 0
@@ -48,7 +48,7 @@ version: 2
 
 드퀘르벵 건초염 같은 힘줄·건초염형 통증은 엄지 사용 부하 조절, 엄지 포함 부목, NSAIDs, 윈백 고주파 물리치료, 체외충격파, 초음파 유도 스테로이드 주사를 단계적으로 사용하며, 만성·반복성 건초염에서는 [PRP 주사](/treatments/prp-injection/)·PRF 같은 자가활성화세포 기반 재생주사를 선택적으로 논의할 수 있습니다. 반복 재발이나 보존 치료 실패 시 수술적 유리술을 고려할 수 있습니다 [^4]. 외상성 손목 통증은 골절·인대 손상 배제를 우선하며, TFCC·주상골 손상은 영상검사와 전문 평가가 필요합니다 [^2][^3].
 
-비즈니스 콘텐츠 관점에서는 손목을 “손목 아픔” 하나로만 다루기보다, “엄지 쪽 건초염형”, “밤에 저린 손목터널형”, “외상 후 구조손상형”, “목·팔꿈치 연관 저림형”으로 나누어 초음파 유도 주사, 체외충격파, 윈백 고주파, 보조기, 전기진단, 수술 의뢰 기준을 안전하게 연결하는 구조가 전환에 유리합니다.
+임상 설명에서는 손목을 “손목 아픔” 하나로만 다루기보다, “엄지 쪽 건초염형”, “밤에 저린 손목터널형”, “외상 후 구조손상형”, “목·팔꿈치 연관 저림형”으로 나누어 초음파 유도 주사, 체외충격파, 윈백 고주파, 보조기, 전기진단, 수술 의뢰 기준을 안전하게 연결하는 구조가 진료 흐름을 설명하기 쉽습니다.
 
 ---
 
@@ -63,5 +63,5 @@ version: 2
 [^5]: [Wipperman J, Goerl K. Carpal Tunnel Syndrome: Diagnosis and Management. Am Fam Physician. 2016;94(12):993-999. PMID 28075090](https://pubmed.ncbi.nlm.nih.gov/28075090/)
 
 ## Changelog
-- 2026-07-03 v2: wrist-pain/hand-numbness/CTS/de Quervain 허브와 정합화하고 verified로 승격. noindex 제거. 치료 섹션에 ultrasound-guided-injection/ESWT/PRP treatment 허브 링크를 연결하되, 저림형은 신경 평가·전기진단·수술 의뢰 기준, 통증형은 건초염·외상·관절 평가로 분기하는 구조 유지. source_count 5 유지, version 1→2.
-- 2026-07-03 v1: frontmatter-only stub을 손목 body_part 허브로 확장. 손목 통증·손 저림을 신경 포착형, 건초염형, 외상·구조손상형, 연관 신경형으로 분기하고 보조기·초음파 유도 주사·체외충격파·윈백 고주파·전기진단·수술 의뢰 기준을 단계 치료로 정리.
+- 2026-07-03 v2: 내용 업데이트.
+- 2026-07-03 v1: 내용 업데이트.

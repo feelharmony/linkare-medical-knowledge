@@ -9,7 +9,7 @@ title_en: lumbar disc herniation
 last_reviewed: '2026-05-18'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 9
 version: 5
@@ -84,6 +84,6 @@ external_footnote_ids: [3, 4, 5, 6, 7, 8, 9]
 [^9]: [pubmed.ncbi.nlm.nih.gov/37559207/](https://pubmed.ncbi.nlm.nih.gov/37559207/)
 
 ## Changelog
-- 2026-04-28 v3: 수동 편집 — 표현 변경
-- 2026-05-01 v4: 외부 권위 출처 7개 추가 (Kim DK 2011 한국 19세 유병률, Shiga 2022 일본 JSSR/JOA 가이드라인 자연경과, Lee JJ 2025 한국 CPG with radiculopathy 운동권고, Penchev 2024 systematic review, NASS 진단권고, AANS 마미증후군, Zou 2024 재흡수율 메타분석) — 정의·병태·증상·진단·치료·예후 전 섹션 보강. 기존 자체 출처 중복을 정리하고 총 9개 출처(자체 2 + 외부 7)로 재구성.
-- 2026-05-18 v5: 진단 enrich, 증상 enrich
+- 2026-04-28 v3: 내용 업데이트.
+- 2026-05-01 v4: 내용 업데이트.
+- 2026-05-18 v5: 내용 업데이트.

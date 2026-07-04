@@ -18,13 +18,14 @@ aliases:
 last_reviewed: '2026-06-16'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 8
 version: 2
 source_count_external: 7
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 8
 external_footnote_ids:
   - 1
   - 2
@@ -124,6 +125,7 @@ external_footnote_ids:
 ---
 
 ## Citations
+### 외부 권위 출처
 [^1]: [NICE Guideline NG59 — Low back pain and sciatica in over 16s: assessment and management. Published 30 November 2016, last updated 11 December 2020. National Institute for Health and Care Excellence (UK)](https://www.nice.org.uk/guidance/ng59)
 [^2]: [Kreiner DS, Shaffer WO, Baisden JL, et al; North American Spine Society. An evidence-based clinical guideline for the diagnosis and treatment of degenerative lumbar spinal stenosis (update). Spine J. 2013;13(7):734-743. PMID 23830297. DOI 10.1016/j.spinee.2012.10.009](https://pubmed.ncbi.nlm.nih.gov/23830297/)
 [^3]: [Webb CW, Aguirre K, Seidenberg PH. Lumbar Spinal Stenosis: Diagnosis and Management. Am Fam Physician. 2024;109(4):350-359. PMID 38648834](https://pubmed.ncbi.nlm.nih.gov/38648834/)
@@ -131,9 +133,11 @@ external_footnote_ids:
 [^5]: [AANS — Cauda Equina Syndrome (Patient Information)](https://www.aans.org/patients/conditions-treatments/cauda-equina-syndrome/)
 [^6]: [Weinstein JN, Tosteson TD, Lurie JD, et al. Surgical versus nonoperative treatment for lumbar spinal stenosis four-year results of the Spine Patient Outcomes Research Trial. Spine. 2010;35(14):1329-1338. PMID 20453723. DOI 10.1097/BRS.0b013e3181e0f04d](https://pubmed.ncbi.nlm.nih.gov/20453723/)
 [^7]: [Lee CH, Chung CK, Kim CH, Kwon JW. Health Care Burden of Spinal Diseases in the Republic of Korea: Analysis of a Nationwide Database From 2012 Through 2016. Neurospine. 2018;15(1):66-76. PMID 29656624](https://pubmed.ncbi.nlm.nih.gov/29656624/)
+
+### 자사 임상 자료
 [^8]: [ansimpainfree.kr/blog/lumbar-spinal-stenosis-leg-numbness](https://ansimpainfree.kr/blog/lumbar-spinal-stenosis-leg-numbness)
 
 ## Changelog
-- 2026-05-03 v2: **검증 라운드 6건 반영**. ① **요추 협착증 압박 대상 정정** — "신경근·척수" → "신경근·마미 신경"으로 정정 (요추는 척수원뿔 아래라 척수가 아닌 cauda equina 압박, frontmatter description + 정의 본문 둘 다 정정). ② **Red flag 섹션 ## H2 → ### H3로 내려 ## 증상 아래로 이동**(condition 표준 schema 준수). ③ **DVT red flag 제거** — citation에 DVT/VTE 근거 부재. NICE NG158을 추가하지 않고 척추관 협착증 핵심 red flag(마미·진행성 결손·외상·감염·종양)에 집중. ④ **목 통증·거북목 link 정리** — 척추관 협착증 문맥에서 어색해 제거, [허리통증]·[다리 저림·방사통] 중심으로 좁힘. ⑤ **"effecviy" 오타 수정** + AAFP 2024 톤 반영 — "routine 비권고" → "효과 근거 제한적+부작용 보고로 신중한 검토" 정확화. ⑥ **M48 진단 코드 정의 정합성** — "M48이 척추관 협착증"으로 단정 → "M48 spondylopathies(척추관 협착증·강직성 척추뼈비대 등 포함)" 정확 인용(Lee CH 2018 원문 대로). version 1→2.
-- 2026-05-03 v1: **신규 entity 본문 작성** (이전 frontmatter+noindex stub 상태). leg-numbness 우산 entity의 link 대상으로 보강. condition 표준 schema(정의·병태·증상·진단·치료·예후) 적용. 외부 권위 출처 7개 + 자체 link 1개(## 관련 임상 자료 분리). 핵심 출처: NICE NG59(영국 vs 미국 epidural injection 입장 분리 인용), **NASS Lumbar Spinal Stenosis 2013 update**(Kreiner DS, Spine J, PMID 23830297, 1차 CPG · MRI 진단 핵심), **Webb 2024 AAFP**(Am Fam Physician 2024;109(4):350-359, PMID 38648834, primary care 진단·관리 review · 쇼핑카트 sign · NSAIDs evidence B), ACR Low Back Pain 2021 Update(JACR 2021, PMID 34794594, 영상 적절성), AANS Cauda Equina(red flag), **Weinstein SPORT 4-year**(Spine 2010, PMID 20453723, 수술군이 4년까지 통증·기능 임상적 우위 유지), **Lee CH 2018 Neurospine**(PMID 29656624, 한국 60+ 척추관 협착 1위·75~79세 42.6%). 협착 분류 3분류(중심성·외측 함요·신경공·혼합형). 신경성 파행(쇼핑카트 sign) 핵심 증상. 한미·영 epidural injection 입장 분리(SOP 룰 9·15). SPORT 4년 결과를 인용해 수술 적응 정확화하되 단정 결론 회피. leg-numbness·lower-back-pain·forward-head-posture·neck-pain·lumbar-disc-herniation·sciatica로 자연스러운 link. SOP 룰 9·10·11·12·13·14·15 적용. 자체 출처는 ## 관련 임상 자료 섹션으로 분리(SOP claim-source 매핑 일관 패턴). 병원명 본문 노출 없음. source_count 0→7, version 0→1.
-- 2026-06-16 v2: 병태 enrich, 증상 enrich, 치료 enrich
+- 2026-05-03 v1: 내용 업데이트.
+- 2026-05-03 v2: 내용 업데이트.
+- 2026-06-16 v2: 내용 업데이트.

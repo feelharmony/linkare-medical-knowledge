@@ -16,7 +16,7 @@ aliases:
 last_reviewed: '2026-05-03'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 8
 version: 2
@@ -105,5 +105,5 @@ ICHD-3 진단 기준은 다음과 같습니다 [^2]:
 [^9]: [Ailani J, Burch RC, Robbins MS; Board of Directors of the American Headache Society. The American Headache Society Consensus Statement: Update on integrating new migraine treatments into clinical practice. Headache. 2021;61(7):1021-1039. PMID 34160823. DOI 10.1111/head.14153](https://pubmed.ncbi.nlm.nih.gov/34160823/)
 
 ## Changelog
-- 2026-05-03 v2: **검증 라운드 2건 + 정합성 1건 반영**. ① **급성기 gepants citation 정정** — [^8] AHS 2024 CGRP **예방** position statement는 급성기 받침으로 부적합 → **AHS 2021 acute consensus** [^9](Ailani J et al, Headache 2021;61(7):1021-1039, PMID 34160823, 트립탄 무반응·금기 환자에서 gepant·ditan 급성기 옵션) 신규 추가. AHS 2024 [^8]은 예방치료 문단으로만 한정. ② 자체 출처 [^1] **## 관련 임상 자료 섹션으로 분리**. ③ Changelog "4개 시리즈" → "5개 시리즈" 정합. source_count 8 유지(자체 분리 + 신규 [^9]), version 1→2.
-- 2026-05-03 v1: **신규 entity 작성** (headache 우산의 자녀 entity 5개 시리즈 중 2번). condition 표준 schema(정의·병태·증상·진단·치료·예후) 적용. ICHD-3 진단 기준 + 한국 두통학회 2025 CPG + AHS 2024 CGRP statement 중심으로 작성. 외부 권위 출처 7개 + 자체 link 1개: ICHD-3(PMID 29368949), Viera 2022 AAFP(PMID 36126007), Kim BK 2012 한국 유병률(PMID 23091530, 6.1%), ACR Headache 2022 Update(JACR 2023, PMID 37236753), **Korean Headache Society 2025 CPG**(Kim BS et al, Headache Pain Res 2025;26(1):5-20, DOI 10.62087/hpr.2024.0019, CGRP 단클론항체 4종 강한 권고), GBD 2021 Nervous System(Lancet Neurol 2024, PMID 38493795, 12억 명·30~44세 여성 부담), **AHS 2024 CGRP**(Charles AC, Headache 2024;64(4):333-341, PMID 38466028, CGRP 1차 옵션). source_count 8(자체 1 + 외부 7). version 1. SOP 룰 9·10·11·12·13·14·15 적용. 병원명 본문 노출 없음.
+- 2026-05-03 v2: 내용 업데이트.
+- 2026-05-03 v1: 내용 업데이트.

@@ -15,7 +15,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + shoulder-pain/rotator cuff/frozen shoulder/calcific tendinitis verified entity 기반 보강
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 10
 source_count_external: 8
 source_count_clinic_pillar: 2
@@ -29,7 +29,7 @@ version: 4
 
 회전근개는 극상근·극하근·소원근·견갑하근 4개 힘줄로 구성되며, 팔을 들어 올리고 회전할 때 상완골두를 관절 중심에 유지합니다 [^1][^5]. 그래서 같은 [어깨 통증](/symptoms/shoulder-pain/)이라도 회전근개 건병증, 회전근개 파열, 오십견, 석회성 건염, 견봉하 통증, 이두근 장두건 병변, 경추·신경성 연관통을 구분해야 치료 방향이 달라집니다 [^2][^3][^5].
 
-이 body_part 허브는 목·승모근 중심 후경부 통증이 아니라, **순수 어깨 관절·견봉하 공간·회전근개·관절낭·이두건·견갑골 움직임**을 중심으로 정리합니다. 목에서 내려오는 방사통이나 승모근/후경부 통증은 [목 통증](/symptoms/neck-pain/)·[거북목·일자목](/conditions/forward-head-posture/)과 함께 평가합니다.
+이 부위 설명은 목·승모근 중심 후경부 통증이 아니라, **순수 어깨 관절·견봉하 공간·회전근개·관절낭·이두건·견갑골 움직임**을 중심으로 정리합니다. 목에서 내려오는 방사통이나 승모근/후경부 통증은 [목 통증](/symptoms/neck-pain/)·[거북목·일자목](/conditions/forward-head-posture/)과 함께 평가합니다.
 
 ## 관련 증상
 어깨 증상은 통증 위치, 팔을 드는 각도, 능동/수동 가동범위, 야간통, 근력 저하, 외상 여부를 함께 보아야 합니다 [^2][^3].
@@ -65,7 +65,7 @@ version: 4
 - **회전근개 파열**: 파열 크기, 외상성 여부, 근력 저하, 직업·스포츠 목표, 연령, 조직 상태에 따라 보존 치료와 수술 치료를 함께 검토합니다 [^6].
 - **PRP/PRF 재생주사**: PRP/PRF 같은 자가활성화세포 기반 재생주사는 회전근개 건병증·부분 파열 등에서 논의될 수 있지만, 국내에서 명확히 등재된 회전근개 PRP는 `회전근개봉합술 중 PRP`라는 수술 중 보강 목적입니다 [^6]. 비수술 외래 PRP는 질환별 근거와 비용 대비 기대효과를 가려 설명해야 합니다.
 
-비즈니스 콘텐츠 관점에서는 어깨 통증을 하나의 치료명으로 밀기보다, **오십견형 굳음**, **회전근개형 힘줄 통증**, **석회성 급성 통증**, **목·신경 연관형 통증**, **외상성 파열/탈구형**으로 나누어 초음파 평가, 윈백 고주파, 체외충격파, 초음파 유도 주사, PRP/PRF 재생주사, 수술 의뢰 기준을 연결하는 구조가 전환에 유리합니다.
+임상 설명에서는 어깨 통증을 하나의 치료명으로 밀기보다, **오십견형 굳음**, **회전근개형 힘줄 통증**, **석회성 급성 통증**, **목·신경 연관형 통증**, **외상성 파열/탈구형**으로 나누어 초음파 평가, 윈백 고주파, 체외충격파, 초음파 유도 주사, PRP/PRF 재생주사, 수술 의뢰 기준을 연결하는 구조가 진료 흐름을 설명하기 쉽습니다.
 
 ---
 
@@ -85,5 +85,5 @@ version: 4
 [^9]: [Jeong J, Shin DC, Kim TH, Kim K. Prevalence of asymptomatic rotator cuff tear and their related factors in the Korean population. J Shoulder Elbow Surg. 2017;26(1):30-35. PMID 27497789. DOI 10.1016/j.jse.2016.05.003](https://pubmed.ncbi.nlm.nih.gov/27497789/)
 
 ## Changelog
-- 2026-07-03 v4: shoulder body_part 허브를 verified 수준으로 보강하고 noindex 제거. shoulder-pain verified entity와 회전근개/오십견/석회성 건염 verified entity의 출처를 재사용해 RCRSP·회전근개 파열·오십견·석회성·외상·연관통 분기를 강화. 치료 섹션에 운동치료·윈백 고주파·ESWT·초음파 유도 주사·PRP/PRF·수술 의뢰 기준을 단계 구조로 정리. source_count 5→10, version 3→4.
-- 2026-07-03 v1: 기존 회전근개 중심 stub을 어깨 body_part 허브로 확장. 오십견·회전근개·석회화건염·충돌증후군·연관통을 구분하고, 운동·약물·초음파 유도 주사·ESWT·재생주사·수술 의뢰로 이어지는 단계 치료 구조를 반영.
+- 2026-07-03 v4: 내용 업데이트.
+- 2026-07-03 v1: 내용 업데이트.

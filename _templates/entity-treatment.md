@@ -150,4 +150,4 @@ version: 1
 
 ## Changelog
 
-- YYYY-MM-DD v1: **신규 entity 발행** — <어떤 외부 권위 출처로 어떤 섹션을 받쳤는지>, source_count_external 0→N. <검증 라운드 반영 사항>.
+- YYYY-MM-DD v1: 신규 entity 발행 — <어떤 외부 권위 출처로 어떤 섹션을 받쳤는지>, source_count_external 0→N. <주요 변경 사항>.

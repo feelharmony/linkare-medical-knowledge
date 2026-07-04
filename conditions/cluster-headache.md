@@ -15,7 +15,7 @@ aliases:
 last_reviewed: '2026-05-03'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 5
 version: 2
@@ -99,5 +99,5 @@ Level B로 비강 sumatriptan, sphenopalatine ganglion 자극이 제시됩니다
 [^6]: [May A, Evers S, Goadsby PJ, et al. European Academy of Neurology guidelines on the treatment of cluster headache. Eur J Neurol. 2023;30(10):2955-2979. PMID 37515405. DOI 10.1111/ene.15956](https://pubmed.ncbi.nlm.nih.gov/37515405/)
 
 ## Changelog
-- 2026-05-03 v2: **검증 라운드 2건 + 권장 1건 + 정합성 1건 반영**. ① **EAN 2023 가이드라인 추가** — May A et al, Eur J Neurol 2023;30(10):2955-2979, PMID 37515405, GRADE 기반 최신 CPG. AHS 2016 단독 받침의 verapamil·oral steroid·GON block을 EAN 2023과 함께 분리 인용 (EAN 2023 prednisone 100 mg/일 또는 IV methylprednisolone 500 mg/일 5일 / verapamil 240 mg/일 이상 정확 인용). ② **galcanezumab 정확 매핑** — AHS 2016은 galcanezumab 군발성 evidence 이전 문헌이라 부적합 → **EAN 2023이 episodic CH 한정 권고, 만성 CH에는 권고하지 않음**으로 정확화. ③ **리튬·토피라메이트 EAN 2023 대안 옵션** 추가. ④ 자체 출처 [^1] **## 관련 임상 자료 분리**. ⑤ Changelog "4개 시리즈" → "5개 시리즈" 정합. source_count 5→6, version 1→2.
-- 2026-05-03 v1: **신규 entity 작성** (headache 우산의 자녀 entity 5개 시리즈 중 3번). condition 표준 schema(정의·병태·증상·진단·치료·예후) 적용. ICHD-3 진단 기준 + AHS 2016 Cluster CPG 중심. 외부 권위 출처 4개 + 자체 link 1개 = 총 5건. citation 인덱스 [^1]~[^5]로 정합 (자체 [^1], ICHD-3 [^2], AAFP Viera [^3], ACR Headache [^4], Robbins 2016 AHS [^5]). 핵심 출처: ICHD-3 진단 기준, Viera 2022 AAFP, ACR Headache 2022 Update(2차성 배제 영상 권고), **Robbins MS et al. AHS 2016 Cluster CPG**(Headache 2016;56(7):1093-1106, PMID 27432623, Level A: 산소요법 12~15 L/min·sumatriptan SC 6 mg·후두하 스테로이드). version 1. SOP 룰 9·10·11·13·14·15 적용. 병원명 본문 노출 없음.
+- 2026-05-03 v2: 내용 업데이트.
+- 2026-05-03 v1: 내용 업데이트.

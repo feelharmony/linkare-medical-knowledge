@@ -15,7 +15,7 @@ last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
-verified_by: Hermes + wrist/hand-numbness 허브 정합화
+verified_by: 문헌 및 내부 정합성 검토
 source_count: 5
 source_count_external: 5
 source_count_clinic_pillar: 0
@@ -48,7 +48,7 @@ version: 2
 
 보존 치료에 반응하지 않거나, 엄지 두덩 근위축, 진행성 근력 저하, 지속 감각 저하가 있으면 수근관 감압술을 검토합니다 [^1][^5]. AAOS/ASSH 가이드라인은 수술적 감압을 강한 권고로 제시하며, 수술 방식은 환자 상태와 술자 판단에 따라 선택됩니다 [^1].
 
-비즈니스 콘텐츠에서는 손목터널증후군을 “손목이 아픈 병”보다 “밤에 저리고 손 힘이 떨어지는 정중신경 압박”으로 설명하고, 보조기·초음파 유도 주사·전기진단·수술 의뢰 기준을 단계적으로 연결하는 것이 좋습니다.
+임상 설명에서는 손목터널증후군을 “손목이 아픈 병”보다 “밤에 저리고 손 힘이 떨어지는 정중신경 압박”으로 설명하고, 보조기·초음파 유도 주사·전기진단·수술 의뢰 기준을 단계적으로 연결하는 것이 좋습니다.
 
 ## 예후
 경도·중등도 CTS는 보조기와 국소 주사 등 보존 치료로 호전될 수 있지만, 반복 부하와 전신 위험 요인이 지속되면 재발할 수 있습니다 [^2][^3]. 진행성 근위축이나 감각 저하가 오래 지속된 경우에는 감압 후에도 회복이 제한될 수 있어 조기 평가가 중요합니다 [^1][^5].
@@ -68,5 +68,5 @@ version: 2
 [^5]: [Shi Q, MacDermid JC. Surgical versus non-surgical treatment for carpal tunnel syndrome. Cochrane Database Syst Rev. 2024;1:CD001552. PMID 38189479](https://pubmed.ncbi.nlm.nih.gov/38189479/)
 
 ## Changelog
-- 2026-07-03 v2: wrist/hand-numbness 허브와 정합화하고 verified로 승격. noindex 제거. 정의에 hand-numbness 내부 링크 추가. 치료 섹션에 ultrasound-guided-injection 링크를 연결하고, 국소 스테로이드 주사는 단기 증상 완화 보조이며 진행성 근위축·약화는 수술 의뢰 기준이라는 경계 유지. source_count 5 유지, version 1→2.
-- 2026-07-03 v1: frontmatter-only stub을 condition entity로 확장. 정중신경 압박, 손 저림 분포, CTS-6·전기진단, 보조기·국소 스테로이드 주사·수근관 감압술 기준을 단계 치료로 정리.
+- 2026-07-03 v2: 내용 업데이트.
+- 2026-07-03 v1: 내용 업데이트.

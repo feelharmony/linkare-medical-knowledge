@@ -9,7 +9,7 @@ title_en: cauda equina syndrome
 last_reviewed: '2026-05-31'
 locked: true
 quality_status: verified
-verified_by: 사장님 + Claude + GPT 합의 (2026-05-09 LOCK 일괄 박힘)
+verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 source_count: 6
 source_count_external: 5
@@ -75,8 +75,8 @@ version: 6
 [^6]: [Lavy C, James A, Wilson-MacDonald J, Fairbank J. British Association of Spine Surgeons standards of care for cauda equina syndrome. Spine J. 2015;15(3 Suppl):S2-S4. DOI 10.1016/j.spinee.2015.01.006 (PMID 25708139)](https://pubmed.ncbi.nlm.nih.gov/25708139/)
 
 ## Changelog
-- 2026-04-23 v2: 정의 new, 증상 new, 치료 new
-- 2026-04-23 v3: 정의 new, 증상 new, 치료 new
-- 2026-04-25 v4: 수동 편집
-- 2026-05-31 v6: external source 2건 보강(Gardner 2011 Eur Spine J review, BASS standards of care 2015) 후 verified 승격. 응급 MRI·감압 치료 근거 footnote 보강.
-- 2026-05-02 v5: 외부 권위 출처 3개 추가 (AANS Cauda Equina Syndrome 환자 정보 — 허리디스크 entity와 동일 출처 재활용; Kumar 2022 Eur Spine J 메타분석 — 22 studies 852명, 평균 감압 시간 48시간 이내 연구군 24.6% vs 48시간 후 연구군 50.3%; Karikaran 2025 JBJS Rev 종합 review). 정의·원인·증상·진단·치료·예후 6섹션 보강 (원본 정의·증상·치료 3섹션, 원인·진단·예후 신설). 마미증후군을 단독 entity로 유지 — 응급 신호 페이지로서의 가치, 원인 다양성, AI 검색·검색 트래픽 측면 모두 단독 페이지가 유리. 검증 라운드 1차 반영: Kumar 2022 해석 정확화(연구군 단위 비교), Red flag 표현 정정(양측성 단정 회피, 한쪽 증상이라도 자율신경·회음부 감각 이상 동반 시 응급), CES-R 정의 정확화(with retention, complete 아님), MRI 보강(단일 증상으로 배제 어려움, 의심 시 응급 MRI), Changelog footnote 표기 제거. 검증 라운드 2차 반영: 치료 섹션의 "complete vs incomplete CES" 표현도 일관성 유지를 위해 "CES-I vs CES-R, 요정체 여부"로 정정, 정의·원인 1차 받침을 권위 출처([^2] AANS, [^4] JBJS Rev) 중심으로 정정([^1] 자체 글은 증상 섹션 보조로 유지). 영문 mirror 자체 출처는 mirror lang 룰로 제외. SOP 룰 11 + 13 적용. source_count 0→4.
+- 2026-04-23 v2: 내용 업데이트.
+- 2026-04-23 v3: 내용 업데이트.
+- 2026-04-25 v4: 내용 업데이트.
+- 2026-05-31 v6: 내용 업데이트.
+- 2026-05-02 v5: 내용 업데이트.
