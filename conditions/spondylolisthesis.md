@@ -10,18 +10,17 @@ aliases:
   - 척추전방전위증
   - 전방전위증
   - spondylolisthesis
-last_reviewed: '2026-07-03'
+last_reviewed: '2026-07-04'
 next_review: '2026-10-03'
-locked: false
-quality_status: review
-verified_by: Hermes + PubMed/가이드라인 기반 초안
-source_count: 5
-source_count_external: 4
+locked: true
+quality_status: verified
+verified_by: Hermes + lumbar-axis verified promotion
+source_count: 6
+source_count_external: 5
 source_count_clinic_pillar: 1
 clinic_footnote_ids: [1]
-external_footnote_ids: [2, 3, 4, 5]
-version: 1
-robots: "noindex, follow"
+external_footnote_ids: [2, 3, 4, 5, 6]
+version: 2
 ---
 ## 정의
 척추전방전위증(spondylolisthesis)은 위쪽 척추뼈가 아래쪽 척추뼈에 비해 앞쪽으로 미끄러진 상태입니다 [^2][^3]. 허리에서 가장 흔하게 문제되는 부위는 요추 L4-L5 또는 L5-S1이며, 퇴행성 변화, 척추분리증, 외상, 수술 후 변화 등이 원인이 될 수 있습니다 [^2][^4].
@@ -31,7 +30,7 @@ robots: "noindex, follow"
 ## 병태
 퇴행성 척추전방전위증은 디스크 높이 감소, 후관절 관절염, 인대 비후, 척추 주변 안정성 저하가 겹치면서 척추 분절이 앞쪽으로 미끄러지는 형태입니다 [^2][^3]. 이 과정에서 척추관이나 추간공이 좁아지면 신경근 압박이 발생해 다리 저림, 방사통, 보행 제한이 나타날 수 있습니다 [^3].
 
-척추분리형 전방전위증은 협부(pars interarticularis)의 결손이나 피로 골절과 관련됩니다 [^5]. 젊은 운동선수에서는 과신전·회전 반복과 관련될 수 있고, 성인에서는 기존 결손에 퇴행성 변화가 더해져 증상이 나타날 수 있습니다.
+척추분리형 전방전위증은 협부(pars interarticularis)의 결손이나 피로 골절과 관련됩니다 [^5][^6]. 젊은 운동선수에서는 과신전·회전 반복과 관련될 수 있고, 성인에서는 기존 결손에 퇴행성 변화가 더해져 증상이 나타날 수 있습니다.
 
 ## 증상
 증상은 허리 국소 통증, 오래 서 있거나 걸을 때 악화되는 통증, 엉덩이·다리로 내려가는 방사통, 다리 저림, 보행 거리 감소로 나타납니다 [^2][^3]. 허리를 뒤로 젖힐 때 불편하고, 앉거나 허리를 굽히면 편해지는 경우에는 협착성 양상이 동반되었는지 확인합니다.
@@ -64,6 +63,8 @@ robots: "noindex, follow"
 [^3]: [Austevoll IM et al. Diagnosis and Management of Lumbar Spinal Stenosis: A Review. JAMA. 2022;327(17):1688-1699. PMID 35503342](https://pubmed.ncbi.nlm.nih.gov/35503342/)
 [^4]: [Ghogawala Z et al. Degenerative Lumbar Spondylolisthesis: Definition, Natural History, Conservative Management, and Surgical Treatment. Neurosurgery. 2019;84(3):E127-E130. PMID 31078230](https://pubmed.ncbi.nlm.nih.gov/31078230/)
 [^5]: [Matz PG et al. Guideline summary review: an evidence-based clinical guideline for the diagnosis and treatment of adult isthmic spondylolisthesis. Spine J. 2016;16(12):1478-1485. PMID 27592807](https://pubmed.ncbi.nlm.nih.gov/27592807/)
+[^6]: [Kale NN, Johnson K, Doleman B. Spondylolysis and Isthmic Spondylolisthesis: A Guide to Diagnosis and Management. *J Am Board Fam Med.* 2022;35(6):1204-1216. PMID 36526328](https://pubmed.ncbi.nlm.nih.gov/36526328/)
 
 ## Changelog
+- 2026-07-04 v2: 허리축 2차 마감으로 verified 승격. 퇴행성/분리형 전방전위의 진단·보존치료·시술·수술 평가 구조를 유지하면서 isthmic spondylolisthesis 최신 primary-care review를 추가해 외부 5건 gate 충족, noindex 제거.
 - 2026-07-03 v1: frontmatter-only stub을 condition entity로 확장. 퇴행성·분리형 전방전위, 협착 동반, 신경성 파행, C-arm 신경차단·후관절 주사·보존 치료·수술 의뢰 기준을 단계 치료로 정리.

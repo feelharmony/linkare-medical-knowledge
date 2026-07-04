@@ -828,13 +828,15 @@
     "name_ko": "척추전방전위증",
     "name_en": "spondylolisthesis",
     "aliases": [
-      "전방전위증"
+      "척추전방전위증",
+      "전방전위증",
+      "spondylolisthesis"
     ],
-    "description_ko": "척추뼈가 앞으로 미끄러지는 질환",
+    "description_ko": "위쪽 척추뼈가 아래쪽 척추뼈에 비해 앞쪽으로 미끄러져 허리통증, 신경성 파행, 다리 방사통을 유발할 수 있는 질환",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 1
+    "last_reviewed": "2026-07-04",
+    "source_count": 6,
+    "version": 2
   },
   {
     "id": "rehabilitation-therapy",
@@ -934,16 +936,21 @@
   {
     "id": "discogenic-pain",
     "type": "condition",
-    "name_ko": "추간판 내장증",
-    "name_en": "internal disc derangement",
+    "name_ko": "디스크성 허리통증",
+    "name_en": "discogenic low back pain",
     "aliases": [
-      "디스크 내장증"
+      "디스크성 허리통증",
+      "디스크성 요통",
+      "추간판성 통증",
+      "discogenic pain",
+      "discogenic low back pain",
+      "internal disc disruption"
     ],
-    "description_ko": "추간판 탈출 없이 디스크 내부 변성으로 발생하는 통증",
-    "status": "archived",
-    "last_reviewed": "2026-05-03",
-    "source_count": 0,
-    "version": 1
+    "description_ko": "신경근 압박보다 추간판 자체의 섬유륜 균열·퇴행·염증성 변화가 중심이 되는 축성 허리통증. 허리디스크·협착과 구분해 보존치료와 선택적 중재를 판단합니다.",
+    "status": "approved",
+    "last_reviewed": "2026-07-04",
+    "source_count": 5,
+    "version": 3
   },
   {
     "id": "carpal-tunnel-syndrome",
@@ -1510,18 +1517,38 @@
     "version": 2
   },
   {
+    "id": "lower-back",
+    "type": "body_part",
+    "name_ko": "허리",
+    "name_en": "lower back",
+    "aliases": [
+      "허리",
+      "요부",
+      "lower back",
+      "low back"
+    ],
+    "description_ko": "요추, 천장관절, 골반, 근육·인대·디스크·신경근이 함께 관여하는 하부 척추 부위",
+    "status": "approved",
+    "last_reviewed": "2026-07-04",
+    "source_count": 7,
+    "version": 3
+  },
+  {
     "id": "lumbar-spine",
     "type": "body_part",
     "name_ko": "요추",
     "name_en": "lumbar spine",
     "aliases": [
-      "허리뼈"
+      "요추",
+      "허리뼈",
+      "lumbar spine",
+      "L-spine"
     ],
-    "description_ko": "허리 부위의 척추",
+    "description_ko": "허리를 이루는 5개의 척추 분절과 디스크, 후관절, 척추관, 신경근이 포함된 하부 척추 구조",
     "status": "approved",
-    "last_reviewed": null,
-    "source_count": 0,
-    "version": 1
+    "last_reviewed": "2026-07-04",
+    "source_count": 7,
+    "version": 3
   },
   {
     "id": "leg",

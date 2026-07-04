@@ -430,6 +430,16 @@
       ]
     },
     {
+      "id": "discogenic-pain",
+      "type": "condition",
+      "name_ko": "디스크성 허리통증",
+      "name_en": "discogenic low back pain",
+      "post_count": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
       "id": "cervical-spine",
       "type": "body_part",
       "name_ko": "경추",
@@ -528,6 +538,16 @@
       "post_count": 3,
       "tenant_keys": [
         null
+      ]
+    },
+    {
+      "id": "lower-back",
+      "type": "body_part",
+      "name_ko": "허리",
+      "name_en": "lower back",
+      "post_count": 1,
+      "tenant_keys": [
+        "apfree"
       ]
     },
     {
@@ -1838,6 +1858,94 @@
       ]
     },
     {
+      "source": "lower-back",
+      "target": "lower-back-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lower-back",
+      "target": "lumbar-spine",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lower-back",
+      "target": "scoliosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lower-back",
+      "target": "spondylolisthesis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lower-back",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lower-back",
+      "target": "lumbar-disc-herniation",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lower-back",
+      "target": "sciatica",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lower-back",
+      "target": "nerve-block-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lower-back",
+      "target": "manual-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "lower-back",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "discogenic-pain",
+      "target": "lower-back",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
       "source": "lower-back-pain",
       "target": "lumbar-spine",
       "weight": 1,
@@ -1879,6 +1987,14 @@
     },
     {
       "source": "exercise-therapy",
+      "target": "lower-back-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "discogenic-pain",
       "target": "lower-back-pain",
       "weight": 1,
       "tenant_keys": [
@@ -1950,6 +2066,14 @@
       ]
     },
     {
+      "source": "discogenic-pain",
+      "target": "lumbar-spine",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
       "source": "scoliosis",
       "target": "spondylolisthesis",
       "weight": 1,
@@ -1999,6 +2123,14 @@
     },
     {
       "source": "exercise-therapy",
+      "target": "scoliosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "discogenic-pain",
       "target": "scoliosis",
       "weight": 1,
       "tenant_keys": [
@@ -2054,6 +2186,14 @@
       ]
     },
     {
+      "source": "discogenic-pain",
+      "target": "spondylolisthesis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
       "source": "lumbar-disc-herniation",
       "target": "spinal-stenosis",
       "weight": 1,
@@ -2094,7 +2234,23 @@
       ]
     },
     {
+      "source": "discogenic-pain",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
       "source": "exercise-therapy",
+      "target": "lumbar-disc-herniation",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "discogenic-pain",
       "target": "lumbar-disc-herniation",
       "weight": 1,
       "tenant_keys": [
@@ -2110,7 +2266,23 @@
       ]
     },
     {
+      "source": "discogenic-pain",
+      "target": "sciatica",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
       "source": "exercise-therapy",
+      "target": "nerve-block-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "discogenic-pain",
       "target": "nerve-block-injection",
       "weight": 1,
       "tenant_keys": [
@@ -2120,6 +2292,22 @@
     {
       "source": "exercise-therapy",
       "target": "manual-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "discogenic-pain",
+      "target": "manual-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "discogenic-pain",
+      "target": "exercise-therapy",
       "weight": 1,
       "tenant_keys": [
         "apfree"

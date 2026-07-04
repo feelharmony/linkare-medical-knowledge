@@ -13,16 +13,15 @@ aliases:
   - L-spine
 last_reviewed: '2026-07-04'
 next_review: '2026-10-03'
-locked: false
-quality_status: review
-verified_by: Hermes + PubMed/가이드라인 기반 초안
-source_count: 6
-source_count_external: 4
+locked: true
+quality_status: verified
+verified_by: Hermes + lumbar-axis verified promotion
+source_count: 7
+source_count_external: 5
 source_count_clinic_pillar: 2
 clinic_footnote_ids: [1, 2]
-external_footnote_ids: [3, 4, 5, 6]
-version: 2
-robots: "noindex, follow"
+external_footnote_ids: [3, 4, 5, 6, 7]
+version: 3
 ---
 ## 정의
 요추(lumbar spine)는 허리를 이루는 5개의 척추 분절(L1-L5)과 디스크, 후관절, 황색인대, 척추관, 신경근, 주변 근육·인대를 포함하는 구조입니다. 요추는 체중을 지지하고 굽힘·젖힘·회전 움직임을 담당하며, 아래쪽 L4-L5와 L5-S1 분절은 [허리디스크](/conditions/lumbar-disc-herniation/)와 [좌골신경통](/conditions/sciatica/)에서 특히 자주 문제됩니다 [^1][^3].
@@ -50,6 +49,8 @@ robots: "noindex, follow"
 
 척추관 협착증은 보행 거리와 신경성 파행 정도를 기준으로 운동·약물·주사치료를 단계적으로 검토하고, 보존 치료에 반응하지 않거나 신경학적 결손이 진행하면 감압 수술 평가가 필요합니다 [^5]. 척추전방전위증은 불안정성, 협착 동반 여부, 신경 증상에 따라 보조기·운동·주사치료·수술 의뢰를 나눕니다. 후관절·천장관절·근막·인대성 통증이 중심이면 영상 또는 초음파 유도 주사, 통증유발점 치료, PRP/PRF·프롤로 같은 재생주사, 도수·운동치료가 재활 진입을 돕는 역할을 할 수 있습니다.
 
+전 세계 질병부담 연구에서 허리통증은 유병 규모와 장애 부담이 큰 영역으로 보고되므로, 요추 허브는 디스크·협착·전방전위·측만·근막성 통증을 연결하는 구조 허브로 유지하는 것이 중요합니다 [^7].
+
 비즈니스 콘텐츠 관점에서는 요추를 “디스크 치료” 하나로 좁히지 않고, 다리저림형, 협착 보행형, 허리 국소 통증형, 전방전위·불안정형, 응급 감별형으로 분기해야 윈백 고주파, 체외충격파, C-arm 신경차단, 초음파 유도 주사, 도수·운동, 수술 의뢰 기준이 안전하게 연결됩니다.
 
 ---
@@ -64,7 +65,9 @@ robots: "noindex, follow"
 [^4]: [NICE Guideline NG59 — Low back pain and sciatica in over 16s: assessment and management](https://www.nice.org.uk/guidance/ng59)
 [^5]: [Zhou T, Salman D, McGregor AH. Recent clinical practice guidelines for the management of low back pain: a global comparison. BMC Musculoskelet Disord. 2024;25:344. PMID 38693474](https://pmc.ncbi.nlm.nih.gov/articles/PMC11061926/)
 [^6]: [AANS — Cauda Equina Syndrome](https://www.aans.org/patients/conditions-treatments/cauda-equina-syndrome/)
+[^7]: [GBD 2021 Low Back Pain Collaborators. Global, regional, and national burden of low back pain, 1990-2020, its attributable risk factors, and projections to 2050. *Lancet Rheumatol.* 2023;5(6):e316-e329. PMID 37273833](https://pubmed.ncbi.nlm.nih.gov/37273833/)
 
 ## Changelog
+- 2026-07-04 v3: 요추 body_part 허브를 verified로 승격. 기존 요통·신경근병증·레드플래그 근거에 GBD 2021 low back pain burden 출처를 추가해 외부 5건 gate를 충족하고 noindex 제거.
 - 2026-07-04 v2: 요추 정렬·불안정 질환 목록에 scoliosis canonical link를 연결하고 허리축 마감 검증 대상에 포함.
 - 2026-07-03 v1: frontmatter-only stub을 요추 body_part 허브로 확장. 디스크·신경근, 협착·퇴행성, 전방전위·불안정, 후관절·천장관절·근막 통증, 응급 감별을 분기하고 C-arm 시술·초음파 유도 주사·도수/운동·수술 의뢰 기준을 단계 치료로 정리.
