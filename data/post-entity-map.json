@@ -395,9 +395,19 @@
     "source_article_title": "허리 통증, 병원 선택이 치료 결과를 바꾼다 — 진단·치료·재발 방지 기준",
     "primary_entity_id": "lower-back",
     "entity_ids": [
-      "lower-back"
+      "lower-back",
+      "lower-back-pain",
+      "lumbar-spine",
+      "scoliosis",
+      "spondylolisthesis",
+      "spinal-stenosis",
+      "lumbar-disc-herniation",
+      "sciatica",
+      "nerve-block-injection",
+      "manual-therapy",
+      "exercise-therapy"
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-07-04",
     "sub_topic_type": null,
     "is_pillar": true,
     "tenant_key": "apfree"

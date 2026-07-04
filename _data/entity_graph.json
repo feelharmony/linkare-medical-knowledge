@@ -55,9 +55,10 @@
       "type": "condition",
       "name_ko": "허리디스크",
       "name_en": "lumbar disc herniation",
-      "post_count": 5,
+      "post_count": 6,
       "tenant_keys": [
-        null
+        null,
+        "apfree"
       ]
     },
     {
@@ -75,9 +76,10 @@
       "type": "treatment",
       "name_ko": "신경차단술",
       "name_en": "nerve block injection",
-      "post_count": 5,
+      "post_count": 6,
       "tenant_keys": [
-        null
+        null,
+        "apfree"
       ]
     },
     {
@@ -195,9 +197,10 @@
       "type": "symptom",
       "name_ko": "허리통증",
       "name_en": "lower back pain",
-      "post_count": 3,
+      "post_count": 4,
       "tenant_keys": [
-        null
+        null,
+        "apfree"
       ]
     },
     {
@@ -216,9 +219,10 @@
       "type": "condition",
       "name_ko": "좌골신경통",
       "name_en": "sciatica",
-      "post_count": 4,
+      "post_count": 5,
       "tenant_keys": [
-        null
+        null,
+        "apfree"
       ]
     },
     {
@@ -246,9 +250,10 @@
       "type": "treatment",
       "name_ko": "운동치료",
       "name_en": "exercise therapy",
-      "post_count": 4,
+      "post_count": 5,
       "tenant_keys": [
-        null
+        null,
+        "apfree"
       ]
     },
     {
@@ -352,6 +357,36 @@
       "post_count": 4,
       "tenant_keys": [
         null
+      ]
+    },
+    {
+      "id": "spinal-stenosis",
+      "type": "condition",
+      "name_ko": "척추관 협착증",
+      "name_en": "lumbar spinal stenosis",
+      "post_count": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "id": "scoliosis",
+      "type": "condition",
+      "name_ko": "척추측만증",
+      "name_en": "scoliosis",
+      "post_count": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "id": "spondylolisthesis",
+      "type": "condition",
+      "name_ko": "척추전방전위증",
+      "name_en": "spondylolisthesis",
+      "post_count": 1,
+      "tenant_keys": [
+        "apfree"
       ]
     },
     {
@@ -479,9 +514,10 @@
       "type": "treatment",
       "name_ko": "도수치료",
       "name_en": "manual therapy",
-      "post_count": 3,
+      "post_count": 4,
       "tenant_keys": [
-        null
+        null,
+        "apfree"
       ]
     },
     {
@@ -492,6 +528,16 @@
       "post_count": 3,
       "tenant_keys": [
         null
+      ]
+    },
+    {
+      "id": "lumbar-spine",
+      "type": "body_part",
+      "name_ko": "요추",
+      "name_en": "lumbar spine",
+      "post_count": 1,
+      "tenant_keys": [
+        "apfree"
       ]
     },
     {
@@ -657,9 +703,10 @@
     {
       "source": "manual-therapy",
       "target": "nerve-block-injection",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
-        null
+        null,
+        "apfree"
       ]
     },
     {
@@ -697,17 +744,19 @@
     {
       "source": "lower-back-pain",
       "target": "lumbar-disc-herniation",
-      "weight": 3,
+      "weight": 4,
       "tenant_keys": [
-        null
+        null,
+        "apfree"
       ]
     },
     {
       "source": "lumbar-disc-herniation",
       "target": "sciatica",
-      "weight": 4,
+      "weight": 5,
       "tenant_keys": [
-        null
+        null,
+        "apfree"
       ]
     },
     {
@@ -721,9 +770,10 @@
     {
       "source": "lower-back-pain",
       "target": "sciatica",
-      "weight": 3,
+      "weight": 4,
       "tenant_keys": [
-        null
+        null,
+        "apfree"
       ]
     },
     {
@@ -1121,9 +1171,10 @@
     {
       "source": "lumbar-disc-herniation",
       "target": "manual-therapy",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
-        null
+        null,
+        "apfree"
       ]
     },
     {
@@ -1137,9 +1188,10 @@
     {
       "source": "lower-back-pain",
       "target": "manual-therapy",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
-        null
+        null,
+        "apfree"
       ]
     },
     {
@@ -1153,9 +1205,10 @@
     {
       "source": "manual-therapy",
       "target": "sciatica",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
-        null
+        null,
+        "apfree"
       ]
     },
     {
@@ -1473,17 +1526,19 @@
     {
       "source": "lumbar-disc-herniation",
       "target": "nerve-block-injection",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
-        null
+        null,
+        "apfree"
       ]
     },
     {
       "source": "nerve-block-injection",
       "target": "sciatica",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
-        null
+        null,
+        "apfree"
       ]
     },
     {
@@ -1780,6 +1835,294 @@
       "weight": 1,
       "tenant_keys": [
         null
+      ]
+    },
+    {
+      "source": "lower-back-pain",
+      "target": "lumbar-spine",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lower-back-pain",
+      "target": "scoliosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lower-back-pain",
+      "target": "spondylolisthesis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lower-back-pain",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lower-back-pain",
+      "target": "nerve-block-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "lower-back-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lumbar-spine",
+      "target": "scoliosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lumbar-spine",
+      "target": "spondylolisthesis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lumbar-spine",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lumbar-disc-herniation",
+      "target": "lumbar-spine",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lumbar-spine",
+      "target": "sciatica",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lumbar-spine",
+      "target": "nerve-block-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lumbar-spine",
+      "target": "manual-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "lumbar-spine",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "scoliosis",
+      "target": "spondylolisthesis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "scoliosis",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lumbar-disc-herniation",
+      "target": "scoliosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "sciatica",
+      "target": "scoliosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "nerve-block-injection",
+      "target": "scoliosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "manual-therapy",
+      "target": "scoliosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "scoliosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "spinal-stenosis",
+      "target": "spondylolisthesis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lumbar-disc-herniation",
+      "target": "spondylolisthesis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "sciatica",
+      "target": "spondylolisthesis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "nerve-block-injection",
+      "target": "spondylolisthesis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "manual-therapy",
+      "target": "spondylolisthesis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "spondylolisthesis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lumbar-disc-herniation",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "sciatica",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "nerve-block-injection",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "manual-therapy",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "spinal-stenosis",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "lumbar-disc-herniation",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "sciatica",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "nerve-block-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "manual-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
       ]
     },
     {

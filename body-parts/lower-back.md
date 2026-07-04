@@ -11,7 +11,7 @@ aliases:
   - 요부
   - lower back
   - low back
-last_reviewed: '2026-07-03'
+last_reviewed: '2026-07-04'
 next_review: '2026-10-03'
 locked: false
 quality_status: review
@@ -21,7 +21,7 @@ source_count_external: 4
 source_count_clinic_pillar: 2
 clinic_footnote_ids: [1, 2]
 external_footnote_ids: [3, 4, 5, 6]
-version: 1
+version: 2
 robots: "noindex, follow"
 ---
 ## 정의
@@ -40,7 +40,7 @@ robots: "noindex, follow"
 - **비특이성 요통**: [허리통증](/symptoms/lower-back-pain/), 근막·후관절·인대성 통증, 반복 부하성 통증
 - **디스크·신경근 질환**: [허리디스크](/conditions/lumbar-disc-herniation/), [좌골신경통](/conditions/sciatica/), 요추 신경근병증
 - **협착·퇴행성 질환**: [척추관 협착증](/conditions/spinal-stenosis/), 퇴행성 전방전위증
-- **구조적 불안정·정렬 문제**: [척추전방전위증](/conditions/spondylolisthesis/), 척추분리증, 척추측만 관련 통증
+- **구조적 불안정·정렬 문제**: [척추전방전위증](/conditions/spondylolisthesis/), 척추분리증, [척추측만증](/conditions/scoliosis/) 관련 통증
 - **응급·중증 감별**: [마미증후군](/conditions/cauda-equina-syndrome/), 압박골절, 감염, 종양
 
 같은 “허리 아픔”이라도 다리 방사통이 중심인지, 보행 제한이 중심인지, 허리 국소 통증이 중심인지에 따라 치료 선택이 달라집니다. 따라서 허리 허브는 증상 표현에서 실제 진단 entity로 분기하는 역할을 해야 합니다.
@@ -66,4 +66,5 @@ robots: "noindex, follow"
 [^6]: [AANS — Cauda Equina Syndrome](https://www.aans.org/patients/conditions-treatments/cauda-equina-syndrome/)
 
 ## Changelog
+- 2026-07-04 v2: 허리축 마감 작업으로 scoliosis condition hub를 canonical link로 연결하고 registry/graph 정합화 대상에 포함.
 - 2026-07-03 v1: frontmatter-only stub을 허리 body_part 허브로 확장. 비특이성 요통, 허리디스크·좌골신경통, 척추관 협착증, 척추전방전위증, 마미증후군 감별과 C-arm 시술·초음파 유도 주사·도수/운동·수술 의뢰로 이어지는 단계 치료 구조를 반영.

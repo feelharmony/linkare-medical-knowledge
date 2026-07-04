@@ -11,7 +11,7 @@ aliases:
   - 허리뼈
   - lumbar spine
   - L-spine
-last_reviewed: '2026-07-03'
+last_reviewed: '2026-07-04'
 next_review: '2026-10-03'
 locked: false
 quality_status: review
@@ -21,7 +21,7 @@ source_count_external: 4
 source_count_clinic_pillar: 2
 clinic_footnote_ids: [1, 2]
 external_footnote_ids: [3, 4, 5, 6]
-version: 1
+version: 2
 robots: "noindex, follow"
 ---
 ## 정의
@@ -39,7 +39,7 @@ robots: "noindex, follow"
 
 - **디스크·신경근 질환**: [허리디스크](/conditions/lumbar-disc-herniation/), [좌골신경통](/conditions/sciatica/), 요추 신경근병증
 - **척추관·퇴행성 질환**: [척추관 협착증](/conditions/spinal-stenosis/), 황색인대 비후, 후관절 비후
-- **정렬·불안정 질환**: [척추전방전위증](/conditions/spondylolisthesis/), 척추분리증, 퇴행성 측만
+- **정렬·불안정 질환**: [척추전방전위증](/conditions/spondylolisthesis/), 척추분리증, [척추측만증](/conditions/scoliosis/)·퇴행성 측만
 - **통증 발생원별 질환**: 후관절 통증, 천장관절 통증, 근막통증, 디스크성 통증
 - **응급 감별**: [마미증후군](/conditions/cauda-equina-syndrome/), 압박골절, 감염, 종양
 
@@ -66,4 +66,5 @@ robots: "noindex, follow"
 [^6]: [AANS — Cauda Equina Syndrome](https://www.aans.org/patients/conditions-treatments/cauda-equina-syndrome/)
 
 ## Changelog
+- 2026-07-04 v2: 요추 정렬·불안정 질환 목록에 scoliosis canonical link를 연결하고 허리축 마감 검증 대상에 포함.
 - 2026-07-03 v1: frontmatter-only stub을 요추 body_part 허브로 확장. 디스크·신경근, 협착·퇴행성, 전방전위·불안정, 후관절·천장관절·근막 통증, 응급 감별을 분기하고 C-arm 시술·초음파 유도 주사·도수/운동·수술 의뢰 기준을 단계 치료로 정리.
