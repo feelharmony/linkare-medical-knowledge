@@ -205,11 +205,11 @@
       "herpes zoster",
       "HZ"
     ],
-    "description_ko": "잠복 수두대상포진 바이러스 재활성화로 발생하는 신경 분포 영역의 통증성 발진",
+    "description_ko": "잠복 수두대상포진 바이러스 재활성화로 발생하는 신경 분포 영역의 통증성 발진. 72시간 항바이러스와 급성 통증 조절로 PHN을 예방하는 골든타임 질환입니다.",
     "status": "approved",
-    "last_reviewed": "2026-05-31",
+    "last_reviewed": "2026-07-04",
     "source_count": 5,
-    "version": 1
+    "version": 2
   },
   {
     "id": "postherpetic-neuralgia",
