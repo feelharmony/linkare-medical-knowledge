@@ -1521,6 +1521,35 @@ a:hover { text-decoration: underline; }
   margin-top: 1rem;
 }
 
+/* ─── Entity 관련 임상 자료 (spoke 드롭다운) ─── */
+
+.related-spoke-groups {
+  margin-top: 1rem;
+}
+
+.related-tenant {
+  margin-bottom: 0.5rem;
+}
+
+.related-tenant > summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--color-ink);
+  padding: 0.4rem 0;
+}
+
+.related-tenant .related-post-list {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.related-category--pillar .related-meta,
+.related-tenant .related-meta {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  margin-left: 0.5rem;
+}
+
 /* ─── Topics Page ─── */
 
 .topics-page {

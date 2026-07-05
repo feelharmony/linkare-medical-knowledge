@@ -1,0 +1,9 @@
+# tenant_key → 표시명 매핑 (관련 임상 자료 드롭다운 렌더용)
+#
+# - 표시명은 hospitals/*.md frontmatter title과 정렬한다.
+# - 여기 등록된 순서대로 드롭다운이 노출된다.
+# - spatest 는 테스트 테넌트라 등록하지 않는다 (렌더에서도 명시적으로 제외).
+# - 여기 없는 tenant_key 는 key 그대로 summary 에 노출된다 (미등록 fail-soft).
+apfree: 안심튼튼마취통증의학과
+thr: 더웰스의원 노원
+thq: 더웰스의원 잠실

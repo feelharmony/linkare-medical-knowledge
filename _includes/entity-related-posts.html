@@ -1,67 +1,118 @@
 {%- comment -%}
-  Entity 하단 "관련 임상 자료" 자동 섹션.
-  Source: _data/post_entity_map.json
-  Match: primary_entity_id == page.entity_id
-  Order: pillar first, then spokes. Doctor/hospital badges come from post_entity_map ids.
+  Entity 하단 "관련 임상 자료" — citation 아님, "더 읽기" spoke 인덱스 (spec §1.1·§1.4).
+  Source: _data/post_entity_map.json  /  표시명: _data/tenants.yml
+  Match : primary_entity_id == page.entity_id
+          + curated_entity_ids contains page.entity_id (수기 큐레이션 교차 노출 — 2026-07-05 백필.
+            entity_ids 전면 매칭은 secondary N×M 폭발이라 안 함, J절 취지)
+  구조  : Pillar 소섹션(드롭다운 밖·항상 노출, D절 결정 유지)
+          + tenant_key별 <details> 드롭다운(네이티브, JS 불필요 → 접혀도 DOM에 있어 크롤 가능)
+  제외  : spatest 테넌트 row / source_article_url 없는 spoke(아웃바운드 링크 불가)
+          / 영문 로케일(post_path에 /en/) spoke — 한국어 entity 페이지엔 미노출 (사장님 결정 2026-07-05)
 {%- endcomment -%}
 {%- assign entity_id = page.entity_id -%}
-{%- assign related_posts = site.data.post_entity_map | where: "primary_entity_id", entity_id -%}
-{%- if related_posts.size > 0 -%}
+{%- assign related_posts = "" | split: "" -%}
+{%- for post in site.data.post_entity_map -%}
+  {%- if post.primary_entity_id == entity_id -%}
+    {%- assign related_posts = related_posts | push: post -%}
+  {%- elsif post.curated_entity_ids and post.curated_entity_ids contains entity_id -%}
+    {%- assign related_posts = related_posts | push: post -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- comment -%} ── Pillar 수집 (spatest 제외) : 항상 노출 ── {%- endcomment -%}
+{%- assign pillars = "" | split: "" -%}
+{%- for post in related_posts -%}
+  {%- if post.is_pillar == true and post.tenant_key != 'spatest' -%}
+    {%- assign pillars = pillars | push: post -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign pillars = pillars | sort: "updated_at" | reverse -%}
+
+{%- comment -%} ── Spoke 수집 (spatest 제외 · source_article_url 없으면 링크 불가라 제외) ── {%- endcomment -%}
+{%- assign spokes = "" | split: "" -%}
+{%- for post in related_posts -%}
+  {%- unless post.is_pillar == true -%}
+    {%- if post.tenant_key != 'spatest' and post.source_article_url and post.source_article_url != '' -%}
+      {%- unless post.post_path contains '/en/' -%}
+        {%- assign spokes = spokes | push: post -%}
+      {%- endunless -%}
+    {%- endif -%}
+  {%- endunless -%}
+{%- endfor -%}
+
+{%- if pillars.size > 0 or spokes.size > 0 -%}
 <section class="entity-section entity-related-posts">
   <h2>관련 임상 자료</h2>
 
-  {%- assign pillar_count = related_posts | where: "is_pillar", true | size -%}
-  {%- if pillar_count > 0 %}
+  {%- comment -%} ── Pillar : 드롭다운 밖 상단, 항상 노출 ── {%- endcomment -%}
+  {%- if pillars.size > 0 %}
   <div class="related-category related-category--pillar">
-    <h3>Pillar · 종합 가이드</h3>
+    <h3>Pillar</h3>
     <ul class="related-post-list">
-      {%- for post in related_posts -%}
-        {%- if post.is_pillar == true -%}
-          {%- assign href = post.source_article_url | default: post.post_path -%}
-          {%- assign title = post.source_article_title | default: post.source_article_url | default: post.post_path -%}
-          {%- assign tenant = post.tenant_key -%}
-          {%- if tenant == nil or tenant == '' -%}
-            {%- if post.post_path contains '/apfree/' or post.source_article_url contains 'ansimpainfree' -%}{%- assign tenant = 'apfree' -%}
-            {%- elsif post.post_path contains '/thr/' or post.source_article_url contains 'thewellsr' -%}{%- assign tenant = 'thr' -%}
-            {%- else -%}{%- assign tenant = 'unknown' -%}{%- endif -%}
-          {%- endif %}
+      {%- for post in pillars -%}
+        {%- assign href = post.source_article_url | default: post.post_path -%}
+        {%- assign title = post.source_article_title | default: post.source_article_url | default: post.post_path -%}
       <li>
         <a href="{{ href }}">{{ title }}</a>
-        <span class="related-meta"><span class="tenant-badge tenant-badge--{{ tenant }}">{{ tenant }}</span>{% if post.updated_at %} · <time>{{ post.updated_at }}</time>{% endif %}{% if post.doctor_id %}{% assign doctor_name = post.doctor_id %}{% for node in site.data.entity_graph.nodes %}{% if node.id == post.doctor_id %}{% assign doctor_name = node.name_ko %}{% break %}{% endif %}{% endfor %} · <a href="{{ '/doctors/' | append: post.doctor_id | append: '/' | relative_url }}" class="related-meta-link">{{ doctor_name }}</a>{% endif %}{% if post.hospital_id %}{% assign hospital_name = post.hospital_id %}{% for node in site.data.entity_graph.nodes %}{% if node.id == post.hospital_id %}{% assign hospital_name = node.name_ko %}{% break %}{% endif %}{% endfor %} · <a href="{{ '/hospitals/' | append: post.hospital_id | append: '/' | relative_url }}" class="related-meta-link">{{ hospital_name }}</a>{% endif %}</span>
+        {%- if post.updated_at %} <time class="related-meta">{{ post.updated_at }}</time>{%- endif -%}
       </li>
-        {%- endif -%}
       {%- endfor %}
     </ul>
   </div>
   {%- endif -%}
 
-  {%- assign spoke_count = 0 -%}
-  {%- for post in related_posts -%}
-    {%- unless post.is_pillar == true -%}{%- assign spoke_count = spoke_count | plus: 1 -%}{%- endunless -%}
-  {%- endfor -%}
-  {%- if spoke_count > 0 %}
-  <div class="related-category related-category--spoke">
-    <h3>Spoke · 관련 글</h3>
-    <ul class="related-post-list">
-      {%- for post in related_posts -%}
-        {%- unless post.is_pillar == true -%}
-          {%- assign href = post.source_article_url | default: post.post_path -%}
-          {%- assign title = post.source_article_title | default: post.source_article_url | default: post.post_path -%}
-          {%- assign tenant = post.tenant_key -%}
-          {%- if tenant == nil or tenant == '' -%}
-            {%- if post.post_path contains '/apfree/' or post.source_article_url contains 'ansimpainfree' -%}{%- assign tenant = 'apfree' -%}
-            {%- elsif post.post_path contains '/thr/' or post.source_article_url contains 'thewellsr' -%}{%- assign tenant = 'thr' -%}
-            {%- else -%}{%- assign tenant = 'unknown' -%}{%- endif -%}
-          {%- endif %}
-      <li>
-        <a href="{{ href }}">{{ title }}</a>
-        <span class="related-meta"><span class="tenant-badge tenant-badge--{{ tenant }}">{{ tenant }}</span>{% if post.updated_at %} · <time>{{ post.updated_at }}</time>{% endif %}{% if post.sub_topic_type %} · {{ post.sub_topic_type }}{% endif %}{% if post.doctor_id %}{% assign doctor_name = post.doctor_id %}{% for node in site.data.entity_graph.nodes %}{% if node.id == post.doctor_id %}{% assign doctor_name = node.name_ko %}{% break %}{% endif %}{% endfor %} · <a href="{{ '/doctors/' | append: post.doctor_id | append: '/' | relative_url }}" class="related-meta-link">{{ doctor_name }}</a>{% endif %}{% if post.hospital_id %}{% assign hospital_name = post.hospital_id %}{% for node in site.data.entity_graph.nodes %}{% if node.id == post.hospital_id %}{% assign hospital_name = node.name_ko %}{% break %}{% endif %}{% endfor %} · <a href="{{ '/hospitals/' | append: post.hospital_id | append: '/' | relative_url }}" class="related-meta-link">{{ hospital_name }}</a>{% endif %}</span>
-      </li>
-        {%- endunless -%}
-      {%- endfor %}
-    </ul>
+  {%- comment -%} ── Spoke : tenant_key별 <details> 드롭다운 ── {%- endcomment -%}
+  {%- if spokes.size > 0 %}
+  <div class="related-spoke-groups">
+    {%- comment -%} 렌더 순서: tenants.yml 등록 순 → 데이터에만 있는 미등록 key {%- endcomment -%}
+    {%- assign ordered_keys = "" | split: "" -%}
+    {%- for t in site.data.tenants -%}
+      {%- assign ordered_keys = ordered_keys | push: t[0] -%}
+    {%- endfor -%}
+    {%- for post in spokes -%}
+      {%- assign tk = post.tenant_key -%}
+      {%- if tk == nil or tk == '' -%}
+        {%- if post.post_path contains '/apfree/' or post.source_article_url contains 'ansimpainfree' -%}{%- assign tk = 'apfree' -%}
+        {%- elsif post.post_path contains '/thr/' or post.source_article_url contains 'thewells' -%}{%- assign tk = 'thr' -%}
+        {%- else -%}{%- assign tk = 'unknown' -%}{%- endif -%}
+      {%- endif -%}
+      {%- unless ordered_keys contains tk -%}
+        {%- assign ordered_keys = ordered_keys | push: tk -%}
+      {%- endunless -%}
+    {%- endfor -%}
+
+    {%- for key in ordered_keys -%}
+      {%- comment -%} 이 key 그룹의 spoke 수집 (미지정 tenant는 경로/URL로 유추) {%- endcomment -%}
+      {%- assign group = "" | split: "" -%}
+      {%- for post in spokes -%}
+        {%- assign tk = post.tenant_key -%}
+        {%- if tk == nil or tk == '' -%}
+          {%- if post.post_path contains '/apfree/' or post.source_article_url contains 'ansimpainfree' -%}{%- assign tk = 'apfree' -%}
+          {%- elsif post.post_path contains '/thr/' or post.source_article_url contains 'thewells' -%}{%- assign tk = 'thr' -%}
+          {%- else -%}{%- assign tk = 'unknown' -%}{%- endif -%}
+        {%- endif -%}
+        {%- if tk == key -%}
+          {%- assign group = group | push: post -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if group.size > 0 -%}
+        {%- assign group = group | sort: "updated_at" | reverse -%}
+        {%- assign tenant_name = site.data.tenants[key] | default: key -%}
+    <details class="related-tenant">
+      <summary>{{ tenant_name }} ({{ group.size }})</summary>
+      <ul class="related-post-list">
+        {%- for post in group -%}
+          {%- assign title = post.source_article_title | default: post.source_article_url -%}
+        <li>
+          <a href="{{ post.source_article_url }}">{{ title }}</a>
+          {%- if post.updated_at %} <time class="related-meta">{{ post.updated_at }}</time>{%- endif -%}
+        </li>
+        {%- endfor %}
+      </ul>
+    </details>
+      {%- endif -%}
+    {%- endfor -%}
   </div>
   {%- endif %}
-  <p class="related-summary">총 {{ related_posts.size }}개 자료</p>
 </section>
 {%- endif -%}
