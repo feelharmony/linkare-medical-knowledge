@@ -30,6 +30,7 @@ version: 2
 ---
 
 ## Citations
+### 자사 임상 자료
 [^1]: [thewellsr.kr/en/blog/understanding-straight-neck-and-forward-head-postu](https://thewellsr.kr/en/blog/understanding-straight-neck-and-forward-head-postu)
 
 ## Changelog

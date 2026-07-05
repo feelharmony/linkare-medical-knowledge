@@ -226,9 +226,34 @@ function checkHeadings(body, fm, errors, warnings) {
       // optional이면서 본문에 없으면 그냥 skip (warning도 아님)
     }
   }
-  // Citations 헤딩 분리
-  if (!body.includes('### 자사 임상 자료') && !body.includes('### 외부 권위 출처')) {
+  // Citations 헤딩 분리 — footnote가 하나라도 있을 때만 요구.
+  // (citation 0건 stub은 그룹핑할 대상이 없으므로 빈 헤딩을 강제하지 않는다.)
+  const totalFootnotes =
+    (Array.isArray(fm.clinic_footnote_ids) ? fm.clinic_footnote_ids.length : 0) +
+    (Array.isArray(fm.external_footnote_ids) ? fm.external_footnote_ids.length : 0);
+  if (totalFootnotes > 0 && !body.includes('### 자사 임상 자료') && !body.includes('### 외부 권위 출처')) {
     warnings.push(`Citations 섹션 헤딩 분리 누락 (### 자사 임상 자료 / ### 외부 권위 출처)`);
+  }
+}
+
+// ## 관련 임상 자료 섹션은 spoke 자동 카드 전용 (Tier 3).
+// footnote 정의([^N]:)가 이 섹션에 있으면 안 된다 — 진짜 근거는 ## Citations로 이동해야 한다.
+// (재발 방지: 자동 패처 멱등키 부재로 이중 등록되던 케이스 차단.)
+// archived 파일은 sync 무손상 보존 목적이라 예외 (checkHeadings와 동일 정책).
+function checkRelatedClinicalSection(body, fm, errors) {
+  if (fm.quality_status === 'archived' || fm.status === 'archived') {
+    return;
+  }
+  let inRelated = false;
+  for (const line of body.split('\n')) {
+    if (/^##\s+관련 임상 자료\s*$/.test(line)) { inRelated = true; continue; }
+    if (/^##\s+/.test(line)) { inRelated = false; continue; }
+    if (inRelated) {
+      const m = line.match(/^\[\^(\d+)\]\s*:/);
+      if (m) {
+        errors.push(`## 관련 임상 자료 섹션에 [^${m[1]}] 정의 존재 — 이 섹션은 spoke 자동 카드 전용. 각주 정의는 ## Citations로 이동할 것`);
+      }
+    }
   }
 }
 
@@ -340,6 +365,7 @@ function lintFile(absPath) {
   checkFrontmatter(fm, errors, warnings);
   checkHeadings(body, fm, errors, warnings);
   checkFootnoteIds(body, fm, errors, warnings);
+  checkRelatedClinicalSection(body, fm, errors);
   checkTone(body, errors, warnings);
 
   return { file: rel, errors, warnings };

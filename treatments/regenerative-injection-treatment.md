@@ -30,6 +30,7 @@ version: 2
 ---
 
 ## Citations
+### 자사 임상 자료
 [^1]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
 
 ## Changelog

@@ -30,6 +30,7 @@ version: 2
 ---
 
 ## Citations
+### 자사 임상 자료
 [^1]: [ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis](https://ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis)
 
 ## Changelog

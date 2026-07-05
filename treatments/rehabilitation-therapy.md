@@ -30,6 +30,7 @@ version: 2
 ---
 
 ## Citations
+### 자사 임상 자료
 [^1]: [ansimpainfree.kr/blog/cervical-disc-herniation](https://ansimpainfree.kr/blog/cervical-disc-herniation)
 
 ## Changelog
