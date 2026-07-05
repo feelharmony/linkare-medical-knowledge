@@ -6,6 +6,7 @@ permalink: /treatments/treatment-for-lateral-epicondylitis/
 title: 외측상과염 치료
 description: 외측상과염을 치료하기 위한 다양한 방법
 last_reviewed: '2026-04-23'
+locked: false
 source_count: 1
 source_count_external: 0
 source_count_clinic_pillar: 1

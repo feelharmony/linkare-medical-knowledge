@@ -6,6 +6,7 @@ permalink: /treatments/rehabilitation-therapy/
 title: 재활 치료
 description: 수술 후 통증 감소와 기능 개선을 위한 치료법
 last_reviewed: '2026-04-23'
+locked: false
 source_count: 1
 source_count_external: 0
 source_count_clinic_pillar: 1

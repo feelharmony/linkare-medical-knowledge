@@ -6,6 +6,7 @@ permalink: /treatments/anti-inflammatory-analgesics/
 title: 소염진통제
 description: 통증과 염증을 조절하는 약물
 last_reviewed: '2026-04-23'
+locked: false
 source_count: 1
 source_count_external: 0
 source_count_clinic_pillar: 1

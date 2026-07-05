@@ -7,6 +7,7 @@ title: 수술 (외과적 치료, archived)
 description: 본 클리닉은 척추·정형 외과적 수술을 운영하지 않으며, 외과 적응증 환자는 의뢰합니다
 title_en: surgery (deprecated, out of scope)
 last_reviewed: '2026-05-03'
+locked: false
 source_count: 1
 source_count_external: 0
 source_count_clinic_pillar: 1
@@ -19,7 +20,7 @@ published: false
 robots: noindex, nofollow
 ---
 
-> ⚠️ 이 entity는 archived 처리되었습니다. 본 클리닉은 척추 수술 등 외과적 치료를 운영하지 않으며, 절대적 응급(마미증후군) 또는 진행성 신경마비 등 외과 적응증 환자는 외부 진료를 의뢰합니다. 보존적 치료 중심의 진단 entity는 conditions/lumbar-disc-herniation 등에서 다룹니다. 본문은 sync 무손상을 위해 보존하되 검색·인덱싱에서 제외됩니다.
+> ⚠️ 이 entity는 archived 처리되었습니다. 이 entity 범위에서는 척추 수술 등 외과적 치료를 운영하지 않으며, 절대적 응급(마미증후군) 또는 진행성 신경마비 등 외과 적응증 환자는 외부 진료를 의뢰합니다. 보존적 치료 중심의 진단 entity는 conditions/lumbar-disc-herniation 등에서 다룹니다. 본문은 sync 무손상을 위해 보존하되 검색·인덱싱에서 제외됩니다.
 
 ## 적응증
 허리디스크 수술은 마미증후군과 같은 절대적 응급 상황이나, 진행성 신경마비가 있는 경우에 적응증이 됩니다. 또한, 6~12주의 보존적 치료에도 호전이 없거나 악화되는 경우에도 수술을 고려할 수 있습니다. [^1]

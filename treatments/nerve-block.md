@@ -7,7 +7,12 @@ title: 신경차단술 (archived, nerve-block-injection으로 통합)
 title_en: nerve block (deprecated)
 description: nerve-block-injection entity가 canonical hub
 last_reviewed: '2026-05-03'
+locked: false
 source_count: 0
+source_count_external: 0
+source_count_clinic_pillar: 0
+clinic_footnote_ids: []
+external_footnote_ids: []
 quality_status: review
 version: 2
 status: archived
