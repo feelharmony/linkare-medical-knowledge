@@ -50,8 +50,10 @@ version: 2
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^1]: [더웰스 — 무릎 통증 관리·예방 운동 습관](https://thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^2]: [Bunt CW, Jonas CE, Chang JG. Knee Pain in Adults and Adolescents: The Initial Evaluation. Am Fam Physician. 2018;98(9):576-585. PMID 30325638](https://pubmed.ncbi.nlm.nih.gov/30325638/)

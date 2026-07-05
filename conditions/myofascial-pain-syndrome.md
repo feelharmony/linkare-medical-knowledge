@@ -60,8 +60,10 @@ version: 2
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^1]: [더웰스 — 거북목·일자목 관련 임상 자료](https://thewellsr.kr/blog/forward-head-posture)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^2]: [Wong CS, Wong SHS. A New Look at Trigger Point Injections. Anesthesiol Res Pract. 2012;2012:492452. PMCID PMC3291244](https://pmc.ncbi.nlm.nih.gov/articles/PMC3291244/)

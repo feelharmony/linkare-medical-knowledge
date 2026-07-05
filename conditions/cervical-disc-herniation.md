@@ -66,9 +66,11 @@ CT는 뼈의 변화나 골극(뼈가 자란 것)을 평가하는 데 유용하�
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 
 [^1]: [안심튼튼 — 목디스크 원인·증상·진단부터 단계별 비수술 치료까지](https://ansimpainfree.kr/blog/cervical-disc-herniation)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 

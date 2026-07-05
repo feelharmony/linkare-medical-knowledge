@@ -106,8 +106,10 @@ ZOE-50/70·ZOE-LTFU 11년 추적에서 RZV와 인과관계가 명확한 중대 �
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^5]: [안심튼튼 — 싱그릭스 vs 조스터박스 대상포진 예방접종 백신 비교](https://ansimpainfree.kr/blog/shingles-vaccine-singrrix-vs-shingrix)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: Clinical Considerations for Shingrix Use in Immunocompromised Adults Aged ≥19 Years. *CDC.* 2024 update. URL: [cdc.gov/shingles/hcp/vaccine-considerations/immunocompromised-adults](https://www.cdc.gov/shingles/hcp/vaccine-considerations/immunocompromised-adults.html) — 19세 이상 면역억제 권고

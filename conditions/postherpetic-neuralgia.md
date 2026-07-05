@@ -140,9 +140,11 @@ PHN으로 진행한 환자에서도 다학제 통증 관리로 의미 있는 회
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 
 [^6]: [안심튼튼 — 대구 대상포진 후 신경통, 수포가 나아도 통증이 계속된다면](https://blog.naver.com/ansimpainfree/224271572126)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 

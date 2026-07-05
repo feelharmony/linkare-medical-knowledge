@@ -124,7 +124,7 @@ NAD+ 보충(NMN·NR 경구 또는 NAD+ 정맥 주입)·기타 항노화 보충�
 
 ## Citations
 ### 자사 임상 자료
-- [더웰스 — NAD IV therapy (English)](https://thewellsr.kr/en/blog/nad-iv-therapy-new-possibilities-and-current-reali)
+- [더웰스 — NAD 수액, 만성 통증 회복](https://thewellsr.kr/blog/nad)
 - [더웰스 — NAD](https://thewellsr.kr/blog/nad)
 
 ### 외부 권위 출처

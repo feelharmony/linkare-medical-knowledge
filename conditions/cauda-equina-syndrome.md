@@ -64,8 +64,10 @@ version: 6
 
 ## Citations
 
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^1]: [안심튼튼 — 좌골신경통](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^2]: [American Association of Neurological Surgeons — Cauda Equina Syndrome (Patient Information)](https://www.aans.org/patients/conditions-treatments/cauda-equina-syndrome/)

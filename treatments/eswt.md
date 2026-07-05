@@ -125,8 +125,10 @@ Auersperg & Trieb 2020 EFORT Open Reviews는 가성관절증, 골유합 지연, 
 - [PRP 주사](/treatments/prp-injection/)
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^9]: [안심튼튼 — 체외충격파 치료](https://ansimpainfree.kr/blog/extracorporeal-shock-wave-therapy)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: [Auersperg V, Trieb K. Extracorporeal shock wave therapy: an update. EFORT Open Rev. 2020;5(10):584-592. PMID 33204500](https://pubmed.ncbi.nlm.nih.gov/33204500/)

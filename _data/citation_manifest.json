@@ -1,0 +1,778 @@
+{
+  "version": 1,
+  "updated_at": "2026-07-05",
+  "entities": {
+    "aging": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/nad",
+        "title": "thewellsr.kr/blog/nad",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "alopecia-areata": [
+      {
+        "footnote_id": 4,
+        "url": "https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment",
+        "title": "thewellsr.kr/blog/hair-loss-regeneration-injection-treatment",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "androgenetic-alopecia": [
+      {
+        "footnote_id": 4,
+        "url": "https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment",
+        "title": "thewellsr.kr/blog/hair-loss-regeneration-injection-treatment",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 5,
+        "url": "https://thewellsr.kr/blog/dht",
+        "title": "thewellsr.kr/blog/dht",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "calcific-tendinitis": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse",
+        "title": "안심튼튼 — 어깨 통증 관리·예방·재발",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 7,
+        "url": "https://blog.naver.com/ansimpainfree/224242287894",
+        "title": "안심튼튼 — 대구 석회성건염 치료, 초음파주사와 체외충격파",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "cauda-equina-syndrome": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/lumbar-disc-herniation",
+        "title": "안심튼튼 — 좌골신경통",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "cervical-disc-herniation": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/cervical-disc-herniation",
+        "title": "안심튼튼 — 목디스크 원인·증상·진단부터 단계별 비수술 치료까지",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "cruciate-ligament-injury": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits",
+        "title": "더웰스 — 무릎 통증 관리·예방 운동 습관",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "forward-head-posture": [
+      {
+        "footnote_id": 4,
+        "url": "https://thewellsr.kr/blog/forward-head-posture",
+        "title": "thewellsr.kr/blog/forward-head-posture",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 5,
+        "url": "https://ansimpainfree.kr/blog/text-neck-prevention-posture-exercise-guide",
+        "title": "ansimpainfree.kr/blog/text-neck-prevention-posture-exercise-guide",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "frozen-shoulder": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse",
+        "title": "안심튼튼 — 어깨 통증 관리·예방·재발",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "knee-osteoarthritis": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits",
+        "title": "더웰스 — 무릎 통증 관리·예방 운동 습관",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 2,
+        "url": "https://ansimpainfree.kr/blog/autologous-stem-cell-therapy",
+        "title": "안심튼튼 — 자가조직 줄기세포 치료",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "lateral-epicondylitis": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis",
+        "title": "안심튼튼 — 외측상과염 증상·진단",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "lumbar-disc-herniation": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/lumbar-disc-herniation",
+        "title": "안심튼튼 — 허리디스크 원인, 증상, 진단",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 2,
+        "url": "https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk",
+        "title": "안심튼튼 — 허리디스크 증상, 허리보다 다리가 먼저 아픈 이유",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "meniscus-tear": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits",
+        "title": "더웰스 — 무릎 통증 관리·예방 운동 습관",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "myofascial-pain-syndrome": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/forward-head-posture",
+        "title": "더웰스 — 거북목·일자목 관련 임상 자료",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "patellar-tendinitis": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits",
+        "title": "더웰스 — 무릎 통증 관리·예방 운동 습관",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "postherpetic-neuralgia": [
+      {
+        "footnote_id": 6,
+        "url": "https://blog.naver.com/ansimpainfree/224271572126",
+        "title": "안심튼튼 — 대구 대상포진 후 신경통, 수포가 나아도 통증이 계속된다면",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "rotator-cuff-injury": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/rotator-cuff-damage-muscle-perspective",
+        "title": "더웰스 — 회전근개 손상: 근육 관점",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "rotator-cuff-tendinopathy": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse",
+        "title": "안심튼튼 — 어깨 통증 관리·예방·재발",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "sciatica": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/lumbar-disc-herniation",
+        "title": "안심튼튼 — 좌골신경통",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 2,
+        "url": "https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk",
+        "title": "안심튼튼 — 다리 통증이 허리 통증보다 먼저 나타나는 이유",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "shoulder-impingement-syndrome": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse",
+        "title": "안심튼튼 — 어깨 통증 관리·예방·재발",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 4,
+        "url": "https://thewellsr.kr/blog/shoulder-impingement-syndrome-causes-treatment",
+        "title": "thewellsr.kr/blog/shoulder-impingement-syndrome-causes-treatment",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "spinal-stenosis": [
+      {
+        "footnote_id": 8,
+        "url": "https://ansimpainfree.kr/blog/lumbar-spinal-stenosis-leg-numbness",
+        "title": "ansimpainfree.kr/blog/lumbar-spinal-stenosis-leg-numbness",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "spondylolisthesis": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/lumbar-disc-herniation",
+        "title": "안심튼튼 — 허리디스크 원인, 증상, 진단",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "anti-inflammatory-analgesics": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/forward-head-posture",
+        "title": "더웰스 — 일자목과 거북목, 목 통증의 주범을 제대로 알아보기",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "chiropractic": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/forward-head-posture",
+        "title": "thewellsr.kr/blog/forward-head-posture",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 2,
+        "url": "https://ansimpainfree.kr/blog/lumbar-disc-herniation",
+        "title": "안심튼튼 — 허리디스크 원인·증상·진단",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "eswt": [
+      {
+        "footnote_id": 9,
+        "url": "https://ansimpainfree.kr/blog/extracorporeal-shock-wave-therapy",
+        "title": "안심튼튼 — 체외충격파 치료",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "exercise-therapy": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/forward-head-posture",
+        "title": "더웰스 — 거북목·일자목 관련 임상 자료",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 2,
+        "url": "https://ansimpainfree.kr/blog/text-neck-prevention-posture-exercise-guide",
+        "title": "안심튼튼 — 일자목·거북목 예방과 자세 운동 가이드",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "exosome-therapy": [
+      {
+        "footnote_id": 7,
+        "url": "https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment",
+        "title": "thewellsr.kr/blog/hair-loss-regeneration-injection-treatment",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "hair-loss-medication": [
+      {
+        "footnote_id": 4,
+        "url": "https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment",
+        "title": "thewellsr.kr/blog/hair-loss-regeneration-injection-treatment",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "muscle-relaxants": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/forward-head-posture",
+        "title": "더웰스 — 일자목과 거북목, 목 통증의 주범을 제대로 알아보기",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "muscle-relaxation-therapy": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/forward-head-posture",
+        "title": "thewellsr.kr/blog/forward-head-posture",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "nad-infusion-therapy": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/nad",
+        "title": "thewellsr.kr/blog/nad",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 7,
+        "url": "https://thewellsr.kr/blog/nad-vs",
+        "title": "thewellsr.kr/blog/nad-vs",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 8,
+        "url": "https://ansimpainfree.kr/blog/nad",
+        "title": "ansimpainfree.kr/blog/nad",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "nerve-block-injection": [
+      {
+        "footnote_id": 4,
+        "url": "https://ansimpainfree.kr/blog/cervical-disc-herniation",
+        "title": "ansimpainfree.kr/blog/cervical-disc-herniation",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 5,
+        "url": "https://blog.naver.com/ansimpainfree/224254679040",
+        "title": "안심튼튼 — 대구 신경차단술, 통증 때문에 밤잠 설치는 분들 꼭 읽어보세요",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "physical-therapy": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/forward-head-posture",
+        "title": "더웰스 — 거북목·일자목 관련 임상 자료",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 2,
+        "url": "https://ansimpainfree.kr/blog/text-neck-prevention-posture-exercise-guide",
+        "title": "안심튼튼 — 일자목·거북목 예방과 자세 운동 가이드",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "posture-correction": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/forward-head-posture",
+        "title": "더웰스 — 거북목·일자목 관련 임상 자료",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 2,
+        "url": "https://ansimpainfree.kr/blog/text-neck-prevention-posture-exercise-guide",
+        "title": "안심튼튼 — 일자목·거북목 예방과 자세 운동 가이드",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "prp-injection": [
+      {
+        "footnote_id": 4,
+        "url": "https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment",
+        "title": "theWells 노원 — 탈모 재생주사 치료",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 5,
+        "url": "https://blog.naver.com/ansimpainfree/224248542822",
+        "title": "안심튼튼 — 대구 PRP주사, 무릎 아프신 분들이 꼭 알아야 할 재생치료의 모든 것",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "regenerative-injection-treatment": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment",
+        "title": "thewellsr.kr/blog/hair-loss-regeneration-injection-treatment",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "rehabilitation-therapy": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/cervical-disc-herniation",
+        "title": "ansimpainfree.kr/blog/cervical-disc-herniation",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "shingles-vaccination": [
+      {
+        "footnote_id": 5,
+        "url": "https://ansimpainfree.kr/blog/shingles-vaccine-singrrix-vs-shingrix",
+        "title": "안심튼튼 — 싱그릭스 vs 조스터박스 대상포진 예방접종 백신 비교",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "stem-cell-therapy": [
+      {
+        "footnote_id": 9,
+        "url": "https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment",
+        "title": "자사 임상 자료 — 탈모 재생주사 치료",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 10,
+        "url": "https://ansimpainfree.kr/blog/autologous-stem-cell-therapy",
+        "title": "자사 임상 자료 — 자가 혈액·골수 유래 줄기세포 치료",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "surgery": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/lumbar-disc-herniation",
+        "title": "ansimpainfree.kr/blog/lumbar-disc-herniation",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "tecar-rf-therapy": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/hi-ems-tecar-rf",
+        "title": "자사 임상 자료 — 도수치료 · 윈백 Hi-EMS · TECAR RF 결합",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 2,
+        "url": "https://thewellsr.kr/",
+        "title": "자사 프로필 — Hi-EMS / Winback 고주파+전기근자극 운영 축",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "treatment-for-lateral-epicondylitis": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis",
+        "title": "ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "age-related-symptoms": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/en/blog/nad-iv-therapy-new-possibilities-and-current-reali",
+        "title": "thewellsr.kr/en/blog/nad-iv-therapy-new-possibilities-and-current-reali",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "arm-numbness": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/cervical-disc-herniation",
+        "title": "안심튼튼 — 목디스크 관련 글",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "elbow-pain": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis",
+        "title": "안심튼튼 — 외측상과염 증상·진단",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "hair-loss": [
+      {
+        "footnote_id": 7,
+        "url": "https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment",
+        "title": "thewellsr.kr/blog/hair-loss-regeneration-injection-treatment",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "headache": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/forward-head-posture",
+        "title": "더웰스 — 두통 관련 글",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "knee-pain": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits",
+        "title": "더웰스 — 무릎 통증 관리·예방 운동 습관",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "lower-back-pain": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/lumbar-disc-herniation",
+        "title": "안심튼튼 — 허리디스크 원인, 증상, 진단",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 2,
+        "url": "https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk",
+        "title": "안심튼튼 — 허리디스크 증상, 허리보다 다리가 먼저 아픈 이유",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "neck-pain": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/cervical-disc-herniation",
+        "title": "안심튼튼 — 목디스크 관련 글",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 2,
+        "url": "https://thewellsr.kr/blog/forward-head-posture",
+        "title": "더웰스 — 목 통증 관련 글",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "shoulder-pain": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse",
+        "title": "안심튼튼 — 어깨 통증 관리·예방·재발",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "cervical-spine": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/rotator-cuff-damage-muscle-perspective",
+        "title": "더웰스 — 회전근개 손상을 근육 관점에서 이해하기",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 2,
+        "url": "https://ansimpainfree.kr/blog/cervical-disc-herniation",
+        "title": "안심튼튼 — 목디스크 원인·증상·진단부터 단계별 비수술 치료까지",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "elbow": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis",
+        "title": "안심튼튼 — 외측상과염 증상·진단",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "knee": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits",
+        "title": "더웰스 — 무릎 통증 관리·예방 운동 습관",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "lower-back": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/lumbar-disc-herniation",
+        "title": "안심튼튼 — 허리디스크 원인, 증상, 진단",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 2,
+        "url": "https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk",
+        "title": "안심튼튼 — 허리디스크 증상, 허리보다 다리가 먼저 아픈 이유",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "lumbar-spine": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/lumbar-disc-herniation",
+        "title": "안심튼튼 — 허리디스크 원인, 증상, 진단",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 2,
+        "url": "https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk",
+        "title": "안심튼튼 — 허리디스크 증상, 허리보다 다리가 먼저 아픈 이유",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "neck": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/forward-head-posture",
+        "title": "더웰스 — 거북목·일자목 관련 임상 자료",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 2,
+        "url": "https://ansimpainfree.kr/blog/cervical-disc-herniation",
+        "title": "안심튼튼 — 목디스크 원인·증상·진단부터 단계별 비수술 치료까지",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ],
+    "shoulder": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewellsr.kr/blog/rotator-cuff-damage-muscle-perspective",
+        "title": "더웰스 — 회전근개 손상을 근육 관점에서 이해하기",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      },
+      {
+        "footnote_id": 10,
+        "url": "https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse",
+        "title": "안심튼튼 — 어깨 통증 관리·예방·재발",
+        "post_id": null,
+        "anchors": [],
+        "excerpt": null
+      }
+    ]
+  }
+}

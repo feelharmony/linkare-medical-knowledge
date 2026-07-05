@@ -55,11 +55,13 @@ external_footnote_ids: [3, 4, 5, 6, 7, 8, 9]
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 
 [^1]: [안심튼튼 — 허리디스크 원인, 증상, 진단](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
 
 [^2]: [안심튼튼 — 허리디스크 증상, 허리보다 다리가 먼저 아픈 이유](https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 

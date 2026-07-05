@@ -128,11 +128,13 @@ VAS 통증 감소 순위:
 
 ## Citations
 
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 
 [^4]: [ansimpainfree.kr/blog/cervical-disc-herniation](https://ansimpainfree.kr/blog/cervical-disc-herniation)
 
 [^5]: [안심튼튼 — 대구 신경차단술, 통증 때문에 밤잠 설치는 분들 꼭 읽어보세요](https://blog.naver.com/ansimpainfree/224254679040)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 

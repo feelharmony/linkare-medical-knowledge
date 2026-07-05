@@ -70,9 +70,11 @@ version: 4
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^1]: [더웰스 — 회전근개 손상을 근육 관점에서 이해하기](https://thewellsr.kr/blog/rotator-cuff-damage-muscle-perspective)
 [^10]: [안심튼튼 — 어깨 통증 관리·예방·재발](https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^2]: [Mitchell C, Adebajo A, Hay E, Carr A. Shoulder pain: diagnosis and management in primary care. BMJ. 2005;331(7525):1124-1128. PMID 16282408. DOI 10.1136/bmj.331.7525.1124](https://pubmed.ncbi.nlm.nih.gov/16282408/)

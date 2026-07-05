@@ -42,8 +42,10 @@ robots: noindex, nofollow
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^1]: [thewellsr.kr/blog/forward-head-posture](https://thewellsr.kr/blog/forward-head-posture)
-[^2]: [ansimpainfree.kr/en/blog/herniated-lumbar-disc-causes-symptoms-diagnosis](https://ansimpainfree.kr/en/blog/herniated-lumbar-disc-causes-symptoms-diagnosis)
+[^2]: [안심튼튼 — 허리디스크 원인·증상·진단](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ## Changelog
 - 2026-04-23 v2: 적응증 new, 기대효과 new, 한계/주의점 new

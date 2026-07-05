@@ -30,8 +30,10 @@ version: 2
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^1]: [ansimpainfree.kr/blog/cervical-disc-herniation](https://ansimpainfree.kr/blog/cervical-disc-herniation)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ## Changelog
 - 2026-04-23 v2: 적응증 new, 언제 고려 new, 기대효과 new, 한계/주의점 new

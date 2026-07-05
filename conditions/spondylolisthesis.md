@@ -55,8 +55,10 @@ version: 2
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^1]: [안심튼튼 — 허리디스크 원인, 증상, 진단](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^2]: [Kreiner DS et al. Guideline summary review: An evidence-based clinical guideline for the diagnosis and treatment of degenerative lumbar spondylolisthesis. Spine J. 2016;16(3):439-448. PMID 26681351](https://pubmed.ncbi.nlm.nih.gov/26681351/)

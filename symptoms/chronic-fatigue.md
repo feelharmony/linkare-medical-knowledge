@@ -116,7 +116,7 @@ NAD+ 관련 수액·보충 옵션은 만성 피로 영역에서 임상에서 논
 
 ## Citations
 ### 자사 임상 자료
-- [더웰스 — NAD IV therapy (English)](https://thewellsr.kr/en/blog/nad-iv-therapy-new-possibilities-and-current-reali)
+- [더웰스 — NAD 수액, 만성 통증 회복](https://thewellsr.kr/blog/nad)
 - [더웰스 — NAD](https://thewellsr.kr/blog/nad)
 
 ### 외부 권위 출처

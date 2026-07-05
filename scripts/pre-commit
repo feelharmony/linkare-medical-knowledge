@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+#
+# pre-commit — entity .md citation 보존 게이트 (spec §3.2 로컬 방어층)
+#
+# 설치:
+#   ln -sf ../../scripts/pre-commit .git/hooks/pre-commit
+#
+# 동작:
+#   staged 된 .md 중 conditions/treatments/symptoms/body-parts 에 속한 게 있으면
+#   `node scripts/lint-entity.js --all` 을 돌린다. FAIL(exit 1) 이면 커밋 차단.
+#   (매니페스트 대조·마커 무결성 포함 — 자사 citation clean wipe 를 로컬에서 잡음.)
+#
+# 우회: `git commit --no-verify` (권장하지 않음. CI lint 게이트가 backstop).
+
+set -euo pipefail
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
+
+STAGED="$(git diff --cached --name-only --diff-filter=ACM || true)"
+
+NEED_LINT=0
+while IFS= read -r f; do
+  case "$f" in
+    conditions/*.md|treatments/*.md|symptoms/*.md|body-parts/*.md)
+      NEED_LINT=1
+      ;;
+  esac
+done <<< "$STAGED"
+
+if [ "$NEED_LINT" -eq 0 ]; then
+  exit 0
+fi
+
+echo "[pre-commit] entity .md 변경 감지 → lint-entity.js --all 실행"
+if ! node scripts/lint-entity.js --all; then
+  echo ""
+  echo "[pre-commit] ✗ lint FAIL — 커밋 차단."
+  echo "  자사 citation 유실이면: node scripts/reconcile-citations.js --write"
+  echo "  강제 우회(비권장): git commit --no-verify"
+  exit 1
+fi
+
+echo "[pre-commit] ✓ lint 통과"
+exit 0

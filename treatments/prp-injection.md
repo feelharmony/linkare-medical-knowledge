@@ -89,9 +89,11 @@ PRP/PRF는 환자 본인의 혈액을 활용해 손상 부위의 회복 환경�
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^4]: [theWells 노원 — 탈모 재생주사 치료](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
 [^5]: [안심튼튼 — 대구 PRP주사, 무릎 아프신 분들이 꼭 알아야 할 재생치료의 모든 것](https://blog.naver.com/ansimpainfree/224248542822)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: Anitua E, Tierno R, Alkhraisat MH. Platelet-Rich Plasma in the Management of Alopecia: A Systematic Review and Meta-Analysis of Clinical Evidence. *Dermatol Ther (Heidelb).* 2025;15(11):3213-3252. PMID 40944844. DOI: [10.1007/s13555-025-01542-8](https://link.springer.com/article/10.1007/s13555-025-01542-8)

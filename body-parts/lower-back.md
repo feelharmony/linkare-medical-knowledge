@@ -56,9 +56,11 @@ version: 3
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^1]: [안심튼튼 — 허리디스크 원인, 증상, 진단](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
 [^2]: [안심튼튼 — 허리디스크 증상, 허리보다 다리가 먼저 아픈 이유](https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^3]: [Foster NE et al. Prevention and treatment of low back pain: evidence, challenges, and promising directions. Lancet. 2018;391:2368-2383. PMID 29573872](https://pubmed.ncbi.nlm.nih.gov/29573872/)

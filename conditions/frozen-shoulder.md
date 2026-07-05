@@ -54,8 +54,10 @@ version: 4
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^1]: [안심튼튼 — 어깨 통증 관리·예방·재발](https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^2]: [Lee BC et al. Clinical Practice Guidelines for Diagnosis and Non-Surgical Treatment of Primary Frozen Shoulder. Ann Rehabil Med. 2025;49(3):113-138 (대한재활의학회). DOI 10.5535/arm.250057](https://www.e-arm.org/journal/view.php?number=4407)

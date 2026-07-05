@@ -90,8 +90,10 @@ JAK 억제제는 면역억제 작용으로 감염·대상포진·혈전 등의 �
 
 ## Citations
 
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^4]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: Sanchez K, Englander H, Salloum L, Gregoire S, Biba U, Ershadi S, Mostaghimi A. Evaluating Current and Emergent JAK Inhibitors for Alopecia Areata: A Narrative Review. *Dermatol Ther (Heidelb).* 2025;15(10):2749-2764. PMID 40794245. DOI: [10.1007/s13555-025-01517-9](https://pmc.ncbi.nlm.nih.gov/articles/PMC12454744/) — baricitinib·ritlecitinib·deuruxolitinib 임상 evidence + FDA 승인

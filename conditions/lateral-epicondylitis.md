@@ -59,8 +59,10 @@ version: 7
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^1]: [안심튼튼 — 외측상과염 증상·진단](https://ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^2]: [Lucado AM, Day JM, Vincent JI, MacDermid JC, Fedorczyk J, Grewal R, Martin RL. Lateral Elbow Pain and Muscle Function Impairments — Clinical Practice Guidelines (Academy of Hand and Upper Extremity Physical Therapy + Academy of Orthopaedic Physical Therapy, APTA). J Orthop Sports Phys Ther. 2022;52(12):CPG1-CPG111. DOI 10.2519/jospt.2022.0302 (PMID 36453071)](https://www.jospt.org/doi/10.2519/jospt.2022.0302)

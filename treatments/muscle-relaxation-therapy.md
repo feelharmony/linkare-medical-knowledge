@@ -27,7 +27,9 @@ robots: noindex, nofollow
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^1]: [thewellsr.kr/blog/forward-head-posture](https://thewellsr.kr/blog/forward-head-posture)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ## Changelog
 - 2026-04-23 v2: 한계/주의점 new

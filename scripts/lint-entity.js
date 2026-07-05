@@ -20,8 +20,19 @@
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
+const clib = require('./citation-lib');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
+
+// 매니페스트는 lint 세션 1회만 로드. 없으면 대조/무결성 검사 skip (warning 1줄, 최초 1회).
+let _manifestCache;
+let _manifestMissingWarned = false;
+function getManifest() {
+  if (_manifestCache === undefined) {
+    _manifestCache = clib.loadManifest(); // null if missing
+  }
+  return _manifestCache;
+}
 
 // ─── 룰 정의 ────────────────────────────────────────────────
 
@@ -349,6 +360,59 @@ function checkTone(body, errors, warnings) {
   }
 }
 
+// 매니페스트 대조 (clean wipe 검출) — spec §3.3.4
+// 매니페스트에 등재된 자사 인용(url)이 해당 파일 Citations 정의에 없으면 ERROR.
+// (정의+마커+frontmatter 셋 다 삭제해 내부정합만 맞는 wipe를 잡는 게 핵심 목적.)
+// 반환: true = 매니페스트 존재(후속 마커검사 진행), false = 매니페스트 없음(검사 skip).
+function checkManifestReconcile(fm, body, errors, warnings) {
+  const manifest = getManifest();
+  if (manifest === null) {
+    if (!_manifestMissingWarned) {
+      _manifestMissingWarned = true;
+      warnings.push('citation_manifest.json 없음 — 매니페스트 대조/마커 무결성 검사 skip (매니페스트 도입 전)');
+    }
+    return false;
+  }
+  const entityId = fm.entity_id;
+  if (!entityId) return true;
+  const items = (manifest.entities && manifest.entities[entityId]) || [];
+  if (items.length === 0) return true;
+  const defUrls = new Set(
+    clib.extractFootnoteDefs(body).map((d) => d.url).filter(Boolean),
+  );
+  for (const item of items) {
+    if (item.url && !defUrls.has(item.url)) {
+      errors.push(
+        `매니페스트 등재 자사 인용 유실 — [^${item.footnote_id}] ${item.url} (Citations 정의 없음, clean wipe 의심 → scripts/reconcile-citations.js)`,
+      );
+    }
+  }
+  return true;
+}
+
+// 마커 무결성 — spec §3.3.2
+// 편집금지 마커 열림/닫힘 짝이 안 맞거나, 자사 각주 정의가 마커 밖에 있으면 ERROR.
+function checkMarkerIntegrity(fm, body, errors) {
+  const lines = body.split('\n');
+  const { opens, closes } = clib.findMarkers(lines);
+  const ranges = clib.markerRanges(lines);
+  if (ranges === null) {
+    errors.push(
+      `편집금지 마커 짝 불일치 (open ${opens.length} / close ${closes.length}, 또는 중첩·역순 배치)`,
+    );
+    return;
+  }
+  const clinicDefs = clib.clinicFootnoteDefs(fm, body);
+  for (const def of clinicDefs) {
+    const inside = ranges.some(([o, c]) => def.lineIndex > o && def.lineIndex < c);
+    if (!inside) {
+      errors.push(
+        `자사 각주 [^${def.id}] 정의가 편집금지 마커 밖 (scripts/backfill-citation-markers.js 필요)`,
+      );
+    }
+  }
+}
+
 // ─── 메인 ─────────────────────────────────────────────
 
 function lintFile(absPath) {
@@ -367,6 +431,9 @@ function lintFile(absPath) {
   checkFootnoteIds(body, fm, errors, warnings);
   checkRelatedClinicalSection(body, fm, errors);
   checkTone(body, errors, warnings);
+  if (checkManifestReconcile(fm, body, errors, warnings)) {
+    checkMarkerIntegrity(fm, body, errors);
+  }
 
   return { file: rel, errors, warnings };
 }

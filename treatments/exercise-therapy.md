@@ -66,9 +66,11 @@ version: 5
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^1]: [더웰스 — 거북목·일자목 관련 임상 자료](https://thewellsr.kr/blog/forward-head-posture)
 [^2]: [안심튼튼 — 일자목·거북목 예방과 자세 운동 가이드](https://ansimpainfree.kr/blog/text-neck-prevention-posture-exercise-guide)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 ### 외부 권위 출처
 [^3]: [Yang S et al. Treatment of Chronic Neck Pain in Patients with Forward Head Posture: A Systematic Narrative Review. Healthcare (Basel). 2023;11(19):2604. PMID 37830641](https://pmc.ncbi.nlm.nih.gov/articles/PMC10572307/)
 [^4]: [Bier JD et al. Clinical Practice Guideline for Physical Therapy Assessment and Treatment in Patients With Nonspecific Neck Pain. Phys Ther. 2018;98(3):162-171. PMID 29228289](https://pubmed.ncbi.nlm.nih.gov/29228289/)

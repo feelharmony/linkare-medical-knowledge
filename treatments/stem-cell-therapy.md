@@ -97,9 +97,11 @@ version: 4
 
 ## Citations
 
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^9]: [자사 임상 자료 — 탈모 재생주사 치료](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
 [^10]: [자사 임상 자료 — 자가 혈액·골수 유래 줄기세포 치료](https://ansimpainfree.kr/blog/autologous-stem-cell-therapy)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: Cao M, Ou Z, Sheng R, et al. Efficacy and safety of mesenchymal stem cells in knee osteoarthritis: a systematic review and meta-analysis of randomized controlled trials. *Stem Cell Res Ther.* 2025;16(1):122. PMID 40055739. DOI: [10.1186/s13287-025-04252-2](https://pubmed.ncbi.nlm.nih.gov/40055739/)

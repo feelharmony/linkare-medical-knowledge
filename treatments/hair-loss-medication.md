@@ -76,8 +76,10 @@ version: 3
 
 ## Citations
 
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^4]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: Updates in Treatment for Androgenetic Alopecia. *Ann Dermatol.* 2025. PMC12715879. URL: [annals of dermatology — anndermatol.org](https://www.anndermatol.org/DOIx.php?id=10.5021/ad.25.042) — finasteride·dutasteride·minoxidil 표준 치료, 2018 S3 CPG, network 메타 dutasteride > finasteride

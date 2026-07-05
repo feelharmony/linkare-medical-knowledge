@@ -61,9 +61,11 @@ OARSI 2019 가이드라인도 핵심 치료(core treatment)로 환자 교육, �
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^1]: [더웰스 — 무릎 통증 관리·예방 운동 습관](https://thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits)
 [^2]: [안심튼튼 — 자가조직 줄기세포 치료](https://ansimpainfree.kr/blog/autologous-stem-cell-therapy)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 ### 외부 권위 출처
 [^3]: [Hong JW, Noh JH, Kim D-J. The prevalence of and demographic factors associated with radiographic knee osteoarthritis in Korean adults aged ≥ 50 years: The 2010-2013 Korea National Health and Nutrition Examination Survey. PLOS One. 2020;15(3):e0230613](https://pmc.ncbi.nlm.nih.gov/articles/PMC7083301/)
 [^4]: [Brophy RH, Fillingham YA. AAOS Clinical Practice Guideline Summary: Management of Osteoarthritis of the Knee (Nonarthroplasty), Third Edition. J Am Acad Orthop Surg. 2022;30(9):e721-e729 (PMID 35383651)](https://pubmed.ncbi.nlm.nih.gov/35383651/)

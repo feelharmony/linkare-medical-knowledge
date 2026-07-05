@@ -57,8 +57,10 @@ version: 3
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^1]: [더웰스 — 무릎 통증 관리·예방 운동 습관](https://thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^2]: [American Academy of Orthopaedic Surgeons OrthoInfo — Patellar Tendinitis/Jumpers Knee](https://orthoinfo.aaos.org/en/diseases--conditions/patellar-tendinitis-jumpers-knee/)

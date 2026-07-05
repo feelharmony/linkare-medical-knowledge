@@ -74,8 +74,10 @@ version: 4
 
 ## Citations
 
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^7]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: Al Ameer MA, Alnajim AT, Al Ameer A, et al. Exosomes and Hair Regeneration: A Systematic Review of Clinical Evidence Across Alopecia Types and Exosome Sources. *Clin Cosmet Investig Dermatol.* 2025;18:2215-2227. PMID 40955427. DOI: [10.2147/CCID.S543451](https://pmc.ncbi.nlm.nih.gov/articles/PMC12433634/)

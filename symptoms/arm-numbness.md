@@ -91,8 +91,10 @@ version: 6
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^1]: [안심튼튼 — 목디스크 관련 글](https://ansimpainfree.kr/blog/cervical-disc-herniation)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^2]: [Iyer S, Kim HJ. Cervical radiculopathy. Curr Rev Musculoskelet Med. 2016;9(3):272-280. PMID 27250042. DOI 10.1007/s12178-016-9349-4](https://pubmed.ncbi.nlm.nih.gov/27250042/)

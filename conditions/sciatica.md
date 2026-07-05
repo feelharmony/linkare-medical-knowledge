@@ -63,9 +63,11 @@ version: 1
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^1]: [안심튼튼 — 좌골신경통](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
 [^2]: [안심튼튼 — 다리 통증이 허리 통증보다 먼저 나타나는 이유](https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^3]: [NICE Guideline NG59 — Low back pain and sciatica in over 16s: assessment and management. Published 30 November 2016, last updated 11 December 2020. National Institute for Health and Care Excellence (UK)](https://www.nice.org.uk/guidance/ng59)

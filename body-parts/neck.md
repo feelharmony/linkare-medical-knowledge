@@ -52,9 +52,11 @@ version: 2
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^1]: [더웰스 — 거북목·일자목 관련 임상 자료](https://thewellsr.kr/blog/forward-head-posture)
 [^2]: [안심튼튼 — 목디스크 원인·증상·진단부터 단계별 비수술 치료까지](https://ansimpainfree.kr/blog/cervical-disc-herniation)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^3]: [Blanpied PR et al. Neck Pain: Revision 2017. J Orthop Sports Phys Ther. 2017;47(7):A1-A83. PMID 28666405](https://pubmed.ncbi.nlm.nih.gov/28666405/)

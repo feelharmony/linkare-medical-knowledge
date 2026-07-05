@@ -69,6 +69,7 @@ NAD+ 수액은 세포 에너지 생산을 촉진하여 만성 통증 회복에 �
 
 ## Citations
 
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 
 [^1]: [thewellsr.kr/blog/nad](https://thewellsr.kr/blog/nad)
@@ -76,6 +77,7 @@ NAD+ 수액은 세포 에너지 생산을 촉진하여 만성 통증 회복에 �
 [^7]: [thewellsr.kr/blog/nad-vs](https://thewellsr.kr/blog/nad-vs)
 
 [^8]: [ansimpainfree.kr/blog/nad](https://ansimpainfree.kr/blog/nad)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 

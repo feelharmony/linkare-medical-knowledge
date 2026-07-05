@@ -60,8 +60,10 @@ version: 5
 ---
 
 ## Citations
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^1]: [안심튼튼 — 외측상과염 증상·진단](https://ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^2]: [Kane SF, Lynch JH, Taylor JC. Evaluation of elbow pain in adults. Am Fam Physician. 2014;89(8):649-657. PMID 24784124](https://pubmed.ncbi.nlm.nih.gov/24784124/)

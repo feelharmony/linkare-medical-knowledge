@@ -127,8 +127,10 @@ external_footnote_ids:
 [^6]: [Weinstein JN, Tosteson TD, Lurie JD, et al. Surgical versus nonoperative treatment for lumbar spinal stenosis four-year results of the Spine Patient Outcomes Research Trial. Spine. 2010;35(14):1329-1338. PMID 20453723. DOI 10.1097/BRS.0b013e3181e0f04d](https://pubmed.ncbi.nlm.nih.gov/20453723/)
 [^7]: [Lee CH, Chung CK, Kim CH, Kwon JW. Health Care Burden of Spinal Diseases in the Republic of Korea: Analysis of a Nationwide Database From 2012 Through 2016. Neurospine. 2018;15(1):66-76. PMID 29656624](https://pubmed.ncbi.nlm.nih.gov/29656624/)
 
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^8]: [ansimpainfree.kr/blog/lumbar-spinal-stenosis-leg-numbness](https://ansimpainfree.kr/blog/lumbar-spinal-stenosis-leg-numbness)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ## Changelog
 - 2026-05-03 v1: 내용 업데이트.

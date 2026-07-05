@@ -77,8 +77,10 @@ version: 5
 
 ## Citations
 
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^7]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: [Buffoli B, Rinaldi F, Labanca M, et al. The human hair: from anatomy to physiology. *Int J Dermatol.* 2014;53(3):331-341. PMID 24372228](https://pubmed.ncbi.nlm.nih.gov/24372228/)
