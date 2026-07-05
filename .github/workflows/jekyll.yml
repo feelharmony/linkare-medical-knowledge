@@ -32,6 +32,11 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      # Entity 정합성 하드 게이트 (yhlinker/docs/spec-linkbase-citation-refactor-v1 §3.3)
+      # GPT/사람 다듬기가 citation을 날리거나 중복 각주가 들어오면 배포를 막는다.
+      # lint-entity.js는 node 내장 모듈만 사용 — npm install 불필요.
+      - name: Lint entities (hard gate)
+        run: node scripts/lint-entity.js --all
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
