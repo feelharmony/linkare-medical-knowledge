@@ -254,6 +254,21 @@ function checkFootnoteIds(body, fm, errors, warnings) {
   for (const m of defMatches) {
     defIds.add(Number(m.match(/\d+/)[0]));
   }
+  // 중복 정의 검사 — 같은 [^N]: 정의가 2회 이상이면 kramdown(GFM) 렌더가 깨진다 (errors)
+  // (원인: pillar-patch 자동 append의 멱등키 부재로 관련 임상 자료 + Citations 이중 등록)
+  // 실제 각주 정의는 kramdown 규칙상 줄 시작에 위치한다. 본문 중간의 "[^5]:" 같은
+  // 인라인 참조+콜론(예: "…필요합니다 [^5]:**")은 정의가 아니므로 줄머리 앵커로 배제한다.
+  const lineDefCounts = new Map();
+  const lineDefMatches = bodyForFootnote.match(/^\[\^(\d+)\]\s*:/gm) ?? [];
+  for (const m of lineDefMatches) {
+    const id = Number(m.match(/\d+/)[0]);
+    lineDefCounts.set(id, (lineDefCounts.get(id) ?? 0) + 1);
+  }
+  for (const [id, count] of lineDefCounts) {
+    if (count >= 2) {
+      errors.push(`[^${id}] 정의가 ${count}회 중복 (kramdown 렌더 깨짐 — 1개만 남길 것)`);
+    }
+  }
   // dangling 검사
   for (const id of inlineIds) {
     if (!defIds.has(id)) {

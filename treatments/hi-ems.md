@@ -131,13 +131,5 @@ rPMS는 만성 근골격계 통증 영역에서 도수치료·운동치료의 �
 
 [^7]: [Magnetic stimulation safety considerations (TMS·PMS 준용) — 이식형 전자장치(심박조율기·ICD·DBS·SCS·VNS·인공와우·약물 펌프) 간섭, 임플란트 가열, 종양 부위 적용 금지 등. StatPearls / NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/NBK568715/)
 
-Zhao Q, Liu G. Effect of Repetitive Peripheral Magnetic Stimulation on Patients With Low Back Pain: A Systematic Review and Meta-analysis. Arch Phys Med Rehabil. 2023;104(9):1526-1538. PMID 37116558. DOI 10.1016/j.apmr.2023.03.016 (6 RCTs n=139, very low to low quality, VAS MD -1.89, ODI MD -8.39)](https://pubmed.ncbi.nlm.nih.gov/37116558/)
-[^2]: [Pan J, Wang J, Zhang J, et al. Repetitive peripheral magnetic stimulation for pain, disability, and kinesiophobia in patients with chronic musculoskeletal pain: a systematic review and meta-analysis. Eur J Phys Rehabil Med. 2025;61:572-582. PMID 40501206. DOI 10.23736/S1973-9087.25.08442-4 (8 RCTs n=177, CLBP 효과 보고, very low quality, kinesiophobia 유의차 없음)](https://pubmed.ncbi.nlm.nih.gov/40501206/)
-[^3]: [Savulescu SE, Berteanu M, Filipescu I, et al. Repetitive peripheral magnetic stimulation (rPMS) in subjects with lumbar radiculopathy: an electromyography-guided prospective, randomized study. In Vivo. 2021;35(1):623-627. DOI 10.21873/invivo.12300 (n=41, rPMS+PKT > rPMS 단독 EMG 우월)](https://iv.iiarjournals.org/content/35/1/623)
-[^4]: [Lim YH, Song JM, Choi EH, Lee JW. Effects of repetitive peripheral magnetic stimulation on patients with acute low back pain: a pilot study. Ann Rehabil Med. 2018;42(2):229-238. PMID 29765876. DOI 10.5535/arm.2018.42.2.229 (n=26, real > sham 즉각·지속 통증 감소)](https://pubmed.ncbi.nlm.nih.gov/29765876/)
-[^5]: [Kamiue M, Tsubahara A, Ito T, Koike Y. Effects of repetitive peripheral magnetic stimulation on knee joint extensor strength in older persons receiving day services. Jpn J Compr Rehabil Sci. 2024;15:49-57. PMID 39479355. DOI 10.11336/jjcrs.15.49 (n=12, 평균 83.8세, MVC 유의 증가, 단 대퇴 둘레·5m 보행 변화 없음)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11522963/)
-[^6]: [한국보건의료연구원(NECA) 의료기술재평가 — 체외자기장 치료(요실금·만성골반통증증후군 골반저근 자극). 2021. NECA-R-21-001-07. 17편 문헌(RCT 15 + 비RCT 2). 결론: "안전성에는 문제가 없으나 효과성을 입증할 만한 근거가 충분하지 않아 권고하지 않음"](https://scholarworks.bwise.kr/neca/bitstream/2023.sw.neca/202/1/NR21-001-07.pdf)
-[^7]: [Magnetic stimulation safety considerations (TMS·PMS 준용) — 이식형 전자장치(심박조율기·ICD·DBS·SCS·VNS·인공와우·약물 펌프) 간섭, 임플란트 가열, 종양 부위 적용 금지 등. StatPearls / NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/NBK568715/)
-
 ## Changelog
 - 2026-05-09 v1: 내용 업데이트.

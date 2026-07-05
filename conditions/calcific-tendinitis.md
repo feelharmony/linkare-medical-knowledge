@@ -48,10 +48,6 @@ external_footnote_ids: [2, 3, 4, 5, 6]
 
 ---
 
-## 관련 임상 자료
-[^1]: [안심튼튼 — 어깨 통증 관리·예방·재발](https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse)
-[^7]: [안심튼튼 — 대구 석회성건염 치료, 초음파주사와 체외충격파](https://blog.naver.com/ansimpainfree/224242287894)
-
 ## Citations
 ### 자사 임상 자료
 
