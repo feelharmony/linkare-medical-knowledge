@@ -117,13 +117,6 @@ external_footnote_ids:
 
 다리 저림·방사통의 더 큰 임상 분류는 [다리 저림·방사통](/symptoms/leg-numbness/), 허리통증 동반 시 [허리통증](/symptoms/lower-back-pain/) 항목 참고. 신경근병증 양상이 우세하면 [허리디스크](/conditions/lumbar-disc-herniation/)·[좌골신경통](/conditions/sciatica/)도 함께 검토합니다.
 
----
-
-## 관련 임상 자료
-- [안심튼튼 — 좌골신경통](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
-
----
-
 ## Citations
 ### 외부 권위 출처
 [^1]: [NICE Guideline NG59 — Low back pain and sciatica in over 16s: assessment and management. Published 30 November 2016, last updated 11 December 2020. National Institute for Health and Care Excellence (UK)](https://www.nice.org.uk/guidance/ng59)

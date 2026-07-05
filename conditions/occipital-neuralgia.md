@@ -77,11 +77,6 @@ ICHD-3 진단 기준의 임상 특징은 다음과 같습니다 [^2]:
 ## 예후
 대부분의 후두신경통은 후두신경차단·약물치료·자세 교정 같은 단계적 보존 접근으로 호전됩니다 [^4][^5]. 다만 일부 환자는 통증이 만성화되거나 재발하며, 외상 병력·만성 자세 부담·동반 경추 병변이 만성화에 관여합니다 [^4]. 신경차단에 반복적으로 반응하는 환자에서는 고주파 열응고·신경 자극이 장기 옵션으로 검토 가능하고, 환자 특성·통증 양상에 맞춘 단계적 치료가 회복에 도움이 됩니다 [^4][^5].
 
----
-
-## 관련 임상 자료
-- [더웰스 — 두통 관련 글](https://thewellsr.kr/blog/forward-head-posture)
-
 ## Citations
 ### 외부 권위 출처
 [^2]: [Headache Classification Committee of the International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition (ICHD-3). Cephalalgia. 2018;38(1):1-211. PMID 29368949. DOI 10.1177/0333102417738202](https://pubmed.ncbi.nlm.nih.gov/29368949/)

@@ -124,13 +124,6 @@ Auersperg & Trieb 2020 EFORT Open Reviews는 가성관절증, 골유합 지연, 
 - [손목 통증](/symptoms/wrist-pain/) · [드퀘르벵 건초염](/conditions/de-quervain/) · [슬개건염](/conditions/patellar-tendinitis/)
 - [PRP 주사](/treatments/prp-injection/)
 
-## 관련 임상 자료
-- [theWells 노원 — 노원 체외충격파](https://thewellsr.kr/blog/extracorporeal-shock-wave-therapy-results)
-- [theWells 노원 — 족저근막염 체외충격파](https://thewellsr.kr/blog/nowon-plantar-fasciitis-shock-wave-therapy)
-- [안심튼튼 — 대구 체외충격파 집중형·방사형](https://ansimpainfree.kr/blog/daegu-extracorporeal-shock-wave-focused-radial-injection)
-
----
-
 ## Citations
 ### 자사 임상 자료
 [^9]: [안심튼튼 — 체외충격파 치료](https://ansimpainfree.kr/blog/extracorporeal-shock-wave-therapy)

@@ -37,8 +37,8 @@
   },
   {
     "post_path": "content/thr/ko/pain/straight-neck-forward-head.md",
-    "source_article_url": "https://knowledge.linkerai.io/content/thr/ko/pain/straight-neck-forward-head.md",
-    "source_article_title": null,
+    "source_article_url": "https://thewellsr.kr/blog/forward-head-posture",
+    "source_article_title": "더웰스 — 일자목과 거북목, 목 통증의 주범을 제대로 알아보기",
     "primary_entity_id": "forward-head-posture",
     "entity_ids": [
       "forward-head-posture",
@@ -53,7 +53,14 @@
     "updated_at": "2026-04-28",
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
-    "hospital_id": "hospital-thewells-nowon"
+    "hospital_id": "hospital-thewells-nowon",
+    "curated_entity_ids": [
+      "cervicogenic-headache",
+      "tension-type-headache",
+      "occipital-neuralgia",
+      "cluster-headache",
+      "migraine"
+    ]
   },
   {
     "post_path": "content/thr/ko/hair/hair-loss-regeneration-injection-treatment.md",
@@ -317,7 +324,10 @@
     "updated_at": "2026-04-28",
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
-    "hospital_id": "hospital-ansimpainfree"
+    "hospital_id": "hospital-ansimpainfree",
+    "curated_entity_ids": [
+      "spinal-stenosis"
+    ]
   },
   {
     "post_path": "https://thewellsr.kr/blog/shoulder-impingement-syndrome-causes-treatment",
@@ -718,5 +728,23 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thr/ko/pain/nowon-plantar-fasciitis-shock-wave.md",
+    "source_article_url": "https://thewellsr.kr/blog/nowon-plantar-fasciitis-shock-wave",
+    "source_article_title": "theWells 노원 — 족저근막염 체외충격파 치료",
+    "primary_entity_id": "plantar-fasciitis",
+    "entity_ids": [
+      "plantar-fasciitis",
+      "eswt"
+    ],
+    "curated_entity_ids": [
+      "eswt"
+    ],
+    "updated_at": "2026-07-05",
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon",
+    "is_pillar": false
   }
 ]
