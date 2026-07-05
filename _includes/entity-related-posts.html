@@ -19,11 +19,13 @@
   {%- endif -%}
 {%- endfor -%}
 
-{%- comment -%} ── Pillar 수집 (spatest 제외) : 항상 노출 ── {%- endcomment -%}
+{%- comment -%} ── Pillar 수집 (spatest·영문 제외 — 전부 한글만, 사장님 결정 2026-07-05) ── {%- endcomment -%}
 {%- assign pillars = "" | split: "" -%}
 {%- for post in related_posts -%}
   {%- if post.is_pillar == true and post.tenant_key != 'spatest' -%}
-    {%- assign pillars = pillars | push: post -%}
+    {%- unless post.post_path contains '/en/' -%}
+      {%- assign pillars = pillars | push: post -%}
+    {%- endunless -%}
   {%- endif -%}
 {%- endfor -%}
 {%- assign pillars = pillars | sort: "updated_at" | reverse -%}
