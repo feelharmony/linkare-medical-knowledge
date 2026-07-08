@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-08",
+  "updated_at": "2026-07-05",
   "entities": {
     "aging": [
       {
@@ -772,19 +772,6 @@
         "post_id": null,
         "anchors": [],
         "excerpt": null
-      }
-    ],
-    "plantar-fasciitis": [
-      {
-        "footnote_id": 6,
-        "url": "https://ansimpainfree.kr/en/blog/daegu-plantar-fasciitis-causes-and-treatment-for-m",
-        "title": "안심튼튼마취통증의학과 — Daegu Plantar Fasciitis: Causes and Treatment for Morning Heel Pain",
-        "post_id": "eb9f6d30-3dd8-4583-83f1-0fed0788a1a4",
-        "anchors": [
-          "symptoms",
-          "diagnosis"
-        ],
-        "excerpt": "The moment you bear weight after getting up, that shortened tissue is suddenly stretched, producing sharp pain."
       }
     ]
   }
