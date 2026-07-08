@@ -5,7 +5,7 @@ entity_type: condition
 permalink: /conditions/plantar-fasciitis/
 title: 족저근막염
 title_en: plantar fasciitis
-description: 발바닥 근막의 염증성 질환
+description: 발뒤꿈치 아래 안쪽과 발바닥 근막 부착부의 반복 부하·퇴행성 변화로 아침 첫발 통증과 보행 통증을 유발하는 대표적 발뒤꿈치 통증 질환
 aliases:
   - 족저근막염
   - 족저 근막염
@@ -13,21 +13,16 @@ aliases:
   - plantar fasciitis
   - plantar fasciopathy
   - plantar heel pain
-last_reviewed: '2026-07-08'
+last_reviewed: '2026-07-03'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
-source_count: 6
+source_count: 5
 source_count_external: 5
 source_count_clinic_pillar: 0
 clinic_footnote_ids: []
-external_footnote_ids:
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
+external_footnote_ids: [1, 2, 3, 4, 5]
 version: 4
 ---
 ## 정의
@@ -45,14 +40,10 @@ version: 4
 
 저림·타는 듯한 통증이 주증상이면 Baxter nerve entrapment나 족근관증후군 같은 신경성 통증을 감별해야 합니다 [^1]. 뒤꿈치 중앙이 딱딱한 바닥에서 멍든 듯 아프면 지방패드 통증 가능성이 있고, 운동량 증가 후 뼈가 깊게 아프거나 종골 압박 통증이 있으면 피로골절을 고려합니다 [^1][^3].
 
-발바닥 근막염의 재발을 예방하기 위해서는 아침에 일어나기 전 스트레칭을 통해 근막을 미리 늘려주는 것이 중요합니다[^6].
-
 ## 진단
 진단은 대부분 병력과 신체진찰로 가능합니다 [^1][^2]. 아침 첫발 통증, 오래 앉았다 일어날 때 통증, 발뒤꿈치 아래 안쪽 압통, 발목 dorsiflexion 제한, 종아리-아킬레스 긴장, 보행 패턴을 확인합니다. Windlass test나 족저근막 스트레칭 시 통증 유발도 참고할 수 있습니다 [^2].
 
 전형적인 경우 영상검사가 필수는 아니지만, 통증이 오래 지속되거나 비전형적이면 초음파·X-ray·MRI를 선택합니다 [^1][^2]. 초음파는 족저근막 비후, 저에코 변화, 부분 파열, 주변 연부조직 상태를 확인하고, [초음파 유도 주사](/treatments/ultrasound-guided-injection/) 표적을 정하는 데 도움이 됩니다. X-ray의 heel spur는 통증 원인이라기보다 동반 소견일 수 있으므로, “뼈가 자라서 무조건 아프다”로 단순화하지 않는 편이 안전합니다.
-
-초음파 검사는 족저근막의 섬유 조직 변화를 확인하고, 치료 표적을 정하는 데 유용합니다[^6].
 
 ## 치료
 기본 치료는 부하 조절, 신발·깔창 조정, 종아리와 족저근막 스트레칭, 발 intrinsic muscle 강화, 테이핑, 단기 NSAIDs, 야간 보조기, 물리치료입니다 [^2][^3]. 2021 BJSM best practice guide는 education, stretching, taping, individualized exercise 등 환자 중심의 단계적 보존 치료를 강조합니다 [^3].
@@ -70,13 +61,8 @@ version: 4
 
 ---
 
----
-
 ## Citations
 ### 자사 임상 자료
-<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
-[^6]: [안심튼튼마취통증의학과 — Daegu Plantar Fasciitis: Causes and Treatment for Morning Heel Pain](https://ansimpainfree.kr/en/blog/daegu-plantar-fasciitis-causes-and-treatment-for-m) · 근거: "The moment you bear weight after getting up, that shortened tissue is suddenly stretched, producing sharp pain."
-<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: [Tu P, Bytomski JR. Heel Pain: Diagnosis and Management. Am Fam Physician. 2018;97(2):86-93. PMID 29365222](https://pubmed.ncbi.nlm.nih.gov/29365222/)
@@ -87,4 +73,3 @@ version: 4
 
 ## Changelog
 - 2026-07-03 v4: 내용 업데이트.
-- 2026-07-08 v4: 증상 enrich, 진단 enrich
