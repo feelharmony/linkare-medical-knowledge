@@ -746,5 +746,20 @@
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon",
     "is_pillar": false
+  },
+  {
+    "post_path": "content/thr/ko/-----/lateral-epicondylitis.md",
+    "source_article_url": "https://thewellsr.kr/blog/lateral-epicondylitis",
+    "source_article_title": "테니스엘보란 무엇인가 — 염증이 아닌 건의 퇴행성 변화",
+    "primary_entity_id": "lateral-epicondylitis",
+    "entity_ids": [
+      "lateral-epicondylitis"
+    ],
+    "updated_at": "2026-07-08",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
