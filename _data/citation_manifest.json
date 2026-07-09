@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-05",
+  "updated_at": "2026-07-09",
   "entities": {
     "aging": [
       {
@@ -772,6 +772,19 @@
         "post_id": null,
         "anchors": [],
         "excerpt": null
+      }
+    ],
+    "rotator-cuff-tear": [
+      {
+        "footnote_id": 1,
+        "url": "https://ansimpainfree.kr/blog/rotator-cuff-tear",
+        "title": "안심튼튼마취통증의학과 — 대구 회전근개파열, 원인부터 치료까지",
+        "post_id": "468de913-fdd9-4b55-a4ac-2ea15353ebe8",
+        "anchors": [
+          "symptoms",
+          "diagnosis"
+        ],
+        "excerpt": "부분층 파열 단계에서는 특정 각도로 팔을 올릴 때만 통증이 나타나는 경우가 많습니다."
       }
     ]
   }
