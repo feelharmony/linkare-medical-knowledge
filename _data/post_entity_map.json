@@ -776,5 +776,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/en/-----/what-is-tennis-elbow-tendon-degeneration-not-inflammation.md",
+    "source_article_url": "https://thewellsr.kr/en/blog/what-is-tennis-elbow-tendon-degeneration-not-inflammation",
+    "source_article_title": "What Is Tennis Elbow — Tendon Degeneration, Not Inflammation",
+    "primary_entity_id": "lateral-epicondylitis",
+    "entity_ids": [
+      "lateral-epicondylitis"
+    ],
+    "updated_at": "2026-07-09",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
