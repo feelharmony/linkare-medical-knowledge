@@ -761,5 +761,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/------/rotator-cuff-tear.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/rotator-cuff-tear",
+    "source_article_title": "대구 회전근개파열, 원인부터 치료까지",
+    "primary_entity_id": "rotator-cuff-tear",
+    "entity_ids": [
+      "rotator-cuff-tear"
+    ],
+    "updated_at": "2026-07-09",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
