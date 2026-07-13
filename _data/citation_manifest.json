@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-09",
+  "updated_at": "2026-07-13",
   "entities": {
     "aging": [
       {
@@ -138,10 +138,13 @@
       {
         "footnote_id": 1,
         "url": "https://ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis",
-        "title": "안심튼튼 — 외측상과염 증상·진단",
-        "post_id": null,
-        "anchors": [],
-        "excerpt": null
+        "title": "안심튼튼마취통증의학과 — 외측상과염 증상과 진단 - 팔꿈치 통증의 정확한 원인 찾기",
+        "post_id": "0dac3a87-7c81-4d6a-a7e2-cb73deadb1d5",
+        "anchors": [
+          "pathophysiology",
+          "symptoms"
+        ],
+        "excerpt": "팔꿈치 바깥쪽이 아프면서 악수하기도 힘드신가요? 컵을 들거나 문고리를 돌릴 때마다..."
       }
     ],
     "lumbar-disc-herniation": [
