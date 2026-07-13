@@ -4,19 +4,25 @@ entity_id: lateral-epicondylitis
 entity_type: condition
 permalink: /conditions/lateral-epicondylitis/
 title: 외측상과염
-description: 팔꿈치 외측 힘줄의 만성 손상으로 통증과 기능 저하를 일으키는 질환
+description: 팔꿈치 외측 힘줄의 만성 손상
 title_en: lateral epicondylitis
-last_reviewed: '2026-07-03'
+last_reviewed: '2026-07-13'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-03'
-source_count: 6
+source_count: 7
 source_count_external: 5
 source_count_clinic_pillar: 1
-clinic_footnote_ids: [1]
-external_footnote_ids: [2, 3, 4, 5, 6]
-version: 7
+clinic_footnote_ids:
+  - 1
+external_footnote_ids:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+version: 5
 ---
 ## 정의
 외측상과염(lateral epicondylitis, 테니스엘보)은 [팔꿈치](/body-parts/elbow/) 바깥쪽 뼈 돌출 부위인 외측 상과에 붙은 힘줄이 손상되어 통증과 기능 저하를 일으키는 질환입니다. 주로 짧은노쪽손목폄근(extensor carpi radialis brevis, ECRB)의 힘줄에 반복적인 미세 손상이 쌓이면서 발생합니다 [^1][^2]. 테니스엘보라는 별명 때문에 운동선수만 걸리는 병으로 오해받지만, 반복적으로 손목을 펴거나 물건을 쥐는 동작을 하는 사람들에게 광범위하게 나타납니다. 주부·목수·요리사·사무직 근로자 등 직업과 무관하게 발생할 수 있습니다 [^1].
@@ -26,8 +32,12 @@ version: 7
 ## 병태
 팔뚝 근육이 팔꿈치 바깥쪽 뼈에 붙는 부위가 계속 당겨지면서 힘줄에 미세한 찢어짐이 생깁니다. 회복되지 못한 미세 손상이 누적되면서 퇴행성 건병증(tendinopathy)으로 이어집니다 [^1][^2]. 나이가 들수록 힘줄의 탄력이 떨어져 더 쉽게 손상됩니다 [^1]. 미국 물리치료학회(APTA) 2022 임상진료지침은 외측 팔꿈치 통증을 단순 염증보다는 건의 퇴행성 변화와 기능 저하가 함께 작용하는 만성 건병증 관점으로 다룹니다 [^2].
 
+팔꿈치 바깥쪽에서 팔뚝으로 뻗어 내려가는 불편감은 외측상과염의 대표적인 증상입니다. [^1]
+
 ## 증상
 외측상과염의 가장 큰 특징은 팔꿈치 바깥쪽에서 팔뚝으로 뻗어 내려가는 불편감입니다. 단순히 팔꿈치만 아픈 것이 아니라, 특정 동작을 할 때 통증이 심해지는 점이 중요합니다. 팔꿈치 바깥쪽 뼈 돌출부에서 1~2cm 아래 지점에서 가장 심하며, 손가락으로 누르면 찌릿합니다. 팔뚝 바깥쪽을 따라 손목까지 뻗어 나가기도 합니다 [^1]. 아침에 뻣뻣하다 움직이면서 점차 풀리고, 오후가 되어 사용량이 늘어나면 다시 불편해집니다. 휴식을 취하면 나아지지만, 활동을 재개하면 곧 다시 생기는 양상이 흔합니다 [^1].
+
+외측상과염 환자들은 컵을 들거나 문고리를 돌릴 때 팔꿈치에서 팔뚝까지 찌릿한 통증을 호소합니다. [^1]
 
 ## 진단
 외측상과염은 주로 병력 청취와 신체 검사로 진단합니다. Cozen 검사, Mill's test, Thomsen 검사, 중지 신전 검사 등이 임상 평가에 사용됩니다 [^1][^2]. 영상검사는 다른 질환을 배제하거나 힘줄 손상 정도를 확인할 때 보조적으로 사용합니다. 단순 방사선 촬영(X-ray)은 뼈의 이상이나 석회화를 확인하고, 초음파 검사는 힘줄의 두께·부종·파열을 실시간으로 볼 수 있으며, MRI는 힘줄 손상의 정도를 가장 자세히 보여줍니다 [^1].
@@ -58,9 +68,11 @@ version: 7
 
 ---
 
+---
+
 ## Citations
-<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^1]: [안심튼튼 — 외측상과염 증상·진단](https://ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
@@ -77,3 +89,4 @@ version: 7
 - 2026-04-28 v3: 내용 업데이트.
 - 2026-04-28 v4: 내용 업데이트.
 - 2026-05-02 v5: 내용 업데이트.
+- 2026-07-13 v5: 병태 enrich, 증상 enrich
