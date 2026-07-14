@@ -804,5 +804,18 @@
     "sub_topic_type": null,
     "is_pillar": true,
     "tenant_key": "thq"
+  },
+  {
+    "post_path": "content/thq/en/-----/why-children-with-scoliosis-should-exercise-while-wearing-a.md",
+    "source_article_url": "https://thewells.kr/en/blog/why-children-with-scoliosis-should-exercise-while-wearing-a",
+    "source_article_title": "Why Children with Scoliosis Should Exercise While Wearing a Brace",
+    "primary_entity_id": "scoliosis",
+    "entity_ids": [
+      "scoliosis"
+    ],
+    "updated_at": "2026-07-14",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq"
   }
 ]
