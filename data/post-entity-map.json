@@ -791,5 +791,18 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thq/ko/-----/scoliosis.md",
+    "source_article_url": "https://thewells.kr/blog/scoliosis",
+    "source_article_title": "성장기 척추측만증, 보조기를 입고 운동해야 하는 이유",
+    "primary_entity_id": "scoliosis",
+    "entity_ids": [
+      "scoliosis"
+    ],
+    "updated_at": "2026-07-14",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq"
   }
 ]
