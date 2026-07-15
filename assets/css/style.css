@@ -1278,13 +1278,16 @@ a:hover { text-decoration: underline; }
   margin-bottom: 2rem;
 }
 
+/* 하단 구획 헤딩을 본문 h2와 같은 위계로 통일 (한 단계 작게) */
 .entity-section h2 {
-  font-size: 0.75rem;
-  font-weight: 500;
-  color: var(--color-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-ink);
+  text-transform: none;
+  letter-spacing: -0.005em;
   margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-line);
 }
 
 /* v2.5: thick entity body */
@@ -1354,6 +1357,71 @@ a:hover { text-decoration: underline; }
   color: var(--color-muted);
 }
 
+/* ─── Entity 목차 (위키식 TOC) ─── */
+
+/* 고정 헤더에 가리지 않게 앵커 이동 여백 확보 (목차·각주 공통) */
+.entity-hub [id] {
+  scroll-margin-top: calc(var(--header-height-md) + 16px);
+}
+
+.entity-toc {
+  display: inline-block;
+  margin: 1.5rem 0 0;
+  padding: 0.9rem 1.25rem;
+  border: 1px solid var(--color-line);
+  border-radius: 6px;
+  background: var(--color-bg-soft);
+  font-size: 0.875rem;
+}
+
+.entity-toc-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.4rem;
+}
+
+.entity-toc ol {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.entity-toc li {
+  margin: 0.2rem 0;
+}
+
+.entity-toc a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.entity-toc a:hover { text-decoration: underline; }
+
+.entity-toc a.is-active { font-weight: 600; }
+
+/* 데스크톱·랩탑: 좌측 여백에 스크롤을 따라다니는 사이드바 레일.
+   본문(680px) 옆 여백이 확보되는 1060px부터 켜지고,
+   여백이 좁으면 레일 폭이 150px까지 자동 축소된다. */
+@media (min-width: 1060px) {
+  .entity-toc {
+    --toc-width: clamp(150px, calc(50vw - 372px), 210px);
+    display: block;
+    position: fixed;
+    top: calc(var(--header-height-md) + 32px);
+    left: calc(50% - 356px - var(--toc-width));
+    width: var(--toc-width);
+    max-height: calc(100vh - var(--header-height-md) - 64px);
+    overflow-y: auto;
+    background: var(--color-bg);
+  }
+
+  .entity-toc a { color: var(--color-muted); }
+  .entity-toc a:hover { color: var(--color-primary); text-decoration: none; }
+  .entity-toc a.is-active { color: var(--color-ink); }
+}
+
 /* Citation footnotes */
 .entity-body .footnotes {
   margin-top: 2.5rem;
@@ -1367,10 +1435,87 @@ a:hover { text-decoration: underline; }
   margin-left: 1.5rem;
 }
 
+.entity-body .footnotes li {
+  margin-bottom: 0.5rem;
+}
+
+/* 각주 역링크(↩×N) 숨김 — DOM에는 유지되어 크롤·앵커 무영향 */
+.entity-body .footnotes .reversefootnote {
+  display: none;
+}
+
+/* 본문 위첨자 각주 — [N] 배지 형태로 정돈 */
+.entity-body sup {
+  font-size: 0.72em;
+  line-height: 0;
+}
+
 .entity-body sup a {
   text-decoration: none;
-  padding: 0 0.125rem;
+  padding: 0 0.05em;
   color: var(--color-accent);
+}
+
+.entity-body sup a::before { content: "["; color: var(--color-muted-soft); }
+.entity-body sup a::after  { content: "]"; color: var(--color-muted-soft); }
+
+.entity-body sup + sup { margin-left: 0.15em; }
+
+/* JS가 manifest 기반으로 분리한 자사 임상 자료 각주 블록 (항상 펼침) */
+.entity-body .footnotes--clinic {
+  margin-top: 0.5rem;
+  padding-top: 0;
+  border-top: none;
+}
+
+/* 내용 없이 남은 Citations 소제목은 표시만 숨김 */
+.entity-body .citation-heading--empty { display: none; }
+
+/* 접이식 블록 — 외부 권위 출처·Changelog (내용은 DOM에 유지) */
+.fn-collapse {
+  margin: 0.75rem 0 1.75rem;
+  border: 1px solid var(--color-line);
+  border-radius: 6px;
+  background: var(--color-bg);
+}
+
+.fn-collapse > summary {
+  cursor: pointer;
+  padding: 0.55rem 1rem;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  user-select: none;
+}
+
+.fn-collapse > summary:hover { color: var(--color-ink); }
+
+.fn-collapse[open] > summary {
+  border-bottom: 1px solid var(--color-line);
+}
+
+.fn-collapse .footnotes {
+  margin-top: 0;
+  padding: 0.75rem 1rem;
+  border-top: none;
+}
+
+.fn-collapse > ul {
+  margin: 0;
+  padding: 0.6rem 1rem 0.75rem 2.25rem;
+  font-size: 0.875rem;
+  color: var(--color-muted);
+}
+
+/* Changelog 헤딩 강등 — 방문자에겐 보조 정보 */
+.entity-body h2.changelog-heading {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-bottom: none;
+  margin: 2.25rem 0 0.5rem;
+  padding-bottom: 0;
 }
 
 .entity-source-count,
@@ -1527,20 +1672,54 @@ a:hover { text-decoration: underline; }
   margin-top: 1rem;
 }
 
+/* Pillar — 항상 펼침, 자사 대표 자료라 좌측 액센트로 구분 */
+.related-category--pillar {
+  margin: 1rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--color-accent);
+}
+
+.related-category--pillar h3,
+.related-tenant > summary .related-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0 0.25rem;
+}
+
+.related-category--pillar .related-post-list {
+  margin-bottom: 0.5rem;
+}
+
+/* 테넌트별 spoke 드롭다운 — 카드형으로 정돈 */
 .related-tenant {
   margin-bottom: 0.5rem;
+  border: 1px solid var(--color-line);
+  border-radius: 6px;
+  background: var(--color-bg);
 }
 
 .related-tenant > summary {
   cursor: pointer;
   font-weight: 600;
   color: var(--color-ink);
-  padding: 0.4rem 0;
+  padding: 0.6rem 1rem;
+  user-select: none;
+}
+
+.related-tenant > summary:hover {
+  color: var(--color-primary);
+}
+
+.related-tenant[open] > summary {
+  border-bottom: 1px solid var(--color-line-soft);
 }
 
 .related-tenant .related-post-list {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin: 0.25rem 0;
+  padding: 0 1rem;
 }
 
 .related-category--pillar .related-meta,

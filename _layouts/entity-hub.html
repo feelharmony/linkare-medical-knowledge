@@ -169,9 +169,16 @@ layout: default
     v2.6: kramdown footnotes 자동 출력 위치 보정.
     kramdown은 footnote 정의를 페이지 맨 아래에 자동 출력하므로
     markdown의 "## Citations" 제목 아래는 비고 footnote는 Changelog 뒤에 떨어진다.
-    JS로 .footnotes 블록을 "Citations" 제목 다음 위치로 이동시킨다.
     FOUC 방지: 초기에 .footnotes를 visibility:hidden, JS 이동 후 visible로.
     JS 비활성 환경: <noscript>으로 visible 처리해 페이지 끝에 표시.
+
+    v2.7: Citation 2분할 렌더 복원 + 하단부 정리 (2026-07-15).
+    - citation_manifest(ground truth)의 footnote_id로 자사/외부 각주를 분리해
+      md의 "### 자사 임상 자료" / "### 외부 권위 출처" 소제목 아래로 각각 배치.
+      (kramdown이 정의를 단일 블록으로 빼가서 소제목이 빈 채 렌더되던 문제 해결)
+    - 외부 권위 출처·Changelog는 접이식(details) — DOM에 그대로 남아 크롤 무영향.
+    - 표시 번호는 분할 전에 li value로 고정해 본문 sup 번호와 일치 유지.
+    - 접힌 details 안 각주로 앵커 이동 시 자동 펼침.
   {%- endcomment -%}
   {% if content != blank %}
   <div class="entity-body">
@@ -185,34 +192,179 @@ layout: default
     <style>.entity-body .footnotes { visibility: visible; }</style>
   </noscript>
   {% include entity-related-posts.html %}
+  {%- comment -%} 자사 citation footnote_id 목록 — _data/citation_manifest.json이 ground truth {%- endcomment -%}
+  {% assign clinic_citations = site.data.citation_manifest.entities[entity_id] %}
+  <script type="application/json" id="clinic-citation-ids">[{% if clinic_citations %}{% for c in clinic_citations %}{{ c.footnote_id | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endif %}]</script>
   <script>
     (function() {
-      function repositionFootnotes() {
+      function findHeading(scope, tag, text) {
+        var hs = scope.querySelectorAll(tag);
+        for (var i = 0; i < hs.length; i++) {
+          if (hs[i].textContent.trim() === text) return hs[i];
+        }
+        return null;
+      }
+
+      function wrapInDetails(node, summaryText, cssClass) {
+        var details = document.createElement('details');
+        details.className = cssClass;
+        var summary = document.createElement('summary');
+        summary.textContent = summaryText;
+        details.appendChild(summary);
+        node.parentNode.insertBefore(details, node);
+        details.appendChild(node);
+        return details;
+      }
+
+      function restructureCitations() {
         var entityBody = document.querySelector('.entity-body');
         if (!entityBody) return;
 
-        var footnotes = entityBody.querySelector('.footnotes');
-        if (!footnotes) return;
+        var citationsHeading = findHeading(entityBody, 'h2', 'Citations');
+        var clinicHeading = findHeading(entityBody, 'h3', '자사 임상 자료');
+        var externalHeading = findHeading(entityBody, 'h3', '외부 권위 출처');
 
-        var headings = entityBody.querySelectorAll('h2');
-        var citationsHeading = null;
-        for (var i = 0; i < headings.length; i++) {
-          if (headings[i].textContent.trim() === 'Citations') {
-            citationsHeading = headings[i];
-            break;
+        var footnotes = entityBody.querySelector('.footnotes');
+        if (footnotes) {
+          var ol = footnotes.querySelector('ol');
+          var lis = ol ? Array.prototype.slice.call(ol.children) : [];
+
+          // 분할·접기 전에 표시 번호 고정 — 본문 sup 번호와 일치 유지
+          lis.forEach(function(li, i) { li.setAttribute('value', String(i + 1)); });
+
+          var clinicIds = [];
+          try {
+            clinicIds = JSON.parse(document.getElementById('clinic-citation-ids').textContent);
+          } catch (e) { /* manifest 미존재 entity — 전부 외부로 처리 */ }
+          var clinicSet = {};
+          clinicIds.forEach(function(id) { clinicSet['fn:' + id] = true; });
+
+          // 자사 임상 자료: manifest 매칭분을 소제목 아래 별도 목록으로 (항상 펼침)
+          var clinicLis = lis.filter(function(li) { return clinicSet[li.id]; });
+          if (clinicLis.length > 0 && clinicHeading) {
+            var clinicBlock = document.createElement('div');
+            clinicBlock.className = 'footnotes footnotes--clinic footnotes--repositioned';
+            var clinicOl = document.createElement('ol');
+            clinicLis.forEach(function(li) { clinicOl.appendChild(li); });
+            clinicBlock.appendChild(clinicOl);
+            clinicHeading.insertAdjacentElement('afterend', clinicBlock);
+          }
+
+          // 외부 권위 출처: 나머지를 접이식으로
+          var remaining = ol ? ol.children.length : 0;
+          if (remaining > 0) {
+            var anchorHeading = externalHeading || citationsHeading;
+            if (anchorHeading) anchorHeading.insertAdjacentElement('afterend', footnotes);
+            wrapInDetails(footnotes, '참고 문헌 ' + remaining + '건 펼치기', 'fn-collapse');
+          } else {
+            footnotes.parentNode.removeChild(footnotes);
+          }
+
+          // 내용 없이 남는 소제목은 표시만 숨김
+          if (clinicHeading && clinicLis.length === 0) clinicHeading.classList.add('citation-heading--empty');
+          if (externalHeading && remaining === 0) externalHeading.classList.add('citation-heading--empty');
+
+          footnotes.classList.add('footnotes--repositioned');
+        }
+
+        // Changelog: 데이터·DOM은 유지, 표시만 접이식으로
+        var changelogHeading = findHeading(entityBody, 'h2', 'Changelog');
+        if (changelogHeading) {
+          var list = changelogHeading.nextElementSibling;
+          if (list && list.tagName === 'UL') {
+            changelogHeading.classList.add('changelog-heading');
+            wrapInDetails(list, '변경 이력 ' + list.children.length + '건', 'fn-collapse fn-collapse--changelog');
           }
         }
+      }
 
-        if (citationsHeading) {
-          citationsHeading.insertAdjacentElement('afterend', footnotes);
+      // 위키식 목차 — 본문 h2(+하단 구획)를 수집해 헤더 아래 삽입.
+      // 데스크톱(≥1320px)은 CSS로 좌측 여백 고정 레일, 그 미만은 상단 목차 박스.
+      function buildToc() {
+        var article = document.querySelector('article.entity-hub');
+        var entityBody = document.querySelector('.entity-body');
+        if (!article || !entityBody) return;
+
+        var heads = [];
+        Array.prototype.slice.call(entityBody.querySelectorAll('h2')).forEach(function(h) {
+          if (!h.classList.contains('changelog-heading')) heads.push(h);
+        });
+        Array.prototype.slice.call(
+          article.querySelectorAll('.entity-section:not(.entity-siblings) > h2')
+        ).forEach(function(h) { heads.push(h); });
+
+        if (heads.length < 3) return; // 짧은 페이지는 목차 생략
+
+        heads.forEach(function(h, i) {
+          if (!h.id) h.id = 'sec-' + i;
+        });
+
+        var nav = document.createElement('nav');
+        nav.className = 'entity-toc';
+        nav.setAttribute('aria-label', '목차');
+        var title = document.createElement('div');
+        title.className = 'entity-toc-title';
+        title.textContent = '목차';
+        nav.appendChild(title);
+        var ol = document.createElement('ol');
+        heads.forEach(function(h) {
+          var li = document.createElement('li');
+          var a = document.createElement('a');
+          a.href = '#' + encodeURIComponent(h.id);
+          a.textContent = h.textContent.trim();
+          li.appendChild(a);
+          ol.appendChild(li);
+        });
+        nav.appendChild(ol);
+
+        var headerEl = article.querySelector('.entity-header');
+        if (!headerEl) return;
+        headerEl.insertAdjacentElement('afterend', nav);
+
+        // 현재 읽는 섹션 하이라이트 (지원 브라우저만)
+        if ('IntersectionObserver' in window) {
+          var links = {};
+          Array.prototype.slice.call(ol.querySelectorAll('a')).forEach(function(a) {
+            links[decodeURIComponent(a.hash.slice(1))] = a;
+          });
+          var current = null;
+          var io = new IntersectionObserver(function(entries) {
+            entries.forEach(function(en) {
+              if (!en.isIntersecting) return;
+              if (current) current.classList.remove('is-active');
+              current = links[en.target.id] || null;
+              if (current) current.classList.add('is-active');
+            });
+          }, { rootMargin: '-80px 0px -70% 0px' });
+          heads.forEach(function(h) { io.observe(h); });
         }
-        footnotes.classList.add('footnotes--repositioned');
+      }
+
+      // 접힌 details 안 각주로 앵커 이동 시 자동 펼침
+      function openDetailsForHash() {
+        if (!location.hash) return;
+        var target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+        if (!target) return;
+        var node = target.parentElement;
+        var opened = false;
+        while (node) {
+          if (node.tagName === 'DETAILS' && !node.open) { node.open = true; opened = true; }
+          node = node.parentElement;
+        }
+        if (opened) target.scrollIntoView();
+      }
+
+      function init() {
+        restructureCitations();
+        buildToc();
+        openDetailsForHash();
+        window.addEventListener('hashchange', openDetailsForHash);
       }
 
       if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', repositionFootnotes);
+        document.addEventListener('DOMContentLoaded', init);
       } else {
-        repositionFootnotes();
+        init();
       }
     })();
   </script>
