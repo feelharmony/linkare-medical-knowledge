@@ -832,5 +832,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thr/en/----/calcific-tendinitis-in-nowon-when-does-the-pain-get-worse.md",
+    "source_article_url": "https://thewells.kr/en/blog/calcific-tendinitis-in-nowon-when-does-the-pain-get-worse",
+    "source_article_title": "Calcific Tendinitis in Nowon: When Does the Pain Get Worse?",
+    "primary_entity_id": "calcific-tendinitis",
+    "entity_ids": [
+      "calcific-tendinitis"
+    ],
+    "updated_at": "2026-07-16",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
