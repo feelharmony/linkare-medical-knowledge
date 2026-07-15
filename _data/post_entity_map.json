@@ -817,5 +817,20 @@
     "sub_topic_type": null,
     "is_pillar": true,
     "tenant_key": "thq"
+  },
+  {
+    "post_path": "content/thr/ko/----/calcific-tendinitis.md",
+    "source_article_url": "https://thewellsr.kr/blog/calcific-tendinitis",
+    "source_article_title": "노원 석회성건염, 언제 통증이 더 심해질까요?",
+    "primary_entity_id": "calcific-tendinitis",
+    "entity_ids": [
+      "calcific-tendinitis"
+    ],
+    "updated_at": "2026-07-15",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
