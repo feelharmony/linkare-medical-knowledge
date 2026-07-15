@@ -116,8 +116,8 @@ NAD+ 관련 수액·보충 옵션은 만성 피로 영역에서 임상에서 논
 
 ## Citations
 ### 자사 임상 자료
-- [더웰스 — NAD 수액, 만성 통증 회복](https://thewellsr.kr/blog/nad)
-- [더웰스 — NAD](https://thewellsr.kr/blog/nad)
+- [더웰스 — NAD 수액, 만성 통증 회복](https://thewells.kr/blog/nad)
+- [더웰스 — NAD](https://thewells.kr/blog/nad)
 
 ### 외부 권위 출처
 [^2]: [Latimer KM, Gunther A, Kopec M. Fatigue in Adults: Evaluation and Management. Am Fam Physician. 2023;108(1):58-69. PMID 37440739](https://pubmed.ncbi.nlm.nih.gov/37440739/)

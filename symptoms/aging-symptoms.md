@@ -124,8 +124,8 @@ NAD+ 보충(NMN·NR 경구 또는 NAD+ 정맥 주입)·기타 항노화 보충�
 
 ## Citations
 ### 자사 임상 자료
-- [더웰스 — NAD 수액, 만성 통증 회복](https://thewellsr.kr/blog/nad)
-- [더웰스 — NAD](https://thewellsr.kr/blog/nad)
+- [더웰스 — NAD 수액, 만성 통증 회복](https://thewells.kr/blog/nad)
+- [더웰스 — NAD](https://thewells.kr/blog/nad)
 
 ### 외부 권위 출처
 [^2]: [World Health Organization. Integrated Care for Older People: Guidelines on Community-Level Interventions to Manage Declines in Intrinsic Capacity (ICOPE). Geneva: WHO; 2017. PMID 29608259](https://pubmed.ncbi.nlm.nih.gov/29608259/)

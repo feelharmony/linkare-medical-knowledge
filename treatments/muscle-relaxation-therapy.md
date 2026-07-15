@@ -28,7 +28,7 @@ robots: noindex, nofollow
 
 ## Citations
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
-[^1]: [thewellsr.kr/blog/forward-head-posture](https://thewellsr.kr/blog/forward-head-posture)
+[^1]: [thewells.kr/blog/forward-head-posture](https://thewells.kr/blog/forward-head-posture)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ## Changelog

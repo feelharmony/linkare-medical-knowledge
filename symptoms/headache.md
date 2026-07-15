@@ -118,7 +118,7 @@ ACR Appropriateness Criteria Headache 2022 Update(JACR 2023)는 8개 임상 시�
 ## Citations
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
-[^1]: [더웰스 — 두통 관련 글](https://thewellsr.kr/blog/forward-head-posture)
+[^1]: [더웰스 — 두통 관련 글](https://thewells.kr/blog/forward-head-posture)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처

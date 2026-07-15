@@ -119,7 +119,7 @@ APTA 2017 목 통증 CPG와 비특이적 목 통증 물리치료 지침은 만�
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 
-[^4]: [thewellsr.kr/blog/forward-head-posture](https://thewellsr.kr/blog/forward-head-posture)
+[^4]: [thewells.kr/blog/forward-head-posture](https://thewells.kr/blog/forward-head-posture)
 
 [^5]: [ansimpainfree.kr/blog/text-neck-prevention-posture-exercise-guide](https://ansimpainfree.kr/blog/text-neck-prevention-posture-exercise-guide)
 <!-- /LINKARE:CLINIC-CITATIONS -->

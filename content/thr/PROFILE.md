@@ -12,8 +12,8 @@ specialty_en: "occupational medicine, pain medicine, wellness"
 location: "서울 노원구 노해로 452 4층 401, 402호"
 location_en: "452, Nohae-ro, 4F, Nowon-gu, Seoul, Republic of Korea"
 telephone: "+82-2-3392-4582"
-website: "https://www.thewellsr.kr"
-sameAs: ["https://www.thewellsr.kr"]
+website: "https://thewells.kr/nowon"
+sameAs: ["https://thewells.kr/nowon"]
 hours: "월~금 09:30-18:30 / 토·일 휴진"
 naver_map: "https://naver.me/xbKt0gak"
 naver_booking: "https://m.booking.naver.com/booking/16/bizes/1632094"

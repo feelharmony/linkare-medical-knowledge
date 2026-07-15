@@ -12,7 +12,7 @@ version: 1
 tenant_key: thewells-nowon
 hospital: 더웰스 노원
 hospital_id: hospital-thewells-nowon
-hospital_website: 'https://thewellsr.kr'
+hospital_website: 'https://thewells.kr/nowon'
 specialties:
   - 통증의학
   - 항노화

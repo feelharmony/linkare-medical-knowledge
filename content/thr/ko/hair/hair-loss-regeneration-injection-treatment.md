@@ -7,7 +7,7 @@ title: "노원 탈모주사, 약만으로 부족할 때 모발재생 치료를 �
 categories: [hair]
 author: "더웰스의원 노원 박성진 원장"
 hospital: "더웰스의원 노원"
-canonical_url: "https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment"
+canonical_url: "https://thewells.kr/blog/hair-loss-regeneration-injection-treatment"
 source: Linkare Medical Knowledge
 license: CC BY-NC 4.0
 last_updated: 2026-05-29

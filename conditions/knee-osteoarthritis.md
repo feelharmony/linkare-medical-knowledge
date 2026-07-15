@@ -63,7 +63,7 @@ OARSI 2019 가이드라인도 핵심 치료(core treatment)로 환자 교육, �
 ## Citations
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
-[^1]: [더웰스 — 무릎 통증 관리·예방 운동 습관](https://thewellsr.kr/blog/knee-pain-management-prevention-exercise-habits)
+[^1]: [더웰스 — 무릎 통증 관리·예방 운동 습관](https://thewells.kr/blog/knee-pain-management-prevention-exercise-habits)
 [^2]: [안심튼튼 — 자가조직 줄기세포 치료](https://ansimpainfree.kr/blog/autologous-stem-cell-therapy)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 ### 외부 권위 출처

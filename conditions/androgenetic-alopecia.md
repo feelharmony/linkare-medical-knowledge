@@ -75,9 +75,9 @@ AGA는 만성·진행성이며, 대부분의 치료는 진행 억제·모발 회
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 
-[^4]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
+[^4]: [thewells.kr/blog/hair-loss-regeneration-injection-treatment](https://thewells.kr/blog/hair-loss-regeneration-injection-treatment)
 
-[^5]: [thewellsr.kr/blog/dht](https://thewellsr.kr/blog/dht)
+[^5]: [thewells.kr/blog/dht](https://thewells.kr/blog/dht)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처

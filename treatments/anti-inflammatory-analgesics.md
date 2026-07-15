@@ -29,7 +29,7 @@ version: 2
 ## Citations
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
-[^1]: [더웰스 — 일자목과 거북목, 목 통증의 주범을 제대로 알아보기](https://thewellsr.kr/blog/forward-head-posture)
+[^1]: [더웰스 — 일자목과 거북목, 목 통증의 주범을 제대로 알아보기](https://thewells.kr/blog/forward-head-posture)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ## Changelog

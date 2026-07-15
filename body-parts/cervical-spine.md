@@ -56,7 +56,7 @@ version: 4
 ## Citations
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
-[^1]: [더웰스 — 회전근개 손상을 근육 관점에서 이해하기](https://thewellsr.kr/blog/rotator-cuff-damage-muscle-perspective)
+[^1]: [더웰스 — 회전근개 손상을 근육 관점에서 이해하기](https://thewells.kr/blog/rotator-cuff-damage-muscle-perspective)
 [^2]: [안심튼튼 — 목디스크 원인·증상·진단부터 단계별 비수술 치료까지](https://ansimpainfree.kr/blog/cervical-disc-herniation)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 

@@ -54,7 +54,7 @@ version: 2
 ## Citations
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
-[^1]: [더웰스 — 거북목·일자목 관련 임상 자료](https://thewellsr.kr/blog/forward-head-posture)
+[^1]: [더웰스 — 거북목·일자목 관련 임상 자료](https://thewells.kr/blog/forward-head-posture)
 [^2]: [안심튼튼 — 목디스크 원인·증상·진단부터 단계별 비수술 치료까지](https://ansimpainfree.kr/blog/cervical-disc-herniation)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 

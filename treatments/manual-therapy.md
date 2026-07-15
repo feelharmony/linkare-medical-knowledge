@@ -107,7 +107,7 @@ Minnucci 2023 systematic review에서 RCT 보고된 이상반응은 대부분 �
 ## Citations
 ### 자사 임상 자료
 - [안심튼튼 — 목디스크 관련 글](https://ansimpainfree.kr/blog/cervical-disc-herniation)
-- [더웰스 — 거북목·일자목 관련 글](https://thewellsr.kr/blog/forward-head-posture)
+- [더웰스 — 거북목·일자목 관련 글](https://thewells.kr/blog/forward-head-posture)
 
 ### 외부 권위 출처
 [^1]: [Blanpied PR, Gross AR, Elliott JM, et al. Neck Pain: Revision 2017. Clinical Practice Guidelines Linked to the International Classification of Functioning, Disability and Health From the Orthopaedic Section of the American Physical Therapy Association. J Orthop Sports Phys Ther. 2017;47(7):A1-A83. PMID 28666405. DOI 10.2519/jospt.2017.0302](https://www.jospt.org/doi/10.2519/jospt.2017.0302)

@@ -38,7 +38,7 @@ NAD+ 수액 치료는 아직 연구 초기 단계로, 장기적인 효과와 안
 
 ## Citations
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
-[^1]: [thewellsr.kr/blog/nad](https://thewellsr.kr/blog/nad)
+[^1]: [thewells.kr/blog/nad](https://thewells.kr/blog/nad)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ## Changelog

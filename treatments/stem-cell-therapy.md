@@ -99,7 +99,7 @@ version: 4
 
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
-[^9]: [자사 임상 자료 — 탈모 재생주사 치료](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
+[^9]: [자사 임상 자료 — 탈모 재생주사 치료](https://thewells.kr/blog/hair-loss-regeneration-injection-treatment)
 [^10]: [자사 임상 자료 — 자가 혈액·골수 유래 줄기세포 치료](https://ansimpainfree.kr/blog/autologous-stem-cell-therapy)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 

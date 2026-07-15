@@ -72,7 +72,7 @@ version: 4
 ## Citations
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
-[^1]: [더웰스 — 회전근개 손상을 근육 관점에서 이해하기](https://thewellsr.kr/blog/rotator-cuff-damage-muscle-perspective)
+[^1]: [더웰스 — 회전근개 손상을 근육 관점에서 이해하기](https://thewells.kr/blog/rotator-cuff-damage-muscle-perspective)
 [^10]: [안심튼튼 — 어깨 통증 관리·예방·재발](https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 

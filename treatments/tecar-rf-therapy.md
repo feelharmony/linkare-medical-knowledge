@@ -75,8 +75,8 @@ TECAR RF 고주파 치료는 진단을 대체하지 않습니다. 골절, 감염
 ## Citations
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
-[^1]: [자사 임상 자료 — 도수치료 · 윈백 Hi-EMS · TECAR RF 결합](https://thewellsr.kr/blog/hi-ems-tecar-rf)
-[^2]: [자사 프로필 — Hi-EMS / Winback 고주파+전기근자극 운영 축](https://thewellsr.kr/)
+[^1]: [자사 임상 자료 — 도수치료 · 윈백 Hi-EMS · TECAR RF 결합](https://thewells.kr/blog/hi-ems-tecar-rf)
+[^2]: [자사 프로필 — Hi-EMS / Winback 고주파+전기근자극 운영 축](https://thewells.kr/nowon)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 ### 외부 권위 출처
 [^3]: [Kargarfard M et al. Effects of Transfer Energy Capacitive and Resistive On Musculoskeletal Pain: A Systematic Review and Meta-Analysis. Galen Med J. 2022;11:e2407. PMID 36698689](https://pubmed.ncbi.nlm.nih.gov/36698689/)

@@ -68,7 +68,7 @@ version: 5
 ## Citations
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
-[^1]: [더웰스 — 거북목·일자목 관련 임상 자료](https://thewellsr.kr/blog/forward-head-posture)
+[^1]: [더웰스 — 거북목·일자목 관련 임상 자료](https://thewells.kr/blog/forward-head-posture)
 [^2]: [안심튼튼 — 일자목·거북목 예방과 자세 운동 가이드](https://ansimpainfree.kr/blog/text-neck-prevention-posture-exercise-guide)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 ### 외부 권위 출처

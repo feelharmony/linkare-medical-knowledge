@@ -54,7 +54,7 @@ version: 3
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^1]: [안심튼튼 — 어깨 통증 관리·예방·재발](https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse)
-[^4]: [thewellsr.kr/blog/shoulder-impingement-syndrome-causes-treatment](https://thewellsr.kr/blog/shoulder-impingement-syndrome-causes-treatment)
+[^4]: [thewells.kr/blog/shoulder-impingement-syndrome-causes-treatment](https://thewells.kr/blog/shoulder-impingement-syndrome-causes-treatment)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처

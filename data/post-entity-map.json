@@ -37,7 +37,7 @@
   },
   {
     "post_path": "content/thr/ko/pain/straight-neck-forward-head.md",
-    "source_article_url": "https://thewellsr.kr/blog/forward-head-posture",
+    "source_article_url": "https://thewells.kr/blog/forward-head-posture",
     "source_article_title": "더웰스 — 일자목과 거북목, 목 통증의 주범을 제대로 알아보기",
     "primary_entity_id": "forward-head-posture",
     "entity_ids": [
@@ -80,7 +80,7 @@
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon",
     "source_article_title": "노원 탈모주사, 약만으로 부족할 때 모발재생 치료를 고려하는 기준",
-    "source_article_url": "https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment"
+    "source_article_url": "https://thewells.kr/blog/hair-loss-regeneration-injection-treatment"
   },
   {
     "post_path": "content/thr/ko/longevity/nad-iv-therapy.md",
@@ -162,7 +162,7 @@
   },
   {
     "post_path": "db:308b3e30-1e16-44d5-9700-36cf3a4524ec",
-    "source_article_url": "https://thewellsr.kr/blog/2026-04-10-308b3e30",
+    "source_article_url": "https://thewells.kr/blog/2026-04-10-308b3e30",
     "source_article_title": null,
     "primary_entity_id": "forward-head-posture",
     "entity_ids": [
@@ -330,8 +330,8 @@
     ]
   },
   {
-    "post_path": "https://thewellsr.kr/blog/shoulder-impingement-syndrome-causes-treatment",
-    "source_article_url": "https://thewellsr.kr/blog/shoulder-impingement-syndrome-causes-treatment",
+    "post_path": "https://thewells.kr/blog/shoulder-impingement-syndrome-causes-treatment",
+    "source_article_url": "https://thewells.kr/blog/shoulder-impingement-syndrome-causes-treatment",
     "source_article_title": null,
     "primary_entity_id": "shoulder",
     "entity_ids": [
@@ -345,8 +345,8 @@
     "tenant_key": "thr"
   },
   {
-    "post_path": "https://thewellsr.kr/knowledge/extracorporeal-shock-wave-therapy-results",
-    "source_article_url": "https://thewellsr.kr/knowledge/extracorporeal-shock-wave-therapy-results",
+    "post_path": "https://thewells.kr/blog/extracorporeal-shock-wave-therapy-results",
+    "source_article_url": "https://thewells.kr/blog/extracorporeal-shock-wave-therapy-results",
     "source_article_title": null,
     "primary_entity_id": "eswt",
     "entity_ids": [
@@ -373,8 +373,8 @@
     "tenant_key": "apfree"
   },
   {
-    "post_path": "https://thewellsr.kr/blog/nad-vs",
-    "source_article_url": "https://thewellsr.kr/blog/nad-vs",
+    "post_path": "https://thewells.kr/blog/nad-vs",
+    "source_article_url": "https://thewells.kr/blog/nad-vs",
     "source_article_title": null,
     "primary_entity_id": "nad-infusion-therapy",
     "entity_ids": [
@@ -404,7 +404,7 @@
   },
   {
     "post_path": "content/thr/ko/---tms/tms.md",
-    "source_article_url": "https://thewellsr.kr/blog/chronic-migraine-tms-when-to-consider",
+    "source_article_url": "https://thewells.kr/blog/chronic-migraine-tms-when-to-consider",
     "source_article_title": "약과 주사로도 잡히지 않는 만성 두통, TMS는 언제 고려하나",
     "primary_entity_id": "transcranial-magnetic-stimulation",
     "entity_ids": [
@@ -434,7 +434,7 @@
   },
   {
     "post_path": "content/thr/en/treatments/tms-transcranial-magnetic-stimulation-a-non-invasive-neuromo.md",
-    "source_article_url": "https://thewellsr.kr/en/blog/tms-transcranial-magnetic-stimulation-a-non-invasive-neuromo",
+    "source_article_url": "https://thewells.kr/en/blog/tms-transcranial-magnetic-stimulation-a-non-invasive-neuromo",
     "source_article_title": "TMS (Transcranial Magnetic Stimulation) — A Non-Invasive Neuromodulation Treatment for Chronic Headache, Insomnia, and Nervous System Sensitization",
     "primary_entity_id": "transcranial-magnetic-stimulation",
     "entity_ids": [
@@ -449,7 +449,7 @@
   },
   {
     "post_path": "content/thr/ko/-------/nad-tca.md",
-    "source_article_url": "https://thewellsr.kr/blog/nad-tca",
+    "source_article_url": "https://thewells.kr/blog/nad-tca",
     "source_article_title": "영양수액과 세포 에너지 대사 — NAD+·마이어스·라이넥·글리시리진의 TCA 사이클 회복 원리",
     "primary_entity_id": "nutrition-iv-therapy",
     "entity_ids": [
@@ -490,7 +490,7 @@
   },
   {
     "post_path": "content/thr/ko/-------/hi-ems-tecar-rf.md",
-    "source_article_url": "https://thewellsr.kr/blog/hi-ems-tecar-rf",
+    "source_article_url": "https://thewells.kr/blog/hi-ems-tecar-rf",
     "source_article_title": "도수치료 · 윈백 Hi-EMS · TECAR RF 결합 — 세 치료가 함께할 때 회복이 달라지는 이유",
     "primary_entity_id": "hi-ems",
     "entity_ids": [
@@ -506,7 +506,7 @@
   },
   {
     "post_path": "content/thr/ko/------/frozen-shoulder-pathophysiology.md",
-    "source_article_url": "https://thewellsr.kr/blog/frozen-shoulder-pathophysiology",
+    "source_article_url": "https://thewells.kr/blog/frozen-shoulder-pathophysiology",
     "source_article_title": "오십견이란 무엇인가 — 굳어가는 관절낭의 병태생리",
     "primary_entity_id": "frozen-shoulder",
     "entity_ids": [
@@ -521,7 +521,7 @@
   },
   {
     "post_path": "content/thr/en/------/what-is-frozen-shoulder-the-pathophysiology-of-a-stiffening-.md",
-    "source_article_url": "https://thewellsr.kr/en/blog/what-is-frozen-shoulder-the-pathophysiology-of-a-stiffening-",
+    "source_article_url": "https://thewells.kr/en/blog/what-is-frozen-shoulder-the-pathophysiology-of-a-stiffening-",
     "source_article_title": "What Is Frozen Shoulder? — The Pathophysiology of a Stiffening Joint Capsule",
     "primary_entity_id": "frozen-shoulder",
     "entity_ids": [
@@ -551,7 +551,7 @@
   },
   {
     "post_path": "content/thr/ko/---nad--/nad-infusion-cellular-energy-metabolism.md",
-    "source_article_url": "https://thewellsr.kr/blog/nad-infusion-cellular-energy-metabolism",
+    "source_article_url": "https://thewells.kr/blog/nad-infusion-cellular-energy-metabolism",
     "source_article_title": "NAD+ 수액 — 세포 에너지 대사부터 적응증·안전 관리까지",
     "primary_entity_id": "nad-infusion-therapy",
     "entity_ids": [
@@ -566,7 +566,7 @@
   },
   {
     "post_path": "content/thr/en/---nad--/nad-iv-therapy-from-cellular-energy-metabolism-to-indication.md",
-    "source_article_url": "https://thewellsr.kr/en/blog/nad-iv-therapy-from-cellular-energy-metabolism-to-indication",
+    "source_article_url": "https://thewells.kr/en/blog/nad-iv-therapy-from-cellular-energy-metabolism-to-indication",
     "source_article_title": "NAD+ IV Therapy — From Cellular Energy Metabolism to Indications and Safety",
     "primary_entity_id": "nad-infusion-therapy",
     "entity_ids": [
@@ -596,7 +596,7 @@
   },
   {
     "post_path": "content/thr/ko/----/frozen-shoulder-non-surgical-treatment.md",
-    "source_article_url": "https://thewellsr.kr/blog/frozen-shoulder-non-surgical-treatment",
+    "source_article_url": "https://thewells.kr/blog/frozen-shoulder-non-surgical-treatment",
     "source_article_title": "오십견 — 굳은 관절낭을 풀어가는 비수술 치료 기준",
     "primary_entity_id": "frozen-shoulder",
     "entity_ids": [
@@ -611,7 +611,7 @@
   },
   {
     "post_path": "content/thr/en/----/frozen-shoulder-non-surgical-treatment-for-a-stiffened-joint.md",
-    "source_article_url": "https://thewellsr.kr/en/blog/frozen-shoulder-non-surgical-treatment-for-a-stiffened-joint",
+    "source_article_url": "https://thewells.kr/en/blog/frozen-shoulder-non-surgical-treatment-for-a-stiffened-joint",
     "source_article_title": "Frozen Shoulder — Non-Surgical Treatment for a Stiffened Joint Capsule",
     "primary_entity_id": "frozen-shoulder",
     "entity_ids": [
@@ -641,7 +641,7 @@
   },
   {
     "post_path": "content/thr/ko/----/nowon-lower-back-pain-radiculopathy-muscle-tension.md",
-    "source_article_url": "https://thewellsr.kr/blog/nowon-lower-back-pain-radiculopathy-muscle-tension",
+    "source_article_url": "https://thewells.kr/blog/nowon-lower-back-pain-radiculopathy-muscle-tension",
     "source_article_title": "노원 허리통증, 방사통과 근긴장 유형별 맞춤 치료",
     "primary_entity_id": "lower-back-pain",
     "entity_ids": [
@@ -656,7 +656,7 @@
   },
   {
     "post_path": "content/thr/en/----/nowon-back-pain-tailored-treatment-for-radicular-pain-and-mu.md",
-    "source_article_url": "https://thewellsr.kr/en/blog/nowon-back-pain-tailored-treatment-for-radicular-pain-and-mu",
+    "source_article_url": "https://thewells.kr/en/blog/nowon-back-pain-tailored-treatment-for-radicular-pain-and-mu",
     "source_article_title": "Nowon Back Pain: Tailored Treatment for Radicular Pain and Muscle Tension",
     "primary_entity_id": "lower-back-pain",
     "entity_ids": [
@@ -686,7 +686,7 @@
   },
   {
     "post_path": "content/thr/ko/----/nowon-shoulder-pain-impingement-rotator-cuff.md",
-    "source_article_url": "https://thewellsr.kr/blog/nowon-shoulder-pain-impingement-rotator-cuff",
+    "source_article_url": "https://thewells.kr/blog/nowon-shoulder-pain-impingement-rotator-cuff",
     "source_article_title": "노원 어깨 통증, 충돌증후군·회전근개 손상 구분과 치료",
     "primary_entity_id": "shoulder-impingement-syndrome",
     "entity_ids": [
@@ -716,7 +716,7 @@
   },
   {
     "post_path": "content/thr/en/----/nowon-shoulder-pain-telling-apart-impingement-syndrome-and-r.md",
-    "source_article_url": "https://thewellsr.kr/en/blog/nowon-shoulder-pain-telling-apart-impingement-syndrome-and-r",
+    "source_article_url": "https://thewells.kr/en/blog/nowon-shoulder-pain-telling-apart-impingement-syndrome-and-r",
     "source_article_title": "Nowon Shoulder Pain: Telling Apart Impingement Syndrome and Rotator Cuff Injury — and How to Treat Each",
     "primary_entity_id": "shoulder-impingement-syndrome",
     "entity_ids": [
@@ -731,7 +731,7 @@
   },
   {
     "post_path": "content/thr/ko/pain/nowon-plantar-fasciitis-shock-wave.md",
-    "source_article_url": "https://thewellsr.kr/blog/nowon-plantar-fasciitis-shock-wave",
+    "source_article_url": "https://thewells.kr/blog/nowon-plantar-fasciitis-shock-wave",
     "source_article_title": "theWells 노원 — 족저근막염 체외충격파 치료",
     "primary_entity_id": "plantar-fasciitis",
     "entity_ids": [

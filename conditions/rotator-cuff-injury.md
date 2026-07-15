@@ -53,7 +53,7 @@ version: 3
 ## Citations
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
-[^1]: [더웰스 — 회전근개 손상: 근육 관점](https://thewellsr.kr/blog/rotator-cuff-damage-muscle-perspective)
+[^1]: [더웰스 — 회전근개 손상: 근육 관점](https://thewells.kr/blog/rotator-cuff-damage-muscle-perspective)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처

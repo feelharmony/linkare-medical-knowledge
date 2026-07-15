@@ -73,7 +73,7 @@ APTA 임상진료지침(JOSPT 2017)은 목 통증을 임상 양상에 따라 4�
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
 [^1]: [안심튼튼 — 목디스크 관련 글](https://ansimpainfree.kr/blog/cervical-disc-herniation)
-[^2]: [더웰스 — 목 통증 관련 글](https://thewellsr.kr/blog/forward-head-posture)
+[^2]: [더웰스 — 목 통증 관련 글](https://thewells.kr/blog/forward-head-posture)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처

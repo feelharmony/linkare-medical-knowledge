@@ -76,7 +76,7 @@ version: 4
 
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
-[^7]: [thewellsr.kr/blog/hair-loss-regeneration-injection-treatment](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
+[^7]: [thewells.kr/blog/hair-loss-regeneration-injection-treatment](https://thewells.kr/blog/hair-loss-regeneration-injection-treatment)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처

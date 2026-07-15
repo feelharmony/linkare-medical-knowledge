@@ -7,7 +7,7 @@ title: "회전근개 손상, 근육 불균형이 주요 원인"
 categories: [pain]
 author: "더웰스의원 노원 박성진 원장"
 hospital: "더웰스의원 노원"
-canonical_url: "https://thewellsr.kr/blog/rotator-cuff-damage-muscle-perspective"
+canonical_url: "https://thewells.kr/blog/rotator-cuff-damage-muscle-perspective"
 source: Linkare Medical Knowledge
 license: CC BY-NC 4.0
 last_updated: 2026-06-23

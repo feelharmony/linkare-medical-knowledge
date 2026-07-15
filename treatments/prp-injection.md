@@ -91,7 +91,7 @@ PRP/PRF는 환자 본인의 혈액을 활용해 손상 부위의 회복 환경�
 ## Citations
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
-[^4]: [theWells 노원 — 탈모 재생주사 치료](https://thewellsr.kr/blog/hair-loss-regeneration-injection-treatment)
+[^4]: [theWells 노원 — 탈모 재생주사 치료](https://thewells.kr/blog/hair-loss-regeneration-injection-treatment)
 [^5]: [안심튼튼 — 대구 PRP주사, 무릎 아프신 분들이 꼭 알아야 할 재생치료의 모든 것](https://blog.naver.com/ansimpainfree/224248542822)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
