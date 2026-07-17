@@ -3,11 +3,12 @@
     {
       "id": "dr-park-sungjin",
       "type": "doctor",
-      "name_ko": "박성진 원장",
+      "name_ko": "박성진 대표원장",
       "name_en": "Dr. Park Sungjin",
-      "post_count": 23,
+      "post_count": 29,
       "tenant_keys": [
-        "thr"
+        "thr",
+        "thq"
       ]
     },
     {
@@ -15,7 +16,7 @@
       "type": "doctor",
       "name_ko": "권진열 원장",
       "name_en": "Dr. Kwon Jinyeol",
-      "post_count": 19,
+      "post_count": 20,
       "tenant_keys": [
         "apfree"
       ]
@@ -25,7 +26,7 @@
       "type": "hospital",
       "name_ko": "안심튼튼마취통증의학과",
       "name_en": "Ansim Painfree Clinic",
-      "post_count": 19,
+      "post_count": 20,
       "tenant_keys": [
         "apfree"
       ]
@@ -35,7 +36,7 @@
       "type": "hospital",
       "name_ko": "더웰스의원 노원",
       "name_en": "The Wells Clinic Nowon",
-      "post_count": 23,
+      "post_count": 27,
       "tenant_keys": [
         "thr"
       ]
@@ -65,7 +66,7 @@
       "type": "treatment",
       "name_ko": "체외충격파(ESWT)",
       "name_en": "extracorporeal shock wave therapy (ESWT)",
-      "post_count": 2,
+      "post_count": 3,
       "tenant_keys": [
         "thr",
         "apfree"
@@ -317,9 +318,10 @@
       "type": "condition",
       "name_ko": "석회성 건염",
       "name_en": "calcific tendinitis",
-      "post_count": 2,
+      "post_count": 3,
       "tenant_keys": [
-        "apfree"
+        "apfree",
+        "thr"
       ]
     },
     {
@@ -379,9 +381,10 @@
       "type": "condition",
       "name_ko": "척추측만증",
       "name_en": "scoliosis",
-      "post_count": 1,
+      "post_count": 3,
       "tenant_keys": [
-        "apfree"
+        "apfree",
+        "thq"
       ]
     },
     {
@@ -419,9 +422,10 @@
       "type": "condition",
       "name_ko": "외측상과염",
       "name_en": "lateral epicondylitis",
-      "post_count": 2,
+      "post_count": 4,
       "tenant_keys": [
-        "apfree"
+        "apfree",
+        "thr"
       ]
     },
     {
@@ -469,9 +473,10 @@
       "type": "condition",
       "name_ko": "족저근막염",
       "name_en": "plantar fasciitis",
-      "post_count": 1,
+      "post_count": 2,
       "tenant_keys": [
-        "apfree"
+        "apfree",
+        "thr"
       ]
     },
     {
@@ -606,6 +611,27 @@
       "post_count": 2,
       "tenant_keys": [
         "thr"
+      ]
+    },
+    {
+      "id": "dr-kim-jumin",
+      "type": "doctor",
+      "name_ko": "김주민 대표원장",
+      "name_en": "Dr. Kim Jumin",
+      "post_count": 29,
+      "tenant_keys": [
+        "thr",
+        "thq"
+      ]
+    },
+    {
+      "id": "hospital-thewells-jamsil",
+      "type": "hospital",
+      "name_ko": "더웰스의원 잠실",
+      "name_en": "The Wells Clinic Jamsil",
+      "post_count": 2,
+      "tenant_keys": [
+        "thq"
       ]
     }
   ],
@@ -894,7 +920,7 @@
     {
       "source": "dr-kwon-jinyeol",
       "target": "hospital-ansimpainfree",
-      "weight": 19,
+      "weight": 20,
       "tenant_keys": [
         "apfree"
       ]
@@ -1063,6 +1089,14 @@
       ]
     },
     {
+      "source": "dr-kim-jumin",
+      "target": "forward-head-posture",
+      "weight": 3,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "forward-head-posture",
       "target": "hospital-thewells-nowon",
       "weight": 3,
@@ -1114,6 +1148,14 @@
       ]
     },
     {
+      "source": "dr-kim-jumin",
+      "target": "neck-pain",
+      "weight": 3,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "hospital-thewells-nowon",
       "target": "neck-pain",
       "weight": 3,
@@ -1154,6 +1196,14 @@
       ]
     },
     {
+      "source": "dr-kim-jumin",
+      "target": "shoulder-pain",
+      "weight": 2,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "hospital-thewells-nowon",
       "target": "shoulder-pain",
       "weight": 2,
@@ -1187,6 +1237,14 @@
       ]
     },
     {
+      "source": "dr-kim-jumin",
+      "target": "physical-therapy",
+      "weight": 3,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "hospital-thewells-nowon",
       "target": "physical-therapy",
       "weight": 3,
@@ -1211,6 +1269,14 @@
       ]
     },
     {
+      "source": "dr-kim-jumin",
+      "target": "exercise-therapy",
+      "weight": 2,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "exercise-therapy",
       "target": "hospital-thewells-nowon",
       "weight": 2,
@@ -1227,6 +1293,14 @@
       ]
     },
     {
+      "source": "dr-kim-jumin",
+      "target": "posture-correction",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "hospital-thewells-nowon",
       "target": "posture-correction",
       "weight": 1,
@@ -1235,9 +1309,26 @@
       ]
     },
     {
+      "source": "dr-kim-jumin",
+      "target": "dr-park-sungjin",
+      "weight": 29,
+      "tenant_keys": [
+        "thr",
+        "thq"
+      ]
+    },
+    {
       "source": "dr-park-sungjin",
       "target": "hospital-thewells-nowon",
-      "weight": 23,
+      "weight": 27,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "hospital-thewells-nowon",
+      "weight": 27,
       "tenant_keys": [
         "thr"
       ]
@@ -1300,6 +1391,14 @@
     },
     {
       "source": "dr-park-sungjin",
+      "target": "hair-loss",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
       "target": "hair-loss",
       "weight": 1,
       "tenant_keys": [
@@ -1371,6 +1470,14 @@
       ]
     },
     {
+      "source": "dr-kim-jumin",
+      "target": "scalp",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "hospital-thewells-nowon",
       "target": "scalp",
       "weight": 1,
@@ -1428,6 +1535,14 @@
     },
     {
       "source": "androgenetic-alopecia",
+      "target": "dr-kim-jumin",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "androgenetic-alopecia",
       "target": "hospital-thewells-nowon",
       "weight": 1,
       "tenant_keys": [
@@ -1469,6 +1584,14 @@
     {
       "source": "alopecia-areata",
       "target": "dr-park-sungjin",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "dr-kim-jumin",
       "weight": 1,
       "tenant_keys": [
         "thr"
@@ -1515,6 +1638,14 @@
       ]
     },
     {
+      "source": "dr-kim-jumin",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "hospital-thewells-nowon",
       "target": "prp-injection",
       "weight": 1,
@@ -1547,6 +1678,14 @@
       ]
     },
     {
+      "source": "dr-kim-jumin",
+      "target": "stem-cell-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "hospital-thewells-nowon",
       "target": "stem-cell-therapy",
       "weight": 1,
@@ -1571,6 +1710,14 @@
       ]
     },
     {
+      "source": "dr-kim-jumin",
+      "target": "exosome-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "exosome-therapy",
       "target": "hospital-thewells-nowon",
       "weight": 1,
@@ -1580,6 +1727,14 @@
     },
     {
       "source": "dr-park-sungjin",
+      "target": "hair-loss-medication",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
       "target": "hair-loss-medication",
       "weight": 1,
       "tenant_keys": [
@@ -1614,6 +1769,14 @@
     },
     {
       "source": "dr-park-sungjin",
+      "target": "nad-infusion-therapy",
+      "weight": 5,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
       "target": "nad-infusion-therapy",
       "weight": 5,
       "tenant_keys": [
@@ -1647,6 +1810,14 @@
     },
     {
       "source": "aging-symptoms",
+      "target": "dr-kim-jumin",
+      "weight": 2,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "aging-symptoms",
       "target": "hospital-thewells-nowon",
       "weight": 2,
       "tenant_keys": [
@@ -1656,6 +1827,14 @@
     {
       "source": "chronic-fatigue",
       "target": "dr-park-sungjin",
+      "weight": 2,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "chronic-fatigue",
+      "target": "dr-kim-jumin",
       "weight": 2,
       "tenant_keys": [
         "thr"
@@ -1827,6 +2006,14 @@
       ]
     },
     {
+      "source": "dr-kim-jumin",
+      "target": "muscle-relaxants",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "hospital-thewells-nowon",
       "target": "muscle-relaxants",
       "weight": 1,
@@ -1853,6 +2040,14 @@
     {
       "source": "anti-inflammatory-analgesics",
       "target": "dr-park-sungjin",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "anti-inflammatory-analgesics",
+      "target": "dr-kim-jumin",
       "weight": 1,
       "tenant_keys": [
         "thr"
@@ -1956,6 +2151,14 @@
     },
     {
       "source": "dr-park-sungjin",
+      "target": "manual-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
       "target": "manual-therapy",
       "weight": 1,
       "tenant_keys": [
@@ -2267,6 +2470,14 @@
       ]
     },
     {
+      "source": "dr-kim-jumin",
+      "target": "shoulder",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "hospital-thewells-nowon",
       "target": "shoulder",
       "weight": 1,
@@ -2276,6 +2487,14 @@
     },
     {
       "source": "dr-park-sungjin",
+      "target": "frozen-shoulder",
+      "weight": 5,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
       "target": "frozen-shoulder",
       "weight": 5,
       "tenant_keys": [
@@ -2293,7 +2512,15 @@
     {
       "source": "dr-park-sungjin",
       "target": "eswt",
-      "weight": 1,
+      "weight": 2,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "eswt",
+      "weight": 2,
       "tenant_keys": [
         "thr"
       ]
@@ -2301,7 +2528,7 @@
     {
       "source": "eswt",
       "target": "hospital-thewells-nowon",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
         "thr"
       ]
@@ -2508,6 +2735,14 @@
     },
     {
       "source": "dr-park-sungjin",
+      "target": "transcranial-magnetic-stimulation",
+      "weight": 2,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
       "target": "transcranial-magnetic-stimulation",
       "weight": 2,
       "tenant_keys": [
@@ -3107,6 +3342,14 @@
       ]
     },
     {
+      "source": "dr-kim-jumin",
+      "target": "hi-ems",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "hi-ems",
       "target": "hospital-thewells-nowon",
       "weight": 1,
@@ -3123,6 +3366,14 @@
       ]
     },
     {
+      "source": "dr-kim-jumin",
+      "target": "tecar-rf-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "hospital-thewells-nowon",
       "target": "tecar-rf-therapy",
       "weight": 1,
@@ -3171,6 +3422,14 @@
       ]
     },
     {
+      "source": "dr-kim-jumin",
+      "target": "lower-back-pain",
+      "weight": 2,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "hospital-thewells-nowon",
       "target": "lower-back-pain",
       "weight": 2,
@@ -3192,6 +3451,126 @@
       "weight": 1,
       "tenant_keys": [
         "apfree"
+      ]
+    },
+    {
+      "source": "eswt",
+      "target": "plantar-fasciitis",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "plantar-fasciitis",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "plantar-fasciitis",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "plantar-fasciitis",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "lateral-epicondylitis",
+      "weight": 2,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "lateral-epicondylitis",
+      "weight": 2,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "lateral-epicondylitis",
+      "weight": 2,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "scoliosis",
+      "weight": 2,
+      "tenant_keys": [
+        "thq"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "scoliosis",
+      "weight": 2,
+      "tenant_keys": [
+        "thq"
+      ]
+    },
+    {
+      "source": "hospital-thewells-jamsil",
+      "target": "scoliosis",
+      "weight": 2,
+      "tenant_keys": [
+        "thq"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "hospital-thewells-jamsil",
+      "weight": 2,
+      "tenant_keys": [
+        "thq"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "hospital-thewells-jamsil",
+      "weight": 2,
+      "tenant_keys": [
+        "thq"
+      ]
+    },
+    {
+      "source": "calcific-tendinitis",
+      "target": "dr-park-sungjin",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "calcific-tendinitis",
+      "target": "dr-kim-jumin",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "calcific-tendinitis",
+      "target": "hospital-thewells-nowon",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
       ]
     }
   ]

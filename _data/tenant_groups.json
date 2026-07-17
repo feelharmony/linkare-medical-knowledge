@@ -1,0 +1,16 @@
+{
+  "_comment": "테넌트 그룹 선언 — pillar 공동 크레딧의 단일 소스 (사장 확정, MSO 모델: pillar=그룹 공유, spoke=테넌트 고정). build-graph.js가 그룹 멤버 테넌트의 글을 그룹 의사 전원에게 크레딧하고, entity-hub.html 의사 페이지의 집필/감수 목록도 그룹 테넌트 글을 포함한다. 홈페이지(linker-platform thewells) 공동 표기와 일치. 그룹 미선언 테넌트(apfree 등)는 기존 단독 동작 유지. tenant_hospitals = 테넌트→병원 entity 1:1 매핑: 백엔드가 hospital_id를 null로 내려준 글에만 build-graph.js가 보정 적용(백엔드가 정상 값을 주면 그 값 우선).",
+  "tenant_hospitals": {
+    "apfree": "hospital-ansimpainfree",
+    "thr": "hospital-thewells-nowon",
+    "thq": "hospital-thewells-jamsil"
+  },
+  "groups": [
+    {
+      "key": "thewells",
+      "name": "더웰스의원",
+      "members": ["thr", "thq"],
+      "doctors": ["dr-park-sungjin", "dr-kim-jumin"]
+    }
+  ]
+}

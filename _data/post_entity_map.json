@@ -193,7 +193,8 @@
       "exercise-therapy",
       "injection-therapy"
     ],
-    "updated_at": "2026-04-23"
+    "updated_at": "2026-04-23",
+    "hospital_id": null
   },
   {
     "post_path": "db:0c579259-1870-47e1-b769-95ef942784dd",
@@ -226,7 +227,8 @@
       "quadriceps-muscle",
       "patellar-tendon"
     ],
-    "updated_at": "2026-04-25"
+    "updated_at": "2026-04-25",
+    "hospital_id": null
   },
   {
     "post_path": "db:0dac3a87-7c81-4d6a-a7e2-cb73deadb1d5",
@@ -255,7 +257,8 @@
       "chronic-fatigue",
       "dna-repair"
     ],
-    "updated_at": "2026-04-25"
+    "updated_at": "2026-04-25",
+    "hospital_id": null
   },
   {
     "post_path": "db:f5bbae53-c3b0-4c30-8782-421eaf01ab05",
@@ -803,7 +806,8 @@
     "updated_at": "2026-07-14",
     "sub_topic_type": null,
     "is_pillar": true,
-    "tenant_key": "thq"
+    "tenant_key": "thq",
+    "hospital_id": "hospital-thewells-jamsil"
   },
   {
     "post_path": "content/thq/en/-----/why-children-with-scoliosis-should-exercise-while-wearing-a.md",
@@ -816,7 +820,8 @@
     "updated_at": "2026-07-14",
     "sub_topic_type": null,
     "is_pillar": true,
-    "tenant_key": "thq"
+    "tenant_key": "thq",
+    "hospital_id": "hospital-thewells-jamsil"
   },
   {
     "post_path": "content/thr/ko/----/calcific-tendinitis.md",

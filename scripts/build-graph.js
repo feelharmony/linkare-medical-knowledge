@@ -12,6 +12,37 @@ const ROOT = path.resolve(__dirname, '..');
 const entities = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/entities.json'), 'utf8'));
 const postMap = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/post-entity-map.json'), 'utf8'));
 
+// tenant_groups.json은 선택 기능이다. 파일이 없으면 기존 단일 의사 크레딧을 유지한다.
+const tenantGroupsPath = path.join(ROOT, '_data/tenant_groups.json');
+const tenantGroupsData = fs.existsSync(tenantGroupsPath)
+  ? JSON.parse(fs.readFileSync(tenantGroupsPath, 'utf8'))
+  : {};
+const tenantGroups = tenantGroupsData.groups || [];
+// 테넌트→병원 1:1 매핑. 백엔드가 hospital_id를 null로 내려준 글에만 보정한다.
+const tenantHospitals = tenantGroupsData.tenant_hospitals || {};
+
+const groupDoctorsByTenant = new Map();
+for (const group of tenantGroups) {
+  const doctors = Array.isArray(group.doctors) ? group.doctors : [];
+  const members = Array.isArray(group.members) ? group.members : [];
+  for (const tenantKey of members) {
+    const creditedDoctors = groupDoctorsByTenant.get(tenantKey) || [];
+    groupDoctorsByTenant.set(tenantKey, [...new Set([...creditedDoctors, ...doctors])]);
+  }
+}
+
+function resolveDoctorCredits(entry) {
+  if (groupDoctorsByTenant.has(entry.tenant_key)) {
+    return groupDoctorsByTenant.get(entry.tenant_key);
+  }
+  return entry.doctor_id ? [entry.doctor_id] : [];
+}
+
+function resolveHospitalCredit(entry) {
+  if (entry.hospital_id) return entry.hospital_id;
+  return tenantHospitals[entry.tenant_key] || null;
+}
+
 // approved entity만
 const approvedIds = new Set(entities.filter(e => e.status === 'approved').map(e => e.id));
 
@@ -25,15 +56,17 @@ for (const entry of postMap) {
     nodeStats[eid].tenant_keys.add(entry.tenant_key);
   }
   // doctor, hospital도 노드에 추가
-  if (entry.doctor_id && approvedIds.has(entry.doctor_id)) {
-    if (!nodeStats[entry.doctor_id]) nodeStats[entry.doctor_id] = { post_count: 0, tenant_keys: new Set() };
-    nodeStats[entry.doctor_id].post_count++;
-    nodeStats[entry.doctor_id].tenant_keys.add(entry.tenant_key);
+  for (const doctorId of resolveDoctorCredits(entry)) {
+    if (!approvedIds.has(doctorId)) continue;
+    if (!nodeStats[doctorId]) nodeStats[doctorId] = { post_count: 0, tenant_keys: new Set() };
+    nodeStats[doctorId].post_count++;
+    nodeStats[doctorId].tenant_keys.add(entry.tenant_key);
   }
-  if (entry.hospital_id && approvedIds.has(entry.hospital_id)) {
-    if (!nodeStats[entry.hospital_id]) nodeStats[entry.hospital_id] = { post_count: 0, tenant_keys: new Set() };
-    nodeStats[entry.hospital_id].post_count++;
-    nodeStats[entry.hospital_id].tenant_keys.add(entry.tenant_key);
+  const hospitalId = resolveHospitalCredit(entry);
+  if (hospitalId && approvedIds.has(hospitalId)) {
+    if (!nodeStats[hospitalId]) nodeStats[hospitalId] = { post_count: 0, tenant_keys: new Set() };
+    nodeStats[hospitalId].post_count++;
+    nodeStats[hospitalId].tenant_keys.add(entry.tenant_key);
   }
 }
 
@@ -52,10 +85,11 @@ const nodes = entities
 // 엣지: co-occurrence (같은 글에 같이 등장하면 연결)
 const edgeMap = {};
 for (const entry of postMap) {
-  // entity_ids + doctor_id + hospital_id 전부 합침
+  // entity_ids + 의사 크레딧 목록 + hospital 크레딧 전부 합침
   const allIds = [...entry.entity_ids];
-  if (entry.doctor_id) allIds.push(entry.doctor_id);
-  if (entry.hospital_id) allIds.push(entry.hospital_id);
+  allIds.push(...resolveDoctorCredits(entry));
+  const edgeHospitalId = resolveHospitalCredit(entry);
+  if (edgeHospitalId) allIds.push(edgeHospitalId);
 
   const filtered = allIds.filter(id => approvedIds.has(id));
 
@@ -92,9 +126,14 @@ fs.writeFileSync(
 );
 
 // post-entity-map도 _data에 복사 (Jekyll에서 site.data로 접근)
+// 복사본에는 hospital 보정을 적용해 병원 페이지 소속 글 목록이 동작하게 한다 (원본 data/는 불변).
+const postMapForSite = postMap.map(entry => ({
+  ...entry,
+  hospital_id: resolveHospitalCredit(entry)
+}));
 fs.writeFileSync(
   path.join(dataDir, 'post_entity_map.json'),
-  JSON.stringify(postMap, null, 2),
+  `${JSON.stringify(postMapForSite, null, 2)}\n`,
   'utf8'
 );
 

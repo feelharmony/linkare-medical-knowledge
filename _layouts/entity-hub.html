@@ -86,7 +86,7 @@ layout: default
     {% endif %}
   </header>
 
-  {%- comment -%} Doctor/Hospital 확장 프로필: 자격 / 학력 / 경력 / 소셜 {%- endcomment -%}
+  {%- comment -%} Doctor/Hospital 확장 프로필: 자격 / 학력 / 경력 / 방송·수상 / 소셜 {%- endcomment -%}
   {% if entity_type == 'doctor' %}
     {% if page.credentials and page.credentials.size > 0 %}
     <section class="entity-section profile-section">
@@ -133,6 +133,15 @@ layout: default
           </li>
           {% endif %}
         {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+
+    {% if page.media and page.media.size > 0 %}
+    <section class="entity-section profile-section">
+      <h2>방송 / 수상</h2>
+      <ul class="profile-list">
+        {% for item in page.media %}<li>{{ item }}</li>{% endfor %}
       </ul>
     </section>
     {% endif %}
@@ -372,14 +381,45 @@ layout: default
 
   {%- comment -%}
     Doctor/Hospital 역참조: post_entity_map의 doctor_id/hospital_id 매칭.
-    post_path → site.pages의 article로 resolve.
+    post_path → site.pages의 article로 resolve하고, 로컬 article이 없으면 원문 URL로 연결.
   {%- endcomment -%}
   {% if entity_type == 'doctor' or entity_type == 'hospital' %}
     {% if entity_type == 'doctor' %}
-      {% assign authored = site.data.post_entity_map | where: "doctor_id", entity_id %}
+      {% assign doctor_group = nil %}
+      {% if site.data.tenant_groups and site.data.tenant_groups.groups %}
+        {% for group in site.data.tenant_groups.groups %}
+          {% if group.doctors contains entity_id %}
+            {% assign doctor_group = group %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% if doctor_group %}
+        {% assign authored = "" | split: "" %}
+        {% assign authored_paths = "" | split: "" %}
+        {% for post in site.data.post_entity_map %}
+          {% assign credits_doctor = false %}
+          {% if post.doctor_id == entity_id %}{% assign credits_doctor = true %}{% endif %}
+          {% if doctor_group.members contains post.tenant_key %}{% assign credits_doctor = true %}{% endif %}
+          {% if credits_doctor and authored_paths contains post.post_path %}
+            {%- comment -%} 같은 post_path는 한 번만 렌더한다. {%- endcomment -%}
+          {% elsif credits_doctor %}
+            {% assign authored = authored | push: post %}
+            {% assign authored_paths = authored_paths | push: post.post_path %}
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {% assign authored = site.data.post_entity_map | where: "doctor_id", entity_id %}
+      {% endif %}
     {% else %}
       {% assign authored = site.data.post_entity_map | where: "hospital_id", entity_id %}
     {% endif %}
+    {%- comment -%} 영문 콘텐츠 전면 배제 방침(2026-07-05) — en 글은 집필/소속 목록에서 제외 {%- endcomment -%}
+    {% assign authored_ko = "" | split: "" %}
+    {% for post in authored %}
+      {% unless post.post_path contains '/en/' %}{% assign authored_ko = authored_ko | push: post %}{% endunless %}
+    {% endfor %}
+    {% assign authored = authored_ko %}
     {% if authored.size > 0 %}
     <section class="entity-section profile-section">
       <h2>
@@ -401,6 +441,11 @@ layout: default
             <a href="{{ matched_article.url | relative_url }}">{{ matched_article.title }}</a>
             {% if matched_article.last_updated %}<time>{{ matched_article.last_updated }}</time>{% endif %}
             {% if matched_article.description %}<p class="profile-article-desc">{{ matched_article.description | truncate: 120 }}</p>{% endif %}
+          </li>
+          {% elsif post.source_article_url and post.source_article_url != '' %}
+          <li>
+            <a href="{{ post.source_article_url }}" rel="nofollow" target="_blank">{{ post.source_article_title | default: post.source_article_url }}</a>
+            {% if post.updated_at %}<time>{{ post.updated_at }}</time>{% endif %}
           </li>
           {% endif %}
         {% endfor %}
