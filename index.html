@@ -46,6 +46,59 @@ description: "LinkerAI의 의료 지식 베이스 — 전문의가 작성·검�
     </form>
   </section>
 
+  {%- comment -%} 부위·치료 그룹에서 entity 허브를 찾아 노출 {%- endcomment -%}
+  <section class="index-bodymap">
+    <h2 class="index-section-label">찾아보기</h2>
+    <div class="index-bodymap-tabs" role="tablist" aria-label="찾아보기 기준">
+      <button type="button" class="index-bodymap-tab" id="index-bodymap-tab-body" role="tab" aria-selected="true" aria-controls="index-bodymap-panel-body">부위별</button>
+      <button type="button" class="index-bodymap-tab" id="index-bodymap-tab-treatment" role="tab" aria-selected="false" aria-controls="index-bodymap-panel-treatment">치료별</button>
+    </div>
+
+    <div class="index-bodymap-panel" id="index-bodymap-panel-body" role="tabpanel" aria-labelledby="index-bodymap-tab-body">
+      <div class="index-bodymap-grid">
+        {% for group in site.data.body_part_map.groups %}
+        <article class="index-bodymap-card">
+          <h3 class="index-bodymap-title">
+            {% if group.hub %}
+            <a href="{{ '/body-parts/' | append: group.hub | append: '/' | relative_url }}">{{ group.label }}</a>
+            {% else %}
+            <span>{{ group.label }}</span>
+            {% endif %}
+          </h3>
+          <ul class="index-bodymap-list">
+            {% for item in group.items %}
+              {% assign entity_page = site.pages | where: "entity_id", item | where: "layout", "entity-hub" | first %}
+              {% if entity_page %}
+            <li><a href="{{ entity_page.url | relative_url }}">{{ entity_page.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="index-bodymap-panel" id="index-bodymap-panel-treatment" role="tabpanel" aria-labelledby="index-bodymap-tab-treatment" hidden>
+      <div class="index-bodymap-grid">
+        {% for group in site.data.body_part_map.treatment_groups %}
+        <article class="index-bodymap-card">
+          <h3 class="index-bodymap-title">
+            <span>{{ group.label }}</span>
+          </h3>
+          <ul class="index-bodymap-list">
+            {% for item in group.items %}
+              {% assign entity_page = site.pages | where: "entity_id", item | where: "layout", "entity-hub" | first %}
+              {% if entity_page %}
+            <li><a href="{{ entity_page.url | relative_url }}">{{ entity_page.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
   {%- comment -%} 카테고리 진입 — 텍스트 link, 카운트만 {%- endcomment -%}
   <section class="index-browse">
     <h2 class="index-section-label">Browse</h2>
@@ -101,3 +154,28 @@ description: "LinkerAI의 의료 지식 베이스 — 전문의가 작성·검�
 </div>
 
 {% include structured-data-home.html %}
+
+<script>
+  (function() {
+    const bodyMap = document.querySelector('.index-bodymap');
+    if (!bodyMap) return;
+
+    const tabs = bodyMap.querySelectorAll('.index-bodymap-tab');
+    const panels = bodyMap.querySelectorAll('.index-bodymap-panel');
+
+    tabs.forEach(function(tab) {
+      tab.addEventListener('click', function() {
+        const panelId = tab.getAttribute('aria-controls');
+        const targetPanel = document.getElementById(panelId);
+        if (!targetPanel) return;
+
+        tabs.forEach(function(candidate) {
+          candidate.setAttribute('aria-selected', candidate === tab ? 'true' : 'false');
+        });
+        panels.forEach(function(panel) {
+          panel.hidden = panel !== targetPanel;
+        });
+      });
+    });
+  })();
+</script>

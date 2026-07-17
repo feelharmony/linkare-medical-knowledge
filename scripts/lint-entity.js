@@ -1,26 +1,17 @@
 #!/usr/bin/env node
 /**
  * lint-entity.js — entity .md 정적 검증기
- *
- * 사용:
- *   node scripts/lint-entity.js [file1.md] [file2.md] ...      # 인자 지정
- *   node scripts/lint-entity.js                                 # 변경된 파일 자동 감지 (pre-commit)
- *   node scripts/lint-entity.js --all                           # entity 디렉토리 전체
- *
- * 종료 코드:
- *   0 — 모두 통과
- *   1 — 1개 이상 fail
- *
- * 정합 명세 (위반 시 차단):
- *   - linkbase_pillar_only_gate_v1.md (룰 F·D·E·K)
- *   - linkbase_tone_and_ai_search_strategy.md
- *   - yhlinker/backend/src/knowledge/services/pillar-patch-proposer.service.ts (brand/tonal/honorific 정규식)
+ * 사용: node scripts/lint-entity.js [file.md ...] | --all
+ * 종료 코드: 0=통과, 1=1개 이상 fail
+ * 정합 명세: linkbase_pillar_only_gate_v1.md, linkbase_tone_and_ai_search_strategy.md,
+ * yhlinker/backend/src/knowledge/services/pillar-patch-proposer.service.ts
  */
 
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 const clib = require('./citation-lib');
+const bodyPartMapLint = require('./lint-body-part-map');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
 
@@ -427,6 +418,7 @@ function lintFile(absPath) {
   const warnings = [];
 
   checkFrontmatter(fm, errors, warnings);
+  bodyPartMapLint.checkBodyPartMembership(fm, errors, warnings);
   checkHeadings(body, fm, errors, warnings);
   checkFootnoteIds(body, fm, errors, warnings);
   checkRelatedClinicalSection(body, fm, errors);
@@ -435,7 +427,7 @@ function lintFile(absPath) {
     checkMarkerIntegrity(fm, body, errors);
   }
 
-  return { file: rel, errors, warnings };
+  return { file: rel, entityId: fm.entity_id, errors, warnings };
 }
 
 function collectFiles(args) {
@@ -474,10 +466,15 @@ function main() {
     process.exit(0);
   }
 
+  const results = files.map(lintFile);
+  if (args.includes('--all')) {
+    const errors = [];
+    bodyPartMapLint.checkBodyPartMapDangling(new Set(results.map((result) => result.entityId).filter(Boolean)), errors);
+    if (errors.length > 0) results.push({ file: '_data/body_part_map.json', errors, warnings: [] });
+  }
   let failCount = 0;
   let warnCount = 0;
-  for (const f of files) {
-    const result = lintFile(f);
+  for (const result of results) {
     if (result.errors.length === 0 && result.warnings.length === 0) {
       console.log(`✓ ${result.file}`);
       continue;

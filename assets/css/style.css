@@ -826,6 +826,116 @@ a:hover { text-decoration: underline; }
   border-bottom: 1px solid var(--color-line);
 }
 
+/* 찾아보기 — 부위별·치료별 탭 */
+.index-bodymap {
+  margin-bottom: 3rem;
+}
+
+.index-bodymap-tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  width: fit-content;
+  margin-bottom: 1rem;
+  border: 1px solid var(--color-line);
+}
+
+.index-bodymap-tab {
+  min-width: 6rem;
+  padding: 0.625rem 1rem;
+  border: 0;
+  background: var(--color-bg);
+  color: var(--color-muted);
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25;
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s;
+}
+
+.index-bodymap-tab + .index-bodymap-tab {
+  border-left: 1px solid var(--color-line);
+}
+
+.index-bodymap-tab:hover {
+  color: var(--color-ink);
+  background: var(--color-bg-soft);
+}
+
+.index-bodymap-tab[aria-selected="true"] {
+  color: var(--color-accent);
+  background: var(--color-bg-soft);
+  font-weight: 600;
+}
+
+.index-bodymap-tab:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.index-bodymap-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.index-bodymap-card {
+  min-width: 0;
+  padding: 0.875rem;
+  border: 1px solid var(--color-line);
+}
+
+.index-bodymap-title {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-ink);
+  margin-bottom: 0.625rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-line-soft);
+}
+
+.index-bodymap-title a {
+  color: var(--color-ink);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.index-bodymap-title a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.index-bodymap-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.index-bodymap-list li {
+  margin-bottom: 0.3rem;
+  line-height: 1.35;
+}
+
+.index-bodymap-list li:last-child {
+  margin-bottom: 0;
+}
+
+.index-bodymap-list a {
+  display: block;
+  color: var(--color-body);
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.index-bodymap-list a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 /* Browse */
 .index-browse {
   margin-bottom: 3rem;
@@ -2278,6 +2388,10 @@ a:hover { text-decoration: underline; }
   .graph-controls { gap: 0.35rem; }
   .index-topic-row { display: block; }
 
+  .index-bodymap-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .index-browse-list {
     grid-template-columns: 1fr;
     gap: 0;
@@ -2326,6 +2440,34 @@ a:hover { text-decoration: underline; }
   .index-page {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .index-bodymap-tabs {
+    width: 100%;
+  }
+
+  .index-bodymap-tab {
+    flex: 1 1 50%;
+    min-width: 0;
+    padding: 0.625rem 0.75rem;
+  }
+
+  .index-bodymap-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .index-bodymap-card {
+    padding: 0.75rem;
+  }
+
+  .index-bodymap-title {
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.375rem;
+  }
+
+  .index-bodymap-list li {
+    margin-bottom: 0.2rem;
+    line-height: 1.3;
   }
 }
 

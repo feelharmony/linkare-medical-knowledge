@@ -1,0 +1,201 @@
+{
+  "_comment": "부위/치료 탐색 매핑 — 메인 탭 그리드 + lint 누락 게이트(scripts/lint-entity.js)의 단일 소스. groups = 부위 축(condition/symptom, 질환별 치료 모음 treatment 예외 허용), treatment_groups = 치료 성격 축(treatment). 복수 그룹 소속 허용. hub = body-parts/ 허브 슬러그(없으면 null). 신규 condition/symptom/treatment 발행 시 두 축 어디에도 미등록이면 lint ERROR.",
+  "groups": [
+    {
+      "key": "head",
+      "label": "머리·두통",
+      "hub": null,
+      "items": [
+        "headache",
+        "migraine",
+        "tension-type-headache",
+        "cluster-headache",
+        "cervicogenic-headache",
+        "occipital-neuralgia"
+      ]
+    },
+    {
+      "key": "neck",
+      "label": "목·경추",
+      "hub": "neck",
+      "items": [
+        "neck-pain",
+        "cervical-disc-herniation",
+        "forward-head-posture",
+        "arm-numbness",
+        "cervicogenic-headache"
+      ]
+    },
+    {
+      "key": "shoulder",
+      "label": "어깨",
+      "hub": "shoulder",
+      "items": [
+        "shoulder-pain",
+        "frozen-shoulder",
+        "rotator-cuff-injury",
+        "rotator-cuff-tendinopathy",
+        "calcific-tendinitis",
+        "shoulder-impingement-syndrome"
+      ]
+    },
+    {
+      "key": "elbow",
+      "label": "팔꿈치",
+      "hub": "elbow",
+      "items": [
+        "elbow-pain",
+        "lateral-epicondylitis",
+        "medial-epicondylitis",
+        "cubital-tunnel-syndrome",
+        "treatment-for-lateral-epicondylitis"
+      ]
+    },
+    {
+      "key": "wrist-hand",
+      "label": "손목·손",
+      "hub": "wrist",
+      "items": [
+        "wrist-pain",
+        "hand-numbness",
+        "finger-pain",
+        "carpal-tunnel-syndrome",
+        "de-quervain",
+        "trigger-finger"
+      ]
+    },
+    {
+      "key": "lower-back",
+      "label": "허리·척추",
+      "hub": "lower-back",
+      "items": [
+        "lower-back-pain",
+        "lumbar-disc-herniation",
+        "discogenic-pain",
+        "spinal-stenosis",
+        "spondylolisthesis",
+        "scoliosis",
+        "sciatica",
+        "cauda-equina-syndrome"
+      ]
+    },
+    {
+      "key": "knee",
+      "label": "무릎",
+      "hub": "knee",
+      "items": [
+        "knee-pain",
+        "knee-osteoarthritis",
+        "meniscus-tear",
+        "cruciate-ligament-injury",
+        "patellar-tendinitis"
+      ]
+    },
+    {
+      "key": "leg",
+      "label": "다리",
+      "hub": "leg",
+      "items": [
+        "leg-numbness",
+        "sciatica"
+      ]
+    },
+    {
+      "key": "foot",
+      "label": "발·발목",
+      "hub": null,
+      "items": [
+        "foot-pain",
+        "heel-pain",
+        "plantar-fasciitis",
+        "achilles-tendinitis",
+        "hallux-valgus"
+      ]
+    },
+    {
+      "key": "scalp",
+      "label": "두피·모발",
+      "hub": "scalp",
+      "items": [
+        "hair-loss",
+        "androgenetic-alopecia",
+        "alopecia-areata"
+      ]
+    },
+    {
+      "key": "systemic",
+      "label": "전신·기타",
+      "hub": null,
+      "items": [
+        "zoster",
+        "postherpetic-neuralgia",
+        "chronic-fatigue-syndrome",
+        "chronic-fatigue",
+        "myofascial-pain-syndrome",
+        "aging-symptoms"
+      ]
+    }
+  ],
+  "treatment_groups": [
+    {
+      "key": "injection",
+      "label": "주사 치료",
+      "items": [
+        "nerve-block-injection",
+        "ultrasound-guided-injection",
+        "prolotherapy",
+        "prp-injection",
+        "regenerative-injection-treatment"
+      ]
+    },
+    {
+      "key": "regenerative",
+      "label": "재생·첨단",
+      "items": [
+        "exosome-therapy",
+        "stem-cell-therapy",
+        "transcranial-magnetic-stimulation"
+      ]
+    },
+    {
+      "key": "device",
+      "label": "비수술 기기",
+      "items": [
+        "eswt",
+        "tecar-rf-therapy",
+        "hi-ems"
+      ]
+    },
+    {
+      "key": "rehab",
+      "label": "재활·운동",
+      "items": [
+        "manual-therapy",
+        "physical-therapy",
+        "exercise-therapy",
+        "rehabilitation-therapy",
+        "posture-correction"
+      ]
+    },
+    {
+      "key": "medication",
+      "label": "약물·백신",
+      "items": [
+        "anti-inflammatory-analgesics",
+        "muscle-relaxants",
+        "antiviral-medicine",
+        "shingles-vaccination",
+        "hair-loss-medication"
+      ]
+    },
+    {
+      "key": "aesthetic-wellness",
+      "label": "미용·웰니스",
+      "items": [
+        "facial-shockwave-lifting",
+        "nad-infusion-therapy",
+        "nutrition-iv-therapy"
+      ]
+    }
+  ]
+}
