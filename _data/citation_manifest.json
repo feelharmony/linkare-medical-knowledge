@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-13",
+  "updated_at": "2026-07-17",
   "entities": {
     "aging": [
       {
@@ -145,6 +145,17 @@
           "symptoms"
         ],
         "excerpt": "팔꿈치 바깥쪽이 아프면서 악수하기도 힘드신가요? 컵을 들거나 문고리를 돌릴 때마다..."
+      },
+      {
+        "footnote_id": 7,
+        "url": "https://thewells.kr/blog/lateral-epicondylitis",
+        "title": "theWells 노원 — 테니스엘보란 무엇인가 — 염증이 아닌 건의 퇴행성 변화",
+        "post_id": "bf6ed6b4-0733-4f3e-b88e-292583d1ca69",
+        "anchors": [
+          "prognosis",
+          "treatment"
+        ],
+        "excerpt": "예후가 양호할 수 있습니다. 적절히 관리하면 통증이 줄어드는 경우가 많지만..."
       }
     ],
     "lumbar-disc-herniation": [
