@@ -5,7 +5,7 @@
       "type": "doctor",
       "name_ko": "박성진 대표원장",
       "name_en": "Dr. Park Sungjin",
-      "post_count": 29,
+      "post_count": 30,
       "tenant_keys": [
         "thr",
         "thq"
@@ -16,7 +16,7 @@
       "type": "doctor",
       "name_ko": "권진열 원장",
       "name_en": "Dr. Kwon Jinyeol",
-      "post_count": 20,
+      "post_count": 21,
       "tenant_keys": [
         "apfree"
       ]
@@ -26,7 +26,7 @@
       "type": "hospital",
       "name_ko": "안심튼튼마취통증의학과",
       "name_en": "Ansim Painfree Clinic",
-      "post_count": 20,
+      "post_count": 21,
       "tenant_keys": [
         "apfree"
       ]
@@ -36,7 +36,7 @@
       "type": "hospital",
       "name_ko": "더웰스의원 노원",
       "name_en": "The Wells Clinic Nowon",
-      "post_count": 27,
+      "post_count": 28,
       "tenant_keys": [
         "thr"
       ]
@@ -318,7 +318,7 @@
       "type": "condition",
       "name_ko": "석회성 건염",
       "name_en": "calcific tendinitis",
-      "post_count": 3,
+      "post_count": 4,
       "tenant_keys": [
         "apfree",
         "thr"
@@ -392,7 +392,7 @@
       "type": "condition",
       "name_ko": "척추전방전위증",
       "name_en": "spondylolisthesis",
-      "post_count": 1,
+      "post_count": 2,
       "tenant_keys": [
         "apfree"
       ]
@@ -618,7 +618,7 @@
       "type": "doctor",
       "name_ko": "김주민 대표원장",
       "name_en": "Dr. Kim Jumin",
-      "post_count": 29,
+      "post_count": 30,
       "tenant_keys": [
         "thr",
         "thq"
@@ -920,7 +920,7 @@
     {
       "source": "dr-kwon-jinyeol",
       "target": "hospital-ansimpainfree",
-      "weight": 20,
+      "weight": 21,
       "tenant_keys": [
         "apfree"
       ]
@@ -1311,7 +1311,7 @@
     {
       "source": "dr-kim-jumin",
       "target": "dr-park-sungjin",
-      "weight": 29,
+      "weight": 30,
       "tenant_keys": [
         "thr",
         "thq"
@@ -1320,7 +1320,7 @@
     {
       "source": "dr-park-sungjin",
       "target": "hospital-thewells-nowon",
-      "weight": 27,
+      "weight": 28,
       "tenant_keys": [
         "thr"
       ]
@@ -1328,7 +1328,7 @@
     {
       "source": "dr-kim-jumin",
       "target": "hospital-thewells-nowon",
-      "weight": 27,
+      "weight": 28,
       "tenant_keys": [
         "thr"
       ]
@@ -3144,7 +3144,7 @@
     {
       "source": "dr-kwon-jinyeol",
       "target": "spondylolisthesis",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
         "apfree"
       ]
@@ -3152,7 +3152,7 @@
     {
       "source": "hospital-ansimpainfree",
       "target": "spondylolisthesis",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
         "apfree"
       ]
@@ -3552,7 +3552,7 @@
     {
       "source": "calcific-tendinitis",
       "target": "dr-park-sungjin",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
         "thr"
       ]
@@ -3560,7 +3560,7 @@
     {
       "source": "calcific-tendinitis",
       "target": "dr-kim-jumin",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
         "thr"
       ]
@@ -3568,7 +3568,7 @@
     {
       "source": "calcific-tendinitis",
       "target": "hospital-thewells-nowon",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
         "thr"
       ]
