@@ -412,12 +412,38 @@ layout: default
         {% assign authored = site.data.post_entity_map | where: "doctor_id", entity_id %}
       {% endif %}
     {% else %}
-      {% assign authored = site.data.post_entity_map | where: "hospital_id", entity_id %}
+      {%- comment -%} 병원도 그룹 pillar 공유 — 그룹 소속 병원이면 멤버 테넌트 pillar 전체 수록 (2026-07-17) {%- endcomment -%}
+      {% assign hospital_group = nil %}
+      {% if site.data.tenant_groups and site.data.tenant_groups.groups %}
+        {% for group in site.data.tenant_groups.groups %}
+          {% if group.hospitals contains entity_id %}
+            {% assign hospital_group = group %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% if hospital_group %}
+        {% assign authored = "" | split: "" %}
+        {% assign authored_hpaths = "" | split: "" %}
+        {% for post in site.data.post_entity_map %}
+          {% assign credits_hospital = false %}
+          {% if post.hospital_id == entity_id %}{% assign credits_hospital = true %}{% endif %}
+          {% if hospital_group.members contains post.tenant_key %}{% assign credits_hospital = true %}{% endif %}
+          {% if credits_hospital and authored_hpaths contains post.post_path %}
+          {% elsif credits_hospital %}
+            {% assign authored = authored | push: post %}
+            {% assign authored_hpaths = authored_hpaths | push: post.post_path %}
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {% assign authored = site.data.post_entity_map | where: "hospital_id", entity_id %}
+      {% endif %}
     {% endif %}
-    {%- comment -%} 영문 배제(2026-07-05) + 같은 원문 URL 중복 제거 (레거시 중복 행 방어) {%- endcomment -%}
+    {%- comment -%} pillar만 수록(집필·소속 목록 기준, 사장 확정) + 영문 배제(2026-07-05) + 같은 원문 URL 중복 제거 {%- endcomment -%}
     {% assign authored_ko = "" | split: "" %}
     {% assign authored_urls = "" | split: "" %}
     {% for post in authored %}
+      {% unless post.is_pillar == true %}{% continue %}{% endunless %}
       {% if post.post_path contains '/en/' %}{% continue %}{% endif %}
       {% assign post_url_key = post.source_article_url | default: post.post_path %}
       {% if authored_urls contains post_url_key %}{% continue %}{% endif %}

@@ -36,7 +36,18 @@
       "type": "hospital",
       "name_ko": "더웰스의원 노원",
       "name_en": "The Wells Clinic Nowon",
-      "post_count": 11,
+      "post_count": 12,
+      "tenant_keys": [
+        "thq",
+        "thr"
+      ]
+    },
+    {
+      "id": "exosome-therapy",
+      "type": "treatment",
+      "name_ko": "엑소좀 치료",
+      "name_en": "exosome therapy",
+      "post_count": 1,
       "tenant_keys": [
         "thr"
       ]
@@ -46,7 +57,7 @@
       "type": "condition",
       "name_ko": "허리디스크",
       "name_en": "lumbar disc herniation",
-      "post_count": 2,
+      "post_count": 5,
       "tenant_keys": [
         "apfree"
       ]
@@ -56,9 +67,10 @@
       "type": "treatment",
       "name_ko": "체외충격파(ESWT)",
       "name_en": "extracorporeal shock wave therapy (ESWT)",
-      "post_count": 1,
+      "post_count": 5,
       "tenant_keys": [
-        "apfree"
+        "apfree",
+        "thr"
       ]
     },
     {
@@ -66,7 +78,7 @@
       "type": "treatment",
       "name_ko": "신경차단술",
       "name_en": "nerve block injection",
-      "post_count": 3,
+      "post_count": 8,
       "tenant_keys": [
         "apfree"
       ]
@@ -82,10 +94,30 @@
       ]
     },
     {
+      "id": "antiviral-medicine",
+      "type": "treatment",
+      "name_ko": "항바이러스제 (대상포진)",
+      "name_en": "antiviral medicine (acyclovir, valacyclovir, famciclovir)",
+      "post_count": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
       "id": "shingles-vaccination",
       "type": "treatment",
       "name_ko": "대상포진 백신 (Shingrix)",
       "name_en": "shingles vaccination (Shingrix, recombinant zoster vaccine)",
+      "post_count": 4,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "id": "zoster",
+      "type": "condition",
+      "name_ko": "대상포진",
+      "name_en": "herpes zoster (shingles)",
       "post_count": 1,
       "tenant_keys": [
         "apfree"
@@ -96,9 +128,19 @@
       "type": "condition",
       "name_ko": "대상포진 후 신경통 (PHN)",
       "name_en": "postherpetic neuralgia (PHN)",
-      "post_count": 1,
+      "post_count": 3,
       "tenant_keys": [
         "apfree"
+      ]
+    },
+    {
+      "id": "alopecia-areata",
+      "type": "condition",
+      "name_ko": "원형 탈모",
+      "name_en": "alopecia areata",
+      "post_count": 1,
+      "tenant_keys": [
+        "thr"
       ]
     },
     {
@@ -116,7 +158,7 @@
       "type": "condition",
       "name_ko": "거북목·일자목",
       "name_en": "forward head posture / cervical lordosis loss",
-      "post_count": 2,
+      "post_count": 5,
       "tenant_keys": [
         "apfree",
         "thr"
@@ -127,9 +169,10 @@
       "type": "treatment",
       "name_ko": "줄기세포 치료",
       "name_en": "stem cell therapy",
-      "post_count": 1,
+      "post_count": 2,
       "tenant_keys": [
-        "apfree"
+        "apfree",
+        "thr"
       ]
     },
     {
@@ -147,9 +190,10 @@
       "type": "treatment",
       "name_ko": "PRP 주사",
       "name_en": "platelet-rich plasma injection",
-      "post_count": 1,
+      "post_count": 4,
       "tenant_keys": [
-        "apfree"
+        "apfree",
+        "thr"
       ]
     },
     {
@@ -157,9 +201,10 @@
       "type": "symptom",
       "name_ko": "허리통증",
       "name_en": "lower back pain",
-      "post_count": 2,
+      "post_count": 6,
       "tenant_keys": [
-        "apfree"
+        "apfree",
+        "thr"
       ]
     },
     {
@@ -167,7 +212,7 @@
       "type": "treatment",
       "name_ko": "NAD+ 수액 치료",
       "name_en": "NAD+ infusion therapy",
-      "post_count": 2,
+      "post_count": 6,
       "tenant_keys": [
         "apfree",
         "thr"
@@ -178,7 +223,7 @@
       "type": "condition",
       "name_ko": "좌골신경통",
       "name_en": "sciatica",
-      "post_count": 2,
+      "post_count": 4,
       "tenant_keys": [
         "apfree"
       ]
@@ -226,11 +271,31 @@
       ]
     },
     {
+      "id": "tecar-rf-therapy",
+      "type": "treatment",
+      "name_ko": "TECAR RF 고주파 치료",
+      "name_en": "TECAR radiofrequency therapy",
+      "post_count": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "id": "cervicogenic-headache",
+      "type": "condition",
+      "name_ko": "경추기원 두통",
+      "name_en": "cervicogenic headache",
+      "post_count": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
       "id": "shoulder-pain",
       "type": "symptom",
       "name_ko": "어깨 통증",
       "name_en": "shoulder pain",
-      "post_count": 2,
+      "post_count": 3,
       "tenant_keys": [
         "apfree",
         "thr"
@@ -241,7 +306,7 @@
       "type": "condition",
       "name_ko": "무릎 관절염",
       "name_en": "knee osteoarthritis",
-      "post_count": 2,
+      "post_count": 3,
       "tenant_keys": [
         "apfree",
         "thr"
@@ -252,7 +317,7 @@
       "type": "condition",
       "name_ko": "오십견",
       "name_en": "frozen shoulder",
-      "post_count": 4,
+      "post_count": 6,
       "tenant_keys": [
         "apfree",
         "thr"
@@ -263,7 +328,7 @@
       "type": "condition",
       "name_ko": "석회성 건염",
       "name_en": "calcific tendinitis",
-      "post_count": 2,
+      "post_count": 4,
       "tenant_keys": [
         "apfree",
         "thr"
@@ -285,9 +350,10 @@
       "type": "condition",
       "name_ko": "목디스크",
       "name_en": "cervical disc herniation",
-      "post_count": 1,
+      "post_count": 4,
       "tenant_keys": [
-        "apfree"
+        "apfree",
+        "thr"
       ]
     },
     {
@@ -295,8 +361,9 @@
       "type": "condition",
       "name_ko": "안드로겐성 탈모 (남성형·여성형)",
       "name_en": "androgenetic alopecia",
-      "post_count": 1,
+      "post_count": 9,
       "tenant_keys": [
+        "apfree",
         "thr"
       ]
     },
@@ -305,7 +372,7 @@
       "type": "condition",
       "name_ko": "마미증후군",
       "name_en": "cauda equina syndrome",
-      "post_count": 1,
+      "post_count": 2,
       "tenant_keys": [
         "apfree"
       ]
@@ -315,9 +382,10 @@
       "type": "condition",
       "name_ko": "척추관 협착증",
       "name_en": "lumbar spinal stenosis",
-      "post_count": 2,
+      "post_count": 3,
       "tenant_keys": [
-        "apfree"
+        "apfree",
+        "thr"
       ]
     },
     {
@@ -342,11 +410,21 @@
       ]
     },
     {
+      "id": "scalp",
+      "type": "body_part",
+      "name_ko": "두피",
+      "name_en": "scalp",
+      "post_count": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "id": "lateral-epicondylitis",
       "type": "condition",
       "name_ko": "외측상과염",
       "name_en": "lateral epicondylitis",
-      "post_count": 2,
+      "post_count": 3,
       "tenant_keys": [
         "apfree",
         "thr"
@@ -373,6 +451,16 @@
       ]
     },
     {
+      "id": "carpal-tunnel-syndrome",
+      "type": "condition",
+      "name_ko": "손목터널증후군",
+      "name_en": "carpal tunnel syndrome",
+      "post_count": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
       "id": "cervical-spine",
       "type": "body_part",
       "name_ko": "경추",
@@ -383,11 +471,21 @@
       ]
     },
     {
+      "id": "hair-loss-medication",
+      "type": "treatment",
+      "name_ko": "탈모 약물치료",
+      "name_en": "hair loss medication",
+      "post_count": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "id": "medial-epicondylitis",
       "type": "condition",
       "name_ko": "내측상과염",
       "name_en": "medial epicondylitis",
-      "post_count": 1,
+      "post_count": 2,
       "tenant_keys": [
         "thr"
       ]
@@ -397,6 +495,17 @@
       "type": "condition",
       "name_ko": "족저근막염",
       "name_en": "plantar fasciitis",
+      "post_count": 3,
+      "tenant_keys": [
+        "apfree",
+        "thr"
+      ]
+    },
+    {
+      "id": "achilles-tendinitis",
+      "type": "condition",
+      "name_ko": "아킬레스건염",
+      "name_en": "Achilles tendinopathy",
       "post_count": 1,
       "tenant_keys": [
         "apfree"
@@ -417,7 +526,38 @@
       "type": "symptom",
       "name_ko": "무릎 통증",
       "name_en": "knee pain",
+      "post_count": 4,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "id": "prolotherapy",
+      "type": "treatment",
+      "name_ko": "프롤로테라피(증식 치료)",
+      "name_en": "prolotherapy",
+      "post_count": 2,
+      "tenant_keys": [
+        "apfree",
+        "thr"
+      ]
+    },
+    {
+      "id": "hair-loss",
+      "type": "symptom",
+      "name_ko": "탈모",
+      "name_en": "hair loss",
       "post_count": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "id": "hi-ems",
+      "type": "treatment",
+      "name_ko": "하이엠스",
+      "name_en": "high-intensity electromagnetic stimulation",
+      "post_count": 2,
       "tenant_keys": [
         "thr"
       ]
@@ -437,7 +577,7 @@
       "type": "body_part",
       "name_ko": "허리",
       "name_en": "lower back",
-      "post_count": 1,
+      "post_count": 2,
       "tenant_keys": [
         "apfree"
       ]
@@ -457,7 +597,7 @@
       "type": "treatment",
       "name_ko": "경두개 자기 자극 (TMS)",
       "name_en": "transcranial magnetic stimulation",
-      "post_count": 1,
+      "post_count": 2,
       "tenant_keys": [
         "thr"
       ]
@@ -478,9 +618,10 @@
       "type": "hospital",
       "name_ko": "더웰스의원 잠실",
       "name_en": "The Wells Clinic Jamsil",
-      "post_count": 1,
+      "post_count": 12,
       "tenant_keys": [
-        "thq"
+        "thq",
+        "thr"
       ]
     }
   ],
@@ -496,7 +637,7 @@
     {
       "source": "lumbar-disc-herniation",
       "target": "sciatica",
-      "weight": 2,
+      "weight": 3,
       "tenant_keys": [
         "apfree"
       ]
@@ -504,7 +645,7 @@
     {
       "source": "cauda-equina-syndrome",
       "target": "lumbar-disc-herniation",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
         "apfree"
       ]
@@ -576,7 +717,7 @@
     {
       "source": "cauda-equina-syndrome",
       "target": "sciatica",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
         "apfree"
       ]
@@ -1119,6 +1260,30 @@
       ]
     },
     {
+      "source": "lumbar-disc-herniation",
+      "target": "nerve-block-injection",
+      "weight": 2,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "nerve-block-injection",
+      "target": "sciatica",
+      "weight": 2,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "cauda-equina-syndrome",
+      "target": "nerve-block-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
       "source": "dr-kwon-jinyeol",
       "target": "stem-cell-therapy",
       "weight": 1,
@@ -1135,6 +1300,30 @@
       ]
     },
     {
+      "source": "eswt",
+      "target": "prolotherapy",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "eswt",
+      "target": "nerve-block-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "nerve-block-injection",
+      "target": "prolotherapy",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
       "source": "dr-kwon-jinyeol",
       "target": "forward-head-posture",
       "weight": 1,
@@ -1145,6 +1334,86 @@
     {
       "source": "forward-head-posture",
       "target": "hospital-ansimpainfree",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "postherpetic-neuralgia",
+      "target": "zoster",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "antiviral-medicine",
+      "target": "postherpetic-neuralgia",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "nerve-block-injection",
+      "target": "postherpetic-neuralgia",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "postherpetic-neuralgia",
+      "target": "shingles-vaccination",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "antiviral-medicine",
+      "target": "zoster",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "nerve-block-injection",
+      "target": "zoster",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "shingles-vaccination",
+      "target": "zoster",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "antiviral-medicine",
+      "target": "nerve-block-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "antiviral-medicine",
+      "target": "shingles-vaccination",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "nerve-block-injection",
+      "target": "shingles-vaccination",
       "weight": 1,
       "tenant_keys": [
         "apfree"
@@ -1672,14 +1941,6 @@
     },
     {
       "source": "lumbar-disc-herniation",
-      "target": "nerve-block-injection",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "lumbar-disc-herniation",
       "target": "manual-therapy",
       "weight": 1,
       "tenant_keys": [
@@ -1697,14 +1958,6 @@
     {
       "source": "discogenic-pain",
       "target": "lumbar-disc-herniation",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "nerve-block-injection",
-      "target": "sciatica",
       "weight": 1,
       "tenant_keys": [
         "apfree"
@@ -1895,6 +2148,14 @@
       ]
     },
     {
+      "source": "hospital-thewells-nowon",
+      "target": "scoliosis",
+      "weight": 1,
+      "tenant_keys": [
+        "thq"
+      ]
+    },
+    {
       "source": "hospital-thewells-jamsil",
       "target": "scoliosis",
       "weight": 1,
@@ -1913,18 +2174,47 @@
     },
     {
       "source": "dr-park-sungjin",
-      "target": "hospital-thewells-jamsil",
-      "weight": 1,
+      "target": "hospital-thewells-nowon",
+      "weight": 12,
       "tenant_keys": [
-        "thq"
+        "thq",
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "hospital-thewells-jamsil",
+      "weight": 12,
+      "tenant_keys": [
+        "thq",
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "hospital-thewells-nowon",
+      "weight": 12,
+      "tenant_keys": [
+        "thq",
+        "thr"
       ]
     },
     {
       "source": "dr-kim-jumin",
       "target": "hospital-thewells-jamsil",
-      "weight": 1,
+      "weight": 12,
       "tenant_keys": [
-        "thq"
+        "thq",
+        "thr"
+      ]
+    },
+    {
+      "source": "hospital-thewells-jamsil",
+      "target": "hospital-thewells-nowon",
+      "weight": 12,
+      "tenant_keys": [
+        "thq",
+        "thr"
       ]
     },
     {
@@ -1992,6 +2282,14 @@
       ]
     },
     {
+      "source": "forward-head-posture",
+      "target": "hospital-thewells-jamsil",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "neck-pain",
       "target": "shoulder-pain",
       "weight": 1,
@@ -2033,6 +2331,14 @@
     },
     {
       "source": "hospital-thewells-nowon",
+      "target": "neck-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hospital-thewells-jamsil",
       "target": "neck-pain",
       "weight": 1,
       "tenant_keys": [
@@ -2088,6 +2394,14 @@
       ]
     },
     {
+      "source": "hospital-thewells-jamsil",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "exercise-therapy",
       "target": "physical-therapy",
       "weight": 1,
@@ -2128,6 +2442,14 @@
       ]
     },
     {
+      "source": "hospital-thewells-jamsil",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "exercise-therapy",
       "target": "posture-correction",
       "weight": 1,
@@ -2154,6 +2476,14 @@
     {
       "source": "exercise-therapy",
       "target": "hospital-thewells-nowon",
+      "weight": 2,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "hospital-thewells-jamsil",
       "weight": 2,
       "tenant_keys": [
         "thr"
@@ -2184,17 +2514,233 @@
       ]
     },
     {
-      "source": "dr-park-sungjin",
-      "target": "hospital-thewells-nowon",
-      "weight": 11,
+      "source": "hospital-thewells-jamsil",
+      "target": "posture-correction",
+      "weight": 1,
       "tenant_keys": [
         "thr"
       ]
     },
     {
-      "source": "dr-kim-jumin",
-      "target": "hospital-thewells-nowon",
-      "weight": 11,
+      "source": "androgenetic-alopecia",
+      "target": "hair-loss",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "scalp",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "androgenetic-alopecia",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "stem-cell-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "exosome-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "hair-loss-medication",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hair-loss",
+      "target": "scalp",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "hair-loss",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hair-loss",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hair-loss",
+      "target": "stem-cell-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "exosome-therapy",
+      "target": "hair-loss",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hair-loss",
+      "target": "hair-loss-medication",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "scalp",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "prp-injection",
+      "target": "scalp",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "scalp",
+      "target": "stem-cell-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "exosome-therapy",
+      "target": "scalp",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hair-loss-medication",
+      "target": "scalp",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "stem-cell-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "exosome-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "alopecia-areata",
+      "target": "hair-loss-medication",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "prp-injection",
+      "target": "stem-cell-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "exosome-therapy",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hair-loss-medication",
+      "target": "prp-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "exosome-therapy",
+      "target": "stem-cell-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hair-loss-medication",
+      "target": "stem-cell-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "exosome-therapy",
+      "target": "hair-loss-medication",
+      "weight": 1,
       "tenant_keys": [
         "thr"
       ]
@@ -2240,6 +2786,14 @@
       ]
     },
     {
+      "source": "hospital-thewells-jamsil",
+      "target": "knee-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "exercise-therapy",
       "target": "knee-osteoarthritis",
       "weight": 1,
@@ -2272,6 +2826,14 @@
       ]
     },
     {
+      "source": "hospital-thewells-jamsil",
+      "target": "knee-osteoarthritis",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "frozen-shoulder",
       "target": "shoulder",
       "weight": 1,
@@ -2304,6 +2866,14 @@
       ]
     },
     {
+      "source": "hospital-thewells-jamsil",
+      "target": "shoulder",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "dr-park-sungjin",
       "target": "frozen-shoulder",
       "weight": 2,
@@ -2328,6 +2898,14 @@
       ]
     },
     {
+      "source": "frozen-shoulder",
+      "target": "hospital-thewells-jamsil",
+      "weight": 2,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "dr-park-sungjin",
       "target": "medial-epicondylitis",
       "weight": 1,
@@ -2346,6 +2924,22 @@
     {
       "source": "hospital-thewells-nowon",
       "target": "medial-epicondylitis",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hospital-thewells-jamsil",
+      "target": "medial-epicondylitis",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "eswt",
+      "target": "plantar-fasciitis",
       "weight": 1,
       "tenant_keys": [
         "thr"
@@ -2376,6 +2970,14 @@
       ]
     },
     {
+      "source": "androgenetic-alopecia",
+      "target": "hospital-thewells-jamsil",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "dr-park-sungjin",
       "target": "transcranial-magnetic-stimulation",
       "weight": 1,
@@ -2400,6 +3002,22 @@
       ]
     },
     {
+      "source": "hospital-thewells-jamsil",
+      "target": "transcranial-magnetic-stimulation",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hi-ems",
+      "target": "tecar-rf-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "dr-park-sungjin",
       "target": "nad-infusion-therapy",
       "weight": 1,
@@ -2417,6 +3035,14 @@
     },
     {
       "source": "hospital-thewells-nowon",
+      "target": "nad-infusion-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hospital-thewells-jamsil",
       "target": "nad-infusion-therapy",
       "weight": 1,
       "tenant_keys": [
@@ -2441,6 +3067,14 @@
     },
     {
       "source": "hospital-thewells-nowon",
+      "target": "lateral-epicondylitis",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hospital-thewells-jamsil",
       "target": "lateral-epicondylitis",
       "weight": 1,
       "tenant_keys": [
@@ -2466,6 +3100,14 @@
     {
       "source": "calcific-tendinitis",
       "target": "hospital-thewells-nowon",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "calcific-tendinitis",
+      "target": "hospital-thewells-jamsil",
       "weight": 1,
       "tenant_keys": [
         "thr"

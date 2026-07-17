@@ -10,7 +10,8 @@
       "key": "thewells",
       "name": "더웰스의원",
       "members": ["thr", "thq"],
-      "doctors": ["dr-park-sungjin", "dr-kim-jumin"]
+      "doctors": ["dr-park-sungjin", "dr-kim-jumin"],
+      "hospitals": ["hospital-thewells-nowon", "hospital-thewells-jamsil"]
     }
   ]
 }
