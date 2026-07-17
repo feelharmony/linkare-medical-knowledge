@@ -11,11 +11,12 @@ locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-03'
-source_count: 8
+source_count: 9
 source_count_external: 5
-source_count_clinic_pillar: 1
+source_count_clinic_pillar: 2
 clinic_footnote_ids:
   - 1
+  - 7
 external_footnote_ids:
   - 2
   - 3
@@ -80,7 +81,7 @@ version: 6
 ### 자사 임상 자료
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^1]: [안심튼튼 — 외측상과염 증상·진단](https://ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis)
-[^7]: [theWells 노원 — 테니스엘보란 무엇인가 — 염증이 아닌 건의 퇴행성 변화](https://thewells.kr/blog/lateral-epicondylitis) · 근거: "팔꿈치 바깥쪽 통증이 수주 이상 지속되면 단순한 염증이 아니라 건 조직의 퇴행성 변화입니다."
+[^7]: [더웰스의원 — 테니스엘보란 무엇인가 — 염증이 아닌 건의 퇴행성 변화](https://thewells.kr/blog/lateral-epicondylitis) · 근거: "팔꿈치 바깥쪽 통증이 수주 이상 지속되면 단순한 염증이 아니라 건 조직의 퇴행성 변화입니다."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
