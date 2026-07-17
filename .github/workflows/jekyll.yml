@@ -37,6 +37,11 @@ jobs:
       # lint-entity.js는 node 내장 모듈만 사용 — npm install 불필요.
       - name: Lint entities (hard gate)
         run: node scripts/lint-entity.js --all
+      # entity_graph/post_entity_map 재생성 — 백엔드 발행 push가 data/만 갱신해도
+      # 그룹 공동 크레딧(관련 의사 칩)이 빌드 시점에 항상 최신으로 반영되게 한다.
+      # build-graph.js는 node 내장 모듈만 사용 — npm install 불필요.
+      - name: Build entity graph (group credit)
+        run: node scripts/build-graph.js
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
