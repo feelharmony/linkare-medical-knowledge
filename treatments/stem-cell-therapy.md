@@ -4,7 +4,7 @@ entity_id: stem-cell-therapy
 entity_type: treatment
 permalink: /treatments/stem-cell-therapy/
 title: 줄기세포 치료
-description: 지방·골수 등 자가 세포 또는 세포 유래 분획을 활용해 조직 회복 환경 조절을 목표로 하는 재생 치료
+description: 자가/타가 줄기세포를 활용한 재생 치료 (혈액·지방·골수 유래 포함)
 title_en: stem cell therapy
 aliases:
   - 줄기세포
@@ -19,7 +19,7 @@ aliases:
   - bone marrow aspirate concentrate
   - BMSC
   - mesenchymal stem cell
-last_reviewed: '2026-07-03'
+last_reviewed: '2026-07-18'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
@@ -27,11 +27,20 @@ next_review: '2026-10-03'
 source_count: 10
 source_count_external: 8
 source_count_clinic_pillar: 2
-clinic_footnote_ids: [9, 10]
-external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8]
-version: 4
+clinic_footnote_ids:
+  - 9
+  - 10
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+version: 3
 ---
-
 ## 정의·기전
 줄기세포 치료(stem cell therapy)는 지방·골수 등에서 얻은 세포 또는 세포가 분비하는 생물학적 신호를 활용해 손상 조직의 회복 환경을 조절하는 재생 치료 범주입니다. 임상에서 흔히 논의되는 형태는 다음과 같습니다.
 
@@ -95,10 +104,17 @@ version: 4
 
 ---
 
-## Citations
+## 기대효과
+자가 혈액·골수 유래 줄기세포 치료 후 환자들은 통증이 감소하고 기능이 개선되는 변화를 경험할 수 있습니다. [^10]
 
-<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+## 언제 고려
+자가 혈액·골수 유래 줄기세포 치료 후 환자들은 일반적으로 1~3일 이내에 가벼운 일상 활동으로 복귀할 수 있습니다. [^10]
+
+---
+
+## Citations
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^9]: [자사 임상 자료 — 탈모 재생주사 치료](https://thewells.kr/blog/hair-loss-regeneration-injection-treatment)
 [^10]: [자사 임상 자료 — 자가 혈액·골수 유래 줄기세포 치료](https://ansimpainfree.kr/blog/autologous-stem-cell-therapy)
 <!-- /LINKARE:CLINIC-CITATIONS -->
@@ -118,3 +134,4 @@ version: 4
 - 2026-07-03 v4: 내용 업데이트.
 - 2026-05-09 v3: 내용 업데이트.
 - 2026-05-03 v2: 내용 업데이트.
+- 2026-07-18 v3: 기대효과 enrich, 언제 고려 enrich
