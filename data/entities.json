@@ -2,10 +2,10 @@
   {
     "id": "dr-park-sungjin",
     "type": "doctor",
-    "name_ko": "박성진 원장",
+    "name_ko": "박성진 대표원장",
     "name_en": "Dr. Park Sungjin",
     "aliases": [],
-    "description_ko": "더웰스의원 노원 통증·웰니스·탈모 전문의",
+    "description_ko": "더웰스의원 노원 대표원장 · 직업환경의학 전문의 · 연세대 의학박사",
     "status": "approved",
     "last_reviewed": "2026-04-24",
     "source_count": 2,
@@ -17,7 +17,7 @@
     "name_ko": "권진열 원장",
     "name_en": "Dr. Kwon Jinyeol",
     "aliases": [],
-    "description_ko": "안심튼튼마취통증의학과 통증의학과 전문의",
+    "description_ko": "안심튼튼마취통증의학과 마취통증의학과 전문의",
     "status": "approved",
     "last_reviewed": "2026-04-24",
     "source_count": 2,
@@ -1632,5 +1632,29 @@
     "last_reviewed": "2026-05-20",
     "source_count": 9,
     "version": 1.1
+  },
+  {
+    "id": "dr-kim-jumin",
+    "type": "doctor",
+    "name_ko": "김주민 대표원장",
+    "name_en": "Dr. Kim Jumin",
+    "aliases": [],
+    "description_ko": "더웰스의원 잠실 대표원장 · 삼성서울병원 외래 조교수",
+    "status": "approved",
+    "last_reviewed": "2026-07-17",
+    "source_count": 0,
+    "version": 1
+  },
+  {
+    "id": "hospital-thewells-jamsil",
+    "type": "hospital",
+    "name_ko": "더웰스의원 잠실",
+    "name_en": "The Wells Clinic Jamsil",
+    "aliases": [],
+    "description_ko": "",
+    "status": "approved",
+    "last_reviewed": "2026-07-17",
+    "source_count": 0,
+    "version": 1
   }
 ]

@@ -9,7 +9,7 @@ title_en: The Wells Clinic Nowon
 last_reviewed: '2026-04-24'
 source_count: 0
 version: 1
-tenant_key: thewells-nowon
+tenant_key: thr
 hospital_website: 'https://thewells.kr/nowon'
 ---
 
