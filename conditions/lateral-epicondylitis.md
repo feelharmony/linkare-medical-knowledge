@@ -6,12 +6,12 @@ permalink: /conditions/lateral-epicondylitis/
 title: 외측상과염
 description: 팔꿈치 외측 힘줄의 만성 손상
 title_en: lateral epicondylitis
-last_reviewed: '2026-07-13'
+last_reviewed: '2026-07-17'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-03'
-source_count: 7
+source_count: 8
 source_count_external: 5
 source_count_clinic_pillar: 1
 clinic_footnote_ids:
@@ -22,7 +22,7 @@ external_footnote_ids:
   - 4
   - 5
   - 6
-version: 5
+version: 6
 ---
 ## 정의
 외측상과염(lateral epicondylitis, 테니스엘보)은 [팔꿈치](/body-parts/elbow/) 바깥쪽 뼈 돌출 부위인 외측 상과에 붙은 힘줄이 손상되어 통증과 기능 저하를 일으키는 질환입니다. 주로 짧은노쪽손목폄근(extensor carpi radialis brevis, ECRB)의 힘줄에 반복적인 미세 손상이 쌓이면서 발생합니다 [^1][^2]. 테니스엘보라는 별명 때문에 운동선수만 걸리는 병으로 오해받지만, 반복적으로 손목을 펴거나 물건을 쥐는 동작을 하는 사람들에게 광범위하게 나타납니다. 주부·목수·요리사·사무직 근로자 등 직업과 무관하게 발생할 수 있습니다 [^1].
@@ -63,6 +63,8 @@ version: 5
 
 수술 치료는 6~12개월 이상의 충분한 보존 치료에 반응하지 않거나 일상생활에 큰 지장을 주는 경우에 검토합니다. 내시경적 또는 개방적 힘줄 변성 부위 절제술이 사용됩니다 [^1].
 
+환자들은 팔꿈치 바깥쪽에 지속적인 통증을 느끼며, 이는 단순한 염증이 아닌 힘줄의 퇴행성 변화로 인한 것입니다[^7].
+
 ## 예후
 대부분의 외측상과염은 시간이 지나면서 호전됩니다 [^1][^5]. 적절한 접근은 일상 회복에 도움이 되며, 재발이 흔한 편이어서 예방에 신경 써야 합니다. 작업 자세 개선, 적절한 휴식, 꾸준한 스트레칭이 재발 방지에 도움이 됩니다 [^1]. 수개월 이상 증상이 지속되거나 악화되는 경우에는 다른 원인(요골 신경 증후군, 경추 신경근병증 등) 감별이 필요합니다 [^2].
 
@@ -70,10 +72,15 @@ version: 5
 
 ---
 
+환자들은 팔꿈치 바깥쪽 통증이 수주 이상 지속될 때 단순한 염증이 아니라 힘줄 조직의 퇴행성 변화로 인한 것임을 자주 경험합니다[^7].
+
+---
+
 ## Citations
 ### 자사 임상 자료
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^1]: [안심튼튼 — 외측상과염 증상·진단](https://ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis)
+[^7]: [theWells 노원 — 테니스엘보란 무엇인가 — 염증이 아닌 건의 퇴행성 변화](https://thewells.kr/blog/lateral-epicondylitis) · 근거: "팔꿈치 바깥쪽 통증이 수주 이상 지속되면 단순한 염증이 아니라 건 조직의 퇴행성 변화입니다."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
@@ -90,3 +97,4 @@ version: 5
 - 2026-04-28 v4: 내용 업데이트.
 - 2026-05-02 v5: 내용 업데이트.
 - 2026-07-13 v5: 병태 enrich, 증상 enrich
+- 2026-07-17 v6: 예후 enrich, 치료 enrich
