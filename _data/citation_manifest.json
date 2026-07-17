@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-17",
+  "updated_at": "2026-07-18",
   "entities": {
     "aging": [
       {
@@ -540,10 +540,13 @@
       {
         "footnote_id": 10,
         "url": "https://ansimpainfree.kr/blog/autologous-stem-cell-therapy",
-        "title": "자사 임상 자료 — 자가 혈액·골수 유래 줄기세포 치료",
-        "post_id": null,
-        "anchors": [],
-        "excerpt": null
+        "title": "안심튼튼마취통증의학과 — 자가 혈액·골수 유래 줄기세포 치료란 무엇인가",
+        "post_id": "cd80dae1-b14f-4f39-b175-d899ecd5b5eb",
+        "anchors": [
+          "expected_effect",
+          "when_considered"
+        ],
+        "excerpt": "자가 혈액·골수 유래 줄기세포 치료는 손상된 조직의 회복을 유도합니다."
       }
     ],
     "surgery": [
