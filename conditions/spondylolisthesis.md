@@ -5,27 +5,36 @@ entity_type: condition
 permalink: /conditions/spondylolisthesis/
 title: 척추전방전위증
 title_en: spondylolisthesis
-description: 위쪽 척추뼈가 아래쪽 척추뼈에 비해 앞쪽으로 미끄러져 허리통증, 신경성 파행, 다리 방사통을 유발할 수 있는 질환
+description: 척추뼈가 앞으로 미끄러지는 질환
 aliases:
   - 척추전방전위증
   - 전방전위증
   - spondylolisthesis
-last_reviewed: '2026-07-04'
+last_reviewed: '2026-07-17'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
-source_count: 6
+source_count: 7
 source_count_external: 5
-source_count_clinic_pillar: 1
-clinic_footnote_ids: [1]
-external_footnote_ids: [2, 3, 4, 5, 6]
+source_count_clinic_pillar: 2
+clinic_footnote_ids:
+  - 1
+  - 7
+external_footnote_ids:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
 version: 2
 ---
 ## 정의
 척추전방전위증(spondylolisthesis)은 위쪽 척추뼈가 아래쪽 척추뼈에 비해 앞쪽으로 미끄러진 상태입니다 [^2][^3]. 허리에서 가장 흔하게 문제되는 부위는 요추 L4-L5 또는 L5-S1이며, 퇴행성 변화, 척추분리증, 외상, 수술 후 변화 등이 원인이 될 수 있습니다 [^2][^4].
 
 전방전위가 있다고 모두 증상이 생기는 것은 아닙니다. 통증과 치료 방향은 전위 정도만이 아니라 [허리통증](/symptoms/lower-back-pain/), 다리 저림, 신경성 파행, 불안정성, 동반 [척추관 협착증](/conditions/spinal-stenosis/) 여부에 따라 달라집니다 [^2][^3].
+
+척추전방전위증 환자는 허리를 뒤로 젖힐 때 통증이 심해지는 경향이 있습니다[^7].
 
 ## 병태
 퇴행성 척추전방전위증은 디스크 높이 감소, 후관절 관절염, 인대 비후, 척추 주변 안정성 저하가 겹치면서 척추 분절이 앞쪽으로 미끄러지는 형태입니다 [^2][^3]. 이 과정에서 척추관이나 추간공이 좁아지면 신경근 압박이 발생해 다리 저림, 방사통, 보행 제한이 나타날 수 있습니다 [^3].
@@ -47,6 +56,8 @@ version: 2
 
 수술은 보존 치료에 반응하지 않는 지속 통증, 신경성 파행, 진행성 신경학적 결손, 뚜렷한 불안정성 또는 협착이 동반된 경우에 검토합니다 [^2][^3]. 감압술만으로 충분한지, 유합술이 필요한지는 전위 정도, 불안정성, 협착 위치, 환자 기능 목표에 따라 달라집니다. 따라서 환자에게는 “전방전위가 있으니 바로 수술”이 아니라, 증상·신경 압박·불안정성·보존 치료 반응을 기준으로 단계적으로 설명하는 것이 안전합니다.
 
+환자들은 허리를 뒤로 젖힐 때 통증이 심해지는 경향이 있으며, 이는 척추가 불안정하게 움직이기 때문입니다[^7].
+
 ## 예후
 많은 환자는 운동·약물·주사치료·생활 부하 조절 같은 보존 치료로 통증과 기능이 조절됩니다 [^2][^3]. 다만 퇴행성 변화와 협착이 진행하거나 보행 거리가 줄어드는 경우에는 치료 전략을 다시 평가해야 합니다. 수술이 필요한 환자군에서도 목표는 영상의 전위 자체를 “정상화”하는 것보다 신경 압박 완화, 통증 감소, 보행 기능 회복입니다.
 
@@ -54,10 +65,15 @@ version: 2
 
 ---
 
+척추전방전위증 환자들은 허리를 뒤로 젖히거나 오래 서 있을 때 통증이 가장 심해지는 경험을 보고합니다[^7].
+
+---
+
 ## Citations
-<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^1]: [안심튼튼 — 허리디스크 원인, 증상, 진단](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
+[^7]: [안심튼튼마취통증의학과 — 척추전방전위증 — 허리뼈가 앞으로 밀릴 때 생기는 통증의 원인과 치료](https://ansimpainfree.kr/blog/spondylolisthesis) · 근거: "허리를 뒤로 젖히거나 오래 서 있을 때 통증이 가장 심합니다."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
@@ -70,3 +86,4 @@ version: 2
 ## Changelog
 - 2026-07-04 v2: 내용 업데이트.
 - 2026-07-03 v1: 내용 업데이트.
+- 2026-07-17 v2: 정의 enrich, 치료 enrich, 예후 enrich
