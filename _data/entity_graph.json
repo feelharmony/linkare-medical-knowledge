@@ -5,10 +5,10 @@
       "type": "doctor",
       "name_ko": "박성진 대표원장",
       "name_en": "Dr. Park Sungjin",
-      "post_count": 30,
+      "post_count": 12,
       "tenant_keys": [
-        "thr",
-        "thq"
+        "thq",
+        "thr"
       ]
     },
     {
@@ -16,7 +16,7 @@
       "type": "doctor",
       "name_ko": "권진열 원장",
       "name_en": "Dr. Kwon Jinyeol",
-      "post_count": 21,
+      "post_count": 19,
       "tenant_keys": [
         "apfree"
       ]
@@ -26,7 +26,7 @@
       "type": "hospital",
       "name_ko": "안심튼튼마취통증의학과",
       "name_en": "Ansim Painfree Clinic",
-      "post_count": 21,
+      "post_count": 19,
       "tenant_keys": [
         "apfree"
       ]
@@ -36,17 +36,7 @@
       "type": "hospital",
       "name_ko": "더웰스의원 노원",
       "name_en": "The Wells Clinic Nowon",
-      "post_count": 28,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "id": "exosome-therapy",
-      "type": "treatment",
-      "name_ko": "엑소좀 치료",
-      "name_en": "exosome therapy",
-      "post_count": 1,
+      "post_count": 11,
       "tenant_keys": [
         "thr"
       ]
@@ -56,7 +46,7 @@
       "type": "condition",
       "name_ko": "허리디스크",
       "name_en": "lumbar disc herniation",
-      "post_count": 6,
+      "post_count": 2,
       "tenant_keys": [
         "apfree"
       ]
@@ -66,9 +56,8 @@
       "type": "treatment",
       "name_ko": "체외충격파(ESWT)",
       "name_en": "extracorporeal shock wave therapy (ESWT)",
-      "post_count": 3,
+      "post_count": 1,
       "tenant_keys": [
-        "thr",
         "apfree"
       ]
     },
@@ -77,7 +66,7 @@
       "type": "treatment",
       "name_ko": "신경차단술",
       "name_en": "nerve block injection",
-      "post_count": 6,
+      "post_count": 3,
       "tenant_keys": [
         "apfree"
       ]
@@ -93,30 +82,10 @@
       ]
     },
     {
-      "id": "antiviral-medicine",
-      "type": "treatment",
-      "name_ko": "항바이러스제 (대상포진)",
-      "name_en": "antiviral medicine (acyclovir, valacyclovir, famciclovir)",
-      "post_count": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
       "id": "shingles-vaccination",
       "type": "treatment",
       "name_ko": "대상포진 백신 (Shingrix)",
       "name_en": "shingles vaccination (Shingrix, recombinant zoster vaccine)",
-      "post_count": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "id": "zoster",
-      "type": "condition",
-      "name_ko": "대상포진",
-      "name_en": "herpes zoster (shingles)",
       "post_count": 1,
       "tenant_keys": [
         "apfree"
@@ -133,21 +102,11 @@
       ]
     },
     {
-      "id": "alopecia-areata",
-      "type": "condition",
-      "name_ko": "원형 탈모",
-      "name_en": "alopecia areata",
-      "post_count": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
       "id": "ultrasound-guided-injection",
       "type": "treatment",
       "name_ko": "초음파 유도 주사",
       "name_en": "ultrasound-guided injection",
-      "post_count": 2,
+      "post_count": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -157,10 +116,10 @@
       "type": "condition",
       "name_ko": "거북목·일자목",
       "name_en": "forward head posture / cervical lordosis loss",
-      "post_count": 4,
+      "post_count": 2,
       "tenant_keys": [
-        "thr",
-        null
+        "apfree",
+        "thr"
       ]
     },
     {
@@ -170,7 +129,7 @@
       "name_en": "stem cell therapy",
       "post_count": 1,
       "tenant_keys": [
-        "thr"
+        "apfree"
       ]
     },
     {
@@ -178,7 +137,7 @@
       "type": "body_part",
       "name_ko": "팔꿈치",
       "name_en": "elbow",
-      "post_count": 2,
+      "post_count": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -188,9 +147,8 @@
       "type": "treatment",
       "name_ko": "PRP 주사",
       "name_en": "platelet-rich plasma injection",
-      "post_count": 2,
+      "post_count": 1,
       "tenant_keys": [
-        "thr",
         "apfree"
       ]
     },
@@ -199,10 +157,9 @@
       "type": "symptom",
       "name_ko": "허리통증",
       "name_en": "lower back pain",
-      "post_count": 6,
+      "post_count": 2,
       "tenant_keys": [
-        "apfree",
-        "thr"
+        "apfree"
       ]
     },
     {
@@ -210,10 +167,10 @@
       "type": "treatment",
       "name_ko": "NAD+ 수액 치료",
       "name_en": "NAD+ infusion therapy",
-      "post_count": 6,
+      "post_count": 2,
       "tenant_keys": [
-        "thr",
-        null
+        "apfree",
+        "thr"
       ]
     },
     {
@@ -221,7 +178,7 @@
       "type": "condition",
       "name_ko": "좌골신경통",
       "name_en": "sciatica",
-      "post_count": 5,
+      "post_count": 2,
       "tenant_keys": [
         "apfree"
       ]
@@ -231,7 +188,7 @@
       "type": "symptom",
       "name_ko": "팔꿈치 통증",
       "name_en": "elbow pain",
-      "post_count": 2,
+      "post_count": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -251,11 +208,10 @@
       "type": "treatment",
       "name_ko": "운동치료",
       "name_en": "exercise therapy",
-      "post_count": 5,
+      "post_count": 3,
       "tenant_keys": [
-        "thr",
-        null,
-        "apfree"
+        "apfree",
+        "thr"
       ]
     },
     {
@@ -263,20 +219,9 @@
       "type": "treatment",
       "name_ko": "물리치료",
       "name_en": "physical therapy",
-      "post_count": 8,
+      "post_count": 3,
       "tenant_keys": [
-        "thr",
         "apfree",
-        null
-      ]
-    },
-    {
-      "id": "tecar-rf-therapy",
-      "type": "treatment",
-      "name_ko": "TECAR RF 고주파 치료",
-      "name_en": "TECAR radiofrequency therapy",
-      "post_count": 1,
-      "tenant_keys": [
         "thr"
       ]
     },
@@ -285,10 +230,10 @@
       "type": "symptom",
       "name_ko": "어깨 통증",
       "name_en": "shoulder pain",
-      "post_count": 3,
+      "post_count": 2,
       "tenant_keys": [
-        "thr",
-        "apfree"
+        "apfree",
+        "thr"
       ]
     },
     {
@@ -298,8 +243,8 @@
       "name_en": "knee osteoarthritis",
       "post_count": 2,
       "tenant_keys": [
-        null,
-        "apfree"
+        "apfree",
+        "thr"
       ]
     },
     {
@@ -307,7 +252,7 @@
       "type": "condition",
       "name_ko": "오십견",
       "name_en": "frozen shoulder",
-      "post_count": 7,
+      "post_count": 4,
       "tenant_keys": [
         "apfree",
         "thr"
@@ -318,7 +263,7 @@
       "type": "condition",
       "name_ko": "석회성 건염",
       "name_en": "calcific tendinitis",
-      "post_count": 4,
+      "post_count": 2,
       "tenant_keys": [
         "apfree",
         "thr"
@@ -329,11 +274,10 @@
       "type": "symptom",
       "name_ko": "목 통증",
       "name_en": "neck pain",
-      "post_count": 6,
+      "post_count": 2,
       "tenant_keys": [
         "apfree",
-        "thr",
-        null
+        "thr"
       ]
     },
     {
@@ -341,7 +285,7 @@
       "type": "condition",
       "name_ko": "목디스크",
       "name_en": "cervical disc herniation",
-      "post_count": 3,
+      "post_count": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -361,7 +305,7 @@
       "type": "condition",
       "name_ko": "마미증후군",
       "name_en": "cauda equina syndrome",
-      "post_count": 4,
+      "post_count": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -371,7 +315,7 @@
       "type": "condition",
       "name_ko": "척추관 협착증",
       "name_en": "lumbar spinal stenosis",
-      "post_count": 1,
+      "post_count": 2,
       "tenant_keys": [
         "apfree"
       ]
@@ -381,7 +325,7 @@
       "type": "condition",
       "name_ko": "척추측만증",
       "name_en": "scoliosis",
-      "post_count": 3,
+      "post_count": 2,
       "tenant_keys": [
         "apfree",
         "thq"
@@ -398,31 +342,11 @@
       ]
     },
     {
-      "id": "rehabilitation-therapy",
-      "type": "treatment",
-      "name_ko": "재활치료",
-      "name_en": "rehabilitation therapy",
-      "post_count": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "id": "scalp",
-      "type": "body_part",
-      "name_ko": "두피",
-      "name_en": "scalp",
-      "post_count": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
       "id": "lateral-epicondylitis",
       "type": "condition",
       "name_ko": "외측상과염",
       "name_en": "lateral epicondylitis",
-      "post_count": 4,
+      "post_count": 2,
       "tenant_keys": [
         "apfree",
         "thr"
@@ -459,10 +383,10 @@
       ]
     },
     {
-      "id": "hair-loss-medication",
-      "type": "treatment",
-      "name_ko": "탈모 약물치료",
-      "name_en": "hair loss medication",
+      "id": "medial-epicondylitis",
+      "type": "condition",
+      "name_ko": "내측상과염",
+      "name_en": "medial epicondylitis",
       "post_count": 1,
       "tenant_keys": [
         "thr"
@@ -473,10 +397,9 @@
       "type": "condition",
       "name_ko": "족저근막염",
       "name_en": "plantar fasciitis",
-      "post_count": 2,
+      "post_count": 1,
       "tenant_keys": [
-        "apfree",
-        "thr"
+        "apfree"
       ]
     },
     {
@@ -484,7 +407,7 @@
       "type": "symptom",
       "name_ko": "팔 저림·방사통",
       "name_en": "arm numbness and radiating pain",
-      "post_count": 2,
+      "post_count": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -496,47 +419,6 @@
       "name_en": "knee pain",
       "post_count": 1,
       "tenant_keys": [
-        null
-      ]
-    },
-    {
-      "id": "prolotherapy",
-      "type": "treatment",
-      "name_ko": "프롤로테라피(증식 치료)",
-      "name_en": "prolotherapy",
-      "post_count": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "id": "aging-symptoms",
-      "type": "symptom",
-      "name_ko": "노화 증상",
-      "name_en": "aging-related symptoms",
-      "post_count": 3,
-      "tenant_keys": [
-        "thr",
-        null
-      ]
-    },
-    {
-      "id": "hair-loss",
-      "type": "symptom",
-      "name_ko": "탈모",
-      "name_en": "hair loss",
-      "post_count": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "id": "hi-ems",
-      "type": "treatment",
-      "name_ko": "하이엠스",
-      "name_en": "high-intensity electromagnetic stimulation",
-      "post_count": 1,
-      "tenant_keys": [
         "thr"
       ]
     },
@@ -545,21 +427,9 @@
       "type": "treatment",
       "name_ko": "도수치료",
       "name_en": "manual therapy",
-      "post_count": 4,
+      "post_count": 1,
       "tenant_keys": [
-        "apfree",
-        "thr"
-      ]
-    },
-    {
-      "id": "chronic-fatigue",
-      "type": "symptom",
-      "name_ko": "만성 피로",
-      "name_en": "chronic fatigue",
-      "post_count": 3,
-      "tenant_keys": [
-        "thr",
-        null
+        "apfree"
       ]
     },
     {
@@ -583,32 +453,11 @@
       ]
     },
     {
-      "id": "muscle-relaxants",
-      "type": "treatment",
-      "name_ko": "근육 이완제",
-      "name_en": "muscle relaxants",
-      "post_count": 2,
-      "tenant_keys": [
-        "thr",
-        null
-      ]
-    },
-    {
-      "id": "anti-inflammatory-analgesics",
-      "type": "treatment",
-      "name_ko": "소염진통제",
-      "name_en": "anti-inflammatory analgesics",
-      "post_count": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
       "id": "transcranial-magnetic-stimulation",
       "type": "treatment",
       "name_ko": "경두개 자기 자극 (TMS)",
       "name_en": "transcranial magnetic stimulation",
-      "post_count": 2,
+      "post_count": 1,
       "tenant_keys": [
         "thr"
       ]
@@ -618,10 +467,10 @@
       "type": "doctor",
       "name_ko": "김주민 대표원장",
       "name_en": "Dr. Kim Jumin",
-      "post_count": 30,
+      "post_count": 12,
       "tenant_keys": [
-        "thr",
-        "thq"
+        "thq",
+        "thr"
       ]
     },
     {
@@ -629,7 +478,7 @@
       "type": "hospital",
       "name_ko": "더웰스의원 잠실",
       "name_en": "The Wells Clinic Jamsil",
-      "post_count": 2,
+      "post_count": 1,
       "tenant_keys": [
         "thq"
       ]
@@ -637,9 +486,177 @@
   ],
   "edges": [
     {
+      "source": "lower-back-pain",
+      "target": "lumbar-disc-herniation",
+      "weight": 2,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lumbar-disc-herniation",
+      "target": "sciatica",
+      "weight": 2,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "cauda-equina-syndrome",
+      "target": "lumbar-disc-herniation",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lumbar-disc-herniation",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "lumbar-disc-herniation",
+      "weight": 2,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "hospital-ansimpainfree",
+      "target": "lumbar-disc-herniation",
+      "weight": 2,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lower-back-pain",
+      "target": "sciatica",
+      "weight": 2,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "cauda-equina-syndrome",
+      "target": "lower-back-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lower-back-pain",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "lower-back-pain",
+      "weight": 2,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "hospital-ansimpainfree",
+      "target": "lower-back-pain",
+      "weight": 2,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "cauda-equina-syndrome",
+      "target": "sciatica",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "physical-therapy",
+      "target": "sciatica",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "sciatica",
+      "weight": 2,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "hospital-ansimpainfree",
+      "target": "sciatica",
+      "weight": 2,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "cauda-equina-syndrome",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "cauda-equina-syndrome",
+      "target": "dr-kwon-jinyeol",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "cauda-equina-syndrome",
+      "target": "hospital-ansimpainfree",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "physical-therapy",
+      "weight": 2,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "hospital-ansimpainfree",
+      "target": "physical-therapy",
+      "weight": 2,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "hospital-ansimpainfree",
+      "weight": 19,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
       "source": "cervical-disc-herniation",
       "target": "neck-pain",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -647,30 +664,6 @@
     {
       "source": "arm-numbness",
       "target": "cervical-disc-herniation",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "cervical-disc-herniation",
-      "target": "nerve-block-injection",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "cervical-disc-herniation",
-      "target": "ultrasound-guided-injection",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "cervical-disc-herniation",
-      "target": "manual-therapy",
       "weight": 1,
       "tenant_keys": [
         "apfree"
@@ -678,7 +671,31 @@
     },
     {
       "source": "cervical-disc-herniation",
-      "target": "rehabilitation-therapy",
+      "target": "nerve-block-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "ultrasound-guided-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "cervical-disc-herniation",
+      "target": "cervical-spine",
       "weight": 1,
       "tenant_keys": [
         "apfree"
@@ -687,7 +704,7 @@
     {
       "source": "cervical-disc-herniation",
       "target": "dr-kwon-jinyeol",
-      "weight": 3,
+      "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -695,7 +712,7 @@
     {
       "source": "cervical-disc-herniation",
       "target": "hospital-ansimpainfree",
-      "weight": 3,
+      "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -703,7 +720,7 @@
     {
       "source": "arm-numbness",
       "target": "neck-pain",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -711,7 +728,7 @@
     {
       "source": "neck-pain",
       "target": "nerve-block-injection",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -719,1201 +736,13 @@
     {
       "source": "neck-pain",
       "target": "ultrasound-guided-injection",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "apfree"
-      ]
-    },
-    {
-      "source": "manual-therapy",
-      "target": "neck-pain",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree",
-        "thr"
       ]
     },
     {
       "source": "neck-pain",
-      "target": "rehabilitation-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "dr-kwon-jinyeol",
-      "target": "neck-pain",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "hospital-ansimpainfree",
-      "target": "neck-pain",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "arm-numbness",
-      "target": "nerve-block-injection",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "arm-numbness",
-      "target": "ultrasound-guided-injection",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "arm-numbness",
-      "target": "manual-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "arm-numbness",
-      "target": "rehabilitation-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "arm-numbness",
-      "target": "dr-kwon-jinyeol",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "arm-numbness",
-      "target": "hospital-ansimpainfree",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "nerve-block-injection",
-      "target": "ultrasound-guided-injection",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "manual-therapy",
-      "target": "nerve-block-injection",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "nerve-block-injection",
-      "target": "rehabilitation-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "dr-kwon-jinyeol",
-      "target": "nerve-block-injection",
-      "weight": 6,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "hospital-ansimpainfree",
-      "target": "nerve-block-injection",
-      "weight": 6,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "manual-therapy",
-      "target": "ultrasound-guided-injection",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "rehabilitation-therapy",
-      "target": "ultrasound-guided-injection",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "dr-kwon-jinyeol",
-      "target": "ultrasound-guided-injection",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "hospital-ansimpainfree",
-      "target": "ultrasound-guided-injection",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "manual-therapy",
-      "target": "rehabilitation-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "dr-kwon-jinyeol",
-      "target": "manual-therapy",
-      "weight": 3,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "hospital-ansimpainfree",
-      "target": "manual-therapy",
-      "weight": 3,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "dr-kwon-jinyeol",
-      "target": "rehabilitation-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "hospital-ansimpainfree",
-      "target": "rehabilitation-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "dr-kwon-jinyeol",
-      "target": "hospital-ansimpainfree",
-      "weight": 21,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "lower-back-pain",
-      "target": "lumbar-disc-herniation",
-      "weight": 4,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "lumbar-disc-herniation",
-      "target": "sciatica",
-      "weight": 5,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "cauda-equina-syndrome",
-      "target": "lumbar-disc-herniation",
-      "weight": 4,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "dr-kwon-jinyeol",
-      "target": "lumbar-disc-herniation",
-      "weight": 6,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "hospital-ansimpainfree",
-      "target": "lumbar-disc-herniation",
-      "weight": 6,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "lower-back-pain",
-      "target": "sciatica",
-      "weight": 4,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "cauda-equina-syndrome",
-      "target": "lower-back-pain",
-      "weight": 3,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "dr-kwon-jinyeol",
-      "target": "lower-back-pain",
-      "weight": 4,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "hospital-ansimpainfree",
-      "target": "lower-back-pain",
-      "weight": 4,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "cauda-equina-syndrome",
-      "target": "sciatica",
-      "weight": 4,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "dr-kwon-jinyeol",
-      "target": "sciatica",
-      "weight": 5,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "hospital-ansimpainfree",
-      "target": "sciatica",
-      "weight": 5,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "cauda-equina-syndrome",
-      "target": "dr-kwon-jinyeol",
-      "weight": 4,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "cauda-equina-syndrome",
-      "target": "hospital-ansimpainfree",
-      "weight": 4,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "forward-head-posture",
-      "target": "neck-pain",
-      "weight": 4,
-      "tenant_keys": [
-        "thr",
-        null
-      ]
-    },
-    {
-      "source": "forward-head-posture",
-      "target": "shoulder-pain",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "forward-head-posture",
-      "target": "physical-therapy",
-      "weight": 4,
-      "tenant_keys": [
-        "thr",
-        null
-      ]
-    },
-    {
-      "source": "exercise-therapy",
-      "target": "forward-head-posture",
-      "weight": 3,
-      "tenant_keys": [
-        "thr",
-        null
-      ]
-    },
-    {
-      "source": "forward-head-posture",
-      "target": "posture-correction",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "forward-head-posture",
-      "weight": 3,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "forward-head-posture",
-      "weight": 3,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "forward-head-posture",
-      "target": "hospital-thewells-nowon",
-      "weight": 3,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "neck-pain",
-      "target": "shoulder-pain",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "neck-pain",
-      "target": "physical-therapy",
-      "weight": 5,
-      "tenant_keys": [
-        "thr",
-        null,
-        "apfree"
-      ]
-    },
-    {
-      "source": "exercise-therapy",
-      "target": "neck-pain",
-      "weight": 3,
-      "tenant_keys": [
-        "thr",
-        null
-      ]
-    },
-    {
-      "source": "neck-pain",
-      "target": "posture-correction",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "neck-pain",
-      "weight": 3,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "neck-pain",
-      "weight": 3,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "neck-pain",
-      "weight": 3,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "physical-therapy",
-      "target": "shoulder-pain",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "exercise-therapy",
-      "target": "shoulder-pain",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "posture-correction",
-      "target": "shoulder-pain",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "shoulder-pain",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "shoulder-pain",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "shoulder-pain",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "exercise-therapy",
-      "target": "physical-therapy",
-      "weight": 3,
-      "tenant_keys": [
-        "thr",
-        null
-      ]
-    },
-    {
-      "source": "physical-therapy",
-      "target": "posture-correction",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "physical-therapy",
-      "weight": 3,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "physical-therapy",
-      "weight": 3,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "physical-therapy",
-      "weight": 3,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "exercise-therapy",
-      "target": "posture-correction",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "exercise-therapy",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "exercise-therapy",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "exercise-therapy",
-      "target": "hospital-thewells-nowon",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "posture-correction",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "posture-correction",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "posture-correction",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "dr-park-sungjin",
-      "weight": 30,
-      "tenant_keys": [
-        "thr",
-        "thq"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "hospital-thewells-nowon",
-      "weight": 28,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "hospital-thewells-nowon",
-      "weight": 28,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hair-loss",
-      "target": "scalp",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "androgenetic-alopecia",
-      "target": "hair-loss",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "alopecia-areata",
-      "target": "hair-loss",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hair-loss",
-      "target": "prp-injection",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hair-loss",
-      "target": "stem-cell-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "exosome-therapy",
-      "target": "hair-loss",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hair-loss",
-      "target": "hair-loss-medication",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "hair-loss",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "hair-loss",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hair-loss",
-      "target": "hospital-thewells-nowon",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "androgenetic-alopecia",
-      "target": "scalp",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "alopecia-areata",
-      "target": "scalp",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "prp-injection",
-      "target": "scalp",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "scalp",
-      "target": "stem-cell-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "exosome-therapy",
-      "target": "scalp",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hair-loss-medication",
-      "target": "scalp",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "scalp",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "scalp",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "scalp",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "alopecia-areata",
-      "target": "androgenetic-alopecia",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "androgenetic-alopecia",
-      "target": "prp-injection",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "androgenetic-alopecia",
-      "target": "stem-cell-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "androgenetic-alopecia",
-      "target": "exosome-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "androgenetic-alopecia",
-      "target": "hair-loss-medication",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "androgenetic-alopecia",
-      "target": "dr-park-sungjin",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "androgenetic-alopecia",
-      "target": "dr-kim-jumin",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "androgenetic-alopecia",
-      "target": "hospital-thewells-nowon",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "alopecia-areata",
-      "target": "prp-injection",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "alopecia-areata",
-      "target": "stem-cell-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "alopecia-areata",
-      "target": "exosome-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "alopecia-areata",
-      "target": "hair-loss-medication",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "alopecia-areata",
-      "target": "dr-park-sungjin",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "alopecia-areata",
-      "target": "dr-kim-jumin",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "alopecia-areata",
-      "target": "hospital-thewells-nowon",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "prp-injection",
-      "target": "stem-cell-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "exosome-therapy",
-      "target": "prp-injection",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hair-loss-medication",
-      "target": "prp-injection",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "prp-injection",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "prp-injection",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "prp-injection",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "exosome-therapy",
-      "target": "stem-cell-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hair-loss-medication",
-      "target": "stem-cell-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "stem-cell-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "stem-cell-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "stem-cell-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "exosome-therapy",
-      "target": "hair-loss-medication",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "exosome-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "exosome-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "exosome-therapy",
-      "target": "hospital-thewells-nowon",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "hair-loss-medication",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "hair-loss-medication",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hair-loss-medication",
-      "target": "hospital-thewells-nowon",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "aging-symptoms",
-      "target": "nad-infusion-therapy",
-      "weight": 3,
-      "tenant_keys": [
-        "thr",
-        null
-      ]
-    },
-    {
-      "source": "chronic-fatigue",
-      "target": "nad-infusion-therapy",
-      "weight": 3,
-      "tenant_keys": [
-        "thr",
-        null
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "nad-infusion-therapy",
-      "weight": 5,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "nad-infusion-therapy",
-      "weight": 5,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "nad-infusion-therapy",
-      "weight": 5,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "aging-symptoms",
-      "target": "chronic-fatigue",
-      "weight": 3,
-      "tenant_keys": [
-        "thr",
-        null
-      ]
-    },
-    {
-      "source": "aging-symptoms",
-      "target": "dr-park-sungjin",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "aging-symptoms",
-      "target": "dr-kim-jumin",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "aging-symptoms",
-      "target": "hospital-thewells-nowon",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "chronic-fatigue",
-      "target": "dr-park-sungjin",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "chronic-fatigue",
-      "target": "dr-kim-jumin",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "chronic-fatigue",
-      "target": "hospital-thewells-nowon",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "lumbar-disc-herniation",
-      "target": "physical-therapy",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "lumbar-disc-herniation",
-      "target": "manual-therapy",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "lower-back-pain",
-      "target": "physical-therapy",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "lower-back-pain",
-      "target": "manual-therapy",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "physical-therapy",
-      "target": "sciatica",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "manual-therapy",
-      "target": "sciatica",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "cauda-equina-syndrome",
-      "target": "physical-therapy",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "cauda-equina-syndrome",
-      "target": "manual-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "manual-therapy",
       "target": "physical-therapy",
       "weight": 2,
       "tenant_keys": [
@@ -1922,149 +751,177 @@
       ]
     },
     {
+      "source": "cervical-spine",
+      "target": "neck-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
       "source": "dr-kwon-jinyeol",
-      "target": "physical-therapy",
-      "weight": 4,
+      "target": "neck-pain",
+      "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
     },
     {
       "source": "hospital-ansimpainfree",
-      "target": "physical-therapy",
-      "weight": 4,
+      "target": "neck-pain",
+      "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
     },
     {
-      "source": "muscle-relaxants",
-      "target": "neck-pain",
-      "weight": 2,
-      "tenant_keys": [
-        "thr",
-        null
-      ]
-    },
-    {
-      "source": "anti-inflammatory-analgesics",
-      "target": "neck-pain",
+      "source": "arm-numbness",
+      "target": "nerve-block-injection",
       "weight": 1,
       "tenant_keys": [
-        "thr"
+        "apfree"
       ]
     },
     {
-      "source": "forward-head-posture",
-      "target": "muscle-relaxants",
-      "weight": 2,
-      "tenant_keys": [
-        "thr",
-        null
-      ]
-    },
-    {
-      "source": "anti-inflammatory-analgesics",
-      "target": "forward-head-posture",
+      "source": "arm-numbness",
+      "target": "ultrasound-guided-injection",
       "weight": 1,
       "tenant_keys": [
-        "thr"
+        "apfree"
       ]
     },
     {
-      "source": "anti-inflammatory-analgesics",
-      "target": "muscle-relaxants",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "muscle-relaxants",
-      "target": "physical-therapy",
-      "weight": 2,
-      "tenant_keys": [
-        "thr",
-        null
-      ]
-    },
-    {
-      "source": "exercise-therapy",
-      "target": "muscle-relaxants",
-      "weight": 2,
-      "tenant_keys": [
-        "thr",
-        null
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "muscle-relaxants",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "muscle-relaxants",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "muscle-relaxants",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "anti-inflammatory-analgesics",
+      "source": "arm-numbness",
       "target": "physical-therapy",
       "weight": 1,
       "tenant_keys": [
-        "thr"
+        "apfree"
       ]
     },
     {
-      "source": "anti-inflammatory-analgesics",
-      "target": "exercise-therapy",
+      "source": "arm-numbness",
+      "target": "cervical-spine",
       "weight": 1,
       "tenant_keys": [
-        "thr"
+        "apfree"
       ]
     },
     {
-      "source": "anti-inflammatory-analgesics",
-      "target": "dr-park-sungjin",
+      "source": "arm-numbness",
+      "target": "dr-kwon-jinyeol",
       "weight": 1,
       "tenant_keys": [
-        "thr"
+        "apfree"
       ]
     },
     {
-      "source": "anti-inflammatory-analgesics",
-      "target": "dr-kim-jumin",
+      "source": "arm-numbness",
+      "target": "hospital-ansimpainfree",
       "weight": 1,
       "tenant_keys": [
-        "thr"
+        "apfree"
       ]
     },
     {
-      "source": "anti-inflammatory-analgesics",
-      "target": "hospital-thewells-nowon",
+      "source": "nerve-block-injection",
+      "target": "ultrasound-guided-injection",
       "weight": 1,
       "tenant_keys": [
-        "thr"
+        "apfree"
+      ]
+    },
+    {
+      "source": "nerve-block-injection",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "cervical-spine",
+      "target": "nerve-block-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "nerve-block-injection",
+      "weight": 3,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "hospital-ansimpainfree",
+      "target": "nerve-block-injection",
+      "weight": 3,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "physical-therapy",
+      "target": "ultrasound-guided-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "cervical-spine",
+      "target": "ultrasound-guided-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "ultrasound-guided-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "hospital-ansimpainfree",
+      "target": "ultrasound-guided-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "cervical-spine",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "cervical-spine",
+      "target": "dr-kwon-jinyeol",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "cervical-spine",
+      "target": "hospital-ansimpainfree",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
       ]
     },
     {
       "source": "elbow-pain",
       "target": "lateral-epicondylitis",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -2072,7 +929,7 @@
     {
       "source": "elbow",
       "target": "lateral-epicondylitis",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -2080,7 +937,7 @@
     {
       "source": "dr-kwon-jinyeol",
       "target": "lateral-epicondylitis",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -2088,7 +945,7 @@
     {
       "source": "hospital-ansimpainfree",
       "target": "lateral-epicondylitis",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -2096,7 +953,7 @@
     {
       "source": "elbow",
       "target": "elbow-pain",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -2104,7 +961,7 @@
     {
       "source": "dr-kwon-jinyeol",
       "target": "elbow-pain",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -2112,7 +969,7 @@
     {
       "source": "elbow-pain",
       "target": "hospital-ansimpainfree",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -2120,7 +977,7 @@
     {
       "source": "dr-kwon-jinyeol",
       "target": "elbow",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -2128,49 +985,25 @@
     {
       "source": "elbow",
       "target": "hospital-ansimpainfree",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
     },
     {
-      "source": "forward-head-posture",
-      "target": "manual-therapy",
+      "source": "dr-kwon-jinyeol",
+      "target": "nad-infusion-therapy",
       "weight": 1,
       "tenant_keys": [
-        "thr"
+        "apfree"
       ]
     },
     {
-      "source": "manual-therapy",
-      "target": "shoulder-pain",
+      "source": "hospital-ansimpainfree",
+      "target": "nad-infusion-therapy",
       "weight": 1,
       "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "manual-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "manual-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "manual-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
+        "apfree"
       ]
     },
     {
@@ -2272,7 +1105,7 @@
     {
       "source": "calcific-tendinitis",
       "target": "dr-kwon-jinyeol",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
@@ -2280,149 +1113,37 @@
     {
       "source": "calcific-tendinitis",
       "target": "hospital-ansimpainfree",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "knee-osteoarthritis",
-      "target": "knee-pain",
-      "weight": 1,
-      "tenant_keys": [
-        null
-      ]
-    },
-    {
-      "source": "exercise-therapy",
-      "target": "knee-pain",
-      "weight": 1,
-      "tenant_keys": [
-        null
-      ]
-    },
-    {
-      "source": "exercise-therapy",
-      "target": "knee-osteoarthritis",
-      "weight": 1,
-      "tenant_keys": [
-        null
-      ]
-    },
-    {
-      "source": "lateral-epicondylitis",
-      "target": "physical-therapy",
       "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
     },
     {
-      "source": "elbow-pain",
-      "target": "physical-therapy",
+      "source": "dr-kwon-jinyeol",
+      "target": "stem-cell-therapy",
       "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
     },
     {
-      "source": "elbow",
-      "target": "physical-therapy",
+      "source": "hospital-ansimpainfree",
+      "target": "stem-cell-therapy",
       "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
     },
     {
-      "source": "cervical-disc-herniation",
-      "target": "physical-therapy",
+      "source": "dr-kwon-jinyeol",
+      "target": "forward-head-posture",
       "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
     },
     {
-      "source": "cervical-disc-herniation",
-      "target": "cervical-spine",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "cervical-spine",
-      "target": "neck-pain",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "arm-numbness",
-      "target": "physical-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "arm-numbness",
-      "target": "cervical-spine",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "nerve-block-injection",
-      "target": "physical-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "cervical-spine",
-      "target": "nerve-block-injection",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "physical-therapy",
-      "target": "ultrasound-guided-injection",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "cervical-spine",
-      "target": "ultrasound-guided-injection",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "cervical-spine",
-      "target": "physical-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "cervical-spine",
-      "target": "dr-kwon-jinyeol",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "cervical-spine",
+      "source": "forward-head-posture",
       "target": "hospital-ansimpainfree",
       "weight": 1,
       "tenant_keys": [
@@ -2430,120 +1151,16 @@
       ]
     },
     {
-      "source": "lumbar-disc-herniation",
-      "target": "nerve-block-injection",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "nerve-block-injection",
-      "target": "sciatica",
-      "weight": 2,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "cauda-equina-syndrome",
-      "target": "nerve-block-injection",
+      "source": "dr-kwon-jinyeol",
+      "target": "shingles-vaccination",
       "weight": 1,
       "tenant_keys": [
         "apfree"
       ]
     },
     {
-      "source": "frozen-shoulder",
-      "target": "shoulder",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "shoulder",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "shoulder",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "shoulder",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "frozen-shoulder",
-      "weight": 5,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "frozen-shoulder",
-      "weight": 5,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "frozen-shoulder",
-      "target": "hospital-thewells-nowon",
-      "weight": 5,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "eswt",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "eswt",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "eswt",
-      "target": "hospital-thewells-nowon",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "eswt",
-      "target": "prolotherapy",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "eswt",
-      "target": "nerve-block-injection",
+      "source": "hospital-ansimpainfree",
+      "target": "shingles-vaccination",
       "weight": 1,
       "tenant_keys": [
         "apfree"
@@ -2566,102 +1183,6 @@
       ]
     },
     {
-      "source": "nerve-block-injection",
-      "target": "prolotherapy",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "dr-kwon-jinyeol",
-      "target": "prolotherapy",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "hospital-ansimpainfree",
-      "target": "prolotherapy",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "postherpetic-neuralgia",
-      "target": "zoster",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "antiviral-medicine",
-      "target": "zoster",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "nerve-block-injection",
-      "target": "zoster",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "shingles-vaccination",
-      "target": "zoster",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "dr-kwon-jinyeol",
-      "target": "zoster",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "hospital-ansimpainfree",
-      "target": "zoster",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "antiviral-medicine",
-      "target": "postherpetic-neuralgia",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "nerve-block-injection",
-      "target": "postherpetic-neuralgia",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "postherpetic-neuralgia",
-      "target": "shingles-vaccination",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
       "source": "dr-kwon-jinyeol",
       "target": "postherpetic-neuralgia",
       "weight": 1,
@@ -2675,86 +1196,6 @@
       "weight": 1,
       "tenant_keys": [
         "apfree"
-      ]
-    },
-    {
-      "source": "antiviral-medicine",
-      "target": "nerve-block-injection",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "antiviral-medicine",
-      "target": "shingles-vaccination",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "antiviral-medicine",
-      "target": "dr-kwon-jinyeol",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "antiviral-medicine",
-      "target": "hospital-ansimpainfree",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "nerve-block-injection",
-      "target": "shingles-vaccination",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "dr-kwon-jinyeol",
-      "target": "shingles-vaccination",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "hospital-ansimpainfree",
-      "target": "shingles-vaccination",
-      "weight": 1,
-      "tenant_keys": [
-        "apfree"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "transcranial-magnetic-stimulation",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "transcranial-magnetic-stimulation",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "transcranial-magnetic-stimulation",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
       ]
     },
     {
@@ -2896,6 +1337,14 @@
     {
       "source": "lower-back-pain",
       "target": "nerve-block-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lower-back-pain",
+      "target": "manual-therapy",
       "weight": 1,
       "tenant_keys": [
         "apfree"
@@ -3208,7 +1657,7 @@
     {
       "source": "dr-kwon-jinyeol",
       "target": "spinal-stenosis",
-      "weight": 1,
+      "weight": 2,
       "tenant_keys": [
         "apfree"
       ]
@@ -3216,6 +1665,22 @@
     {
       "source": "hospital-ansimpainfree",
       "target": "spinal-stenosis",
+      "weight": 2,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lumbar-disc-herniation",
+      "target": "nerve-block-injection",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "lumbar-disc-herniation",
+      "target": "manual-therapy",
       "weight": 1,
       "tenant_keys": [
         "apfree"
@@ -3238,6 +1703,22 @@
       ]
     },
     {
+      "source": "nerve-block-injection",
+      "target": "sciatica",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "manual-therapy",
+      "target": "sciatica",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
       "source": "exercise-therapy",
       "target": "sciatica",
       "weight": 1,
@@ -3248,6 +1729,14 @@
     {
       "source": "discogenic-pain",
       "target": "sciatica",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "manual-therapy",
+      "target": "nerve-block-injection",
       "weight": 1,
       "tenant_keys": [
         "apfree"
@@ -3279,6 +1768,22 @@
     },
     {
       "source": "discogenic-pain",
+      "target": "manual-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "dr-kwon-jinyeol",
+      "target": "manual-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "apfree"
+      ]
+    },
+    {
+      "source": "hospital-ansimpainfree",
       "target": "manual-therapy",
       "weight": 1,
       "tenant_keys": [
@@ -3326,62 +1831,6 @@
       ]
     },
     {
-      "source": "hi-ems",
-      "target": "tecar-rf-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "hi-ems",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "hi-ems",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hi-ems",
-      "target": "hospital-thewells-nowon",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "tecar-rf-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "tecar-rf-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "tecar-rf-therapy",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
       "source": "dr-kwon-jinyeol",
       "target": "prp-injection",
       "weight": 1,
@@ -3414,30 +1863,6 @@
       ]
     },
     {
-      "source": "dr-park-sungjin",
-      "target": "lower-back-pain",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "lower-back-pain",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "lower-back-pain",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
       "source": "dr-kwon-jinyeol",
       "target": "plantar-fasciitis",
       "weight": 1,
@@ -3451,68 +1876,12 @@
       "weight": 1,
       "tenant_keys": [
         "apfree"
-      ]
-    },
-    {
-      "source": "eswt",
-      "target": "plantar-fasciitis",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "plantar-fasciitis",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "plantar-fasciitis",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "plantar-fasciitis",
-      "weight": 1,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-park-sungjin",
-      "target": "lateral-epicondylitis",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "dr-kim-jumin",
-      "target": "lateral-epicondylitis",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
-      ]
-    },
-    {
-      "source": "hospital-thewells-nowon",
-      "target": "lateral-epicondylitis",
-      "weight": 2,
-      "tenant_keys": [
-        "thr"
       ]
     },
     {
       "source": "dr-park-sungjin",
       "target": "scoliosis",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "thq"
       ]
@@ -3520,7 +1889,7 @@
     {
       "source": "dr-kim-jumin",
       "target": "scoliosis",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "thq"
       ]
@@ -3528,15 +1897,24 @@
     {
       "source": "hospital-thewells-jamsil",
       "target": "scoliosis",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "thq"
       ]
     },
     {
+      "source": "dr-kim-jumin",
+      "target": "dr-park-sungjin",
+      "weight": 12,
+      "tenant_keys": [
+        "thq",
+        "thr"
+      ]
+    },
+    {
       "source": "dr-park-sungjin",
       "target": "hospital-thewells-jamsil",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "thq"
       ]
@@ -3544,15 +1922,535 @@
     {
       "source": "dr-kim-jumin",
       "target": "hospital-thewells-jamsil",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "thq"
       ]
     },
     {
+      "source": "forward-head-posture",
+      "target": "neck-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "forward-head-posture",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "forward-head-posture",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "forward-head-posture",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "forward-head-posture",
+      "target": "posture-correction",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "forward-head-posture",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "forward-head-posture",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "forward-head-posture",
+      "target": "hospital-thewells-nowon",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "neck-pain",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "neck-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "neck-pain",
+      "target": "posture-correction",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "neck-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "neck-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "neck-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "physical-therapy",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "posture-correction",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "shoulder-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "physical-therapy",
+      "target": "posture-correction",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "physical-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "posture-correction",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "exercise-therapy",
+      "weight": 2,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "exercise-therapy",
+      "weight": 2,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "hospital-thewells-nowon",
+      "weight": 2,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "posture-correction",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "posture-correction",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "posture-correction",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "hospital-thewells-nowon",
+      "weight": 11,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "hospital-thewells-nowon",
+      "weight": 11,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "knee-osteoarthritis",
+      "target": "knee-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "knee-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "knee-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "knee-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "knee-pain",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "exercise-therapy",
+      "target": "knee-osteoarthritis",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "knee-osteoarthritis",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "knee-osteoarthritis",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "knee-osteoarthritis",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "frozen-shoulder",
+      "target": "shoulder",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "shoulder",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "shoulder",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "shoulder",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "frozen-shoulder",
+      "weight": 2,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "frozen-shoulder",
+      "weight": 2,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "frozen-shoulder",
+      "target": "hospital-thewells-nowon",
+      "weight": 2,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "medial-epicondylitis",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "medial-epicondylitis",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "medial-epicondylitis",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "dr-park-sungjin",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "dr-kim-jumin",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "androgenetic-alopecia",
+      "target": "hospital-thewells-nowon",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "transcranial-magnetic-stimulation",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "transcranial-magnetic-stimulation",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "transcranial-magnetic-stimulation",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "nad-infusion-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "nad-infusion-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "nad-infusion-therapy",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-park-sungjin",
+      "target": "lateral-epicondylitis",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "dr-kim-jumin",
+      "target": "lateral-epicondylitis",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
+      "source": "hospital-thewells-nowon",
+      "target": "lateral-epicondylitis",
+      "weight": 1,
+      "tenant_keys": [
+        "thr"
+      ]
+    },
+    {
       "source": "calcific-tendinitis",
       "target": "dr-park-sungjin",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "thr"
       ]
@@ -3560,7 +2458,7 @@
     {
       "source": "calcific-tendinitis",
       "target": "dr-kim-jumin",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "thr"
       ]
@@ -3568,7 +2466,7 @@
     {
       "source": "calcific-tendinitis",
       "target": "hospital-thewells-nowon",
-      "weight": 2,
+      "weight": 1,
       "tenant_keys": [
         "thr"
       ]

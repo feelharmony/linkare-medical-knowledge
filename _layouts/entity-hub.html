@@ -414,10 +414,15 @@ layout: default
     {% else %}
       {% assign authored = site.data.post_entity_map | where: "hospital_id", entity_id %}
     {% endif %}
-    {%- comment -%} 영문 콘텐츠 전면 배제 방침(2026-07-05) — en 글은 집필/소속 목록에서 제외 {%- endcomment -%}
+    {%- comment -%} 영문 배제(2026-07-05) + 같은 원문 URL 중복 제거 (레거시 중복 행 방어) {%- endcomment -%}
     {% assign authored_ko = "" | split: "" %}
+    {% assign authored_urls = "" | split: "" %}
     {% for post in authored %}
-      {% unless post.post_path contains '/en/' %}{% assign authored_ko = authored_ko | push: post %}{% endunless %}
+      {% if post.post_path contains '/en/' %}{% continue %}{% endif %}
+      {% assign post_url_key = post.source_article_url | default: post.post_path %}
+      {% if authored_urls contains post_url_key %}{% continue %}{% endif %}
+      {% assign authored_ko = authored_ko | push: post %}
+      {% assign authored_urls = authored_urls | push: post_url_key %}
     {% endfor %}
     {% assign authored = authored_ko %}
     {% if authored.size > 0 %}

@@ -1,0 +1,866 @@
+[
+  {
+    "post_path": "content/apfree/ko/spine/cervical-disc-causes-diagnosis.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/2026-04-08-f5bbae53",
+    "source_article_title": null,
+    "primary_entity_id": "cervical-disc-herniation",
+    "entity_ids": [
+      "cervical-disc-herniation",
+      "neck-pain",
+      "arm-numbness",
+      "nerve-block-injection",
+      "ultrasound-guided-injection",
+      "manual-therapy",
+      "rehabilitation-therapy"
+    ],
+    "updated_at": "2026-04-28",
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/apfree/ko/spine/herniated-disc-causes-symptoms-diagnosis.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/df09dd16-391f-4453-a8f3-2e241f254522",
+    "source_article_title": null,
+    "primary_entity_id": "lumbar-disc-herniation",
+    "entity_ids": [
+      "lumbar-disc-herniation",
+      "lower-back-pain",
+      "sciatica",
+      "cauda-equina-syndrome",
+      "conservative-treatment"
+    ],
+    "updated_at": "2026-04-28",
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/ko/pain/straight-neck-forward-head.md",
+    "source_article_url": "https://thewells.kr/blog/forward-head-posture",
+    "source_article_title": "더웰스 — 일자목과 거북목, 목 통증의 주범을 제대로 알아보기",
+    "primary_entity_id": "forward-head-posture",
+    "entity_ids": [
+      "forward-head-posture",
+      "neck-pain",
+      "shoulder-pain",
+      "muscle-relaxation-therapy",
+      "physical-therapy",
+      "exercise-therapy",
+      "posture-correction",
+      "neck-stretching"
+    ],
+    "updated_at": "2026-04-28",
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon",
+    "curated_entity_ids": [
+      "cervicogenic-headache",
+      "tension-type-headache",
+      "occipital-neuralgia",
+      "cluster-headache",
+      "migraine"
+    ]
+  },
+  {
+    "post_path": "content/thr/ko/hair/hair-loss-regeneration-injection-treatment.md",
+    "primary_entity_id": "hair-loss",
+    "entity_ids": [
+      "hair-loss",
+      "scalp",
+      "androgenetic-alopecia",
+      "alopecia-areata",
+      "prp-injection",
+      "stem-cell-therapy",
+      "exosome-therapy",
+      "hair-loss-medication"
+    ],
+    "updated_at": "2026-07-03",
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon",
+    "source_article_title": "노원 탈모주사, 약만으로 부족할 때 모발재생 치료를 고려하는 기준",
+    "source_article_url": "https://thewells.kr/blog/hair-loss-regeneration-injection-treatment"
+  },
+  {
+    "post_path": "content/thr/ko/longevity/nad-iv-therapy.md",
+    "primary_entity_id": "nad-infusion-therapy",
+    "entity_ids": [
+      "nad-infusion-therapy",
+      "aging-symptoms",
+      "chronic-fatigue",
+      "dna-repair"
+    ],
+    "updated_at": "2026-04-23",
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/en/spine/herniated-disc-causes-symptoms-diagnosis.md",
+    "primary_entity_id": "lumbar-disc-herniation",
+    "entity_ids": [
+      "lumbar-disc-herniation",
+      "lower-back-pain",
+      "sciatica",
+      "cauda-equina-syndrome",
+      "physical-therapy",
+      "manual-therapy",
+      "pilates"
+    ],
+    "updated_at": "2026-04-23",
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/en/longevity/nad-iv-therapy.md",
+    "primary_entity_id": "nad-infusion-therapy",
+    "entity_ids": [
+      "nad-infusion-therapy",
+      "chronic-fatigue",
+      "aging-symptoms"
+    ],
+    "updated_at": "2026-04-23",
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thr/en/pain/straight-neck-forward-head.md",
+    "primary_entity_id": "neck-pain",
+    "entity_ids": [
+      "neck-pain",
+      "shoulder-stiffness",
+      "forward-head-posture",
+      "muscle-relaxants",
+      "anti-inflammatory-analgesics",
+      "physical-therapy",
+      "exercise-therapy",
+      "imaging-tests"
+    ],
+    "updated_at": "2026-04-23",
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/joint/lateral-epicondylitis-symptoms-diagnosis.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis",
+    "source_article_title": null,
+    "primary_entity_id": "lateral-epicondylitis",
+    "entity_ids": [
+      "lateral-epicondylitis",
+      "elbow-pain",
+      "treatment-for-lateral-epicondylitis",
+      "elbow"
+    ],
+    "updated_at": "2026-04-28",
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "db:308b3e30-1e16-44d5-9700-36cf3a4524ec",
+    "source_article_url": "https://thewells.kr/blog/2026-04-10-308b3e30",
+    "source_article_title": null,
+    "primary_entity_id": "forward-head-posture",
+    "entity_ids": [
+      "forward-head-posture",
+      "neck-pain",
+      "shoulder-pain",
+      "muscle-tension",
+      "physical-therapy",
+      "treatment-exercise",
+      "conservative-treatment",
+      "manual-therapy",
+      "injection-therapy"
+    ],
+    "updated_at": "2026-04-28",
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "db:b62253c1-115c-437a-b398-652b2468dc34",
+    "primary_entity_id": "neck-pain",
+    "entity_ids": [
+      "neck-pain",
+      "shoulder-stiffness",
+      "forward-head-posture",
+      "muscle-relaxants",
+      "physical-therapy",
+      "exercise-therapy",
+      "injection-therapy"
+    ],
+    "updated_at": "2026-04-23"
+  },
+  {
+    "post_path": "db:0c579259-1870-47e1-b769-95ef942784dd",
+    "source_article_url": "https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse",
+    "source_article_title": null,
+    "primary_entity_id": "shoulder-pain",
+    "entity_ids": [
+      "shoulder-pain",
+      "frozen-shoulder",
+      "rotator-cuff-tendinopathy",
+      "shoulder-impingement-syndrome",
+      "calcific-tendinitis",
+      "shoulder-rehabilitation"
+    ],
+    "updated_at": "2026-04-28",
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "db:1bfebe68-fd4f-4fe4-89a0-4cd9cfe9ad08",
+    "primary_entity_id": "knee-pain",
+    "entity_ids": [
+      "knee-pain",
+      "knee-osteoarthritis",
+      "tendinopathy",
+      "exercise-therapy",
+      "weight-management",
+      "viscosupplementation",
+      "quadriceps-muscle",
+      "patellar-tendon"
+    ],
+    "updated_at": "2026-04-25"
+  },
+  {
+    "post_path": "db:0dac3a87-7c81-4d6a-a7e2-cb73deadb1d5",
+    "source_article_url": "https://ansimpainfree.kr/blog/lateral-epicondylitis-symptoms-diagnosis",
+    "source_article_title": null,
+    "primary_entity_id": "lateral-epicondylitis",
+    "entity_ids": [
+      "lateral-epicondylitis",
+      "elbow-pain",
+      "conservative-treatment",
+      "physical-therapy",
+      "steroid-injections",
+      "elbow"
+    ],
+    "updated_at": "2026-04-28",
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "db:80ee22ec-385d-476d-95d4-ca6dceb541c8",
+    "primary_entity_id": "nad-infusion-therapy",
+    "entity_ids": [
+      "nad-infusion-therapy",
+      "aging-symptoms",
+      "chronic-fatigue",
+      "dna-repair"
+    ],
+    "updated_at": "2026-04-25"
+  },
+  {
+    "post_path": "db:f5bbae53-c3b0-4c30-8782-421eaf01ab05",
+    "source_article_url": "https://ansimpainfree.kr/blog/2026-04-08-f5bbae53",
+    "source_article_title": null,
+    "primary_entity_id": "cervical-disc-herniation",
+    "entity_ids": [
+      "cervical-disc-herniation",
+      "neck-pain",
+      "arm-numbness",
+      "nerve-block-injection",
+      "ultrasound-guided-injection",
+      "physical-therapy",
+      "regenerative-injection-therapy",
+      "cervical-spine"
+    ],
+    "updated_at": "2026-04-28",
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "db:df09dd16-391f-4453-a8f3-2e241f254522",
+    "source_article_url": "https://ansimpainfree.kr/blog/df09dd16-391f-4453-a8f3-2e241f254522",
+    "source_article_title": null,
+    "primary_entity_id": "lumbar-disc-herniation",
+    "entity_ids": [
+      "lumbar-disc-herniation",
+      "lower-back-pain",
+      "sciatica",
+      "cauda-equina-syndrome",
+      "conservative-treatment",
+      "physical-therapy"
+    ],
+    "updated_at": "2026-04-28",
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk",
+    "source_article_url": "https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk",
+    "source_article_title": null,
+    "primary_entity_id": "lumbar-disc-herniation",
+    "entity_ids": [
+      "lumbar-disc-herniation",
+      "leg-pain",
+      "sciatica",
+      "cauda-equina-syndrome",
+      "nerve-block-injection",
+      "rehabilitation-exercise"
+    ],
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree",
+    "updated_at": "2026-04-28",
+    "tenant_key": "apfree"
+  },
+  {
+    "post_path": "content/apfree/df09dd16-391f-4453-a8f3-2e241f254522.md",
+    "source_article_url": "https://www.ansimpainfree.kr/blog/lumbar-disc-herniation",
+    "source_article_title": null,
+    "primary_entity_id": "lumbar-disc-herniation",
+    "entity_ids": [
+      "lumbar-disc-herniation"
+    ],
+    "updated_at": "2026-04-28",
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree",
+    "curated_entity_ids": [
+      "spinal-stenosis"
+    ]
+  },
+  {
+    "post_path": "https://thewells.kr/blog/shoulder-impingement-syndrome-causes-treatment",
+    "source_article_url": "https://thewells.kr/blog/shoulder-impingement-syndrome-causes-treatment",
+    "source_article_title": null,
+    "primary_entity_id": "shoulder",
+    "entity_ids": [
+      "shoulder",
+      "rotator-cuff-injury",
+      "frozen-shoulder"
+    ],
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon",
+    "updated_at": "2026-04-27",
+    "tenant_key": "thr"
+  },
+  {
+    "post_path": "https://thewells.kr/blog/extracorporeal-shock-wave-therapy-results",
+    "source_article_url": "https://thewells.kr/blog/extracorporeal-shock-wave-therapy-results",
+    "source_article_title": null,
+    "primary_entity_id": "eswt",
+    "entity_ids": [
+      "eswt"
+    ],
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon",
+    "updated_at": "2026-04-27",
+    "tenant_key": "thr"
+  },
+  {
+    "post_path": "https://ansimpainfree.kr/knowledge/daegu-extracorporeal-shock-wave-focused-radial-injection",
+    "source_article_url": "https://ansimpainfree.kr/knowledge/daegu-extracorporeal-shock-wave-focused-radial-injection",
+    "source_article_title": null,
+    "primary_entity_id": "eswt",
+    "entity_ids": [
+      "eswt",
+      "prolotherapy",
+      "nerve-block-injection"
+    ],
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree",
+    "updated_at": "2026-04-27",
+    "tenant_key": "apfree"
+  },
+  {
+    "post_path": "https://thewells.kr/blog/nad-vs",
+    "source_article_url": "https://thewells.kr/blog/nad-vs",
+    "source_article_title": null,
+    "primary_entity_id": "nad-infusion-therapy",
+    "entity_ids": [
+      "nad-infusion-therapy"
+    ],
+    "updated_at": "2026-05-01",
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "https://ansimpainfree.kr/blog/daegu-shingles-post-neuralgia-pain",
+    "source_article_url": "https://ansimpainfree.kr/blog/daegu-shingles-post-neuralgia-pain",
+    "source_article_title": null,
+    "primary_entity_id": "zoster",
+    "entity_ids": [
+      "zoster",
+      "postherpetic-neuralgia",
+      "antiviral-medicine",
+      "nerve-block-injection",
+      "shingles-vaccination"
+    ],
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree",
+    "updated_at": "2026-05-01",
+    "tenant_key": "apfree"
+  },
+  {
+    "post_path": "content/thr/ko/---tms/tms.md",
+    "source_article_url": "https://thewells.kr/blog/chronic-migraine-tms-when-to-consider",
+    "source_article_title": "약과 주사로도 잡히지 않는 만성 두통, TMS는 언제 고려하나",
+    "primary_entity_id": "transcranial-magnetic-stimulation",
+    "entity_ids": [
+      "transcranial-magnetic-stimulation"
+    ],
+    "updated_at": "2026-06-09",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/en/conditions/calcific-tendinitis-from-the-causes-of-shoulder-pain-to-non-.md",
+    "source_article_url": "https://ansimpainfree.kr/en/blog/calcific-tendinitis-from-the-causes-of-shoulder-pain-to-non-",
+    "source_article_title": "Calcific Tendinitis — From the Causes of Shoulder Pain to Non-Surgical Treatment",
+    "primary_entity_id": "calcific-tendinitis",
+    "entity_ids": [
+      "calcific-tendinitis"
+    ],
+    "updated_at": "2026-05-20",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/en/treatments/tms-transcranial-magnetic-stimulation-a-non-invasive-neuromo.md",
+    "source_article_url": "https://thewells.kr/en/blog/tms-transcranial-magnetic-stimulation-a-non-invasive-neuromo",
+    "source_article_title": "TMS (Transcranial Magnetic Stimulation) — A Non-Invasive Neuromodulation Treatment for Chronic Headache, Insomnia, and Nervous System Sensitization",
+    "primary_entity_id": "transcranial-magnetic-stimulation",
+    "entity_ids": [
+      "transcranial-magnetic-stimulation"
+    ],
+    "updated_at": "2026-05-20",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thr/ko/-------/nad-tca.md",
+    "source_article_url": "https://thewells.kr/blog/nad-tca",
+    "source_article_title": "영양수액과 세포 에너지 대사 — NAD+·마이어스·라이넥·글리시리진의 TCA 사이클 회복 원리",
+    "primary_entity_id": "nutrition-iv-therapy",
+    "entity_ids": [
+      "nutrition-iv-therapy"
+    ],
+    "updated_at": "2026-05-22",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/-----------/lower-back-pain-hospital-choice-matters.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/lower-back-pain-hospital-choice-matters",
+    "source_article_title": "허리 통증, 병원 선택이 치료 결과를 바꾼다 — 진단·치료·재발 방지 기준",
+    "primary_entity_id": "lower-back",
+    "entity_ids": [
+      "lower-back",
+      "lower-back-pain",
+      "lumbar-spine",
+      "scoliosis",
+      "spondylolisthesis",
+      "spinal-stenosis",
+      "lumbar-disc-herniation",
+      "sciatica",
+      "nerve-block-injection",
+      "manual-therapy",
+      "exercise-therapy",
+      "discogenic-pain"
+    ],
+    "updated_at": "2026-07-04",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/ko/-------/hi-ems-tecar-rf.md",
+    "source_article_url": "https://thewells.kr/blog/hi-ems-tecar-rf",
+    "source_article_title": "도수치료 · 윈백 Hi-EMS · TECAR RF 결합 — 세 치료가 함께할 때 회복이 달라지는 이유",
+    "primary_entity_id": "hi-ems",
+    "entity_ids": [
+      "hi-ems",
+      "tecar-rf-therapy"
+    ],
+    "updated_at": "2026-05-26",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thr/ko/------/frozen-shoulder-pathophysiology.md",
+    "source_article_url": "https://thewells.kr/blog/frozen-shoulder-pathophysiology",
+    "source_article_title": "오십견이란 무엇인가 — 굳어가는 관절낭의 병태생리",
+    "primary_entity_id": "frozen-shoulder",
+    "entity_ids": [
+      "frozen-shoulder"
+    ],
+    "updated_at": "2026-06-05",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thr/en/------/what-is-frozen-shoulder-the-pathophysiology-of-a-stiffening-.md",
+    "source_article_url": "https://thewells.kr/en/blog/what-is-frozen-shoulder-the-pathophysiology-of-a-stiffening-",
+    "source_article_title": "What Is Frozen Shoulder? — The Pathophysiology of a Stiffening Joint Capsule",
+    "primary_entity_id": "frozen-shoulder",
+    "entity_ids": [
+      "frozen-shoulder"
+    ],
+    "updated_at": "2026-06-08",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/conditions/cervical-disc-herniation.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/daegu-neck-disc-treatment-methods",
+    "source_article_title": "대구 목디스크 치료 3가지 방법, 잘못 선택하면 계속 재발할 수 있습니다",
+    "primary_entity_id": "cervical-disc-herniation",
+    "entity_ids": [
+      "cervical-disc-herniation"
+    ],
+    "updated_at": "2026-06-09",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/ko/---nad--/nad-infusion-cellular-energy-metabolism.md",
+    "source_article_url": "https://thewells.kr/blog/nad-infusion-cellular-energy-metabolism",
+    "source_article_title": "NAD+ 수액 — 세포 에너지 대사부터 적응증·안전 관리까지",
+    "primary_entity_id": "nad-infusion-therapy",
+    "entity_ids": [
+      "nad-infusion-therapy"
+    ],
+    "updated_at": "2026-06-10",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thr/en/---nad--/nad-iv-therapy-from-cellular-energy-metabolism-to-indication.md",
+    "source_article_url": "https://thewells.kr/en/blog/nad-iv-therapy-from-cellular-energy-metabolism-to-indication",
+    "source_article_title": "NAD+ IV Therapy — From Cellular Energy Metabolism to Indications and Safety",
+    "primary_entity_id": "nad-infusion-therapy",
+    "entity_ids": [
+      "nad-infusion-therapy"
+    ],
+    "updated_at": "2026-06-11",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/---prp--/prp-4.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/prp-4",
+    "source_article_title": "PRP 재생주사 — 자가 혈소판 농축 치료의 원리·적응증·회복",
+    "primary_entity_id": "prp-injection",
+    "entity_ids": [
+      "prp-injection"
+    ],
+    "updated_at": "2026-06-12",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/ko/----/frozen-shoulder-non-surgical-treatment.md",
+    "source_article_url": "https://thewells.kr/blog/frozen-shoulder-non-surgical-treatment",
+    "source_article_title": "오십견 — 굳은 관절낭을 풀어가는 비수술 치료 기준",
+    "primary_entity_id": "frozen-shoulder",
+    "entity_ids": [
+      "frozen-shoulder"
+    ],
+    "updated_at": "2026-06-17",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thr/en/----/frozen-shoulder-non-surgical-treatment-for-a-stiffened-joint.md",
+    "source_article_url": "https://thewells.kr/en/blog/frozen-shoulder-non-surgical-treatment-for-a-stiffened-joint",
+    "source_article_title": "Frozen Shoulder — Non-Surgical Treatment for a Stiffened Joint Capsule",
+    "primary_entity_id": "frozen-shoulder",
+    "entity_ids": [
+      "frozen-shoulder"
+    ],
+    "updated_at": "2026-06-18",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/------/knee-osteoarthritis.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/knee-osteoarthritis",
+    "source_article_title": "무릎 연골이 닳는다는 것의 의미 — 원인과 병태생리",
+    "primary_entity_id": "knee-osteoarthritis",
+    "entity_ids": [
+      "knee-osteoarthritis"
+    ],
+    "updated_at": "2026-06-20",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/ko/----/nowon-lower-back-pain-radiculopathy-muscle-tension.md",
+    "source_article_url": "https://thewells.kr/blog/nowon-lower-back-pain-radiculopathy-muscle-tension",
+    "source_article_title": "노원 허리통증, 방사통과 근긴장 유형별 맞춤 치료",
+    "primary_entity_id": "lower-back-pain",
+    "entity_ids": [
+      "lower-back-pain"
+    ],
+    "updated_at": "2026-06-24",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thr/en/----/nowon-back-pain-tailored-treatment-for-radicular-pain-and-mu.md",
+    "source_article_url": "https://thewells.kr/en/blog/nowon-back-pain-tailored-treatment-for-radicular-pain-and-mu",
+    "source_article_title": "Nowon Back Pain: Tailored Treatment for Radicular Pain and Muscle Tension",
+    "primary_entity_id": "lower-back-pain",
+    "entity_ids": [
+      "lower-back-pain"
+    ],
+    "updated_at": "2026-06-25",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/---/frozen-shoulder.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/frozen-shoulder",
+    "source_article_title": "대구 오십견: 어깨 통증과 운동 제한, 정확한 진단과 치료는?",
+    "primary_entity_id": "frozen-shoulder",
+    "entity_ids": [
+      "frozen-shoulder"
+    ],
+    "updated_at": "2026-06-26",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/ko/----/nowon-shoulder-pain-impingement-rotator-cuff.md",
+    "source_article_url": "https://thewells.kr/blog/nowon-shoulder-pain-impingement-rotator-cuff",
+    "source_article_title": "노원 어깨 통증, 충돌증후군·회전근개 손상 구분과 치료",
+    "primary_entity_id": "shoulder-impingement-syndrome",
+    "entity_ids": [
+      "shoulder-impingement-syndrome"
+    ],
+    "updated_at": "2026-07-01",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/-----/plantar-fasciitis.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/plantar-fasciitis",
+    "source_article_title": "대구 족저근막염, 아침 발뒤꿈치 통증 원인과 치료",
+    "primary_entity_id": "plantar-fasciitis",
+    "entity_ids": [
+      "plantar-fasciitis"
+    ],
+    "updated_at": "2026-07-02",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/en/----/nowon-shoulder-pain-telling-apart-impingement-syndrome-and-r.md",
+    "source_article_url": "https://thewells.kr/en/blog/nowon-shoulder-pain-telling-apart-impingement-syndrome-and-r",
+    "source_article_title": "Nowon Shoulder Pain: Telling Apart Impingement Syndrome and Rotator Cuff Injury — and How to Treat Each",
+    "primary_entity_id": "shoulder-impingement-syndrome",
+    "entity_ids": [
+      "shoulder-impingement-syndrome"
+    ],
+    "updated_at": "2026-07-02",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thr/ko/pain/nowon-plantar-fasciitis-shock-wave.md",
+    "source_article_url": "https://thewells.kr/blog/nowon-plantar-fasciitis-shock-wave",
+    "source_article_title": "theWells 노원 — 족저근막염 체외충격파 치료",
+    "primary_entity_id": "plantar-fasciitis",
+    "entity_ids": [
+      "plantar-fasciitis",
+      "eswt"
+    ],
+    "curated_entity_ids": [
+      "eswt"
+    ],
+    "updated_at": "2026-07-05",
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon",
+    "is_pillar": false
+  },
+  {
+    "post_path": "content/thr/ko/-----/lateral-epicondylitis.md",
+    "source_article_url": "https://thewells.kr/blog/lateral-epicondylitis",
+    "source_article_title": "테니스엘보란 무엇인가 — 염증이 아닌 건의 퇴행성 변화",
+    "primary_entity_id": "lateral-epicondylitis",
+    "entity_ids": [
+      "lateral-epicondylitis"
+    ],
+    "updated_at": "2026-07-08",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/------/rotator-cuff-tear.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/rotator-cuff-tear",
+    "source_article_title": "대구 회전근개파열, 원인부터 치료까지",
+    "primary_entity_id": "rotator-cuff-tear",
+    "entity_ids": [
+      "rotator-cuff-tear"
+    ],
+    "updated_at": "2026-07-09",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/en/-----/what-is-tennis-elbow-tendon-degeneration-not-inflammation.md",
+    "source_article_url": "https://thewells.kr/en/blog/what-is-tennis-elbow-tendon-degeneration-not-inflammation",
+    "source_article_title": "What Is Tennis Elbow — Tendon Degeneration, Not Inflammation",
+    "primary_entity_id": "lateral-epicondylitis",
+    "entity_ids": [
+      "lateral-epicondylitis"
+    ],
+    "updated_at": "2026-07-09",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thq/ko/-----/scoliosis.md",
+    "source_article_url": "https://thewells.kr/blog/scoliosis",
+    "source_article_title": "성장기 척추측만증, 보조기를 입고 운동해야 하는 이유",
+    "primary_entity_id": "scoliosis",
+    "entity_ids": [
+      "scoliosis"
+    ],
+    "updated_at": "2026-07-14",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq"
+  },
+  {
+    "post_path": "content/thq/en/-----/why-children-with-scoliosis-should-exercise-while-wearing-a.md",
+    "source_article_url": "https://thewells.kr/en/blog/why-children-with-scoliosis-should-exercise-while-wearing-a",
+    "source_article_title": "Why Children with Scoliosis Should Exercise While Wearing a Brace",
+    "primary_entity_id": "scoliosis",
+    "entity_ids": [
+      "scoliosis"
+    ],
+    "updated_at": "2026-07-14",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq"
+  },
+  {
+    "post_path": "content/thr/ko/----/calcific-tendinitis.md",
+    "source_article_url": "https://thewells.kr/blog/calcific-tendinitis",
+    "source_article_title": "노원 석회성건염, 언제 통증이 더 심해질까요?",
+    "primary_entity_id": "calcific-tendinitis",
+    "entity_ids": [
+      "calcific-tendinitis"
+    ],
+    "updated_at": "2026-07-15",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thr/en/----/calcific-tendinitis-in-nowon-when-does-the-pain-get-worse.md",
+    "source_article_url": "https://thewells.kr/en/blog/calcific-tendinitis-in-nowon-when-does-the-pain-get-worse",
+    "source_article_title": "Calcific Tendinitis in Nowon: When Does the Pain Get Worse?",
+    "primary_entity_id": "calcific-tendinitis",
+    "entity_ids": [
+      "calcific-tendinitis"
+    ],
+    "updated_at": "2026-07-16",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/-------/spondylolisthesis.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/spondylolisthesis",
+    "source_article_title": "척추전방전위증 — 허리뼈가 앞으로 밀릴 때 생기는 통증의 원인과 치료",
+    "primary_entity_id": "spondylolisthesis",
+    "entity_ids": [
+      "spondylolisthesis"
+    ],
+    "updated_at": "2026-07-16",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  }
+]
