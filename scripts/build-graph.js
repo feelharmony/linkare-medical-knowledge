@@ -82,8 +82,10 @@ for (const entry of postMap) {
 }
 
 // 노드 목록 생성
+// 승인된 엔티티는 연결된 원문이 아직 없어도 유형별 인덱스와 사이트 내 탐색에
+// 노출되어야 한다. postMap에 등장한 엔티티만 남기면 신규 허브가 고아 페이지가 된다.
 const nodes = entities
-  .filter(e => e.status === 'approved' && nodeStats[e.id])
+  .filter(e => e.status === 'approved')
   .map(e => ({
     id: e.id,
     type: e.type,

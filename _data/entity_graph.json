@@ -94,6 +94,14 @@
       ]
     },
     {
+      "id": "arm",
+      "type": "body_part",
+      "name_ko": "팔",
+      "name_en": "arm / upper extremity",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
       "id": "antiviral-medicine",
       "type": "treatment",
       "name_ko": "항바이러스제 (대상포진)",
@@ -163,6 +171,14 @@
         "apfree",
         "thr"
       ]
+    },
+    {
+      "id": "wrist-pain",
+      "type": "symptom",
+      "name_ko": "손목 통증",
+      "name_en": "wrist pain",
+      "post_count": 0,
+      "tenant_keys": []
     },
     {
       "id": "stem-cell-therapy",
@@ -281,6 +297,38 @@
       ]
     },
     {
+      "id": "headache",
+      "type": "symptom",
+      "name_ko": "두통",
+      "name_en": "headache",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
+      "id": "tension-type-headache",
+      "type": "condition",
+      "name_ko": "긴장형 두통",
+      "name_en": "tension-type headache",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
+      "id": "migraine",
+      "type": "condition",
+      "name_ko": "편두통",
+      "name_en": "migraine",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
+      "id": "cluster-headache",
+      "type": "condition",
+      "name_ko": "군발성 두통",
+      "name_en": "cluster headache",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
       "id": "cervicogenic-headache",
       "type": "condition",
       "name_ko": "경추기원 두통",
@@ -289,6 +337,14 @@
       "tenant_keys": [
         "apfree"
       ]
+    },
+    {
+      "id": "occipital-neuralgia",
+      "type": "condition",
+      "name_ko": "후두신경통",
+      "name_en": "occipital neuralgia",
+      "post_count": 0,
+      "tenant_keys": []
     },
     {
       "id": "shoulder-pain",
@@ -410,6 +466,22 @@
       ]
     },
     {
+      "id": "rehabilitation-therapy",
+      "type": "treatment",
+      "name_ko": "재활치료",
+      "name_en": "rehabilitation therapy",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
+      "id": "knee",
+      "type": "body_part",
+      "name_ko": "무릎",
+      "name_en": "knee",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
       "id": "scalp",
       "type": "body_part",
       "name_ko": "두피",
@@ -461,6 +533,38 @@
       ]
     },
     {
+      "id": "cubital-tunnel-syndrome",
+      "type": "condition",
+      "name_ko": "주관절 척골신경 포착",
+      "name_en": "cubital tunnel syndrome",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
+      "id": "de-quervain",
+      "type": "condition",
+      "name_ko": "드퀘르벵 건초염",
+      "name_en": "de Quervain's tenosynovitis",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
+      "id": "finger-pain",
+      "type": "symptom",
+      "name_ko": "손가락 통증",
+      "name_en": "finger pain",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
+      "id": "trigger-finger",
+      "type": "condition",
+      "name_ko": "방아쇠수지",
+      "name_en": "trigger finger",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
       "id": "cervical-spine",
       "type": "body_part",
       "name_ko": "경추",
@@ -469,6 +573,14 @@
       "tenant_keys": [
         "apfree"
       ]
+    },
+    {
+      "id": "neck",
+      "type": "body_part",
+      "name_ko": "목",
+      "name_en": "neck",
+      "post_count": 0,
+      "tenant_keys": []
     },
     {
       "id": "hair-loss-medication",
@@ -489,6 +601,30 @@
       "tenant_keys": [
         "thr"
       ]
+    },
+    {
+      "id": "meniscus-tear",
+      "type": "condition",
+      "name_ko": "반월상연골 손상",
+      "name_en": "meniscus tear",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
+      "id": "cruciate-ligament-injury",
+      "type": "condition",
+      "name_ko": "십자인대 손상",
+      "name_en": "cruciate ligament injury",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
+      "id": "patellar-tendinitis",
+      "type": "condition",
+      "name_ko": "슬개건염",
+      "name_en": "patellar tendinitis",
+      "post_count": 0,
+      "tenant_keys": []
     },
     {
       "id": "plantar-fasciitis",
@@ -512,6 +648,38 @@
       ]
     },
     {
+      "id": "hallux-valgus",
+      "type": "condition",
+      "name_ko": "무지외반증",
+      "name_en": "hallux valgus",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
+      "id": "myofascial-pain-syndrome",
+      "type": "condition",
+      "name_ko": "근막통증증후군",
+      "name_en": "myofascial pain syndrome",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
+      "id": "foot-pain",
+      "type": "symptom",
+      "name_ko": "발 통증",
+      "name_en": "foot pain",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
+      "id": "heel-pain",
+      "type": "symptom",
+      "name_ko": "발뒤꿈치 통증",
+      "name_en": "heel pain",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
       "id": "arm-numbness",
       "type": "symptom",
       "name_ko": "팔 저림·방사통",
@@ -520,6 +688,22 @@
       "tenant_keys": [
         "apfree"
       ]
+    },
+    {
+      "id": "leg-numbness",
+      "type": "symptom",
+      "name_ko": "다리 저림·방사통",
+      "name_en": "leg numbness and radiating pain",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
+      "id": "hand-numbness",
+      "type": "symptom",
+      "name_ko": "손 저림",
+      "name_en": "hand numbness",
+      "post_count": 0,
+      "tenant_keys": []
     },
     {
       "id": "knee-pain",
@@ -541,6 +725,14 @@
         "apfree",
         "thr"
       ]
+    },
+    {
+      "id": "aging-symptoms",
+      "type": "symptom",
+      "name_ko": "노화 증상",
+      "name_en": "aging-related symptoms",
+      "post_count": 0,
+      "tenant_keys": []
     },
     {
       "id": "hair-loss",
@@ -573,6 +765,22 @@
       ]
     },
     {
+      "id": "chronic-fatigue",
+      "type": "symptom",
+      "name_ko": "만성 피로",
+      "name_en": "chronic fatigue",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
+      "id": "chronic-fatigue-syndrome",
+      "type": "condition",
+      "name_ko": "만성피로증후군",
+      "name_en": "chronic fatigue syndrome / myalgic encephalomyelitis (ME/CFS)",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
       "id": "lower-back",
       "type": "body_part",
       "name_ko": "허리",
@@ -591,6 +799,38 @@
       "tenant_keys": [
         "apfree"
       ]
+    },
+    {
+      "id": "leg",
+      "type": "body_part",
+      "name_ko": "다리",
+      "name_en": "leg / lower extremity",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
+      "id": "wrist",
+      "type": "body_part",
+      "name_ko": "손목",
+      "name_en": "wrist",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
+      "id": "muscle-relaxants",
+      "type": "treatment",
+      "name_ko": "근육 이완제",
+      "name_en": "muscle relaxants",
+      "post_count": 0,
+      "tenant_keys": []
+    },
+    {
+      "id": "anti-inflammatory-analgesics",
+      "type": "treatment",
+      "name_ko": "소염진통제",
+      "name_en": "anti-inflammatory analgesics",
+      "post_count": 0,
+      "tenant_keys": []
     },
     {
       "id": "transcranial-magnetic-stimulation",
