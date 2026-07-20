@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-18",
+  "updated_at": "2026-07-20",
   "entities": {
     "aging": [
       {
@@ -56,6 +56,17 @@
         "post_id": null,
         "anchors": [],
         "excerpt": null
+      },
+      {
+        "footnote_id": 8,
+        "url": "https://thewells.kr/blog/calcific-tendinitis",
+        "title": "더웰스의원 — 석회성건염, 언제 통증이 더 심해질까요?",
+        "post_id": "56c856b5-35b2-4b52-a0f2-2b4ba68029ab",
+        "anchors": [
+          "definition",
+          "pathophysiology"
+        ],
+        "excerpt": "어깨 석회성건염에서 가장 극심한 통증은 석회가 쌓일 때가 아니라 녹아 흡수될 때 찾아옵니다."
       }
     ],
     "cauda-equina-syndrome": [
