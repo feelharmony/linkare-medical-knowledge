@@ -4,7 +4,7 @@ entity_id: shoulder-pain
 entity_type: symptom
 permalink: /symptoms/shoulder-pain/
 title: 어깨 통증
-description: 어깨 관절·견봉하 공간·회전근개·관절낭·이두근 장두건 영역에서 발생하는 통증. 회전근개 관련 어깨 통증·오십견·석회성 건염이 대표 원인이며, 외상·감염·종양·비근골격 연관통은 빠른 평가가 필요합니다.
+description: 어깨 관절 부위의 통증 (회전근개·오십견 영역)
 title_en: shoulder pain
 aliases:
   - 어깨 통증
@@ -12,7 +12,7 @@ aliases:
   - shoulder pain
   - glenohumeral pain
   - 견관절 통증
-last_reviewed: '2026-07-03'
+last_reviewed: '2026-07-21'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
@@ -20,11 +20,19 @@ next_review: '2026-10-03'
 source_count: 9
 source_count_external: 8
 source_count_clinic_pillar: 1
-clinic_footnote_ids: [1]
-external_footnote_ids: [2, 3, 4, 5, 6, 7, 8, 9]
-version: 8
+clinic_footnote_ids:
+  - 1
+external_footnote_ids:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+version: 5
 ---
-
 ## 정의
 어깨 통증은 단일 진단명이 아니라 **어깨 관절(견갑상완관절)·견봉하 공간·회전근개·관절낭·관절순·이두근 장두건** 같은 [어깨](/body-parts/shoulder/) 영역 구조에서 발생하는 통증을 가리키는 임상 용어입니다. 환자에 따라 회전근개·관절낭·견봉하 공간·관절순·이두근 등 여러 구조가 원인이 될 수 있고, 영상 소견은 무증상 인구에서도 흔하게 관찰되어 증상과 늘 일치하지 않습니다 [^3][^9].
 
@@ -43,6 +51,8 @@ version: 8
 
 위험 요인으로는 반복적 견상부 작업(overhead work), 고령, 흡연, 당뇨병, 어깨 외상 병력이 보고됩니다 [^3][^7][^8].
 
+어깨 통증은 증상이 일시적으로 호전된 후에도 다시 악화될 수 있으며, 이는 조직 회복과 통증 감소 시점 간의 간극 때문입니다. [^1]
+
 ## 레드플래그
 다음 신호는 빠른 전문 평가 또는 응급 평가가 필요합니다 [^2][^7].
 
@@ -54,6 +64,8 @@ version: 8
 - 흉통, 호흡곤란, 복부 증상과 동반되는 어깨 통증 — 심장·폐·담낭·횡격막 연관통 감별
 
 이 외에는 회전근개 건병증·오십견·석회성 건염 같은 비외상성 어깨 질환이 가장 흔하며, 팔을 들어 올리거나 옆으로 벌릴 때 악화되는 통증, 야간 통증, 가동 범위 제한이 주된 양상입니다 [^1][^3].
+
+어깨 통증이 줄어든 후에도 팔을 들어 올리거나 옆으로 벌릴 때 통증이 남아 있을 수 있습니다. [^1]
 
 ## 평가
 어깨 통증의 평가는 병력 청취와 신체검사가 중심입니다. 외상 병력, 통증 위치, 악화 동작, 야간통, red flag, 당뇨병 등 동반 질환을 확인하고, 능동·수동 가동 범위, 회전근개 근력 검사(empty can, external rotation, lift-off), 충돌·관절순·이두건 검사(Hawkins-Kennedy, Neer, Speed, O'Brien)를 시행합니다 [^2][^5].
@@ -99,9 +111,11 @@ JOSPT 2025 회전근개 건병증 CPG는 **subacromial pain syndrome / rotator c
 
 ---
 
+---
+
 ## Citations
-<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^1]: [안심튼튼 — 어깨 통증 관리·예방·재발](https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
@@ -122,3 +136,4 @@ JOSPT 2025 회전근개 건병증 CPG는 **subacromial pain syndrome / rotator c
 - 2026-05-03 v5: 내용 업데이트.
 - 2026-05-03 v4: 내용 업데이트.
 - 2026-04-28 v3: 내용 업데이트.
+- 2026-07-21 v5: 흔한 원인 enrich, 레드플래그 enrich
