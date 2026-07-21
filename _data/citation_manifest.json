@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-20",
+  "updated_at": "2026-07-21",
   "entities": {
     "aging": [
       {
@@ -698,10 +698,13 @@
       {
         "footnote_id": 1,
         "url": "https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse",
-        "title": "안심튼튼 — 어깨 통증 관리·예방·재발",
-        "post_id": null,
-        "anchors": [],
-        "excerpt": null
+        "title": "안심튼튼마취통증의학과 — 어깨 통증 환자의 일상 관리와 재발 방지 — 치료 이후가 더 중요하다",
+        "post_id": "0c579259-1870-47e1-b769-95ef942784dd",
+        "anchors": [
+          "causes",
+          "red_flags"
+        ],
+        "excerpt": "어깨 통증은 주사나 시술로 증상이 가라앉은 순간 끝나지 않습니다. 통증이 줄어든 시점과 조직이 회복된 시점 사이에는 몇 주, 때로는 몇 달의 간격이 존재합니다."
       }
     ],
     "cervical-spine": [
