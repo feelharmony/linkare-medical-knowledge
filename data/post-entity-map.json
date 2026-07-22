@@ -1534,5 +1534,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thr/ko/----/scalp-scaling-difference-salon-headspa.md",
+    "source_article_url": "https://thewells.kr/blog/scalp-scaling-difference-salon-headspa",
+    "source_article_title": "노원 두피스케일링, 미용실과 헤드스파의 차이",
+    "primary_entity_id": "androgenetic-alopecia",
+    "entity_ids": [
+      "androgenetic-alopecia"
+    ],
+    "updated_at": "2026-07-22",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
