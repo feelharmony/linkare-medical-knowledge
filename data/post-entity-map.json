@@ -1549,5 +1549,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thr/en/----/nowon-scalp-scaling-how-clinic-based-head-spas-differ-from.md",
+    "source_article_url": "https://thewells.kr/en/blog/nowon-scalp-scaling-how-clinic-based-head-spas-differ-from",
+    "source_article_title": "Nowon Scalp Scaling: How Clinic-Based Head Spas Differ from Salon Scalp Care",
+    "primary_entity_id": "androgenetic-alopecia",
+    "entity_ids": [
+      "androgenetic-alopecia"
+    ],
+    "updated_at": "2026-07-23",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
