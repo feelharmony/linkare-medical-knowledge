@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-21",
+  "updated_at": "2026-07-23",
   "entities": {
     "aging": [
       {
@@ -828,6 +828,19 @@
           "diagnosis"
         ],
         "excerpt": "부분층 파열 단계에서는 특정 각도로 팔을 올릴 때만 통증이 나타나는 경우가 많습니다."
+      }
+    ],
+    "medial-epicondylitis": [
+      {
+        "footnote_id": 7,
+        "url": "https://thewells.kr/blog/golfers-elbow-medial-epicondylitis",
+        "title": "더웰스의원 — 내측상과염 — 팔꿈치 안쪽 통증의 원인·증상·진단",
+        "post_id": "2aa04e20-2bdc-4539-b24d-c74917bbb83f",
+        "anchors": [
+          "symptoms",
+          "diagnosis"
+        ],
+        "excerpt": "처음 호소되는 증상은 팔꿈치 안쪽의 뾰족한 통증입니다."
       }
     ]
   }
