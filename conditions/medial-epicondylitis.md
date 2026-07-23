@@ -4,26 +4,32 @@ entity_id: medial-epicondylitis
 entity_type: condition
 permalink: /conditions/medial-epicondylitis/
 title: 내측상과염
-description: 팔꿈치 내측 힘줄의 만성 손상으로 통증·기능 저하를 일으키는 힘줄병증
-title_en: medial epicondylitis (golfer's elbow)
+description: 팔꿈치 내측 힘줄의 만성 손상
+title_en: medial epicondylitis
 aliases:
   - 골프엘보
   - 골프 엘보
   - golfer's elbow
   - medial epicondylitis
-last_reviewed: '2026-07-03'
-source_count: 6
-version: 6
+last_reviewed: '2026-07-23'
+source_count: 7
+version: 5
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-03'
 source_count_external: 6
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4, 5, 6]
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 7
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
 ---
-
 ## 정의
 내측상과염(medial epicondylitis, 골프엘보)은 [팔꿈치](/body-parts/elbow/) 안쪽 뼈 돌출부인 내측 상과에 붙는 공통 굴곡근(common flexor tendon)의 기시부가 손상되어 통증과 기능 저하를 일으키는 질환입니다 [^3]. 손목을 굽히고 전완을 안쪽으로 회전시키는 여러 근육이 이 자리에 모여 부하가 집중되는 구조입니다.
 
@@ -52,6 +58,8 @@ external_footnote_ids: [1, 2, 3, 4, 5, 6]
 ### 척골신경 동반 평가
 척골신경은 내측상과 바로 뒤쪽의 좁은 골 통로(큐비탈 터널)를 지나갑니다. 내측상과염 환자의 일부는 팔꿈치 통증 외에 **새끼손가락·약지의 저림, 감각 둔화, 미세한 근력 저하**를 함께 호소합니다 [^3]. 이 동반 증상의 유무가 치료 계획을 가릅니다 — 힘줄만 다룰지, [주관절 척골신경 포착](/conditions/cubital-tunnel-syndrome/)까지 평가해야 할지 결정하는 갈림길이기 때문입니다.
 
+팔꿈치 안쪽의 통증은 날카롭게 찌르는 느낌으로 시작해 일상 활동 중에도 지속적으로 나타날 수 있습니다[^7].
+
 ## 진단
 내측상과염은 **주로 임상 진단**입니다 — 병력 청취와 이학적 검사로 윤곽을 잡습니다 [^3].
 
@@ -70,6 +78,8 @@ external_footnote_ids: [1, 2, 3, 4, 5, 6]
 - **척골측부인대(UCL) 손상** — 팔꿈치를 바깥쪽으로 벌리는 외반 부하 검사에서 통증·불안정성이 나타나면 의심. 야구 투구 동작이 많은 선수에서 비중 있게 평가
 - **[주관절 척골신경 포착](/conditions/cubital-tunnel-syndrome/)** — 새끼손가락·약지의 저림, 손의 미세 동작 감소가 주증상. 신경 전도 검사와 Tinel 징후로 평가 [^3]
 - **경추 신경근병증** — 목에서 내려오는 신경 자극이 팔꿈치·전완 통증으로 나타나는 경우
+
+내측상과염 환자는 팔꿈치 안쪽 뼈 돌출부를 눌렀을 때 찌르는 듯한 통증을 호소합니다[^7].
 
 ## 치료
 내측상과염 치료의 핵심 원칙은 **부하 관리 + 점진적 자극**입니다 [^1]. 저항 운동의 강도·양·빈도(용량)가 힘줄병증 경과를 의미 있게 좌우한다는 메타분석 결과가 이를 뒷받침하며 [^2], 내측상과염 specific으로는 **편심성 운동의 임상 결과를 평가한 SR**이 보존 치료의 핵심 옵션으로 정리합니다 [^6]. 치료 목표는 안쪽 팔꿈치 통증을 단기적으로 낮추는 것뿐 아니라, 손목 굴곡·전완 회내 부하를 견디는 힘줄의 운동 내성을 회복하는 것입니다.
@@ -110,19 +120,20 @@ external_footnote_ids: [1, 2, 3, 4, 5, 6]
 
 ---
 
+---
+
 ## Citations
+### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^7]: [더웰스의원 — 내측상과염 — 팔꿈치 안쪽 통증의 원인·증상·진단](https://thewells.kr/blog/golfers-elbow-medial-epicondylitis) · 근거: "내측상과염은 팔꿈치 안쪽 뼈 돌출부에 붙는 힘줄의 병변입니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
+
 ### 외부 권위 출처
-
 [^1]: [Millar NL, Silbernagel KG, Thorborg K, et al. Tendinopathy. *Nat Rev Dis Primers.* 2021;7(1):1. PMID 33414454](https://pubmed.ncbi.nlm.nih.gov/33414454/) — 힘줄병증 표준 review. 만성기 병변에서 염증세포 드물고 콜라겐 무질서·기질 퇴행·신생 혈관이 두드러지는 퇴행성 건병증 정리
-
 [^2]: [Pavlova AV, Shim JSC, Moss R, et al. Effect of resistance exercise dose components for tendinopathy management: a systematic review with meta-analysis. *Br J Sports Med.* 2023;57(20):1327-1334. PMID 37169370](https://pubmed.ncbi.nlm.nih.gov/37169370/) — 저항 운동의 강도·양·빈도가 힘줄병증 경과를 의미 있게 좌우
-
 [^3]: [Buchanan BK, Varacallo M. Medial Epicondylitis (Golfer's Elbow). *StatPearls* [Internet]. Treasure Island (FL): StatPearls Publishing. Bookshelf ID NBK430685. (작업 시점 2026-05 인용)](https://www.ncbi.nlm.nih.gov/books/NBK430685/) — 내측상과염 전용 임상 review. 주로 임상 진단, 영상은 감별·손상범위·불응성 평가 시 보조. 보존 치료가 1차이고 자한정적 경과 + 척골신경병증 감별의 표준 정리
-
 [^4]: [한국보건의료연구원(NECA) 의료기술재평가 — 상과염 환자에서의 자가 혈소판 풍부 혈장 치료술 (2026 재평가). 안전성 우려 낮음, 6개월 시점 통증·기능 개선이 스테로이드 주사보다 우수(연구 간 이질성 높음)](https://k-knowledge.kr/srch/read.jsp?id=281258142)
-
 [^5]: [보건복지부 고시 제2023-60호 — 자가 혈소판 풍부 혈장 치료(PRP) 급여 기준 (2023-04-01 시행, 작업 시점 2026-05 인용). 외측·내측 상과염: 3개월 이상 적절한 보존 치료에도 기능 이상·통증 지속 환자에게 6개월 간격 부위별 각각 1회 인정. ⚠️ 행정 규정으로 변경 가능 — 진료 시점 의료진 상담 권장](https://www.mohw.go.kr/board.es?act=view&bid=0026&list_no=375681&mid=a10409020000)
-
 [^6]: [See ZH, Loo CE, Jaafar Z. Eccentric exercise therapy for medial epicondylitis: A systematic review of clinical outcomes. *Complement Ther Med.* 2026 Jun. PMID 41887339](https://pubmed.ncbi.nlm.nih.gov/41887339/) — 내측상과염 specific SR. 편심성 운동이 통증·기능 개선의 핵심 옵션임을 정리
 
 ## Changelog
@@ -132,3 +143,4 @@ external_footnote_ids: [1, 2, 3, 4, 5, 6]
 - 2026-05-20 v3: 내용 업데이트.
 - 2026-05-20 v2: 내용 업데이트.
 - 2026-05-20 v1: 내용 업데이트.
+- 2026-07-23 v5: 증상 enrich, 진단 enrich
