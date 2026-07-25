@@ -1579,5 +1579,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/----/manual-therapy.md",
+    "source_article_url": "https://thewells.kr/blog/manual-therapy",
+    "source_article_title": "도수치료는 턱관절 뇌신경, 상부경추부터 시작해야 합니다.",
+    "primary_entity_id": "manual-therapy",
+    "entity_ids": [
+      "manual-therapy"
+    ],
+    "updated_at": "2026-07-25",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
