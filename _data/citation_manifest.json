@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-23",
+  "updated_at": "2026-07-27",
   "entities": {
     "aging": [
       {
@@ -415,10 +415,13 @@
       {
         "footnote_id": 1,
         "url": "https://thewells.kr/blog/nad",
-        "title": "thewells.kr/blog/nad",
-        "post_id": null,
-        "anchors": [],
-        "excerpt": null
+        "title": "더웰스의원 — NAD+ 수액 — 세포 에너지 대사부터 적응증·안전 관리까지",
+        "post_id": "b6e3c924-3c40-4399-8b2c-a5dac578bdac",
+        "anchors": [
+          "expected_effect",
+          "when_considered"
+        ],
+        "excerpt": "NAD+ 수액은 세포가 에너지를 만드는 대사 과정 자체를 보완하는 치료입니다."
       },
       {
         "footnote_id": 7,
