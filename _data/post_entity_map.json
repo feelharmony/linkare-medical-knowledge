@@ -1609,5 +1609,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thq/en/----/myofascial-pain-syndrome-trigger-points-recurrence-and.md",
+    "source_article_url": "https://thewells.kr/en/blog/myofascial-pain-syndrome-trigger-points-recurrence-and",
+    "source_article_title": "Myofascial Pain Syndrome: Trigger Points, Recurrence, and Managing the Root Causes",
+    "primary_entity_id": "myofascial-pain-syndrome",
+    "entity_ids": [
+      "myofascial-pain-syndrome"
+    ],
+    "updated_at": "2026-07-28",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
