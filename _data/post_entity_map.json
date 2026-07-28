@@ -1594,5 +1594,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thq/ko/----/myofascial-pain-syndrome.md",
+    "source_article_url": "https://thewells.kr/blog/myofascial-pain-syndrome",
+    "source_article_title": "섬유근막통증의 유발점과 재발, 진단부터 원인 관리까지",
+    "primary_entity_id": "myofascial-pain-syndrome",
+    "entity_ids": [
+      "myofascial-pain-syndrome"
+    ],
+    "updated_at": "2026-07-28",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
