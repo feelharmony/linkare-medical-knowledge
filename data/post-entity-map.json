@@ -1624,5 +1624,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/----/knee-osteoarthritis.md",
+    "source_article_url": "https://thewells.kr/blog/knee-osteoarthritis",
+    "source_article_title": "무릎통증, 퇴행성관절염 비수술 치료 가이드",
+    "primary_entity_id": "knee-osteoarthritis",
+    "entity_ids": [
+      "knee-osteoarthritis"
+    ],
+    "updated_at": "2026-07-29",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
