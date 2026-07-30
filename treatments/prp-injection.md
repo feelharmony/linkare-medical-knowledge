@@ -4,8 +4,8 @@ entity_id: prp-injection
 entity_type: treatment
 permalink: /treatments/prp-injection/
 title: PRP 주사
-description: 환자 본인의 혈액에서 혈소판 풍부 혈장을 분리해 병변 부위에 주입하는 자가 혈액 기반 재생주사
-title_en: platelet-rich plasma (PRP) injection
+description: 자가 혈액에서 분리한 혈소판 풍부 혈장 주사
+title_en: platelet-rich plasma injection
 aliases:
   - PRP
   - PRP 주사
@@ -15,19 +15,30 @@ aliases:
   - platelet-rich fibrin
   - 혈소판 풍부 피브린
   - 자가활성화세포
-last_reviewed: '2026-07-03'
+last_reviewed: '2026-07-30'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-03'
-source_count: 11
+source_count: 12
 source_count_external: 9
-source_count_clinic_pillar: 2
-clinic_footnote_ids: [4, 5]
-external_footnote_ids: [1, 2, 3, 6, 7, 8, 9, 10, 11]
-version: 5
+source_count_clinic_pillar: 3
+clinic_footnote_ids:
+  - 4
+  - 5
+  - 12
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+version: 4
 ---
-
 ## 정의·기전
 PRP(platelet-rich plasma, 혈소판 풍부 혈장)는 환자 본인의 혈액을 채혈한 뒤 원심분리하여 혈소판이 풍부한 혈장을 분리하고, 이를 통증·손상 부위에 다시 주입하는 자가 혈액 기반 재생주사입니다. 혈소판에서 분비되는 PDGF, VEGF, TGF-β, IGF 등 성장인자가 조직 회복 환경, 혈관 신생, 콜라겐 합성에 관여하는 것으로 알려져 있습니다 [^7].
 
@@ -88,11 +99,20 @@ PRP/PRF는 환자 본인의 혈액을 활용해 손상 부위의 회복 환경�
 
 ---
 
+## 적응증
+PRP 치료 후 초기에는 주입 부위가 뻐근하거나 불편할 수 있으나, 이는 성장인자가 방출되며 시작되는 조직 반응의 일부입니다[^12].
+
+## 기대효과
+시술 직후 주입 부위가 뻐근하거나 불편할 수 있지만, 이는 조직 회복 과정의 일부로 나타나는 증상입니다[^12].
+
+---
+
 ## Citations
-<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^4]: [theWells 노원 — 탈모 재생주사 치료](https://thewells.kr/blog/hair-loss-regeneration-injection-treatment)
 [^5]: [안심튼튼 — 대구 PRP주사, 무릎 아프신 분들이 꼭 알아야 할 재생치료의 모든 것](https://blog.naver.com/ansimpainfree/224248542822)
+[^12]: [안심튼튼마취통증의학과 — PRP 재생주사 — 자가 혈소판 농축 치료의 원리·적응증·회복](https://ansimpainfree.kr/blog/prp-4) · 근거: "PRP 재생주사는 환자 본인의 혈액에서 농축한 혈소판 성장인자를 손상 부위에 직접 전달해 조직 스스로 회복하도록 유도합니다."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
@@ -111,3 +131,4 @@ PRP/PRF는 환자 본인의 혈액을 활용해 손상 부위의 회복 환경�
 - 2026-05-09 v4: 내용 업데이트.
 - 2026-05-03 v3: 내용 업데이트.
 - 2026-04-23 v2: 내용 업데이트.
+- 2026-07-30 v4: 적응증 enrich, 기대효과 enrich
