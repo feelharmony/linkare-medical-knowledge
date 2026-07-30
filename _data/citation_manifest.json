@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-27",
+  "updated_at": "2026-07-30",
   "entities": {
     "aging": [
       {
@@ -510,6 +510,17 @@
         "post_id": null,
         "anchors": [],
         "excerpt": null
+      },
+      {
+        "footnote_id": 12,
+        "url": "https://ansimpainfree.kr/blog/prp-4",
+        "title": "안심튼튼마취통증의학과 — PRP 재생주사 — 자가 혈소판 농축 치료의 원리·적응증·회복",
+        "post_id": "82cbd919-9257-4533-bd10-c70b34714f54",
+        "anchors": [
+          "indication",
+          "expected_effect"
+        ],
+        "excerpt": "PRP 치료를 고려할 수 있는 상태는 만성 건병증과 반복 부하로 인한 연부조직 손상입니다."
       }
     ],
     "regenerative-injection-treatment": [
