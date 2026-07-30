@@ -1639,5 +1639,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/----/knee.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/knee",
+    "source_article_title": "대구 무릎 통증, 원인 감별부터 병원 선택과 치료 단계까지",
+    "primary_entity_id": "knee",
+    "entity_ids": [
+      "knee"
+    ],
+    "updated_at": "2026-07-30",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
