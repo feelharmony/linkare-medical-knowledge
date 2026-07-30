@@ -1654,5 +1654,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/en/----/knee-pain-osteoarthritis-a-non-surgical-treatment-guide.md",
+    "source_article_url": "https://thewells.kr/en/blog/knee-pain-osteoarthritis-a-non-surgical-treatment-guide",
+    "source_article_title": "Knee Pain & Osteoarthritis: A Non-Surgical Treatment Guide",
+    "primary_entity_id": "knee-osteoarthritis",
+    "entity_ids": [
+      "knee-osteoarthritis"
+    ],
+    "updated_at": "2026-07-30",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
