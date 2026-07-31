@@ -1669,5 +1669,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thq/en/----/manual-therapy-should-start-with-the-tmj-cranial-nerves-and.md",
+    "source_article_url": "https://thewells.kr/en/blog/manual-therapy-should-start-with-the-tmj-cranial-nerves-and",
+    "source_article_title": "Manual Therapy Should Start with the TMJ, Cranial Nerves, and Upper Cervical Spine",
+    "primary_entity_id": "manual-therapy",
+    "entity_ids": [
+      "manual-therapy"
+    ],
+    "updated_at": "2026-07-31",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
