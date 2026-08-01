@@ -1684,5 +1684,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thq/ko/-----/menopausal-syndrome.md",
+    "source_article_url": "https://thewells.kr/blog/menopausal-syndrome",
+    "source_article_title": "갱년기 증상, 하나씩 억누르기보다 호르몬·신경·대사를 함께 봐야 하는 이유",
+    "primary_entity_id": "menopausal-syndrome",
+    "entity_ids": [
+      "menopausal-syndrome"
+    ],
+    "updated_at": "2026-08-01",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
