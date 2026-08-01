@@ -1699,5 +1699,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thq/en/-----/why-menopause-needs-a-whole-body-approach-not-just-symptom.md",
+    "source_article_url": "https://thewells.kr/en/blog/why-menopause-needs-a-whole-body-approach-not-just-symptom",
+    "source_article_title": "Why Menopause Needs a Whole-Body Approach — Not Just Symptom-by-Symptom Control",
+    "primary_entity_id": "menopausal-syndrome",
+    "entity_ids": [
+      "menopausal-syndrome"
+    ],
+    "updated_at": "2026-08-01",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
