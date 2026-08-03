@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-30",
+  "updated_at": "2026-08-03",
   "entities": {
     "aging": [
       {
@@ -125,6 +125,17 @@
         "post_id": null,
         "anchors": [],
         "excerpt": null
+      },
+      {
+        "footnote_id": 7,
+        "url": "https://ansimpainfree.kr/blog/frozen-shoulder",
+        "title": "안심튼튼마취통증의학과 — 대구 오십견: 어깨 통증과 운동 제한, 정확한 진단과 치료는?",
+        "post_id": "42250129-eb93-4486-a5fc-8063d08c7618",
+        "anchors": [
+          "symptoms",
+          "definition"
+        ],
+        "excerpt": "어느 날부터 팔을 들어올리기 힘들어지고, 밤중에 어깨 통증으로 깨는 경험..."
       }
     ],
     "knee-osteoarthritis": [
