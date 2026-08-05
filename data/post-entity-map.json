@@ -1714,5 +1714,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/---/cervical-disc-herniation.md",
+    "source_article_url": "https://thewells.kr/blog/cervical-disc-herniation",
+    "source_article_title": "목디스크란 무엇인가, 팔저림이 생기는 구조부터 단계별 치료까지",
+    "primary_entity_id": "cervical-disc-herniation",
+    "entity_ids": [
+      "cervical-disc-herniation"
+    ],
+    "updated_at": "2026-08-05",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
