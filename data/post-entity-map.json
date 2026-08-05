@@ -1729,5 +1729,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thr/en/---/what-is-cervical-disc-herniation-from-the-anatomy-behind.md",
+    "source_article_url": "https://thewells.kr/en/blog/what-is-cervical-disc-herniation-from-the-anatomy-behind",
+    "source_article_title": "What Is Cervical Disc Herniation? From the Anatomy Behind Arm Numbness to Step-by-Step Treatment",
+    "primary_entity_id": "cervical-disc-herniation",
+    "entity_ids": [
+      "cervical-disc-herniation"
+    ],
+    "updated_at": "2026-08-05",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
