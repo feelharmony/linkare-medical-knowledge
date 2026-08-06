@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-07-23",
+  "updated_at": "2026-08-03",
   "entities": {
     "aging": [
       {
@@ -125,6 +125,17 @@
         "post_id": null,
         "anchors": [],
         "excerpt": null
+      },
+      {
+        "footnote_id": 7,
+        "url": "https://ansimpainfree.kr/blog/frozen-shoulder",
+        "title": "안심튼튼마취통증의학과 — 대구 오십견: 어깨 통증과 운동 제한, 정확한 진단과 치료는?",
+        "post_id": "42250129-eb93-4486-a5fc-8063d08c7618",
+        "anchors": [
+          "symptoms",
+          "definition"
+        ],
+        "excerpt": "어느 날부터 팔을 들어올리기 힘들어지고, 밤중에 어깨 통증으로 깨는 경험..."
       }
     ],
     "knee-osteoarthritis": [
@@ -415,10 +426,13 @@
       {
         "footnote_id": 1,
         "url": "https://thewells.kr/blog/nad",
-        "title": "thewells.kr/blog/nad",
-        "post_id": null,
-        "anchors": [],
-        "excerpt": null
+        "title": "더웰스의원 — NAD+ 수액 — 세포 에너지 대사부터 적응증·안전 관리까지",
+        "post_id": "b6e3c924-3c40-4399-8b2c-a5dac578bdac",
+        "anchors": [
+          "expected_effect",
+          "when_considered"
+        ],
+        "excerpt": "NAD+ 수액은 세포가 에너지를 만드는 대사 과정 자체를 보완하는 치료입니다."
       },
       {
         "footnote_id": 7,
@@ -507,6 +521,17 @@
         "post_id": null,
         "anchors": [],
         "excerpt": null
+      },
+      {
+        "footnote_id": 12,
+        "url": "https://ansimpainfree.kr/blog/prp-4",
+        "title": "안심튼튼마취통증의학과 — PRP 재생주사 — 자가 혈소판 농축 치료의 원리·적응증·회복",
+        "post_id": "82cbd919-9257-4533-bd10-c70b34714f54",
+        "anchors": [
+          "indication",
+          "expected_effect"
+        ],
+        "excerpt": "PRP 치료를 고려할 수 있는 상태는 만성 건병증과 반복 부하로 인한 연부조직 손상입니다."
       }
     ],
     "regenerative-injection-treatment": [

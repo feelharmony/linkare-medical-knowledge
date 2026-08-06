@@ -4,24 +4,33 @@ entity_id: frozen-shoulder
 entity_type: condition
 permalink: /conditions/frozen-shoulder/
 title: 오십견
-description: 어깨 관절낭이 굳어 통증과 운동 범위 제한을 일으키는 질환
+description: 어깨 관절낭이 유착되어 운동 범위가 제한되는 질환
 title_en: frozen shoulder
-last_reviewed: '2026-07-03'
+last_reviewed: '2026-08-03'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-03'
-source_count: 6
+source_count: 7
 source_count_external: 5
-source_count_clinic_pillar: 1
-clinic_footnote_ids: [1]
-external_footnote_ids: [2, 3, 4, 5, 6]
-version: 4
+source_count_clinic_pillar: 2
+clinic_footnote_ids:
+  - 1
+  - 7
+external_footnote_ids:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+version: 5
 ---
 ## 정의
 오십견(adhesive capsulitis 또는 frozen shoulder)은 [어깨](/body-parts/shoulder/) 관절낭(joint capsule)의 염증·섬유화·비후로 [어깨 통증](/symptoms/shoulder-pain/)과 능동·수동 운동 범위 제한이 함께 나타나는 질환입니다 [^2][^5]. 자연경과는 보통 자한정적(self-limiting)으로 알려지지만, 한국 재활의학회 임상진료지침에서는 모든 환자가 완전 회복을 보이지 않으며 2년 이상 잔여 증상이 남는 경우도 있다고 명시합니다 [^2].
 
 임상적으로는 오십견을 회전근개형 힘줄 통증이나 충돌 증후군과 구분해 **관절낭·운동 제한형 어깨 통증**으로 설명하는 것이 안전합니다. 핵심 감별점은 팔을 스스로 들 때뿐 아니라 의료진이 들어 올려도 수동 가동 범위가 함께 줄어든다는 점입니다 [^2][^6].
+
+오십견 환자들은 종종 밤에 어깨 통증으로 인해 수면이 방해받고, 팔을 들어 올리기 어려운 경험을 하게 됩니다[^7].
 
 ## 병태
 어깨 관절낭에 염증과 섬유화가 일어나 관절낭이 두꺼워지고 굳습니다. 이 과정에서 통증이 먼저 시작되고, 점차 운동 범위가 줄어들며, 결국 관절 사용이 제한됩니다 [^1][^5]. 한국 재활의학회 임상진료지침(Lee BC et al., 2025)은 당뇨병, 갑상선 질환, 이상지질혈증 등을 주요 위험 인자로 보고, 초기 평가에서 병력과 혈액 검사 등으로 위험 인자를 종합적으로 살피도록 권고합니다 [^2].
@@ -30,6 +39,8 @@ version: 4
 
 ## 증상
 초기에는 어깨에 통증이 시작되고, 특히 밤에 통증이 심해 잠을 깨는 경우가 흔합니다. 점차 어깨를 들어 올리거나 뒤로 돌리는 동작이 어려워지고, 옷을 입고 벗기·머리 빗기·안전벨트 매기 같은 일상 동작에 제한이 생깁니다 [^1]. 일반적으로 통증기 → 강직기(운동 제한 심화) → 회복기의 3단계로 진행하며, 각 단계의 경계가 환자마다 다르고 전체 경과가 1~2년에 이르는 경우가 많습니다 [^2].
+
+오십견 환자들은 밤에 어깨 통증으로 인해 잠에서 깨는 경우가 많으며, 이는 일상생활에 큰 불편을 초래합니다[^7].
 
 ## 진단
 오십견 진단은 환자가 호소하는 통증 양상과 운동 범위 제한을 종합해 임상적으로 합니다. 능동·수동 운동 범위가 모두 줄어 있는 점이 [회전근개 손상](/conditions/rotator-cuff-injury/)이나 [충돌 증후군](/conditions/shoulder-impingement-syndrome/)과 구별되는 특징입니다 [^2][^6]. 한국 재활의학회 가이드라인은 초기 평가에서 당뇨·갑상선 질환·이상지질혈증 같은 동반 위험 인자를 함께 확인하도록 권고합니다 [^2]. 초음파나 MRI는 오십견을 단독으로 확진하기 위한 검사라기보다, 회전근개 파열·관절염·석회성 건염 등 다른 원인을 배제하기 위한 보조 검사로 활용됩니다 [^2][^4].
@@ -53,10 +64,13 @@ version: 4
 
 ---
 
+---
+
 ## Citations
-<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^1]: [안심튼튼 — 어깨 통증 관리·예방·재발](https://ansimpainfree.kr/blog/shoulder-pain-management-prevention-relapse)
+[^7]: [안심튼튼마취통증의학과 — 대구 오십견: 어깨 통증과 운동 제한, 정확한 진단과 치료는?](https://ansimpainfree.kr/blog/frozen-shoulder) · 근거: "어느 날부터 팔을 들어올리기 힘들어지고, 밤중에 어깨 통증으로 깨는 경험을 하신 분들이라면 오십견을 먼저 의심해볼 수 있습니다."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
@@ -71,3 +85,4 @@ version: 4
 - 2026-05-01 v3: 내용 업데이트.
 - 2026-05-02 v3: 내용 업데이트.
 - 2026-07-03 v4: 내용 업데이트.
+- 2026-08-03 v5: 증상 enrich, 정의 enrich

@@ -1579,5 +1579,185 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/----/manual-therapy.md",
+    "source_article_url": "https://thewells.kr/blog/manual-therapy",
+    "source_article_title": "도수치료는 턱관절 뇌신경, 상부경추부터 시작해야 합니다.",
+    "primary_entity_id": "manual-therapy",
+    "entity_ids": [
+      "manual-therapy"
+    ],
+    "updated_at": "2026-07-25",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thq/ko/----/myofascial-pain-syndrome.md",
+    "source_article_url": "https://thewells.kr/blog/myofascial-pain-syndrome",
+    "source_article_title": "섬유근막통증의 유발점과 재발, 진단부터 원인 관리까지",
+    "primary_entity_id": "myofascial-pain-syndrome",
+    "entity_ids": [
+      "myofascial-pain-syndrome"
+    ],
+    "updated_at": "2026-07-28",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thq/en/----/myofascial-pain-syndrome-trigger-points-recurrence-and.md",
+    "source_article_url": "https://thewells.kr/en/blog/myofascial-pain-syndrome-trigger-points-recurrence-and",
+    "source_article_title": "Myofascial Pain Syndrome: Trigger Points, Recurrence, and Managing the Root Causes",
+    "primary_entity_id": "myofascial-pain-syndrome",
+    "entity_ids": [
+      "myofascial-pain-syndrome"
+    ],
+    "updated_at": "2026-07-28",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/----/knee-osteoarthritis.md",
+    "source_article_url": "https://thewells.kr/blog/knee-osteoarthritis",
+    "source_article_title": "무릎통증, 퇴행성관절염 비수술 치료 가이드",
+    "primary_entity_id": "knee-osteoarthritis",
+    "entity_ids": [
+      "knee-osteoarthritis"
+    ],
+    "updated_at": "2026-07-29",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/----/knee.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/knee",
+    "source_article_title": "대구 무릎 통증, 원인 감별부터 병원 선택과 치료 단계까지",
+    "primary_entity_id": "knee",
+    "entity_ids": [
+      "knee"
+    ],
+    "updated_at": "2026-07-30",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/en/----/knee-pain-osteoarthritis-a-non-surgical-treatment-guide.md",
+    "source_article_url": "https://thewells.kr/en/blog/knee-pain-osteoarthritis-a-non-surgical-treatment-guide",
+    "source_article_title": "Knee Pain & Osteoarthritis: A Non-Surgical Treatment Guide",
+    "primary_entity_id": "knee-osteoarthritis",
+    "entity_ids": [
+      "knee-osteoarthritis"
+    ],
+    "updated_at": "2026-07-30",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thq/en/----/manual-therapy-should-start-with-the-tmj-cranial-nerves-and.md",
+    "source_article_url": "https://thewells.kr/en/blog/manual-therapy-should-start-with-the-tmj-cranial-nerves-and",
+    "source_article_title": "Manual Therapy Should Start with the TMJ, Cranial Nerves, and Upper Cervical Spine",
+    "primary_entity_id": "manual-therapy",
+    "entity_ids": [
+      "manual-therapy"
+    ],
+    "updated_at": "2026-07-31",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thq/ko/-----/menopausal-syndrome.md",
+    "source_article_url": "https://thewells.kr/blog/menopausal-syndrome",
+    "source_article_title": "갱년기 증상, 하나씩 억누르기보다 호르몬·신경·대사를 함께 봐야 하는 이유",
+    "primary_entity_id": "menopausal-syndrome",
+    "entity_ids": [
+      "menopausal-syndrome"
+    ],
+    "updated_at": "2026-08-01",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thq/en/-----/why-menopause-needs-a-whole-body-approach-not-just-symptom.md",
+    "source_article_url": "https://thewells.kr/en/blog/why-menopause-needs-a-whole-body-approach-not-just-symptom",
+    "source_article_title": "Why Menopause Needs a Whole-Body Approach — Not Just Symptom-by-Symptom Control",
+    "primary_entity_id": "menopausal-syndrome",
+    "entity_ids": [
+      "menopausal-syndrome"
+    ],
+    "updated_at": "2026-08-01",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/---/cervical-disc-herniation.md",
+    "source_article_url": "https://thewells.kr/blog/cervical-disc-herniation",
+    "source_article_title": "목디스크란 무엇인가, 팔저림이 생기는 구조부터 단계별 치료까지",
+    "primary_entity_id": "cervical-disc-herniation",
+    "entity_ids": [
+      "cervical-disc-herniation"
+    ],
+    "updated_at": "2026-08-05",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thr/en/---/what-is-cervical-disc-herniation-from-the-anatomy-behind.md",
+    "source_article_url": "https://thewells.kr/en/blog/what-is-cervical-disc-herniation-from-the-anatomy-behind",
+    "source_article_title": "What Is Cervical Disc Herniation? From the Anatomy Behind Arm Numbness to Step-by-Step Treatment",
+    "primary_entity_id": "cervical-disc-herniation",
+    "entity_ids": [
+      "cervical-disc-herniation"
+    ],
+    "updated_at": "2026-08-05",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/----/carpal-tunnel-syndrome.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/carpal-tunnel-syndrome",
+    "source_article_title": "대구 손목통증, 밤마다 손이 저려 잠에서 깬다면",
+    "primary_entity_id": "carpal-tunnel-syndrome",
+    "entity_ids": [
+      "carpal-tunnel-syndrome"
+    ],
+    "updated_at": "2026-08-06",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]

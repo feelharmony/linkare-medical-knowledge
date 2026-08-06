@@ -10,17 +10,25 @@ aliases:
   - NAD+ 정맥주사
   - NAD+ IV
   - NAD+ 주사
-last_reviewed: '2026-05-20'
+last_reviewed: '2026-07-27'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-20'
 source_count: 8
-version: 7
+version: 6
 source_count_external: 5
 source_count_clinic_pillar: 3
-clinic_footnote_ids: [1, 7, 8]
-external_footnote_ids: [2, 3, 4, 5, 6]
+clinic_footnote_ids:
+  - 1
+  - 7
+  - 8
+external_footnote_ids:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
 ---
 ## 적응증
 NAD+ 수액 치료는 만성 피로와 노화 관련 증상을 호소하는 환자, 특히 검사상 큰 이상이 없는데 피로가 지속되는 30~50대, 집중력과 작업 지속 시간이 예전 같지 않다고 느끼는 분, 운동 회복이 더디다고 느끼는 분들이 주로 상담을 요청합니다[^1]. 표준화된 임상 가이드라인은 정립 중인 단계로, 치료 전 의료진과의 상담을 통해 기대 효과와 한계를 함께 검토하는 것이 권장됩니다[^1].
@@ -43,8 +51,12 @@ NAD+(nicotinamide adenine dinucleotide)는 세포 에너지 생산(ATP 합성)·
 ## 언제 고려
 충분한 상담을 통해 기대 효과와 현재 단계에서의 한계를 이해하는 것이 중요합니다[^1]. 단기간 집중 회복이 필요하거나, 소화 흡수 기능이 떨어진 경우, 세포 수준의 컨디션 관리가 목표인 경우에는 정맥 경로가 검토될 수 있습니다[^7]. 환자별 NAD+ 기저 수치, 동반 질환, 약물 복용 상황에 따라 적응증을 개별 판단합니다.
 
+NAD+ 수액 투여 후 일시적으로 얼굴 홍조나 두근거림이 나타날 수 있으며, 주입 속도를 조절하여 완화합니다. [^1]
+
 ## 기대효과
 임상 현장에서는 NAD+ 수액 치료를 받은 환자들이 에너지 증가와 피로감 개선을 보고하며, 일부에서 수면·집중력 변화도 함께 경험합니다[^1]. 분자 수준에서는 미토콘드리아 에너지 생산과 DNA 수복 보조 기능이 기대 메커니즘으로 제시됩니다. 효과 크기와 지속 기간은 환자 기저 상태·치료 빈도·동반 생활습관 개선(수면·운동·식이)에 따라 달라지며, 단일 치료로 모든 노화 증상이 호전되는 것은 아닙니다.
+
+NAD+ 수액 치료는 생활습관 개선과 함께 진행될 때 더 높은 만족도를 제공합니다. [^1]
 
 ## 한계/주의점
 
@@ -67,28 +79,21 @@ NAD+ 수액 치료는 **수면·운동·식이·금연·체중 관리** 같은 �
 ## 치료
 NAD+ 수액은 세포 에너지 생산을 촉진하여 만성 통증 회복에 보조적 역할을 합니다[^8].
 
+---
+
 ## Citations
-
-<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
-
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^1]: [thewells.kr/blog/nad](https://thewells.kr/blog/nad)
-
 [^7]: [thewells.kr/blog/nad-vs](https://thewells.kr/blog/nad-vs)
-
 [^8]: [ansimpainfree.kr/blog/nad](https://ansimpainfree.kr/blog/nad)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
-
 [^2]: Morifuji M, Higashi S, Ebihara S, Nagata M. Ingestion of β-nicotinamide mononucleotide increased blood NAD levels, maintained walking speed, and improved sleep quality in older adults in a double-blind randomized, placebo-controlled study. *GeroScience.* 2024;46(5):4671-4688. PMID 38789831. DOI: [10.1007/s11357-024-01204-1](https://pmc.ncbi.nlm.nih.gov/articles/PMC11336149/)
-
 [^3]: Prokopidis K, Moriarty F, Bahat G, et al. The Effect of Nicotinamide Mononucleotide and Riboside on Skeletal Muscle Mass and Function: A Systematic Review and Meta-Analysis. *J Cachexia Sarcopenia Muscle.* 2025;16(3):e13799. PMID 40275690. DOI: [10.1002/jcsm.13799](https://pmc.ncbi.nlm.nih.gov/articles/PMC12022230/)
-
 [^4]: Randomized, placebo-controlled, pilot clinical study evaluating acute Niagen® IV and NAD+ IV in healthy adults. *medRxiv* preprint 2024-06-10. DOI: [10.1101/2024.06.06.24308565](https://www.medrxiv.org/content/10.1101/2024.06.06.24308565v1)
-
 [^5]: Reyna K, Heinzen G, Patel N, Ritter M, Siojo A, Legere H, Pojednic R. Intravenous infusion of nicotinamide adenine dinucleotide (NAD+) versus nicotinamide riboside (NR): a retrospective tolerability pilot study in a real-world setting. *Front Aging.* 2026;7:1652582. DOI: [10.3389/fragi.2026.1652582](https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2026.1652582/full)
-
 [^6]: NAD+ precursor supplementation in human ageing: clinical evidence and challenges. *Nature Metabolism.* 2025. PMID 41083806. DOI: [10.1038/s42255-025-01387-7](https://www.nature.com/articles/s42255-025-01387-7)
 
 ## Changelog
@@ -97,3 +102,4 @@ NAD+ 수액은 세포 에너지 생산을 촉진하여 만성 통증 회복에 �
 - 2026-05-01 v4: 내용 업데이트.
 - 2026-05-18 v5: 내용 업데이트.
 - 2026-05-20 v7: 내용 업데이트.
+- 2026-07-27 v6: 기대효과 enrich, 언제 고려 enrich
