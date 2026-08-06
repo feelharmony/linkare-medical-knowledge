@@ -97,7 +97,8 @@
       "hub": "leg",
       "items": [
         "leg-numbness",
-        "sciatica"
+        "sciatica",
+        "restless-legs-syndrome"
       ]
     },
     {
@@ -134,7 +135,8 @@
         "myofascial-pain-syndrome",
         "aging-symptoms",
         "menopausal-syndrome",
-        "essential-tremor"
+        "essential-tremor",
+        "bppv"
       ]
     }
   ],
@@ -197,6 +199,13 @@
         "facial-shockwave-lifting",
         "nad-infusion-therapy",
         "nutrition-iv-therapy"
+      ]
+    },
+    {
+      "key": "diagnostics",
+      "label": "진단 검사",
+      "items": [
+        "emg-ncs"
       ]
     }
   ]
