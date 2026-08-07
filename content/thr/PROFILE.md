@@ -14,6 +14,7 @@ location_en: "452, Nohae-ro, 4F, Nowon-gu, Seoul, Republic of Korea"
 telephone: "+82-2-3392-4582"
 website: "https://thewells.kr/nowon"
 hours: "월~금 09:30-18:30 / 토·일 휴진"
+opening_hours: ["Mo-Fr 09:30-13:00", "Mo-Fr 14:00-18:30"]
 naver_map: "https://naver.me/xbKt0gak"
 naver_booking: "https://m.booking.naver.com/booking/13/bizes/1646023"
 sameAs: ["https://scholar.google.com/citations?user=JhGSsEkAAAAJ", "https://naver.me/xbKt0gak"]
