@@ -14,6 +14,7 @@ location_en: "189, Banyawol-ro, Dong-gu, Daegu, Republic of Korea"
 telephone: "+82-53-965-5900"
 website: "https://www.ansimpainfree.kr"
 hours: "월·목 09:00-19:00 / 화·금 09:00-20:00 / 토 09:00-13:30 / 수·일 휴진"
+opening_hours: ["Mo,Tu,Th,Fr 09:00-13:00", "Mo,Th 14:00-19:00", "Tu,Fr 14:00-20:00", "Sa 09:00-13:30"]
 naver_map: "https://naver.me/xgNSHsbv"
 naver_booking: "https://booking.naver.com/booking/13/bizes/1014743"
 sameAs: ["https://www.youtube.com/@ansimpainfree", "https://naver.me/xgNSHsbv"]
