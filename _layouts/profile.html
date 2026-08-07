@@ -85,7 +85,7 @@ layout: default
     "streetAddress": {{ page.location | jsonify }},
     "addressCountry": "KR"
   },{% endif %}
-  {% if page.hours %}"openingHours": {{ page.hours | jsonify }},{% endif %}
+  {% if page.opening_hours %}"openingHours": {{ page.opening_hours | jsonify }},{% elsif page.hours %}"openingHours": {{ page.hours | jsonify }},{% endif %}
   {% if page.naver_map %}"hasMap": {{ page.naver_map | jsonify }},{% endif %}
   {% if page.google_scholar %}"sameAs": [{{ page.google_scholar | jsonify }}],{% endif %}
   "mainEntityOfPage": "{{ page.url | absolute_url }}"
