@@ -2,8 +2,8 @@
 layout: profile
 permalink: /thr/
 tenant_key: thr
-title: "더웰스의원 노원"
-hospital: "더웰스의원 노원"
+title: "더웰스의원 노원점"
+hospital: "더웰스의원 노원점"
 hospital_en: "THE WELLS Nowon"
 doctor: "박성진"
 doctor_en: "Dr. Park Sungjin"
@@ -20,7 +20,7 @@ naver_booking: "https://m.booking.naver.com/booking/16/bizes/1632094"
 google_scholar: "https://scholar.google.com/citations?user=JhGSsEkAAAAJ"
 ---
 
-# 더웰스의원 노원
+# 더웰스의원 노원점
 
 직업환경의학 전문의·의학박사 박성진 대표원장이 운영하는 프리미엄 웰니스 병원입니다.
 
