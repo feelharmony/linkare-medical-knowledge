@@ -1759,5 +1759,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/----/nad-iv-therapy-personalized-based-on-test-results.md",
+    "source_article_url": "https://thewells.kr/blog/nad-iv-therapy-personalized-based-on-test-results",
+    "source_article_title": "잠실 NAD수액, 검사 결과에 따라 구성이 달라지는 이유",
+    "primary_entity_id": "nad-infusion-therapy",
+    "entity_ids": [
+      "nad-infusion-therapy"
+    ],
+    "updated_at": "2026-08-08",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
