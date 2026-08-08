@@ -1774,5 +1774,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thq/en/----/jamsil-nad-iv-drip-why-the-formula-changes-based-on-your.md",
+    "source_article_url": "https://thewells.kr/en/blog/jamsil-nad-iv-drip-why-the-formula-changes-based-on-your",
+    "source_article_title": "Jamsil NAD+ IV Drip: Why the Formula Changes Based on Your Test Results",
+    "primary_entity_id": "nad-infusion-therapy",
+    "entity_ids": [
+      "nad-infusion-therapy"
+    ],
+    "updated_at": "2026-08-08",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
