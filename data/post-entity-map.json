@@ -1789,5 +1789,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thq/ko/----/stem-cell-therapy.md",
+    "source_article_url": "https://thewells.kr/blog/stem-cell-therapy",
+    "source_article_title": "줄기세포주사, 자가 혈액에서 분리하는 과정과 적용 범위",
+    "primary_entity_id": "stem-cell-therapy",
+    "entity_ids": [
+      "stem-cell-therapy"
+    ],
+    "updated_at": "2026-08-11",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
