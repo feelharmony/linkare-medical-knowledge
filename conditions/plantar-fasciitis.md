@@ -5,7 +5,7 @@ entity_type: condition
 permalink: /conditions/plantar-fasciitis/
 title: 족저근막염
 title_en: plantar fasciitis
-description: 발뒤꿈치 아래 안쪽과 발바닥 근막 부착부의 반복 부하·퇴행성 변화로 아침 첫발 통증과 보행 통증을 유발하는 대표적 발뒤꿈치 통증 질환
+description: 발바닥 근막의 염증성 질환
 aliases:
   - 족저근막염
   - 족저 근막염
@@ -13,27 +13,37 @@ aliases:
   - plantar fasciitis
   - plantar fasciopathy
   - plantar heel pain
-last_reviewed: '2026-07-03'
+last_reviewed: '2026-08-11'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
-source_count: 5
+source_count: 6
 source_count_external: 5
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4, 5]
-version: 4
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 6
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+version: 5
 ---
 ## 정의
 족저근막염(plantar fasciitis)은 발뒤꿈치뼈(calcaneus) 안쪽 아래에 붙는 족저근막 부위에서 통증이 생기는 대표적인 [발뒤꿈치 통증](/symptoms/heel-pain/) 질환입니다 [^1][^2]. 전통적으로 “염증”이라는 이름을 쓰지만, 만성 환자에서는 반복 부하에 따른 근막 변성·미세손상·조직 회복 실패가 함께 작용하므로 plantar fasciopathy 또는 plantar heel pain으로도 설명합니다 [^2][^3].
 
 전형적인 증상은 아침에 일어나 첫발을 디딜 때 뒤꿈치 아래 안쪽이 찌릿하게 아픈 것입니다. 오래 앉았다 일어날 때 심하고, 조금 걷다 완화되다가 오래 서거나 걸으면 다시 심해지는 양상이 흔합니다 [^1][^2].
 
+아침에 첫걸음을 내딛을 때 발뒤꿈치에 찌르는 듯한 통증이 나타나며, 이는 족저근막의 구조적 손상 때문입니다[^6].
+
 ## 병태
 족저근막은 발 아치를 지지하고 보행 때 충격을 분산하는 두꺼운 섬유성 구조입니다. 체중 증가, 갑작스러운 보행·러닝 증가, 딱딱한 바닥, 종아리-아킬레스 유연성 저하, 발 아치 구조, 오래 서는 직업 등이 족저근막 부착부에 반복 부하를 만들 수 있습니다 [^1][^3].
 
 통증은 단순 염증만으로 설명하기 어렵습니다. 만성 족저근막염은 근막 비후, 콜라겐 배열 변화, 국소 혈류·신경 변화, 주변 근육 기능 저하가 함께 관여할 수 있어, 치료도 “염증 주사 한 번”보다 부하 관리·스트레칭·근력 회복·체외충격파·선택적 주사치료를 단계적으로 배치하는 구조가 적절합니다 [^2][^4].
+
+아침에 첫발을 내딛을 때 발뒤꿈치에 찌르는 듯한 통증이 발생하는 것은 족저근막이 수면 중 단축된 상태에서 갑작스럽게 체중이 실리기 때문입니다[^6].
 
 ## 증상
 가장 특징적인 증상은 뒤꿈치 아래 안쪽의 국소 압통과 아침 첫발 통증입니다 [^1][^2]. 계단 오르기, 오래 서기, 장시간 보행, 맨발·얇은 신발 착용에서 악화될 수 있습니다. 통증이 발바닥 안쪽으로 퍼지기도 하지만, 주증상은 뒤꿈치 부착부 통증인 경우가 많습니다.
@@ -61,8 +71,13 @@ version: 4
 
 ---
 
+---
+
 ## Citations
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^6]: [안심튼튼마취통증의학과 — 대구 족저근막염, 아침 발뒤꿈치 통증 원인과 치료](https://ansimpainfree.kr/blog/plantar-fasciitis) · 근거: "아침에 첫발을 내딛는 순간 발뒤꿈치에 찌르는 듯한 통증이 있다면, 단순한 피로가 아닙니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: [Tu P, Bytomski JR. Heel Pain: Diagnosis and Management. Am Fam Physician. 2018;97(2):86-93. PMID 29365222](https://pubmed.ncbi.nlm.nih.gov/29365222/)
@@ -73,3 +88,4 @@ version: 4
 
 ## Changelog
 - 2026-07-03 v4: 내용 업데이트.
+- 2026-08-11 v5: 정의 enrich, 병태 enrich
