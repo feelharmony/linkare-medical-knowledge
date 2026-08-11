@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-08-03",
+  "updated_at": "2026-08-11",
   "entities": {
     "aging": [
       {
@@ -866,6 +866,19 @@
           "diagnosis"
         ],
         "excerpt": "처음 호소되는 증상은 팔꿈치 안쪽의 뾰족한 통증입니다."
+      }
+    ],
+    "plantar-fasciitis": [
+      {
+        "footnote_id": 6,
+        "url": "https://ansimpainfree.kr/blog/plantar-fasciitis",
+        "title": "안심튼튼마취통증의학과 — 대구 족저근막염, 아침 발뒤꿈치 통증 원인과 치료",
+        "post_id": "b7dd9673-330a-4080-a366-6bb007a219c4",
+        "anchors": [
+          "definition",
+          "pathophysiology"
+        ],
+        "excerpt": "아침에 첫발을 내딛는 순간 발뒤꿈치에 찌르는 듯한 통증이 있다면, 단순한 피로가 아닙니다."
       }
     ]
   }
