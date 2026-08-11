@@ -1804,5 +1804,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thq/en/----/stem-cell-injections-how-components-are-separated-from-your.md",
+    "source_article_url": "https://thewells.kr/en/blog/stem-cell-injections-how-components-are-separated-from-your",
+    "source_article_title": "Stem Cell Injections: How Components Are Separated from Your Own Blood and Where They're Used",
+    "primary_entity_id": "stem-cell-therapy",
+    "entity_ids": [
+      "stem-cell-therapy"
+    ],
+    "updated_at": "2026-08-11",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
