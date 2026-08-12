@@ -1834,5 +1834,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thr/en/----/how-extracorporeal-shockwave-therapy-works-indications.md",
+    "source_article_url": "https://thewells.kr/en/blog/how-extracorporeal-shockwave-therapy-works-indications",
+    "source_article_title": "How Extracorporeal Shockwave Therapy Works: Indications, Device Types, and Session-by-Session Response",
+    "primary_entity_id": "eswt",
+    "entity_ids": [
+      "eswt"
+    ],
+    "updated_at": "2026-08-12",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
