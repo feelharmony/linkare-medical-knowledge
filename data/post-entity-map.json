@@ -1819,5 +1819,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/----/eswt.md",
+    "source_article_url": "https://thewells.kr/blog/eswt",
+    "source_article_title": "체외충격파 치료의 원리와 적응 통증, 기기 방식과 회차별 반응",
+    "primary_entity_id": "eswt",
+    "entity_ids": [
+      "eswt"
+    ],
+    "updated_at": "2026-08-12",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
