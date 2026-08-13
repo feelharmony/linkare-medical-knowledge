@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-08-11",
+  "updated_at": "2026-08-13",
   "entities": {
     "aging": [
       {
@@ -154,6 +154,17 @@
         "post_id": null,
         "anchors": [],
         "excerpt": null
+      },
+      {
+        "footnote_id": 9,
+        "url": "https://thewells.kr/blog/knee-osteoarthritis",
+        "title": "더웰스의원 — 무릎통증, 퇴행성관절염 비수술 치료 가이드",
+        "post_id": "cc7609ac-bb87-4004-bbe0-cda899492c9d",
+        "anchors": [
+          "symptoms",
+          "diagnosis"
+        ],
+        "excerpt": "사진에 나타난 마모 정도와 아픔의 크기가 항상 일치하지는 않습니다."
       }
     ],
     "lateral-epicondylitis": [
