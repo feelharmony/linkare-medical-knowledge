@@ -1849,5 +1849,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/--/cervicogenic-headache.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/cervicogenic-headache",
+    "source_article_title": "대구 두통, 뒷머리에서 시작해 눈 주위까지 번진다면",
+    "primary_entity_id": "cervicogenic-headache",
+    "entity_ids": [
+      "cervicogenic-headache"
+    ],
+    "updated_at": "2026-08-13",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
