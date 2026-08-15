@@ -1864,5 +1864,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/----/orthostatic-dizziness-diagnosis-criteria.md",
+    "source_article_url": "https://thewells.kr/blog/orthostatic-dizziness-diagnosis-criteria",
+    "source_article_title": "기립성어지럼증, 빈혈·혈압·약물·자율신경을 구분하는 기준과 검사",
+    "primary_entity_id": "orthostatic-dizziness",
+    "entity_ids": [
+      "orthostatic-dizziness"
+    ],
+    "updated_at": "2026-08-15",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
