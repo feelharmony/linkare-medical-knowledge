@@ -1879,5 +1879,18 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/gtop/ko/------/plantar-fasciitis.md",
+    "source_article_url": "https://guritopbone.com/blog/plantar-fasciitis",
+    "source_article_title": "족저근막염, 아침 첫발이 아픈데 발바닥까지 저리다면",
+    "primary_entity_id": "plantar-fasciitis",
+    "entity_ids": [
+      "plantar-fasciitis"
+    ],
+    "updated_at": "2026-08-17",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "gtop"
   }
 ]
