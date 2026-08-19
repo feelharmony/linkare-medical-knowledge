@@ -1907,5 +1907,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thq/en/----/orthostatic-dizziness-how-to-distinguish-anemia-blood.md",
+    "source_article_url": "https://thewells.kr/en/blog/orthostatic-dizziness-how-to-distinguish-anemia-blood",
+    "source_article_title": "Orthostatic Dizziness: How to Distinguish Anemia, Blood Pressure, Medications, and Autonomic Nervous System Causes",
+    "primary_entity_id": "orthostatic-dizziness",
+    "entity_ids": [
+      "orthostatic-dizziness"
+    ],
+    "updated_at": "2026-08-19",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
