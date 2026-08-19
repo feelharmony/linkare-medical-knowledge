@@ -1922,5 +1922,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/en/----/medial-epicondylitis-treatment-managing-load-and-treatment.md",
+    "source_article_url": "https://thewells.kr/en/blog/medial-epicondylitis-treatment-managing-load-and-treatment",
+    "source_article_title": "Medial Epicondylitis Treatment: Managing Load and Treatment Sequencing When You Can't Take Time Off Work",
+    "primary_entity_id": "medial-epicondylitis",
+    "entity_ids": [
+      "medial-epicondylitis"
+    ],
+    "updated_at": "2026-08-19",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
