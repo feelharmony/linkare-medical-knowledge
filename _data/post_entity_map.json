@@ -1952,5 +1952,18 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/gtop/ko/------/hallux-valgus.md",
+    "source_article_url": "https://guritopbone.com/blog/hallux-valgus",
+    "source_article_title": "무지외반증, 엄지발가락이 휘면서 신발이 안 맞기 시작했다면",
+    "primary_entity_id": "hallux-valgus",
+    "entity_ids": [
+      "hallux-valgus"
+    ],
+    "updated_at": "2026-08-25",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "gtop"
   }
 ]
