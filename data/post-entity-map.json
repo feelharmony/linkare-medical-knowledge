@@ -1965,5 +1965,20 @@
     "sub_topic_type": null,
     "is_pillar": true,
     "tenant_key": "gtop"
+  },
+  {
+    "post_path": "content/thq/ko/----/wrist-tenosynovitis-thumb-side-pain.md",
+    "source_article_url": "https://thewells.kr/blog/wrist-tenosynovitis-thumb-side-pain",
+    "source_article_title": "손목 건초염, 아이를 안고부터 엄지 쪽 손목이 아프기 시작했다면",
+    "primary_entity_id": "de-quervain",
+    "entity_ids": [
+      "de-quervain"
+    ],
+    "updated_at": "2026-08-25",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
