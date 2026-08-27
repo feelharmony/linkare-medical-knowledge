@@ -1980,5 +1980,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/apfree/ko/--/occipital-neuralgia.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/occipital-neuralgia",
+    "source_article_title": "후두신경통, 뒤통수에 전기가 튀듯 찌르는 통증이 반복된다면",
+    "primary_entity_id": "occipital-neuralgia",
+    "entity_ids": [
+      "occipital-neuralgia"
+    ],
+    "updated_at": "2026-08-27",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
