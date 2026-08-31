@@ -1995,5 +1995,18 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/gtop/ko/----/morton-neuroma-vs-plantar-fasciitis.md",
+    "source_article_url": "https://guritopbone.com/blog/morton-neuroma-vs-plantar-fasciitis",
+    "source_article_title": "지간신경종과 족저근막염 감별: 신발을 벗으면 편해지는 발가락 사이 화끈거림",
+    "primary_entity_id": "mortons-neuroma",
+    "entity_ids": [
+      "mortons-neuroma"
+    ],
+    "updated_at": "2026-08-31",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop"
   }
 ]
