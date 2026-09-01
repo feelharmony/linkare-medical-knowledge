@@ -2008,5 +2008,20 @@
     "sub_topic_type": null,
     "is_pillar": false,
     "tenant_key": "gtop"
+  },
+  {
+    "post_path": "content/thq/ko/-----/cervical-dystonia-torticollis-neck-turning.md",
+    "source_article_url": "https://thewells.kr/blog/cervical-dystonia-torticollis-neck-turning",
+    "source_article_title": "사경증과 근긴장이상증, 힘을 줘도 목이 한쪽으로 돌아가는 이유",
+    "primary_entity_id": "cervical-dystonia",
+    "entity_ids": [
+      "cervical-dystonia"
+    ],
+    "updated_at": "2026-09-01",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
