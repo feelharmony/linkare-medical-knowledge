@@ -2023,5 +2023,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/----/achilles-tendinitis-plantar-fasciitis.md",
+    "source_article_url": "https://thewells.kr/blog/achilles-tendinitis-plantar-fasciitis",
+    "source_article_title": "뒤꿈치 뒤가 아픈 아킬레스건염, 발바닥이 아픈 족저근막염",
+    "primary_entity_id": "achilles-tendinitis",
+    "entity_ids": [
+      "achilles-tendinitis"
+    ],
+    "updated_at": "2026-09-02",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
