@@ -2038,5 +2038,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/--/patellar-tendinitis-knee-pain-stairs.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/patellar-tendinitis-knee-pain-stairs",
+    "source_article_title": "슬개건염, 계단·기립 동작의 무릎 앞 통증이 연골과 갈리는 지점",
+    "primary_entity_id": "patellar-tendinitis",
+    "entity_ids": [
+      "patellar-tendinitis"
+    ],
+    "updated_at": "2026-09-03",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
