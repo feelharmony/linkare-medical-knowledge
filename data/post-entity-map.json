@@ -2053,5 +2053,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/----/thoracic-outlet-syndrome-arm-numbness.md",
+    "source_article_url": "https://thewells.kr/blog/thoracic-outlet-syndrome-arm-numbness",
+    "source_article_title": "흉곽출구증후군, 목디스크가 아니라는데 팔이 계속 저리다면",
+    "primary_entity_id": "thoracic-outlet-syndrome",
+    "entity_ids": [
+      "thoracic-outlet-syndrome"
+    ],
+    "updated_at": "2026-09-05",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
