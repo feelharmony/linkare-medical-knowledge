@@ -2068,5 +2068,18 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/gtop/ko/-----/tennis-elbow-vs-golf-elbow-different-causes.md",
+    "source_article_url": "https://guritopbone.com/blog/tennis-elbow-vs-golf-elbow-different-causes",
+    "source_article_title": "테니스엘보와 골프엘보, 팔꿈치 바깥쪽과 안쪽 통증은 원인부터 다릅니다",
+    "primary_entity_id": "lateral-epicondylitis",
+    "entity_ids": [
+      "lateral-epicondylitis"
+    ],
+    "updated_at": "2026-09-07",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop"
   }
 ]
