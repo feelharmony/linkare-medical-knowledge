@@ -2081,5 +2081,20 @@
     "sub_topic_type": null,
     "is_pillar": false,
     "tenant_key": "gtop"
+  },
+  {
+    "post_path": "content/thq/ko/----/vestibular-neuritis-dizziness-days.md",
+    "source_article_url": "https://thewells.kr/blog/vestibular-neuritis-dizziness-days",
+    "source_article_title": "전정신경염, 이석증과 달리 어지럼이 며칠씩 이어진다면 원인이 다릅니다",
+    "primary_entity_id": "vestibular-neuritis",
+    "entity_ids": [
+      "vestibular-neuritis"
+    ],
+    "updated_at": "2026-09-08",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
