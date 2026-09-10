@@ -2096,5 +2096,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/----/garlic-vitamin-whitening-injection-guide.md",
+    "source_article_url": "https://thewells.kr/blog/garlic-vitamin-whitening-injection-guide",
+    "source_article_title": "마늘주사·비타민주사·백옥주사의 성분 차이와 상태별 영양수액 선택",
+    "primary_entity_id": "nutrition-iv-therapy",
+    "entity_ids": [
+      "nutrition-iv-therapy"
+    ],
+    "updated_at": "2026-09-10",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
