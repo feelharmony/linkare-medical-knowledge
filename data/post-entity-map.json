@@ -2111,5 +2111,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/-------/myofascial-pain-syndrome-trigger-point-examination.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/myofascial-pain-syndrome-trigger-point-examination",
+    "source_article_title": "근막통증증후군의 통증유발점 진찰과 치료 반응",
+    "primary_entity_id": "myofascial-pain-syndrome",
+    "entity_ids": [
+      "myofascial-pain-syndrome"
+    ],
+    "updated_at": "2026-09-10",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
