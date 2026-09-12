@@ -2126,5 +2126,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/--/early-morning-awakening-sleep-structure.md",
+    "source_article_url": "https://thewells.kr/blog/early-morning-awakening-sleep-structure",
+    "source_article_title": "새벽에 깨는 잠의 각성 구조와 수면 유지 관리",
+    "primary_entity_id": "insomnia",
+    "entity_ids": [
+      "insomnia"
+    ],
+    "updated_at": "2026-09-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
