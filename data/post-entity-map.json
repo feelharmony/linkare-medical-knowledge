@@ -2141,5 +2141,18 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/gtop/ko/----/peripheral-neuropathy-vs-disc-disease.md",
+    "source_article_url": "https://guritopbone.com/blog/peripheral-neuropathy-vs-disc-disease",
+    "source_article_title": "말초신경병증 증상, 양쪽 발 저림과 디스크는 어떻게 다를까",
+    "primary_entity_id": "peripheral-neuropathy",
+    "entity_ids": [
+      "peripheral-neuropathy"
+    ],
+    "updated_at": "2026-09-14",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop"
   }
 ]
