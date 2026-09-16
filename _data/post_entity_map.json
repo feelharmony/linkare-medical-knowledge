@@ -2169,5 +2169,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/----/lower-back-disc-causes-symptoms-treatment.md",
+    "source_article_url": "https://thewells.kr/blog/lower-back-disc-causes-symptoms-treatment",
+    "source_article_title": "허리디스크 원인과 증상, 다리 저림부터 단계별 치료까지",
+    "primary_entity_id": "lumbar-disc-herniation",
+    "entity_ids": [
+      "lumbar-disc-herniation"
+    ],
+    "updated_at": "2026-09-16",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
