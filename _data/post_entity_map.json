@@ -2184,5 +2184,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/--/shoulder-impingement-syndrome-arm-pain.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/shoulder-impingement-syndrome-arm-pain",
+    "source_article_title": "어깨충돌증후군, 팔 올릴 때 아픈 이유와 치료",
+    "primary_entity_id": "shoulder-impingement-syndrome",
+    "entity_ids": [
+      "shoulder-impingement-syndrome"
+    ],
+    "updated_at": "2026-09-17",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
