@@ -2199,5 +2199,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/--/sacroiliac-joint-syndrome-symptoms.md",
+    "source_article_url": "https://thewells.kr/blog/sacroiliac-joint-syndrome-symptoms",
+    "source_article_title": "천장관절증후군 증상, 골반 뒤 통증과 허리디스크의 차이",
+    "primary_entity_id": "sacroiliac-joint-dysfunction",
+    "entity_ids": [
+      "sacroiliac-joint-dysfunction"
+    ],
+    "updated_at": "2026-09-19",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
