@@ -2214,5 +2214,18 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/gtop/ko/----/rotator-cuff-tear-arm-weakness.md",
+    "source_article_url": "https://guritopbone.com/blog/rotator-cuff-tear-arm-weakness",
+    "source_article_title": "회전근개파열, 팔에 힘이 빠지는 건 힘줄 때문일까요 신경 때문일까요",
+    "primary_entity_id": "rotator-cuff-tear",
+    "entity_ids": [
+      "rotator-cuff-tear"
+    ],
+    "updated_at": "2026-09-21",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop"
   }
 ]
