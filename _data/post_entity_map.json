@@ -2227,5 +2227,20 @@
     "sub_topic_type": null,
     "is_pillar": false,
     "tenant_key": "gtop"
+  },
+  {
+    "post_path": "content/thq/ko/--/migraine-vs-regular-headache-visual-symptoms.md",
+    "source_article_url": "https://thewells.kr/blog/migraine-vs-regular-headache-visual-symptoms",
+    "source_article_title": "편두통, 눈앞이 번쩍이고 속이 울렁거리는 두통은 왜 다를까요",
+    "primary_entity_id": "migraine",
+    "entity_ids": [
+      "migraine"
+    ],
+    "updated_at": "2026-09-22",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
