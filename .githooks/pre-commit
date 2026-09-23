@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# 커밋 전 entity lint — CI(.github/workflows/jekyll.yml "Lint entities (hard gate)")와 같은 검사.
+#
+# 왜: 2026-08-10~09-15 에 로컬 커밋된 entity 8건이 CI 를 거치지 않은 채 쌓였다가 09-21 에
+# 한꺼번에 push 되며 lint FAIL 5건으로 Pages 빌드가 연속 실패했다(09-21~09-23 배포 0건).
+# 커밋 시점에 같은 게이트를 태워 main 에 들어가기 전에 막는다.
+#
+# 설치(클론마다 1회): git config core.hooksPath .githooks
+set -euo pipefail
+cd "$(git rev-parse --show-toplevel)"
+
+if ! git diff --cached --name-only --diff-filter=ACMRD \
+  | grep -qE '^(conditions|treatments|symptoms|body-parts|concepts)/|^_data/body_part_map\.json$|^scripts/lint-entity\.js$'; then
+  exit 0
+fi
+
+if ! node scripts/lint-entity.js --all; then
+  echo
+  echo "⛔ entity lint 실패 — 위 FAIL 을 고친 뒤 커밋하세요. (CI 에서도 같은 이유로 배포가 막힙니다)"
+  exit 1
+fi

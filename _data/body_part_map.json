@@ -12,7 +12,10 @@
         "cluster-headache",
         "cervicogenic-headache",
         "occipital-neuralgia",
-        "trigeminal-neuralgia"
+        "trigeminal-neuralgia",
+        "eyelid-myokymia",
+        "vestibular-neuritis",
+        "orthostatic-dizziness"
       ]
     },
     {
@@ -77,7 +80,8 @@
         "spondylolisthesis",
         "scoliosis",
         "sciatica",
-        "cauda-equina-syndrome"
+        "cauda-equina-syndrome",
+        "sacroiliac-joint-dysfunction"
       ]
     },
     {
@@ -138,7 +142,8 @@
         "aging-symptoms",
         "menopausal-syndrome",
         "essential-tremor",
-        "bppv"
+        "bppv",
+        "peripheral-neuropathy"
       ]
     }
   ],
