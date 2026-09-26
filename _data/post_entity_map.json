@@ -2272,5 +2272,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/--/back-neck-pain-stiff-normal-imaging.md",
+    "source_article_url": "https://thewells.kr/blog/back-neck-pain-stiff-normal-imaging",
+    "source_article_title": "뒷목통증, 사진은 정상인데 계속 뻣뻣한 이유",
+    "primary_entity_id": "manual-therapy",
+    "entity_ids": [
+      "manual-therapy"
+    ],
+    "updated_at": "2026-09-26",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
