@@ -2287,5 +2287,18 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/gtop/ko/----/benign-paroxysmal-positional-vertigo-symptoms.md",
+    "source_article_url": "https://guritopbone.com/blog/benign-paroxysmal-positional-vertigo-symptoms",
+    "source_article_title": "이석증 증상, 돌아누울 때 도는 어지럼과 비디오안진검사",
+    "primary_entity_id": "bppv",
+    "entity_ids": [
+      "bppv"
+    ],
+    "updated_at": "2026-09-29",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop"
   }
 ]
