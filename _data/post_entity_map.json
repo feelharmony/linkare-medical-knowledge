@@ -2300,5 +2300,20 @@
     "sub_topic_type": null,
     "is_pillar": false,
     "tenant_key": "gtop"
+  },
+  {
+    "post_path": "content/thr/ko/----/carpal-tunnel-syndrome-night-numbness.md",
+    "source_article_url": "https://thewells.kr/blog/carpal-tunnel-syndrome-night-numbness",
+    "source_article_title": "손목터널증후군 증상, 밤에 손이 저려 깨는 이유와 치료",
+    "primary_entity_id": "carpal-tunnel-syndrome",
+    "entity_ids": [
+      "carpal-tunnel-syndrome"
+    ],
+    "updated_at": "2026-09-30",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
