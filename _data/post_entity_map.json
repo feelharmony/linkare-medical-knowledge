@@ -2315,5 +2315,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/--/trigger-finger-syndrome-treatment.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/trigger-finger-syndrome-treatment",
+    "source_article_title": "방아쇠수지증후군, 손가락이 걸렸다 튕기듯 펴질 때 치료",
+    "primary_entity_id": "trigger-finger",
+    "entity_ids": [
+      "trigger-finger"
+    ],
+    "updated_at": "2026-10-01",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
