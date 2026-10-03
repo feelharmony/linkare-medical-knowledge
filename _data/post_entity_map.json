@@ -2330,5 +2330,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/--/trigeminal-neuralgia-symptoms-facial-pain.md",
+    "source_article_url": "https://thewells.kr/blog/trigeminal-neuralgia-symptoms-facial-pain",
+    "source_article_title": "삼차신경통 증상, 세수할 때 얼굴이 찌릿한 통증과 치통의 차이",
+    "primary_entity_id": "trigeminal-neuralgia",
+    "entity_ids": [
+      "trigeminal-neuralgia"
+    ],
+    "updated_at": "2026-10-03",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
