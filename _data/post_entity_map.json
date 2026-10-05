@@ -2345,5 +2345,18 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/gtop/ko/----/spinal-stenosis-leg-numbness-nerve-compression.md",
+    "source_article_url": "https://guritopbone.com/blog/spinal-stenosis-leg-numbness-nerve-compression",
+    "source_article_title": "척추관협착증 걷다 쉬는 다리 저림, 눌린 신경은 어떻게 찾을까",
+    "primary_entity_id": "spinal-stenosis",
+    "entity_ids": [
+      "spinal-stenosis"
+    ],
+    "updated_at": "2026-10-05",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop"
   }
 ]
