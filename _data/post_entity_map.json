@@ -2358,5 +2358,20 @@
     "sub_topic_type": null,
     "is_pillar": false,
     "tenant_key": "gtop"
+  },
+  {
+    "post_path": "content/thq/ko/--/tailbone-pain-after-falling-or-childbirth.md",
+    "source_article_url": "https://thewells.kr/blog/tailbone-pain-after-falling-or-childbirth",
+    "source_article_title": "엉덩방아 찧거나 출산 후 앉을 때 심해지는 꼬리뼈통증",
+    "primary_entity_id": "coccydynia",
+    "entity_ids": [
+      "coccydynia"
+    ],
+    "updated_at": "2026-10-06",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
