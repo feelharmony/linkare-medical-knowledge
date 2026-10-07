@@ -2373,5 +2373,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/-----/trigger-finger-syndrome-treatment.md",
+    "source_article_url": "https://thewells.kr/blog/trigger-finger-syndrome-treatment",
+    "source_article_title": "아침마다 손가락이 걸려 안 펴지나요? 방아쇠수지증후군 단계별 대처법",
+    "primary_entity_id": "trigger-finger",
+    "entity_ids": [
+      "trigger-finger"
+    ],
+    "updated_at": "2026-10-07",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
