@@ -2388,5 +2388,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/--/disc-treatment-one-sided-buttock-pain-sacroiliac.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/disc-treatment-one-sided-buttock-pain-sacroiliac",
+    "source_article_title": "디스크 치료 뒤 엉치 한쪽만 계속 쑤실 때 의심하는 천장관절증후군",
+    "primary_entity_id": "sacroiliac-joint-dysfunction",
+    "entity_ids": [
+      "sacroiliac-joint-dysfunction"
+    ],
+    "updated_at": "2026-10-08",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
