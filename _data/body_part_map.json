@@ -15,7 +15,8 @@
         "trigeminal-neuralgia",
         "eyelid-myokymia",
         "vestibular-neuritis",
-        "orthostatic-dizziness"
+        "orthostatic-dizziness",
+        "tinnitus"
       ]
     },
     {
@@ -81,7 +82,8 @@
         "scoliosis",
         "sciatica",
         "cauda-equina-syndrome",
-        "sacroiliac-joint-dysfunction"
+        "sacroiliac-joint-dysfunction",
+        "flat-back-syndrome"
       ]
     },
     {
