@@ -2403,5 +2403,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/--/postpartum-diet-hair-loss-telogen-effluvium.md",
+    "source_article_url": "https://thewells.kr/blog/postpartum-diet-hair-loss-telogen-effluvium",
+    "source_article_title": "출산이나 다이어트 후 머리카락이 쏟아질 때 휴지기탈모일까?",
+    "primary_entity_id": "telogen-effluvium",
+    "entity_ids": [
+      "telogen-effluvium"
+    ],
+    "updated_at": "2026-10-10",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
