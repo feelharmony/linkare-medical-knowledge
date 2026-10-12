@@ -2449,5 +2449,1085 @@
     "tenant_key": "gtop",
     "doctor_id": "dr-lee-sungwook",
     "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thr/ko/pain/nowon-orthopedic-non-surgical-treatment-3-types.md",
+    "source_article_url": "https://thewells.kr/blog/nowon-orthopedic-non-surgical-treatment-3-types",
+    "source_article_title": "노원정형외과, 통증 원인별 비수술 치료 안내",
+    "primary_entity_id": "musculoskeletal-pain",
+    "entity_ids": [
+      "musculoskeletal-pain"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thq/ko/----/postpartum-wrist-lower-back-pain-causes.md",
+    "source_article_url": "https://thewells.kr/blog/postpartum-wrist-lower-back-pain-causes",
+    "source_article_title": "출산 후 손목·허리 통증, 산후조리 지나도 계속되는 이유",
+    "primary_entity_id": "postpartum-pain",
+    "entity_ids": [
+      "postpartum-pain"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/apfree/ko/-----/shoulder-calcific-tendinitis-acute-pain.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/shoulder-calcific-tendinitis-acute-pain",
+    "source_article_title": "대구 석회성건염 극심한 어깨 통증, 원인과 치료",
+    "primary_entity_id": "calcific-tendinitis",
+    "entity_ids": [
+      "calcific-tendinitis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/ko/---/sleep-insomnia-tms-treatment-guide.md",
+    "source_article_url": "https://thewells.kr/blog/sleep-insomnia-tms-treatment-guide",
+    "source_article_title": "노원 불면증, 수면제 의존 줄이는 비약물 치료 TMS",
+    "primary_entity_id": "transcranial-magnetic-stimulation",
+    "entity_ids": [
+      "transcranial-magnetic-stimulation"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thq/ko/-----/child-height-growth-spine-alignment.md",
+    "source_article_url": "https://thewells.kr/blog/child-height-growth-spine-alignment",
+    "source_article_title": "아이 키 성장에 영향을 미치는 요소 척추정렬이 중요합니다. ",
+    "primary_entity_id": "scoliosis",
+    "entity_ids": [
+      "scoliosis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thq/ko/---/benalip-leptin-combined-treatment.md",
+    "source_article_url": "https://thewells.kr/blog/benalip-leptin-combined-treatment",
+    "source_article_title": "잠실 피부 리프팅, 열을 가하지 않고 안전하게 하는 방법",
+    "primary_entity_id": "facial-shockwave-lifting",
+    "entity_ids": [
+      "facial-shockwave-lifting"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/----/frozen-shoulder-diagnosis-treatment.md",
+    "source_article_url": "https://thewells.kr/blog/frozen-shoulder-diagnosis-treatment",
+    "source_article_title": "노원 어깨통증, 오십견 증상 제대로 확인하기",
+    "primary_entity_id": "frozen-shoulder",
+    "entity_ids": [
+      "frozen-shoulder"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/------/lumbar-spinal-stenosis-walking-rest.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/lumbar-spinal-stenosis-walking-rest",
+    "source_article_title": "대구 허리협착증: 걷기 힘든 다리 통증의 원인",
+    "primary_entity_id": "spinal-stenosis",
+    "entity_ids": [
+      "spinal-stenosis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/ko/----/heel-pain-6-weeks-not-plantar-fasciitis.md",
+    "source_article_url": "https://thewells.kr/blog/heel-pain-6-weeks-not-plantar-fasciitis",
+    "source_article_title": "6주째 낫지 않는 발뒤꿈치 통증, 족저근막염이 아닐 수 있습니다",
+    "primary_entity_id": "plantar-fasciitis",
+    "entity_ids": [
+      "plantar-fasciitis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thq/ko/-----/persistent-headache-causes-beyond-painkillers.md",
+    "source_article_url": "https://thewells.kr/blog/persistent-headache-causes-beyond-painkillers",
+    "source_article_title": "잠실 신경과, 만성 두통 원인부터 치료까지",
+    "primary_entity_id": "cervicogenic-headache",
+    "entity_ids": [
+      "cervicogenic-headache"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/----/ligament-strengthening-injection-divided-doses.md",
+    "source_article_url": "https://thewells.kr/blog/ligament-strengthening-injection-divided-doses",
+    "source_article_title": "노원 인대강화 PDRN: 개인별 맞춤 치료 과정",
+    "primary_entity_id": "prolotherapy",
+    "entity_ids": [
+      "prolotherapy"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/----/frozen-shoulder-pain-dressing-difficulty.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/frozen-shoulder-pain-dressing-difficulty",
+    "source_article_title": "대구 오십견, 정확한 진단이 중요한 이유",
+    "primary_entity_id": "frozen-shoulder",
+    "entity_ids": [
+      "frozen-shoulder"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/ko/----/mri-normal-sciatica-causes-diagnosis.md",
+    "source_article_url": "https://thewells.kr/blog/mri-normal-sciatica-causes-diagnosis",
+    "source_article_title": "MRI 정상인데 좌골신경통, 디스크 밖 원인과 진단법",
+    "primary_entity_id": "sciatica",
+    "entity_ids": [
+      "sciatica"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thq/ko/----/body-shape-fascia-circulation.md",
+    "source_article_url": "https://thewells.kr/blog/body-shape-fascia-circulation",
+    "source_article_title": "체중은 그대로인데 몸선만 달라졌다면, 체형은 근막과 순환에서 갈립니다",
+    "primary_entity_id": "body-shape-change",
+    "entity_ids": [
+      "body-shape-change"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thq/ko/----/shoulder-height-difference-rounded-shoulders-pain.md",
+    "source_article_url": "https://thewells.kr/blog/shoulder-height-difference-rounded-shoulders-pain",
+    "source_article_title": "잠실어깨통증, 턱관절과 목에서 원인을 찾다",
+    "primary_entity_id": "shoulder-impingement-syndrome",
+    "entity_ids": [
+      "shoulder-impingement-syndrome"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/--/hair-loss-medication-reduced-effectiveness.md",
+    "source_article_url": "https://thewells.kr/blog/hair-loss-medication-reduced-effectiveness",
+    "source_article_title": "노원 탈모병원, 약효 감소 시 체크리스트",
+    "primary_entity_id": "androgenetic-alopecia",
+    "entity_ids": [
+      "androgenetic-alopecia"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/----/plantar-fasciitis-pain-after-3-months-treatment.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/plantar-fasciitis-pain-after-3-months-treatment",
+    "source_article_title": "족저근막염 3개월 치료 후에도 통증이 남는다면: 감별진단과 다음 단계",
+    "primary_entity_id": "plantar-fasciitis",
+    "entity_ids": [
+      "plantar-fasciitis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/ko/----/30-5.md",
+    "source_article_url": "https://thewells.kr/blog/30-5",
+    "source_article_title": "노원 척추관협착증: 걷기 힘들어질 때 치료 선택 가이드",
+    "primary_entity_id": "spinal-stenosis",
+    "entity_ids": [
+      "spinal-stenosis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thq/ko/-----/laryngeal-neuralgia-symptoms-diagnosis.md",
+    "source_article_url": "https://thewells.kr/blog/laryngeal-neuralgia-symptoms-diagnosis",
+    "source_article_title": "후두신경통, 뒷머리에서 정수리로 뻗치는 찌릿함을 가르는 기준",
+    "primary_entity_id": "occipital-neuralgia",
+    "entity_ids": [
+      "occipital-neuralgia"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/----/knee-pain-worse-than-xray-shows.md",
+    "source_article_url": "https://thewells.kr/blog/knee-pain-worse-than-xray-shows",
+    "source_article_title": "무릎 사진은 멀쩡한데 더 아픈 경우 — 엑스레이 소견과 통증이 다른 이유",
+    "primary_entity_id": "knee-osteoarthritis",
+    "entity_ids": [
+      "knee-osteoarthritis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/----/shingles-72-hours-critical-rash.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/shingles-72-hours-critical-rash",
+    "source_article_title": "대상포진, 띠 모양 발진이 보였다면 72시간이 중요한 이유",
+    "primary_entity_id": "postherpetic-neuralgia",
+    "entity_ids": [
+      "postherpetic-neuralgia"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/----/orthostatic-dizziness-diagnosis-criteria-2.md",
+    "source_article_url": "https://thewells.kr/blog/orthostatic-dizziness-diagnosis-criteria-2",
+    "source_article_title": "기립성어지럼증, 빈혈·혈압·약물·자율신경을 구분하는 기준과 검사",
+    "primary_entity_id": "orthostatic-dizziness",
+    "entity_ids": [
+      "orthostatic-dizziness"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thq/ko/-----/brain-fog-concentration-problems-after-normal-tests.md",
+    "source_article_url": "https://thewells.kr/blog/brain-fog-concentration-problems-after-normal-tests",
+    "source_article_title": "브레인포그, 머리 멍함과 집중력 저하 원인",
+    "primary_entity_id": "brain-fog",
+    "entity_ids": [
+      "brain-fog"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/gtop/ko/-----/restless-leg-syndrome-diagnosis-criteria.md",
+    "source_article_url": "https://guritopbone.com/blog/restless-leg-syndrome-diagnosis-criteria",
+    "source_article_title": "하지불안증후군 진단 기준: 밤에 다리가 근질거려 잠 못 드는 증상, 신경과에서 무엇을 확인하나",
+    "primary_entity_id": "restless-legs-syndrome",
+    "entity_ids": [
+      "restless-legs-syndrome"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thr/ko/nad--/nad-injection-why-different-formulations-cycles.md",
+    "source_article_url": "https://thewells.kr/blog/nad-injection-why-different-formulations-cycles",
+    "source_article_title": "NAD주사, 같은 성분인데 배합과 주기는 왜 달라질까",
+    "primary_entity_id": "nad-infusion-therapy",
+    "entity_ids": [
+      "nad-infusion-therapy"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/gtop/ko/----/knee-injection-short-effect-differentiate-knee-back.md",
+    "source_article_url": "https://guritopbone.com/blog/knee-injection-short-effect-differentiate-knee-back",
+    "source_article_title": "무릎 주사 효과 짧을 때, 원인이 무릎인지 허리인지 감별하는 법",
+    "primary_entity_id": "knee-osteoarthritis",
+    "entity_ids": [
+      "knee-osteoarthritis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/gtop/ko/----/carpal-tunnel-syndrome.md",
+    "source_article_url": "https://guritopbone.com/blog/carpal-tunnel-syndrome",
+    "source_article_title": "손목터널증후군, 밤에 손이 저린데 원인이 손목이 아닐 수 있습니다",
+    "primary_entity_id": "carpal-tunnel-syndrome",
+    "entity_ids": [
+      "carpal-tunnel-syndrome"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thr/ko/----/shoulder-pain-worse-at-night-arm-cant-lift.md",
+    "source_article_url": "https://thewells.kr/blog/shoulder-pain-worse-at-night-arm-cant-lift",
+    "source_article_title": "밤에 심해지는 어깨통증, 하룻밤 사이 팔이 안 올라간다면",
+    "primary_entity_id": "calcific-tendinitis",
+    "entity_ids": [
+      "calcific-tendinitis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/----/knee-prp-when-recommended-when-not.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/knee-prp-when-recommended-when-not",
+    "source_article_title": "대구 PRP주사, 맞는 상태는?",
+    "primary_entity_id": "prp-injection",
+    "entity_ids": [
+      "prp-injection"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/-----/autonomic-dysfunction-normal-tests.md",
+    "source_article_url": "https://thewells.kr/blog/autonomic-dysfunction-normal-tests",
+    "source_article_title": "자율신경실조증, 여러 과를 돌았는데 다 정상이라고 들었다면",
+    "primary_entity_id": "autonomic-dysfunction",
+    "entity_ids": [
+      "autonomic-dysfunction"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/gtop/ko/----/shoulder-pain-not-always-frozen-shoulder.md",
+    "source_article_url": "https://guritopbone.com/blog/shoulder-pain-not-always-frozen-shoulder",
+    "source_article_title": "인창동 어깨통증, 오십견 외 원인 감별법",
+    "primary_entity_id": "frozen-shoulder",
+    "entity_ids": [
+      "frozen-shoulder"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thr/ko/----/seborrheic-dermatitis-hair-loss.md",
+    "source_article_url": "https://thewells.kr/blog/seborrheic-dermatitis-hair-loss",
+    "source_article_title": "지루성두피염이 탈모로 이어질까요? 일시적 탈락과 진행성 탈모의 차이",
+    "primary_entity_id": "seborrheic-dermatitis",
+    "entity_ids": [
+      "seborrheic-dermatitis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thr/ko/----/scalp-exosome-injection-treat-inflammation-first.md",
+    "source_article_url": "https://thewells.kr/blog/scalp-exosome-injection-treat-inflammation-first",
+    "source_article_title": "두피 엑소좀 주사, 두피염을 먼저 치료하고 탈모 경과를 보는 이유",
+    "primary_entity_id": "exosome-therapy",
+    "entity_ids": [
+      "exosome-therapy"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/gtop/ko/----/tms-vs-oral-medication-target-selection.md",
+    "source_article_url": "https://guritopbone.com/blog/tms-vs-oral-medication-target-selection",
+    "source_article_title": "TMS는 먹는 약과 무엇이 다른가요? 자극할 자리를 정하는 기준",
+    "primary_entity_id": "transcranial-magnetic-stimulation",
+    "entity_ids": [
+      "transcranial-magnetic-stimulation"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thr/ko/----/carpal-tunnel-vs-de-quervains-tenosynovitis.md",
+    "source_article_url": "https://thewells.kr/blog/carpal-tunnel-vs-de-quervains-tenosynovitis",
+    "source_article_title": "손목건초염, 엄지 통증과 손 저림을 가르는 기준",
+    "primary_entity_id": "de-quervain",
+    "entity_ids": [
+      "de-quervain"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/----/autologous-cell-injection-vs-prp-routes.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/autologous-cell-injection-vs-prp-routes",
+    "source_article_title": "자가혈 재생주사, PRP와 무엇이 다르고 어디에 넣는가",
+    "primary_entity_id": "stem-cell-therapy",
+    "entity_ids": [
+      "stem-cell-therapy"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/---/menopause-supplements-sleep-hot-flashes.md",
+    "source_article_url": "https://thewells.kr/blog/menopause-supplements-sleep-hot-flashes",
+    "source_article_title": "갱년기영양제, 몇 달을 먹었는데 잠과 열감이 그대로라면",
+    "primary_entity_id": "menopausal-syndrome",
+    "entity_ids": [
+      "menopausal-syndrome"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/gtop/ko/------/de-quervain-ultrasound-guided-injection-shockwave.md",
+    "source_article_url": "https://guritopbone.com/blog/de-quervain-ultrasound-guided-injection-shockwave",
+    "source_article_title": "손목건초염 치료, 초음파로 힘줄집을 보고 주사와 충격파를 나눕니다",
+    "primary_entity_id": "de-quervain",
+    "entity_ids": [
+      "de-quervain"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thr/ko/--/scalp-folliculitis-treatment-order.md",
+    "source_article_url": "https://thewells.kr/blog/scalp-folliculitis-treatment-order",
+    "source_article_title": "두피모낭염 치료, 염증을 먼저 잡고 모낭이 남았는지 확인하는 순서",
+    "primary_entity_id": "folliculitis",
+    "entity_ids": [
+      "folliculitis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/gtop/ko/----/intercostal-neuralgia-chest-wall-pain-differentiation.md",
+    "source_article_url": "https://guritopbone.com/blog/intercostal-neuralgia-chest-wall-pain-differentiation",
+    "source_article_title": "늑간신경통, 숨 쉴 때 갈비뼈를 따라 번지는 통증을 가르는 기준",
+    "primary_entity_id": "intercostal-neuralgia",
+    "entity_ids": [
+      "intercostal-neuralgia"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thr/ko/----/tms-cervical-alignment-treatment-order.md",
+    "source_article_url": "https://thewells.kr/blog/tms-cervical-alignment-treatment-order",
+    "source_article_title": "TMS 전에 경추를 함께 보는 이유 — 상부경추 정렬과 치료 순서",
+    "primary_entity_id": "transcranial-magnetic-stimulation",
+    "entity_ids": [
+      "transcranial-magnetic-stimulation"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/gtop/ko/--/spondylolisthesis-progression-and-surgery-timing.md",
+    "source_article_url": "https://guritopbone.com/blog/spondylolisthesis-progression-and-surgery-timing",
+    "source_article_title": "척추전방전위증, 마디가 더 밀리는지와 수술을 상의하는 시점",
+    "primary_entity_id": "spondylolisthesis",
+    "entity_ids": [
+      "spondylolisthesis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/apfree/ko/--/de-quervain-recurrence-and-recovery-time.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/de-quervain-recurrence-and-recovery-time",
+    "source_article_title": "손목건초염이 자꾸 도지는 이유와 회복까지 걸리는 시간",
+    "primary_entity_id": "de-quervain",
+    "entity_ids": [
+      "de-quervain"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/ko/---/scapular-pain-facet-referred-vs-radicular-treatment-order.md",
+    "source_article_url": "https://thewells.kr/blog/scapular-pain-facet-referred-vs-radicular-treatment-order",
+    "source_article_title": "목에서 내려온 견갑골통증, 후관절 연관통과 신경뿌리 방사통은 치료 순서가 어떻게 갈립니까",
+    "primary_entity_id": "cervical-disc-herniation",
+    "entity_ids": [
+      "cervical-disc-herniation"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/gtop/ko/----/piriformis-syndrome-vs-lumbar-radiculopathy-examination.md",
+    "source_article_url": "https://guritopbone.com/blog/piriformis-syndrome-vs-lumbar-radiculopathy-examination",
+    "source_article_title": "엉치에서 다리로 내려가는 저림, 이상근증후군과 허리 신경뿌리 문제를 가르는 진찰 기준",
+    "primary_entity_id": "sciatica",
+    "entity_ids": [
+      "sciatica"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thq/ko/-----/essential-tremor-vs-parkinson-examination-criteria.md",
+    "source_article_url": "https://thewells.kr/blog/essential-tremor-vs-parkinson-examination-criteria",
+    "source_article_title": "손떨림, 본태성 떨림과 파킨슨병을 가르는 진찰 기준",
+    "primary_entity_id": "essential-tremor",
+    "entity_ids": [
+      "essential-tremor"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/----/shoulder-impingement-conservative-treatment-order.md",
+    "source_article_url": "https://thewells.kr/blog/shoulder-impingement-conservative-treatment-order",
+    "source_article_title": "어깨충돌증후군 보존치료의 순서 — 통증 조절에서 움직임 회복까지",
+    "primary_entity_id": "shoulder-impingement-syndrome",
+    "entity_ids": [
+      "shoulder-impingement-syndrome"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/gtop/ko/-----/nerve-block-target-site-by-pain-origin.md",
+    "source_article_url": "https://guritopbone.com/blog/nerve-block-target-site-by-pain-origin",
+    "source_article_title": "신경차단술, 허리·목·대상포진 통증에서 약을 넣는 자리가 달라지는 이유",
+    "primary_entity_id": "nerve-block-injection",
+    "entity_ids": [
+      "nerve-block-injection"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/apfree/ko/----/nutrition-iv-prescription-intake-medication-kidney-check.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/nutrition-iv-prescription-intake-medication-kidney-check",
+    "source_article_title": "영양수액 처방 전에 섭취 상태와 복용 약, 신장 병력을 먼저 확인하는 이유",
+    "primary_entity_id": "nutrition-iv-therapy",
+    "entity_ids": [
+      "nutrition-iv-therapy"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/ko/--/alopecia-areata-activity-signs-regeneration-treatment-steps.md",
+    "source_article_url": "https://thewells.kr/blog/alopecia-areata-activity-signs-regeneration-treatment-steps",
+    "source_article_title": "원형탈모 치료, 진행 중인지 판단하는 신호와 재생 치료 단계",
+    "primary_entity_id": "alopecia-areata",
+    "entity_ids": [
+      "alopecia-areata"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/gtop/ko/----/cervicogenic-headache-diagnostic-criteria-controlled-nerve-block.md",
+    "source_article_url": "https://guritopbone.com/blog/cervicogenic-headache-diagnostic-criteria-controlled-nerve-block",
+    "source_article_title": "경추성두통 진단 기준과 원인 자리를 확정하는 신경차단술",
+    "primary_entity_id": "cervicogenic-headache",
+    "entity_ids": [
+      "cervicogenic-headache"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thq/ko/----/partial-thickness-rotator-cuff-tear-thickness-location-treatment-evidence.md",
+    "source_article_url": "https://thewells.kr/blog/partial-thickness-rotator-cuff-tear-thickness-location-treatment-evidence",
+    "source_article_title": "회전근개 부분파열, 파열 두께와 위치가 치료를 가르는 근거",
+    "primary_entity_id": "rotator-cuff-tear",
+    "entity_ids": [
+      "rotator-cuff-tear"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/-----/tennis-elbow-injection-choice-ultrasound-findings-and-evidence.md",
+    "source_article_url": "https://thewells.kr/blog/tennis-elbow-injection-choice-ultrasound-findings-and-evidence",
+    "source_article_title": "테니스엘보 주사, 초음파 소견과 연구 근거로 스테로이드·프롤로·PRP를 나누는 순서",
+    "primary_entity_id": "lateral-epicondylitis",
+    "entity_ids": [
+      "lateral-epicondylitis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/--/spondylolisthesis-grade-instability-conservative-vs-surgery-evidence.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/spondylolisthesis-grade-instability-conservative-vs-surgery-evidence",
+    "source_article_title": "척추전방전위증 등급과 불안정성, 보존 치료와 수술을 가르는 근거",
+    "primary_entity_id": "spondylolisthesis",
+    "entity_ids": [
+      "spondylolisthesis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/gtop/ko/----/achilles-tendinopathy-insertional-midportion-exercise-shockwave-evidence.md",
+    "source_article_url": "https://guritopbone.com/blog/achilles-tendinopathy-insertional-midportion-exercise-shockwave-evidence",
+    "source_article_title": "아킬레스건염 운동 치료와 충격파, 부착부와 중간부에서 근거가 다른 이유",
+    "primary_entity_id": "achilles-tendinitis",
+    "entity_ids": [
+      "achilles-tendinitis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thr/ko/----/chondromalacia-patellofemoral-pain-hip-knee-strengthening-evidence.md",
+    "source_article_url": "https://thewells.kr/blog/chondromalacia-patellofemoral-pain-hip-knee-strengthening-evidence",
+    "source_article_title": "무릎연골연화증 운동 치료, 허벅지와 엉덩이 근력의 연구 근거",
+    "primary_entity_id": "chondromalacia-patellae",
+    "entity_ids": [
+      "chondromalacia-patellae"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/gtop/ko/---/cubital-tunnel-syndrome-nerve-conduction-ultrasound-criteria-treatment-evidence.md",
+    "source_article_url": "https://guritopbone.com/blog/cubital-tunnel-syndrome-nerve-conduction-ultrasound-criteria-treatment-evidence",
+    "source_article_title": "주관증후군, 새끼손가락 저림을 확정하는 신경전도·초음파 기준과 치료 근거",
+    "primary_entity_id": "cubital-tunnel-syndrome",
+    "entity_ids": [
+      "cubital-tunnel-syndrome"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thq/ko/---/menopausal-arthralgia-musculoskeletal-syndrome-rheumatoid-criteria-evidence.md",
+    "source_article_url": "https://thewells.kr/blog/menopausal-arthralgia-musculoskeletal-syndrome-rheumatoid-criteria-evidence",
+    "source_article_title": "갱년기관절통, 폐경 근골격 증후군과 류마티스관절염을 가르는 근거",
+    "primary_entity_id": "menopausal-syndrome",
+    "entity_ids": [
+      "menopausal-syndrome"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/----/spondylolisthesis-pain-alone-surgery-decision.md",
+    "source_article_url": "https://thewells.kr/blog/spondylolisthesis-pain-alone-surgery-decision",
+    "source_article_title": "척추전방전위증, 통증만으로 수술할까요?",
+    "primary_entity_id": "spondylolisthesis",
+    "entity_ids": [
+      "spondylolisthesis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/gtop/ko/---/stem-cell-iv-homing-principle.md",
+    "source_article_url": "https://guritopbone.com/blog/stem-cell-iv-homing-principle",
+    "source_article_title": "줄기세포 정맥주사, 재생 세포가 손상 부위 찾는 원리",
+    "primary_entity_id": "stem-cell-therapy",
+    "entity_ids": [
+      "stem-cell-therapy"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/apfree/ko/---/golfers-elbow-treatment-options-ultrasound-role.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/golfers-elbow-treatment-options-ultrasound-role",
+    "source_article_title": "골프엘보 치료 방법과 초음파의 역할",
+    "primary_entity_id": "medial-epicondylitis",
+    "entity_ids": [
+      "medial-epicondylitis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/---/high-dose-vitamin-c-iv-immunity-fatigue.md",
+    "source_article_url": "https://thewells.kr/blog/high-dose-vitamin-c-iv-immunity-fatigue",
+    "source_article_title": "고용량 비타민C 수액, 면역과 피로에 쓰는 경우와 검사",
+    "primary_entity_id": "nutrition-iv-therapy",
+    "entity_ids": [
+      "nutrition-iv-therapy"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/----/knee-injection-repeat-hyaluronic-steroid-cartilage.md",
+    "source_article_url": "https://thewells.kr/blog/knee-injection-repeat-hyaluronic-steroid-cartilage",
+    "source_article_title": "무릎연골주사와 스테로이드 반복 투여가 통증과 연골에 미치는 영향",
+    "primary_entity_id": "knee-osteoarthritis",
+    "entity_ids": [
+      "knee-osteoarthritis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/gtop/ko/--------/eswt-sessions-interval-response-timing.md",
+    "source_article_url": "https://guritopbone.com/blog/eswt-sessions-interval-response-timing",
+    "source_article_title": "체외충격파 치료 횟수·간격과 질환별 효과 판정 시점",
+    "primary_entity_id": "eswt",
+    "entity_ids": [
+      "eswt"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thq/ko/--/autonomic-dysfunction-treatment-retesting.md",
+    "source_article_url": "https://thewells.kr/blog/autonomic-dysfunction-treatment-retesting",
+    "source_article_title": "자율신경실조증 치료, 검사 결과로 관리 순서를 정하고 다시 재는 방법",
+    "primary_entity_id": "autonomic-dysfunction",
+    "entity_ids": [
+      "autonomic-dysfunction"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/gtop/ko/--/hair-loss-injection-prp-exosome-interval-evaluation.md",
+    "source_article_url": "https://guritopbone.com/blog/hair-loss-injection-prp-exosome-interval-evaluation",
+    "source_article_title": "탈모 주사, 자가혈·엑소좀 주사의 연구 근거와 간격, 효과를 다시 재는 시점",
+    "primary_entity_id": "androgenetic-alopecia",
+    "entity_ids": [
+      "androgenetic-alopecia"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/apfree/ko/--/meniscus-tear-nonsurgical-treatment-injection-exercise.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/meniscus-tear-nonsurgical-treatment-injection-exercise",
+    "source_article_title": "반월상연골파열 비수술 치료, 주사와 근력 운동은 어떤 순서로 몇 주 하나요?",
+    "primary_entity_id": "meniscus-tear",
+    "entity_ids": [
+      "meniscus-tear"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/gtop/ko/----/calcific-tendinitis-treatment-shockwave-injection-by-phase.md",
+    "source_article_url": "https://guritopbone.com/blog/calcific-tendinitis-treatment-shockwave-injection-by-phase",
+    "source_article_title": "석회성건염 치료, 체외충격파와 주사는 시기에 따라 어떻게 나뉠까",
+    "primary_entity_id": "calcific-tendinitis",
+    "entity_ids": [
+      "calcific-tendinitis"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thr/ko/----/sacroiliac-joint-injection-types-treatment-cycle.md",
+    "source_article_url": "https://thewells.kr/blog/sacroiliac-joint-injection-types-treatment-cycle",
+    "source_article_title": "천장관절 주사 종류와 차단술 후 운동재활로 이어지는 치료 주기",
+    "primary_entity_id": "sacroiliac-joint-dysfunction",
+    "entity_ids": [
+      "sacroiliac-joint-dysfunction"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thq/ko/--/reverse-cervical-curve-xray-angle-neck-pain.md",
+    "source_article_url": "https://thewells.kr/blog/reverse-cervical-curve-xray-angle-neck-pain",
+    "source_article_title": "역C자목 엑스레이 각도와 목 통증 연구가 밝힌 실제 상관관계",
+    "primary_entity_id": "forward-head-posture",
+    "entity_ids": [
+      "forward-head-posture"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/----/frozen-shoulder-stretching-pain-limit.md",
+    "source_article_url": "https://thewells.kr/blog/frozen-shoulder-stretching-pain-limit",
+    "source_article_title": "오십견 스트레칭, 통증 참아가며 억지로 꺾어야 할까?",
+    "primary_entity_id": "frozen-shoulder",
+    "entity_ids": [
+      "frozen-shoulder"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/gtop/ko/------/trigger-finger-hand-numbness-carpal-tunnel.md",
+    "source_article_url": "https://guritopbone.com/blog/trigger-finger-hand-numbness-carpal-tunnel",
+    "source_article_title": "방아쇠수지증후군 손가락 걸림과 손 저림, 손목 문제도 함께 온 걸까",
+    "primary_entity_id": "trigger-finger",
+    "entity_ids": [
+      "trigger-finger"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   }
 ]
