@@ -3529,5 +3529,20 @@
     "tenant_key": "gtop",
     "doctor_id": "dr-lee-sungwook",
     "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thr/ko/----/discogenic-pain-mri-disc-degeneration.md",
+    "source_article_url": "https://thewells.kr/blog/discogenic-pain-mri-disc-degeneration",
+    "source_article_title": "MRI에서 디스크 변성 보였다면 디스크내장증일까?",
+    "primary_entity_id": "discogenic-pain",
+    "entity_ids": [
+      "discogenic-pain"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
