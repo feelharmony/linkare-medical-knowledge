@@ -144,9 +144,9 @@ VAS 통증 감소 순위:
 
 [^3]: Kim HJ, Ahn HS, Lee JY, Choi SS, Cheong YS, Kwon K, Yoon SH, Leem JG. Effects of applying nerve blocks to prevent postherpetic neuralgia in patients with acute herpes zoster: a systematic review and meta-analysis. *Korean J Pain.* 2017;30(1):3-17. PMID 28119767. DOI: [10.3344/kjp.2017.30.1.3](https://pubmed.ncbi.nlm.nih.gov/28119767/) — 9 trials SR/메타, somatic block(PVB·반복 epidural) > sympathetic block(SGB)·단회 epidural in PHN 예방
 
-[^6]: Narouze S, Benzon HT, Provenzano D, et al. Interventional spine and pain procedures in patients on antiplatelet and anticoagulant medications: guidelines from ASRA, ESRA, AAPM, INS, NANS, and WIP. *Reg Anesth Pain Med.* 2015;40(3):182-212. DOI 10.1097/AAP.0000000000000223 (PMID 25899949)
+[^6]: Narouze S, Benzon HT, Provenzano DA, et al. Interventional spine and pain procedures in patients on antiplatelet and anticoagulant medications: guidelines from the American Society of Regional Anesthesia and Pain Medicine, the European Society of Regional Anaesthesia and Pain Therapy, the American Academy of Pain Medicine, the International Neuromodulation Society, the North American Neuromodulation Society, and the World Institute of Pain. *Reg Anesth Pain Med.* 2015;40(3):182-212. DOI 10.1097/AAP.0000000000000223 (PMID 25899949)
 
-[^7]: Sites BD, Brull R, Chan VW, et al. Artifacts and pitfall errors associated with ultrasound-guided regional anesthesia. Part I: understanding the basic principles of ultrasound physics and machine operations. *Reg Anesth Pain Med.* 2007;32(5):412-418. DOI 10.1016/j.rapm.2007.05.005 (PMID 17961840)
+[^7]: Sites BD, Brull R, Chan VW, et al. Artifacts and pitfall errors associated with ultrasound-guided regional anesthesia. Part I: understanding the basic principles of ultrasound physics and machine operations. *Reg Anesth Pain Med.* 2007;32(5):412-418. DOI 10.1016/j.rapm.2007.05.005 (PMID 17961841)
 
 ## Changelog
 - 2026-07-04 v7: 내용 업데이트.
@@ -155,3 +155,4 @@ VAS 통증 감소 순위:
 - 2026-04-23 v3: 내용 업데이트.
 - 2026-05-18 v4: 내용 업데이트.
 - 2026-05-20 v6: 내용 업데이트.
+- 2026-10-12: 외부 각주 정정([^6] 학회명 약어를 PubMed 정식 제목으로, [^7] PMID 오기 17961840→17961841).

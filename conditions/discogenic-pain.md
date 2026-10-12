@@ -80,8 +80,9 @@ Provocative discography는 과거 discogenic pain 평가에 사용되었지만 �
 [^2]: [Navani A, Manchikanti L, Albers SL, et al. 14. Discogenic Low Back Pain. *Pain Pract.* 2025;25(1):e13429. PMID 40717265](https://pubmed.ncbi.nlm.nih.gov/40717265/)
 [^3]: [Hartvigsen J, Hancock MJ, Kongsted A, et al. What low back pain is and why we need to pay attention. *Lancet.* 2018;391(10137):2356-2367. PMID 29573870](https://pubmed.ncbi.nlm.nih.gov/29573870/)
 [^4]: [NICE Guideline NG59 — Low back pain and sciatica in over 16s: assessment and management](https://www.nice.org.uk/guidance/ng59)
-[^5]: [Lorio M, Clerk-Lamalice O, Beall DP, et al. International Society for the Advancement of Spine Surgery Guideline-Intradiscal Therapies for Discogenic Low Back Pain. *Int J Spine Surg.* 2023;17(1):10-27. PMID 36941001](https://pubmed.ncbi.nlm.nih.gov/36941001/)
+[^5]: [Lorio MP, Tate JL, Myers TJ, Block JE, Beall DP. Perspective on Intradiscal Therapies for Lumbar Discogenic Pain: State of the Science, Knowledge Gaps, and Imperatives for Clinical Adoption. *J Pain Res.* 2024;17:1171-1182. PMID 38524692. DOI 10.2147/JPR.S441180](https://pubmed.ncbi.nlm.nih.gov/38524692/)
 
 ## Changelog
 - 2026-07-04 v3: 내용 업데이트.
 - 2026-05-03 v2: 내용 업데이트.
+- 2026-10-12: 외부 각주 정정([^5] PubMed 에 없는 지침(PMID 36941001 은 다른 논문)을 같은 저자의 디스크 내 치료 근거 검토 Lorio 2024 로 교체).

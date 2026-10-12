@@ -64,12 +64,13 @@ Finkelstein 또는 Eichhoff 동작에서 엄지 쪽 손목 통증이 재현될 �
 
 ### 외부 권위 출처
 [^1]: [Jeyapalan K, Choudhary S. Management of de Quervain Tenosynovitis: A Systematic Review and Network Meta-Analysis. JAMA Netw Open. 2023;6(10):e2338550. PMID 37889490](https://pubmed.ncbi.nlm.nih.gov/37889490/)
-[^2]: [Ilyas AM. Nonsurgical Treatment for de Quervain's Tenosynovitis. J Hand Surg Am. 2009;34(5):928-929. PMID 19410987](https://pubmed.ncbi.nlm.nih.gov/19410987/)
+[^2]: [Ilyas AM. Nonsurgical Treatment for de Quervain's Tenosynovitis. J Hand Surg Am. 2009;34(5):928-929. PMID 19410999. DOI 10.1016/j.jhsa.2008.12.030](https://pubmed.ncbi.nlm.nih.gov/19410999/)
 [^3]: [Huisstede BMA et al. Effectiveness of Conservative, Surgical, and Postsurgical Interventions for Trigger Finger, Dupuytren Disease, and De Quervain Disease: A Systematic Review. Arch Phys Med Rehabil. 2018;99(8):1635-1649.e21. PMID 28860097](https://pubmed.ncbi.nlm.nih.gov/28860097/)
 [^4]: [Peters-Veluthamaningal C et al. Unblinding de Quervain: A systematic review of ultrasound-guided injection of corticosteroids for treatment of stenosing tenosynovitis of the 1st extensor compartment. J Hand Surg Eur Vol. 2023;48(9):918-926. PMID 37078429](https://pubmed.ncbi.nlm.nih.gov/37078429/)
-[^5]: [Wong K, von Schroeder HP. De Quervain's disease. Can Fam Physician. 2007;53(10):1679-1682. PMID 17934031](https://pubmed.ncbi.nlm.nih.gov/17934031/)
+[^5]: [Bosman R, Duraku LS, van der Oest MJW, et al. Surgical Treatment Outcome of de Quervain's Disease: A Systematic Review and Meta-analysis. Plast Reconstr Surg Glob Open. 2022;10(5):e4305. PMID 35539295. DOI 10.1097/GOX.0000000000004305](https://pubmed.ncbi.nlm.nih.gov/35539295/)
 
 ## Changelog
 - 2026-07-03 v3: 내용 업데이트.
 - 2026-07-03 v2: 내용 업데이트.
 - 2026-07-03 v1: 내용 업데이트.
+- 2026-10-12: 외부 각주 정정([^2] PMID 오기 19410987→19410999, [^5] PubMed 에 없는 문헌을 같은 문장(유리술·합병증)을 받치는 Bosman 2022 메타분석으로 교체).

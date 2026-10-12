@@ -77,9 +77,10 @@ external_footnote_ids: [3, 4, 5, 6, 7, 8, 9]
 
 [^8]: [pmc.ncbi.nlm.nih.gov/articles/PMC4461737/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4461737/)
 
-[^9]: [pubmed.ncbi.nlm.nih.gov/37559207/](https://pubmed.ncbi.nlm.nih.gov/37559207/)
+[^9]: [Zou T, Liu XY, Wang PC, et al. Incidence of Spontaneous Resorption of Lumbar Disc Herniation: A Meta-analysis. Clin Spine Surg. 2024;37(6):256-269. PMID 37559207. DOI 10.1097/BSD.0000000000001490](https://pubmed.ncbi.nlm.nih.gov/37559207/)
 
 ## Changelog
 - 2026-04-28 v3: 내용 업데이트.
 - 2026-05-01 v4: 내용 업데이트.
 - 2026-05-18 v5: 내용 업데이트.
+- 2026-10-12: 외부 각주 서지 보완([^9] 링크만 있던 것에 저자·제목·저널 기재, PMID 동일).

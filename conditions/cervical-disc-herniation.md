@@ -78,11 +78,11 @@ CT는 뼈의 변화나 골극(뼈가 자란 것)을 평가하는 데 유용하�
 
 [^3]: [pmc.ncbi.nlm.nih.gov/articles/PMC6210730/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6210730/)
 
-[^4]: [pubmed.ncbi.nlm.nih.gov/21168100/](https://pubmed.ncbi.nlm.nih.gov/21168100/)
+[^4]: [Bono CM, Ghiselli G, Gilbert TJ, et al. An evidence-based clinical guideline for the diagnosis and treatment of cervical radiculopathy from degenerative disorders. Spine J. 2011;11(1):64-72. PMID 21168100. DOI 10.1016/j.spinee.2010.10.023](https://pubmed.ncbi.nlm.nih.gov/21168100/)
 
 [^5]: [www.sciencedirect.com/science/article/abs/pii/S0949265822001154](https://www.sciencedirect.com/science/article/abs/pii/S0949265822001154)
 
-[^6]: [pubmed.ncbi.nlm.nih.gov/23778373/](https://pubmed.ncbi.nlm.nih.gov/23778373/)
+[^6]: [Engquist M, Löfgren H, Öberg B, et al. Surgery versus nonsurgical treatment of cervical radiculopathy: a prospective, randomized study comparing surgery plus physiotherapy with physiotherapy alone with a 2-year follow-up. Spine (Phila Pa 1976). 2013;38(20):1715-1722. PMID 23778373. DOI 10.1097/BRS.0b013e31829ff095](https://pubmed.ncbi.nlm.nih.gov/23778373/)
 
 [^7]: [pmc.ncbi.nlm.nih.gov/articles/PMC8088536/](https://pmc.ncbi.nlm.nih.gov/articles/PMC8088536/)
 
@@ -92,3 +92,4 @@ CT는 뼈의 변화나 골극(뼈가 자란 것)을 평가하는 데 유용하�
 - 2026-04-28 v4: 내용 업데이트.
 - 2026-05-01 v5: 내용 업데이트.
 - 2026-05-17 v6: 내용 업데이트.
+- 2026-10-12: 외부 각주 서지 보완([^4]·[^6] 링크만 있던 것에 저자·제목·저널 기재, PMID 동일).

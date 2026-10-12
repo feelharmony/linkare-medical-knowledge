@@ -80,7 +80,7 @@ APTA 임상진료지침(JOSPT 2017)은 목 통증을 임상 양상에 따라 4�
 [^3]: [Cohen SP. Epidemiology, diagnosis, and treatment of neck pain. Mayo Clin Proc. 2015;90(2):284-299. PMID 25659245. DOI 10.1016/j.mayocp.2014.09.008](https://pubmed.ncbi.nlm.nih.gov/25659245/)
 [^4]: [Bono CM et al. North American Spine Society. An evidence-based clinical guideline for the diagnosis and treatment of cervical radiculopathy from degenerative disorders. Spine J. 2011;11(1):64-72. PMID 21168100](https://pubmed.ncbi.nlm.nih.gov/21168100/)
 [^5]: [Blanpied PR, Gross AR, Elliott JM, et al. Neck Pain: Revision 2017. Clinical Practice Guidelines Linked to the International Classification of Functioning, Disability and Health From the Orthopaedic Section of the American Physical Therapy Association. J Orthop Sports Phys Ther. 2017;47(7):A1-A83. PMID 28666405. DOI 10.2519/jospt.2017.0302](https://www.jospt.org/doi/10.2519/jospt.2017.0302)
-[^6]: [Yang DJ, Kang DH. Effects of cervical exercise and manual therapy on chronic neck pain: a systematic review. Healthcare. 2023. PMID 37830641](https://pubmed.ncbi.nlm.nih.gov/37830641/)
+[^6]: [Yang S, Boudier-Revéret M, Yi YG, Hong KY, Chang MC. Treatment of Chronic Neck Pain in Patients with Forward Head Posture: A Systematic Narrative Review. Healthcare (Basel). 2023;11(19):2604. PMID 37830641. DOI 10.3390/healthcare11192604](https://pubmed.ncbi.nlm.nih.gov/37830641/)
 [^7]: [GBD 2021 Neck Pain Collaborators. Global, regional, and national burden of neck pain, 1990-2020, and projections to 2050: a systematic analysis of the Global Burden of Disease Study 2021. Lancet Rheumatol. 2024;6(3):e142-e155. PMID 38383088. DOI 10.1016/S2665-9913(23)00321-1](https://pubmed.ncbi.nlm.nih.gov/38383088/)
 [^8]: [Engquist M et al. Surgery versus nonsurgical treatment of cervical radiculopathy: a prospective, randomized study comparing surgery plus physiotherapy with physiotherapy alone with a 2-year follow-up. Spine. 2013. PMID 23778373](https://pubmed.ncbi.nlm.nih.gov/23778373/)
 [^9]: [Kim YK, Kang D, Lee I, Kim SY. Differences in the Incidence of Symptomatic Cervical and Lumbar Disc Herniation According to Age, Sex and National Health Insurance Eligibility. Int J Environ Res Public Health. 2018. PMID 30257414](https://pmc.ncbi.nlm.nih.gov/articles/PMC6210730/)
@@ -90,3 +90,4 @@ APTA 임상진료지침(JOSPT 2017)은 목 통증을 임상 양상에 따라 4�
 - 2026-04-23 v2: 내용 업데이트.
 - 2026-05-03 v4: 내용 업데이트.
 - 2026-05-03 v3: 내용 업데이트.
+- 2026-10-12: 외부 각주 정정([^6] PMID 37830641 의 실제 저자·제목으로 서지 수정).
