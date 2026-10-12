@@ -2418,5 +2418,18 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/gtop/ko/--/essential-tremor-vs-anxiety-shaking.md",
+    "source_article_url": "https://guritopbone.com/blog/essential-tremor-vs-anxiety-shaking",
+    "source_article_title": "컵 들 때 심해지는 손떨림, 단순 긴장일까 본태성 떨림일까",
+    "primary_entity_id": "essential-tremor",
+    "entity_ids": [
+      "essential-tremor"
+    ],
+    "updated_at": "2026-10-12",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop"
   }
 ]
