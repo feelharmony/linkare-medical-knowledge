@@ -1891,7 +1891,9 @@
     "updated_at": "2026-08-17",
     "sub_topic_type": null,
     "is_pillar": true,
-    "tenant_key": "gtop"
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   },
   {
     "post_path": "content/thr/ko/----/medial-epicondylitis-treatment-activity-modification.md",
@@ -1964,7 +1966,9 @@
     "updated_at": "2026-08-25",
     "sub_topic_type": null,
     "is_pillar": true,
-    "tenant_key": "gtop"
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   },
   {
     "post_path": "content/thq/ko/----/wrist-tenosynovitis-thumb-side-pain.md",
@@ -2007,7 +2011,9 @@
     "updated_at": "2026-08-31",
     "sub_topic_type": null,
     "is_pillar": false,
-    "tenant_key": "gtop"
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   },
   {
     "post_path": "content/thq/ko/-----/cervical-dystonia-torticollis-neck-turning.md",
@@ -2080,7 +2086,9 @@
     "updated_at": "2026-09-07",
     "sub_topic_type": null,
     "is_pillar": false,
-    "tenant_key": "gtop"
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   },
   {
     "post_path": "content/thq/ko/----/vestibular-neuritis-dizziness-days.md",
@@ -2153,7 +2161,9 @@
     "updated_at": "2026-09-14",
     "sub_topic_type": null,
     "is_pillar": false,
-    "tenant_key": "gtop"
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   },
   {
     "post_path": "content/thq/ko/-----/under-eye-twitching-causes-beyond-magnesium.md",
@@ -2226,7 +2236,9 @@
     "updated_at": "2026-09-21",
     "sub_topic_type": null,
     "is_pillar": false,
-    "tenant_key": "gtop"
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   },
   {
     "post_path": "content/thq/ko/--/migraine-vs-regular-headache-visual-symptoms.md",
@@ -2299,7 +2311,9 @@
     "updated_at": "2026-09-29",
     "sub_topic_type": null,
     "is_pillar": false,
-    "tenant_key": "gtop"
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   },
   {
     "post_path": "content/thr/ko/----/carpal-tunnel-syndrome-night-numbness.md",
@@ -2357,7 +2371,9 @@
     "updated_at": "2026-10-05",
     "sub_topic_type": null,
     "is_pillar": false,
-    "tenant_key": "gtop"
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   },
   {
     "post_path": "content/thq/ko/--/tailbone-pain-after-falling-or-childbirth.md",
@@ -2430,6 +2446,8 @@
     "updated_at": "2026-10-12",
     "sub_topic_type": null,
     "is_pillar": false,
-    "tenant_key": "gtop"
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   }
 ]

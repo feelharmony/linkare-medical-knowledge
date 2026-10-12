@@ -1656,5 +1656,29 @@
     "last_reviewed": "2026-07-17",
     "source_count": 0,
     "version": 1
+  },
+  {
+    "id": "dr-lee-sungwook",
+    "type": "doctor",
+    "name_ko": "이성욱 대표원장",
+    "name_en": "Dr. Sung-Woog Lee",
+    "aliases": [],
+    "description_ko": "구리탑본의원 대표원장 · 신경과 전문의 · 임상신경생리(신경근전도 및 유발전위) 전문의",
+    "status": "approved",
+    "last_reviewed": "2026-10-12",
+    "source_count": 0,
+    "version": 1
+  },
+  {
+    "id": "hospital-guritopbone",
+    "type": "hospital",
+    "name_ko": "구리탑본의원",
+    "name_en": "Guri Top Bone Clinic",
+    "aliases": [],
+    "description_ko": "",
+    "status": "approved",
+    "last_reviewed": "2026-10-12",
+    "source_count": 0,
+    "version": 1
   }
 ]

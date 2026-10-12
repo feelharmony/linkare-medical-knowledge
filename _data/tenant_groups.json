@@ -3,7 +3,8 @@
   "tenant_hospitals": {
     "apfree": "hospital-ansimpainfree",
     "thr": "hospital-thewells-nowon",
-    "thq": "hospital-thewells-jamsil"
+    "thq": "hospital-thewells-jamsil",
+    "gtop": "hospital-guritopbone"
   },
   "groups": [
     {
