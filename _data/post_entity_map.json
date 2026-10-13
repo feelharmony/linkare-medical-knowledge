@@ -3544,5 +3544,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thq/ko/--/tinnitus-worse-turning-head-tmj-neck-muscles.md",
+    "source_article_url": "https://thewells.kr/blog/tinnitus-worse-turning-head-tmj-neck-muscles",
+    "source_article_title": "고개 돌릴 때 커지는 이명 소리, 턱관절과 목 근육 때문일까?",
+    "primary_entity_id": "tinnitus",
+    "entity_ids": [
+      "tinnitus"
+    ],
+    "updated_at": "2026-10-13",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
