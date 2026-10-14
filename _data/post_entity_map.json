@@ -3589,5 +3589,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/ko/--/monitor-tension-headache-afternoon-worse.md",
+    "source_article_url": "https://thewells.kr/blog/monitor-tension-headache-afternoon-worse",
+    "source_article_title": "모니터 앞 뒷목 굳고 머리 조이는 긴장성두통, 오후에 심한 이유",
+    "primary_entity_id": "tension-type-headache",
+    "entity_ids": [
+      "tension-type-headache"
+    ],
+    "updated_at": "2026-10-14",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
