@@ -3604,5 +3604,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/-/heel-achilles-tendinitis-pain-rubbing.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/heel-achilles-tendinitis-pain-rubbing",
+    "source_article_title": "뒤꿈치 뼈 닿는 자리가 신발에 쓸려 아플 때 의심하는 부착부 아킬레스건염",
+    "primary_entity_id": "achilles-tendinitis",
+    "entity_ids": [
+      "achilles-tendinitis"
+    ],
+    "updated_at": "2026-10-15",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
