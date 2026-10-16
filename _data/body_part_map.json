@@ -16,7 +16,8 @@
         "eyelid-myokymia",
         "vestibular-neuritis",
         "orthostatic-dizziness",
-        "tinnitus"
+        "tinnitus",
+        "brain-fog"
       ]
     },
     {
@@ -152,7 +153,8 @@
         "peripheral-neuropathy",
         "autonomic-dysfunction",
         "insomnia",
-        "intercostal-neuralgia"
+        "intercostal-neuralgia",
+        "brain-fog"
       ]
     }
   ],
