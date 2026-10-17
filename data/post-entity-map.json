@@ -3649,5 +3649,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/--/rotator-cuff-tendinopathy-steroid-vs-prp-injection.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/rotator-cuff-tendinopathy-steroid-vs-prp-injection",
+    "source_article_title": "회전근개 건병증 주사, 신기동에서 비교하는 스테로이드와 PRP 12개월 경과",
+    "primary_entity_id": "prp-injection",
+    "entity_ids": [
+      "prp-injection"
+    ],
+    "updated_at": "2026-10-17",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
