@@ -3619,5 +3619,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/--/bent-lower-back-standing-posture-issue.md",
+    "source_article_url": "https://thewells.kr/blog/bent-lower-back-standing-posture-issue",
+    "source_article_title": "오래 서 있으면 허리가 굽고 안 펴질 때, 일자허리 문제일까?",
+    "primary_entity_id": "flat-back-syndrome",
+    "entity_ids": [
+      "flat-back-syndrome"
+    ],
+    "updated_at": "2026-10-17",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
