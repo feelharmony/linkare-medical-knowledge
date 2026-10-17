@@ -3634,5 +3634,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/---/nasolabial-fold-lifting-shockwave-sessions.md",
+    "source_article_url": "https://thewells.kr/blog/nasolabial-fold-lifting-shockwave-sessions",
+    "source_article_title": "팔자주름 리프팅 중계동에서 알아본다면, 왜 한 번에 끝나지 않을까?",
+    "primary_entity_id": "facial-shockwave-lifting",
+    "entity_ids": [
+      "facial-shockwave-lifting"
+    ],
+    "updated_at": "2026-10-17",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
