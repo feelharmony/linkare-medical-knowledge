@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-08-13",
+  "updated_at": "2026-10-19",
   "entities": {
     "aging": [
       {
@@ -890,6 +890,16 @@
           "pathophysiology"
         ],
         "excerpt": "아침에 첫발을 내딛는 순간 발뒤꿈치에 찌르는 듯한 통증이 있다면, 단순한 피로가 아닙니다."
+      },
+      {
+        "footnote_id": 7,
+        "url": "https://guritopbone.com/blog/plantar-fasciitis",
+        "title": "구리탑본의원 — 족저근막염, 아침 첫발이 아픈데 발바닥까지 저리다면",
+        "post_id": "e291a0dd-4a77-479c-87ea-db49306083bd",
+        "anchors": [
+          "treatment"
+        ],
+        "excerpt": "아침 첫걸음 통증이 족저근막염의 전형적인 신호로 꼽힙니다."
       }
     ]
   }
