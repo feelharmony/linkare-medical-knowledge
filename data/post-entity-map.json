@@ -3694,5 +3694,20 @@
     "tenant_key": "gtop",
     "doctor_id": "dr-lee-sungwook",
     "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/gtop/ko/----/horizontal-canal-bppv-geotropic-apogeotropic.md",
+    "source_article_url": "https://guritopbone.com/blog/horizontal-canal-bppv-geotropic-apogeotropic",
+    "source_article_title": "수평반고리관 이석증, 남양주에서 어느 쪽 귀인지 어떻게 찾을까?",
+    "primary_entity_id": "bppv",
+    "entity_ids": [
+      "bppv"
+    ],
+    "updated_at": "2026-10-19",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   }
 ]
