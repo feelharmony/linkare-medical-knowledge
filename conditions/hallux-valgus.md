@@ -5,23 +5,29 @@ entity_type: condition
 permalink: /conditions/hallux-valgus/
 title: 무지외반증
 title_en: hallux valgus
-description: 엄지발가락이 둘째 발가락 쪽으로 휘고 첫 번째 중족골 머리 부위가 돌출되어 통증, 신발 마찰, 앞발 과부하를 유발하는 변형 질환
+description: 엄지발가락이 안쪽으로 휘는 변형 질환
 aliases:
   - 무지외반증
   - 엄지발가락 휨
   - 엄지발가락 돌출
   - bunion
   - hallux valgus
-last_reviewed: '2026-07-03'
+last_reviewed: '2026-10-19'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
-source_count: 5
+source_count: 6
 source_count_external: 5
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4, 5]
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 6
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
 version: 2
 ---
 ## 정의
@@ -51,6 +57,8 @@ version: 2
 
 수술은 통증과 기능 제한이 지속되고 신발 착용 장애가 크며, 보존 치료로 조절되지 않을 때 고려합니다 [^1][^2]. 수술 방식은 변형 정도, 관절 상태, 중족골 정렬, 환자 활동 수준에 따라 다르며, 단순히 튀어나온 뼈를 깎는 수술이 아니라 정렬을 재구성하는 수술이라는 점을 설명해야 합니다. 미용 목적만으로 수술을 결정하기보다 통증·기능·신발 문제를 기준으로 상담합니다.
 
+돌출부의 점액낭이 부어 아프면 초음파 유도 주사로 목표한 점액낭을 보면서 치료합니다[^6].
+
 ## 예후
 가벼운 무지외반증은 신발 조정과 보조기, 발 관리로 통증을 줄이며 지낼 수 있습니다. 변형이 진행하거나 앞발 과부하가 커지면 통증 부위가 엄지 돌출부에서 둘째·셋째 중족골통, 발가락 변형으로 확장될 수 있습니다 [^1][^3].
 
@@ -58,8 +66,13 @@ version: 2
 
 ---
 
+---
+
 ## Citations
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^6]: [구리탑본의원 — 무지외반증, 엄지발가락이 휘면서 신발이 안 맞기 시작했다면](https://guritopbone.com/blog/hallux-valgus) · 근거: "엄지의 지지 기능이 떨어지면 체중이 둘째·셋째 발허리뼈로 쏠려 앞발바닥이 먼저 아프고 굳은살이 두껍게 잡힙니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: [Hecht PJ, Lin TJ. Hallux valgus. Med Clin North Am. 2014;98(2):227-232. PMID 24559871](https://pubmed.ncbi.nlm.nih.gov/24559871/)
@@ -70,3 +83,4 @@ version: 2
 
 ## Changelog
 - 2026-07-03 v2: 내용 업데이트.
+- 2026-10-19 v2: 치료 enrich
