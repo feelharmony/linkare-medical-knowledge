@@ -3709,5 +3709,20 @@
     "tenant_key": "gtop",
     "doctor_id": "dr-lee-sungwook",
     "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thr/ko/----/baker-cyst-popliteal-lump-ultrasound.md",
+    "source_article_url": "https://thewells.kr/blog/baker-cyst-popliteal-lump-ultrasound",
+    "source_article_title": "오금에 만져지는 물혹 베이커낭종, 상계동에서 그냥 둬도 될까요?",
+    "primary_entity_id": "knee-osteoarthritis",
+    "entity_ids": [
+      "knee-osteoarthritis"
+    ],
+    "updated_at": "2026-10-19",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
