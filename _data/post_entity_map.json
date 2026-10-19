@@ -2188,9 +2188,9 @@
     "entity_ids": [
       "lumbar-disc-herniation"
     ],
-    "updated_at": "2026-09-16",
+    "updated_at": "2026-10-19",
     "sub_topic_type": null,
-    "is_pillar": false,
+    "is_pillar": true,
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
