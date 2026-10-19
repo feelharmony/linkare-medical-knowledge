@@ -13,23 +13,24 @@ aliases:
   - plantar fasciitis
   - plantar fasciopathy
   - plantar heel pain
-last_reviewed: '2026-08-11'
+last_reviewed: '2026-10-19'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
-source_count: 6
+source_count: 7
 source_count_external: 5
-source_count_clinic_pillar: 1
+source_count_clinic_pillar: 2
 clinic_footnote_ids:
   - 6
+  - 7
 external_footnote_ids:
   - 1
   - 2
   - 3
   - 4
   - 5
-version: 5
+version: 6
 ---
 ## 정의
 족저근막염(plantar fasciitis)은 발뒤꿈치뼈(calcaneus) 안쪽 아래에 붙는 족저근막 부위에서 통증이 생기는 대표적인 [발뒤꿈치 통증](/symptoms/heel-pain/) 질환입니다 [^1][^2]. 전통적으로 “염증”이라는 이름을 쓰지만, 만성 환자에서는 반복 부하에 따른 근막 변성·미세손상·조직 회복 실패가 함께 작용하므로 plantar fasciopathy 또는 plantar heel pain으로도 설명합니다 [^2][^3].
@@ -64,6 +65,8 @@ version: 5
 
 수술은 드뭅니다. 충분한 기간의 보존 치료에도 일상 기능 제한이 지속되는 일부 환자에서 족저근막 release 등을 검토하지만, 신경성 통증·피로골절·지방패드 통증 등 다른 원인을 먼저 배제해야 합니다 [^1][^3].
 
+증상이 이어지고 근막이 두꺼워지거나 굳은 소견이 확인되면 체외충격파를 검토하며, 근막처럼 면으로 굳은 자리에는 방사형을, 깊고 좁은 병변에는 집중형을 씁니다[^7].
+
 ## 예후
 대부분의 족저근막염은 보존 치료로 호전될 수 있지만, 오래 지속된 통증, 체중 부하가 큰 직업, 종아리-아킬레스 유연성 저하, 신발 문제, 운동량 조절 실패가 있으면 회복이 늦어질 수 있습니다 [^1][^3]. 통증이 줄어든 뒤에도 스트레칭과 부하 관리가 유지되지 않으면 재발할 수 있습니다.
 
@@ -73,10 +76,13 @@ version: 5
 
 ---
 
+---
+
 ## Citations
 ### 자사 임상 자료
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^6]: [안심튼튼마취통증의학과 — 대구 족저근막염, 아침 발뒤꿈치 통증 원인과 치료](https://ansimpainfree.kr/blog/plantar-fasciitis) · 근거: "아침에 첫발을 내딛는 순간 발뒤꿈치에 찌르는 듯한 통증이 있다면, 단순한 피로가 아닙니다."
+[^7]: [구리탑본의원 — 족저근막염, 아침 첫발이 아픈데 발바닥까지 저리다면](https://guritopbone.com/blog/plantar-fasciitis) · 근거: "아침 첫걸음 통증이 족저근막염의 전형적인 신호로 꼽힙니다."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
@@ -89,3 +95,4 @@ version: 5
 ## Changelog
 - 2026-07-03 v4: 내용 업데이트.
 - 2026-08-11 v5: 정의 enrich, 병태 enrich
+- 2026-10-19 v6: 치료 enrich
