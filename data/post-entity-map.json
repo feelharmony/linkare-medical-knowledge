@@ -2308,9 +2308,9 @@
     "entity_ids": [
       "bppv"
     ],
-    "updated_at": "2026-09-29",
+    "updated_at": "2026-10-19",
     "sub_topic_type": null,
-    "is_pillar": false,
+    "is_pillar": true,
     "tenant_key": "gtop",
     "doctor_id": "dr-lee-sungwook",
     "hospital_id": "hospital-guritopbone"
