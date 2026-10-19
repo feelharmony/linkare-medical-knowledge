@@ -3679,5 +3679,20 @@
     "tenant_key": "gtop",
     "doctor_id": "dr-lee-sungwook",
     "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/gtop/ko/----/knee-leg-numbness-sacroiliac-joint-syndrome.md",
+    "source_article_url": "https://guritopbone.com/blog/knee-leg-numbness-sacroiliac-joint-syndrome",
+    "source_article_title": "무릎 위에서만 맴도는 다리 저림과 엉치 통증, 천장관절증후군 특징",
+    "primary_entity_id": "sacroiliac-joint-dysfunction",
+    "entity_ids": [
+      "sacroiliac-joint-dysfunction"
+    ],
+    "updated_at": "2026-10-19",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   }
 ]
