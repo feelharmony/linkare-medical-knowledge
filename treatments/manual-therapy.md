@@ -4,7 +4,7 @@ entity_id: manual-therapy
 entity_type: treatment
 permalink: /treatments/manual-therapy/
 title: 도수치료
-description: 평가에 기반해 의료진 손 기술로 관절 가동·연부 조직·신경 가동을 다루는 비수술 보존 치료. 만성 LBP·neck pain·외측상과염 등에서 운동치료와 결합한 형태로 가이드라인이 권고하며, 환자 평가·기법 선택·치료 순응이 결과에 영향을 줍니다.
+description: 손으로 근골격계를 교정하는 비수술 치료
 title_en: manual therapy
 aliases:
   - 도수치료
@@ -14,17 +14,23 @@ aliases:
   - mobilization
   - spinal manipulative therapy
   - SMT
-last_reviewed: '2026-05-31'
+last_reviewed: '2026-10-20'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
-source_count: 5
+source_count: 6
 source_count_external: 5
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4, 5]
-version: 5
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 6
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+version: 3
 ---
 ## 정의
 도수치료(manual therapy)는 **평가에 기반해 의료진 또는 치료사가 손 기술로 관절 가동·연부 조직·신경 가동을 다루는** 비수술 보존 치료입니다 [^1]. 진단·통증 양상 평가 후 표적 부위·기법·강도·횟수를 의료진이 결정해 적용하는 점에서 단순 modal 물리치료와 구분됩니다.
@@ -62,6 +68,8 @@ NICE NG59는 요통(±좌골신경통) 환자에게 도수치료를 단독으로
 
 ### 그 외
 어깨·고관절·무릎 등 다양한 근골격 영역에서도 도수치료가 운동치료와 결합한 형태로 임상에서 활용됩니다. 영역별 가이드라인 권고 강도는 적응증마다 다르므로, 적응증·결합 기법은 해당 entity 항목과 환자 평가에 따라 결정합니다.
+
+가장 흔한 대상은 목과 허리의 만성 통증입니다. 컴퓨터 앞에 장시간 앉아 거북목이나 일자목이 생긴 경우, 오래 서 있거나 앉는 자세 때문에 반복되는 요통, 어깨가 무겁고 결리는 상태, 좌우 어깨나 골반의 높이가 눈에 띄게 차이 나는 자세 불균형, 성장기 이후에 발견된 경도의 척추 측만증이 여기에 들어갑니다[^6].
 
 ## 시술 방식
 환자 평가 후 적응에 맞춰 다음 단계로 진행합니다.
@@ -104,10 +112,15 @@ Minnucci 2023 systematic review에서 RCT 보고된 이상반응은 대부분 �
 
 ---
 
+---
+
 ## Citations
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^6]: [안심튼튼마취통증의학과 — 대구 도수치료, 마사지와 무엇이 다르고 어떤 통증에 맞을까](https://ansimpainfree.kr/blog/manual-therapy) · 근거: "도수치료는 관절 가동성 회복과 신경 압박 해소를 목표로 합니다."
 - [안심튼튼 — 목디스크 관련 글](https://ansimpainfree.kr/blog/cervical-disc-herniation)
 - [더웰스 — 거북목·일자목 관련 글](https://thewells.kr/blog/forward-head-posture)
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: [Blanpied PR, Gross AR, Elliott JM, et al. Neck Pain: Revision 2017. Clinical Practice Guidelines Linked to the International Classification of Functioning, Disability and Health From the Orthopaedic Section of the American Physical Therapy Association. J Orthop Sports Phys Ther. 2017;47(7):A1-A83. PMID 28666405. DOI 10.2519/jospt.2017.0302](https://www.jospt.org/doi/10.2519/jospt.2017.0302)
@@ -119,3 +132,4 @@ Minnucci 2023 systematic review에서 RCT 보고된 이상반응은 대부분 �
 ## Changelog
 - 2026-04-23 v3: 내용 업데이트.
 - 2026-05-04 v5: 내용 업데이트.
+- 2026-10-20 v3: 적응증 enrich
