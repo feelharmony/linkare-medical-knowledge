@@ -1079,6 +1079,18 @@
         ],
         "excerpt": "후두신경통은 뒤통수 아래 한 지점에서 갑자기 찌르거나 감전된 듯 아픕니다."
       }
+    ],
+    "transcranial-magnetic-stimulation": [
+      {
+        "footnote_id": 10,
+        "url": "https://thewells.kr/blog/tms",
+        "title": "더웰스의원 — TMS(경두개 자기 자극) — 만성 두통·불면증·신경계 민감도 조절의 비침습 신경조절 치료",
+        "post_id": "f864d616-ef1a-46d1-8017-20f266646138",
+        "anchors": [
+          "when_considered"
+        ],
+        "excerpt": "TMS는 두피 밖에서 전자기장을 이용해 신경회로를 자극하는 비침습 신경조절 치료입니다."
+      }
     ]
   }
 }
