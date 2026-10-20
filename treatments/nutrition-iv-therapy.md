@@ -4,7 +4,7 @@ entity_id: nutrition-iv-therapy
 entity_type: treatment
 permalink: /treatments/nutrition-iv-therapy/
 title: 영양 정맥수액 (Nutrition IV Therapy)
-description: 비타민·미네랄·아미노산·기능성 분자를 정맥으로 직접 주입해 위장 흡수 한계를 우회하고 혈중 농도를 빠르게 끌어올리는 시술. 만성 피로·갱년기·만성 통증 회복기·항산화·간 보호 영역에서 기능의학(functional medicine) 접근으로 사용되며, 마이어스 칵테일·고용량 비타민 C(IVC)·NAD+ 수액·라이넥(Laennec, 인태반 유래 제제)·감초(글리시리진)가 대표 옵션입니다.
+description: ''
 title_en: nutrition intravenous therapy (IV nutrition / IVNT)
 aliases:
   - 영양수액
@@ -23,19 +23,19 @@ aliases:
   - 감초주사
   - 글리시리진 주사
   - 기능의학 영양주사
-last_reviewed: '2026-05-31'
+last_reviewed: '2026-10-20'
 locked: false
 quality_status: review
 verified_by: 문헌 및 내부 정합성 검토
-next_review: '2026-06-XX'
-source_count: 0
+next_review: 2026-06-XX
+source_count: 1
 source_count_external: 0
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 1
 external_footnote_ids: []
-version: 0.1b-stub
+version: 2
 ---
-
 ## 적응증
 
 영양 정맥수액은 위장 흡수의 한계 또는 빠른 혈중 농도 도달이 임상적으로 의미 있는 환자군에서 검토되는 비수술 기능의학(functional medicine) 접근입니다. 본 문서는 한국 임상 현장에서 사용되는 4축을 중심으로 정리합니다.
@@ -102,6 +102,8 @@ version: 0.1b-stub
 
 본 시술은 단독 치료보다 수면·운동·식이·기존 약물 치료와의 종합 관리 흐름에서 보조 도구로 운영되는 것이 일반적입니다.
 
+충분히 쉬어도 피로가 2~4주 이상 지속되거나, 집중력 저하·근육 무거움·운동 후 심한 탈진감이 반복되거나, 간 기능·빈혈·갑상샘 기능·염증 수치에 이상 가능성이 있으면 전문의 상담으로 원인을 먼저 확인해야 합니다[^1].
+
 ## 기대효과
 
 영양수액의 체감과 효과는 환자 기저 상태·옵션 선택·세션 빈도에 따라 달라집니다. 임상에서 보고되는 일반적 양상은 다음과 같습니다.
@@ -139,17 +141,20 @@ version: 0.1b-stub
 
 영양수액은 단독 시술보다 수면·운동·식이·기존 약물 치료, 그리고 만성 통증 영역에서는 도수치료·체외충격파·신경차단·NAD+ 수액 등과 단계적·병행 흐름으로 운영되는 것이 임상에서 일반적입니다.
 
+---
+
 ## Citations
+### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^1]: [더웰스의원 — 영양수액과 세포 에너지 대사 — NAD+·마이어스·라이넥·글리시리진의 TCA 사이클 회복 원리](https://thewells.kr/blog/nad-tca) · 근거: "TCA 사이클은 세포가 에너지를 만드는 핵심 회로이며, 미토콘드리아 안에서 이 회로가 제대로 돌지 않으면 피로와 직결됩니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
-
 (stub v0.1 단계 — 본 섹션은 차후 SOP 보강 라운드에서 PubMed 직접 검증 citation으로 채워질 예정. 후보 출처는 "임상 근거" 섹션 참조.)
-
-### 자사 임상 link
-
 관련 임상 자료는 별도 문서에서 정리합니다.
 
 ## Changelog
 - 2026-05-31 v0.1b-stub: 내용 업데이트.
 - 2026-05-21 v0.1a: 내용 업데이트.
 - 2026-05-21 v0.1: 내용 업데이트.
+- 2026-10-20 v2: 언제 고려 enrich
