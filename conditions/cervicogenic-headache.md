@@ -4,7 +4,7 @@ entity_id: cervicogenic-headache
 entity_type: condition
 permalink: /conditions/cervicogenic-headache/
 title: 경추기원 두통
-description: 경추 구조 병변에 의한 2차성 두통. 편측성, 경부 움직임·자세·압력으로 유발되며 신경차단으로 호전되는 양상이 특징입니다. 운동·도수치료가 1차 치료이며, 후관절 신경차단·고주파 열응고가 검토됩니다.
+description: ''
 title_en: cervicogenic headache
 aliases:
   - 경추기원 두통
@@ -12,17 +12,24 @@ aliases:
   - 목에서 오는 두통
   - cervicogenic headache
   - CGH
-last_reviewed: '2026-05-03'
+last_reviewed: '2026-10-20'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
-source_count: 6
-version: 2
+source_count: 7
+version: 3
 source_count_external: 6
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [2, 3, 4, 5, 6, 7]
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 8
+external_footnote_ids:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
 ---
 ## 정의
 경추기원 두통(cervicogenic headache, CGH)은 ICHD-3 분류의 11.2.1 항목에 해당하는 **2차성 두통**으로, 경추(cervical spine) 구조에서 비롯된 통증이 머리 부위로 referred 양상으로 나타나는 두통입니다 [^2]. 1990년대 Sjaastad·Cervicogenic Headache International Study Group(CHISG) 진단 기준이 확립되었으며 [^4][^5], ICHD-3는 이를 기반으로 경추 구조 병변에 의한 2차성 두통으로 분류합니다 [^2]. 더 큰 두통 분류와 감별 진단 흐름은 [두통](/symptoms/headache/) 항목 참고. 자세·근막·신경 자극이 함께 관여하며 [거북목·일자목](/conditions/forward-head-posture/)·[목 통증](/symptoms/neck-pain/) 평가와 연결됩니다.
@@ -74,24 +81,28 @@ Sjaastad CHISG 1998 진단 기준의 핵심 임상 특징은 다음과 같습니
 
 만성·치료 반응 부족·신경학적 결손이 진행하면 신경과·통증의학과 협진을 권장합니다 [^3][^4].
 
+초음파를 이용하여 대후두신경 주위에 국소마취제를 주입하는 차단술을 시행합니다[^8].
+
 ## 예후
 경추기원 두통의 상당수는 운동치료·도수치료·약물치료·신경차단 같은 단계적 보존 접근으로 호전됩니다 [^6]. 다만 일부 환자는 통증이 만성화되거나 반복되며, 자세 부담·외상 병력·심리사회적 요인이 만성화에 관여합니다 [^6]. 진단적 신경차단·고주파 열응고에 반응하는 환자군이 임상에서 식별 가능하며, 환자 특성·통증 양상에 맞춘 단계적 치료가 회복에 도움이 됩니다 [^4][^6].
 
+---
+
 ## Citations
+### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^8]: [안심튼튼마취통증의학과 — 대구 두통, 뒷머리에서 시작해 눈 주위까지 번진다면](https://ansimpainfree.kr/blog/cervicogenic-headache) · 근거: "목에서 비롯된 경추성 두통은 상부 경추 C1~C3의 신호가 뒤통수에서 이마와 눈가까지 번집니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
+
 ### 외부 권위 출처
-
 [^2]: [Headache Classification Committee of the International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition (ICHD-3). Cephalalgia. 2018;38(1):1-211. PMID 29368949. DOI 10.1177/0333102417738202](https://pubmed.ncbi.nlm.nih.gov/29368949/)
-
 [^3]: [Expert Panel on Neurological Imaging. ACR Appropriateness Criteria® Headache: 2022 Update. J Am Coll Radiol. 2023;20(5S):S70-S93. PMID 37236753. DOI 10.1016/j.jacr.2023.02.018](https://pubmed.ncbi.nlm.nih.gov/37236753/)
-
 [^4]: [Antonaci F, Sjaastad O. Cervicogenic headache: clinical presentation, diagnostic criteria, and differential diagnosis. Curr Pain Headache Rep. 2001;5(4):387-392. PMID 11403744. DOI 10.1007/s11916-001-0030-1](https://pubmed.ncbi.nlm.nih.gov/11403744/)
-
 [^5]: [Sjaastad O, Fredriksen TA, Pfaffenrath V. Cervicogenic headache: diagnostic criteria. The Cervicogenic Headache International Study Group. Headache. 1998;38(6):442-445. PMID 9664748. DOI 10.1046/j.1526-4610.1998.3806442.x](https://pubmed.ncbi.nlm.nih.gov/9664748/)
-
 [^6]: [Page P. Cervicogenic headaches: an evidence-led approach to clinical management. Int J Sports Phys Ther. 2011;6(3):254-266. PMC 3201065](https://pmc.ncbi.nlm.nih.gov/articles/PMC3201065/)
-
 [^7]: [Pareek AV, Edmondson E, Kung D. Cervicogenic Headaches: A Literature Review and Proposed Multifaceted Approach to Diagnosis and Management. Neurol Clin. 2024;42(2):543-557. PMID 38575265. DOI 10.1016/j.ncl.2023.12.008](https://pubmed.ncbi.nlm.nih.gov/38575265/)
 
 ## Changelog
 - 2026-05-03 v2: 내용 업데이트.
 - 2026-05-03 v1: 내용 업데이트.
+- 2026-10-20 v3: 치료 enrich
