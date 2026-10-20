@@ -3739,5 +3739,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thq/ko/---/menopause-belly-fat-why-waist-gain.md",
+    "source_article_url": "https://thewells.kr/blog/menopause-belly-fat-why-waist-gain",
+    "source_article_title": "먹는 양은 같은데 유독 늘어나는 갱년기 뱃살, 왜 허리만 굵어질까요",
+    "primary_entity_id": "menopausal-syndrome",
+    "entity_ids": [
+      "menopausal-syndrome"
+    ],
+    "updated_at": "2026-10-20",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
