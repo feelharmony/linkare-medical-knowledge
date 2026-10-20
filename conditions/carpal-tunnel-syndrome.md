@@ -11,23 +11,24 @@ aliases:
   - 수근관증후군
   - carpal tunnel syndrome
   - CTS
-last_reviewed: '2026-10-19'
+last_reviewed: '2026-10-20'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
-source_count: 6
+source_count: 7
 source_count_external: 5
-source_count_clinic_pillar: 1
+source_count_clinic_pillar: 2
 clinic_footnote_ids:
   - 6
+  - 7
 external_footnote_ids:
   - 1
   - 2
   - 3
   - 4
   - 5
-version: 2
+version: 3
 ---
 ## 정의
 손목터널증후군(carpal tunnel syndrome, CTS)은 [손목](/body-parts/wrist/)의 수근관 안에서 정중신경(median nerve)이 압박되어 [손 저림](/symptoms/hand-numbness/), 야간 통증, 감각 저하, 엄지 힘 저하를 일으키는 말초신경 포착 질환입니다 [^1][^2]. 정중신경은 엄지, 검지, 중지, 약지의 엄지 쪽 절반 감각과 엄지 일부 근육 기능에 관여합니다.
@@ -58,6 +59,8 @@ version: 2
 
 전기진단검사에 숙련된 전문의가 검사 반응과 진찰 소견을 연결해 해석하면 보조기와 재활부터 시작할지, 주사나 수술을 상의할 단계인지 함께 정합니다[^6].
 
+초음파로 정중신경과 힘줄, 혈관을 구분하고 바늘 끝을 보면서 수근관 안에 약물을 넣습니다[^7].
+
 ## 예후
 경도·중등도 CTS는 보조기와 국소 주사 등 보존 치료로 호전될 수 있지만, 반복 부하와 전신 위험 요인이 지속되면 재발할 수 있습니다 [^2][^3]. 진행성 근위축이나 감각 저하가 오래 지속된 경우에는 감압 후에도 회복이 제한될 수 있어 조기 평가가 중요합니다 [^1][^5].
 
@@ -67,10 +70,13 @@ version: 2
 
 ---
 
+---
+
 ## Citations
 ### 자사 임상 자료
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^6]: [구리탑본의원 — 손목터널증후군, 밤에 손이 저린데 원인이 손목이 아닐 수 있습니다](https://guritopbone.com/blog/carpal-tunnel-syndrome) · 근거: "밤에 손이 저려 잠에서 깨는 저림은 수근관 안에서 정중신경이 눌려 생깁니다."
+[^7]: [안심튼튼마취통증의학과 — 대구 손목통증, 밤마다 손이 저려 잠에서 깬다면](https://ansimpainfree.kr/blog/carpal-tunnel-syndrome) · 근거: "저린 지 얼마 안 되었고 감각과 엄지의 힘이 유지된다면 야간 보조기와 손목 부담을 줄이는 활동 조절부터 시작합니다."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
@@ -84,3 +90,4 @@ version: 2
 - 2026-07-03 v2: 내용 업데이트.
 - 2026-07-03 v1: 내용 업데이트.
 - 2026-10-19 v2: 치료 enrich
+- 2026-10-20 v3: 치료 enrich
