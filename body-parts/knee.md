@@ -5,21 +5,27 @@ entity_type: body_part
 permalink: /body-parts/knee/
 title: 무릎
 title_en: knee
-description: 무릎 관절과 주변 인대·연골·힘줄을 포함하는 하지의 주요 체중 부하 부위
+description: 무릎 관절 부위
 aliases:
   - 무릎
   - 슬관절
   - knee
-last_reviewed: '2026-07-03'
+last_reviewed: '2026-10-20'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
-source_count: 5
+source_count: 6
 source_count_external: 4
-source_count_clinic_pillar: 1
-clinic_footnote_ids: [1]
-external_footnote_ids: [2, 3, 4, 5]
+source_count_clinic_pillar: 2
+clinic_footnote_ids:
+  - 1
+  - 6
+external_footnote_ids:
+  - 2
+  - 3
+  - 4
+  - 5
 version: 2
 ---
 ## 정의
@@ -49,10 +55,15 @@ version: 2
 
 ---
 
+초음파 유도 주사가 필요하면 바늘 끝과 목표 부위를 화면으로 보며 위치를 조정합니다[^6].
+
+---
+
 ## Citations
-<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^1]: [더웰스 — 무릎 통증 관리·예방 운동 습관](https://thewells.kr/blog/knee-pain-management-prevention-exercise-habits)
+[^6]: [안심튼튼마취통증의학과 — 대구 무릎 통증, 원인 감별부터 병원 선택과 치료 단계까지](https://ansimpainfree.kr/blog/knee) · 근거: "무릎 통증의 초기 평가는 병력 청취와 이학적 검사로 시작합니다."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
@@ -64,3 +75,4 @@ version: 2
 ## Changelog
 - 2026-07-03 v2: 내용 업데이트.
 - 2026-07-03 v1: 내용 업데이트.
+- 2026-10-20 v2: 관련 치료 enrich
