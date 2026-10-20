@@ -5,7 +5,7 @@ entity_type: condition
 permalink: /conditions/myofascial-pain-syndrome/
 title: 근막통증증후군
 title_en: myofascial pain syndrome
-description: 근육과 근막의 통증유발점 때문에 국소 통증, 연관통, 근육 긴장, 움직임 제한이 반복되는 통증 상태
+description: 근막에 발생한 통증유발점으로 인한 만성 통증
 aliases:
   - 근막통증증후군
   - 근막통증
@@ -13,16 +13,23 @@ aliases:
   - trigger point
   - myofascial pain syndrome
   - MPS
-last_reviewed: '2026-07-03'
+last_reviewed: '2026-10-20'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
-source_count: 6
+source_count: 7
 source_count_external: 5
-source_count_clinic_pillar: 1
-clinic_footnote_ids: [1]
-external_footnote_ids: [2, 3, 4, 5, 6]
+source_count_clinic_pillar: 2
+clinic_footnote_ids:
+  - 1
+  - 7
+external_footnote_ids:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
 version: 2
 ---
 ## 정의
@@ -52,6 +59,8 @@ version: 2
 
 임상 설명에서는 근막통증증후군을 단순 “담 걸림”으로 축소하지 않고, [목디스크](/conditions/cervical-disc-herniation/)·두통·어깨 통증과 감별하면서 윈백 고주파, 체외충격파, 초음파 유도 주사, 통증유발점 주사, 도수·운동, 생활 부하 조절을 연결하는 허브로 활용하는 것이 좋습니다.
 
+통증치료 직후 목이 부드러워졌지만 며칠 뒤 같은 자리가 다시 뭉친다면 통증 유발점을 자극하는 부하가 남아 있는지 확인해야 합니다[^7].
+
 ## 예후
 근막통증증후군은 통증유발 요인을 줄이고 운동·수면·작업 습관을 함께 조정하면 호전될 수 있습니다 [^3][^4]. 그러나 반복 작업, 장시간 화면 자세, 스트레스, 수면 부족, 동반 경추·어깨 질환이 지속되면 재발하기 쉽습니다. 치료 반응은 압통 감소만이 아니라, 목 회전 범위, 두통 빈도, 팔 저림 감별, 업무·운동 복귀 정도로 함께 판단하는 것이 좋습니다.
 
@@ -59,10 +68,13 @@ version: 2
 
 ---
 
+---
+
 ## Citations
-<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^1]: [더웰스 — 거북목·일자목 관련 임상 자료](https://thewells.kr/blog/forward-head-posture)
+[^7]: [더웰스의원 — 섬유근막통증의 유발점과 재발, 진단부터 원인 관리까지](https://thewells.kr/blog/myofascial-pain-syndrome) · 근거: "통증치료 직후 목이 부드러워졌지만 며칠 뒤 같은 자리가 다시 뭉친다면..."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
@@ -75,3 +87,4 @@ version: 2
 ## Changelog
 - 2026-07-03 v2: 내용 업데이트.
 - 2026-07-03 v1: 내용 업데이트.
+- 2026-10-20 v2: 치료 enrich
