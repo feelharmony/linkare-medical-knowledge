@@ -4,7 +4,7 @@ entity_id: scoliosis
 entity_type: condition
 permalink: /conditions/scoliosis/
 title: 척추측만증
-description: 척추가 관상면에서 옆으로 휘고 회전 변형이 동반되는 척추 변형 — 청소년 특발성과 성인 퇴행성 측만을 구분해 관찰·운동·보조기·수술 평가를 결정
+description: 척추가 옆으로 휘는 변형 질환
 title_en: scoliosis
 aliases:
   - 척추측만증
@@ -13,19 +13,26 @@ aliases:
   - scoliosis
   - adolescent idiopathic scoliosis
   - adult degenerative scoliosis
-last_reviewed: '2026-07-04'
+last_reviewed: '2026-10-20'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-04'
-source_count: 7
+source_count: 8
 source_count_external: 7
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4, 5, 6, 7]
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 8
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
 version: 2
 ---
-
 ## 정의
 척추측만증(scoliosis)은 척추가 정면에서 볼 때 옆으로 휘고, 동시에 척추체 회전이 동반되는 3차원 척추 변형입니다. 단순히 “자세가 삐뚤다”는 표현이 아니라, X-ray에서 Cobb angle을 측정해 변형의 정도와 진행 위험을 평가하는 질환입니다 [^1][^2].
 
@@ -76,6 +83,8 @@ version: 2
 
 환자 커뮤니케이션에서는 “휘어진 척추를 무조건 바로 펴야 한다”보다 **청소년은 진행 위험 관리, 성인은 통증·신경 증상·기능 회복 중심**으로 설명하는 것이 안전합니다.
 
+Cobb 각이 20° 이상이고 Risser 등급이 0~2 단계라면 보조기와 운동 병행 치료를 검토할 시기입니다[^8].
+
 ## 예후
 청소년 특발성 척추측만증은 성장 종료 후 작은 곡선은 안정적인 경우가 많지만, 성장기 중등도 이상 곡선은 진행 가능성이 있어 추적이 중요합니다 [^1][^3]. 보조기 치료는 착용 시간과 순응도에 따라 효과가 달라지며, 조기 발견과 적절한 추적이 불필요한 진행을 줄이는 데 중요합니다 [^4].
 
@@ -83,9 +92,13 @@ version: 2
 
 ---
 
-## Citations
+---
 
+## Citations
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^8]: [더웰스의원 — 성장기 척추측만증, 보조기를 입고 운동해야 하는 이유](https://thewells.kr/blog/scoliosis) · 근거: "성장기 척추측만증에서 운동은 필수입니다. 그러나 운동만으로는 성장 중 진행되는 변형을 멈추기 어렵습니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: [Horne JP, Flannery R, Usman S. Adolescent Idiopathic Scoliosis: Diagnosis and Management. *Am Fam Physician.* 2014;89(3):193-198. PMID 24506121](https://pubmed.ncbi.nlm.nih.gov/24506121/)
@@ -98,3 +111,4 @@ version: 2
 
 ## Changelog
 - 2026-07-04 v2: 내용 업데이트.
+- 2026-10-20 v2: 치료 enrich
