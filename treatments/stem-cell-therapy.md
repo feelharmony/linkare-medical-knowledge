@@ -19,17 +19,18 @@ aliases:
   - bone marrow aspirate concentrate
   - BMSC
   - mesenchymal stem cell
-last_reviewed: '2026-07-18'
+last_reviewed: '2026-10-20'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-03'
-source_count: 10
+source_count: 11
 source_count_external: 8
-source_count_clinic_pillar: 2
+source_count_clinic_pillar: 3
 clinic_footnote_ids:
   - 9
   - 10
+  - 11
 external_footnote_ids:
   - 1
   - 2
@@ -39,7 +40,7 @@ external_footnote_ids:
   - 6
   - 7
   - 8
-version: 3
+version: 4
 ---
 ## 정의·기전
 줄기세포 치료(stem cell therapy)는 지방·골수 등에서 얻은 세포 또는 세포가 분비하는 생물학적 신호를 활용해 손상 조직의 회복 환경을 조절하는 재생 치료 범주입니다. 임상에서 흔히 논의되는 형태는 다음과 같습니다.
@@ -112,11 +113,16 @@ version: 3
 
 ---
 
+감각이 둔해지거나 걷기 어려워졌다면 재생 치료를 논의하기 전에 신경 손상과 감염, 골절 같은 긴급한 원인부터 평가해야 합니다[^11].
+
+---
+
 ## Citations
 ### 자사 임상 자료
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^9]: [자사 임상 자료 — 탈모 재생주사 치료](https://thewells.kr/blog/hair-loss-regeneration-injection-treatment)
 [^10]: [자사 임상 자료 — 자가 혈액·골수 유래 줄기세포 치료](https://ansimpainfree.kr/blog/autologous-stem-cell-therapy)
+[^11]: [더웰스의원 — 줄기세포주사, 자가 혈액에서 분리하는 과정과 적용 범위](https://thewells.kr/blog/stem-cell-therapy) · 근거: "자가혈액 재생 치료는 채혈한 피를 원심분리해 필요한 층을 나눕니다."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
@@ -135,3 +141,4 @@ version: 3
 - 2026-05-09 v3: 내용 업데이트.
 - 2026-05-03 v2: 내용 업데이트.
 - 2026-07-18 v3: 기대효과 enrich, 언제 고려 enrich
+- 2026-10-20 v4: 언제 고려 enrich
