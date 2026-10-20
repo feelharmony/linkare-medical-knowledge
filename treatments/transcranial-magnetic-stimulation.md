@@ -3,8 +3,8 @@ layout: entity-hub
 entity_id: transcranial-magnetic-stimulation
 entity_type: treatment
 permalink: /treatments/transcranial-magnetic-stimulation/
-title: 경두개 자기 자극 (TMS, Transcranial Magnetic Stimulation)
-description: 펄스 자기장으로 두피 위에서 대뇌피질 신경회로를 비침습적으로 자극하는 시술. 만성 통증·두통·불면증·신경계 민감도 영역에서 evidence가 누적되고 있으며, 정신과 우울·OCD는 FDA 승인 적응증입니다.
+title: '경두개 자기 자극 (TMS, Transcranial Magnetic Stimulation)'
+description: ''
 title_en: transcranial magnetic stimulation (TMS / rTMS)
 aliases:
   - TMS
@@ -12,19 +12,28 @@ aliases:
   - repetitive Transcranial Magnetic Stimulation
   - 경두개자기자극
   - 두뇌 자기 자극
-last_reviewed: '2026-05-20'
+last_reviewed: '2026-10-20'
 locked: false
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-20'
-source_count: 9
+source_count: 10
 source_count_external: 9
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9]
-version: 1.1
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 10
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+version: 2
 ---
-
 ## 적응증
 
 TMS는 만성 통증·두통·불면·신경계 민감도 변화 영역에서 근거가 누적 중인 비침습 신경조절 시술로, 약물 반응이 충분치 않거나 약물 부작용·상호작용으로 약물 옵션이 제한된 환자, 만성화 양상으로 통증·각성 회로 자체의 조절이 필요한 환자에서 검토됩니다[^1]. 정신과 영역에서는 약물 저항성 주요 우울 장애와 강박장애가 FDA 시판 허가(marketing authorization) 적응증입니다.
@@ -107,6 +116,8 @@ TMS는 두피 위에 놓인 코일에서 발생하는 펄스 자기장이 두개
 
 표준화된 임상 가이드라인은 적응증별로 정립도가 다릅니다. 정신과 우울·OCD와 신경병증성 통증은 가이드라인 Level A 수준의 권고가 있고[^1], 만성 두통·근골격 통증·불면증은 메타분석 차원의 근거가 누적 단계이며 환자별 평가에 따라 검토됩니다.
 
+신경계가 감작된 상태에서는 통증이 수면을 방해하고, 수면 부족이 통증 역치를 낮추는 악순환이 일어납니다. 약물에 충분히 반응하지 않는 신경병성 통증 환자에서 이 동반 양상이 두드러지는데, 신경조절 치료를 검토하는 근거 중 하나입니다[^10].
+
 ## 기대효과
 
 rTMS의 효과 크기와 지속 기간은 자극 부위·주파수·세션 수·환자 기저 상태에 따라 달라집니다. 임상 연구에서 보고된 평균적 효과는 다음과 같습니다.
@@ -146,29 +157,27 @@ rTMS의 효과 크기와 지속 기간은 자극 부위·주파수·세션 수·
 
 만성 통증·만성 두통 영역에서 rTMS는 단독 시술보다 약물·신경차단술·도수치료·체외충격파·인지행동치료 등 기존 치료와의 단계적 결합으로 운영되는 흐름이 일반적입니다. 효과 지속이 제한적인 적응증에서는 유지 세션 또는 병행 치료의 역할이 임상에서 검토되며, rTMS의 통합 관리 도구로서의 위치도 종합 리뷰에서 확인됩니다[^9].
 
+---
+
 ## Citations
+### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^10]: [더웰스의원 — TMS(경두개 자기 자극) — 만성 두통·불면증·신경계 민감도 조절의 비침습 신경조절 치료](https://thewells.kr/blog/tms) · 근거: "TMS는 두피 밖에서 전자기장을 이용해 신경회로를 자극하는 비침습 신경조절 치료입니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
-
 [^1]: Lefaucheur JP, Aleman A, Baeken C, Benninger DH, Brunelin J, Di Lazzaro V, et al. Evidence-based guidelines on the therapeutic use of repetitive transcranial magnetic stimulation (rTMS): An update (2014-2018). *Clinical Neurophysiology* 2020;131(2):474-528. DOI: 10.1016/j.clinph.2019.11.002. PMID: 31901449.
-
 [^2]: Liang Y, Niu S, Wang Y. Repetitive transcranial magnetic stimulation for musculoskeletal pain: A systematic review and meta-analysis. *British Journal of Pain* 2025. DOI: 10.1177/20494637251356812. PMC: PMC12213538.
-
 [^3]: Kim H, Jung J, Park S, Joo Y, Lee S, Lee S. Effects of Repetitive Transcranial Magnetic Stimulation on the Primary Motor Cortex of Individuals with Fibromyalgia: A Systematic Review and Meta-Analysis. *Brain Sciences* 2022;12(5):570. DOI: 10.3390/brainsci12050570. PMID: 35624957.
-
 [^4]: Liu Y, Miao R, Zou H, Hu Q, Yin S, Zhu F. Repetitive transcranial magnetic stimulation in central post-stroke pain: a meta-analysis and systematic review of randomized controlled trials. *Frontiers in Neuroscience* 2024;18. DOI: 10.3389/fnins.2024.1367649.
-
 [^5]: Stephens E, Dhanasekara CS, Montalvan V, Zhang B, Bassett A, Hall R, et al. Utility of Repetitive Transcranial Magnetic Stimulation for Chronic Daily Headache Prophylaxis: A Systematic Review and Meta-Analysis. *Current Pain and Headache Reports* 2024;28(4):149-167. DOI: 10.1007/s11916-024-01210-0. PMID: 38277066.
-
 [^6]: Jiang Y, Yuan C, Sun P, Li C, Wang L. Efficacy and safety of high-frequency repetitive transcranial magnetic stimulation (rTMS) for migraine: a meta-analysis of randomized controlled trials. *Acta Neurologica Belgica* 2024;124(4):1167-1176. DOI: 10.1007/s13760-024-02570-5. PMID: 38748342.
-
 [^7]: Ma H, Lin J, He J, Lo DHT, Tsang HWH. Effectiveness of TES and rTMS for the Treatment of Insomnia: Meta-Analysis and Meta-Regression of Randomized Sham-Controlled Trials. *Frontiers in Psychiatry* 2021;12:744475. DOI: 10.3389/fpsyt.2021.744475. PMC: PMC8569107.
-
 [^8]: Rossi S, Antal A, Bestmann S, Bikson M, Brewer C, Brockmöller J, et al. Safety and recommendations for TMS use in healthy subjects and patient populations, with updates on training, ethical and regulatory issues: Expert Guidelines. *Clinical Neurophysiology* 2021;132(1):269-306. DOI: 10.1016/j.clinph.2020.10.003. PMID: 33243615.
-
 [^9]: Attal N, Genin T. rTMS for chronic pain: State of the art and perspectives. *British Journal of Pain* 2025. DOI: 10.1177/10538127251363758.
 
 ## Changelog
 - 2026-05-20 v1.1: 내용 업데이트.
 - 2026-05-20 v1: 내용 업데이트.
 - 2026-05-19 v0.1: 내용 업데이트.
+- 2026-10-20 v2: 언제 고려 enrich
