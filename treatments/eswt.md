@@ -4,7 +4,7 @@ entity_id: eswt
 entity_type: treatment
 permalink: /treatments/eswt/
 title: 체외충격파
-description: 체외에서 발생시킨 음향 압력파를 표적 조직에 전달해 통증 조절과 조직 회복 환경을 돕는 비수술 치료
+description: 체외에서 충격파를 가해 조직 회복을 유도하는 치료
 title_en: extracorporeal shock wave therapy
 aliases:
   - 체외충격파
@@ -14,19 +14,28 @@ aliases:
   - ESWT
   - extracorporeal shock wave therapy
   - shockwave therapy
-last_reviewed: '2026-07-03'
-source_count: 9
-version: 8
+last_reviewed: '2026-10-20'
+source_count: 10
+version: 6
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-10-03'
 source_count_external: 8
-source_count_clinic_pillar: 1
-clinic_footnote_ids: [9]
-external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8]
+source_count_clinic_pillar: 2
+clinic_footnote_ids:
+  - 9
+  - 10
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
 ---
-
 ## 정의
 체외충격파 치료(extracorporeal shock wave therapy, ESWT)는 체외에서 발생시킨 **고에너지 음향 압력파**를 표적 조직에 전달해 통증 완화와 조직 회복 환경을 돕는 비수술 치료입니다 [^1]. 음향 매질 안에서 음속보다 빠르게 전파되는 압력파를 만들고, 시술자가 진단·통증 위치·조직 깊이·환자 반응에 따라 표적과 강도, 횟수를 조정합니다.
 
@@ -70,6 +79,8 @@ APTA 2022 외측 팔꿈치 통증 CPG는 ESWT를 독립적인 강한 권고로 �
 Auersperg & Trieb 2020 EFORT Open Reviews는 가성관절증, 골유합 지연, 골수 부종, 초기 골괴사, 아킬레스건 건병증, 만성 창상 치유 등에서도 ESWT 적응이 보고된다고 정리합니다 [^1]. 한국에서도 외측상과염·내측상과염·슬개건병증·아킬레스건 건염·족저근막염·근막동통증후군 등 다양한 근골격계 적응증에서 ESWT가 활용되어 왔습니다 [^8].
 
 다만 십자인대 파열, 반월상연골 파열, 급성 골절·탈구, 진행성 신경학적 결손처럼 구조적 안정성이나 수술 적응이 핵심인 질환에서는 ESWT가 손상 구조를 복원하는 치료가 아닙니다. 이 경우에는 통증 조절·회복 환경 보조로만 설명하고, 영상 평가와 전문 의뢰 기준을 우선합니다.
+
+어깨에 석회가 보인다는 말을 들은 분, 팔꿈치 바깥쪽이 반복해서 아픈 분들이 이 치료를 고려합니다[^10].
 
 ## 시술 방식
 환자 평가 후 적응에 맞춰 다음 단계로 진행합니다.
@@ -124,10 +135,13 @@ Auersperg & Trieb 2020 EFORT Open Reviews는 가성관절증, 골유합 지연, 
 - [손목 통증](/symptoms/wrist-pain/) · [드퀘르벵 건초염](/conditions/de-quervain/) · [슬개건염](/conditions/patellar-tendinitis/)
 - [PRP 주사](/treatments/prp-injection/)
 
+---
+
 ## Citations
-<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^9]: [안심튼튼 — 체외충격파 치료](https://ansimpainfree.kr/blog/extracorporeal-shock-wave-therapy)
+[^10]: [더웰스의원 — 체외충격파 치료의 원리와 적응 통증, 기기 방식과 회차별 반응](https://thewells.kr/blog/eswt) · 근거: "아침 첫발이 아픈 분, 어깨에 석회가 보인다는 말을 들은 분, 팔꿈치 바깥쪽이 반복해서 아픈 분들이 이 치료를 고려합니다."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
@@ -147,3 +161,4 @@ Auersperg & Trieb 2020 EFORT Open Reviews는 가성관절증, 골유합 지연, 
 - 2026-05-04 v5: 내용 업데이트.
 - 2026-05-04 v4: 내용 업데이트.
 - 2026-04-28 v3: 내용 업데이트.
+- 2026-10-20 v6: 적응증 enrich
