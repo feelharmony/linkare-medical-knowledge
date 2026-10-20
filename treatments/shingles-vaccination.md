@@ -4,8 +4,8 @@ entity_id: shingles-vaccination
 entity_type: treatment
 permalink: /treatments/shingles-vaccination/
 title: 대상포진 백신 (Shingrix)
-description: 재조합 대상포진 백신(RZV, Shingrix) — 대상포진·PHN 예방의 가장 효과적인 수단
-title_en: shingles vaccination (Shingrix, recombinant zoster vaccine)
+description: ''
+title_en: 'shingles vaccination (Shingrix, recombinant zoster vaccine)'
 aliases:
   - 대상포진 백신
   - 대상포진 예방접종
@@ -13,19 +13,24 @@ aliases:
   - 싱그릭스
   - RZV
   - recombinant zoster vaccine
-last_reviewed: '2026-05-31'
+last_reviewed: '2026-10-20'
 source_count: 6
 source_count_external: 5
 source_count_clinic_pillar: 1
-clinic_footnote_ids: [5]
-external_footnote_ids: [1, 2, 3, 4, 6]
-version: 2
+clinic_footnote_ids:
+  - 5
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 6
+version: 3
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 ---
-
 ## 정의·종류
 대상포진 백신은 잠복 수두대상포진 바이러스(VZV)의 재활성화를 예방하는 능동 면역 수단입니다. 현재 가장 널리 사용되는 백신은 **Shingrix(재조합 대상포진 백신, recombinant zoster vaccine, RZV)**입니다.
 
@@ -49,6 +54,8 @@ next_review: '2026-08-09'
 
 ### 과거 Zostavax 접종자
 과거에 Zostavax(약독화 생백신)를 접종한 환자도 시간이 지나면서 면역 효과가 감소하므로, 일정 간격을 둔 뒤 Shingrix로 추가 접종하는 것이 가능합니다. 구체적 간격은 진료 시점 의료진과 결정합니다 [^5].
+
+싱그릭스는 2차 접종을 완료해야 충분한 보호 효과가 형성됩니다. 일정이 어렵다면 처음부터 2회를 마칠 수 있는 시기에 시작하는 편이 합리적입니다[^5].
 
 ## 임상 evidence
 
@@ -105,9 +112,11 @@ ZOE-50/70·ZOE-LTFU 11년 추적에서 RZV와 인과관계가 명확한 중대 �
 
 ---
 
+---
+
 ## Citations
-<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^5]: [안심튼튼 — 싱그릭스 vs 조스터박스 대상포진 예방접종 백신 비교](https://ansimpainfree.kr/blog/shingles-vaccine-singrrix-vs-shingrix)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
@@ -121,3 +130,4 @@ ZOE-50/70·ZOE-LTFU 11년 추적에서 RZV와 인과관계가 명확한 중대 �
 ## Changelog
 - 2026-05-09 v2: 내용 업데이트.
 - 2026-05-03 v1: 내용 업데이트.
+- 2026-10-20 v3: 적응증·접종 권고 enrich
