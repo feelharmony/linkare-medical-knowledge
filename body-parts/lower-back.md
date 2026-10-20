@@ -5,23 +5,31 @@ entity_type: body_part
 permalink: /body-parts/lower-back/
 title: 허리
 title_en: lower back
-description: 요추, 천장관절, 골반, 근육·인대·디스크·신경근이 함께 관여하는 하부 척추 부위
+description: ''
 aliases:
   - 허리
   - 요부
   - lower back
   - low back
-last_reviewed: '2026-07-04'
+last_reviewed: '2026-10-20'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
-source_count: 7
+source_count: 8
 source_count_external: 5
-source_count_clinic_pillar: 2
-clinic_footnote_ids: [1, 2]
-external_footnote_ids: [3, 4, 5, 6, 7]
-version: 3
+source_count_clinic_pillar: 3
+clinic_footnote_ids:
+  - 1
+  - 2
+  - 8
+external_footnote_ids:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+version: 4
 ---
 ## 정의
 허리(lower back, 요부)는 [요추](/body-parts/lumbar-spine/), 천추, 천장관절, 골반, 디스크, 후관절, 근육·인대, 요천추 신경근이 함께 작동하는 부위입니다. 허리는 체중 부하와 굽힘·젖힘·회전 동작을 반복적으로 받기 때문에 비특이성 요통, 디스크 질환, 협착증, 근막성 통증, 천장관절 통증이 모두 흔하게 겹칠 수 있습니다 [^3][^4].
@@ -55,11 +63,16 @@ version: 3
 
 ---
 
+치료 순서는 신경차단술, 체외충격파, 도수치료로 항상 고정되는 것이 아닙니다. 통증 강도, 방사통 변화, 보행 가능 거리, 근력과 감각 변화, 일상동작 가능 여부에 따라 병행하거나 순서를 조정합니다[^8].
+
+---
+
 ## Citations
-<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^1]: [안심튼튼 — 허리디스크 원인, 증상, 진단](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
 [^2]: [안심튼튼 — 허리디스크 증상, 허리보다 다리가 먼저 아픈 이유](https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk)
+[^8]: [안심튼튼마취통증의학과 — 허리 통증, 병원 선택이 치료 결과를 바꾼다 — 진단·치료·재발 방지 기준](https://ansimpainfree.kr/blog/lower-back-pain-hospital-choice-matters) · 근거: "허리 통증은 근육 염좌, 디스크 탈출증, 척추관 협착증 등 원인이 다양합니다."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
@@ -73,3 +86,4 @@ version: 3
 - 2026-07-04 v3: 내용 업데이트.
 - 2026-07-04 v2: 내용 업데이트.
 - 2026-07-03 v1: 내용 업데이트.
+- 2026-10-20 v4: 관련 치료 enrich
