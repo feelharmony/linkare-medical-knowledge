@@ -4,19 +4,27 @@ entity_id: cervical-disc-herniation
 entity_type: condition
 permalink: /conditions/cervical-disc-herniation/
 title: 목디스크
-description: 경추 추간판 탈출이나 퇴행성 변화가 신경근을 자극해 목 통증, 어깨·팔 방사통, 손 저림, 근력 저하를 일으킬 수 있는 질환
+description: 경추 추간판이 탈출하여 신경을 압박하는 질환
 title_en: cervical disc herniation
-last_reviewed: '2026-07-03'
+last_reviewed: '2026-10-20'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
-source_count: 7
+source_count: 8
 version: 7
 source_count_external: 6
-source_count_clinic_pillar: 1
-clinic_footnote_ids: [1]
-external_footnote_ids: [2, 3, 4, 5, 6, 7]
+source_count_clinic_pillar: 2
+clinic_footnote_ids:
+  - 1
+  - 8
+external_footnote_ids:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
 ---
 ## 정의
 목디스크는 경추 사이의 디스크가 손상되어 신경근이나 척수를 압박하면서 [목 통증](/symptoms/neck-pain/), [어깨 통증](/symptoms/shoulder-pain/), [팔 저림·방사통](/symptoms/arm-numbness/), [손 저림](/symptoms/hand-numbness/)을 유발할 수 있는 질환입니다 [^1]. 한국 국민건강보험공단(NHIS) 기반 연구(Kim YK et al., 2018, 2004~2010 자료)에서 증상이 있는 경추 추간판 탈출증의 발생률은 연령에 따라 증가하고, 여성에서 더 높게 나타나는 경향이 보고되었습니다 [^3].
@@ -58,6 +66,8 @@ CT는 뼈의 변화나 골극(뼈가 자란 것)을 평가하는 데 유용하�
 
 생활 습관 개선과 맞춤형 깔창을 통한 하중 분산은 척추 부담을 줄이고 재발을 예방하는 데 기여합니다. [^1]
 
+통증이 심해 잠을 이루기 어렵거나 일상생활이 무너지고, 보존치료를 이어가도 팔 증상이 지속된다면 C-arm 실시간 영상 아래 신경 주변에 약물을 주입하는 시술을 검토합니다[^8].
+
 ## 예후
 대부분의 경추 신경근병증은 보존 치료 중 증상이 호전되는 경향이 있습니다. 경추 추간판 탈출의 자발적 영상학적 회귀도 보고되며, 2021년 문헌고찰에서는 MRI상 회귀가 평균 약 9.15개월에 관찰되었고, extrusion/sequestration 형태이면서 paracentral 또는 foraminal에 위치하고 조영증강이 관찰되는 디스크에서 회귀 가능성이 더 높은 것으로 보고됩니다 [^7].
 
@@ -65,25 +75,21 @@ CT는 뼈의 변화나 골극(뼈가 자란 것)을 평가하는 데 유용하�
 
 ---
 
-## Citations
-<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
-### 자사 임상 자료
+---
 
+## Citations
+### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^1]: [안심튼튼 — 목디스크 원인·증상·진단부터 단계별 비수술 치료까지](https://ansimpainfree.kr/blog/cervical-disc-herniation)
+[^8]: [더웰스의원 — 목디스크란 무엇인가, 팔저림이 생기는 구조부터 단계별 치료까지](https://thewells.kr/blog/cervical-disc-herniation) · 근거: "목디스크는 목뼈 사이 물렁뼈가 퇴행해 탄력을 잃거나 밀려나와 신경을 압박하는 상태입니다."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
-
 [^2]: [pmc.ncbi.nlm.nih.gov/articles/PMC3611065/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3611065/)
-
 [^3]: [pmc.ncbi.nlm.nih.gov/articles/PMC6210730/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6210730/)
-
 [^4]: [Bono CM, Ghiselli G, Gilbert TJ, et al. An evidence-based clinical guideline for the diagnosis and treatment of cervical radiculopathy from degenerative disorders. Spine J. 2011;11(1):64-72. PMID 21168100. DOI 10.1016/j.spinee.2010.10.023](https://pubmed.ncbi.nlm.nih.gov/21168100/)
-
 [^5]: [www.sciencedirect.com/science/article/abs/pii/S0949265822001154](https://www.sciencedirect.com/science/article/abs/pii/S0949265822001154)
-
 [^6]: [Engquist M, Löfgren H, Öberg B, et al. Surgery versus nonsurgical treatment of cervical radiculopathy: a prospective, randomized study comparing surgery plus physiotherapy with physiotherapy alone with a 2-year follow-up. Spine (Phila Pa 1976). 2013;38(20):1715-1722. PMID 23778373. DOI 10.1097/BRS.0b013e31829ff095](https://pubmed.ncbi.nlm.nih.gov/23778373/)
-
 [^7]: [pmc.ncbi.nlm.nih.gov/articles/PMC8088536/](https://pmc.ncbi.nlm.nih.gov/articles/PMC8088536/)
 
 ## Changelog
@@ -93,3 +99,4 @@ CT는 뼈의 변화나 골극(뼈가 자란 것)을 평가하는 데 유용하�
 - 2026-05-01 v5: 내용 업데이트.
 - 2026-05-17 v6: 내용 업데이트.
 - 2026-10-12: 외부 각주 서지 보완([^4]·[^6] 링크만 있던 것에 저자·제목·저널 기재, PMID 동일).
+- 2026-10-20 v7: 치료 enrich
