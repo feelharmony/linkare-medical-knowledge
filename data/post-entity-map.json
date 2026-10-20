@@ -3754,5 +3754,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/apfree/ko/-/levator-scapulae-pain-trigger-point-injection-shockwave.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/levator-scapulae-pain-trigger-point-injection-shockwave",
+    "source_article_title": "견갑거근 통증 진찰, 동호동에서 확인하는 압통점과 주사·충격파 치료",
+    "primary_entity_id": "myofascial-pain-syndrome",
+    "entity_ids": [
+      "myofascial-pain-syndrome"
+    ],
+    "updated_at": "2026-10-20",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
