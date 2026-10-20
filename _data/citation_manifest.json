@@ -935,6 +935,18 @@
         ],
         "excerpt": "엄지의 지지 기능이 떨어지면 체중이 둘째·셋째 발허리뼈로 쏠려 앞발바닥이 먼저 아프고 굳은살이 두껍게 잡힙니다."
       }
+    ],
+    "nutrition-iv-therapy": [
+      {
+        "footnote_id": 1,
+        "url": "https://thewells.kr/blog/nad-tca",
+        "title": "더웰스의원 — 영양수액과 세포 에너지 대사 — NAD+·마이어스·라이넥·글리시리진의 TCA 사이클 회복 원리",
+        "post_id": "69f4f9d5-0a92-42c9-9239-c62a231e7447",
+        "anchors": [
+          "when_considered"
+        ],
+        "excerpt": "TCA 사이클은 세포가 에너지를 만드는 핵심 회로이며, 미토콘드리아 안에서 이 회로가 제대로 돌지 않으면 피로와 직결됩니다."
+      }
     ]
   }
 }
