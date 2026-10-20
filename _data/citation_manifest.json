@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-19",
+  "updated_at": "2026-10-20",
   "entities": {
     "aging": [
       {
@@ -247,6 +247,16 @@
         "post_id": null,
         "anchors": [],
         "excerpt": null
+      },
+      {
+        "footnote_id": 7,
+        "url": "https://ansimpainfree.kr/blog/post-herpetic-neuralgia",
+        "title": "안심튼튼마취통증의학과 — 대상포진 후 신경통이란 무엇입니까",
+        "post_id": "de3888c8-8fe5-4f36-a18a-7c8e3f61eb70",
+        "anchors": [
+          "treatment"
+        ],
+        "excerpt": "대상포진 수포가 아물었다고 해서 통증도 함께 끝나는 것은 아닙니다."
       }
     ],
     "rotator-cuff-injury": [
