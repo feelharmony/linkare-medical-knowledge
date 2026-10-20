@@ -4,18 +4,28 @@ entity_id: menopausal-syndrome
 entity_type: condition
 permalink: /conditions/menopausal-syndrome/
 title: 갱년기 증후군
-description: 폐경 이행기 전후 에스트로겐 감소로 혈관운동·수면·기분·인지·비뇨생식기·골·대사 등 전신 여러 계통에 걸쳐 증상이 나타나는 상태
+description: ''
 title_en: menopausal syndrome
-last_reviewed: '2026-07-30'
+last_reviewed: '2026-10-20'
 locked: false
 quality_status: review
-verified_by: v0.2 — 근골격 통증 축 보강. verified 승격은 [^1]~[^5] abstract 정합성 재확인 후
+verified_by: 'v0.2 — 근골격 통증 축 보강. verified 승격은 [^1]~[^5] abstract 정합성 재확인 후'
 next_review: '2026-08-30'
-source_count: 9
+source_count: 10
 source_count_external: 9
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 10
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
 version: 2
 ---
 ## 정의
@@ -42,10 +52,18 @@ version: 2
 
 근골격 통증이 동반된 경우 비약물 접근이 함께 검토됩니다. 폐경기 여성의 근골격 통증에 대한 도수치료를 다룬 체계적 문헌고찰에서는 포함된 5편 중 4편이 통증 감소를 보고했습니다. 다만 저자들은 결과를 신중하게 해석할 것을 명시했습니다. 4편이 비뚤림 위험이 높았고, 전체 참여자가 245명으로 적었으며, 추적 기간이 4주에서 6개월로 짧고, 이질성이 커서 메타분석을 하지 못했기 때문입니다 [^9]. 즉 현재 근거는 방향을 시사하는 수준이며 효과의 크기나 지속을 단정할 단계는 아닙니다.
 
+호르몬 치료는 안면홍조와 야간 발한이 일상을 크게 해칠 때 검토합니다[^10].
+
 ## 예후
 갱년기 증상의 경과는 개인차가 큽니다. 혈관운동 증상은 수년에서 10년 이상 지속되기도 하고, 비뇨생식기 증상은 진행성인 경향이 있습니다 [^1]. 폐경 후 골 소실과 대사·심혈관 위험 변화는 장기 관리 대상입니다 [^1][^4].
 
+---
+
 ## Citations
+### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^10]: [더웰스의원 — 갱년기 증상, 하나씩 억누르기보다 호르몬·신경·대사를 함께 봐야 하는 이유](https://thewells.kr/blog/menopausal-syndrome) · 근거: "갱년기 증상은 개인의 생물학적 특성과 건강 상태에 따라 서로 다른 조합으로 나타납니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: Duralde ER, Sobel TH, et al. Management of perimenopausal and menopausal symptoms. BMJ. 2023. PMID: 37553173
@@ -61,3 +79,4 @@ version: 2
 ## Changelog
 - 2026-07-30 v2: 근골격 통증 축 보강 — 병태에 에스트로겐-통증 조절 및 인과 미확립 경계 추가, 증상에 근골격 항목(유병률 71%·OR) 신설, 진단에 근골격 통증의 갱년기 단독 귀속 경계 추가, 치료에 도수치료 근거와 그 한계 명시. 외부 근거 5→9편(Post Reprod Health·Neural Plast 메타분석·Ter Arkh·Healthcare 체계적 문헌고찰). quality_status stub→review (stub 은 lint 무효값이었음).
 - 2026-07-24 v1 (stub v0.1): thq 8/1 홈피 갱년기 pillar(에이징 리셋핏 Generation M) 진입을 위한 신규 entity. 병태생리·증상·진단·치료 골격 + 외부 근거 5편(BMJ·ESE/Endocrine Society CPG·증상관리 리뷰·골근육대사). 자사 임상 자료(clinic pillar) 연결은 발행 후 보강 예정.
+- 2026-10-20 v2: 치료 enrich
