@@ -4,7 +4,7 @@ entity_id: occipital-neuralgia
 entity_type: condition
 permalink: /conditions/occipital-neuralgia/
 title: 후두신경통
-description: 대후두신경·소후두신경·제3후두신경 분포의 신경병성 통증. 발작성 찌르는 듯한 통증과 후두신경 압통이 특징이며, 진단·치료에 후두신경차단이 1차로 활용됩니다. 보존 치료에 반응하지 않을 때 고주파 열응고·신경 자극을 검토합니다.
+description: ''
 title_en: occipital neuralgia
 aliases:
   - 후두신경통
@@ -13,17 +13,23 @@ aliases:
   - occipital neuralgia
   - greater occipital neuralgia
   - GON
-last_reviewed: '2026-05-31'
+last_reviewed: '2026-10-20'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
-source_count: 5
+source_count: 6
 source_count_external: 5
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [2, 3, 4, 5, 6]
-version: 1
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 7
+external_footnote_ids:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+version: 2
 ---
 ## 정의
 후두신경통(occipital neuralgia, ON)은 ICHD-3 분류 13.4 항목의 신경통으로, **대후두신경(greater occipital nerve)·소후두신경(lesser occipital nerve)·제3후두신경(third occipital nerve) 분포의 발작성·찌르는 듯한 통증**이 특징입니다 [^2]. 편측·양측 모두 가능하며, 신경병성 통증 양상으로 후두 부위·뒷머리·정수리까지 뻗칠 수 있습니다 [^2][^4]. 더 큰 두통 분류와 감별 진단 흐름은 [두통](/symptoms/headache/) 항목 참고. 경추 구조 부담이 함께 관여하는 경우가 많아 [경추기원 두통](/conditions/cervicogenic-headache/)·[목 통증](/symptoms/neck-pain/)과 임상에서 자주 함께 평가됩니다.
@@ -67,17 +73,26 @@ ICHD-3 진단 기준의 임상 특징은 다음과 같습니다 [^2]:
 - **국소마취제**(1~2% lidocaine 또는 0.25~0.5% bupivacaine) 단독 또는 코르티코스테로이드 병용 [^4][^5]
 - **초음파 유도 후두신경차단**: 직접 시각화로 표적 정확도를 높이는 방법으로 보고됩니다 — blind landmark 기반 대비 더 정밀한 표적이 가능합니다 [^4]
 - 보존 치료에 반응하지 않을 때 다음 단계 검토:
-  - **고주파 열응고술**(radiofrequency ablation, RFA): 일부 환자에서 장기 통증 완화 보고 [^4][^5]
-  - **보툴리눔 독소 A형 주사**: 일부 환자에서 효과 보고 [^4]
-  - **후두신경 자극**(occipital nerve stimulation, ONS): 난치성 환자에서 검토 [^4][^5]
-  - **외과적 신경 감압술**: 명확한 압박 원인이 있는 일부 환자에서 검토(시술 후 영구 감각 변화 위험 인지) [^5]
+ - **고주파 열응고술**(radiofrequency ablation, RFA): 일부 환자에서 장기 통증 완화 보고 [^4][^5]
+ - **보툴리눔 독소 A형 주사**: 일부 환자에서 효과 보고 [^4]
+ - **후두신경 자극**(occipital nerve stimulation, ONS): 난치성 환자에서 검토 [^4][^5]
+ - **외과적 신경 감압술**: 명확한 압박 원인이 있는 일부 환자에서 검토(시술 후 영구 감각 변화 위험 인지) [^5]
 
 만성·치료 반응 부족·신경학적 결손이 진행하면 통증의학과·신경과 협진을 권장합니다 [^3][^4].
+
+국소마취제에 반응하면 주사 후 수분에서 수십 분 안에 통증이 줄 수 있습니다[^7].
 
 ## 예후
 대부분의 후두신경통은 후두신경차단·약물치료·자세 교정 같은 단계적 보존 접근으로 호전됩니다 [^4][^5]. 다만 일부 환자는 통증이 만성화되거나 재발하며, 외상 병력·만성 자세 부담·동반 경추 병변이 만성화에 관여합니다 [^4]. 신경차단에 반복적으로 반응하는 환자에서는 고주파 열응고·신경 자극이 장기 옵션으로 검토 가능하고, 환자 특성·통증 양상에 맞춘 단계적 치료가 회복에 도움이 됩니다 [^4][^5].
 
+---
+
 ## Citations
+### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^7]: [안심튼튼마취통증의학과 — 후두신경통, 뒤통수에 전기가 튀듯 찌르는 통증이 반복된다면](https://ansimpainfree.kr/blog/occipital-neuralgia) · 근거: "후두신경통은 뒤통수 아래 한 지점에서 갑자기 찌르거나 감전된 듯 아픕니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
+
 ### 외부 권위 출처
 [^2]: [Headache Classification Committee of the International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition (ICHD-3). Cephalalgia. 2018;38(1):1-211. PMID 29368949. DOI 10.1177/0333102417738202](https://pubmed.ncbi.nlm.nih.gov/29368949/)
 [^3]: [Expert Panel on Neurological Imaging. ACR Appropriateness Criteria® Headache: 2022 Update. J Am Coll Radiol. 2023;20(5S):S70-S93. PMID 37236753. DOI 10.1016/j.jacr.2023.02.018](https://pubmed.ncbi.nlm.nih.gov/37236753/)
@@ -88,3 +103,4 @@ ICHD-3 진단 기준의 임상 특징은 다음과 같습니다 [^2]:
 ## Changelog
 - 2026-05-03 v2: 내용 업데이트.
 - 2026-05-03 v1: 내용 업데이트.
+- 2026-10-20 v2: 치료 enrich
