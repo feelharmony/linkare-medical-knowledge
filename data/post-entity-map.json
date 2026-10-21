@@ -3769,5 +3769,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/ko/---/nk-cell-activity-test-results-unfamiliar-numbers.md",
+    "source_article_url": "https://thewells.kr/blog/nk-cell-activity-test-results-unfamiliar-numbers",
+    "source_article_title": "NK세포 활성도 검사 결과지를 받고 낯선 수치가 신경 쓰일 때",
+    "primary_entity_id": "nk-cell-activity-test",
+    "entity_ids": [
+      "nk-cell-activity-test"
+    ],
+    "updated_at": "2026-10-21",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
