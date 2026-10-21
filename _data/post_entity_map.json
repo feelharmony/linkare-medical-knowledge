@@ -3784,5 +3784,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/gtop/ko/--/early-m-shaped-hair-loss-temple-hair-thickness-comparison.md",
+    "source_article_url": "https://guritopbone.com/blog/early-m-shaped-hair-loss-temple-hair-thickness-comparison",
+    "source_article_title": "M자탈모 초기, 아천동에서 뒷머리와 모발 굵기 어떻게 비교할까요?",
+    "primary_entity_id": "androgenetic-alopecia",
+    "entity_ids": [
+      "androgenetic-alopecia"
+    ],
+    "updated_at": "2026-10-21",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   }
 ]
