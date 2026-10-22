@@ -3829,5 +3829,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/---/mortons-neuroma-treatment-nonsurgical-to-surgery.md",
+    "source_article_url": "https://thewells.kr/blog/mortons-neuroma-treatment-nonsurgical-to-surgery",
+    "source_article_title": "지간신경종 치료, 하계동에서 비수술을 이어갈 때와 수술을 상의할 때",
+    "primary_entity_id": "mortons-neuroma",
+    "entity_ids": [
+      "mortons-neuroma"
+    ],
+    "updated_at": "2026-10-22",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
