@@ -3814,5 +3814,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/--/brain-fog-treatment-neck-jaw-sleep-fatigue.md",
+    "source_article_url": "https://thewells.kr/blog/brain-fog-treatment-neck-jaw-sleep-fatigue",
+    "source_article_title": "브레인포그 치료, 신천동에서 목·턱 긴장과 수면·영양 상태에 맞춘 선택법",
+    "primary_entity_id": "manual-therapy",
+    "entity_ids": [
+      "manual-therapy"
+    ],
+    "updated_at": "2026-10-22",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
