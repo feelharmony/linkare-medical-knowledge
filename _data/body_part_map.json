@@ -87,7 +87,8 @@
         "cauda-equina-syndrome",
         "sacroiliac-joint-dysfunction",
         "flat-back-syndrome",
-        "coccydynia"
+        "coccydynia",
+        "greater-trochanteric-pain"
       ]
     },
     {
@@ -111,7 +112,8 @@
       "items": [
         "leg-numbness",
         "sciatica",
-        "restless-legs-syndrome"
+        "restless-legs-syndrome",
+        "greater-trochanteric-pain"
       ]
     },
     {
