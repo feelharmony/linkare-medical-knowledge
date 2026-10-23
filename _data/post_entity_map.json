@@ -3844,5 +3844,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/-/intercostal-neuralgia-causes-nerve-block-trigger-point.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/intercostal-neuralgia-causes-nerve-block-trigger-point",
+    "source_article_title": "늑간신경통 원인과 주사 치료, 신서동에서 맞추는 신경차단술과 압통점",
+    "primary_entity_id": "intercostal-neuralgia",
+    "entity_ids": [
+      "intercostal-neuralgia"
+    ],
+    "updated_at": "2026-10-23",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
