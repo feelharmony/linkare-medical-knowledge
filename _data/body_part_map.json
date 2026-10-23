@@ -115,7 +115,8 @@
         "sciatica",
         "restless-legs-syndrome",
         "greater-trochanteric-pain",
-        "proximal-hamstring-tendinopathy"
+        "proximal-hamstring-tendinopathy",
+        "sarcopenia"
       ]
     },
     {
@@ -161,7 +162,8 @@
         "autonomic-dysfunction",
         "insomnia",
         "intercostal-neuralgia",
-        "brain-fog"
+        "brain-fog",
+        "sarcopenia"
       ]
     }
   ],
