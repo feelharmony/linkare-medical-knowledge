@@ -3859,5 +3859,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/--/hemifacial-spasm-symptoms.md",
+    "source_article_url": "https://thewells.kr/blog/hemifacial-spasm-symptoms",
+    "source_article_title": "잘 때도 안 멈추고 한쪽 뺨까지 떨리는 반측성 안면경련 증상",
+    "primary_entity_id": "hemifacial-spasm",
+    "entity_ids": [
+      "hemifacial-spasm"
+    ],
+    "updated_at": "2026-10-24",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
