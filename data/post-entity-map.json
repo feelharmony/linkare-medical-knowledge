@@ -3889,5 +3889,20 @@
     "tenant_key": "gtop",
     "doctor_id": "dr-lee-sungwook",
     "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thr/ko/----/myofascial-pain-syndrome-treatment-ultrasound-tendon.md",
+    "source_article_url": "https://thewells.kr/blog/myofascial-pain-syndrome-treatment-ultrasound-tendon",
+    "source_article_title": "근막통증증후군 치료, 노원역에서 초음파로 힘줄 손상과 구별하는 이유",
+    "primary_entity_id": "myofascial-pain-syndrome",
+    "entity_ids": [
+      "myofascial-pain-syndrome"
+    ],
+    "updated_at": "2026-10-26",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
