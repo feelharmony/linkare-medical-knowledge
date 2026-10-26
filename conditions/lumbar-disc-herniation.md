@@ -6,17 +6,27 @@ permalink: /conditions/lumbar-disc-herniation/
 title: 허리디스크
 description: 요추 추간판이 탈출하여 신경을 압박하는 질환
 title_en: lumbar disc herniation
-last_reviewed: '2026-05-18'
+last_reviewed: '2026-10-26'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
-source_count: 9
-version: 5
+source_count: 10
+version: 6
 source_count_external: 7
-source_count_clinic_pillar: 2
-clinic_footnote_ids: [1, 2]
-external_footnote_ids: [3, 4, 5, 6, 7, 8, 9]
+source_count_clinic_pillar: 3
+clinic_footnote_ids:
+  - 1
+  - 2
+  - 10
+external_footnote_ids:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
 ---
 ## 정의
 허리디스크는 척추뼈 사이의 추간판이 탈출하여 신경을 압박하는 상태를 말합니다. 추간판은 중심부의 수핵과 이를 둘러싼 섬유륜으로 구성되며, 추간판 탈출 시 통증과 신경학적 증상을 유발할 수 있습니다 [^1]. 한국 19세 남성 인구 기반 연구(Kim DK et al., 2011, n=39,673)에서 유병률은 약 0.60%로 보고되며, 가장 흔한 탈출 부위는 L4/5(약 50.6%)와 L5/S1(약 40.8%)입니다 [^8].
@@ -47,6 +57,8 @@ external_footnote_ids: [3, 4, 5, 6, 7, 8, 9]
 
 수술은 보존적 치료에 반응하지 않거나, 진행성 신경학적 결손 또는 마미증후군이 동반된 경우 고려됩니다 [^1][^2][^4]. 초기 통증 완화는 수술이 더 빠르지만, 장기 결과는 보존 치료와 유사해진다는 보고가 있습니다 [^5].
 
+통증이 허용하는 일상 움직임은 유지합니다[^10].
+
 ## 예후
 대부분의 환자는 6~12주 내 보존 치료로 증상이 호전되며, 영상학적 재흡수와 기능 회복은 수개월에 걸쳐 진행될 수 있습니다 [^1][^2][^3][^9]. 증상이 장기간 지속되는 경우 회복 기간이 더 길어질 수 있으며, 다리 저림이 동반된 경우 적절한 시점에 평가받는 것이 회복에 도움이 됩니다.
 
@@ -54,29 +66,23 @@ external_footnote_ids: [3, 4, 5, 6, 7, 8, 9]
 
 ---
 
+---
+
 ## Citations
-<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
-
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^1]: [안심튼튼 — 허리디스크 원인, 증상, 진단](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
-
 [^2]: [안심튼튼 — 허리디스크 증상, 허리보다 다리가 먼저 아픈 이유](https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk)
+[^10]: [더웰스의원 — 허리디스크 원인과 증상, 다리 저림부터 단계별 치료까지](https://thewells.kr/blog/lower-back-disc-causes-symptoms-treatment) · 근거: "통증이 허용하는 일상 움직임은 유지합니다."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
-
 [^3]: [pmc.ncbi.nlm.nih.gov/articles/PMC9381076/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9381076/)
-
 [^4]: [pmc.ncbi.nlm.nih.gov/articles/PMC12242740/](https://pmc.ncbi.nlm.nih.gov/articles/PMC12242740/)
-
 [^5]: [pmc.ncbi.nlm.nih.gov/articles/PMC11425427/](https://pmc.ncbi.nlm.nih.gov/articles/PMC11425427/)
-
 [^6]: [www.spine.org/documents/researchclinicalcare/guidelines/lumbardischerniation.pdf](https://www.spine.org/documents/researchclinicalcare/guidelines/lumbardischerniation.pdf)
-
 [^7]: [www.aans.org/patients/conditions-treatments/cauda-equina-syndrome/](https://www.aans.org/patients/conditions-treatments/cauda-equina-syndrome/)
-
 [^8]: [pmc.ncbi.nlm.nih.gov/articles/PMC4461737/](https://pmc.ncbi.nlm.nih.gov/articles/PMC4461737/)
-
 [^9]: [Zou T, Liu XY, Wang PC, et al. Incidence of Spontaneous Resorption of Lumbar Disc Herniation: A Meta-analysis. Clin Spine Surg. 2024;37(6):256-269. PMID 37559207. DOI 10.1097/BSD.0000000000001490](https://pubmed.ncbi.nlm.nih.gov/37559207/)
 
 ## Changelog
@@ -84,3 +90,4 @@ external_footnote_ids: [3, 4, 5, 6, 7, 8, 9]
 - 2026-05-01 v4: 내용 업데이트.
 - 2026-05-18 v5: 내용 업데이트.
 - 2026-10-12: 외부 각주 서지 보완([^9] 링크만 있던 것에 저자·제목·저널 기재, PMID 동일).
+- 2026-10-26 v6: 치료 enrich
