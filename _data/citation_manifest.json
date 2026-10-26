@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-20",
+  "updated_at": "2026-10-26",
   "entities": {
     "aging": [
       {
@@ -1100,6 +1100,18 @@
           "when_considered"
         ],
         "excerpt": "TMS는 두피 밖에서 전자기장을 이용해 신경회로를 자극하는 비침습 신경조절 치료입니다."
+      }
+    ],
+    "bppv": [
+      {
+        "footnote_id": 6,
+        "url": "https://guritopbone.com/blog/benign-paroxysmal-positional-vertigo-symptoms",
+        "title": "구리탑본의원 — 이석증 증상, 돌아누울 때 도는 어지럼과 비디오안진검사",
+        "post_id": "7d8bec23-a70b-47fa-a83b-c9c470647479",
+        "anchors": [
+          "treatment"
+        ],
+        "excerpt": "정복술의 효과는 연구에서 일관되게 확인됐습니다."
       }
     ]
   }
