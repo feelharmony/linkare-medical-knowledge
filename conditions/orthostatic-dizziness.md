@@ -4,8 +4,8 @@ entity_id: orthostatic-dizziness
 entity_type: condition
 permalink: /conditions/orthostatic-dizziness/
 title: 기립성 어지럼 (기립성 저혈압·기립불내성)
-description: 누웠다 일어설 때 눈앞이 캄캄해지거나 붕 뜨는 비회전성 어지럼. 기립 전후 혈압·심박 반응으로 기립성 저혈압과 기립성 빈맥 증후군을 나누고, 빈혈·약물·심장 원인을 함께 가려 접근합니다.
-title_en: orthostatic dizziness (orthostatic hypotension, orthostatic intolerance)
+description: ''
+title_en: 'orthostatic dizziness (orthostatic hypotension, orthostatic intolerance)'
 aliases:
   - 기립성 어지럼
   - 기립성어지럼증
@@ -16,17 +16,25 @@ aliases:
   - orthostatic dizziness
   - orthostatic hypotension
   - orthostatic intolerance
-last_reviewed: '2026-08-10'
+last_reviewed: '2026-10-26'
 locked: false
 quality_status: verified
 verified_by: 문헌 실조회 검증 (PMID 전건 PubMed esummary 대조)
 next_review: '2026-11-10'
-source_count: 7
+source_count: 8
 source_count_external: 7
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4, 5, 6, 7]
-version: 1
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 8
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+version: 2
 ---
 ## 정의
 기립성 어지럼은 **누웠거나 앉아 있다가 몸을 세울 때 생기는 비회전성 어지럼**을 가리킵니다. 세상이 도는 회전성 어지럼과 달리 눈앞이 캄캄해지거나 머리가 붕 뜨는 전실신(presyncope) 양상으로 나타나며, 자세를 되돌리면 대개 짧게 가라앉습니다 [^2][^3].
@@ -48,7 +56,7 @@ version: 1
 
 ## 진단
 - **기립성 저혈압**: 누운 자세에서 일어선 뒤 **3분 이내**에 수축기 혈압 **20mmHg 이상** 또는 이완기 혈압 **10mmHg 이상** 감소 [^1][^2].
-  - **초기 기립성 저혈압**은 기립 직후 일과성으로 크게 떨어졌다 회복하고, **지연성**은 3분 이후에 나타나 표준 측정에서 놓칠 수 있습니다 [^1][^2].
+ - **초기 기립성 저혈압**은 기립 직후 일과성으로 크게 떨어졌다 회복하고, **지연성**은 3분 이후에 나타나 표준 측정에서 놓칠 수 있습니다 [^1][^2].
 - **기립성 빈맥 증후군**: 기립 후 **10분 이내 심박수가 성인 30회/분 이상, 12~19세 40회/분 이상 증가**하면서 유의한 기립성 저혈압이 없고, 기립불내성 증상이 **대체로 3개월 이상** 지속되며 탈수·빈혈·약물 등 다른 원인으로 설명되지 않을 때 [^4].
 
 ## 평가
@@ -62,10 +70,12 @@ version: 1
 
 ## 치료
 - **비약물** — 유발 요인 회피, 수분·염분 섭취 조절, 천천히 일어서기, 복부·하지 압박, 수면 시 상체 거상 [^2][^3][^6].
-  - 심부전·신질환 등으로 수분·염분 제한이 필요한 경우 임의로 늘리지 않고 담당 의료진이 정한 범위 안에서 조절합니다 [^3].
+ - 심부전·신질환 등으로 수분·염분 제한이 필요한 경우 임의로 늘리지 않고 담당 의료진이 정한 범위 안에서 조절합니다 [^3].
 - **약물 관련성** — 원인 약물이 의심되면 임의 중단하지 않고 처방 의료진과 용량·복용 시각 조정을 상의합니다 [^5].
 - **누운 자세 고혈압 동반** — 낮의 기립 혈압만 올리면 야간 수치가 높아질 수 있어 시간대별 기록을 함께 봅니다 [^6].
 - **원인 질환 우선** — 빈혈·부정맥처럼 선행 처치가 필요한 원인이 확인되면 그 진료를 앞세웁니다 [^2][^3].
+
+일어서다 어지러우면 그 자리에서 다시 앉거나 눕습니다[^8].
 
 ## 예후
 기립성 저혈압은 **낙상과 사망 위험을 높이는 독립적 위험 인자**로 보고되며, 고령에서는 골절과 활동량 감소로 이어질 수 있어 낙상 위험 평가를 함께 합니다 [^3][^7].
@@ -74,7 +84,14 @@ version: 1
 - [어지럼](/symptoms/dizziness/)
 - [이석증](/conditions/bppv/)
 
+---
+
 ## Citations
+### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^8]: [더웰스의원 — 기립성어지럼증, 빈혈·혈압·약물·자율신경을 구분하는 기준과 검사](https://thewells.kr/blog/orthostatic-dizziness-differential-diagnosis) · 근거: "일어서다 어지러우면 그 자리에서 다시 앉거나 눕습니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
+
 ### 외부 권위 출처
 [^1]: [Freeman R, Wieling W, Axelrod FB, et al. Consensus statement on the definition of orthostatic hypotension, neurally mediated syncope and the postural tachycardia syndrome. Clin Auton Res. 2011;21(2):69-72. PMID 21431947](https://pubmed.ncbi.nlm.nih.gov/21431947/)
 [^2]: [Vidal-Petiot E, Pathak A, Azulay JP, et al. Orthostatic hypotension: Review and expert position statement. Rev Neurol (Paris). 2024;180(1-2):53-64. PMID 38123372](https://pubmed.ncbi.nlm.nih.gov/38123372/)
@@ -87,3 +104,4 @@ version: 1
 ## Changelog
 - 2026-08-10 v1: 신규 작성. thq 2026-08-15 기립성 어지럼증 홈피 spoke(`58fd69a6`)의 entity 매핑 해소 + 카니발 게이트가 entity 그룹으로 좁히지 못하던 문제(대조 대상 `(미지정 — 전체)`) 해결. PMID 7건 전건 PubMed esummary 실조회 대조.
 - 2026-09-23: lint 필수 H2 정렬 — 진단 기준→진단, 접근→치료, 경과·위험→예후 개명, 「증상」 절 신설(기존 [^2][^3][^4][^7] 범위, 초록 대조). body_part_map head 그룹 등록.
+- 2026-10-26 v2: 치료 enrich
