@@ -15,17 +15,18 @@ aliases:
   - LSS
   - spinal stenosis
   - neurogenic claudication
-last_reviewed: '2026-06-16'
+last_reviewed: '2026-10-26'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
-source_count: 8
-version: 2
+source_count: 9
+version: 3
 source_count_external: 7
-source_count_clinic_pillar: 1
+source_count_clinic_pillar: 2
 clinic_footnote_ids:
   - 8
+  - 9
 external_footnote_ids:
   - 1
   - 2
@@ -112,12 +113,22 @@ external_footnote_ids:
 
 경막외 신경차단술은 급성 통증 조절 후 운동 치료나 재활과 병행하는 것이 효과적입니다 [^8].
 
+신경차단술은 좁아진 신경 통로 안쪽으로 약물을 직접 주입하여, 압박으로 붓고 충혈된 신경 주위의 부종과 염증을 가라앉히는 치료입니다[^9].
+
 ## 예후
 척추관 협착증은 **점진적으로 진행하는 만성 퇴행성 질환**이지만, 운동 치료·생활 관리로 통증·기능을 개선·유지할 수 있습니다 [^2][^3]. 일부 환자는 보존 치료로 장기 안정화되며, 보존 치료에 반응하지 않거나 신경학적 결손이 진행하는 환자에서 감압 수술이 통증·기능 회복에 임상적으로 의미 있는 차이를 보입니다(SPORT 4년 결과) [^6]. 국내 인구 기반 연구에서는 인구 고령화에 따라 60세 이상 척추 질환 중 척추관 협착증의 발생률·의료비 부담이 크게 증가하는 추세가 보고됩니다 [^7].
 
 다리 저림·방사통의 더 큰 임상 분류는 [다리 저림·방사통](/symptoms/leg-numbness/), 허리통증 동반 시 [허리통증](/symptoms/lower-back-pain/) 항목 참고. 신경근병증 양상이 우세하면 [허리디스크](/conditions/lumbar-disc-herniation/)·[좌골신경통](/conditions/sciatica/)도 함께 검토합니다.
 
+---
+
 ## Citations
+### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^8]: [ansimpainfree.kr/blog/lumbar-spinal-stenosis-leg-numbness](https://ansimpainfree.kr/blog/lumbar-spinal-stenosis-leg-numbness)
+[^9]: [구리탑본의원 — 척추관협착증 걷다 쉬는 다리 저림, 눌린 신경은 어떻게 찾을까](https://guritopbone.com/blog/spinal-stenosis-leg-numbness-nerve-compression) · 근거: "신경차단술은 좁아진 신경 통로 안쪽으로 약물을 직접 주입하여, 압박으로 붓고 충혈된 신경 주위의 부종과 염증을 가라앉히는 치료입니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
+
 ### 외부 권위 출처
 [^1]: [NICE Guideline NG59 — Low back pain and sciatica in over 16s: assessment and management. Published 30 November 2016, last updated 11 December 2020. National Institute for Health and Care Excellence (UK)](https://www.nice.org.uk/guidance/ng59)
 [^2]: [Kreiner DS, Shaffer WO, Baisden JL, et al; North American Spine Society. An evidence-based clinical guideline for the diagnosis and treatment of degenerative lumbar spinal stenosis (update). Spine J. 2013;13(7):734-743. PMID 23830297. DOI 10.1016/j.spinee.2012.10.009](https://pubmed.ncbi.nlm.nih.gov/23830297/)
@@ -127,12 +138,8 @@ external_footnote_ids:
 [^6]: [Weinstein JN, Tosteson TD, Lurie JD, et al. Surgical versus nonoperative treatment for lumbar spinal stenosis four-year results of the Spine Patient Outcomes Research Trial. Spine. 2010;35(14):1329-1338. PMID 20453723. DOI 10.1097/BRS.0b013e3181e0f04d](https://pubmed.ncbi.nlm.nih.gov/20453723/)
 [^7]: [Lee CH, Chung CK, Kim CH, Kwon JW. Health Care Burden of Spinal Diseases in the Republic of Korea: Analysis of a Nationwide Database From 2012 Through 2016. Neurospine. 2018;15(1):66-76. PMID 29656624](https://pubmed.ncbi.nlm.nih.gov/29656624/)
 
-<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
-### 자사 임상 자료
-[^8]: [ansimpainfree.kr/blog/lumbar-spinal-stenosis-leg-numbness](https://ansimpainfree.kr/blog/lumbar-spinal-stenosis-leg-numbness)
-<!-- /LINKARE:CLINIC-CITATIONS -->
-
 ## Changelog
 - 2026-05-03 v1: 내용 업데이트.
 - 2026-05-03 v2: 내용 업데이트.
 - 2026-06-16 v2: 내용 업데이트.
+- 2026-10-26 v3: 치료 enrich
