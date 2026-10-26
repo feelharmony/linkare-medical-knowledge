@@ -4,7 +4,7 @@ entity_id: cervical-dystonia
 entity_type: condition
 permalink: /conditions/cervical-dystonia/
 title: 사경증 (경부 근긴장이상증)
-description: 목 근육이 의지와 무관하게 수축해 머리가 한쪽으로 돌아가거나 기우는 성인 국소 근긴장이상증. 바로 하려고 힘을 줘도 고개가 다시 돌아가며, 임상 관찰로 진단하고 보툴리눔 독소 주사가 1차 치료로 권고됩니다.
+description: ''
 title_en: cervical dystonia (spasmodic torticollis)
 aliases:
   - 사경증
@@ -15,17 +15,32 @@ aliases:
   - cervical dystonia
   - spasmodic torticollis
   - 목이 한쪽으로 돌아감
-last_reviewed: '2026-10-12'
+last_reviewed: '2026-10-26'
 locked: false
 quality_status: review
-verified_by: 외부 문헌 PMID 대조 (NCBI eutils 직조회 + 초록 범위 확인, v0.1)
+verified_by: '외부 문헌 PMID 대조 (NCBI eutils 직조회 + 초록 범위 확인, v0.1)'
 next_review: '2027-01-12'
-source_count: 14
+source_count: 15
 source_count_external: 14
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
-version: 1
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 15
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+version: 2
 ---
 ## 정의
 근긴장이상증(dystonia)은 **지속적이거나 간헐적인 근육 수축으로 비정상적이고 흔히 반복되는 움직임이나 자세가 생기는 운동장애**로 정의되며, 그 움직임은 대개 일정한 패턴을 띤 비트는 양상이고 떨림을 동반할 수 있습니다 [^1]. 사경증(cervical dystonia)은 이 근긴장이상이 목 근육에 나타나 머리와 목이 한쪽으로 돌아가거나 기우는 등 비정상적인 자세를 보이는 상태로, 성인에서 발병하는 국소 근긴장이상증 가운데 가장 흔합니다 [^2][^3]. 방법론이 비교적 견고한 역학 연구들에서 유병률은 인구 100만 명당 28~183명 범위로 추정됩니다 [^3].
@@ -97,6 +112,8 @@ version: 1
 - 근긴장이상에 동반되는 통증을 다룬 대조 시험은 아직 적으며, 장애를 일으키는 요인 전체를 파악해 관리하는 다학제적 접근이 필요하다고 제시됩니다 [^6]
 - 환자가 자신에게 맞는 감각 속임수를 찾아보는 것이 가치가 있다고 제시됩니다 [^7]
 
+근육 긴장이 줄기 시작하면 맞춤형 재활 운동치료를 연결합니다[^15].
+
 ## 예후
 사경증은 대개 오래 지속되는 만성 질환입니다. 10~20%에서 증상이 저절로 사라지는 관해가 나타나지만, 관해를 경험한 환자도 거의 대부분 5년 안에 재발해 지속적인 질환으로 남습니다 [^2]. 성인 발병 사경증 72명을 평균 7.7년 추적한 연구에서는 20.8%가 자연 관해를 경험했고 그중 87%가 발병 후 5년 안에 일어났으며, 관해가 유지된 경우는 12.5%(유지 기간 중앙값 3년)였습니다 [^14]. 자연 관해를 경험한 환자는 발병 연령이 이른 경향이 있었습니다 [^14].
 
@@ -111,7 +128,14 @@ version: 1
 - [목 통증](/symptoms/neck-pain/)
 - [목](/body-parts/neck/)
 
+---
+
 ## Citations
+### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^15]: [더웰스의원 — 사경증과 근긴장이상증, 힘을 줘도 목이 한쪽으로 돌아가는 이유](https://thewells.kr/blog/cervical-dystonia-torticollis-neck-turning) · 근거: "근육 긴장이 줄기 시작하면 맞춤형 재활 운동치료를 연결합니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
+
 ### 외부 권위 출처
 [^1]: [Albanese A, Bhatia K, Bressman SB, et al. Phenomenology and classification of dystonia: a consensus update. Mov Disord. 2013;28(7):863-873. PMID 23649720. DOI 10.1002/mds.25475](https://pubmed.ncbi.nlm.nih.gov/23649720/)
 [^2]: [Dauer WT, Burke RE, Greene P, et al. Current concepts on the clinical features, aetiology and management of idiopathic cervical dystonia. Brain. 1998;121(Pt 4):547-560. PMID 9577384. DOI 10.1093/brain/121.4.547](https://pubmed.ncbi.nlm.nih.gov/9577384/)
@@ -130,3 +154,4 @@ version: 1
 
 ## Changelog
 - 2026-10-12 v1: 신규 작성. 다른 글에서 가리키던 미작성 entity 해소. 외부 문헌 14편(MDS 2013 근긴장이상증 정의·분류 합의문, MDS 2023 고립성 사경증 진단·분류 합의문, EFNS 가이드라인, 코크란 검토 2편, 담창구 DBS 무작위 시험, 임상 특징·역학·자연경과·통증·감각 속임수·비운동 증상·재활 문헌)으로 6섹션 작성. PMID 는 NCBI eutils esummary 직조회로 제목·저자·연도 대조, 각주가 붙은 문장은 해당 초록 범위 안으로 제한.
+- 2026-10-26 v2: 치료 enrich
