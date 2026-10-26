@@ -4,7 +4,7 @@ entity_id: trigeminal-neuralgia
 entity_type: condition
 permalink: /conditions/trigeminal-neuralgia/
 title: 삼차신경통
-description: 얼굴 감각을 담당하는 삼차신경(5번 뇌신경)이 자극돼 세수·양치·씹기·바람 같은 가벼운 접촉에 얼굴 한쪽이 전기가 튀듯 수초간 찌릿한 통증. 발작 사이에는 통증이 없는 것이 원칙이며, 지속통·냉온 반응이 있는 치통, 입을 벌릴 때 아픈 턱관절 통증과 구분합니다. 뇌간 근처에서 혈관이 신경을 누르는 경우가 흔합니다.
+description: ''
 title_en: trigeminal neuralgia
 aliases:
   - 삼차신경통
@@ -14,17 +14,24 @@ aliases:
   - 안면통
   - trigeminal neuralgia
   - tic douloureux
-last_reviewed: '2026-09-21'
+last_reviewed: '2026-10-26'
 locked: false
 quality_status: draft
 verified_by: 외부 문헌 PMID 대조 (v0.1 — SOP 보강 예정)
 next_review: '2026-12-21'
-source_count: 6
+source_count: 7
 source_count_external: 6
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4, 5, 6]
-version: 1
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 7
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+version: 2
 ---
 ## 정의
 삼차신경통은 **얼굴 감각을 맡는 삼차신경(5번 뇌신경)의 한 갈래 이상에서, 가벼운 접촉에 유발되는 한쪽 얼굴의 짧고 전기가 튀는 듯한 발작성 통증**입니다 [^2][^3]. 삼차신경은 이마(안신경)·뺨(상악신경)·턱(하악신경) 세 갈래로 나뉘며, 통증은 대개 뺨과 턱 갈래에 옵니다. 국제두통질환분류(ICHD-3)는 원인에 따라 고전적(혈관 압박으로 신경 변형)·특발성·이차성(다발성경화증·종양 등)으로 나눕니다 [^4].
@@ -51,6 +58,8 @@ version: 1
 - **수술**: 약물로 조절되지 않거나 부작용을 견디기 어려우면 수술을 제안합니다. 고전적 삼차신경통에서는 미세혈관감압술이 1차 수술이며, MRI에서 압박이 없으면 신경절 차단·고주파·방사선수술 같은 신경파괴적 시술을 우선합니다 [^1][^2]
 - **보조**: 유발 자극을 줄이는 생활 조정, 심리·간호 지원이 권고됩니다 [^1]
 
+삼차신경통 관리는 통증을 부르는 일상 자극을 조절하는 데서 시작합니다[^7].
+
 ## 예후
 발작은 몇 주~몇 달 지속되다 저절로 잦아드는 시기를 반복할 수 있으며, 시간이 지나면서 발작이 길어지거나 지속통이 더해지는 경향이 있습니다 [^3]. 약물 반응이 좋으면 장기 조절이 가능하지만, 용량 증가에 따른 어지럼·졸림·저나트륨혈증 같은 부작용이 치료 지속의 제한 요인입니다 [^2].
 
@@ -60,7 +69,14 @@ version: 1
 - [대상포진 후 신경통](/conditions/postherpetic-neuralgia/)
 - [두통](/symptoms/headache/)
 
+---
+
 ## Citations
+### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^7]: [더웰스의원 — 삼차신경통 증상, 세수할 때 얼굴이 찌릿한 통증과 치통의 차이](https://thewells.kr/blog/trigeminal-neuralgia-symptoms-facial-pain) · 근거: "삼차신경통 관리는 통증을 부르는 일상 자극을 조절하는 데서 시작합니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
+
 ### 외부 권위 출처
 [^1]: [Bendtsen L, Zakrzewska JM, Abbott J, et al. European Academy of Neurology guideline on trigeminal neuralgia. Eur J Neurol. 2019;26(6):831-849. PMID 30860637](https://pubmed.ncbi.nlm.nih.gov/30860637/)
 [^2]: [Cruccu G, Di Stefano G, Truini A. Trigeminal Neuralgia. N Engl J Med. 2020;383(8):754-762. PMID 32813951](https://pubmed.ncbi.nlm.nih.gov/32813951/)
@@ -71,3 +87,4 @@ version: 1
 
 ## Changelog
 - 2026-09-21 v0.1: stub 신규 작성 — thq 10/3 홈피 spoke(삼차신경통) 선결. 외부 PMID 6건 PubMed 메타데이터 대조(제목·저널·권호 일치 확인).
+- 2026-10-26 v2: 치료 enrich
