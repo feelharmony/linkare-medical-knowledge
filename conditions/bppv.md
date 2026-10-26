@@ -4,7 +4,7 @@ entity_id: bppv
 entity_type: condition
 permalink: /conditions/bppv/
 title: 이석증 (양성 돌발성 두위 현훈)
-description: 반고리관으로 흘러든 이석이 자세 변화에 따라 회전성 어지럼을 일으키는 말초 전정 질환. 유발 자세와 안진 방향으로 침범 반고리관을 특정하며, 약물보다 이석 정복술이 1차 치료로 권고됩니다.
+description: ''
 title_en: benign paroxysmal positional vertigo (BPPV)
 aliases:
   - 이석증
@@ -13,17 +13,23 @@ aliases:
   - BPPV
   - benign paroxysmal positional vertigo
   - 돌아누울 때 어지럼
-last_reviewed: '2026-08-06'
+last_reviewed: '2026-10-26'
 locked: false
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-11-06'
-source_count: 5
+source_count: 6
 source_count_external: 5
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4, 5]
-version: 1
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 6
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+version: 2
 ---
 ## 정의
 이석증(benign paroxysmal positional vertigo, BPPV)은 **머리 위치를 바꿀 때 유발되는 반복적인 회전성 어지럼**을 특징으로 하는 말초 전정 질환입니다 [^1][^2]. 어지럼 진료에서 가장 흔히 확인되는 원인 중 하나이며, 자세를 바꾼 뒤 잠복기를 두고 시작해 **대개 1분 이내에 가라앉는 짧은 발작**으로 나타납니다 [^2][^4]. 지속적인 어지럼이나 중추성 원인과는 경과가 달라 [어지럼](/symptoms/dizziness/) 항목의 감별 흐름 안에서 평가합니다.
@@ -67,6 +73,8 @@ version: 1
 ### 반응이 없을 때
 정복술을 반복해도 증상이 남거나 재발이 잦으면 침범 반고리관 재평가, 다른 전정 질환·중추성 원인 검토, 전정 재활을 단계적으로 적용합니다 [^1][^4]. 저림·감각 이상 같은 말초신경 증상이 함께 있으면 [근전도·신경전도 검사](/treatments/emg-ncs/)로 별개의 원인을 배제하기도 합니다.
 
+정복술의 효과는 연구에서 일관되게 확인됐습니다[^6].
+
 ## 예후
 치료하지 않아도 수 주에 걸쳐 저절로 좋아지는 경우가 있으나, 정복술을 적용하면 증상이 소실되기까지의 기간이 단축되는 것으로 보고됩니다 [^3][^5]. 다만 **재발이 드물지 않아** 수년 경과 중 상당수에서 다시 발생하며, 고령·외상 후·다른 내이 질환 동반이 재발과 관련됩니다 [^1][^4]. 재발 시 같은 정복술로 다시 호전되는 경우가 많아, 재발 자체보다 **유발 자세와 안진을 다시 확인해 침범 반고리관을 맞게 특정하는 것**이 중요합니다 [^1][^2].
 
@@ -74,7 +82,14 @@ version: 1
 - [어지럼](/symptoms/dizziness/)
 - [근전도·신경전도 검사](/treatments/emg-ncs/)
 
+---
+
 ## Citations
+### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^6]: [구리탑본의원 — 이석증 증상, 돌아누울 때 도는 어지럼과 비디오안진검사](https://guritopbone.com/blog/benign-paroxysmal-positional-vertigo-symptoms) · 근거: "정복술의 효과는 연구에서 일관되게 확인됐습니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
+
 ### 외부 권위 출처
 [^1]: [Bhattacharyya N, Gubbels SP, Schwartz SR, et al. Clinical Practice Guideline: Benign Paroxysmal Positional Vertigo (Update). Otolaryngol Head Neck Surg. 2017;156(3_suppl):S1-S47. PMID 28248609. DOI 10.1177/0194599816689667](https://pubmed.ncbi.nlm.nih.gov/28248609/)
 [^2]: [von Brevern M, Bertholon P, Brandt T, et al. Benign paroxysmal positional vertigo: Diagnostic criteria. J Vestib Res. 2015;25(3-4):105-117. PMID 26756126. DOI 10.3233/VES-150553 (Bárány Society 국제 진단 기준)](https://pubmed.ncbi.nlm.nih.gov/26756126/)
@@ -84,3 +99,4 @@ version: 1
 
 ## Changelog
 - 2026-08-06 v1: 신규 작성. thq 잠실 이석증 자사 pillar(2026-08-15 예정) 및 2026-07-16 네이버 발행글의 entity 매핑 해소.
+- 2026-10-26 v2: 치료 enrich
