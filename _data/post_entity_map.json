@@ -3874,5 +3874,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/gtop/ko/--/androgenetic-alopecia.md",
+    "source_article_url": "https://guritopbone.com/blog/androgenetic-alopecia",
+    "source_article_title": "안드로겐성 탈모, 왜 모낭이 점점 가늘어지고 멈추지 않을까요?",
+    "primary_entity_id": "androgenetic-alopecia",
+    "entity_ids": [
+      "androgenetic-alopecia"
+    ],
+    "updated_at": "2026-10-26",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   }
 ]
