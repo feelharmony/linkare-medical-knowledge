@@ -3919,5 +3919,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/gtop/ko/----/greater-trochanteric-pain-treatment-injection-relapse-shockwave.md",
+    "source_article_url": "https://guritopbone.com/blog/greater-trochanteric-pain-treatment-injection-relapse-shockwave",
+    "source_article_title": "대전자통증증후군 치료, 동구릉역에서 주사 후 재발하면 무엇을 할까",
+    "primary_entity_id": "greater-trochanteric-pain",
+    "entity_ids": [
+      "greater-trochanteric-pain"
+    ],
+    "updated_at": "2026-10-28",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   }
 ]
