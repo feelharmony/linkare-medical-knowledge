@@ -3904,5 +3904,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/-/accessory-navicular-syndrome-surgery-when-to-consider.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/accessory-navicular-syndrome-surgery-when-to-consider",
+    "source_article_title": "부주상골증후군 수술, 혁신도시에서 언제 정말 고려할까요?",
+    "primary_entity_id": "accessory-navicular",
+    "entity_ids": [
+      "accessory-navicular"
+    ],
+    "updated_at": "2026-10-28",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
