@@ -3934,5 +3934,20 @@
     "tenant_key": "gtop",
     "doctor_id": "dr-lee-sungwook",
     "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thq/ko/--/proximal-hamstring-tendinopathy-treatment-shockwave-prolozone.md",
+    "source_article_url": "https://thewells.kr/blog/proximal-hamstring-tendinopathy-treatment-shockwave-prolozone",
+    "source_article_title": "햄스트링 건병증 치료, 삼전동에서 고르는 체외충격파와 프롤로존 주사",
+    "primary_entity_id": "proximal-hamstring-tendinopathy",
+    "entity_ids": [
+      "proximal-hamstring-tendinopathy"
+    ],
+    "updated_at": "2026-10-28",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
