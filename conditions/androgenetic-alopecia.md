@@ -12,17 +12,25 @@ aliases:
   - male pattern hair loss
   - female pattern hair loss
   - AGA
-last_reviewed: '2026-05-20'
+last_reviewed: '2026-10-29'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-20'
-source_count: 7
-version: 5
+source_count: 8
+version: 4
 source_count_external: 5
-source_count_clinic_pillar: 2
-clinic_footnote_ids: [4, 5]
-external_footnote_ids: [1, 2, 3, 6, 7]
+source_count_clinic_pillar: 3
+clinic_footnote_ids:
+  - 4
+  - 5
+  - 8
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 6
+  - 7
 ---
 ## 정의
 안드로겐성 탈모(androgenetic alopecia, AGA)는 안드로겐 호르몬과 유전적 소인이 결합되어 진행되는 가장 흔한 탈모 유형입니다. 남성에서는 이마선 후퇴와 정수리(crown) 모발 감소가 전형적 패턴이며(Norwood-Hamilton 분류), 여성에서는 가르마 부위 모발 감소가 두드러지는 양상(Ludwig 분류)을 보입니다. 안드로겐성 탈모는 ICD-10 L64로 분류됩니다.
@@ -67,29 +75,26 @@ AGA는 진행성 질환이며 치료는 **모낭 축소를 늦추거나 모발 �
 
 조기 진단과 지속적인 관리를 통해 모낭 기능을 평가하고 관리 방향을 정하는 것이 중요합니다. [^5]
 
+모낭이 작아지면 머리카락이 자라는 주기도 함께 달라집니다[^8].
+
 ## 예후
 AGA는 만성·진행성이며, 대부분의 치료는 진행 억제·모발 회복을 목표로 하므로 **장기 유지가 일반적**입니다. 약물 중단 시 효과가 점차 소실되며 시술도 정기적 유지 시술이 필요합니다[^4]. 효과는 일반적으로 3개월부터 나타나기 시작해 6~12개월에 최대에 이르는 양상이 보고됩니다[^4]. 완전히 모낭이 소실된 부위에서는 약물·시술의 효과가 제한적이며, 외과적 모발 이식이 검토됩니다.
 
+---
+
 ## Citations
-
-<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
-
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^4]: [thewells.kr/blog/hair-loss-regeneration-injection-treatment](https://thewells.kr/blog/hair-loss-regeneration-injection-treatment)
-
 [^5]: [thewells.kr/blog/dht](https://thewells.kr/blog/dht)
+[^8]: [구리탑본의원 — 안드로겐성 탈모, 왜 모낭이 점점 가늘어지고 멈추지 않을까요?](https://guritopbone.com/blog/androgenetic-alopecia) · 근거: "모낭이 작아지면 머리카락이 자라는 주기도 함께 달라집니다."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
-
 [^1]: Updates in Treatment for Androgenetic Alopecia. *Ann Dermatol.* 2025. PMC12715879. URL: [anndermatol.org](https://www.anndermatol.org/DOIx.php?id=10.5021/ad.25.042) — finasteride·dutasteride·minoxidil 표준 치료, 2018 S3 CPG, network 메타 dutasteride > finasteride
-
 [^2]: Efficacy and safety of oral minoxidil in the treatment of alopecia: a single-arm rate meta-analysis and systematic review. *Front Pharmacol.* 2025;16:1556705. PMC12188453. DOI: [10.3389/fphar.2025.1556705](https://pmc.ncbi.nlm.nih.gov/articles/PMC12188453/)
-
 [^3]: Anitua E, Tierno R, Alkhraisat MH. Platelet-Rich Plasma in the Management of Alopecia: A Systematic Review and Meta-Analysis of Clinical Evidence. *Dermatol Ther (Heidelb).* 2025;15(11):3213-3252. PMID 40944844. DOI: [10.1007/s13555-025-01542-8](https://link.springer.com/article/10.1007/s13555-025-01542-8)
-
 [^6]: Gasteratos K, Kouzounis K, Goverman J. Autologous Stem Cell-derived Therapies for Androgenetic Alopecia: A Systematic Review of Randomized Control Trials on Efficacy, Safety, and Outcomes. *Plast Reconstr Surg Glob Open.* 2024;12(2):e5606. PMID 38352219. DOI: [10.1097/GOX.0000000000005606](https://pmc.ncbi.nlm.nih.gov/articles/PMC10863936/)
-
 [^7]: Al Ameer MA, Alnajim AT, Al Ameer A, et al. Exosomes and Hair Regeneration: A Systematic Review of Clinical Evidence Across Alopecia Types and Exosome Sources. *Clin Cosmet Investig Dermatol.* 2025;18:2215-2227. PMID 40955427. DOI: [10.2147/CCID.S543451](https://pmc.ncbi.nlm.nih.gov/articles/PMC12433634/)
 
 ## Changelog
@@ -97,3 +102,4 @@ AGA는 만성·진행성이며, 대부분의 치료는 진행 억제·모발 회
 - 2026-04-23 v3: 내용 업데이트.
 - 2026-05-18 v3: 내용 업데이트.
 - 2026-05-20 v5: 내용 업데이트.
+- 2026-10-29 v4: 치료 enrich
