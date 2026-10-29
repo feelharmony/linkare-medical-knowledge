@@ -3964,5 +3964,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/ko/-----/finger-osteoarthritis-treatment-prolozone-shockwave.md",
+    "source_article_url": "https://thewells.kr/blog/finger-osteoarthritis-treatment-prolozone-shockwave",
+    "source_article_title": "손가락 관절염, 수락산역에서 주사와 충격파는 몇 번이나 받을까?",
+    "primary_entity_id": "hand-osteoarthritis",
+    "entity_ids": [
+      "hand-osteoarthritis"
+    ],
+    "updated_at": "2026-10-29",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
