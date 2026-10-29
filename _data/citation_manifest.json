@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-29",
   "entities": {
     "aging": [
       {
@@ -38,6 +38,16 @@
         "post_id": null,
         "anchors": [],
         "excerpt": null
+      },
+      {
+        "footnote_id": 8,
+        "url": "https://guritopbone.com/blog/androgenetic-alopecia",
+        "title": "구리탑본의원 — 안드로겐성 탈모, 왜 모낭이 점점 가늘어지고 멈추지 않을까요?",
+        "post_id": "f549a2a2-5395-4d0c-81f6-d88ef66f23d2",
+        "anchors": [
+          "treatment"
+        ],
+        "excerpt": "모낭이 작아지면 머리카락이 자라는 주기도 함께 달라집니다."
       }
     ],
     "calcific-tendinitis": [
