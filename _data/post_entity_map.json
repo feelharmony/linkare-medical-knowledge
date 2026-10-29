@@ -3949,5 +3949,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/apfree/ko/--/sciatica.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/sciatica",
+    "source_article_title": "엉덩이에서 다리로 뻗치는 저림, 좌골신경통 검사와 회복 기간",
+    "primary_entity_id": "sciatica",
+    "entity_ids": [
+      "sciatica"
+    ],
+    "updated_at": "2026-10-29",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
