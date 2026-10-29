@@ -5,18 +5,26 @@ entity_type: condition
 permalink: /conditions/sciatica/
 title: 좌골신경통
 title_en: sciatica
-description: 좌골 신경 분포 영역의 방사통을 가리키는 임상 용어 — 단일 진단명이 아닌 다양한 원인의 결과
-last_reviewed: '2026-05-31'
+description: 좌골신경 압박에 의한 엉덩이~다리 방사통
+last_reviewed: '2026-10-29'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
-source_count: 7
+source_count: 8
 source_count_external: 5
-source_count_clinic_pillar: 2
-clinic_footnote_ids: [1, 2]
-external_footnote_ids: [3, 4, 5, 6, 7]
-version: 1
+source_count_clinic_pillar: 3
+clinic_footnote_ids:
+  - 1
+  - 2
+  - 8
+external_footnote_ids:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+version: 4
 ---
 ## 정의
 좌골신경통(sciatica)은 좌골 신경 분포 영역(엉덩이에서 다리 뒤쪽 또는 옆쪽)에 나타나는 방사통을 가리키는 임상 용어입니다 [^1]. 의학적으로는 단일 진단명이라기보다, 좌골 신경에 영향을 주는 다양한 원인의 결과로 나타나는 증상학적 표현에 가깝습니다. 영국 NICE 가이드라인(NG59)도 환자와 임상의가 이해하는 용어라는 이유로 sciatica를 사용하면서, 실제 의미는 "요천추 신경근 병변에 의한 다리 통증"이라고 명시합니다 [^3]. 따라서 좌골신경통이라는 진단을 들었을 때는 그 뒤의 실제 원인(요추 신경근병증 등)이 무엇인지 함께 확인하는 것이 중요합니다.
@@ -57,16 +65,21 @@ version: 1
 
 환자 상태에 따라 척추 주변 근력 강화, 자세·움직임 평가에 따른 도수 치료, 운동치료를 단계적으로 활용할 수 있습니다 [^1]. 체외충격파 치료(ESWT)는 좌골신경통 일반의 표준 권고 치료에는 들어 있지 않으며, 이상근 관련 통증의 보존 치료 중 일부 임상에서 선택적으로 활용되는 영역입니다 [^4].
 
+신경차단술은 실시간 영상 장치인 C-arm으로 뼈와 신경 통로의 위치를 확인하면서 압박받고 염증이 생긴 신경 주변에 약물을 정확히 전달하는 치료입니다[^8].
+
 ## 예후
 대부분의 좌골신경통은 원인에 맞는 보존 치료로 수주에서 수개월 안에 호전됩니다 [^1][^3]. 요추 신경근병증으로 인한 경우는 자발적 영상학적 회귀(추간판 흡수)도 보고됩니다 — 자세한 통계와 자연경과는 [허리디스크](/conditions/lumbar-disc-herniation/) 항목 참조. 진행성 신경학적 결손이나 마미증후군 가능성이 있는 경우는 응급 평가가 필요합니다 [^3]. 통증이 가라앉은 뒤에도 자세·움직임 교정과 척추 주변 근력 유지가 재발 예방에 중요합니다 [^1].
 
 ---
 
+---
+
 ## Citations
-<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^1]: [안심튼튼 — 좌골신경통](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
 [^2]: [안심튼튼 — 다리 통증이 허리 통증보다 먼저 나타나는 이유](https://ansimpainfree.kr/knowledge/leg-pain-before-back-pain-herniated-disk)
+[^8]: [안심튼튼마취통증의학과 — 엉덩이에서 다리로 뻗치는 저림, 좌골신경통 검사와 회복 기간](https://ansimpainfree.kr/blog/sciatica) · 근거: "신경차단술은 실시간 영상 장치인 C-arm으로 뼈와 신경 통로의 위치를 확인하면서 압박받고 염증이 생긴 신경 주변에 약물을 정확히 전달하는 치료입니다."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
@@ -78,3 +91,4 @@ version: 1
 
 ## Changelog
 - 2026-05-02 v1: 내용 업데이트.
+- 2026-10-29 v4: 치료 enrich
