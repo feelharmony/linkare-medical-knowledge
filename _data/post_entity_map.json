@@ -3979,5 +3979,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thr/ko/--/scalp-itch.md",
+    "source_article_url": "https://thewells.kr/blog/scalp-itch",
+    "source_article_title": "두피 가려움, 감아도 계속 긁게 된다면 탈모로 이어지나요?",
+    "primary_entity_id": "scalp-itch",
+    "entity_ids": [
+      "scalp-itch"
+    ],
+    "updated_at": "2026-10-30",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
