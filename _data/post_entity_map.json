@@ -3994,5 +3994,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thq/ko/--/temporomandibular-disorder.md",
+    "source_article_url": "https://thewells.kr/blog/temporomandibular-disorder",
+    "source_article_title": "입 벌릴 때 딱 소리 나고 턱이 후끈거리면 턱관절장애일까요?",
+    "primary_entity_id": "temporomandibular-disorder",
+    "entity_ids": [
+      "temporomandibular-disorder"
+    ],
+    "updated_at": "2026-10-30",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
