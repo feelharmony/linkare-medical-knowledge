@@ -4024,5 +4024,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/gtop/ko/--/migraine-causes-triggers-hormones-premonitory-symptoms.md",
+    "source_article_url": "https://guritopbone.com/blog/migraine-causes-triggers-hormones-premonitory-symptoms",
+    "source_article_title": "잠 못 자고 끼니 거르면 시작되는 편두통 원인과 갈매역 진료",
+    "primary_entity_id": "migraine",
+    "entity_ids": [
+      "migraine"
+    ],
+    "updated_at": "2026-10-31",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   }
 ]
