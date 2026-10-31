@@ -4009,5 +4009,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thq/ko/---/sarcopenia.md",
+    "source_article_url": "https://thewells.kr/blog/sarcopenia",
+    "source_article_title": "의자에서 일어설 때 팔로 짚고 걸음이 느려졌다면 근감소증일까?",
+    "primary_entity_id": "sarcopenia",
+    "entity_ids": [
+      "sarcopenia"
+    ],
+    "updated_at": "2026-10-31",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
