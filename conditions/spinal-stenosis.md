@@ -114,7 +114,7 @@ external_footnote_ids:
 - 마약성 진통제는 routine 사용을 권고하지 않습니다 [^3][^4].
 
 ### 시술 — 한미·영 가이드라인 입장 분리(SOP 룰 9)
-**경막외 스테로이드 주사**(epidural steroid injection)에 대해 가이드라인 입장이 갈립니다:
+**경막외 스테로이드 주사**(epidural steroid injection)를 두고 가이드라인 입장이 갈립니다:
 
 - **NASS Lumbar Spinal Stenosis CPG (미국)**: 단기 통증 완화 옵션으로 다루며, 환자 특성에 따라 검토 가능 [^2].
 - **AAFP 2024 review (미국 일차의료)**: 단기 통증 완화 보조 옵션으로 제시 [^3].
