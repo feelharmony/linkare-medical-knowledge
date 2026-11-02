@@ -33,8 +33,22 @@ external_footnote_ids:
   - 9
 version: 5
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 어깨 통증은 회전근개·관절낭·견봉하 공간·관절순·이두근 등 여러 구조에서 발생하는 통증을 가리키는 임상 용어입니다 [^3][^9].
+- 외상 직후 기능 상실, 갑작스러운 근력 상실, 발열이나 흉통 동반 같은 신호는 빠른 전문 평가가 필요하며, 무증상 영상 소견도 흔해 증상과 기능을 함께 판단합니다 [^2][^7][^9].
+- 비외상성 어깨 통증은 환자 교육·활동 조절·운동치료·도수치료 등 보존적 접근이 원칙이며, 증상과 단계에 따라 주사나 수술적 평가를 검토합니다 [^1][^2][^5].
+
+</div>
+
 ## 정의
 어깨 통증은 단일 진단명이 아니라 **어깨 관절(견갑상완관절)·견봉하 공간·회전근개·관절낭·관절순·이두근 장두건** 같은 [어깨](/body-parts/shoulder/) 영역 구조에서 발생하는 통증을 가리키는 임상 용어입니다. 환자에 따라 회전근개·관절낭·견봉하 공간·관절순·이두근 등 여러 구조가 원인이 될 수 있고, 영상 소견은 무증상 인구에서도 흔하게 관찰되어 증상과 늘 일치하지 않습니다 [^3][^9].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/rotator-cuff-tendinopathy/supraspinatus-tendinopathy.webp" alt="앞에서 본 오른쪽 어깨 해부도: 어깨뼈 앞면을 덮은 근육과, 견봉 아래를 지나 위팔뼈 머리 위쪽에 붙는 극상근 힘줄의 끝부분이 두꺼워져 붉게 표시된 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">회전근개형 힘줄 통증의 대표 자리: 견봉 아래를 지나 위팔뼈 머리 위쪽에 붙는 극상근 힘줄 · 두꺼워진 힘줄 끝부분(붉은색)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 일반인구 systematic review(Luime 2004)에서 어깨 통증의 시점 유병률은 약 6.9~26%, 1년 유병률은 4.7~46.7%, 평생 유병률은 6.7~66.7%로 보고됩니다 [^4]. 본 페이지는 **목·승모근에서 비롯된 후경부 통증을 주된 범위로 다루지 않으며**, 그 영역은 [목 통증](/symptoms/neck-pain/)·[거북목·일자목](/conditions/forward-head-posture/)에서 정리합니다. 다만 어깨처럼 느껴지는 통증 중 일부는 경추·신경·심장·폐·복부 질환에서 오는 연관통일 수 있어 감별이 필요합니다 [^2][^8].
 
@@ -48,6 +62,16 @@ version: 5
 - **관절·관절순·이두건 병변**: 견관절 골관절염, 견쇄관절 병변, 이두근 장두 건염, 관절순 손상(SLAP·Bankart) 등이 포함됩니다 [^3][^8].
 - **목·신경 연관형 통증**: 경추 신경근병증, 흉곽출구 문제, 말초신경 포착, 심근경색·담낭 질환·횡격막 자극 같은 비근골격 연관통을 감별해야 합니다 [^2][^8].
 - **외상성 파열/탈구형**: 골절, 탈구, 견쇄관절 손상, 외상성 회전근개 파열이 포함됩니다. 외상 직후 기능 상실은 단순 물리치료보다 영상 평가가 우선입니다 [^7].
+
+**어깨 통증 주요 원인별 특징과 접근** [^2][^3][^5][^6][^7]
+{: .entity-table-caption}
+
+| 구분 | 주요 특징 | 주요 평가 및 치료 접근 |
+| --- | --- | --- |
+| 회전근개형 힘줄 통증 | 옆으로 들 때 60~120° 통증, 야간통 | 점진적 부하 운동, 견갑 안정화 |
+| 오십견형 굳음 | 능동·수동 가동 범위 모두 제한 | 관절강 내 주사, 관절가동범위 운동 |
+| 석회성 급성 통증 | 하이드록시아파타이트 침착, 흡수기 심한 통증 | NSAIDs, 주사, 체외충격파, 초음파 유도 시술 |
+| 외상성 파열·탈구형 | 외상 직후 변형, 기능 및 근력 상실 | 단순방사선 등 영상 평가 우선 |
 
 위험 요인으로는 반복적 견상부 작업(overhead work), 고령, 흡연, 당뇨병, 어깨 외상 병력이 보고됩니다 [^3][^7][^8].
 
@@ -79,6 +103,14 @@ version: 5
 
 JOSPT 2025 회전근개 건병증 CPG는 **subacromial pain syndrome / rotator cuff–related shoulder pain (RCRSP)** 라는 우산 용어를 사용해, 임상에서 충돌증후군·회전근개 건병증·부분 파열을 별개 진단으로만 분리하기보다 RCRSP 우산 안에서 단계적으로 평가·치료할 것을 제시합니다 [^5]. 무증상 인구에서도 회전근개·견봉하 영상 소견이 흔하므로, 영상 결과는 증상·기능 평가와 함께 해석해야 합니다 [^9].
 
+<figure class="entity-figure entity-chart" role="img" aria-label="어깨 증상 호소가 없는 한국인의 회전근개 전층 파열 비율 막대그래프">
+  <div class="entity-chart-title">어깨 증상 호소가 없는 한국인의 회전근개 전층 파열 비율</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">50대<span>50~59세</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:3.5%"></div><span class="entity-chart-value">3.5%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">60대<span>60~69세</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:13.3%"></div><span class="entity-chart-value">13.3%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">70세 이상<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:11.1%"></div><span class="entity-chart-value">11.1%</span></div></div>
+  <figcaption markdown="span">연령대별 무증상 회전근개 파열 [^9]<span class="entity-figure-credit">그래프: Linkbase · Jeong 2017 (J Shoulder Elbow Surg) 초록 수치: 어깨 증상 호소가 없는 지원자 486명 초음파 검사</span></figcaption>
+</figure>
+
 ## 치료 옵션
 비외상성 어깨 통증의 치료는 **보존적 접근이 원칙**이며, 환자 교육·활동 조절·운동치료·도수치료가 1차 축입니다. JOSPT 2025 RCRSP CPG는 운동치료(점진적 부하·견갑 안정화·견갑상완 운동)를 권고 등급 A로 제시하며, 도수치료를 운동과 결합한 형태로 권고합니다 [^5]. Mitchell 2005 BMJ primary care review도 일차의료에서 운동·진통 조절·교육을 1차로 두고, 보존 치료에 반응하지 않거나 red flag 의심 시 영상·전문 진료 referral을 권고합니다 [^2].
 
@@ -92,6 +124,18 @@ JOSPT 2025 회전근개 건병증 CPG는 **subacromial pain syndrome / rotator c
 
 ### 단계 치료 구조
 임상에서는 환자 평가 후 보존 치료를 우선하고, 만성·반복성 어깨 힘줄 통증은 **부하 조절·운동치료 → [윈백 고주파](/treatments/tecar-rf-therapy/)·도수치료로 재활 진입 보조 → [체외충격파](/treatments/eswt/)·초음파 유도 주사로 통증 조절 → [PRP 주사](/treatments/prp-injection/)·PRF 자가활성화세포 재생주사 선택 검토 → 수술적 평가** 순서로 설명하면 안전합니다 [^1][^2][^5].
+
+<figure class="entity-figure entity-steps" role="img" aria-label="어깨 힘줄 통증 단계 치료 구조">
+  <div class="entity-chart-title">어깨 힘줄 통증 단계 치료 구조</div>
+  <ol class="entity-steps-list">
+    <li><b>부하 조절·운동치료</b><span></span></li>
+    <li><b>고주파·도수치료</b><span>재활 진입 보조</span></li>
+    <li><b>체외충격파·초음파 유도 주사</b><span>통증 조절</span></li>
+    <li><b>PRP·PRF 재생주사</b><span>선택 검토</span></li>
+    <li><b>수술적 평가</b><span></span></li>
+  </ol>
+  <figcaption markdown="span">만성·반복성 어깨 힘줄 통증의 단계 치료 순서 [^1][^2][^5]<span class="entity-figure-credit">도식: Linkbase</span></figcaption>
+</figure>
 
 - **회전근개형 힘줄 통증**: 점진적 부하 운동과 견갑 안정화가 기본입니다 [^5]. 통증이 강해 운동 진입이 어렵다면 [윈백 고주파](/treatments/tecar-rf-therapy/)·도수치료로 통증 방어와 근긴장을 낮추고, 힘줄 부착부 통증이나 석회가 동반되면 [체외충격파](/treatments/eswt/)를 보조 옵션으로 평가합니다. 반복 스테로이드를 피하고 싶은 만성·부분 파열형에서는 [PRP 주사](/treatments/prp-injection/)·PRF를 표준 1차 치료가 아닌 선택적 재생주사로 논의합니다 [^5].
 - **석회성 급성 통증**: X-ray/초음파로 석회 위치와 양상을 확인하고, NSAIDs·주사·체외충격파·초음파 유도 needling/lavage를 증상 단계에 따라 검토합니다. 석회성 회전근개 건병증에서 ESWT 근거는 축적되어 있으나 근거 확실성에는 한계가 있어, 환자별로 장단점을 설명합니다 [^5].

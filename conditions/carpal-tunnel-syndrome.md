@@ -30,13 +30,37 @@ external_footnote_ids:
   - 5
 version: 3
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 손목터널증후군은 손목의 수근관 안에서 정중신경이 압박되어 손 저림, 야간 통증, 감각 저하, 엄지 힘 저하를 일으키는 말초신경 포착 질환입니다 [^1][^2].
+- 엄지·검지·중지 중심의 저림과 야간 악화가 대표 증상이며, 진행하면 엄지 두덩 근육 위축과 엄지 맞섬 약화가 나타날 수 있습니다 [^2][^3].
+- 경도·중등도는 야간 부목과 국소 스테로이드 주사 등을 사용하며, 보존 치료에 반응하지 않거나 근위축이 있으면 수근관 감압술을 검토합니다 [^1][^2][^3][^5].
+
+</div>
+
 ## 정의
 손목터널증후군(carpal tunnel syndrome, CTS)은 [손목](/body-parts/wrist/)의 수근관 안에서 정중신경(median nerve)이 압박되어 [손 저림](/symptoms/hand-numbness/), 야간 통증, 감각 저하, 엄지 힘 저하를 일으키는 말초신경 포착 질환입니다 [^1][^2]. 정중신경은 엄지, 검지, 중지, 약지의 엄지 쪽 절반 감각과 엄지 일부 근육 기능에 관여합니다.
 
 손목터널증후군은 손 저림의 대표 원인이지만, 모든 손 저림이 CTS는 아닙니다. 약지·새끼손가락 저림은 척골신경 포착을, 목 통증과 팔 전체 방사통은 경추 신경근병증을, 양측 대칭성 손발 저림은 말초신경병증을 함께 감별해야 합니다 [^3][^4].
 
+**손 저림 유발 질환 감별 비교** [^2][^3][^4]
+{: .entity-table-caption}
+
+| 질환 | 주요 증상 부위 및 양상 |
+| --- | --- |
+| 손목터널증후군 | 엄지·검지·중지 중심 저림, 야간 악화 |
+| 척골신경 포착 | 약지·새끼손가락 저림 |
+| 경추 신경근병증 | 목 통증과 팔 전체 방사통 |
+| 말초신경병증 | 양측 대칭성 손발 저림 |
+
 ## 병태
 수근관은 뼈와 횡수근인대로 둘러싸인 좁은 공간입니다. 이 안에서 힘줄 부종, 반복 사용, 임신·갑상샘 질환·당뇨, 류마티스 관절염, 손목 골절 후 변화 등이 정중신경 압박을 증가시킬 수 있습니다 [^2][^4]. 압박이 지속되면 신경 허혈과 부종, 감각 이상, 통증, 운동 신경 기능 저하가 발생합니다.
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/carpal-tunnel-syndrome/carpal-tunnel-median-nerve.webp" alt="오른손 손바닥 쪽 해부도: 손목을 가로지르는 인대(횡수근인대) 아래로 노란 정중신경이 지나며 눌린 자리가 붉게 표시되고, 위 상자에 손목 단면에서 눌린 신경이 보이는 모습" width="1000" height="906" loading="lazy">
+  <figcaption markdown="span">손목터널과 정중신경(손바닥 쪽): 횡수근인대(Carpal ligament) 아래를 지나는 정중신경(Median nerve) · 눌린 자리(붉은색) · 위 상자: 손목 단면의 눌린 신경(Compressed nerve)<span class="entity-figure-credit">그림: BruceBlaus (Blausen.com staff), <a href="https://commons.wikimedia.org/wiki/File:Carpal_Tunnel_Syndrome.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/3.0" rel="nofollow noopener" target="_blank">CC BY 3.0</a></span></figcaption>
+</figure>
 
 초기에는 주로 감각 증상이 중심이지만, 진행하면 엄지 두덩 근육 위축, 엄지 맞섬 약화, 물건을 자주 떨어뜨리는 증상이 나타날 수 있습니다 [^2][^3].
 

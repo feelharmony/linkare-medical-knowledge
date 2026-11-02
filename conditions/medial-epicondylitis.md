@@ -30,8 +30,22 @@ external_footnote_ids:
   - 5
   - 6
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 내측상과염은 팔꿈치 안쪽 내측 상과에 붙는 공통 굴곡근 기시부가 손상되어 통증과 기능 저하를 일으키는 힘줄병증입니다 [^1][^3].
+- 내측상과 부위 압통과 손목 굴곡·전완 회내 시 통증으로 임상 진단하며, 새끼손가락·약지 저림 등 척골신경 동반 증상 유무가 치료 계획을 가릅니다 [^3].
+- 부하 관리와 편심성 운동 등 보존 치료를 우선하며, 3개월 이상 호전이 없으면 자가 혈소판 풍부 혈장 주사 등을 검토합니다 [^1][^5][^6].
+
+</div>
+
 ## 정의
 내측상과염(medial epicondylitis, 골프엘보)은 [팔꿈치](/body-parts/elbow/) 안쪽 뼈 돌출부인 내측 상과에 붙는 공통 굴곡근(common flexor tendon)의 기시부가 손상되어 통증과 기능 저하를 일으키는 질환입니다 [^3]. 손목을 굽히고 전완을 안쪽으로 회전시키는 여러 근육이 이 자리에 모여 부하가 집중되는 구조입니다.
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/medial-epicondylitis/medial-epicondyle-flexor-tendon.webp" alt="손바닥이 위를 향한 팔의 근육 해부도: 팔꿈치 안쪽 뼈 돌출부에 붙는 손목 굽힘 근육 힘줄에 붉은 손상 표시가 있고, 왼쪽 원에 그 부착부를 확대한 모습" width="1000" height="562" loading="lazy">
+  <figcaption markdown="span">내측상과염의 손상 자리: 팔꿈치 안쪽 뼈 돌출부(내측 상과)에 붙는 손목 굽힘 근육 힘줄 부착부(붉은 선) · 왼쪽 원: 부착부 확대<span class="entity-figure-credit">그림: Scientific Animations, <a href="https://commons.wikimedia.org/wiki/File:Golfers-Elbow_SAG.jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a></span></figcaption>
+</figure>
 
 과거에는 단순한 염증(itis)으로 분류했지만, 최근 20년간의 조직학·영상의학 연구는 만성기 병변에서 염증세포는 드물고 콜라겐 섬유의 무질서한 배열·기질 퇴행·신생 혈관 형성이 두드러지는 **힘줄병증(tendinopathy)** 의 양상을 보고합니다 [^1]. 골프엘보라는 별명과 달리 실제 환자 중 골프와 직접 관련된 경우는 소수이고, 망치질·드라이버 회전·반복적인 쥐기 동작 등 직업·일상 동작에서 더 흔합니다 [^3]. 팔꿈치 통증 콘텐츠에서는 내측상과염을 “안쪽 힘줄 통증”의 대표 질환으로 두고, [외측상과염](/conditions/lateral-epicondylitis/)·[주관절 척골신경 포착](/conditions/cubital-tunnel-syndrome/)·척골측부인대 손상과 구분합니다.
 
@@ -80,6 +94,16 @@ external_footnote_ids:
 - **경추 신경근병증** — 목에서 내려오는 신경 자극이 팔꿈치·전완 통증으로 나타나는 경우
 
 내측상과염 환자는 팔꿈치 안쪽 뼈 돌출부를 눌렀을 때 찌르는 듯한 통증을 호소합니다[^7].
+
+**팔꿈치 안쪽 통증 감별 진단** [^3][^7]
+{: .entity-table-caption}
+
+| 질환 | 의심 단서 |
+| --- | --- |
+| 내측상과염 | 팔꿈치 안쪽 뼈 돌출부를 눌렀을 때 찌르는 듯한 통증 |
+| 척골측부인대(UCL) 손상 | 팔꿈치를 바깥쪽으로 벌리는 외반 부하 검사에서 통증·불안정성 |
+| 주관절 척골신경 포착 | 새끼손가락·약지의 저림, 손의 미세 동작 감소 |
+| 경추 신경근병증 | 목에서 내려오는 신경 자극이 팔꿈치·전완 통증으로 나타나는 경우 |
 
 ## 치료
 내측상과염 치료의 핵심 원칙은 **부하 관리 + 점진적 자극**입니다 [^1]. 저항 운동의 강도·양·빈도(용량)가 힘줄병증 경과를 의미 있게 좌우한다는 메타분석 결과가 이를 뒷받침하며 [^2], 내측상과염 specific으로는 **편심성 운동의 임상 결과를 평가한 SR**이 보존 치료의 핵심 옵션으로 정리합니다 [^6]. 치료 목표는 안쪽 팔꿈치 통증을 단기적으로 낮추는 것뿐 아니라, 손목 굴곡·전완 회내 부하를 견디는 힘줄의 운동 내성을 회복하는 것입니다.

@@ -23,6 +23,15 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5]
 ---
 
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 대상포진은 잠복해 있던 수두대상포진 바이러스가 면역력 저하 시 재활성화되어 한쪽 신경 분포 영역에 통증성 발진을 일으키는 질환입니다.
+- 환자의 약 10~25%에서 만성 신경병증성 통증인 대상포진 후 신경통으로 이행하며, 안부나 이성 침범 시 시력 손상 및 안면마비 위험이 있습니다[^1][^2].
+- 증상 시작 후 72시간 내 항바이러스제 투여와 함께 급성기 통증 조절 및 조기 신경차단술로 신경 손상과 합병증을 예방합니다[^1][^2][^3].
+
+</div>
+
 ## 정의
 대상포진(herpes zoster, HZ)은 어린 시절 수두를 일으킨 후 척수 신경절·뇌신경절에 잠복해 있던 **수두대상포진 바이러스(varicella-zoster virus, VZV)**가 면역력 저하 시 재활성화되어, 한쪽 신경 분포(dermatome) 영역에 통증성 발진을 일으키는 질환입니다. ICD-10 B02로 분류됩니다.
 
@@ -30,6 +39,11 @@ external_footnote_ids: [1, 2, 3, 4, 5]
 
 ## 병태
 VZV는 1차 감염(수두) 후 신경절에 평생 잠복합니다. 노화·면역억제·스트레스·전신 질환 등으로 세포매개 면역이 저하되면 바이러스가 재활성화되어 신경을 따라 피부로 이동하며 신경염증과 발진을 일으킵니다[^1]. 한쪽 신경 분포 영역에 국한되는 것이 전형적이며, **흉부(T3~L2) 영역이 가장 흔하고**, 안면(삼차신경 V1) 영역은 합병증(각막염·시력 손상) 위험이 큽니다[^1][^2].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/shingles-vaccination/zoster-reactivation-path.webp" alt="척추 옆 신경절에 잠복한 수두대상포진 바이러스가 한쪽 신경을 따라 피부로 내려와 띠 모양 발진을 만드는 경로" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">대상포진 재활성화 경로: 바이러스가 잠복한 척추 옆 신경절(보라색) → 신경(노란색) → 같은 쪽 피부의 띠 모양 물집<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 급성 신경염증이 신경 손상으로 진행되면 PHN(만성 신경병증성 통증)으로 이행할 수 있습니다 — 정의·연령·중증도에 따라 차이가 있으나 일반적으로 **대상포진 환자의 약 10~25%**에서 발생합니다(미국 CDC 약 10~18%[^2], 통증의학 review 약 25%[^1]).
 
@@ -55,12 +69,27 @@ VZV는 1차 감염(수두) 후 신경절에 평생 잠복합니다. 노화·면�
 - 통증은 둔한 욱신거림·전기 충격감·발작성 작열감 등 다양
 - 신경 분포 따라 통증·이질통(allodynia, 가벼운 자극도 통증) 빈번[^1]
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/zoster/zoster-vesicles-closeup.webp" alt="붉은 홍반 위에 작은 물집이 무리 지어 돋은 대상포진 피부 근접 사진" width="1000" height="666" loading="lazy">
+  <figcaption markdown="span">대상포진 발진기: 홍반 위의 군집 수포<span class="entity-figure-credit">사진: NIAID, <a href="https://commons.wikimedia.org/wiki/File:Shingles_Rash_(46509144172).jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/2.0" rel="nofollow noopener" target="_blank">CC BY 2.0</a></span></figcaption>
+</figure>
+
 ### 합병증
 ⚠️ 다음과 같은 합병증은 빠른 평가가 필요합니다[^1][^2].
 - **안부 대상포진(zoster ophthalmicus)** — 삼차신경 V1 영역, 각막염·시력 손상 위험. 이마·코끝 발진 시 안과 협진
 - **이성 대상포진(Ramsay Hunt syndrome)** — 안면신경 침범, 안면마비·청력 저하·어지럼
 - **파종성 대상포진** — 면역억제 환자에서 한 dermatome을 넘어 전신 발진
 - **대상포진 후 신경통(PHN)** — 수포가 사라진 뒤에도 통증·이질통·수면 장애가 지속되는 만성 신경병증성 통증 → [postherpetic-neuralgia](./postherpetic-neuralgia.md)
+
+**대상포진 주요 합병증 비교** [^1][^2]
+{: .entity-table-caption}
+
+| 합병증 종류 | 침범 부위 및 대상 | 주요 증상 및 위험 |
+| --- | --- | --- |
+| 안부 대상포진 | 삼차신경 V1 영역 | 각막염, 시력 손상 |
+| 이성 대상포진 | 안면신경 | 안면마비, 청력 저하, 어지럼 |
+| 파종성 대상포진 | 면역억제 환자 | 한 dermatome을 넘어선 전신 발진 |
+| 대상포진 후 신경통 | 수포 소실 후 신경 | 만성 통증, 이질통, 수면 장애 |
 
 ## 진단
 

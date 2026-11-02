@@ -24,6 +24,15 @@ external_footnote_ids: [1, 2, 3, 4, 5]
 quality_status: verified
 version: 3
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 만성피로증후군(ME/CFS)은 활동 후 악화, 불회복 수면, 인지 장애 또는 기립성 불내성을 특징으로 하는 별도의 임상 진단명입니다 [^1][^2].
+- 진단 기준에 포함된 바이오마커는 없으며, 다른 원인 질환을 체계적으로 배제하고 임상 양상에 따라 진단합니다 [^1][^2][^3].
+- 확립된 완치 치료법은 없으며, 에너지 한계 안에서 활동을 조절하는 활동 페이싱으로 활동 후 악화를 예방하고 동반 증상을 관리합니다 [^2].
+
+</div>
+
 ## 정의
 만성피로증후군(myalgic encephalomyelitis / chronic fatigue syndrome, **ME/CFS**)은 단순 만성 피로와 구분되는 별도의 임상 진단명입니다. 단순한 피로 이상으로, **활동 후 악화**(post-exertional malaise, PEM)·**불회복 수면**·**인지 장애 또는 기립성 불내성** 같은 핵심 임상 양상을 특징으로 합니다 [^1][^2]. 미국 IOM 2015 보고서는 이 질환에 대해 **systemic exertion intolerance disease**(SEID)라는 새 명칭을 제안했으며, 동시에 "정신·심리적 illness가 아니라 medical illness"임을 명시했습니다 [^1].
 
@@ -71,6 +80,15 @@ ME/CFS는 임상 진단이며, 다른 원인 질환을 배제하는 것이 핵�
 
 NICE NG206은 PEM을 진단의 필수 요소로 두며, 6주부터 의심 단계 평가 시작 가능, 3개월 이상 지속 시 진단을 확정할 수 있도록 변경했습니다 (2007년 기준 4~6개월에서 단축) [^2].
 
+<figure class="entity-figure entity-steps" role="img" aria-label="NICE NG206 진단 시점: 성인, PEM 필수">
+  <div class="entity-chart-title">NICE NG206 진단 시점: 성인, PEM 필수</div>
+  <ol class="entity-steps-list">
+    <li><b>의심 단계 평가</b><span>6주부터</span></li>
+    <li><b>진단 확정</b><span>3개월 이상 지속 시</span></li>
+  </ol>
+  <figcaption markdown="span">NICE NG206 성인 진단 시점 [^2]<span class="entity-figure-credit">도식: Linkbase</span></figcaption>
+</figure>
+
 ### 배제 진단
 다음 질환을 체계적으로 배제해야 합니다 [^2][^3]:
 - 갑상샘 기능 이상, 빈혈, 당뇨, 부신 기능 이상
@@ -97,6 +115,16 @@ NICE는 2021년 가이드라인 개정에서 ME/CFS 치료 권고를 크게 변�
 - **인지행동치료(CBT)는 ME/CFS의 치료가 아님** — 가이드라인은 CBT가 ME/CFS 자체를 치료하는 것이 아니며, 질환과 함께 살아가는 환자의 웰빙·삶의 질·동반 증상 관리에 보조로 활용 가능하다고 정리.
 - **활동 페이싱(activity pacing)** — 환자가 자신의 에너지 한계("energy envelope")를 인식하고 활동을 조절해 PEM을 예방하는 핵심 관리 전략.
 - 동반 증상(수면 장애·통증·기립성 불내성·인지 장애)은 각각 개별 관리.
+
+**NICE NG206 치료 접근 비교** [^2]
+{: .entity-table-caption}
+
+| 접근법 | 권고 지위 | 주요 역할 및 근거 |
+|---|---|---|
+| 정해진 증량 운동(GET) | 치료로 권고하지 않음 | 활동 후 악화(PEM) 유발 및 안전성 우려 |
+| 인지행동치료(CBT) | 자체 치료가 아님 | 웰빙·삶의 질·동반 증상 관리 보조 |
+| 활동 페이싱 | 핵심 관리 전략 | 에너지 한계 인식·조절을 통한 PEM 예방 |
+| 동반 증상 관리 | 개별 관리 | 수면 장애·통증·기립성 불내성·인지 장애 관리 |
 
 ### 에너지 관리·활동 조절
 - 환자 교육: 질환 양상 이해, PEM 인식, 일일 에너지 한계 파악

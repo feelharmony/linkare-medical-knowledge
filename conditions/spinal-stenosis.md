@@ -36,6 +36,15 @@ external_footnote_ids:
   - 6
   - 7
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 척추관 협착증은 퇴행성 변화로 척추관 등이 좁아져 신경근과 마미 신경이 압박되는 질환입니다 [^2][^3].
+- 보행 시 악화되고 허리를 숙이면 호전되는 신경성 파행이 핵심이며, 배뇨·배변 장애 등 마미증후군 증상은 응급 평가 대상입니다 [^3][^5].
+- 운동·약물 등 보존 치료가 1차이며, 반응이 없거나 신경학적 결손이 진행할 때 감압 수술을 검토합니다 [^2][^3][^6].
+
+</div>
+
 ## 정의
 척추관 협착증(spinal stenosis)은 척추관·외측 함요(lateral recess)·신경공(foramen)이 퇴행성 변화로 좁아져 신경근·마미 신경이 압박되는 질환입니다 [^2][^3]. 가장 흔한 형태는 **요추 척추관 협착증**(lumbar spinal stenosis, LSS)으로, 요추 부위에서 척수원뿔(conus medullaris) 아래 마미 신경(cauda equina)이 지나가는 구간이라 압박 대상이 척수가 아닌 신경근·마미 신경입니다 [^3]. 50대 이후 발생률이 증가하며 미국에서 매년 약 20만 명 이상이 진료를 받는 흔한 만성 통증 원인입니다 (평균 진료 연령 약 64세) [^3]. 한국 NHIS 자료(Lee CH 2018)에서 **60세 이상 척추 질환 중 M48 진단 코드**(spondylopathies, 척추관 협착증·강직성 척추뼈비대 등 포함)가 발생률·의료비 모두 1위로 보고되며, 75~79세 연령군에서 척추 질환 발생률이 약 42.6%에 이릅니다 [^7]. 환자가 흔히 호소하는 다리 저림·방사통의 더 큰 임상 분류는 [다리 저림·방사통](/symptoms/leg-numbness/) 항목 참고.
 
@@ -45,6 +54,11 @@ external_footnote_ids:
 - **중심성 협착**(central stenosis): 척추관 중앙 부위 협착 — 양측성 다리 증상이 특징적
 - **외측 함요·신경공 협착**(lateral recess / foraminal stenosis): 신경근이 출구에서 압박 — 편측성 신경근병증
 - **혼합형**: 중심성 + 외측 협착이 함께 동반
+
+<figure class="entity-figure entity-figure--portrait">
+  <img src="/assets/images/entities/spinal-stenosis/stenosis-canal-axial.webp" alt="허리뼈를 위에서 내려다본 단면 두 개: 아래는 정상 척추관 속 신경 다발, 위는 좁아진 척추관 속에서 붉게 부은 신경 다발" width="768" height="1024" loading="lazy">
+  <figcaption markdown="span">척추관 협착: 정상 척추관(아래 원) · 좁아진 척추관에서 눌려 붉게 표시된 신경(위 원)<span class="entity-figure-credit">그림: BruceBlaus, <a href="https://commons.wikimedia.org/wiki/File:Spinal_Stenosis.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/3.0" rel="nofollow noopener" target="_blank">CC BY 3.0</a></span></figcaption>
+</figure>
 
 척추관협착증 환자는 허리를 앞으로 숙이거나 앉으면 증상이 호전되는 경향이 있습니다[^8].
 
@@ -107,6 +121,15 @@ external_footnote_ids:
 - **NICE NG59 (영국)**: **중심성 척추관 협착증에 의한 신경성 파행에는 epidural injection을 권고하지 않습니다** — 이득 근거가 제한적이라는 평가 [^1].
 
 환자 특성·통증 양상·기능 영향에 따라 의료진과 상의해 결정합니다.
+
+**경막외 스테로이드 주사에 대한 가이드라인별 입장** [^1][^2][^3]
+{: .entity-table-caption}
+
+| 가이드라인 | 지역 | 입장 |
+| --- | --- | --- |
+| NASS Lumbar Spinal Stenosis CPG | 미국 | 단기 통증 완화 옵션, 환자 특성에 따라 검토 가능 |
+| AAFP 2024 review | 미국 일차의료 | 단기 통증 완화 보조 옵션 |
+| NICE NG59 | 영국 | 중심성 협착에 의한 신경성 파행에 권고하지 않음 (이득 근거 제한적) |
 
 ### 수술
 보존 치료에 반응하지 않거나 신경학적 결손이 진행할 때 감압 수술(decompression, 필요시 fusion)을 검토합니다 [^2][^3]. **SPORT trial 4년 추적**(Weinstein 2010, n≈634)에서 **수술군이 비수술군 대비 통증·기능 측면에서 임상적으로 의미 있는 우위를 4년까지 유지**한다고 보고합니다 (통증 12.6점·기능 8.6점·ODI 9.4점 차이). 다만 8년 시점에서는 두 군 차이가 좁아지고 양 군 모두 안정화되는 양상이 보고됩니다 [^6]. 수술 결정은 환자의 기대 수명·동반 질환·기능 영향·환자 선호를 함께 고려합니다 [^2][^3].

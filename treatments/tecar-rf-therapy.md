@@ -33,8 +33,22 @@ clinic_footnote_ids: [1, 2]
 external_footnote_ids: [3, 4, 5, 6, 7]
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- TECAR RF 고주파 치료는 조직에 고주파 에너지를 전달하여 심부열 발생, 혈류 변화, 근긴장 완화, 통증 조절을 목표로 하는 물리치료입니다 [^3][^4].
+- 골절, 감염, 종양, 진행성 신경학적 결손 등이 의심되면 평가와 영상검사가 우선이며, 금속 삽입물이나 임신 등의 경우 적용 판단이 필요합니다.
+- 단독 치료보다 통증 방어와 근긴장을 낮추어 도수치료, 운동치료, 자세 교정 등 회복 프로토콜로 이어지는 보조 축으로 활용합니다.
+
+</div>
+
 ## 정의
 TECAR RF 고주파 치료는 capacitive-resistive electric transfer(CRET) 또는 capacitive-resistive radiofrequency로 불리는 물리치료 모달리티입니다. 국내 진료 현장에서는 장비 브랜드명인 “윈백 고주파”로 설명되는 경우가 많습니다. 고주파 에너지를 capacitive/resistive 전극을 통해 조직에 전달해 심부열, 혈류 변화, 근긴장 완화, 통증 조절을 목표로 합니다 [^3][^4].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/tecar-rf-therapy/lumbar-rf-deep-heating.webp" alt="엎드린 사람의 허리 옆단면, 허리 피부의 전극과 배 아래 판 사이에서 척추 옆 깊은 근육이 따뜻하게 표시된 그림" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">TECAR RF 원리: 엎드린 자세에서 허리 피부의 전극과 배 아래 리턴 플레이트 사이로 고주파 에너지 전달 · 척추 옆 깊은 근육의 심부열<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 이 치료는 [물리치료](/treatments/physical-therapy/)의 하위 모달리티이지만, 단순 온열치료로만 설명하기보다 [도수치료](/treatments/manual-therapy/)·[운동치료](/treatments/exercise-therapy/)·[자세 교정](/treatments/posture-correction/)으로 이어지는 회복 프로토콜의 보조 축으로 다루는 것이 적절합니다. 즉 “윈백만으로 조직이 재생된다”가 아니라, 통증 방어와 근긴장을 낮춰 움직임 회복과 재활 진입을 돕는 치료로 설명합니다.
 
@@ -53,6 +67,15 @@ TECAR RF 고주파 치료는 다음 상황에서 보조적으로 고려할 수 �
 윈백/TECAR RF는 환자가 통증 때문에 바로 운동을 하기 어렵거나, 도수치료 후 이완된 움직임을 유지하면서 재활로 넘어가야 할 때 연결하기 좋습니다. 예를 들어 만성 목·허리 통증에서는 도수치료와 함께 적용한 RCT들이 단기 통증·기능 개선을 평가했고 [^5][^7], 어깨 견봉하 통증에서는 448 kHz radiofrequency를 운동치료와 결합한 sham-controlled RCT가 보고되어 있습니다 [^6].
 
 임상적으로는 “도수치료 + 윈백 TECAR RF + [Hi-EMS](/treatments/hi-ems/)”를 하나의 회복 패키지로 설명할 수 있습니다. 도수치료는 움직임 제한과 연부조직 긴장을 평가·조정하고, TECAR RF는 통증 방어와 심부열을 이용해 회복 환경을 보조하며, Hi-EMS는 운동 수행이 어려운 환자에서 근수축·활성화 보조로 연결하는 식입니다 [^1].
+
+**회복 프로토콜 구성 요소별 역할** [^1]
+{: .entity-table-caption}
+
+| 치료 구분 | 주요 역할 | 임상적 목적 |
+| --- | --- | --- |
+| 도수치료 | 움직임 제한·연부조직 긴장 평가 및 조정 | 이완된 움직임 확보 |
+| TECAR RF 고주파 | 통증 방어 완화 및 심부열 전달 | 회복 환경 보조 및 재활 진입 지원 |
+| Hi-EMS | 근수축 및 활성화 보조 | 운동 수행이 어려운 환자의 재활 연결 |
 
 ## 기대효과
 기대효과는 질환별로 다르지만, 환자 설명에서는 다음 정도로 정리하는 것이 안전합니다.

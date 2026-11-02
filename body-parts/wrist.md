@@ -22,13 +22,32 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5]
 version: 2
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 손목은 요골·척골 원위부와 수근골, 인대, 힘줄, 신경이 함께 지나며 통증과 저림이 발생할 수 있는 부위입니다 [^1][^2].
+- 엄지 쪽 힘줄 문제, 신경 압박, 외상 후 손상 여부를 구분하며 감각 저하나 진행성 근력 저하는 빠른 평가가 필요합니다 [^2][^3].
+- 원인 구조에 따라 보조기, 약물치료, 물리치료, 초음파 유도 주사, 수술 의뢰 등을 단계적으로 선택합니다.
+
+</div>
+
 ## 정의
 손목(wrist)은 아래팔의 요골·척골 원위부와 여러 수근골, 인대, 관절낭, 굴곡·신전 힘줄, 정중신경·척골신경이 함께 지나는 부위입니다 [^1][^2]. 작은 공간에 관절·힘줄·신경이 밀집해 있어 반복 사용, 외상, 부종, 건초염, 신경 포착이 모두 통증과 저림을 만들 수 있습니다.
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/wrist/wrist-carpal-bones.webp" alt="손등 쪽에서 본 오른손과 손목뼈 3D 그림: 손목 부분을 확대한 오른쪽 상자에 두 줄로 놓인 작은 손목뼈들과 그 아래 아래팔뼈 끝이 보이는 모습" width="1000" height="562" loading="lazy">
+  <figcaption markdown="span">손목뼈(수근골) 구성(오른손 손등 쪽): 아래팔뼈 끝 위에 두 줄로 놓인 작은 손목뼈들 · 엄지 쪽 주상골(Scaphoid) · 붉은 선: 손목뼈와 손바닥뼈 사이 관절<span class="entity-figure-credit">그림: Scientific Animations, <a href="https://commons.wikimedia.org/wiki/File:3D_Medical_Animation_Human_Wrist.jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a></span></figcaption>
+</figure>
 
 손목은 손 기능의 입구입니다. 따라서 같은 손목 통증이라도 엄지 쪽 힘줄 문제인지, 손바닥 쪽 정중신경 압박인지, 새끼손가락 쪽 척골측 통증인지, 외상 후 골절·인대 손상인지에 따라 진단과 치료가 달라집니다 [^2][^3].
 
 ## 관련 증상
 손목 관련 증상은 [손목 통증](/symptoms/wrist-pain/), [손 저림](/symptoms/hand-numbness/), 엄지 쪽 통증, 악력 저하, 물건을 잡을 때 통증, 야간 저림, 손가락 감각 이상으로 나타납니다. 엄지 쪽 손목 통증이 아기 안기·스마트폰·집게 동작에서 심해지면 [드퀘르벵 건초염](/conditions/de-quervain/)을 고려합니다 [^4]. 엄지·검지·중지 중심 저림과 야간 통증이 두드러지면 [손목터널증후군](/conditions/carpal-tunnel-syndrome/)을 감별합니다 [^1][^5].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/carpal-tunnel-syndrome/carpal-tunnel-median-nerve.webp" alt="오른손 손바닥 쪽 해부도: 손목을 가로지르는 인대 아래로 노란 정중신경이 지나며 눌린 자리가 붉게 표시된 모습" width="1000" height="906" loading="lazy">
+  <figcaption markdown="span">손바닥 쪽 정중신경 압박(손목터널증후군): 횡수근인대(Carpal ligament) 아래를 지나는 정중신경(Median nerve) · 눌린 자리(붉은색)<span class="entity-figure-credit">그림: BruceBlaus (Blausen.com staff), <a href="https://commons.wikimedia.org/wiki/File:Carpal_Tunnel_Syndrome.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/3.0" rel="nofollow noopener" target="_blank">CC BY 3.0</a></span></figcaption>
+</figure>
 
 외상 후 붓기와 압통, 손목을 디딜 수 없는 통증, 손가락 감각 저하·창백함, 진행성 근력 저하, 감염 의심 소견은 빠른 평가가 필요합니다. 손 저림은 손목 문제처럼 보여도 [목디스크](/conditions/cervical-disc-herniation/), [주관절 척골신경 포착](/conditions/cubital-tunnel-syndrome/), 당뇨성 말초신경병증과도 겹칠 수 있어 분포 확인이 중요합니다 [^2][^3].
 
@@ -42,6 +61,16 @@ version: 2
 - **연관 신경형**: 경추 신경근병증, 팔꿈치 척골신경 포착, 말초신경병증
 
 손목 entity는 “통증”과 “저림”을 나눠 주는 허브 역할을 해야 합니다. 통증 중심이면 힘줄·관절·외상 평가로, 저림 중심이면 정중신경·척골신경·경추·말초신경병증 평가로 분기합니다 [^1][^2].
+
+**손목 주요 질환 유형별 비교** [^1][^2][^3][^4][^5]
+{: .entity-table-caption}
+
+| 유형 | 대표 질환 및 손상 | 주요 증상 및 특징 | 주요 치료 및 대응 |
+| --- | --- | --- | --- |
+| 신경 포착형 | 손목터널증후군 | 엄지·검지·중지 중심 저림, 야간 통증 | 야간 부목, 국소 스테로이드 주사, 수근관 감압술 |
+| 힘줄·건초염형 | 드퀘르벵 건초염 | 아기 안기·집게 동작 시 엄지 쪽 통증 | 엄지 포함 부목, 약물·물리치료, 주사, 수술적 유리술 |
+| 외상·구조 손상형 | 주상골 골절, TFCC 손상 | 외상 후 붓기와 압통, 디딜 수 없는 통증 | 골절·인대 손상 배제, 영상검사와 전문 평가 |
+| 연관 신경형 | 목디스크, 주관절 척골신경 포착 | 손목 문제와 겹치는 손 저림 | 저림 분포 확인 및 신경 평가 |
 
 ## 관련 치료
 손목 치료는 원인 구조에 따라 보조기, 활동 조절, 약물치료, 운동·재활, [초음파 유도 주사](/treatments/ultrasound-guided-injection/), [체외충격파](/treatments/eswt/)(ESWT), 윈백 고주파(TECAR/RF) 물리치료, 전기진단, 수술 의뢰를 단계적으로 선택합니다. 손목터널증후군에서는 야간 부목, 활동 조절, 국소 스테로이드 주사, 전기진단 또는 CTS-6 기반 평가, 보존 치료 실패나 근위축·진행성 약화 시 수근관 감압술을 검토합니다 [^1][^5].

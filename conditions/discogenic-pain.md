@@ -26,6 +26,15 @@ external_footnote_ids: [1, 2, 3, 4, 5]
 version: 3
 ---
 
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 디스크성 허리통증은 요추 추간판 자체가 주요 원인으로 작용하여 앉거나 숙일 때 악화되는 허리 중심의 축성 통증입니다 [^1][^2].
+- 영상에서 관찰되는 디스크 퇴행은 무증상자에서도 흔하므로 영상 소견만으로 원인을 확정하지 않고 신경학적 평가와 병력을 종합해 진단합니다 [^3][^4].
+- 1차 치료는 활동 유지, 약물, 운동치료 등 보존적 접근이 기본이며 침습적 치료나 수술은 보존치료 실패 시 제한적으로 검토합니다 [^2][^3][^4][^5].
+
+</div>
+
 ## 정의
 디스크성 허리통증(discogenic low back pain)은 [요추](/body-parts/lumbar-spine/) 추간판 자체가 주요 통증 발생원으로 작용하는 축성 [허리통증](/symptoms/lower-back-pain/)입니다. 전형적인 [허리디스크](/conditions/lumbar-disc-herniation/)처럼 신경근 압박으로 다리 방사통이 두드러지는 상태와 달리, 허리 중심의 깊은 통증·앉기 악화·굽힘 악화가 중심이 될 수 있습니다 [^1][^2].
 
@@ -33,6 +42,11 @@ version: 3
 
 ## 병태
 추간판은 바깥의 섬유륜(annulus fibrosus), 안쪽의 수핵(nucleus pulposus), 종판(endplate)으로 구성됩니다. 디스크 퇴행, 섬유륜 균열, 종판 변화, 염증 매개물질, 신경·혈관 ingrowth가 겹치면 신경근 압박 없이도 허리 중심 통증이 발생할 수 있습니다 [^1][^2].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/discogenic-pain/disc-annular-fissure.webp" alt="허리 디스크를 위에서 비스듬히 본 단면: 여러 겹 고리 모양 섬유륜 가운데 회백색 수핵이 있고, 수핵에서 뒤쪽 바깥 고리까지 이어진 균열 끝이 붉게 표시되며 가는 신경 섬유가 자라 들어간 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">디스크 안쪽 구조와 균열: 여러 겹 섬유륜 · 가운데 수핵 · 뒤쪽 바깥 층까지 이어진 균열과 염증(붉은색) · 균열 끝으로 자라 들어간 가는 신경 섬유<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 다만 디스크성 통증은 단일 검사로 쉽게 확정되는 질환이 아닙니다. 허리통증은 후관절, 천장관절, 근막, 협착, 전방전위, 심리사회적 요인이 함께 관여할 수 있어, discogenic pain은 **가능한 통증 발생원 중 하나**로 다루어야 합니다 [^3][^4].
 
@@ -61,6 +75,15 @@ Provocative discography는 과거 discogenic pain 평가에 사용되었지만 �
 - 신경근 자극이 동반되면 C-arm 유도 경막외 주사 또는 선택적 신경근 차단
 - 후관절·천장관절·근막성 통증이 겹치면 해당 구조에 맞춘 주사·도수·운동치료
 - 만성 discogenic pain에서는 intradiscal treatment, regenerative therapy, 수술적 유합/인공디스크 등 다양한 중재가 연구되어 왔으나 근거 수준·환자 선택·규제 이슈가 달라 신중한 설명이 필요합니다 [^2][^5]
+
+**통증 발생원별 통증의학적 접근** [^2][^5]
+{: .entity-table-caption}
+
+| 통증 발생원 | 검토하는 접근 | 비고 |
+| --- | --- | --- |
+| 신경근 자극 동반 | C-arm 유도 경막외 주사, 선택적 신경근 차단 | 동반 병변에 따른 단계적 검토 |
+| 후관절·천장관절·근막성 통증 동반 | 주사·도수·운동치료 | 해당 구조 맞춤 접근 |
+| 만성 디스크성 통증 | intradiscal treatment, regenerative therapy, 수술적 유합/인공디스크 | 근거 수준·환자 선택·규제 이슈로 신중한 설명 필요 |
 
 환자 커뮤니케이션에서는 “디스크가 닳았다”보다 **통증이 디스크 기원인지, 신경 압박인지, 협착인지, 근막·후관절인지**를 나누고, 보존치료 반응과 기능 제한에 따라 단계적으로 선택한다고 설명합니다.
 

@@ -26,19 +26,48 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5]
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 근전도·신경전도 검사는 말초신경계 기능을 전기 신호로 평가하는 전기진단 검사입니다 [^2][^3].
+- 신경이 눌린 위치와 손상의 성격, 진행 정도 및 분포를 구분하는 데 쓰입니다 [^1][^2][^3][^5].
+- 급성기나 경증, 소섬유 손상에서는 이상이 잡히지 않을 수 있어 임상 소견과 함께 해석합니다 [^1][^2][^3][^4][^5].
+
+</div>
+
 ## 정의
 근전도·신경전도 검사는 말초신경계 기능을 전기 신호로 평가하는 **전기진단 검사(electrodiagnostic study)**로, 보통 두 검사를 한 자리에서 함께 시행합니다 [^2][^3].
 
 - **신경전도 검사(nerve conduction study, NCS)** — 피부에서 신경을 전기 자극하고 반응을 기록해 **전도 속도·잠복기·진폭**을 측정합니다 [^2][^5].
 - **근전도 검사(electromyography, EMG)** — 가는 바늘 전극을 근육에 넣어 안정 시와 수축 시의 **자발 전위와 운동 단위 전위**를 기록합니다 [^3].
 
+**신경전도·근전도 검사 비교** [^1][^2][^3][^5]
+{: .entity-table-caption}
+
+| 구분 | 신경전도 검사(NCS) | 근전도 검사(EMG) |
+| --- | --- | --- |
+| 검사 방법 | 피부 표면 전극으로 신경 전기 자극 | 가는 바늘 전극을 근육에 삽입 |
+| 측정 지표 | 전도 속도·잠복기·진폭 | 안정·수축 시 자발 전위·운동 단위 전위 |
+| 주요 확인 사항 | 손상 성격(탈수초성·축삭성), 눌린 위치 | 손상 진행 정도와 경과 시점 |
+| 검사 시 느낌 | 자극 시 순간적으로 저릿한 느낌 | 부위에 따라 뻐근한 통증 |
+
 두 검사는 영상 검사와 목적이 다릅니다. 영상은 구조를 보여주고, 전기진단은 **그 구조 변화가 실제 신경 기능에 영향을 주는지, 준다면 어디서 얼마나 주는지**를 봅니다 [^2][^5].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/emg-ncs/ncs-wrist-surface-electrodes.webp" alt="손바닥을 위로 한 손목 부위에 자극 전극을 대고 손바닥과 손가락에 기록 전극을 붙인 신경전도 검사 장면" width="1000" height="750" loading="lazy">
+  <figcaption markdown="span">신경전도 검사 장면: 손목 부위 자극 전극과 손바닥·손가락 표면 기록 전극<span class="entity-figure-credit">사진: Private individual, <a href="https://commons.wikimedia.org/wiki/File:Nerve_conduction_velocity.jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="nofollow noopener" target="_blank">CC BY-SA 3.0</a></span></figcaption>
+</figure>
 
 ## 무엇을 알 수 있나
 - **눌린 위치의 국소화** — 같은 손 저림이라도 손목(정중신경), 팔꿈치(척골신경), 목 신경뿌리 중 어디에서 비롯됐는지 구간별 전도를 비교해 좁힙니다 [^1][^2][^5].
 - **손상의 성격** — 전도 속도·잠복기가 주로 늘어나면 **탈수초성**, 진폭이 주로 떨어지면 **축삭성** 변화로 해석합니다 [^2][^5].
 - **정도와 시기** — 근전도의 자발 전위(세동 전위 등)와 운동 단위 전위 변화 양상으로 진행 정도와 경과 시점을 함께 읽습니다 [^3].
 - **분포** — 단일 신경 문제인지, 신경뿌리 분포를 따르는지, 여러 신경에 걸친 다발신경병증인지를 구분합니다 [^2][^3].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/emg-ncs/demyelinating-vs-axonal-fiber.webp" alt="노란 수초에 싸인 신경섬유 두 가닥, 위는 축삭이 이어진 채 가운데 수초만 얇아지고 벗겨짐, 아래는 축삭이 끊기고 그 너머가 조각남" width="965" height="440" loading="lazy">
+  <figcaption markdown="span">탈수초성 손상(위: 축삭은 유지, 수초 손상)과 축삭성 손상(아래: 축삭 단절 후 분해)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 ## 적응증
 - 손·발 저림, 감각 저하, 근력 약화가 지속되거나 원인이 분명하지 않을 때 [^2][^5]

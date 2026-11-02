@@ -24,10 +24,27 @@ clinic_footnote_ids: [1]
 external_footnote_ids: [2, 3, 4, 5, 6, 7, 8, 9]
 version: 4
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 두통은 머리·얼굴·목의 다양한 원인으로 발생하는 통증으로, 1차성과 2차성 두통으로 크게 구분합니다 [^2].
+- 평가의 핵심은 임상 양상으로 1차성 두통을 식별하면서 생명을 위협할 수 있는 2차성 두통의 단서를 놓치지 않는 것입니다 [^4][^5].
+- 일관된 1차성 두통은 보존 치료·생활 관리를 우선하고, 레드플래그나 만성·중증 두통은 영상 검사와 신경과 협진을 검토합니다 [^1][^4].
+
+</div>
+
 ## 정의
 두통은 단일 진단명이 아니라 머리·얼굴·목 영역의 다양한 원인으로 발생하는 통증을 가리키는 임상 용어입니다. 국제두통분류(ICHD-3, International Classification of Headache Disorders, 3rd edition)는 두통을 **1차성 두통**(독립적 병태로서의 두통, 예: 긴장형·편두통·군발성)과 **2차성 두통**(다른 원인 질환에 의한 두통, 예: 외상·뇌혈관 질환·감염·약물 과다 사용)으로 크게 구분합니다 [^2]. 평가의 핵심은 임상 양상으로 1차성 두통을 식별하면서, **생명을 위협할 수 있는 2차성 두통의 단서(red flag)를 놓치지 않는 것**입니다 [^4][^5].
 
 전 세계적으로 두통은 매우 흔한 호소 증상입니다 — GBD 2021 분석에서 긴장형 두통은 약 20억 명, 편두통은 약 12억 명에서 보고되며, 신경계 질환 중 유병률 상위에 해당합니다 [^3]. 한국에서도 1년 유병률이 모든 두통 약 61.4%, 긴장형 30.8%, 편두통 6.1%로 보고되어(Kim 2012) 일상에서 흔히 마주하는 증상입니다 [^7].
+
+<figure class="entity-figure entity-chart" role="img" aria-label="한국 성인 두통 1년 유병률 막대그래프">
+  <div class="entity-chart-title">한국 성인 두통 1년 유병률</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">모든 두통<span>1년 유병률</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:61.4%"></div><span class="entity-chart-value">61.4%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">긴장형 두통<span>1년 유병률</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:30.8%"></div><span class="entity-chart-value">30.8%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">편두통<span>1년 유병률</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:6.1%"></div><span class="entity-chart-value">6.1%</span></div></div>
+  <figcaption markdown="span">한국 성인 1,507명 대상 조사(Kim 2012) [^7]<span class="entity-figure-credit">그래프: Linkbase · Kim 2012 (J Clin Neurol) 초록 수치</span></figcaption>
+</figure>
 
 ## 흔한 원인
 두통은 ICHD-3 분류에 따라 다음과 같이 구분합니다 [^2].
@@ -37,6 +54,20 @@ version: 4
 - **편두통**(migraine): 편측성·박동성·중등도 이상 강도, 4~72시간 지속, 빛·소리 과민·구역·구토 동반. 일상 활동으로 악화. 전조(aura)가 있는 경우와 없는 경우로 분류 [^2][^4]. 한국 1년 유병률 약 6.1%, 여성에서 더 흔함 [^7].
 - **군발성 두통**(cluster headache): 편측 안와·관자놀이의 매우 심한 통증이 15분~3시간 발작 형태로 반복, 같은 쪽 결막 충혈·눈물·코막힘·콧물 등 자율신경 증상 동반. 빈도는 낮지만 통증 강도가 매우 높아 신경과 평가가 필요한 1차성 두통 [^2][^4].
 - **그 외 1차성**: 운동·기침·성행위 관련, 한랭 자극, 외부 압박 두통 등.
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/headache/primary-headache-pain-distribution.webp" alt="세 사람의 얼굴 그림에 이마 띠 모양, 한쪽 머리 절반, 한쪽 눈 주위로 각각 표시된 통증 부위" width="1000" height="370" loading="lazy">
+  <figcaption markdown="span">1차성 두통의 통증 위치: 긴장형(왼쪽, 이마 띠 모양) · 편두통(가운데, 한쪽 머리) · 군발성(오른쪽, 한쪽 눈 주위)<span class="entity-figure-credit">그림: Jairo Hernandez et al, <a href="https://commons.wikimedia.org/wiki/File:Pain_distribution_primary_headache_types.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/4.0" rel="nofollow noopener" target="_blank">CC BY 4.0</a> · 글자 부분 잘라냄</span></figcaption>
+</figure>
+
+**1차성 두통 3종의 통증 특성 비교** [^2][^4]
+{: .entity-table-caption}
+
+| 종류 | 위치 | 양상 | 강도 |
+| --- | --- | --- | --- |
+| 긴장형 두통 | 양측성 | 압박·둔통 | 가벼운 강도 |
+| 편두통 | 편측성 | 박동성 | 중등도 이상 강도 |
+| 군발성 두통 | 편측 안와·관자놀이 | 발작 형태로 반복 | 매우 심한 통증 |
 
 ### 2차성 두통 (원인 질환에 의한 두통)
 - 외상성(두부 외상 후), 뇌혈관 질환(지주막하출혈·뇌졸중·정맥동 혈전증), 감염(뇌수막염·뇌염), 종양·전이, 두개내압 변화(특발성 저뇌압·고뇌압), 안과·이비인후과·치과 질환, **약물 과다 사용 두통**(medication-overuse headache, MOH), 정신·심리적 요인 [^2][^4][^5].
