@@ -56,7 +56,7 @@ version: 5
 어깨 통증은 증상 양상과 진찰 소견에 따라 다음처럼 나누어 평가합니다 [^2][^3][^5].
 
 - **회전근개형 힘줄 통증 / RCRSP**: [회전근개 건병증](/conditions/rotator-cuff-tendinopathy/), [충돌증후군](/conditions/shoulder-impingement-syndrome/), 견봉하 점액낭염, 부분 파열을 포함하는 우산 범주입니다. 팔을 옆으로 들 때 60~120° 구간 통증, 야간통, 아픈 쪽으로 눕기 어려움이 흔합니다 [^5][^6].
-- **회전근개 파열·손상**: 외상성·퇴행성 모두 가능하며, 실제 근력 저하와 기능 제한이 중요합니다. 한국 일반인구에서 무증상 회전근개 파열 유병률은 50대 3.5%, 60대 13.3%, 70세 이상 11.1%로 보고되어, 영상 소견과 증상이 늘 일치하지 않음을 보여줍니다 [^9]. 자세한 정보는 [회전근개 손상](/conditions/rotator-cuff-injury/) 참고.
+- **회전근개 파열·손상**: 외상성·퇴행성 모두 가능하며, 실제 근력 저하와 기능 제한이 중요합니다. 어깨 증상을 호소하지 않은 한국인 지원자의 회전근개 전층 파열 유병률은 50대 3.5%, 60대 13.3%, 70세 이상 11.1%로 보고되어, 영상 소견과 증상이 늘 일치하지 않음을 보여줍니다 [^9]. 자세한 정보는 [회전근개 손상](/conditions/rotator-cuff-injury/) 참고.
 - **오십견형 굳음 / 유착성 관절낭염**: 능동·수동 가동 범위가 모두 제한되는 상태입니다. 옷 입기, 머리 감기, 뒷짐 동작이 어려워지고 당뇨병 환자에서 위험이 더 높습니다. 자세한 정보는 [오십견](/conditions/frozen-shoulder/) 참고.
 - **석회성 급성 통증 / 석회성 건염**: 회전근개에 하이드록시아파타이트 침착이 생기며, 흡수기에는 갑자기 매우 심한 통증이 나타날 수 있습니다. 자세한 정보는 [석회성 건염](/conditions/calcific-tendinitis/) 참고.
 - **관절·관절순·이두건 병변**: 견관절 골관절염, 견쇄관절 병변, 이두근 장두 건염, 관절순 손상(SLAP·Bankart) 등이 포함됩니다 [^3][^8].
@@ -108,7 +108,7 @@ JOSPT 2025 회전근개 건병증 CPG는 **subacromial pain syndrome / rotator c
   <div class="entity-chart-row"><div class="entity-chart-label">50대<span>50~59세</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:3.5%"></div><span class="entity-chart-value">3.5%</span></div></div>
   <div class="entity-chart-row"><div class="entity-chart-label">60대<span>60~69세</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:13.3%"></div><span class="entity-chart-value">13.3%</span></div></div>
   <div class="entity-chart-row"><div class="entity-chart-label">70세 이상<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:11.1%"></div><span class="entity-chart-value">11.1%</span></div></div>
-  <figcaption markdown="span">연령대별 무증상 회전근개 파열 [^9]<span class="entity-figure-credit">그래프: Linkbase · Jeong 2017 (J Shoulder Elbow Surg) 초록 수치: 어깨 증상 호소가 없는 지원자 486명 초음파 검사</span></figcaption>
+  <figcaption markdown="span">연령대별 회전근개 전층 파열: 어깨 증상을 호소하지 않은 지원자 [^9]<span class="entity-figure-credit">그래프: Linkbase · Jeong 2017 (J Shoulder Elbow Surg) 초록 수치: 어깨 증상 호소가 없는 지원자 486명 초음파 검사</span></figcaption>
 </figure>
 
 ## 치료 옵션
@@ -181,3 +181,4 @@ JOSPT 2025 회전근개 건병증 CPG는 **subacromial pain syndrome / rotator c
 - 2026-05-03 v4: 내용 업데이트.
 - 2026-04-28 v3: 내용 업데이트.
 - 2026-07-21 v5: 흔한 원인 enrich, 레드플래그 enrich
+- 2026-11-02: [^9] 대상군 표기 정정 — 「일반인구 무증상」→「어깨 증상을 호소하지 않은 한국인 지원자」, 「전층 파열」 명시.
