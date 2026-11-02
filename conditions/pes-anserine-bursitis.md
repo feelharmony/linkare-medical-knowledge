@@ -40,6 +40,11 @@ version: 1
 ## 정의
 거위발건염(pes anserine bursitis)은 정강뼈(경골) 위쪽 앞안쪽면에 봉공근·박근·반건양근 세 힘줄이 함께 붙는 **거위발(pes anserinus)** 부위와 그 아래 점액낭에 통증이 생기는 질환입니다 [^1]. 'pes anserinus'는 라틴어로 '거위의 발'이라는 뜻으로 이 세 힘줄의 공동 부착부를 가리키며, 무릎 안쪽 관절선에서 약 5 cm 아래에 위치합니다 [^1].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/pes-anserine-bursitis/pes-anserinus-medial-knee.webp" alt="무릎 안쪽에서 본 봉공근·박근·반건양근 힘줄이 모이는 거위발과 그 아래 통증 부위" width="800" height="800" loading="lazy">
+  <figcaption markdown="span">거위발: 봉공근·박근·반건양근 힘줄이 모이는 자리와 통증 부위<span class="entity-figure-credit">그림: Hariadhi, <a href="https://commons.wikimedia.org/wiki/File:Pes_anserine_bursitis_by_hariadhi.svg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a> · 한국어 라벨로 바꿈</span></figcaption>
+</figure>
+
 점액낭의 염증(점액낭염)과 힘줄 부착부의 염증(건염)은 서로 맞닿아 있어 구분이 어렵고 관리 방법도 같습니다 [^1]. 실제로 어느 구조가 통증을 만드는지 아직 분명하지 않아 '거위발 증후군(anserine syndrome)'이라는 용어도 제안되었습니다 [^2]. 무릎 안쪽 통증을 일으키는 흔한 질환이며 [^2], 증상이 있는 무릎 골관절염 환자의 무릎 5개 중 1개꼴에서 초음파로 점액낭염이 확인될 만큼 [무릎 관절염](/conditions/knee-osteoarthritis/)과 함께 나타나는 경우가 많습니다 [^3].
 
 ## 병태

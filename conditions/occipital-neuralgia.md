@@ -43,6 +43,11 @@ version: 2
 ## 정의
 후두신경통(occipital neuralgia, ON)은 ICHD-3 분류 13.4 항목의 신경통으로, **대후두신경(greater occipital nerve)·소후두신경(lesser occipital nerve)·제3후두신경(third occipital nerve) 분포의 발작성·찌르는 듯한 통증**이 특징입니다 [^2]. 편측·양측 모두 가능하며, 신경병성 통증 양상으로 후두 부위·뒷머리·정수리까지 뻗칠 수 있습니다 [^2][^4]. 더 큰 두통 분류와 감별 진단 흐름은 [두통](/symptoms/headache/) 항목 참고. 경추 구조 부담이 함께 관여하는 경우가 많아 [경추기원 두통](/conditions/cervicogenic-headache/)·[목 통증](/symptoms/neck-pain/)과 임상에서 자주 함께 평가됩니다.
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/occipital-neuralgia/gray800-suboccipital-greater-occipital-nerve.webp" alt="뒤통수 아래 근육과 신경을 뒤에서 본 해부도, 위쪽 가운데에 대후두신경(GREAT OCCIPITAL NERVE)" width="600" height="382" loading="lazy">
+  <figcaption markdown="span">뒤통수 아래 해부: 위쪽 목에서 뒤통수로 올라가는 대후두신경(그림 위 GREAT OCCIPITAL NERVE)<span class="entity-figure-credit">그림: Henry Vandyke Carter (Gray's Anatomy), <a href="https://commons.wikimedia.org/wiki/File:Gray800.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="nofollow noopener" target="_blank">퍼블릭 도메인</a></span></figcaption>
+</figure>
+
 ## 병태
 대후두신경(C2 후지·C3 분지)이 후두 두피를 지배하며, 신경 주행 경로의 압박·자극(C2 신경근, 상부 경추 후관절·근육 부위)이 신경통을 유발하는 주된 기전으로 보고됩니다 [^4]. 외상(특히 채찍질 손상), 자세 부담, 경추 후관절·근막 병변, 신경 압박이 흔한 원인입니다 [^4]. 후두 부위 수술·시술 이력 또는 종양·감염 같은 2차성 원인도 드물게 보고됩니다 [^4].
 

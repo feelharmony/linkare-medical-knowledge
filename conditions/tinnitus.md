@@ -30,6 +30,11 @@ version: 1
 ## 정의
 이명(tinnitus)은 **외부에 해당하는 소리의 근원이 없는데도 소리를 지각하는 상태**로, 성인의 약 14%가 경험하고 약 2%는 증상이 심한 것으로 추정됩니다 [^1]. 임상 양상은 사람마다 다양하며, 평가할 때는 객관적 이명(박동성 이명 포함)과 주관적 이명을 나누어 봅니다 [^1].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/tinnitus/ear-anatomy-cochlear-nerve.webp" alt="귀 단면: 귓바퀴·바깥귀길·고막·이소골·달팽이관과 달팽이신경·전정신경" width="1000" height="764" loading="lazy">
+  <figcaption markdown="span">귀의 구조: 바깥귀·가운데귀·속귀(달팽이관)와 달팽이신경<span class="entity-figure-credit">그림: Lars Chittka, Axel Brockmann, <a href="https://commons.wikimedia.org/wiki/File:Anatomy_of_the_Human_Ear.svg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/2.5" rel="nofollow noopener" target="_blank">CC BY 2.5</a> · 한국어 라벨로 바꿈</span></figcaption>
+</figure>
+
 주관적 이명 가운데 **체성 이명(somatic tinnitus, somatosensory tinnitus)**은 목(경추)이나 턱관절(측두하악) 부위에서 들어오는 체감각 입력의 변화가 이명을 일으키거나 이명의 지각을 바꾸는 유형으로 정의됩니다 [^2]. 몸에 닿는 자극이나 움직임에 따라 이명이 달라지는 것이 핵심 특징이며 [^3], 특히 **턱과 목을 움직이거나 턱·목 근육에 힘을 줄 때 이명 소리의 크기(loudness)와 음조(pitch)가 바뀌는** 양상으로 나타납니다 [^4][^5].
 
 ## 병태

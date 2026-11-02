@@ -45,6 +45,11 @@ version: 2
 ## 정의
 척추측만증(scoliosis)은 척추가 정면에서 볼 때 옆으로 휘고, 동시에 척추체 회전이 동반되는 3차원 척추 변형입니다. 단순히 “자세가 삐뚤다”는 표현이 아니라, X-ray에서 Cobb angle을 측정해 변형의 정도와 진행 위험을 평가하는 질환입니다 [^1][^2].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/scoliosis/normal-vs-scoliosis-posterior.webp" alt="뒤에서 본 정상 척추와, 가슴 부위는 한쪽으로 허리 부위는 반대쪽으로 휜 척추측만증 척추의 비교 도식" width="900" height="800" loading="lazy">
+  <figcaption markdown="span">정상 척추와 척추측만증 비교(뒤에서 본 모습, 단순화 도식)<span class="entity-figure-credit">도식: Linkbase</span></figcaption>
+</figure>
+
 척추측만증은 크게 두 축으로 나누어 평가합니다. 첫째, 성장기에서 발견되는 **청소년 특발성 척추측만증(adolescent idiopathic scoliosis, AIS)**은 성장 잔여량과 Cobb angle에 따라 관찰·운동·보조기·수술 의뢰가 결정됩니다 [^1][^2][^3]. 둘째, 성인에서는 디스크·후관절 퇴행, 골다공증, 척추관 협착, 전방전위가 겹치며 **성인 퇴행성 측만/성인 척추변형** 형태로 허리통증·다리 저림·보행 장애를 만들 수 있습니다 [^6][^7].
 
 **척추측만증 주요 유형 비교** [^1][^2][^3][^4][^5][^6][^7]
