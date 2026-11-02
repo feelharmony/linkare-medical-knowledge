@@ -4039,5 +4039,20 @@
     "tenant_key": "gtop",
     "doctor_id": "dr-lee-sungwook",
     "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/gtop/ko/----/vestibular-neuritis.md",
+    "source_article_url": "https://guritopbone.com/blog/vestibular-neuritis",
+    "source_article_title": "전정신경염, 가만히 누워도 빙글 도는 어지럼증 언제 가라앉나요?",
+    "primary_entity_id": "vestibular-neuritis",
+    "entity_ids": [
+      "vestibular-neuritis"
+    ],
+    "updated_at": "2026-11-02",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   }
 ]
