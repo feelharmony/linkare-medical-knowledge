@@ -4,7 +4,7 @@ entity_id: nerve-block-injection
 entity_type: treatment
 permalink: /treatments/nerve-block-injection/
 title: 신경차단술
-description: 신경 주위에 약물을 주사해 통증 신호와 신경 염증을 낮추는 시술 — 대상포진/PHN에서는 조기 통증 개입과 만성화 예방의 핵심 축
+description: 신경 주위에 약물을 주사해 통증 신호와 신경 염증을 낮추는 시술 — 대상포진/PHN에서는 조기 통증 개입과 만성화 예방의 핵심 수단
 title_en: nerve block injection
 aliases:
   - 신경차단술

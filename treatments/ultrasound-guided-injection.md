@@ -71,7 +71,7 @@ Shen 2024 umbrella review는 근골격계 통증 주사에서 초음파 유도�
 ### 영역별 근거
 Ruiz Santiago 2024 narrative review는 어깨, 무릎, 고관절, 발목·족저근막, 상과염, 신경 주변 시술 등 다양한 근골격 영역에서 초음파 유도 시술이 활용된다고 정리합니다 [^2]. EULAR의 rheumatic and musculoskeletal diseases 시술 가이드 문헌고찰도 영상 유도가 중재 시술의 정확도와 절차적 판단에 도움을 줄 수 있음을 검토했습니다 [^3].
 
-발 통증 축에서는 특히 [발뒤꿈치 통증](/symptoms/heel-pain/)과 [족저근막염](/conditions/plantar-fasciitis/)에서 초음파로 족저근막 두께, 부분 파열, 주변 지방패드, 바늘 위치를 확인할 수 있습니다. Tsai 2014 meta-analysis는 족저근막염에서 초음파 유도 스테로이드 주사와 촉진 유도 주사를 비교한 연구들을 종합했습니다 [^5].
+발 통증에서는 특히 [발뒤꿈치 통증](/symptoms/heel-pain/)과 [족저근막염](/conditions/plantar-fasciitis/)에서 초음파로 족저근막 두께, 부분 파열, 주변 지방패드, 바늘 위치를 확인할 수 있습니다. Tsai 2014 meta-analysis는 족저근막염에서 초음파 유도 스테로이드 주사와 촉진 유도 주사를 비교한 연구들을 종합했습니다 [^5].
 
 ## 적응증
 초음파 유도 주사의 적응증은 결합되는 주사치료와 표적 구조에 따라 결정합니다.

@@ -44,7 +44,7 @@ version: 2
 - **보행 시 다리 통증**: 신경성 파행(척추관 협착)과 혈관성 파행(말초동맥질환)을 구분해야 합니다 [^4].
 
 ## 관련 질환
-하지 질환은 크게 다음 축으로 정리할 수 있습니다.
+하지 질환은 크게 다음과 같이 정리할 수 있습니다.
 
 - **요추·신경근형**: [좌골신경통](/conditions/sciatica/), [허리디스크](/conditions/lumbar-disc-herniation/), [척추관 협착증](/conditions/spinal-stenosis/). 허리보다 다리 통증·저림이 먼저 두드러질 수 있습니다.
 - **무릎 구조형**: [무릎 관절염](/conditions/knee-osteoarthritis/), [반월상연골 파열](/conditions/meniscus-tear/), [십자인대 손상](/conditions/cruciate-ligament-injury/), [슬개건염](/conditions/patellar-tendinitis/).

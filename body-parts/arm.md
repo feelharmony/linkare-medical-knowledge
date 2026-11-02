@@ -66,7 +66,7 @@ version: 2
 | 힘 빠짐·미세동작 저하 | 회전근개 파열, 경추 신경근병증, 척수증, 정중·척골·요골신경 손상, 진행성 말초신경 포착 |
 
 ## 관련 질환
-상지 질환은 크게 다음 축으로 정리할 수 있습니다.
+상지 질환은 크게 다음과 같이 정리할 수 있습니다.
 
 - **경추·신경근형**: [목디스크](/conditions/cervical-disc-herniation/), 경추 신경근병증, 경추 척수증. 목 통증 없이 팔 저림·방사통이 먼저 나타날 수도 있습니다 [^2].
 - **어깨 구조형**: [회전근개 건병증](/conditions/rotator-cuff-tendinopathy/), [회전근개 손상](/conditions/rotator-cuff-injury/), [회전근개 파열](/conditions/rotator-cuff-tear/), [오십견](/conditions/frozen-shoulder/), [석회성 건염](/conditions/calcific-tendinitis/), [충돌 증후군](/conditions/shoulder-impingement-syndrome/).

@@ -4,7 +4,7 @@ entity_id: antiviral-medicine
 entity_type: treatment
 permalink: /treatments/antiviral-medicine/
 title: 항바이러스제 (대상포진)
-description: 대상포진 72시간 골든타임에 VZV 복제를 억제해 발진·급성 통증을 줄이고 PHN 예방 전략의 1차 축이 되는 항바이러스 치료
+description: 대상포진 72시간 골든타임에 VZV 복제를 억제해 발진·급성 통증을 줄이고 PHN 예방 전략의 1차 수단이 되는 항바이러스 치료
 title_en: antiviral medicine (acyclovir, valacyclovir, famciclovir)
 aliases:
   - 항바이러스제
@@ -36,7 +36,7 @@ version: 3
 </div>
 
 ## 정의·기전
-대상포진 항바이러스제는 수두대상포진 바이러스(VZV)의 DNA 합성을 억제하여 바이러스 복제·신경 염증을 줄이는 약물입니다. 임상에서 활용되는 표준 약물 세 가지가 있습니다[^1]. [대상포진](/conditions/zoster/) 진단 직후 **72시간 안에 시작하는 항바이러스 치료**는 PHN 예방 전략의 1차 축입니다.
+대상포진 항바이러스제는 수두대상포진 바이러스(VZV)의 DNA 합성을 억제하여 바이러스 복제·신경 염증을 줄이는 약물입니다. 임상에서 활용되는 표준 약물 세 가지가 있습니다[^1]. [대상포진](/conditions/zoster/) 진단 직후 **72시간 안에 시작하는 항바이러스 치료**는 PHN 예방 전략의 1차 수단입니다.
 
 - **Acyclovir** — 1세대 nucleoside analog. 경구 흡수율이 낮아 하루 5회 투약 필요
 - **Valacyclovir** — Acyclovir의 prodrug, 경구 흡수율 향상으로 **하루 3회**로 단순화
