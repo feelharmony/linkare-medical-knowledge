@@ -4054,5 +4054,20 @@
     "tenant_key": "gtop",
     "doctor_id": "dr-lee-sungwook",
     "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thr/ko/-----/hip-osteoarthritis-treatment-prolozone-shockwave-rehab.md",
+    "source_article_url": "https://thewells.kr/blog/hip-osteoarthritis-treatment-prolozone-shockwave-rehab",
+    "source_article_title": "고관절 관절염 치료, 공릉역에서 주사와 운동재활은 어떻게 고를까요?",
+    "primary_entity_id": "hip-osteoarthritis",
+    "entity_ids": [
+      "hip-osteoarthritis"
+    ],
+    "updated_at": "2026-11-02",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
