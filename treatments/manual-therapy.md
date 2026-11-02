@@ -148,6 +148,7 @@ Minnucci 2023 systematic review에서 RCT 보고된 이상반응은 대부분 �
 [^6]: [안심튼튼마취통증의학과 — 대구 도수치료, 마사지와 무엇이 다르고 어떤 통증에 맞을까](https://ansimpainfree.kr/blog/manual-therapy) · 근거: "도수치료는 관절 가동성 회복과 신경 압박 해소를 목표로 합니다."
 - [안심튼튼 — 목디스크 관련 글](https://ansimpainfree.kr/blog/cervical-disc-herniation)
 - [더웰스 — 거북목·일자목 관련 글](https://thewells.kr/blog/forward-head-posture)
+
 [^7]: [더웰스의원 — 도수치료는 턱관절 뇌신경, 상부경추부터 시작해야 합니다.](https://thewells.kr/blog/manual-therapy) · 근거: "목·어깨·허리 통증이 오래 이어지면서 특정 방향으로 움직이기 어렵거나 같은 동작에서 증상이 되풀이되는 분은 진찰 뒤 도수치료를 고려해 볼 수 있습니다."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
@@ -163,3 +164,4 @@ Minnucci 2023 systematic review에서 RCT 보고된 이상반응은 대부분 �
 - 2026-05-04 v5: 내용 업데이트.
 - 2026-10-20 v3: 적응증 enrich
 - 2026-10-20 v4: 적응증 enrich
+- 2026-11-02: 자사 블록 [^7] 정의 앞 빈 줄 — 목록에 붙어 본문 [^7] 이 변환 안 되던 것.
