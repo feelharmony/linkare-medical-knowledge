@@ -28,6 +28,15 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 지루피부염은 두피·얼굴 등에 각질·홍반·가려움이 생기는 흔한 만성 염증성 질환입니다 [^1][^6][^7].
+- 병변의 위치와 모양으로 임상 진단하며, 비듬과는 눈에 보이는 염증의 유무로 구분됩니다 [^1][^2].
+- 치료는 항진균제와 항염증제의 국소 도포가 중심이며, 재발이 잦아 장기 유지 전략을 함께 다룹니다 [^8][^9].
+
+</div>
+
 ## 정의
 지루피부염(seborrheic dermatitis)은 영아·청소년·성인 모두에게 흔한 피부 질환으로, **각질(비늘)·홍반·가려움**이 특징이며 두피·얼굴·가슴·등·겨드랑이·사타구니에 주로 생깁니다 [^1]. 두피·얼굴과 몸의 접히는 부위를 흔히 침범하는 **만성 염증성 질환**으로 분류됩니다 [^6][^7].
 
@@ -48,6 +57,11 @@ version: 1
 - 각질 아래 **붉은기(홍반)** — 비듬과 지루피부염을 가르는 것이 눈에 보이는 염증의 유무입니다 [^2]
 - **가려움** — 비듬과 지루피부염 모두에서 나타납니다 [^1][^2]
 - 두피 외에 얼굴, 가슴·등, 겨드랑이·사타구니에도 같은 양상이 생길 수 있습니다 [^1]
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/seborrheic-dermatitis/scalp-seborrheic-dermatitis.webp" alt="짧게 민 뒤통수 두피에 퍼진 붉은 반점과 판 모양 병변, 양쪽 귀가 보이는 뒷모습" width="500" height="504" loading="lazy">
+  <figcaption markdown="span">두피 지루피부염: 짧게 민 뒤통수 두피의 붉은 반점·판<span class="entity-figure-credit">사진: Amras666, <a href="https://commons.wikimedia.org/wiki/File:Seborrhoeic_dermatitis_head.jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="nofollow noopener" target="_blank">CC BY-SA 3.0</a></span></figcaption>
+</figure>
 
 증상은 좋아졌다 나빠지기를 반복하며, 샴푸를 바꾼 뒤 잠시 줄었다가 다시 돌아오는 경과가 흔합니다. 이런 재발 경향 자체가 질환의 특성이라 예후 항목에서 함께 다룹니다.
 
@@ -84,8 +98,26 @@ version: 1
 ### 새로운 비스테로이드 치료
 PDE4 억제제인 로플루밀라스트 0.3% 폼을 하루 1회 바른 2a상 무작위 대조 임상시험에서, 8주 시점 전반적 평가(IGA) 성공률은 73.8%로 위약 폼(40.9%)보다 높았고 가려움도 더 크게 줄었으며 이상반응 비율은 위약과 비슷했습니다 [^10].
 
+<figure class="entity-figure entity-chart" role="img" aria-label="로플루밀라스트 0.3% 폼 8주 시점 IGA 성공률 막대그래프">
+  <div class="entity-chart-title">로플루밀라스트 0.3% 폼 8주 시점 IGA 성공률</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">로플루밀라스트 0.3% 폼<span>roflumilast foam</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:73.8%"></div><span class="entity-chart-value">73.8%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">위약 폼<span>vehicle foam</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:40.9%"></div><span class="entity-chart-value">40.9%</span></div></div>
+  <figcaption markdown="span">지루피부염 2a상 무작위 대조 임상시험의 8주 시점 전반적 평가(IGA) 성공률 [^10]<span class="entity-figure-credit">그래프: Linkbase · Zirwas 2023 초록 수치</span></figcaption>
+</figure>
+
 ### 광범위하거나 반응하지 않을 때
 병변이 넓거나 국소 치료에 반응하지 않는 경우에 EADV 합의는 **전신 약제로 단계적으로 올리는 구조화된 틀**을 제시했습니다 [^9]. 이 단계에서는 진단을 다시 확인해 건선·백선 같은 다른 질환이 섞여 있지 않은지 함께 봅니다.
+
+**지루피부염 국소 치료 약제 비교** [^1][^6][^7][^10]
+{: .entity-table-caption}
+
+| 약제 | 계열 | 주요 효과 | 부작용·사용 권고 |
+| --- | --- | --- | --- |
+| 케토코나졸 2% | 항진균제 | 위약 대비 4주 미관해 위험 31% 낮음 | 스테로이드보다 부작용 44% 적음 |
+| 시클로피록스 1% | 항진균제 | 위약보다 4주 시점 관해 실패 적음 | 위약과 부작용 비율 비슷 |
+| 국소 스테로이드 | 항염증제 | 얼굴·두피에 효과적, 강도별 단기 차이 없음 | 단기 사용 권고 |
+| 칼시뉴린 억제제 | 항염증제 | 스테로이드와 효과 비슷 | 스테로이드보다 단기 부작용 많음, 단기 사용 권고 |
+| 로플루밀라스트 0.3% 폼 | PDE4 억제제 | 8주 IGA 성공률 73.8%(위약 40.9%), 가려움 감소 | 위약과 이상반응 비율 비슷 |
 
 ## 예후
 두피 지루피부염은 **만성적으로 재발하는 염증성 질환**입니다 [^8]. 치료로 각질과 가려움이 가라앉아도 다시 나타나는 경우가 많아, 2차 치료인 항진균 샴푸는 장기간 쓰는 약제로 제시됩니다 [^1]. 전문가 합의도 급성기 치료와 함께 **장기 유지 전략**을 별도로 다룹니다 [^9]. 따라서 치료 목표는 완치보다 악화 빈도와 정도를 줄이는 조절에 가깝습니다.

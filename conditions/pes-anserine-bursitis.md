@@ -28,6 +28,15 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 거위발건염은 무릎 안쪽 관절선 약 5 cm 아래 세 힘줄이 붙는 거위발 부위와 점액낭에 통증이 생기는 질환입니다 [^1].
+- 주로 무릎 안쪽 아래의 자발통과 국소 압통으로 진단하지만, 침습적 치료를 고려할 때는 초음파나 MRI 같은 영상 기반 진단이 더 정확합니다 [^2][^3][^5][^8].
+- 운동·스트레칭 같은 보존 치료가 기본이며, 소염진통제, 물리치료, 국소 스테로이드 주사 등을 시행합니다 [^1][^2].
+
+</div>
+
 ## 정의
 거위발건염(pes anserine bursitis)은 정강뼈(경골) 위쪽 앞안쪽면에 봉공근·박근·반건양근 세 힘줄이 함께 붙는 **거위발(pes anserinus)** 부위와 그 아래 점액낭에 통증이 생기는 질환입니다 [^1]. 'pes anserinus'는 라틴어로 '거위의 발'이라는 뜻으로 이 세 힘줄의 공동 부착부를 가리키며, 무릎 안쪽 관절선에서 약 5 cm 아래에 위치합니다 [^1].
 
@@ -54,12 +63,28 @@ version: 1
 ## 진단
 거위발건염은 주로 **무릎 안쪽 아래의 자발통과 국소 압통 같은 임상 소견으로 진단**해 왔습니다 [^2]. 골관절염 코호트 연구에서는 관절선 아래 안쪽, 정강뼈 거친면(경골 조면)에서 약 2 cm 떨어진 부위의 촉진 압통을 거위발 압통으로 정의했습니다 [^7].
 
+**거위발건염의 진단 방법 비교** [^2][^3][^5][^8][^9]
+{: .entity-table-caption}
+
+| 진단 방법 | 평가 기준 및 특징 | 한계 및 임상적 의의 |
+| --- | --- | --- |
+| 임상 소견 | 무릎 안쪽 아래의 자발통과 국소 압통 | MRI 기준 민감도 41.2%, 특이도 59.5%로 정확도가 낮음 |
+| 초음파 | 거위발 점액낭염 및 실제 병변 확인 | 증상 있는 골관절염 무릎의 20%에서 확인, 주사 치료 방향 결정에 유용 |
+| MRI | 축상 영상으로 점액낭과 다른 액체 저류 구분 | 정확한 진단으로 불필요한 관절경 검사를 피하는 데 도움 |
+
 다만 임상 소견만으로 내린 진단은 정확도가 낮다는 보고가 이어집니다.
 
 - MRI를 기준으로 했을 때 임상 진단의 **민감도는 41.2%, 특이도는 59.5%** 에 그쳤고, 주사 같은 침습적 치료를 고려할 때는 영상 기반 진단이 더 정확하다고 결론지었습니다 [^8]
 - 임상적으로 거위발건염으로 진단된 무릎 골관절염 환자 가운데 초음파에서 실제 병변이 확인된 경우는 8.7%였고, 스테로이드 주사에 가장 좋은 반응을 보인 2명이 바로 초음파 병변이 있던 환자였습니다 [^9]
 - **초음파**는 거위발 점액낭염을 쉽게 평가할 수 있는 검사로, 증상이 있는 골관절염 무릎의 20%에서 점액낭염이 관찰되었습니다 [^3]
 - **MRI**에서는 관절 내부 손상이 의심되어 촬영한 무릎 MRI 509건 중 2.5%에서 거위발 점액낭염이 확인되었습니다 [^5]. 축상(axial) 영상이 무릎 안쪽의 다른 액체 저류와 점액낭을 구분하는 데 중요하며, MRI로 정확히 진단하면 불필요한 관절경 검사를 피하는 데 도움이 될 수 있습니다 [^5]
+
+<figure class="entity-figure entity-chart" role="img" aria-label="거위발건염 임상 진단의 정확도(MRI 기준) 막대그래프">
+  <div class="entity-chart-title">거위발건염 임상 진단의 정확도(MRI 기준)</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">민감도<span>임상 진단</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:41.2%"></div><span class="entity-chart-value">41.2%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">특이도<span>임상 진단</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:59.5%"></div><span class="entity-chart-value">59.5%</span></div></div>
+  <figcaption markdown="span">임상 진단을 MRI 소견과 비교한 횡단 연구 [^8]<span class="entity-figure-credit">그래프: Linkbase · Atici 2022 초록 수치</span></figcaption>
+</figure>
 
 ### 감별 진단
 - **내측 반월상연골 파열**: 관절선을 따라 통증이 생겨 거위발건염과 혼동되기 쉽습니다 [^5]. → [반월상연골 손상](/conditions/meniscus-tear/)

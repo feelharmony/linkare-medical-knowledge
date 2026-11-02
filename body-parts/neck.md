@@ -25,6 +25,11 @@ version: 2
 ## 정의
 목(neck, 경부)은 머리와 몸통을 연결하는 부위로, [경추](/body-parts/cervical-spine/), 디스크, 후관절, 인대, 심부 경부 근육, 승모근·견갑거근·후두하근 같은 주변 근육, 신경근과 말초신경이 함께 관여합니다 [^3][^4]. 목은 머리의 무게를 지지하면서 시선 방향을 조절하고, 어깨·견갑골 움직임과도 연결되기 때문에 통증이 목에만 머무르지 않고 후두부, 어깨, 등 위쪽, 팔까지 퍼질 수 있습니다 [^1][^3].
 
+<figure class="entity-figure entity-figure--portrait">
+  <img src="/assets/images/entities/cervical-spine/cervical-spine-overview.webp" alt="뒤에서 비스듬히 본 사람 골격: 머리 바로 아래 일곱 개 목뼈를 원으로 표시하고, 오른쪽에 목뼈 확대 그림 두 장을 둔 모습" width="768" height="1024" loading="lazy">
+  <figcaption markdown="span">목뼈(경추) 위치: 머리 아래 원으로 표시한 일곱 개 목뼈 · 오른쪽 원 두 개는 목뼈 확대<span class="entity-figure-credit">그림: BruceBlaus, <a href="https://commons.wikimedia.org/wiki/File:Blausen_0222_CervicalSpine.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/3.0" rel="nofollow noopener" target="_blank">CC BY 3.0</a></span></figcaption>
+</figure>
+
 목 통증은 단순 자세 문제 하나로 설명하기 어렵습니다. 근막성 통증, 경추 추간판·후관절 문제, 경추 신경근병증, 경추기원 두통, 후두신경통, 어깨 질환의 연관 통증이 서로 겹칠 수 있어 증상 위치와 신경학적 소견을 함께 평가해야 합니다 [^3][^5].
 
 ## 관련 증상

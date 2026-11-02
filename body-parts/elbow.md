@@ -27,6 +27,11 @@ version: 5
 ## 정의
 팔꿈치(elbow, 주관절)는 위팔뼈(상완골)와 아래팔의 요골·척골이 만나는 관절입니다. 굽힘·폄뿐 아니라 전완의 회내·회외 동작에 관여하며, 외측·내측 상과에 붙는 손목/전완 근육 힘줄, 측부인대, 주두 점액낭, 요골신경·척골신경이 함께 지나는 부위입니다 [^2].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/elbow/elbow-joint-bones-side.webp" alt="직각으로 굽힌 팔꿈치 뼈를 옆에서 본 해부도: 세로로 선 위팔뼈 아래 끝에 가로로 놓인 아래팔 두 뼈가 맞물리고, 위쪽 뼈 머리를 고리 모양 인대가 감싸며 아래쪽 뼈 끝이 팔꿈치 뒤 끝을 이루는 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">팔꿈치 관절의 뼈: 위팔뼈(상완골) 아래 끝과 아래팔 두 뼈(위쪽 요골·아래쪽 척골)가 만나는 자리 · 요골 머리를 감싼 고리 인대<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 팔꿈치 통증은 단일 진단명이 아니라 위치와 동작에 따라 원인이 달라지는 영역 증상입니다. 바깥쪽 통증은 외측상과염(테니스엘보), 안쪽 통증은 내측상과염(골프엘보), 뒤쪽 통증은 주두 점액낭염·삼두건 병변, 저림은 [주관절 척골신경 포착](/conditions/cubital-tunnel-syndrome/)이나 요골관 증후군과 연결됩니다 [^2][^8].
 
 ## 관련 증상

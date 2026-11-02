@@ -18,6 +18,11 @@ version: 2
 ## 적응증
 재생주사치료는 초기~중기 남성형·여성형 탈모와 원형 탈모에 효과적입니다. [^1]
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/scalp/scalp-layers.webp" alt="머리뼈 위 두피 층을 입체로 자른 그림: 모발과 모낭, 피지샘, 털세움근, 혈관·신경, 피하지방, 모상건막, 머리뼈" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">두피 층 구조: 모발·모낭·피지샘·혈관·피하지방·머리뼈<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 ## 언제 고려
 기존 약물치료로 충분한 효과를 보지 못하거나, 모낭 자체의 회복이 필요한 경우 재생주사치료를 고려할 수 있습니다. [^1]
 

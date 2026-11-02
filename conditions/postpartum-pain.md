@@ -28,10 +28,24 @@ quality_status: review
 verified_by: 외부 문헌 PMID eutils 대조
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 산후 통증은 출산 뒤 이어지는 근골격계 통증으로 요골반 통증과 손목의 드퀘르벵 건초염, 손목터널증후군이 흔합니다 [^1][^3][^4].
+- 요골반 통증은 출산 후 3개월 무렵 회복되나 일부는 중등도 이상의 기능 장애가 남고, 위험 신호가 있으면 다른 원인을 먼저 확인합니다 [^5].
+- 골반대 통증은 안정화 운동과 약물로 치료하며, 손목 통증은 부목이나 스테로이드 주사, 생활 조정으로 관리합니다 [^2][^9][^11].
+
+</div>
+
 ## 정의
 산후 통증은 출산 뒤에도 이어지는 근골격계 통증을 묶어 부르는 말로, 이 항목에서는 가장 흔히 호소되는 **허리·골반 통증**과 **손목 통증**을 다룹니다.
 
 임신과 관련된 허리·골반 통증은 **임신 관련 골반대 통증(pregnancy-related pelvic girdle pain, PPP)** 과 **임신 관련 요통(pregnancy-related low back pain, PLBP)** 으로 나누어 부르며, 두 가지를 합쳐 요골반 통증(lumbopelvic pain)이라고 합니다. 두 질환은 기전이 비슷할 수 있으나 서로 구별되는 상태로 봅니다 [^1]. 골반대 통증은 요통의 특수한 형태로, 요통과 따로 또는 함께 나타날 수 있고 임신을 계기로 생기는 경우가 많습니다 [^2].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/postpartum-pain/pelvic-girdle-joints.webp" alt="앞에서 본 골반뼈 해부도: 엉치뼈와 양쪽 엉덩뼈가 맞닿는 두 천장관절과 앞쪽 가운데 치골 결합이 붉게 표시된 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">골반대의 관절(앞에서 본 골반): 엉치뼈와 엉덩뼈가 맞닿는 양쪽 천장관절 · 앞쪽 가운데 치골 결합(붉은 부분)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 손목에서는 엄지 쪽 힘줄이 지나는 첫 번째 신전 구획이 좁아지는 [드퀘르벵 건초염](/conditions/de-quervain/)이 임신·수유기 여성에게 흔히 보고되며 [^3], 손저림을 일으키는 [손목터널증후군](/conditions/carpal-tunnel-syndrome/) 증상도 임신 중 여성의 약 3분의 1에서 보고됩니다 [^4].
 
@@ -45,6 +59,11 @@ version: 1
 드퀘르벵 건초염은 장무지외전근과 단무지신근이 지나는 첫 번째 신전 구획의 협착으로 생깁니다 [^3]. 산후 드퀘르벵 건초염 환자를 분석한 연구에서는 **첫 출산, 40주를 넘긴 임신, 체질량지수 25 초과**가 위험 요인이었고, 아기의 출생 체중과 다태 여부는 위험을 높이지 않았습니다 [^3]. 임산부 약 160만 명의 건강보험 청구자료를 분석한 연구에서는 임신 관련 드퀘르벵 건초염의 누적 발생률이 약 2.1%였고, 30세 이상, 다태 임신, 제왕절개 분만, 임신성 고혈압 질환, 류마티스관절염이 위험 요인으로 확인됐습니다 [^7]. 다태 여부처럼 연구마다 결과가 엇갈리는 요인도 있습니다.
 
 임신 중 손목터널증후군 증상은 **임신 기간 내내 부종(체액 저류)을 많이 느낀 여성에서 더 흔했고**, 수면 문제와도 독립적으로 관련됐습니다 [^4].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/carpal-tunnel-syndrome/carpal-tunnel-median-nerve.webp" alt="오른손 손바닥 쪽 해부도: 손목을 가로지르는 인대 아래로 노란 정중신경이 지나며 눌린 자리가 붉게 표시된 모습" width="1000" height="906" loading="lazy">
+  <figcaption markdown="span">손바닥 쪽 정중신경 압박(손목터널증후군): 횡수근인대(Carpal ligament) 아래를 지나는 정중신경(Median nerve) · 눌린 자리(붉은색)<span class="entity-figure-credit">그림: BruceBlaus (Blausen.com staff), <a href="https://commons.wikimedia.org/wiki/File:Carpal_Tunnel_Syndrome.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/3.0" rel="nofollow noopener" target="_blank">CC BY 3.0</a></span></figcaption>
+</figure>
 
 ## 증상
 ### 허리·골반
@@ -65,6 +84,16 @@ version: 1
 - **촉진 검사** — 긴 후방 천장인대(long dorsal ligament) 압통, 치골 결합 압통 [^2]
 - **기능 검사** — 누운 자세에서 다리를 곧게 들어 올리는 능동 하지 직거상 검사(active straight leg raise, ASLR) [^2]
 - 관절 가동성 촉진 검사, 단순 방사선, CT, 골스캔, 진단적 주사는 골반대 통증 진단에 권고되지 않습니다. MRI 는 강직성 척추염을 배제하거나 위험 신호가 있을 때 사용합니다 [^2].
+
+**골반대 통증 진단 검사 분류** [^2]
+{: .entity-table-caption}
+
+| 구분 | 세부 검사 항목 | 진단 권고 여부 |
+| --- | --- | --- |
+| 통증 유발 검사 | P4 검사, Patrick 검사, Gaenslen 검사, 변형 Trendelenburg 검사 | 진단 사용 |
+| 촉진 검사 | 긴 후방 천장인대 압통, 치골 결합 압통 | 진단 사용 |
+| 기능 검사 | 능동 하지 직거상 검사(ASLR) | 진단 사용 |
+| 영상·기타 검사 | 관절 가동성 촉진, 단순 방사선, CT, 골스캔, 진단적 주사 | 권고되지 않음 |
 
 허리 쪽 원인과 골반 쪽 원인을 나누기 위해 요추의 기계적 평가, 골반 통증 유발 검사, 병력, 통증 그림을 함께 사용해 아형을 분류하기도 합니다 [^5]. 다리로 뻗치는 저림·근력 저하가 있으면 [허리 통증](/symptoms/lower-back-pain/) 항목의 감별 흐름에 따라 디스크 등 다른 원인을 확인합니다.
 

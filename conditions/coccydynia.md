@@ -28,8 +28,22 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 꼬리뼈통증은 척추 맨 끝 꼬리뼈와 주변에 생기며 앉거나 일어설 때 심해지는 통증입니다 [^1][^2].
+- 외상이나 출산 뒤 흔히 발생하며 선 자세와 앉은 자세를 비교하는 동적 촬영으로 병적 움직임을 확인합니다 [^4][^8].
+- 방석 사용과 약물 등 보존 치료로 약 90%가 호전되며 반응이 없을 때 주사나 수술을 고려합니다 [^1][^2][^6].
+
+</div>
+
 ## 정의
 꼬리뼈통증(coccydynia, coccygodynia)은 **척추 맨 끝에 있는 꼬리뼈(미골, coccyx)와 그 주변에 생기는 통증**을 말합니다 [^1][^2]. 통증은 엉치뼈(천골) 아래, 항문 위쪽의 정중앙에 자리하며 **앉아 있을 때나 앉았다 일어서는 순간에 심해지는 것**이 전형적인 양상입니다 [^1]. 꼬리뼈는 여러 근육·인대·힘줄이 붙는 자리이면서, 앉은 자세에서 양쪽 좌골결절과 함께 체중을 받치는 삼각 지지대의 한 축을 이룹니다 [^2]. 정확한 발생률은 보고되지 않았으나 비만과 여성이 위험을 높이는 요인으로 꼽히며 [^2], 중년 여성에서 가장 흔하지만 성별·연령과 관계없이 생길 수 있습니다 [^3].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/coccydynia/coccyx-lateral.webp" alt="옆에서 본 아래 허리뼈와 골반 해부도: 반투명한 골반뼈 뒤로 엉치뼈가 이어지고 그 아래 끝의 작은 꼬리뼈 마디들이 붉게 표시된 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">꼬리뼈 위치(옆에서 본 허리·골반): 아래 허리뼈 · 엉치뼈 · 그 끝에서 앞으로 살짝 휘는 꼬리뼈(붉은 부분)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 ## 병태
 꼬리뼈통증은 외상성 원인과 비외상성 원인 모두에서 발생합니다 [^3]. 특히 **외상 뒤에 생기는 경우가 흔하며** [^4], 꼬리뼈 절제술을 받은 환자를 모은 메타분석에서도 원인은 외상(56%), 특발성(33%) 순이었습니다 [^5]. 넘어지면서 바닥에 엉덩방아를 찧어 꼬리뼈에 직접 충격이 가는 경우가 대표적입니다.
@@ -42,6 +56,13 @@ version: 1
 
 ### 출산 후 꼬리뼈통증
 출산은 꼬리뼈통증의 잘 알려진 원인입니다 [^8]. 산후 꼬리뼈통증 여성 57명을 분석한 연구에서 통증은 **출산 뒤 앉는 자세를 취하자마자** 나타났고, 겸자 분만(50.8%)·흡입 분만(7.0%)이나 '어려웠던' 자연 분만(12.3%)이 많았습니다 [^8]. 꼬리뼈 탈구는 43.9%에서(다른 원인의 꼬리뼈통증 대조군은 17.0%), 꼬리뼈 골절은 5.3%에서 확인됐으며, BMI 27 초과와 2회 이상의 질식 분만이 탈구 빈도 증가와 관련됐습니다 [^8].
+
+<figure class="entity-figure entity-chart" role="img" aria-label="꼬리뼈 탈구가 확인된 비율 막대그래프">
+  <div class="entity-chart-title">꼬리뼈 탈구가 확인된 비율</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">산후 꼬리뼈통증<span>여성 57명</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:43.9%"></div><span class="entity-chart-value">43.9%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">다른 원인의 꼬리뼈통증<span>대조군 여성 192명</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:17.0%"></div><span class="entity-chart-value">17.0%</span></div></div>
+  <figcaption markdown="span">출산 후 꼬리뼈통증과 꼬리뼈 탈구 [^8]<span class="entity-figure-credit">그래프: Linkbase · Maigne 2012 (Eur J Phys Rehabil Med) 초록 수치: 산후 꼬리뼈통증 57명과 다른 원인 꼬리뼈통증 192명 동적 방사선 비교</span></figcaption>
+</figure>
 
 ### 그 밖의 원인
 꼬리뼈 부위 통증은 기계적 원인 외에도 종양, 감염, 결정 침착, 모소낭(pilonidal cyst) 같은 낭성 병변에서 비롯될 수 있습니다 [^4].
@@ -67,6 +88,15 @@ version: 1
 
 ## 치료
 치료는 **비침습적인 방법부터 시작해 단계적으로 올라가는 것**이 원칙이며, 꼬리뼈 절제술은 보존 치료에 반응하지 않는 경우에 고려합니다 [^6][^9]. 다만 치료법끼리 직접 비교한 수준 높은 연구는 아직 부족합니다 [^3][^9].
+
+**꼬리뼈통증의 단계별 치료** [^1][^2][^3][^4][^5][^6][^9][^11][^12]
+{: .entity-table-caption}
+
+| 치료 단계 | 주요 방법 | 특징 및 비고 |
+| --- | --- | --- |
+| 보존 치료 | 방석 사용, 자세 조정, 약물, 물리치료, 체외충격파 | 약 90% 호전, 1차적 비침습 치료 |
+| 주사·신경 차단 | 스테로이드·국소마취제 주사, 임파르 신경절 차단술 | 비수술 선택지, 고품질 연구 부족 |
+| 수술 치료 | 꼬리뼈 절제술 | 보존 치료 무반응 시 고려, 합병증 8% |
 
 ### 보존 치료
 - **앉는 시간 줄이기, 방석(쿠션) 사용, 자세 조정**이 보존 치료의 기본 구성입니다 [^1][^6].

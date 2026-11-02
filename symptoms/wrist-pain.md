@@ -22,6 +22,15 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5]
 version: 4
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 손목 통증은 손목의 관절, 인대, 힘줄, 건초, 신경, 뼈 손상 때문에 생기는 통증을 가리키는 증상 용어입니다 [^1][^2].
+- 통증 위치와 외상 여부로 원인을 구분하며, 심한 변형·부종, 주상골 압통, 발열, 근위축 등은 빠른 평가가 필요한 신호입니다 [^1][^4][^5].
+- 원인에 따라 부목·약물·물리치료·주사 등을 시행하며, 손목터널증후군에서 보존 치료에 반응하지 않거나 근위축·진행성 약화가 있을 때 수근관 감압술을 검토합니다 [^3][^4][^5].
+
+</div>
+
 ## 정의
 손목 통증(wrist pain)은 [손목](/body-parts/wrist/)의 관절, 인대, 힘줄, 건초, 신경, 뼈 손상 때문에 생기는 통증을 가리키는 증상 용어입니다 [^1][^2]. 의심 질환은 통증 위치(엄지·새끼손가락·손바닥 쪽)와 외상 이후 발생 여부를 기준으로 구분합니다.
 
@@ -38,6 +47,15 @@ version: 4
 
 외상 없이 반복 사용 뒤 생긴 통증은 건초염이나 과사용 손상이 흔하지만, 감각 이상·저림이 함께 있으면 신경 포착을 같이 평가해야 합니다 [^2][^5].
 
+**손목 통증의 주요 원인별 비교** [^1][^3][^4][^5]
+{: .entity-table-caption}
+
+| 구분 | 관련 질환 및 상태 | 주요 평가 방법 | 주요 치료 옵션 |
+| --- | --- | --- | --- |
+| 엄지 쪽 힘줄 통증 | 드퀘르벵 건초염 | Finkelstein/Eichhoff 검사, 압통 위치 확인 | 엄지 포함 부목, 국소 스테로이드·초음파 유도 주사 |
+| 신경 포착 동반 통증 | 손목터널증후군, 정중신경 압박 | Phalen·Tinel·Durkan 검사, CTS-6 도구, 전기진단검사 | 야간 부목, 활동 조절, 스테로이드 주사, 수근관 감압술 |
+| 외상성 손상 | 원위요골·주상골 골절, 염좌, 인대·TFCC 손상 | X-ray, MRI, 초음파 | 골절·인대 손상 배제, 고정, 전문 의뢰 |
+
 ## 레드플래그
 다음 신호는 빠른 평가가 필요합니다.
 
@@ -47,8 +65,18 @@ version: 4
 - 발열, 심한 발적·열감, 면역저하 — 감염성 관절염 또는 건초염 감별
 - 근위축, 엄지 힘 빠짐, 밤마다 깨는 저림 — 진행성 [손목터널증후군](/conditions/carpal-tunnel-syndrome/) 가능성 [^4][^5]
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/wrist/wrist-carpal-bones.webp" alt="손등 쪽에서 본 오른손과 손목뼈 3D 그림: 손목 부분을 확대한 오른쪽 상자에 두 줄로 놓인 작은 손목뼈들과 그 아래 아래팔뼈 끝이 보이는 모습" width="1000" height="562" loading="lazy">
+  <figcaption markdown="span">손목뼈(수근골) 구성(오른손 손등 쪽): 아래팔뼈 끝 위에 두 줄로 놓인 작은 손목뼈들 · 엄지 쪽 주상골(Scaphoid) · 붉은 선: 손목뼈와 손바닥뼈 사이 관절<span class="entity-figure-credit">그림: Scientific Animations, <a href="https://commons.wikimedia.org/wiki/File:3D_Medical_Animation_Human_Wrist.jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+
 ## 평가
 평가는 병력과 신체진찰이 중심입니다. 통증 위치, 외상 여부, 반복 작업, 악화 동작, 손 저림 분포, 임신·당뇨·류마티스 질환 같은 위험 요인을 확인합니다 [^2][^5]. 엄지 쪽 통증은 Finkelstein/Eichhoff 검사와 압통 위치로 드퀘르벵 건초염을 평가하고, 손바닥 쪽 저림은 Phalen·Tinel·Durkan 검사와 CTS-6 도구로 손목터널증후군을 평가합니다 [^4][^5].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/de-quervain/de-quervain-first-compartment.webp" alt="엄지가 위로 오게 놓인 손과 아래팔의 뼈 투시 그림: 요골 끝 엄지 쪽 가장자리에서 두 가닥 힘줄이 짧고 좁은 통로를 지나 엄지로 이어지며 그 통로가 붉게 부어 있는 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">드퀘르벵 건초염: 엄지 쪽 손목(요골 끝)의 좁은 통로(첫 번째 신전 구획)를 함께 지나는 두 엄지 힘줄 · 붓고 좁아진 통로(붉은색)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 외상성 통증이나 골절 의심 시 X-ray가 필요하고, 주상골·TFCC·인대 손상이 의심되면 MRI나 초음파를 추가로 고려할 수 있습니다 [^1][^3]. 손 저림이 주증상인 경우에는 경추 신경근병증, [주관절 척골신경 포착](/conditions/cubital-tunnel-syndrome/), 말초신경병증과 감별해야 하며, 필요 시 전기진단검사를 사용합니다 [^2][^4].
 

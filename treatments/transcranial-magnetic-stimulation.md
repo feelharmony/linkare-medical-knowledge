@@ -34,11 +34,30 @@ external_footnote_ids:
   - 9
 version: 2
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- TMS는 두피 위 코일의 펄스 자기장으로 피질 내부에 2차 전류를 유도해 신경회로 흥분성을 조절하는 비침습 신경조절 시술입니다.
+- 약물 반응이 부족하거나 부작용으로 약물 옵션이 제한된 환자에서 검토되며, 두개내 금속 임플란트와 발작 위험 요인을 사전 평가합니다[^1][^8].
+- 적응증에 따라 고주파·저주파·세타 버스트 자극으로 표적 회로를 반복 자극하며, 기존 치료와 병행하거나 단계적으로 결합해 운영합니다[^9].
+
+</div>
+
 ## 적응증
 
 TMS는 만성 통증·두통·불면·신경계 민감도 변화 영역에서 근거가 누적 중인 비침습 신경조절 시술로, 약물 반응이 충분치 않거나 약물 부작용·상호작용으로 약물 옵션이 제한된 환자, 만성화 양상으로 통증·각성 회로 자체의 조절이 필요한 환자에서 검토됩니다[^1]. 정신과 영역에서는 약물 저항성 주요 우울 장애와 강박장애가 FDA 시판 허가(marketing authorization) 적응증입니다.
 
 본 문서는 통증·두통·수면·신경계 민감도를 중심으로 다루며, 정신과 단독 적응증은 부수적으로 정리합니다.
+
+**적응증별 표적 회로** 
+{: .entity-table-caption}
+
+| 적응증 | 표적 회로 |
+| --- | --- |
+| 만성 통증 | M1 (감각피질 하향 조절) 또는 DLPFC (통증의 정서·인지 조절) |
+| 두통 | DLPFC, M1, 또는 두통 부위에 해당하는 시각피질(V1) 등 |
+| 불면 | DLPFC, 우반구 두정엽, 또는 내측 전전두엽(mPFC) (과각성 회로 조절) |
+| 우울 | 좌측 DLPFC 10Hz 또는 우측 DLPFC 1Hz |
 
 ### 만성 통증
 
@@ -64,6 +83,11 @@ TMS는 만성 통증·두통·불면·신경계 민감도 변화 영역에서 �
 ## 작동 원리
 
 TMS는 두피 위에 놓인 코일에서 발생하는 펄스 자기장이 두개골을 통과해 피질 내부에 2차 전류를 유도(Faraday 법칙)하고, 이 전류가 신경세포 막전위를 변화시켜 신경회로 흥분성을 조절하는 비침습 신경자극 기술입니다. 단일 펄스가 아닌 일정 주파수로 반복 자극하는 rTMS(repetitive TMS)는 같은 부위에 반복 펄스를 가해 피질 신호의 장기적 변화, 즉 신경 가소성(neuroplasticity)을 유도합니다.
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/transcranial-magnetic-stimulation/tms-coil-induced-current.webp" alt="뇌 위에 놓인 8자형 코일, 코일을 도는 전류, 뇌를 통과하는 자기장 선, 피질 표면에 생긴 고리 모양 유도 전류" width="360" height="324" loading="lazy">
+  <figcaption markdown="span">TMS 작동 원리: 코일 전류(노란 화살표) → 자기장(빨간 점선) → 피질 유도 전류(초록 점선)<span class="entity-figure-credit">그림: Eric Wassermann, M.D.(NINDS), <a href="https://commons.wikimedia.org/wiki/File:Transcranial_magnetic_stimulation.jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/publicdomain/mark/1.0/" rel="nofollow noopener" target="_blank">퍼블릭 도메인</a></span></figcaption>
+</figure>
 
 자극 주파수에 따라 회로 흥분성을 양방향으로 조절할 수 있습니다.
 

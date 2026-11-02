@@ -18,13 +18,37 @@ clinic_footnote_ids: [1, 4]
 external_footnote_ids: [2, 3, 5, 6, 7]
 version: 3
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 팔을 들어 올릴 때 회전근개 힘줄이나 견봉하 점액낭이 자극을 받아 어깨 통증을 일으키는 회전근개 관련 어깨 통증의 한 양상입니다 [^1][^2].
+- 팔을 60~120° 들어 올릴 때 통증이 흔하며, 오십견·석회성 건염·회전근개 손상 등과 감별하기 위해 신체 검사와 영상 검사를 종합합니다 [^1][^2][^6].
+- 점진적 부하 운동과 견갑골 안정화 운동 등 보존 치료가 1차 핵심이며, 수술은 보존 치료에 반응하지 않거나 구조적 병변이 동반된 경우에 한정해 검토합니다 [^2][^3][^7].
+
+</div>
+
 ## 정의
 충돌 증후군(shoulder impingement syndrome, subacromial impingement syndrome)은 팔을 들어 올릴 때 [어깨](/body-parts/shoulder/)의 회전근개 힘줄 또는 견봉하 점액낭이 견봉 아래 공간에서 자극을 받아 [어깨 통증](/symptoms/shoulder-pain/)을 일으킨다고 알려진 상태입니다 [^1]. 다만 최근에는 단순 구조적 충돌 모델만으로 어깨 통증을 설명하기 어렵다는 evidence가 누적되어, 일부 가이드라인은 충돌 증후군과 [회전근개 건병증](/conditions/rotator-cuff-tendinopathy/), 견봉하 통증, 부분 파열을 **회전근개 관련 어깨 통증(rotator cuff related shoulder pain, RCRSP)** 이라는 우산 범주로 다루는 접근을 제시합니다 [^2].
 
 따라서 이 항목은 “뼈가 힘줄을 찍어 눌러서 생기는 병”으로 단순화하기보다, 회전근개형 힘줄 통증의 한 표현형으로 정리합니다. 능동·수동 가동 범위가 모두 굳는 [오십견](/conditions/frozen-shoulder/), 갑작스러운 극심한 통증을 보이는 [석회성 건염](/conditions/calcific-tendinitis/), 실제 근력 저하가 뚜렷한 [회전근개 손상](/conditions/rotator-cuff-injury/)과 구분해야 합니다 [^2].
 
+**어깨 통증 질환의 감별 비교** [^2]
+{: .entity-table-caption}
+
+| 질환 | 주요 특징 |
+| --- | --- |
+| 충돌 증후군 | 팔을 60~120° 들어 올릴 때 통증(painful arc) |
+| 오십견 | 능동·수동 가동 범위가 모두 굳음 |
+| 석회성 건염 | 갑작스러운 극심한 통증 |
+| 회전근개 손상 | 뚜렷한 실제 근력 저하 |
+
 ## 병태
 충돌 증후군은 반복적으로 팔을 어깨 위로 들어 올리는 동작과 평소 자세의 어긋남이 주요 악화 요인입니다 [^1]. 견봉의 형태, 회전근개 힘줄 상태, 활액낭의 염증, 견갑골 움직임의 이상이 복합적으로 작용해 통증을 유발하는 것으로 봅니다 [^2]. 머리 위로 짐을 올리는 일, 빨래를 널 때 팔을 길게 뻗는 동작, 운전 중 뒷좌석으로 팔을 돌리는 자세 같은 일상의 장면이 모두 부담을 주는 동작에 해당합니다 [^1].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/shoulder-impingement-syndrome/subacromial-impingement.webp" alt="팔을 옆으로 든 어깨를 앞에서 본 그림: 견봉 아래 좁은 틈을 지나 위팔뼈 머리 위쪽에 붙는 힘줄이 붉게 빛나고, 견봉 바로 아래 얇은 주머니가 보이는 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">팔을 옆으로 들었을 때 견봉 아래 공간: 좁아진 틈을 지나 위팔뼈 머리 위쪽에 붙는 극상근 힘줄(붉은색) · 견봉 바로 아래 얇은 점액낭 · 안쪽: 갈고리 모양 오훼돌기<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 ## 증상
 팔을 들어 올릴 때 통증이 가장 큰 특징이며, 60~120° 사이에 painful arc가 흔히 나타납니다 [^2]. 머리를 감거나, 뒷주머니에 손을 넣거나, 옆으로 돌아눕는 자세에서 어려움이 생깁니다 [^1]. 야간 통증으로 잠을 깨거나 아픈 쪽으로 누우면 통증이 심해지는 경우도 있습니다 [^1]. 회전근개 파열이 동반된 경우에는 근력 저하가 함께 나타날 수 있습니다 [^2].

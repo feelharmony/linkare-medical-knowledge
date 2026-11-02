@@ -28,6 +28,11 @@ version: 1
 ## 정의
 주관절 척골신경 포착(cubital tunnel syndrome, ulnar neuropathy at the elbow)은 [팔꿈치](/body-parts/elbow/) 안쪽 뒤편을 지나는 척골신경이 주관절 터널 부위에서 압박·견인·마찰을 받아 약지·새끼손가락 저림, 손 힘 저하, 미세동작 장애를 일으키는 말초신경 포착 질환입니다 [^1][^2].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/cubital-tunnel-syndrome/ulnar-nerve-cubital-tunnel.webp" alt="굽힌 팔꿈치를 안쪽에서 본 근육·뼈 해부도: 노란 척골신경이 위팔뼈 아래 끝을 따라 내려와 흰 섬유띠 부위를 거쳐 아래팔 근육 사이로 이어지는 모습" width="1000" height="798" loading="lazy">
+  <figcaption markdown="span">척골신경 경로: 팔꿈치 안쪽 주관절 터널 부위(흰 섬유띠)를 지나 아래팔로 이어지는 척골신경(노란 선)<span class="entity-figure-credit">그림: InjuryMap, <a href="https://commons.wikimedia.org/wiki/File:Compressed_ulnar_nerve.svg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a> · 글자 라벨 지움</span></figcaption>
+</figure>
+
 척골신경은 약지의 새끼손가락 쪽 절반과 새끼손가락 감각, 손 안의 작은 근육 기능에 관여합니다. 따라서 증상은 단순 [팔꿈치 통증](/symptoms/elbow-pain/)보다 [손 저림](/symptoms/hand-numbness/)·악력 저하·손가락 벌림/모음 약화로 나타나는 경우가 많습니다 [^1].
 
 ## 병태

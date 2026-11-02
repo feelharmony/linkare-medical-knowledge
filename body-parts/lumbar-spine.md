@@ -26,6 +26,11 @@ version: 3
 ## 정의
 요추(lumbar spine)는 허리를 이루는 5개의 척추 분절(L1-L5)과 디스크, 후관절, 황색인대, 척추관, 신경근, 주변 근육·인대를 포함하는 구조입니다. 요추는 체중을 지지하고 굽힘·젖힘·회전 움직임을 담당하며, 아래쪽 L4-L5와 L5-S1 분절은 [허리디스크](/conditions/lumbar-disc-herniation/)와 [좌골신경통](/conditions/sciatica/)에서 특히 자주 문제됩니다 [^1][^3].
 
+<figure class="entity-figure entity-figure--portrait">
+  <img src="/assets/images/entities/lower-back/lumbar-spine-location.webp" alt="뒤에서 본 사람 골격: 갈비뼈 아래부터 골반 위까지 다섯 개 허리뼈를 분홍색으로 표시하고 원 안에 확대한 모습" width="768" height="1024" loading="lazy">
+  <figcaption markdown="span">허리뼈(요추) 위치: 뒤에서 본 척추 · 분홍색 다섯 개 허리뼈와 그 아래 엉치뼈·골반<span class="entity-figure-credit">그림: BruceBlaus, <a href="https://commons.wikimedia.org/wiki/File:Blausen_0618_LumbarSpine.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/3.0" rel="nofollow noopener" target="_blank">CC BY 3.0</a></span></figcaption>
+</figure>
+
 요추 영상 소견은 증상과 항상 일치하지 않습니다. 디스크 변성, 팽윤, 협착 소견은 무증상자에서도 발견될 수 있어, MRI나 X-ray 결과는 통증 위치, 다리 방사통, 감각·근력·반사, 보행 제한과 함께 해석해야 합니다 [^3][^4].
 
 ## 관련 증상

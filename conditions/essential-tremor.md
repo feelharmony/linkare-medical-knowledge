@@ -33,6 +33,11 @@ version: 1
 - 글씨 쓰기, 식사, 컵 들기 같은 일상 동작의 어려움과 그로 인한 사회적 부담 [^2][^5]
 - 카페인·피로·긴장 상황에서 진전이 두드러지는 경향 [^5]
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/essential-tremor/essential-tremor-spiral.webp" alt="손으로 그린 나선 두 개: 왼쪽은 선이 톱니처럼 크게 흔들린 나선, 오른쪽은 매끈한 나선" width="1000" height="598" loading="lazy">
+  <figcaption markdown="span">나선 그리기: 떨림이 있는 손으로 그린 나선(왼쪽) · 떨림이 없는 손으로 그린 나선(오른쪽)<span class="entity-figure-credit">그림: Svenskbygderna(원본 Undescribed), <a href="https://commons.wikimedia.org/wiki/File:Spiral_drawing_of_Essential_Tremor_patient.svg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+
 ## 진단
 진단은 병력과 신경학적 진찰을 통한 임상 진단입니다 [^2][^5]. 진전이 나타나는 상황(안정 시·자세 유지·동작 중)을 구분해 확인하고, 지속 기간과 분포, 동반 징후를 함께 평가합니다 [^1][^5].
 

@@ -27,12 +27,30 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 불면증은 잠들기 어렵거나 잠을 유지하기 어려운 문제와 수면 불만족이 이어지며 낮 동안의 기능 저하가 함께 나타나는 상태입니다 [^1][^2].
+- 임상 면담과 수면일기로 진단하며, 지속되는 불면은 삶의 질 저하와 이후 우울증이 생길 위험을 약 2배 높이는 것과 연관됩니다 [^1][^2][^8].
+- 성인 만성 불면증의 1차 치료는 불면증 인지행동치료(CBT-I)이며, 효과가 충분하지 않을 때 약물 치료를 단기간 더할 수 있습니다 [^7][^9].
+
+</div>
+
 ## 정의
 불면증(insomnia disorder)은 **잠들기 어렵거나 잠을 유지하기 어려운 문제**와 수면의 양·질에 대한 불만족이 이어지면서, 뚜렷한 고통이나 **낮 동안의 기능 저하**가 함께 나타나는 상태입니다 [^1][^2]. 진료에서 가장 흔한 호소 가운데 하나이며 [^1], 불면장애의 유병률은 약 10~20%로 보고됩니다 [^2]. 단독으로 나타나기보다 통증·우울 같은 다른 신체·정신 질환과 함께 나타나는 경우가 더 많습니다 [^1].
 
 잠잘 시간과 환경이 충분한데도 이런 어려움이 반복된다는 점에서 단순한 수면 부족과 구분되며, 국제 진단 기준(ICSD-3·DSM-5)은 증상이 주 3회 이상, 3개월 이상 이어질 때 만성 불면장애로 분류합니다.
 
 수면 문제의 양상은 **입면 곤란**(잠들기 어려움), **수면 유지 곤란**(자다가 깨어 다시 잠들기 어려움), **조기 각성**(early morning awakening, 원하는 시각보다 일찍 깨어 다시 잠들지 못함)으로 나누어 봅니다. DSM-5 만성 불면장애 기준을 충족한 6만 4천여 명의 설문 자료에서는 60% 이상이 입면형 단독이거나 세 양상이 모두 겹친 혼합형에 해당했습니다 [^3].
+
+**불면증의 수면 문제 양상 비교** [^3][^5]
+{: .entity-table-caption}
+
+| 구분 | 주요 증상 | 관련 특징 |
+| --- | --- | --- |
+| 입면 곤란 | 잠자리에 누워도 오래 잠들지 못함 | 단독 또는 세 양상이 겹친 혼합형이 흔함 |
+| 수면 유지 곤란 | 밤중에 자주 깨거나 다시 잠들기까지 오래 걸림 | 조기 각성 동반 시 높은 음주 빈도와 연관 |
+| 조기 각성 | 원하는 기상 시각보다 일찍 깨어 다시 잠들지 못함 | 심부 체온·멜라토닌 리듬이 2~4시간 앞당겨진 경우 있음 |
 
 ## 병태
 불면증의 원인과 병태에는 유전·환경·행동·생리 요인이 함께 관여하며, 이 요인들이 모이는 지점으로 **과각성(hyperarousal)** 이 제시됩니다 [^2]. 자율신경·신경내분비·신경면역·뇌파·뇌영상 연구에서 원발성 불면증 환자는 밤뿐 아니라 낮에도 각성 수준이 높게 관찰되었습니다 [^4].
@@ -112,6 +130,15 @@ AASM 일주기 리듬 수면장애 가이드라인(2015)도 성인 수면위상 
 
 ## 예후
 불면증은 흔히 오래 지속되는 질환입니다 [^16]. 불면이 있는 성인 388명을 3년간 매년 추적한 인구 기반 연구에서 74%가 1년 이상, 46%가 3년 내내 불면을 보고했고, 기준선 불면이 심할수록, 그리고 여성과 고령자에서 더 오래 지속되었습니다. 관해율은 54%였지만 관해된 사람의 27%는 다시 재발했습니다 [^16]. 불면장애의 약 50%가 만성 경과를 보인다는 보고도 같은 흐름입니다 [^2].
+
+<figure class="entity-figure entity-chart" role="img" aria-label="불면이 있던 성인 388명의 3년 추적 막대그래프">
+  <div class="entity-chart-title">불면이 있던 성인 388명의 3년 추적</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">1년 이상 불면 지속<span>연속 2회 평가</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:74.0%"></div><span class="entity-chart-value">74%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">3년 내내 불면 지속<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:46.0%"></div><span class="entity-chart-value">46%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">관해<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:54.0%"></div><span class="entity-chart-value">54%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">관해 뒤 재발<span>관해된 사람 중</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:27.0%"></div><span class="entity-chart-value">27%</span></div></div>
+  <figcaption markdown="span">인구 기반 3년 종단 연구의 불면 경과 [^16]<span class="entity-figure-credit">그래프: Linkbase · Morin 2009 (Arch Intern Med) 초록 수치</span></figcaption>
+</figure>
 
 지속되는 불면은 삶의 질 저하, 신체·정신 질환의 이환과 연관됩니다 [^1]. 종단 역학 연구 21건의 메타분석에서는 우울증이 없는 불면증 환자가 수면 문제가 없는 사람보다 이후 우울증이 생길 위험이 약 2배였고(교차비 2.10~2.60), 연구진은 불면을 일찍 치료하는 것이 우울증 예방에 도움이 될 수 있다고 제안했습니다 [^8].
 

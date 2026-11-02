@@ -36,10 +36,32 @@ external_footnote_ids:
   - 7
   - 8
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 체외충격파 치료는 고에너지 음향 압력파를 표적 조직에 전달해 통증 완화와 조직 회복을 돕는 비수술 치료입니다[^1].
+- 질환별로 근거가 다르며 출혈 경향, 시술 부위 감염·종양, 어린이 성장판 부위 등은 금기 및 주의 대상입니다[^1].
+- 일반적으로 1주 간격 3~6회 정도 시술하며 운동치료나 부하 조절 등 재활과 병행하여 진행합니다[^1].
+
+</div>
+
 ## 정의
 체외충격파 치료(extracorporeal shock wave therapy, ESWT)는 체외에서 발생시킨 **고에너지 음향 압력파**를 표적 조직에 전달해 통증 완화와 조직 회복 환경을 돕는 비수술 치료입니다 [^1]. 음향 매질 안에서 음속보다 빠르게 전파되는 압력파를 만들고, 시술자가 진단·통증 위치·조직 깊이·환자 반응에 따라 표적과 강도, 횟수를 조정합니다.
 
 전달 방식은 크게 **focal ESWT**와 **radial ESWT**로 나눕니다 [^1]. Focal ESWT는 에너지가 깊은 초점에 모이는 방식이라 회전근개 석회성 건병증처럼 깊은 병변에서 우선 고려되는 경향이 있고, radial ESWT는 표면에서 방사형으로 퍼지는 방식이라 표재 근막 긴장이나 넓은 연부조직 통증에 활용되는 경우가 많습니다. 실제 선택은 장비 종류보다 **병변 깊이, 압통점, 석회 여부, 환자 통증 민감도, 병행 치료 계획**에 따라 달라집니다.
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/eswt/focal-vs-radial-shockwave.webp" alt="피부 위 시술 헤드에서 나온 충격파가 깊은 힘줄의 석회 침착 한 점에 모이는 단면과, 얕은 층에서 넓게 퍼지며 깊이 갈수록 약해지는 단면" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">체외충격파 전달 방식: 깊은 초점에 모이는 focal(왼쪽) · 얕은 층에서 퍼지는 radial(오른쪽)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
+**체외충격파 전달 방식 비교** [^1]
+{: .entity-table-caption}
+
+| 구분 | Focal ESWT | Radial ESWT |
+| --- | --- | --- |
+| 에너지 전달 | 깊은 초점에 집중 | 표면에서 방사형 확산 |
+| 주요 고려 대상 | 회전근개 석회성 건병증 등 깊은 병변 | 표재 근막 긴장, 넓은 연부조직 통증 |
 
 ## 작용 기전
 ESWT의 정확한 기전은 아직 완전히 규명되지 않았지만, 다음 효과들이 보고됩니다 [^1].

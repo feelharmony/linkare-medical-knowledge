@@ -48,6 +48,11 @@ version: 6
 ## 언제 고려
 물리치료는 통증 때문에 바로 운동을 시작하기 어렵거나, 일상 움직임을 회복하기 위한 “초기 진입 치료”가 필요할 때 유용합니다. 예를 들어 목·어깨가 심하게 뭉쳐 있는 환자에게는 온열·전기자극·연부조직 이완을 통해 통증 방어를 낮추고, 이후 턱 당기기, 견갑 안정화, 흉추 가동성 운동으로 연결합니다 [^1][^3][^4].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/physical-therapy/upper-back-electrical-stimulation.webp" alt="뒤에서 본 회색 인체 모형의 목과 어깨 사이, 견갑골 안쪽에 흰 전극 패드 4개가 붙고 선이 아래로 이어지며, 피부 아래 등세모근이 붉게 비치는 그림" width="760" height="540" loading="lazy">
+  <figcaption markdown="span">목·어깨 전기자극 치료: 등 위쪽 전극 패드 4개 · 등세모근(붉은색)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 허리 통증에서는 침상 안정이나 수동 치료만 길게 끌기보다 가능한 범위에서 활동을 유지하고 단계적으로 운동을 늘리는 방향이 권고됩니다 [^5]. 무릎 통증에서도 통증 조절 후 하지 근력, 보행, 계단 기능을 회복하는 운동 계획과 연결해야 장기 효과를 기대할 수 있습니다 [^6][^7].
 
 ## 기대효과

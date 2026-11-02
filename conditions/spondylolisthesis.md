@@ -41,6 +41,11 @@ version: 2
 
 척추분리형 전방전위증은 협부(pars interarticularis)의 결손이나 피로 골절과 관련됩니다 [^5][^6]. 젊은 운동선수에서는 과신전·회전 반복과 관련될 수 있고, 성인에서는 기존 결손에 퇴행성 변화가 더해져 증상이 나타날 수 있습니다.
 
+<figure class="entity-figure entity-figure--portrait">
+  <img src="/assets/images/entities/spondylolisthesis/l5-forward-slip-pars-defect.webp" alt="뒤에서 비스듬히 본 반투명 골격과 아래 허리 확대 원: 원 안에서 엉치뼈 바로 위 허리뼈가 앞으로 밀려 나가 있고, 그 뒤쪽 고리 부분의 갈라진 자리가 주황색으로 표시되며 노란 신경이 지나가는 모습" width="768" height="1024" loading="lazy">
+  <figcaption markdown="span">척추분리형 전방전위(아래 허리 확대): 엉치뼈 위에서 앞으로 밀린 맨 아래 허리뼈 · 갈라진 협부 자리(주황색) · 그 곁을 지나는 신경(노란색)<span class="entity-figure-credit">그림: BruceBlaus, <a href="https://commons.wikimedia.org/wiki/File:Spondylolisthesis.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+
 ## 증상
 증상은 허리 국소 통증, 오래 서 있거나 걸을 때 악화되는 통증, 엉덩이·다리로 내려가는 방사통, 다리 저림, 보행 거리 감소로 나타납니다 [^2][^3]. 허리를 뒤로 젖힐 때 불편하고, 앉거나 허리를 굽히면 편해지는 경우에는 협착성 양상이 동반되었는지 확인합니다.
 

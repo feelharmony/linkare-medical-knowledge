@@ -21,6 +21,11 @@ version: 1
 ## 정의
 일자허리(편평등 증후군, flat back syndrome)는 **허리뼈(요추)의 정상적인 앞굽음(전만, lumbar lordosis)이 소실**되어 몸통이 앞으로 기울고 똑바로 서기 어려워지는 상태입니다 [^1][^2]. 허리 통증과 함께, 엉덩관절과 무릎을 굽힌 자세가 오래 지속되면서 생기는 허벅지 통증이 동반될 수 있습니다 [^1]. 서 있는 자세와 보행에 영향을 주어 상당한 통증과 장애의 원인이 될 수 있습니다 [^3].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/flat-back-syndrome/normal-vs-flat-back-sagittal.webp" alt="옆에서 본 사람 골격 두 개: 한쪽은 허리뼈(파란색)가 배 쪽으로 휘어 곧게 선 모습, 다른 쪽은 허리뼈(붉은색)가 곧게 펴져 있고 몸통과 머리가 앞으로 기울며 무릎이 살짝 굽은 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">정상 정렬과 일자허리(옆모습): 배 쪽으로 휜 정상 허리뼈(파란색) · 앞굽음이 사라져 곧게 선 허리뼈(붉은색) · 앞으로 기운 몸통과 살짝 굽은 무릎<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 원인에 따라 척추 유합 수술 뒤에 생기는 **의인성(수술 후) 편평등**과, 중·장년 이후 퇴행성 변화로 요추 전만이 크게 줄거나 후만이 생기는 **퇴행성 편평등**으로 나누어 볼 수 있습니다 [^1][^5]. 퇴행성 요추 후만증(lumbar degenerative kyphosis)은 편평등 증후군의 한 하위 유형으로 설명됩니다 [^4]. 이 용어가 퇴행성 시상면 불균형 전체를 가리키는 말처럼 쓰여 혼동을 낳는다는 지적이 있어, 원인이 분명하지 않은 고령층의 퇴행성 척추 정렬 이상 전반을 「일차성 퇴행성 시상면 불균형(primary degenerative sagittal imbalance, PDSI)」으로 부르자는 제안도 있습니다 [^4].
 
 ## 병태

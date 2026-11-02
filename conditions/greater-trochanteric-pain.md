@@ -31,8 +31,22 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 대전자통증증후군은 주로 중둔근·소둔근의 둔근 건병증으로 인해 엉덩이 바깥쪽에 통증과 압통이 나타나는 흔한 질환입니다[^1][^2][^3].
+- 한 발 서기나 대전자 촉진 등으로 통증 재현을 평가하며, 증상이 허리 신경뿌리 압박과 비슷해 감별이 중요합니다[^4][^8][^9].
+- 보존 치료가 기본으로 부하 관리 교육과 운동, 스테로이드 주사, 체외충격파 등을 시행하며 불응 시 수술을 고려합니다[^2].
+
+</div>
+
 ## 정의
 대전자통증증후군(greater trochanteric pain syndrome, GTPS)은 **엉덩이(고관절) 바깥쪽에 통증과 압통**이 나타나는 흔한 질환입니다 [^1]. 대전자(greater trochanter)는 넓적다리뼈 위쪽 바깥으로 튀어나온 뼈 돌출부로, 엉덩이 옆을 만졌을 때 단단하게 느껴지는 부위입니다.
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/greater-trochanteric-pain/gluteal-tendon-greater-trochanter.webp" alt="옆에서 본 엉덩관절 해부도: 골반 날개에서 부채꼴 근육이 내려와 넓적다리뼈 위쪽 바깥 돌출부에 힘줄로 붙고 그 자리가 붉게 표시된 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">대전자와 둔근 힘줄(엉덩이를 옆에서 본 모습): 골반 날개에서 부채꼴로 내려오는 중둔근 · 넓적다리뼈 위쪽 바깥 대전자에 붙는 힘줄 자리(붉은 부분)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 예전에는 대전자 점액낭염(trochanteric bursitis)으로 불렸지만, 현재는 **중둔근·소둔근 힘줄의 건병증(둔근 건병증, gluteal tendinopathy)** 이 엉덩이 바깥쪽 통증의 주된 국소 원인으로 받아들여집니다 [^2][^3]. 통증과 압통은 대전자 주변뿐 아니라 엉덩이나 허벅지 바깥쪽에도 나타날 수 있어, 허리 신경뿌리 압박 증상과 비슷하게 보이기도 합니다 [^4].
 
@@ -42,6 +56,15 @@ version: 1
 ### 통증을 만드는 구조
 - 대전자 통증으로 초음파 검사를 받은 환자 877명 가운데 **점액낭염이 있던 경우는 20.2%** 에 그쳤고, 둔근 건병증이 49.9%, 장경인대(iliotibial band) 비후가 28.5%, 둔근 힘줄 파열이 0.5%였습니다 [^1]. 대부분은 중둔근·소둔근 힘줄과 장경인대 병변이 함께 얽혀 생기며, 점액낭염은 일부 환자에서만 확인됩니다 [^1]
 - 대전자통증증후군 여성 환자 24명의 MRI에서는 45.8%에 중둔근 파열, 62.5%에 중둔근 건염이 있었습니다 [^7]. 점액낭 팽창은 2명에서만 보였고 중둔근 병변 없이 단독으로 나타난 경우는 없어, 중둔근 힘줄 병변이 이 질환을 이해하는 데 중요하다는 결론이 제시되었습니다 [^7]
+
+<figure class="entity-figure entity-chart" role="img" aria-label="대전자 통증 환자 877명의 초음파 소견 막대그래프">
+  <div class="entity-chart-title">대전자 통증 환자 877명의 초음파 소견</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">둔근 건병증<span>438명</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:49.9%"></div><span class="entity-chart-value">49.9%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">장경인대 비후<span>250명</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:28.5%"></div><span class="entity-chart-value">28.5%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">점액낭염<span>177명</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:20.2%"></div><span class="entity-chart-value">20.2%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">둔근 힘줄 파열<span>4명</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:0.5%"></div><span class="entity-chart-value">0.5%</span></div></div>
+  <figcaption markdown="span">대전자통증증후군의 초음파 소견 [^1]<span class="entity-figure-credit">그래프: Linkbase · Long 2013 (AJR Am J Roentgenol) 초록 수치: 대전자 통증 초음파 검사 877명 후향 분석, 한 사람에게 여러 소견 가능</span></figcaption>
+</figure>
 
 ### 기전
 힘줄에 걸리는 기계적 부하는 힘줄 안의 생물학적 과정을 이끌고, 힘줄의 구조와 견딜 수 있는 하중을 결정합니다 [^2]. 둔근 건병증에서는 **과도한 압박과 높은 인장 부하가 함께 걸릴 때** 힘줄 손상이 가장 크다고 여겨지며, 관절 자세(특히 다리가 몸 안쪽으로 과도하게 모이는 고관절 내전)와 근육·뼈 요소가 핵심 요인으로 꼽힙니다 [^2].
@@ -69,6 +92,16 @@ version: 1
 - **트렌델렌부르크 징후**: 중둔근 파열을 예측하는 진찰 소견 세 가지 가운데 가장 정확했고(민감도 72.7%, 특이도 76.9%), 같은 검사자가 반복했을 때의 신뢰도도 가장 높았습니다 [^7]
 
 다만 한 발 서기 검사와 저항 외회전 해제 검사의 정확도 연구는 대상자가 각각 65명, 17명으로 적어 [^8][^9], 수치의 정밀도가 낮을 수 있다는 점을 함께 고려합니다.
+
+**주요 진찰 검사 비교** [^7][^8][^9]
+{: .entity-table-caption}
+
+| 진찰 검사 | 평가 대상 | 민감도 | 특이도 |
+| --- | --- | --- | --- |
+| 대전자 촉진 압통 | 둔근 건병증 | 80% | - |
+| 30초 한 발 서기 검사 | 둔근 건병증 | 100% | 97.3~100% |
+| 저항 외회전 해제 검사 | 둔근 건병증 | 88% | 97.3% |
+| 트렌델렌부르크 징후 | 중둔근 파열 | 72.7% | 76.9% |
 
 ### 영상 검사
 - **초음파**로 점액낭염, 둔근 힘줄 병변, 장경인대 이상을 구분해 볼 수 있습니다. 원인에 따라 치료가 달라지므로 통증의 기원을 확인하는 것이 중요합니다 [^1]

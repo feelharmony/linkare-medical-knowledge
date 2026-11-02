@@ -30,6 +30,11 @@ version: 3
 
 손 저림은 분포가 중요합니다. 엄지·검지·중지 중심이면 정중신경 포착인 [손목터널증후군](/conditions/carpal-tunnel-syndrome/)을, 약지·새끼손가락 중심이면 [주관절 척골신경 포착](/conditions/cubital-tunnel-syndrome/)을, 목 통증과 팔 전체 방사통이 있으면 경추 신경근병증을 함께 감별합니다 [^1][^2].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/carpal-tunnel-syndrome/carpal-tunnel-median-nerve.webp" alt="오른손 손바닥 쪽 해부도: 손목을 가로지르는 인대(횡수근인대) 아래로 노란 정중신경이 지나며 눌린 자리가 붉게 표시되고, 위 상자에 손목 단면에서 눌린 신경이 보이는 모습" width="1000" height="906" loading="lazy">
+  <figcaption markdown="span">손목터널과 정중신경(손바닥 쪽): 횡수근인대(Carpal ligament) 아래를 지나는 정중신경(Median nerve) · 눌린 자리(붉은색) · 위 상자: 손목 단면의 눌린 신경(Compressed nerve)<span class="entity-figure-credit">그림: BruceBlaus (Blausen.com staff), <a href="https://commons.wikimedia.org/wiki/File:Carpal_Tunnel_Syndrome.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/3.0" rel="nofollow noopener" target="_blank">CC BY 3.0</a></span></figcaption>
+</figure>
+
 ## 흔한 원인
 손 저림의 흔한 원인은 다음과 같습니다.
 

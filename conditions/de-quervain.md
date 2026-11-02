@@ -33,6 +33,11 @@ version: 3
 ## 병태
 첫 번째 신전 구획은 요골 경상돌기 부근의 좁은 통로입니다. 반복 사용이나 부종으로 힘줄·건초가 두꺼워지면 엄지를 벌리거나 펴는 동작에서 통증이 발생합니다 [^2][^3]. 일부 환자는 APL·EPB 사이에 격벽(septum)이 있어 주사치료가 한 구획에만 들어가면 효과가 제한될 수 있습니다 [^4].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/de-quervain/de-quervain-first-compartment.webp" alt="엄지가 위로 오게 놓인 손과 아래팔의 뼈 투시 그림: 요골 끝 엄지 쪽 가장자리에서 두 가닥 힘줄이 짧고 좁은 통로를 지나 엄지로 이어지며 그 통로가 붉게 부어 있는 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">드퀘르벵 건초염: 엄지 쪽 손목(요골 끝)의 좁은 통로(첫 번째 신전 구획)를 함께 지나는 두 엄지 힘줄 · 붓고 좁아진 통로(붉은색)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 따라서 초음파로 힘줄 구획과 격벽, 부종, 동반 낭종을 확인하면 진단과 주사 정확도에 도움이 될 수 있습니다 [^4].
 
 ## 증상

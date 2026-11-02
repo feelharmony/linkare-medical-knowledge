@@ -29,6 +29,15 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 턱관절장애는 씹기 근육과 턱관절에 생기는 통증과 기능 이상을 묶어 부르는 용어로, 얼굴 부위 통증 질환 중 가장 흔합니다 [^1].
+- 대부분 문진과 진찰로 진단하며, 신체 진단을 다루는 1축과 심리사회 평가를 다루는 2축의 표준 진단 틀을 씁니다 [^2][^10].
+- 대부분 교육, 자가 관리, 인지행동치료, 약물, 물리치료 같은 비침습 치료를 조합해 호전됩니다 [^1][^2].
+
+</div>
+
 ## 정의
 턱관절장애(temporomandibular disorders, TMD)는 **씹기 근육(저작근)과 턱관절(측두하악관절)에 생기는 통증과 기능 이상을 묶어 부르는 용어**로, 얼굴 부위 통증 질환 가운데 가장 흔합니다 [^1]. 하나의 병이 아니라 턱관절과 주변 근육·뼈 구조를 침범하는 여러 근골격계·신경근육계 상태의 묶음이며, 관절 안의 문제(관절 내 장애)와 관절 밖의 문제로 나눕니다 [^2]. 만성 근골격계 통증 가운데 허리 통증 다음으로 흔하고, 전 세계 성인의 6~9%가 겪는 것으로 추정됩니다 [^3]. 성인의 최대 15%, 청소년의 7%에서 나타난다는 정리도 있으며 [^1], 20~40세에 발생이 가장 많습니다 [^2].
 
@@ -41,6 +50,11 @@ version: 1
 - **관절 장애** — 주로 원판 변위(disc displacement)와 퇴행성 관절 질환 [^1]. 원판 변위는 입을 벌릴 때 원판이 제자리로 돌아오는 복위성(with reduction), 간헐적 잠김을 동반한 복위성, 원판이 돌아오지 않는 비복위성(without reduction, 입 벌림 제한 동반 여부로 다시 구분)으로 나뉩니다 [^4]
 
 진료를 받으러 온 환자 집단에서는 근막통(근육성 통증)이 가장 흔한 진단이고, 일반 인구 표본에서는 복위성 원판 변위가 가장 흔합니다 [^6]. 환자 집단의 여성 대 남성 비는 3.3으로 여성이 많았습니다 [^6].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/temporomandibular-disorder/tmj-chewing-muscles.webp" alt="머리 옆모습: 귀 바로 앞 턱관절에서 아래턱뼈 머리 위에 얹힌 흰색 원판, 옆머리의 부채꼴 관자근, 광대뼈에서 아래턱 모서리로 내려오는 깨물근과 그 주변의 붉은 통증 표시" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">턱관절과 씹기 근육: 귀 앞 턱관절(아래턱뼈 머리와 그 위 원판, 흰색) · 옆머리 관자근 · 광대뼈에서 아래턱 모서리로 내려오는 깨물근 · 통증 부위(붉은색)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 ## 병태
 턱관절장애의 원인은 한 가지로 설명되지 않으며, 생물학적·환경적·사회적·정서적·인지적 요인이 함께 작용합니다 [^2]. 대규모 전향 코호트 연구(OPPERA)는 턱관절장애를 여러 원인이 겹치는 생물심리사회적(biopsychosocial) 질환으로 보고, **턱 주변에 국한된 통증으로만 보는 것은 더 이상 적절하지 않다**고 정리했습니다 [^7].
@@ -104,6 +118,16 @@ OPPERA는 턱관절장애가 없던 지역사회 성인 3,258명을 추적했으
 
 치료를 고를 때는 강한 권고, 조건부 권고, 조건부 비권고 순으로 검토하되, 환자의 가치관과 이미 시도한 치료를 반영한 공동 의사결정이 필요하다고 강조합니다 [^3].
 
+**턱관절장애 만성 통증 권고 등급** [^3]
+{: .entity-table-caption}
+
+| 권고 등급 | 해당 치료 |
+| --- | --- |
+| 강하게 권고 | 인지행동치료, 관절 가동술, 수기 통증유발점 치료, 감독하 자세·턱 운동, 일반 관리 |
+| 조건부 권고 | 도수 교정, 가동술 병행 턱 운동, 소염진통제 병행 인지행동치료, 침 치료 |
+| 조건부 비권고 | 가역적 교합 장치(스플린트), 관절천자 세척술, 보툴리눔 독소·히알루론산·스테로이드 주사 |
+| 강하게 비권고 | 비가역적 구강 장치, 원판 절제술, 소염진통제와 마약성 진통제 병용 |
+
 ### 운동·도수치료
 도수치료와 운동치료를 다룬 RCT 48편을 분석한 체계적 고찰에서 전체 근거의 질은 낮았지만, 도수치료 단독 또는 턱·목 부위 운동과의 병행은 유망한 효과를 보였습니다 [^12]. 운동이 다른 보존 치료보다 뚜렷하게 우월하다는 근거는 없었고, 효과의 불확실성이 크다고 결론지었습니다 [^12].
 
@@ -118,6 +142,16 @@ OPPERA는 턱관절장애가 없던 지역사회 성인 3,258명을 추적했으
 
 ## 예후
 턱관절장애는 **대체로 경과가 양호한 편**입니다. 통증으로 인한 기능 장애가 적은 환자에게 상담과 자가 관리 안내만 하고 2~3년 뒤 다시 평가한 연구에서 근육 장애 진단은 68.1%에서 23.1%로, 관절통은 30.4%에서 14.4%로 줄었고, 복위성 원판 변위는 52.1%로 변화가 없었습니다 [^15].
+
+<figure class="entity-figure entity-chart" role="img" aria-label="상담·자가 관리 안내 뒤 진단별 환자 비율 변화 막대그래프">
+  <div class="entity-chart-title">상담·자가 관리 안내 뒤 진단별 환자 비율 변화</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">근육 장애<span>첫 진료</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:68.1%"></div><span class="entity-chart-value">68.1%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">근육 장애<span>2~3년 뒤</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:23.1%"></div><span class="entity-chart-value">23.1%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">관절통<span>첫 진료</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:30.4%"></div><span class="entity-chart-value">30.4%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">관절통<span>2~3년 뒤</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:14.4%"></div><span class="entity-chart-value">14.4%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">복위성 원판 변위<span>첫 진료·2~3년 뒤 같음</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:52.1%"></div><span class="entity-chart-value">52.1%</span></div></div>
+  <figcaption markdown="span">통증으로 인한 기능 장애가 적은 턱관절장애 환자의 2~3년 경과 [^15]<span class="entity-figure-credit">그래프: Linkbase · Manfredini 2013 (J Oral Rehabil) 초록 수치: 턱관절장애 클리닉 환자 69명 2~3년 추적</span></figcaption>
+</figure>
 
 - **딱 소리(복위성 원판 변위)** — 치료 없이 평균 25.8개월 추적한 환자군에서 입 벌림 범위는 그대로였고, 열고 닫을 때 모두 나는 상호 클릭(reciprocal clicking)은 79.2%에서 유지되었습니다 [^16]. 잠김으로 진행한 경우는 1명(4.2%)으로, 대부분은 소리가 잠김으로 이어지지 않았습니다 [^16]
 - **급성 잠김** — 치료 없이 지켜본 한쪽 급성 잠김 환자 40명 가운데 2주 뒤에도 풀리지 않은 사람은 15명, 12주 뒤에는 2명이었습니다 [^17]. 잠김의 증상은 대개 수개월 안에 줄고 상당수에서 해소됩니다 [^5]

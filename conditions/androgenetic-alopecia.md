@@ -32,11 +32,30 @@ external_footnote_ids:
   - 6
   - 7
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 안드로겐성 탈모는 안드로겐 호르몬과 유전적 소인이 결합되어 모낭이 점차 축소되는 가장 흔한 탈모 유형입니다.
+- 탈모 패턴과 가족력, 모발 굵기 변이로 진단하며 모발이 가늘어지는 초기 단계부터 조기 관리가 중요합니다[^5].
+- 외용 미녹시딜과 경구 피나스테리드 등 약물 치료나 재생 시술, 모발 이식 등을 진행 단계에 따라 선택합니다[^1].
+
+</div>
+
 ## 정의
 안드로겐성 탈모(androgenetic alopecia, AGA)는 안드로겐 호르몬과 유전적 소인이 결합되어 진행되는 가장 흔한 탈모 유형입니다. 남성에서는 이마선 후퇴와 정수리(crown) 모발 감소가 전형적 패턴이며(Norwood-Hamilton 분류), 여성에서는 가르마 부위 모발 감소가 두드러지는 양상(Ludwig 분류)을 보입니다. 안드로겐성 탈모는 ICD-10 L64로 분류됩니다.
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/androgenetic-alopecia/norwood-scale.webp" alt="남성 머리를 옆과 위에서 그린 선화 도표: Norwood I~VII 단계와 IIA~VA 단계별 이마선·정수리 탈모 범위" width="960" height="914" loading="lazy">
+  <figcaption markdown="span">Norwood 분류: 옆·위에서 본 이마선 후퇴와 정수리 탈모의 진행 단계<span class="entity-figure-credit">그림: Keministi, <a href="https://commons.wikimedia.org/wiki/File:Partial_Norwood_scale_for_male_pattern_baldness.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en" rel="nofollow noopener" target="_blank">CC0</a></span></figcaption>
+</figure>
+
 ## 병태
 모발은 성장기(2~6년)·퇴행기(2~3주)·휴지기(2~3개월)를 순환합니다. AGA에서는 모낭이 안드로겐 — 특히 디히드로테스토스테론(DHT, dihydrotestosterone) — 의 영향을 받아 점차 축소(miniaturization)되며 성장기가 짧아지고 휴지기가 길어집니다. 5α-reductase 효소가 테스토스테론을 DHT로 전환하는 것이 핵심 단계로, 5ARI(피나스테리드·두타스테리드)가 이 효소를 억제하는 약리 표적입니다[^1]. 모낭 주변 혈관 감소·모낭 줄기세포 손상도 함께 진행됩니다.
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/androgenetic-alopecia/follicle-miniaturization.webp" alt="두피 피부 단면에 나란히 그린 모낭 세 개: 굵고 깊은 모낭, 더 작고 가는 모낭, 진피 위쪽에 얕게 자리한 아주 작은 모낭과 가는 솜털" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">모낭 축소(미세화) 진행: 굵은 성장모 모낭에서 얕고 작은 모낭으로<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 ## 증상
 - **남성**: 이마선·관자놀이 후퇴(M자형 진행), 정수리(crown) 모발 감소·두피 노출. Norwood-Hamilton 분류로 단계 평가
@@ -72,6 +91,16 @@ AGA는 진행성 질환이며 치료는 **모낭 축소를 늦추거나 모발 �
 ### 환자 선택 고려 사항
 - **남성**: 외용 미녹시딜 + 경구 5ARI 병용이 흔히 검토되며, 5ARI 부작용 우려 시 PRP/줄기세포 시술 단독 또는 미녹시딜 병용이 검토됩니다.
 - **여성**: 임신·가임 가능성 환자는 5ARI **금기**입니다. 외용 미녹시딜 또는 저용량 경구 미녹시딜·시술 옵션을 의료진과 검토합니다.
+
+**남성과 여성 안드로겐성 탈모 비교** 
+{: .entity-table-caption}
+
+| 구분 | 남성 안드로겐성 탈모 | 여성 안드로겐성 탈모 |
+| --- | --- | --- |
+| 전형 양상 | 이마선·관자놀이 후퇴, 정수리 모발 감소 | 정수리 가르마 부위 모발 감소 |
+| 분류 체계 | Norwood-Hamilton 분류 | Ludwig 분류 I·II·III |
+| 이마선 | 후퇴 (M자형 진행) | 일반적으로 보존 |
+| 약물 선택 고려 | 외용 미녹시딜 + 경구 5ARI 병용 등 검토 | 임신·가임 가능성 환자는 5ARI 금기, 미녹시딜·시술 옵션 검토 |
 
 조기 진단과 지속적인 관리를 통해 모낭 기능을 평가하고 관리 방향을 정하는 것이 중요합니다. [^5]
 

@@ -34,6 +34,11 @@ version: 2
 ## 병태
 손가락 굴곡건은 손바닥 쪽의 pulley 구조 아래를 지나갑니다. A1 pulley 또는 굴곡건이 두꺼워지거나 부종이 생기면 힘줄이 통로에서 걸리며 통증과 탄발 현상이 생깁니다 [^1][^2]. 반복적인 쥐기·잡기 동작, 당뇨병, 류마티스 관절염, [손목터널증후군](/conditions/carpal-tunnel-syndrome/), [드퀘르벵 건초염](/conditions/de-quervain/)과의 동반이 보고됩니다 [^1][^3].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/trigger-finger/trigger-finger-a1-pulley.webp" alt="손가락 옆모습 투시 그림: 손가락뼈 아래쪽(손바닥 쪽)을 따라가는 굽힘 힘줄이 여러 개의 아치 모양 띠에 붙잡혀 있고, 손가락 뿌리 관절 아래 첫 번째 띠와 그 바로 앞 힘줄 결절이 붉게 표시된 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">방아쇠수지: 손바닥 쪽 손가락 굽힘 힘줄과 도르래(pulley) 띠 · 손가락 뿌리 관절 아래 첫 번째 도르래(A1 pulley)와 그 입구에 걸린 힘줄 결절(붉은색)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 염증이라는 이름이 붙지만, 만성화된 방아쇠수지는 단순 염증보다 pulley-힘줄 사이의 기계적 협착과 건초 비후가 함께 작용하는 질환으로 설명하는 것이 안전합니다 [^1].
 
 ## 증상

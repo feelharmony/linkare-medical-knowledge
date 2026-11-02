@@ -42,6 +42,11 @@ version: 5
 
 목 통증에서는 심부 경부 굴곡근, 견갑 안정화, 흉추 가동성 운동이 자주 활용됩니다 [^3][^4]. 무릎 골관절염에서는 하지 근력과 유산소 운동이 통증과 기능 개선에 도움이 되는 것으로 보고되어 있습니다 [^6][^7].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/exercise-therapy/seated-knee-extension.webp" alt="옆에서 본 회색 인체 모형이 벤치에 앉아 한쪽 무릎을 곧게 펴고 발목에 중량 밴드를 찬 모습, 편 다리의 넙다리 앞 근육이 붉게 비치는 그림" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">앉아서 무릎 펴기 운동: 발목 중량 밴드 · 넙다리 앞 근육(붉은색)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 ## 언제 고려
 운동치료는 급성 통증이 심해 움직임 자체가 어려운 시기에는 강도를 낮춰 시작하고, 통증이 조절되면 단계적으로 부하를 늘립니다. 처음부터 자세나 근력을 완벽하게 만들려고 하기보다, 통증이 심해지지 않는 범위에서 움직임 신뢰도와 일상 기능을 회복하는 것이 우선입니다.
 

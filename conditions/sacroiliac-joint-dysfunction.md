@@ -32,6 +32,11 @@ version: 1
 ## 정의
 천장관절증후군은 **골반 뒤쪽에서 천골과 장골을 잇는 천장관절과 그 주변 인대에서 오는 통증**입니다. 천장관절은 움직임이 작지만 상체의 체중을 다리로 넘기고 전단력을 버티는 자리라, 한쪽에 부하가 몰리면 관절과 인대가 아픕니다 [^1]. 만성 비방사통 요통 환자의 15~30%에서 통증의 근원이 천장관절로 보고됩니다 [^6].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/sacroiliac-joint-dysfunction/sacroiliac-joint-posterior.webp" alt="뒤에서 본 골반 해부도: 가운데 엉치뼈와 양쪽 엉덩뼈가 맞닿는 두 천장관절이 네모로 표시되고, 왼쪽 위 작은 그림에 몸 전체에서의 위치가 보이는 모습" width="1000" height="912" loading="lazy">
+  <figcaption markdown="span">천장관절 위치(뒤에서 본 골반): 가운데 엉치뼈(Sacrum)와 양옆 엉덩뼈(Ilium)가 맞닿는 천장관절(Sacroiliac joint, 네모 표시) · 골반 아래로 내려가는 좌골신경(Sciatic nerve)<span class="entity-figure-credit">그림: BruceBlaus (Blausen.com staff), <a href="https://commons.wikimedia.org/wiki/File:Sacroiliac_Joint.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/3.0" rel="nofollow noopener" target="_blank">CC BY 3.0</a></span></figcaption>
+</figure>
+
 ## 증상
 - 엉치뼈(후상장골극) 한 점을 누르면 아프고, 통증이 엉덩이·사타구니·허벅지로 퍼지되 대개 **무릎 위까지**입니다 [^1][^6]
 - 앉았다 일어설 때, 침대에서 돌아누울 때, 계단을 오를 때, 한쪽 다리로 설 때 심해집니다 [^1]

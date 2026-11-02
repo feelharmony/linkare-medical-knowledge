@@ -23,6 +23,14 @@ external_footnote_ids: [1, 2, 3, 5, 6]
 version: 5
 ---
 
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 원형 탈모는 모낭을 표적으로 하는 T 세포 매개 자가면역 반응으로 발생하는 비반흔성 탈모입니다.
+- 진행 단계와 심도에 따라 국소 코르티코스테로이드나 중증 표적 치료인 JAK 억제제 등으로 치료합니다.[^1][^5][^6]
+
+</div>
+
 ## 정의
 원형 탈모(alopecia areata, AA)는 모낭을 표적으로 하는 T 세포 매개 자가면역 반응으로 발생하는 비반흔성 탈모입니다. 동전 크기의 원형·타원형 탈모반이 갑자기 생기는 것이 전형적이며, 진행에 따라 분류됩니다.
 
@@ -32,6 +40,11 @@ version: 5
 - **전신 탈모(alopecia universalis, AU)**: 두피·체모·속눈썹·눈썹 전체
 
 ICD-10 L63으로 분류됩니다. 전 세계 일생 유병률은 약 2%로 추정되며, 남녀·인종 간 차이가 작은 편입니다.
+
+<figure class="entity-figure entity-figure--portrait">
+  <img src="/assets/images/entities/alopecia-areata/alopecia-areata-patch.webp" alt="옆머리 위쪽에 경계가 뚜렷한 타원형 탈모반이 있는 성인 두피 사진, 귀가 보이는 옆모습" width="1000" height="1091" loading="lazy">
+  <figcaption markdown="span">원형 탈모의 탈모반: 경계가 뚜렷한 타원형 모발 소실 부위<span class="entity-figure-credit">사진: Thirunavukkarasye-Raveendran, <a href="https://commons.wikimedia.org/wiki/File:Alopecia_areata_2.jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/4.0" rel="nofollow noopener" target="_blank">CC BY 4.0</a></span></figcaption>
+</figure>
 
 ## 병태
 모낭 주변 면역특권(immune privilege)이 깨지면서 자가반응성 T 세포(특히 CD8+ NKG2D+)가 모낭을 공격하여 모낭이 휴지기로 강제 진입합니다. JAK-STAT 신호 경로가 이 면역 반응의 핵심 매개체로 알려져 있어, JAK 억제제가 표적 치료의 약리 표적이 됩니다[^1]. 모낭 자체는 보존되므로 면역 반응이 가라앉으면 모발이 다시 자라는 비반흔성(non-scarring) 특성이 있습니다.
@@ -54,6 +67,16 @@ ICD-10 L63으로 분류됩니다. 전 세계 일생 유병률은 약 2%로 추�
 ## 치료
 
 원형 탈모는 자연 회복하는 경우(국소형의 약 50% 이상이 1년 내 자발 회복)와 만성·진행성으로 가는 경우가 모두 있어, 진행 단계·심도(SALT score)에 따라 치료가 결정됩니다.
+
+**원형 탈모 진행 분류 비교** [^1][^3][^5][^6]
+{: .entity-table-caption}
+
+| 분류 | 침범 범위 | 경과 및 치료 단계 |
+| --- | --- | --- |
+| 국소형(patchy AA) | 한두 개의 작은 탈모반 | 약 50% 이상 1년 내 자발 회복, 국소 코르티코스테로이드·미녹시딜 및 보조 재생 시술 |
+| 다발성(multifocal) | 여러 부위 | 동시·순차적 발생, 만성·다발성에서 국소 면역요법(DPCP, SADBE 등) 검토 |
+| 전두 탈모(alopecia totalis, AT) | 두피 전체(두피 외 침범 가능) | 자발적 회복 드묾, 중등도~중증 표적 치료(JAK 억제제 등) |
+| 전신 탈모(alopecia universalis, AU) | 두피·체모·속눈썹·눈썹 전체 | 자발적 회복 드묾, 중등도~중증 표적 치료(JAK 억제제 등) |
 
 ### 국소형·경증 (1차)
 - **국소 코르티코스테로이드** 도포 또는 두피 내 주사 (intralesional)

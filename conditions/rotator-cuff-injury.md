@@ -18,8 +18,22 @@ clinic_footnote_ids: [1]
 external_footnote_ids: [2, 3, 4, 5, 6]
 version: 3
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 회전근개 손상은 어깨를 감싸는 4개 힘줄의 부분 파열, 전층 파열, 만성 건병증을 말하며 어깨 통증과 기능 저하를 일으킵니다 [^2][^3].
+- 병력·신체 검사·영상 검사로 진단하며, 장기 비수술 관리 중에는 파열 크기·근육 위축·지방 변성이 5~10년에 걸쳐 진행할 수 있습니다 [^1][^2].
+- 파열 형태·크기·통증·근력 저하·환자 조건에 따라 약물·운동치료·단회 스테로이드 주사 등의 보존 치료와 수술 치료를 선택합니다 [^1][^2].
+
+</div>
+
 ## 정의
 회전근개(rotator cuff)는 어깨를 감싸 안정성과 회전 운동을 담당하는 4개 힘줄(극상근·극하근·소원근·견갑하근)을 묶은 명칭입니다. 회전근개 손상은 이 힘줄의 부분 파열, 전층 파열, 만성 건병증 등을 포함하며, 어깨 통증과 운동 기능 저하를 일으키는 대표적 질환입니다 [^2][^3]. 미국 정형외과학회(AAOS)는 2025년 8월 성인 회전근개 손상 관리에 대한 최신 근거 기반 임상진료지침을 발표했으며, 진단·비수술 치료·수술 치료·수술 후 관리에 걸친 권고를 제시합니다 [^2].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/rotator-cuff-tendinopathy/supraspinatus-tendinopathy.webp" alt="앞에서 본 오른쪽 어깨 해부도: 어깨뼈 앞면을 덮은 근육과, 견봉 아래를 지나 위팔뼈 머리 위쪽에 붙는 극상근 힘줄의 끝부분이 붉게 표시된 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">회전근개 힘줄이 붙는 자리: 견봉 아래를 지나 위팔뼈 머리 위쪽(대결절)에 붙는 극상근 힘줄 · 붉게 표시된 힘줄 끝부분 · 어깨뼈 앞면: 견갑하근<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 ## 병태
 회전근개 손상은 외상에 의한 급성 파열뿐 아니라 반복 미세 손상이 누적된 퇴행성 변화로도 발생합니다 [^1]. 한국 성인 486명을 대상으로 한 무증상 어깨 초음파 연구(Jeong J et al., 2017)에서 전층 파열은 49세 이상에서만 관찰되었고, 위험 인자로 고령·당뇨·흡연이 통계적으로 유의했습니다(당뇨 P=0.042, 흡연 P=0.002) [^3].
@@ -30,8 +44,26 @@ version: 3
 ## 진단
 회전근개 손상 진단은 환자 병력, 신체 검사(painful arc, drop arm test, empty can test 등), 영상 검사를 종합해 시행 합니다 [^1]. 영상 검사는 임상 진찰과 X-ray를 보완하기 위해 사용하며, AAOS 2025 가이드라인은 MRI·MRA·CT·초음파가 회전근개 파열 평가에 유용한 보조 검사로 제시합니다 [^2]. 초음파는 동적 평가와 외래 접근성이 장점이고, MRI는 파열 크기·건 퇴축·근육 위축·지방 변성을 평가해 수술 계획에 도움이 됩니다 [^2]. 한국 무증상 인구 연구에서 전층 파열은 50대 3.5%, 60대 13.3%, 70세 이상 11.1%로 연령에 따라 늘어나는 경향이 보고되었습니다. 같은 연구에서 자가 보고로 무증상이라고 응답한 대상자 일부는 임상 평가 과정에서 통증이나 기능 제한이 확인되어 사실상 증상성으로 재분류되기도 했습니다 [^3].
 
+<figure class="entity-figure entity-chart" role="img" aria-label="어깨 증상 없는 한국 성인의 회전근개 전층 파열 비율 막대그래프">
+  <div class="entity-chart-title">어깨 증상 없는 한국 성인의 회전근개 전층 파열 비율</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">50대<span>50~59세 · 초음파</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:3.5%"></div><span class="entity-chart-value">3.5%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">60대<span>60~69세 · 초음파</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:13.3%"></div><span class="entity-chart-value">13.3%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">70세 이상<span>초음파</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:11.1%"></div><span class="entity-chart-value">11.1%</span></div></div>
+  <figcaption markdown="span">나이대별 무증상 전층 파열 비율 [^3]<span class="entity-figure-credit">그래프: Linkbase · Jeong 2017 (J Shoulder Elbow Surg) 초록 수치: 어깨 증상 없는 한국 성인 486명 초음파 검사</span></figcaption>
+</figure>
+
 ## 치료
 회전근개 손상은 파열 형태(부분 vs 전층), 파열 크기, 통증 정도, 근력 저하, 환자의 연령·활동 수준·직업적 요구·동반 질환에 따라 보존 치료와 수술 치료를 선택합니다 [^2].
+
+**회전근개 손상의 치료 선택지 비교** [^1][^2][^4][^5][^6]
+{: .entity-table-caption}
+
+| 치료 선택지 | 검토 대상 | 세부 방법 | 비고 및 주의점 |
+| --- | --- | --- | --- |
+| 보존 치료 | 부분 파열, 작은~중간 크기 전층 파열(수술과 함께 검토) | 약물, 운동치료, 활동 조절, 단회 스테로이드 주사 | 장기 관리 시 5~10년간 파열·위축 진행 가능 |
+| 수술 치료 | 부분·작은~중간 전층 파열(보존 치료와 함께 검토), 보존 치료 무반응·외상성 급성·큰 파열, 뚜렷한 근력 저하 | 관절경적 회전근개 봉합술 등 | 봉합 치유 시 기능 우수, 재활 속도는 상태별 조절 |
+| 수술 중 PRP | 회전근개봉합술이 필요한 파열 환자 | 봉합술 중 손상 부위에 자가 혈소판 풍부 혈장 주입 | 국내 신의료기술 등재, liquid PRP는 재파열률 감소에 제한적 근거 |
+| 외래 비수술 PRP | 회전근개 건병증 등 비수술 단계 | 외래 주사 | AAOS 일상적 사용 비권고, 국내 별도 신의료기술 평가 진행 단계 |
 
 부분 파열이나 작은~중간 크기의 전층 파열에서는 보존 치료와 수술 치료를 함께 검토합니다. AAOS 2025 가이드라인은 증상성 작은~중간 크기 전층 파열에서 물리치료와 수술 치료 모두 환자 보고 결과를 유의하게 개선할 수 있다고 제시합니다 [^2]. 다만 장기 비수술 관리 중에도 파열 크기·근육 위축·지방 변성이 5~10년에 걸쳐 진행할 수 있어 증상 변화와 기능 저하를 추적해야 합니다 [^2].
 

@@ -28,6 +28,11 @@ version: 3
 ## 정의
 자세 교정(posture correction)은 “바른 자세를 강제로 고정”하는 단일 치료가 아니라, 통증을 키우는 자세 부담을 줄이고 움직임 전략을 재교육하는 보존 치료 전략입니다. [거북목·일자목](/conditions/forward-head-posture/)처럼 머리 위치와 경추 만곡이 문제로 보이는 경우에도, 목표는 X-ray 모양을 즉시 바꾸는 것보다 [목 통증](/symptoms/neck-pain/), [근막통증증후군](/conditions/myofascial-pain-syndrome/), 두통, 기능 제한을 줄이는 데 둡니다 [^3][^4].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/forward-head-posture/neutral-vs-forward-head-posture.webp" alt="옆에서 본 앉은 사람 두 명의 골격: 왼쪽은 귀가 어깨 위에 있는 바른 자세, 오른쪽은 머리가 앞으로 나가고 목 뒤에서 등 위쪽까지 붉게 표시된 자세" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">바른 앉은 자세(왼쪽)와 머리가 앞으로 나온 자세(오른쪽): 오른쪽 목 뒤·등 위쪽 붉은 표시<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 자세 교정은 보통 교육, 작업환경 조정, 심부 경부 굴곡근 운동, 견갑 안정화, 흉추 가동성 운동, 스트레칭, [도수치료](/treatments/manual-therapy/), 물리치료를 조합합니다 [^4][^5]. 따라서 “자세 교정”이라는 표현은 시술명이라기보다 평가와 운동·생활습관 교정을 포함한 치료 계획으로 이해하는 것이 안전합니다.
 
 ## 적응증

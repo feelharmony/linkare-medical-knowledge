@@ -24,6 +24,15 @@ source_count_clinic_pillar: 2
 clinic_footnote_ids: [4, 5]
 external_footnote_ids: [1, 2, 3, 6, 7]
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 거북목은 머리가 앞으로 나온 자세 소견이고, 일자목은 X-ray상 경추의 C자 만곡이 평탄해진 영상 소견입니다.[^1]
+- 자세나 영상 소견만으로 통증을 예측하기 어려우며, 팔 방사통이나 미세 운동 장애가 동반되면 신경학적 질환을 감별해야 합니다.[^4]
+- 치료는 동반된 통증과 기능 제한 완화에 초점을 두며, 심부 경부 굴곡근 훈련 등 운동치료와 도수치료 병행을 우선합니다.[^2][^3]
+
+</div>
+
 ## 정의
 
 거북목과 일자목은 [목](/body-parts/neck/)·[경추](/body-parts/cervical-spine/) 정렬을 다른 각도에서 부르는 용어입니다.
@@ -35,10 +44,24 @@ external_footnote_ids: [1, 2, 3, 6, 7]
 
 거북목 자체는 진단명(disease)이라기보다 **자세 변형 소견**입니다[^1]. 무증상 일반인에서도 흔히 관찰되며, 모든 거북목이 [목 통증](/symptoms/neck-pain/)으로 이어지지는 않습니다.
 
+**거북목과 일자목의 비교** [^1]
+{: .entity-table-caption}
+
+| 구분 | 거북목 | 일자목 |
+| --- | --- | --- |
+| 정의 | 머리가 중심선보다 앞으로 나온 상태 | 경추의 정상 C자 만곡이 평탄해진 상태 |
+| 소견 성격 | 겉으로 드러난 자세 소견 | 뼈 정렬에 대한 영상 소견 |
+| 측정 지표 | 두개척추각(CVA) | 측면 X-ray상 Cobb angle, Harrison posterior tangent |
+
 ## 병태
 
 ### 자세–근육 불균형
 거북목 자세가 지속되면 목 뒤쪽 표면 근육(상부 승모근, 견갑거근)은 과긴장하고, 앞쪽 깊은 굴곡근(longus colli, longus capitis)은 약화·억제됩니다. 이 불균형은 경추 분절의 부하를 변화시키고 자세 유지 비용을 높입니다[^2].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/forward-head-posture/neutral-vs-forward-head-posture.webp" alt="옆에서 본 앉은 사람 두 명의 골격: 왼쪽은 귀가 어깨 위에 있는 바른 자세, 오른쪽은 머리가 앞으로 나가고 목 뒤에서 등 위쪽까지 붉게 표시된 자세" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">바른 앉은 자세(왼쪽)와 머리가 앞으로 나온 자세(오른쪽): 오른쪽 목 뒤·등 위쪽 붉은 표시<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 ### 거북목과 목 통증의 연관성
 거북목이 곧 통증을 유발하는지에 대해서는 인과관계가 확립되지 않았습니다. 15편의 단면 연구를 종합한 체계적 문헌고찰 및 메타분석에서, **성인** 그룹은 목 통증이 있는 사람이 무증상 그룹보다 거북목이 더 뚜렷했지만(CVA 평균 차이 4.84°, 95% CI 0.14~9.54), 청소년에서는 유의한 차이가 관찰되지 않았습니다[^1]. 단면 연구 설계 한계와 연구 간 이질성(I² = 83~85%)으로 인과 해석은 제한적입니다.

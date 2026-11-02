@@ -26,6 +26,15 @@ clinic_footnote_ids: []
 external_footnote_ids: [2, 3, 4, 5, 6, 7, 8]
 version: 3
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 노화 증상은 나이가 들면서 나타나는 신체·인지·감각·근골격계 기능 저하를 포괄하는 임상 용어입니다.
+- 의도치 않은 체중 감소, 빠른 인지 저하 등은 빠른 의학적 평가가 필요한 위험 신호입니다 [^2].
+- 관리는 이동·영양·감각·인지·심리의 본질 능력 영역별 표적 개입과 운동·영양 등 통합 접근이 원칙입니다 [^2].
+
+</div>
+
 ## 정의
 노화 증상은 단일 진단명이 아니라 **나이가 들면서 나타나는 신체·인지·감각·근골격계 기능 저하**를 포괄하는 임상 용어입니다. 노화 자체는 질병이 아니지만, 나이와 관련해 누적되는 변화가 일상생활·기능·삶의 질에 영향을 미칠 수 있어 평가·관리 대상입니다 [^2].
 
@@ -75,6 +84,17 @@ ICOPE 1차 스크리닝은 5개 domain을 6개 항목(시각·청각 분리)으�
 - **인지**: 시간·공간 지남력 + 단어 회상
 - **심리**: 우울 스크리닝 (지난 2주간 우울감·흥미 상실)
 
+**WHO ICOPE 본질 능력 영역별 평가와 개입** [^2][^4][^8]
+{: .entity-table-caption}
+
+| 영역 | 주요 증상·상태 | 1차 스크리닝 | 표적 개입 |
+| --- | --- | --- | --- |
+| 이동 능력 | 보행 속도·균형·근력 저하, 근감소증 | 의자에서 5번 일어서기 ≥12초 | 저항성·균형·다중 요소 운동 |
+| 영양 상태 | 체중 감소·식욕 저하·근육량 손실 | 체중 감소·식욕 변화 질문 | 단백질 섭취(1.0~1.2 g/kg/day), 결핍 보충 |
+| 감각 (시각·청각) | 시력 저하, 노인성 난청 | 시력 검사, 속삭임·청력 검사 | 정기 검진·교정(안경·보청기)·재활 |
+| 인지 | 기억력·집중력·실행기능 저하 | 시간·공간 지남력, 단어 회상 | 인지 자극·사회 활동·심혈관 위험 관리 |
+| 심리 | 우울·불안·사회적 고립 | 지난 2주간 우울감·흥미 상실 | 우울·불안 평가, 사회적 연결 강화 |
+
 ### 근감소증(sarcopenia) AWGS 2019 평가
 이동 능력 저하·근육량 감소가 의심되면 AWGS 2019 진단 기준을 적용합니다 [^4]:
 
@@ -83,6 +103,11 @@ ICOPE 1차 스크리닝은 5개 domain을 6개 항목(시각·청각 분리)으�
 - **physical performance**: 6 m 보행 <1.0 m/s, SPPB ≤9, 5번 의자 일어서기 ≥12초
 - **muscle mass**: DXA (남 <7.0 kg/m², 여 <5.4 kg/m²) 또는 BIA (남 <7.0 kg/m², 여 <5.7 kg/m²)
 - **possible sarcopenia**(AWGS 2019 신규): 근력 또는 신체 수행 저하만으로도 community 단계에서 조기 개입 시작
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/sarcopenia/calf-muscle-normal-vs-sarcopenia.webp" alt="정상 종아리와 근감소증 종아리를 나란히 놓고 각각의 근육 모습과 종아리 단면을 비교한 그림: 오른쪽은 근육 단면이 작고 바깥 지방층이 상대적으로 두꺼움" width="1000" height="758" loading="lazy">
+  <figcaption markdown="span">정상(왼쪽)과 근감소증(오른쪽)의 종아리: 근육 모습과 단면 · 근감소증에서 작아진 근육(붉은색) 단면<span class="entity-figure-credit">그림: DataBase Center for Life Science (DBCLS), <a href="https://commons.wikimedia.org/wiki/File:202501_Sarcopenia.svg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/4.0" rel="nofollow noopener" target="_blank">CC BY 4.0</a> (아래 영문 표기 잘라 냄)</span></figcaption>
+</figure>
 
 ### 영역별 추가 검사
 - 인지 저하 의심: MMSE·MoCA 등 신경인지 검사

@@ -28,13 +28,36 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5, 6, 7]
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 목과 가슴 사이 통로인 흉곽출구에서 신경이나 혈관 구조물이 눌려 어깨·팔에 통증과 저림이 생기는 질환군입니다.[^1][^2][^5]
+- 단일 확진 검사가 없어 병력과 신체검사를 통한 임상 판단으로 진단하며, 혈관성에서는 팔 부종이나 혈전색전 현상이 생길 수 있습니다.[^3]
+- 물리치료 등 보존 치료를 먼저 시행하며, 원인이 분명하고 보존 치료에 반응하지 않는 경우에 수술을 고려합니다.[^2][^5]
+
+</div>
+
 ## 정의
 흉곽출구증후군(thoracic outlet syndrome, TOS)은 **목과 가슴 사이의 통로인 흉곽출구에서 신경·혈관 구조물이 눌려 생기는 질환군**입니다 [^1][^5]. 눌릴 수 있는 구조물은 상완신경총(brachial plexus), 쇄골하정맥, 쇄골하동맥 세 가지이며, 각각에 따라 **신경성(NTOS)·정맥성(VTOS)·동맥성(ATOS)** 흉곽출구증후군으로 나눕니다 [^1]. 세 유형은 별개의 질환이지만 함께 나타나거나 서로 겹칠 수 있습니다 [^1].
+
+**흉곽출구증후군의 유형별 비교** [^1][^3][^5]
+{: .entity-table-caption}
+
+| 유형 | 눌리는 구조물 | 특징 및 증상 |
+| --- | --- | --- |
+| 신경성(NTOS) | 상완신경총 | 가장 흔한 형태, 근력 약화·혈관운동성 변화 |
+| 정맥성(VTOS) | 쇄골하정맥 | 드문 편, 팔의 부종·혈전색전 현상 |
+| 동맥성(ATOS) | 쇄골하동맥 | 드문 편, 팔의 부종·혈전색전 현상 |
 
 이 가운데 **신경성 흉곽출구증후군이 가장 흔한 형태**이고, 혈관성 합병증은 드문 편입니다 [^3][^5]. 신경성 흉곽출구증후군의 발생률은 연간 인구 10만 명당 2~3명, 유병률은 10만 명당 약 10명으로 추정됩니다 [^5]. 팔 저림이 있는데 [목디스크](/conditions/cervical-disc-herniation/)로 설명되지 않을 때 [팔 저림](/symptoms/arm-numbness/) 항목의 감별 흐름 안에서 함께 검토하는 질환입니다.
 
 ## 병태
 흉곽출구는 쇄골 위에서 겨드랑이로 이어지는 좁은 통로로, 흔히 전·중사각근 사이의 사각근 삼각, 쇄골과 제1늑골 사이의 늑쇄 공간, 소흉근 아래 공간으로 나누어 설명합니다. 상완신경총과 쇄골하 혈관은 이 구간을 차례로 지나 팔로 내려가므로, 어느 구간에서든 공간이 좁아지면 압박이 생길 수 있습니다. 경늑골(목갈비뼈) 같은 뼈 변이, 사각근·소흉근 같은 연부조직, 외상 등이 관련 요인으로 거론됩니다.
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/thoracic-outlet-syndrome/thoracic-outlet-costoclavicular-space.webp" alt="앞에서 본 목 아래·어깨·윗가슴 해부: 목 옆 근육 사이로 나온 노란 신경 다발과 붉은 동맥, 파란 정맥이 빗장뼈와 첫 갈비뼈 사이를 지나 겨드랑이 쪽으로 향하는 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">흉곽출구: 빗장뼈와 첫 갈비뼈 사이 좁은 공간(붉은 빛)을 지나는 신경 다발(노랑)·동맥(빨강)·정맥(파랑)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 ### 분류를 둘러싼 논쟁
 문헌에서는 흉곽출구증후군을 **동맥성, 정맥성, 외상성 신경혈관성, 진성 신경성, 논란형(disputed)** 다섯 가지로 구분하기도 합니다 [^4]. 앞의 네 가지는 증후군으로서 기대되는 특징을 모두 갖추지만, 논란형은 그렇지 않아 존재 자체를 의심하는 전문가가 많고, 일부는 이를 흉곽출구증후군이 아닌 **경견갑부(cervicoscapular) 통증 증후군**으로 분류합니다 [^4]. 이처럼 진단 기준이 일반적으로 합의되지 않았다는 점이 치료 연구를 해석하는 데에도 제약이 됩니다 [^7].
@@ -93,6 +116,15 @@ version: 1
 신경성 흉곽출구증후군은 가장 흔한 형태이지만, 치료에 관한 연구는 수와 질 모두 제한적이고 **다기관 무작위 대조 시험은 아직 없습니다** [^5]. 신경성 환자는 다른 형태보다 증상이 더 심한 편이며, 경액와 제1늑골 절제에서 얻는 이득이 상대적으로 적은 것으로 보고됩니다 [^5].
 
 늑골 절제 없이 쇄골상 감압을 받은 신경성 환자의 수술 결과는 우수 27%, 양호 36%, 수용 가능 26%, 불량 11%로 보고됐습니다 [^5]. 다만 모든 진료과가 공유하는 통일된 분류가 없어 연구 결과를 해석하고 비교하는 데 한계가 있습니다 [^5]. 진단과 치료 결과 평가의 일관성을 높이기 위한 보고 기준이 제시된 상태입니다 [^1].
+
+<figure class="entity-figure entity-chart" role="img" aria-label="늑골 절제 없이 쇄골상 감압을 받은 신경성 흉곽출구증후군 수술 결과 막대그래프">
+  <div class="entity-chart-title">늑골 절제 없이 쇄골상 감압을 받은 신경성 흉곽출구증후군 수술 결과</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">우수<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:27.0%"></div><span class="entity-chart-value">27%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">양호<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:36.0%"></div><span class="entity-chart-value">36%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">수용 가능<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:26.0%"></div><span class="entity-chart-value">26%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">불량<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:11.0%"></div><span class="entity-chart-value">11%</span></div></div>
+  <figcaption markdown="span">수술 결과 등급별 환자 비율 [^5]<span class="entity-figure-credit">그래프: Linkbase · Dengler 2022 (Dtsch Arztebl Int) 초록 수치</span></figcaption>
+</figure>
 
 ## 관련 항목
 - [팔 저림](/symptoms/arm-numbness/)

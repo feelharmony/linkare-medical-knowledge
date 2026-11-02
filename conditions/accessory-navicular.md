@@ -28,6 +28,15 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 부주상골은 발 안쪽 주상골 옆에 따로 자리 잡은 작은 뼈로, 대부분 증상이 없는 변이이지만 연결부에 통증이 생기면 부주상골 증후군이라 부릅니다 [^1].
+- 영상에서 흔히 보이므로 발 안쪽 돌출부의 국소 압통과 영상 소견이 맞는지 확인하며, 골절이나 다른 병변과 구분하여 진단합니다 [^1] [^9].
+- 치료는 보조기나 깁스 고정 등 비수술적 치료를 먼저 시도하고, 보존 치료가 실패하면 부주상골 절제 등 수술을 고려합니다 [^2] [^3] [^10].
+
+</div>
+
 ## 정의
 부주상골(accessory navicular)은 **발 안쪽, 주상골(navicular) 옆에 따로 자리 잡은 작은 뼈**로, 발에서 가장 흔한 부골(accessory ossicle) 가운데 하나입니다 [^1]. 주상골 결절의 이차 골화 중심이 발달 과정에서 따로 남은 변이로 설명됩니다 [^2]. 메타분석에서 유병률은 환자 기준 17.5%, 발 기준 12.6%로 추정되었고, 절반에서 양쪽 발에 함께 있으며 남녀 차이는 뚜렷하지 않았습니다 [^1]. 인구 집단에 따라 차이가 커서 동아시아 인구에서 가장 높게(38.4%) 보고되었습니다 [^1].
 
@@ -39,6 +48,20 @@ version: 1
 - **1형** — 후경골근 힘줄(posterior tibial tendon) 안에 들어 있는 작은 뼈 [^3]
 - **2형** — 주상골과 연골결합(synchondrosis)으로 이어진 형태 [^3]. 증상이 있어 진료받은 소아 226발 가운데 2형이 72.7%로 가장 많았습니다 [^4]
 - **3형** — '뿔 모양 주상골(cornuate navicular)'로 불리며, 2형이 진행한 마지막 단계일 수 있는 형태입니다 [^3]. 부주상골이 주상골과 뼈로 이어져 결절이 크게 튀어나온 모양을 보입니다.
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/accessory-navicular/accessory-navicular-types-xray.webp" alt="발 X-ray 세 장을 나란히 놓은 사진: 각 사진의 발 안쪽 주상골 옆 부주상골 부위가 붉은 원으로 표시된 모습" width="1000" height="348" loading="lazy">
+  <figcaption markdown="span">부주상골 형태별 X-ray: 왼쪽부터 1형 · 2형 · 3형(붉은 원 안)<span class="entity-figure-credit">사진: Hellerhoff, <a href="https://commons.wikimedia.org/wiki/File:Os_tibiale_externum_Typen_1_-_3_nach_Geist_-_Roe.jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="nofollow noopener" target="_blank">CC BY-SA 3.0</a></span></figcaption>
+</figure>
+
+**부주상골의 형태 분류** [^3][^4]
+{: .entity-table-caption}
+
+| 분류 | 해부학적 특징 | 임상적 특징 |
+| --- | --- | --- |
+| 1형 | 후경골근 힘줄 안의 작은 뼈 | - |
+| 2형 | 주상골과 연골결합으로 연결 | 72.7% 차지, 미세 손상 발생 |
+| 3형 | 주상골과 뼈로 이어진 뿔 모양 | 결절 돌출, 2형이 진행한 마지막 단계 가능성 |
 
 ## 병태
 부주상골은 후경골근 힘줄이 붙는 위치를 바꾸며, 이 때문에 부주상골이 있는 소아에서 후경골근 기능 부전과 유연성 평발이 함께 나타나는 경우가 많습니다 [^2].
@@ -94,6 +117,14 @@ version: 1
 - **성인** — 성인 증상성 부주상골 313명 가운데 보존 치료 실패로 수술받은 비율은 9.6%였습니다 [^11]. 증상이 시작된 나이가 어릴수록, 2B 아형일수록 수술이 필요할 가능성이 높았습니다 [^11]
 - **소아·청소년의 보존 치료 실패 요인** — 보존 치료 실패는 중앙값 5.2개월 시점에 판정되었고, 나이가 많을수록, 초진 때 활동 제한이 있을수록, 여성, 높은 체질량지수, MRI에서 부주상골·주상골 몸통의 골수부종이 있을 때 실패 위험이 높았습니다 [^7]. 수술받은 환자의 94%에서 통증이 호전되었고 93%가 원래 하던 운동으로 복귀했습니다 [^7]
 - **운동선수** — 보존 치료 후 호전된 비율이 일반인군 34%, 운동선수군 6.9%로 차이가 커서, 운동선수에서는 이른 수술을 고려할 수 있다고 제시되었습니다 [^6]
+
+<figure class="entity-figure entity-chart" role="img" aria-label="소아 증상성 부주상골 보존 치료 결과 막대그래프">
+  <div class="entity-chart-title">소아 증상성 부주상골 보존 치료 결과</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">완전한 통증 소실<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:28.0%"></div><span class="entity-chart-value">28%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">부분 호전<span>수술 없이</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:41.0%"></div><span class="entity-chart-value">41%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">수술 필요<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:30.0%"></div><span class="entity-chart-value">30%</span></div></div>
+  <figcaption markdown="span">소아 169명(226발)의 보존 치료 결과 [^4]<span class="entity-figure-credit">그래프: Linkbase · Wynn 2019 초록 수치</span></figcaption>
+</figure>
 
 통증 기간이 길수록 통증이 심해지는 경향이 있어 조기 진단의 중요성이 강조됩니다 [^8]. 접질린 뒤 발 안쪽 돌출부 통증이 몇 주 넘게 이어지면 부주상골과 연골결합 손상을 함께 확인하는 것이 경과 판단에 도움이 됩니다.
 

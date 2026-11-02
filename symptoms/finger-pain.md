@@ -33,6 +33,11 @@ version: 2
 ## 흔한 원인
 손가락 통증은 환자 표현과 치료 방향을 연결하기 위해 다음처럼 나눌 수 있습니다.
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/trigger-finger/trigger-finger-a1-pulley.webp" alt="손가락 옆모습 투시 그림: 손가락뼈 아래쪽(손바닥 쪽)을 따라가는 굽힘 힘줄이 여러 개의 아치 모양 띠에 붙잡혀 있고, 손가락 뿌리 관절 아래 첫 번째 띠와 그 바로 앞 힘줄 결절이 붉게 표시된 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">방아쇠수지: 손바닥 쪽 손가락 굽힘 힘줄과 도르래(pulley) 띠 · 손가락 뿌리 관절 아래 첫 번째 도르래(A1 pulley)와 그 입구에 걸린 힘줄 결절(붉은색)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 - **걸림·딸깍형**: [방아쇠수지](/conditions/trigger-finger/). 손가락을 굽혔다 펼 때 A1 pulley 부위에서 걸림·딸깍거림·잠김이 생깁니다 [^3][^5].
 - **관절 통증형**: 손가락 골관절염, 엄지 CMC 관절염, 류마티스 관절염, 통풍·가성통풍. 관절 부종·뻣뻣함·변형·아침 강직 양상을 확인합니다 [^4].
 - **외상·인대·힘줄 손상형**: 망치수지, boutonnière deformity, collateral ligament injury, 골절·탈구. 외상 직후 변형·운동 제한이 있으면 영상 평가가 필요합니다 [^1][^2].

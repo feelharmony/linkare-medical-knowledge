@@ -26,6 +26,15 @@ external_footnote_ids:
   - 5
   - 6
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 석회성 건염은 회전근개 힘줄에 칼슘 하이드록시아파타이트 결정이 침착되어 통증과 운동 제한을 일으키는 질환입니다 [^1].
+- 단순 방사선 촬영과 초음파 검사로 석회 침착을 확인하며, 석회가 녹아 흡수되는 시기에 강한 염증 반응으로 극심한 통증이 발생합니다 [^1][^8].
+- 자연 흡수가 흔해 보존 치료를 1차로 시행하며, 약물·주사·운동치료나 체외충격파 등을 적용하고 불응 시 수술을 검토합니다 [^1][^2][^3].
+
+</div>
+
 ## 정의
 석회성 건염(calcific tendinitis)은 회전근개 힘줄에 칼슘 하이드록시아파타이트(hydroxyapatite) 결정이 침착되어 통증과 운동 제한을 일으키는 질환입니다 [^1]. 회전근개 건병증의 한 양상으로 다뤄지며, 2025 JOSPT 임상진료지침은 회전근개 건병증의 적용 범위에 석회가 동반된 경우를 함께 포함합니다 [^2].
 
@@ -41,6 +50,20 @@ external_footnote_ids:
 
 ## 진단
 환자 병력과 신체 검사에 더해, 석회 침착을 직접 확인하는 영상 검사가 진단에 핵심적입니다. 단순 방사선 촬영(X-ray)으로 석회 침착의 위치·크기·형태를 평가하고, 초음파 검사는 석회 침착과 주변 힘줄 상태를 함께 평가하며 시술 시 위치 안내에도 활용됩니다 [^1]. MRI는 다른 원인 감별이나 회전근개 파열·부종 평가에 보조로 사용합니다 [^2].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/calcific-tendinitis/calcific-deposit-xray.webp" alt="어깨 X-ray: 위팔뼈 머리 바깥 위쪽과 견봉 사이에 하얀 석회 덩어리가 보이는 모습" width="1000" height="938" loading="lazy">
+  <figcaption markdown="span">석회성 건염 어깨 X-ray: 견봉 아래, 위팔뼈 머리 바깥 위쪽에 맺힌 하얀 석회 덩어리<span class="entity-figure-credit">영상: elmundo, <a href="https://commons.wikimedia.org/wiki/File:Calcific_tendinitis.jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="nofollow noopener" target="_blank">CC BY-SA 3.0</a> · 아래쪽 잘라냄</span></figcaption>
+</figure>
+
+**석회성 건염의 영상 진단 방법 비교** [^1][^2]
+{: .entity-table-caption}
+
+| 검사 종류 | 주요 역할 및 평가 항목 |
+| --- | --- |
+| 단순 방사선 촬영(X-ray) | 석회 침착의 위치·크기·형태 평가 |
+| 초음파 검사 | 석회 침착과 주변 힘줄 상태 평가 및 시술 위치 안내 |
+| MRI | 다른 원인 감별 및 회전근개 파열·부종 보조 평가 |
 
 ## 치료
 보존 치료가 1차이며, 석회성 건염은 자연 흡수가 일어나는 경우가 많아 시간 경과에 따른 호전을 함께 기대할 수 있습니다 [^1]. NSAIDs는 단기 통증 조절에 보조로 사용하고, 견봉하 또는 견봉하-삼각근하 점액낭 스테로이드 주사는 단기 통증 개선에 효과가 있으나 반복 사용은 신중해야 합니다 [^2]. 운동치료는 회전근개 건병증의 표준 흐름과 같이 점진적 부하 운동과 견갑골 안정화를 핵심으로 하며, 급성 흡수기에는 통증 조절 후 단계적으로 적용합니다 [^2].

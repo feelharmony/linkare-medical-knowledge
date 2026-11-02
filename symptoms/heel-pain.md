@@ -27,6 +27,11 @@ version: 2
 ## 정의
 발뒤꿈치 통증(heel pain)은 뒤꿈치 아래, 안쪽, 뒤쪽, 측면에서 느끼는 통증을 포괄하는 증상입니다 [^1][^2]. 가장 흔한 원인은 [족저근막염](/conditions/plantar-fasciitis/)이지만, 모든 뒤꿈치 통증이 족저근막염은 아닙니다. 통증 위치와 시작 양상에 따라 아킬레스건병증, 뒤꿈치 지방패드 통증, 신경 포착, 피로골절, 소아의 Sever disease까지 감별해야 합니다 [^1][^3].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/plantar-fasciitis/plantar-fascia-heel-attachment.webp" alt="발 안쪽에서 비쳐 본 발뼈와 족저근막: 발뒤꿈치뼈 아래에서 발가락 쪽으로 이어지는 흰 띠와 뒤꿈치 부착부의 붉은 통증 표시, 뒤꿈치 뒤쪽의 아킬레스건" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">발뒤꿈치 통증의 가장 흔한 자리: 발뒤꿈치뼈 아래 족저근막 부착부(붉은색) · 뒤꿈치 뒤쪽으로 이어지는 아킬레스건<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 발뒤꿈치는 보행 때 체중을 먼저 받는 부위이므로, 통증이 오래가면 걷기·운동·체중 관리가 함께 무너질 수 있습니다. “족저근막염 하나”로 단정하기보다, 아침 첫발 통증인지, 아킬레스건 부착부 통증인지, 딱딱한 바닥에서 심한 중앙부 통증인지, 운동량 증가 후 뼈 통증인지부터 나누는 편이 안전합니다 [^1][^2].
 
 ## 흔한 원인

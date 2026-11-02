@@ -37,6 +37,15 @@ external_footnote_ids:
   - 9
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 손 관절염은 손가락 마디와 엄지 기저부에 주로 생기는 퇴행성 질환으로, 연골·뼈·인대·활막이 함께 변합니다 [^2].
+- 헤베르덴 결절과 40세 이상 연령, 가족력, 관절 간격 감소를 종합해 진단하며 미란성 아형은 경과가 나쁜 편입니다 [^1][^3].
+- 통증과 기능 저하를 줄이기 위해 교육, 손 운동, 보조기 같은 비약물 치료와 바르는 소염진통제를 1차로 사용합니다 [^5].
+
+</div>
+
 ## 정의
 손 관절염(hand osteoarthritis)은 손가락 끝마디(원위지절간관절, DIP)·중간마디(근위지절간관절, PIP)와 엄지 기저부(첫째 손목손허리관절, CMC)에 주로 생기는 퇴행성 관절 질환입니다. 골관절염은 매우 흔한 질환이며 **손은 골관절염이 가장 흔하게 침범하는 부위**로 보고됩니다 [^2]. 하나의 질환이라기보다 **결절성 지절간관절 관절염, 엄지 기저부 관절염, 미란성 관절염 같은 아형이 모인 이질적인 질환군**으로 이해됩니다 [^1]. 무릎에 생기는 같은 계열의 질환은 [무릎 관절염](/conditions/knee-osteoarthritis/) 항목에서 다룹니다.
 
@@ -58,12 +67,29 @@ version: 1
 
 손가락 마디 통증의 전반적인 감별 흐름은 [손가락 통증](/symptoms/finger-pain/) 항목에서 다룹니다.
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/hand-osteoarthritis/heberden-nodes-fingers.webp" alt="손등 쪽에서 내려다본 양손 손가락 끝부분 사진: 여러 손가락 끝마디 관절이 마디처럼 굵게 튀어나와 있고 한 손가락 끝마디는 붉게 부어 있는 모습" width="960" height="720" loading="lazy">
+  <figcaption markdown="span">헤베르덴 결절: 손가락 끝마디(DIP) 관절이 굵게 튀어나온 손가락들<span class="entity-figure-credit">사진: Drahreg01, <a href="https://commons.wikimedia.org/wiki/File:Heberden-Arthrose.JPG" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="nofollow noopener" target="_blank">CC BY-SA 3.0</a></span></figcaption>
+</figure>
+
 ## 진단
 손 관절염은 **한 가지 검사만으로 확정하지 않고, 여러 소견을 묶어 종합적으로 진단**합니다 [^3]. 개별 검사 하나로는 진단력이 충분하지 않지만 여러 소견을 함께 보면 진단 가능성이 크게 올라갑니다. 예를 들어 헤베르덴 결절만 있을 때 손 관절염일 확률은 약 20%이지만, 여기에 **40세 이상, 결절 가족력, 손가락 관절의 관절 간격 감소**가 함께 있으면 약 88%로 높아집니다 [^3].
+
+<figure class="entity-figure entity-chart" role="img" aria-label="손 관절염일 확률: 소견 조합에 따른 차이 막대그래프">
+  <div class="entity-chart-title">손 관절염일 확률: 소견 조합에 따른 차이</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">헤베르덴 결절만 있을 때<span>결절 단독</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:20.0%"></div><span class="entity-chart-value">20%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">결절 + 40세 이상 + 결절 가족력 + 관절 간격 감소<span>소견 조합</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:88.0%"></div><span class="entity-chart-value">88%</span></div></div>
+  <figcaption markdown="span">헤베르덴 결절 단독과 소견 조합의 손 관절염 진단 확률 비교 [^3]<span class="entity-figure-credit">그래프: Linkbase · Zhang 2009 초록 수치</span></figcaption>
+</figure>
 
 - **진찰**: 침범 관절의 분포(끝마디·중간마디·엄지 기저부), 결절, 부기, 압통, 운동 범위를 확인합니다.
 - **영상 검사**: 뼈·인대·연골·활막의 변화는 단순 방사선, 초음파, MRI로 관찰할 수 있습니다 [^2]. 단순 방사선에서는 골극과 관절 간격 감소가 대표 소견이며 [^1], 초음파는 활막 염증 평가에 쓰입니다 [^1].
 - 진단 권고는 임상 양상, 방사선 소견, 아형, 감별 진단, 혈액 검사, 위험 요인과 동반 질환을 함께 다룹니다 [^3].
+
+<figure class="entity-figure entity-figure--portrait">
+  <img src="/assets/images/entities/hand-osteoarthritis/hand-oa-xray-dip-cmc.webp" alt="손 정면 X-ray: 검지·중지·약지 끝마디 관절의 뼈 끝이 울퉁불퉁하게 변형되어 있고, 엄지 뿌리 쪽 손목 관절도 모양이 변해 어긋나 있는 모습" width="960" height="1445" loading="lazy">
+  <figcaption markdown="span">손 관절염 X-ray(손 정면): 손가락 끝마디(DIP) 관절의 변형 · 엄지 기저부(CMC) 관절의 변형<span class="entity-figure-credit">영상: Hellerhoff, <a href="https://commons.wikimedia.org/wiki/File:Klassische_Heberden-Arthrose_und_deformierende_Rhizarthrose_77W_-_CR_ap_-_001.jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a></span></figcaption>
+</figure>
 
 ### 감별 진단
 - **류마티스 관절염 등 염증성 관절염**: 손허리손가락관절(MCP)과 손목에 새로 생기는 골관절염은 드뭅니다 [^4]. MCP 관절이나 손목이 주로 붓고 아침 강직이 길다면 염증성 관절염을 함께 확인합니다.
@@ -72,6 +98,16 @@ version: 1
 
 ## 치료
 치료는 통증과 기능 저하를 줄이는 데 초점을 둡니다. 권고안은 **치료 목표 설정, 질환 정보 제공, 환자별 맞춤 치료, 공동 의사결정, 비약물·약물·수술 치료를 아우르는 다학제·다면적 접근**을 기본 원칙으로 제시합니다 [^5].
+
+**손 관절염의 주요 치료 방법 비교** [^5][^6][^7]
+{: .entity-table-caption}
+
+| 구분 | 주요 방법 | 권고 수준 및 특징 |
+| --- | --- | --- |
+| 비약물 치료 | 교육, 보조기구, 손 운동, 보조기 | 1차 권고, 엄지 기저부 보조기·운동 강하게 권고 |
+| 약물 치료 | 국소·경구 NSAIDs, 콘드로이틴 황산 | 국소 제제 1차 선택, 경구제는 단기 고려 |
+| 주사 치료 | 관절 내 스테로이드 주사 | 일반적 비권고, 통증 심한 지절간관절에 고려 |
+| 수술 치료 | 수술적 처치 | 보존 치료에도 통증과 기능 저하가 심할 때 검토 |
 
 ### 비약물 치료
 - **교육, 보조기구, 손 운동, 보조기(orthosis)**가 1차적으로 권고되는 비약물 치료입니다 [^5].

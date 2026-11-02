@@ -27,8 +27,22 @@ clinic_footnote_ids: []
 external_footnote_ids: [2, 3, 4, 5, 6]
 version: 5
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 프롤로테라피는 고장성 포도당 등 자극 용액을 인대·건 부착부나 관절에 소량씩 반복 주사해 통증 완화와 기능 회복을 유도하는 비수술 주사 치료입니다 [^2].
+- 적응증별로 근거 강도와 가이드라인 입장이 갈리며, 시술 부위 감염·출혈 경향·종양·알레르기 병력 등이 금기·주의 영역으로 고려됩니다 [^2][^4][^6].
+- 일반적으로 12.5~25% 포도당 용액을 사용해 3~6주 간격으로 3~6회 정도 다지점 주사하며, 환자 반응에 따라 단계적으로 조정합니다 [^2].
+
+</div>
+
 ## 정의
 프롤로테라피(prolotherapy, 증식 치료)는 **고장성 포도당(hypertonic dextrose) 등 자극 용액**을 통증·기능 저하가 있는 인대·건 부착부(entheses)·관절 내부·인접 관절강에 소량씩 반복 주사해 통증 완화·기능 회복을 유도하는 비수술 주사 치료입니다 [^2]. 연속된 회기에 걸쳐 표적 부위에 자극 용액을 전달하며, 시술자가 평가에 기반해 표적·용액·횟수를 조정합니다.
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/prolotherapy/knee-ligament-attachment-injection.webp" alt="무릎 관절 옆면에서 인대가 넙다리뼈에 붙는 자리로 주삿바늘이 들어가고, 인대·힘줄이 뼈에 붙는 여러 자리에 물방울이 표시된 그림" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">프롤로테라피 주사 부위 예시: 무릎 인대·힘줄이 뼈에 붙는 자리(물방울 표시)의 여러 지점<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 가장 많이 사용되는 자극제는 **고장성 포도당**이며, 그 외 sodium morrhuate·페놀·글리세린 같은 용액도 일부 사용됩니다. 임상 근거가 가장 풍부한 영역도 **dextrose prolotherapy**입니다 [^2].
 
@@ -44,6 +58,15 @@ version: 5
 
 ## 적응증
 프롤로테라피의 적응증과 근거 강도는 적응증별로 차이가 있습니다 [^2].
+
+**적응증별 임상 근거 및 가이드라인 평가** [^2][^3][^4][^5][^6]
+{: .entity-table-caption}
+
+| 적응증 | 주요 연구 결과 | 가이드라인 및 한계 |
+| --- | --- | --- |
+| 무릎 골관절염 | 통증·뻣뻣함 유의한 개선, 기능은 비유의 | AAOS 근거 불충분, ACR/AF 조건부 비권고 |
+| 족저근막염 | 통증·기능 개선 효과 보고 | 프로토콜·비교군·연구 간 이질성 한계 |
+| 외측상과염·기타 근골격 통증 | 보존 치료의 한 옵션으로 보고 | 표준 가이드라인의 직접 권고는 제한적 |
 
 ### 무릎 골관절염
 - **Khateri 2024 systematic review with meta-analysis**(Health Sci Rep, interventional studies)는 무릎 골관절염 환자에서 dextrose prolotherapy가 WOMAC **통증**(SMD -0.95, p<0.001)과 **뻣뻣함**(SMD -0.21, p<0.001) 영역에서 유의한 개선을 보고했습니다. **기능 영역**은 prolotherapy 우호 방향이지만 통계적으로 유의하지 않았습니다(SMD 0.20, 95% CI -0.11~0.51, p=0.221) [^3].

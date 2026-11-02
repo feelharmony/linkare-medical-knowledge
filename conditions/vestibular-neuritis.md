@@ -33,6 +33,11 @@ version: 1
 ## 병태
 전정신경염은 바이러스 감염 후 발생하는 전정신경의 신경염증 반응으로 여겨지며, 급성기에는 가돌리늄 조영 증강 소견이 관찰됩니다 [^1].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/vestibular-neuritis/vestibular-nerve-inflammation.webp" alt="속귀와 신경 확대 그림: 반고리관·난형낭·구형낭에서 나오는 전정신경이 붉게 부어 있고, 달팽이관에서 나오는 와우신경은 노란색으로 정상이며 두 신경이 한 줄기로 합쳐지는 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">전정신경염의 병변 위치: 반고리관·난형낭·구형낭에서 나오는 전정신경(붉게 부은 부분) · 달팽이관에서 나오는 와우신경(노란색, 정상) · 두 신경이 합쳐진 줄기<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 급성기 이후에는 뇌가 적응하는 중추 보상 과정이 일어납니다. 이 보상 기간 동안 나타나는 기능적 뇌 영상의 변화는 구조적인 뇌 변화로 이어지며, 이 두 과정은 모두 임상적 회복과 밀접한 연관이 있습니다 [^1].
 
 장기적인 예후는 남은 말초 손상의 크기보다 시각 의존성과 같은 시전정 요인, 불안이나 신체화 성향 등의 심리적 특성, 전정 지각 이상과 더 관련되어 있습니다 [^1].

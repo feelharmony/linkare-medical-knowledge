@@ -33,6 +33,15 @@ external_footnote_ids:
   - 5
 version: 4
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 도수치료는 평가에 기반해 의료진이나 치료사가 손 기술로 관절 가동, 연부 조직, 신경 가동을 다루는 비수술 보존 치료입니다.[^1]
+- 시술 전 통증 양상과 가동 범위를 평가하며, 적색기 양성이 의심되면 치료를 보류하고 영상이나 전문 평가를 우선합니다.[^1][^2]
+- 단독 적용보다는 운동치료, 환자 교육 및 보조 모달리티와 결합한 다중 치료 패키지로 진행하는 것이 표준입니다.[^1][^2]
+
+</div>
+
 ## 정의
 도수치료(manual therapy)는 **평가에 기반해 의료진 또는 치료사가 손 기술로 관절 가동·연부 조직·신경 가동을 다루는** 비수술 보존 치료입니다 [^1]. 진단·통증 양상 평가 후 표적 부위·기법·강도·횟수를 의료진이 결정해 적용하는 점에서 단순 modal 물리치료와 구분됩니다.
 
@@ -43,6 +52,11 @@ version: 4
 - **연부 조직 기법**(soft tissue technique): 근육·근막·건 조직 가동·압박·신장
 - **신경 가동**(neural mobilization): 신경 주행 경로의 가동·신장
 - **근육 에너지 기법, 자세 교정 기법** 등
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/manual-therapy/prone-lumbar-mobilization.webp" alt="엎드린 회색 인체 모형의 허리 위에 두 손을 겹쳐 누르고, 피부 아래 창으로 허리뼈·디스크·엉치뼈와 손 아래 파랗게 표시된 척추뼈가 보이는 그림" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">엎드린 자세의 허리 관절 가동술: 손 아래 허리뼈(파란색 표시)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 기법은 임상 평가에 따라 단독 또는 조합으로 적용되며, 운동치료·환자 교육·[TECAR RF 고주파 치료](/treatments/tecar-rf-therapy/) 같은 보조 모달리티와 결합한 multimodal 패키지가 표준입니다 [^1][^2].
 
@@ -57,6 +71,15 @@ systematic review with network meta-analysis(Nim 2025 JOSPT)는 **척추 도수�
 
 ## 적응증
 도수치료의 적응증은 가이드라인·SR을 통해 정리되며, 영역별 권고 강도와 evidence 수준은 차이가 있습니다.
+
+**적응증별 가이드라인 권고 비교** [^1][^2][^5]
+{: .entity-table-caption}
+
+| 적응증 | 가이드라인 | 권고 내용 |
+| --- | --- | --- |
+| 만성 목 통증 | JOSPT 2017 CPG | 운동치료·도수치료·환자 교육 결합(권고 등급 B) |
+| 허리통증·좌골신경통 | NICE NG59 | 운동을 포함한 치료 패키지의 일부로만 고려 |
+| 외측상과염(테니스엘보) | APTA 2022 CPG | 운동치료·도수치료·환자 교육 등급별 권고 |
 
 ### 만성 목 통증
 **JOSPT 2017 neck pain CPG**(Blanpied et al., APTA)는 만성 목 통증에서 **운동치료·도수치료·환자 교육을 결합한 multimodal 접근을 권고 등급 B**로 제시합니다. 통증 양상에 따라 4유형(가동성 결손·운동조절 결손·두통·방사통)으로 분류해 유형별 도수치료 적용을 제시합니다 [^1]. **Minnucci 2023 systematic review**(JOSPT)는 경추 도수치료가 통증·기능 개선에 효과를 보고하지만 **근거 확실성은 very low**로 평가하며, 부작용은 일시적인 것이 대부분이라고 정리합니다 [^4]. 자세한 평가·치료는 [목 통증](/symptoms/neck-pain/)·[목디스크](/conditions/cervical-disc-herniation/)·[거북목·일자목](/conditions/forward-head-posture/)·[경추기원 두통](/conditions/cervicogenic-headache/) 참고.

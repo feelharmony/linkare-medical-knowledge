@@ -27,6 +27,15 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 자율신경실조증은 심박수·혈압·체온·소화 등을 조절하는 자율신경계의 기능 이상을 묶어 부르는 범주입니다.
+- 교감·부교감·땀 분비 기능 검사를 묶어 기능 저하의 등급과 부위를 정합니다 [^10].
+- 유형에 맞춰 관리하며, 기립성 빈맥 증후군은 운동 훈련과 염분·수분 섭취 등 비약물 치료로 시작합니다 [^2][^5].
+
+</div>
+
 ## 정의
 자율신경실조증(dysautonomia, autonomic dysfunction)은 심박수·혈압·체온·땀·소화·배뇨처럼 의식하지 않아도 조절되는 기능을 맡는 **자율신경계의 조절 이상**을 묶어 부르는 이름입니다. 하나의 질환이라기보다 여러 질환을 아우르는 범주에 가깝습니다.
 
@@ -67,6 +76,16 @@ POTS는 서 있을 때 혈압 저하 없이 심박수가 과도하게 오르며 
 - 기능성 위장관·방광 증상, 만성 두통, 섬유근통, 수면 장애를 함께 호소하는 경우도 많습니다 [^4].
 - **유형마다 두드러지는 증상 영역이 다릅니다** — 자율신경 증상 설문(COMPASS-31)으로 비교한 연구에서 POTS는 피로·기립불내성·동공운동 영역이, 자율신경 부전·신경병증은 땀 분비·위장관·방광·혈관운동 영역이 점수 차이에 크게 기여했습니다 [^8].
 
+<figure class="entity-figure entity-chart" role="img" aria-label="POTS 환자 설문에서 흔했던 증상 막대그래프">
+  <div class="entity-chart-title">POTS 환자 설문에서 흔했던 증상</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">머리 띵함<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:99.0%"></div><span class="entity-chart-value">99%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">빈맥<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:97.0%"></div><span class="entity-chart-value">97%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">실신 전 단계 증상<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:94.0%"></div><span class="entity-chart-value">94%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">두통<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:94.0%"></div><span class="entity-chart-value">94%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">집중 곤란<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:94.0%"></div><span class="entity-chart-value">94%</span></div></div>
+  <figcaption markdown="span">의사 진단을 받은 POTS 환자 4,835명 온라인 설문의 증상 빈도 [^7]<span class="entity-figure-credit">그래프: Linkbase · Shaw 2019 (J Intern Med) 초록 수치</span></figcaption>
+</figure>
+
 ### 불안과의 관계
 POTS 환자는 불안해 보이거나 주의력 저하를 호소하는 일이 많습니다. 그러나 POTS 환자 21명을 정식 평가한 연구에서 주요 우울증이나 공황장애를 포함한 불안장애의 유병률은 일반 인구보다 높지 않았고, 대신 뚜렷한 주의력 저하가 일상 기능 저하의 중요한 원인이 될 수 있는 것으로 나타났습니다 [^9]. 한편 기립불내성으로 설명되지 않는 증상이 많은 경우에는 불안·우울과 연관된 신체 감각 과민, 인지·행동 요인이 증상의 만성화에 함께 작용한다고 설명됩니다 [^4].
 
@@ -83,6 +102,11 @@ POTS 환자는 불안해 보이거나 주의력 저하를 호소하는 일이 �
 - 진단의 표준 검사는 매 박동 혈역학을 비침습적으로 연속 측정하며 시행하는 기립경사검사입니다 [^3].
 - 기립성 저혈압의 혈압 기준과 측정 방법은 [기립성 어지럼](/conditions/orthostatic-dizziness/) 항목에서 다룹니다.
 
+<figure class="entity-figure entity-figure--portrait">
+  <img src="/assets/images/entities/autonomic-dysfunction/head-up-tilt-test.webp" alt="기립경사검사 옆모습: 가파르게 세운 경사대에 환자가 끈으로 고정된 채 발판에 서 있고, 가슴에 심전도 전극과 위팔에 혈압 띠를 단 모습" width="896" height="1200" loading="lazy">
+  <figcaption markdown="span">기립경사검사: 가파르게 세운 경사대 · 가슴의 심전도 전극 · 위팔의 혈압 띠 · 옆의 모니터<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 ### 자율신경 기능 검사
 - 어느 한 검사만으로는 자율신경 기능 저하의 정도나 분포를 판정하기에 충분하지 않아, **교감신경 심혈관(아드레날린성) 기능, 부교감 심장미주신경 기능, 땀 분비(sudomotor) 기능** 검사 점수를 함께 묶어 등급과 부위를 정합니다 [^10].
 - 연령·성별로 보정한 복합 자율신경 중증도 점수(CASS)로 자율신경 부전을 수치화합니다 [^10].
@@ -91,6 +115,16 @@ POTS 환자는 불안해 보이거나 주의력 저하를 호소하는 일이 �
 ### 증상 설문과 심박변이도
 - **COMPASS-31** — 169문항 자율신경 증상 프로파일을 31문항 6개 영역으로 줄인 설문으로, 자율신경 증상 점수를 0~100점으로 산출합니다 [^11]. 내적 일관성과 검사-재검사 신뢰도가 높았고, 객관적 자율신경 기능 검사와의 수렴 타당도(상관계수 0.474)가 확인되어 소섬유 신경병증 객관 검사에 앞선 초기 선별 도구로 제시되었습니다 [^12].
 - **심박변이도(HRV)** — 연속된 심장 박동 사이 간격의 변동을 시간 영역·주파수 영역·비선형 지표로 나타낸 값입니다 [^13]. 기록 시간, 나이, 성별 같은 측정 조건이 기준값에 영향을 주며, 24시간·단기(약 5분)·초단기(5분 미만) 기록의 기준값은 서로 바꿔 쓸 수 없습니다 [^13]. 심박변이도는 앞의 표준 검사 조합을 대신하지 않고, 병력·기립 반응과 함께 해석하는 보조 지표로 다룹니다.
+
+**자율신경 평가 도구 비교** [^3][^4][^10][^11][^12][^13]
+{: .entity-table-caption}
+
+| 평가 도구 | 무엇을 측정하는지 | 진단에서의 역할 |
+| --- | --- | --- |
+| 기립경사검사 | 기립 시 매 박동 혈역학 및 심박수·혈압 변화 | 기립성 빈맥 증후군(POTS) 진단의 표준 검사 |
+| 자율신경 기능 검사 조합(CASS) | 교감신경 심혈관·부교감 심장미주신경·땀 분비 기능 | 자율신경 부전의 등급·부위 판정 및 수치화 |
+| COMPASS-31 | 31문항 6개 영역의 자율신경 증상 점수(0~100점) | 소섬유 신경병증 객관 검사 전 초기 선별 도구 |
+| 심박변이도(HRV) | 연속된 심장 박동 사이 간격의 변동 | 병력·기립 반응과 함께 해석하는 보조 지표 |
 
 ### 감별 진단
 POTS가 의심될 때 평가 목표는 진단 확정, 동반 질환 확인, 같은 증상을 일으키거나 흉내 내는 다른 상태의 배제입니다 [^2]. 구체적으로 다음을 확인합니다 [^4].

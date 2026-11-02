@@ -36,6 +36,11 @@ version: 2
 ## 정의
 삼차신경통은 **얼굴 감각을 맡는 삼차신경(5번 뇌신경)의 한 갈래 이상에서, 가벼운 접촉에 유발되는 한쪽 얼굴의 짧고 전기가 튀는 듯한 발작성 통증**입니다 [^2][^3]. 삼차신경은 이마(안신경)·뺨(상악신경)·턱(하악신경) 세 갈래로 나뉘며, 통증은 대개 뺨과 턱 갈래에 옵니다. 국제두통질환분류(ICHD-3)는 원인에 따라 고전적(혈관 압박으로 신경 변형)·특발성·이차성(다발성경화증·종양 등)으로 나눕니다 [^4].
 
+<figure class="entity-figure entity-figure--portrait">
+  <img src="/assets/images/entities/trigeminal-neuralgia/trigeminal-nerve-vessel.webp" alt="반투명한 머리뼈 안의 뇌와 뇌간 옆에서 나와 이마·뺨·턱으로 갈라지는 파란색 삼차신경, 신경 뿌리 가까이 지나는 붉은 혈관" width="960" height="1200" loading="lazy">
+  <figcaption markdown="span">삼차신경의 주행: 뇌간 옆에서 나와 얼굴로 갈라지는 삼차신경(파란색) · 신경 뿌리 가까이 지나는 혈관(붉은색)<span class="entity-figure-credit">그림: BruceBlaus, <a href="https://commons.wikimedia.org/wiki/File:Trigeminal_Neuralgia.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+
 ## 병태
 - **혈관 압박**: 뇌간에서 신경이 나오는 자리(root entry zone)를 동맥·정맥이 눌러 신경 수초가 벗겨지고, 그 자리에서 비정상 신호가 생깁니다 [^3]. 다만 압박 자체는 증상이 없는 사람에게도 흔해, MRI에서 압박이 보인다는 것만으로 진단하지 않습니다 [^1][^6]
 - **이차성**: 다발성경화증, 뇌간 근처 종양·낭종, 혈관 기형 등 — 임상 소견만으로는 배제할 수 없어 MRI가 권고됩니다 [^1]

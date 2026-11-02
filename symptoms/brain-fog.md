@@ -28,6 +28,15 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 브레인포그는 단일 진단명이 아니라 건망증·집중 곤란·피로 등 머리가 멍하고 생각이 느려지는 경험을 가리키는 표현입니다 [^1].
+- 갑작스러운 혼란이나 마비·언어 이상 등 경고 신호가 있으면 빠른 평가가 필요하고, 치매가 의심될 때는 우울증·섬망처럼 되돌릴 수 있는 상태와 구분합니다 [^18].
+- 경고 신호가 없다면 단일 표준 치료 대신 수면·기분·호르몬 변화·복용 약 등 교정 가능한 원인을 찾아 관리합니다.
+
+</div>
+
 ## 정의
 브레인포그(brain fog)는 단일 진단명이 아니라, 머리가 멍하고 생각이 흐릿하게 느려지는 경험을 가리켜 널리 쓰이는 표현입니다. 이 말은 인지 영역의 어려움을 일상적으로 묘사하는 데 점점 더 많이 쓰이며, 소셜미디어 게시글을 분석한 연구에서 사람들은 이 말로 **건망증, 집중 곤란, 현실감이 떨어지는 듯한 해리 경험, 생각이 느리고 지나치게 애를 써야 하는 느낌, 말하기·의사소통의 어려움, 머리가 뿌옇거나 눌리는 느낌, 피로**를 묘사했습니다 [^1].
 
@@ -53,6 +62,17 @@ version: 1
 - **기능성 인지장애(functional cognitive disorder)**: 인지 증상이 실제로 있고 고통이나 기능 저하를 일으키지만, 퇴행성 뇌질환이나 구조적 병변이 아니라 뇌가 작동하는 방식의 변화로 생기는 상태입니다. 기억력 클리닉을 찾은 환자의 약 4분의 1이 이 범주를 시사하는 진단을 받았고, 정서 증상·부정적 자기 평가·진행하지 않는 경과와 연관되었습니다 [^16]. 핵심 임상 단서는 증상의 내적 불일치입니다 [^17].
 - **경도인지장애·치매 등 신경퇴행성 질환**: 경도인지장애(MCI)는 원인을 가리지 않는 기술적 용어라 다양한 원인을 포함하며, MCI로 진단된 사람 중 상당수는 치매로 진행하지 않습니다 [^17]. 반대로 치매의 초기 신호는 정상 노화로 오인되어 놓치기 쉬워 주의 깊은 평가가 필요합니다 [^18].
 
+**브레인포그 흔한 원인별 특징** [^5][^6][^7][^8][^9][^15][^16][^17]
+{: .entity-table-caption}
+
+| 원인 범주 | 주요 인지 증상·영향 | 임상적 특징 |
+| --- | --- | --- |
+| 수면 부족·수면장애 | 주의력·작업기억·처리 속도 저하 | 단기 수면 박탈·폐쇄성 수면무호흡증 연관 |
+| 우울증 | 실행 기능·기억·주의력 중등도 저하 | 우울 증상 관해 뒤에도 저하 잔존 가능 |
+| 감염 후(코로나19 후유증) | 인지 검사 수행 저하·피로 동반 | 진단 12주 후 약 22%에서 인지 저하 지속 |
+| 기능성 인지장애 | 고통·기능 저하를 부르는 실제 인지 증상 | 증상의 내적 불일치·진행하지 않는 경과 |
+| 약물·물질 | 인지장애 위험 증가(OR 1.45) | 65세 이상 항콜린 작용 약물 노출 연관 |
+
 ## 레드플래그
 다음 신호가 동반되면 빠른 평가가 필요합니다.
 
@@ -70,6 +90,16 @@ version: 1
 
 ## 평가
 브레인포그의 평가는 「무엇이 어떻게 흐린지」를 구체적으로 묻는 병력 청취에서 시작합니다 [^2].
+
+<figure class="entity-figure entity-steps" role="img" aria-label="브레인포그 평가 흐름">
+  <div class="entity-chart-title">브레인포그 평가 흐름</div>
+  <ol class="entity-steps-list">
+    <li><b>병력 청취</b><span>증상의 실제 내용 · 시작 시점과 계기 · 악화 요인 · 수면 · 기분 · 약물</span></li>
+    <li><b>진찰·선별 검사</b><span>신체검사 · 인지 선별 · 혈액검사 · 필요할 때 뇌 영상</span></li>
+    <li><b>검사가 정상인데 계속 멍할 때</b><span>수면 · 기분 · 자율신경 · 감염 후 경과 · 기능성 인지장애 가능성</span></li>
+  </ol>
+  <figcaption markdown="span">평가 순서 [^2][^18]<span class="entity-figure-credit">도식: Linkbase</span></figcaption>
+</figure>
 
 ### 병력 청취
 - **증상의 실제 내용**: 건망증, 집중 곤란, 말이 막히는 느낌, 생각이 느린 느낌, 멍하고 현실감이 떨어지는 느낌, 피로 가운데 무엇이 중심인지 확인합니다 [^1][^2].
@@ -123,6 +153,13 @@ version: 1
 - 항암 치료 관련 인지 저하는 치료 종료 수년 뒤에도 최대 35%에서 남을 수 있습니다 [^14].
 - 우울증의 실행 기능·주의력 저하는 기분이 회복된 뒤에도 남을 수 있습니다 [^7].
 - 기능성 인지장애는 진행하지 않는 경과와 연관되며 [^16], 경도인지장애로 분류된 사람 가운데서도 치매로 진행하지 않는 경우가 상당수입니다 [^17].
+
+<figure class="entity-figure entity-chart" role="img" aria-label="코로나19 진단 12주 이후에도 남은 증상 막대그래프">
+  <div class="entity-chart-title">코로나19 진단 12주 이후에도 남은 증상</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">피로<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:32.0%"></div><span class="entity-chart-value">32%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">인지 저하<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:22.0%"></div><span class="entity-chart-value">22%</span></div></div>
+  <figcaption markdown="span">코로나19 후유증의 피로·인지 저하 비율 [^8]<span class="entity-figure-credit">그래프: Linkbase · Ceban 2022 (Brain Behav Immun) 초록 수치: 81개 연구 체계적 고찰·메타분석</span></figcaption>
+</figure>
 
 증상이 오래 이어지면 처음 평가에서 놓친 수면·기분·약물 요인이 없는지 주기적으로 다시 점검합니다.
 

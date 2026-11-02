@@ -33,6 +33,11 @@ version: 3
 ## 병태
 아킬레스건병증은 크게 중간부(midportion)와 부착부(insertional)로 나눕니다 [^1][^2]. 중간부는 발뒤꿈치뼈 위 2–6cm 부위 통증과 건 두꺼워짐이 흔하고, 부착부는 발뒤꿈치뼈에 붙는 지점의 통증과 신발 뒤축 자극, Haglund 변형, 석회화가 함께 나타날 수 있습니다.
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/achilles-tendinitis/midportion-achilles-thickening.webp" alt="바깥쪽에서 비쳐 본 종아리와 발: 종아리 근육에서 내려온 아킬레스건이 발뒤꿈치뼈 위쪽에서 방추형으로 부풀고 붉게 표시된 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">중간부 아킬레스건병증: 종아리 근육에서 발뒤꿈치뼈로 이어지는 아킬레스건 · 부착부 위쪽에서 방추형으로 두꺼워진 부분과 통증(붉은색)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 위험 요인은 갑작스러운 달리기·등산·점프 증가, 종아리 근력·지구력 부족, 발목 가동성 제한, 회복 부족, 체중 증가, 특정 약물·전신 질환 등입니다 [^2][^3]. 만성 건병증에서는 건 섬유 배열 변화, 혈관·신경 변화, 부하 적응 실패가 관여하므로, 치료는 “염증 제거”보다 점진적 부하 회복과 통증 조절이 핵심입니다 [^3].
 
 ## 증상

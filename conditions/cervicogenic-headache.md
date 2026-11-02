@@ -31,11 +31,25 @@ external_footnote_ids:
   - 6
   - 7
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 경추기원 두통은 상부 경추 구조에서 비롯된 통각 신호가 머리 부위로 전달되어 나타나는 2차성 두통입니다 [^2][^4][^6].
+- 경부 움직임으로 유발되는 편측성 두통과 상부 경추 및 후두신경 차단 시의 통증 호전이 핵심 진단 기준입니다 [^5][^6].
+- 운동치료와 도수치료를 우선 검토하며 단기 약물치료, 신경차단술, 고주파 열응고술 등 단계적 치료를 시행합니다 [^3][^6][^7].
+
+</div>
+
 ## 정의
 경추기원 두통(cervicogenic headache, CGH)은 ICHD-3 분류의 11.2.1 항목에 해당하는 **2차성 두통**으로, 경추(cervical spine) 구조에서 비롯된 통증이 머리 부위로 referred 양상으로 나타나는 두통입니다 [^2]. 1990년대 Sjaastad·Cervicogenic Headache International Study Group(CHISG) 진단 기준이 확립되었으며 [^4][^5], ICHD-3는 이를 기반으로 경추 구조 병변에 의한 2차성 두통으로 분류합니다 [^2]. 더 큰 두통 분류와 감별 진단 흐름은 [두통](/symptoms/headache/) 항목 참고. 자세·근막·신경 자극이 함께 관여하며 [거북목·일자목](/conditions/forward-head-posture/)·[목 통증](/symptoms/neck-pain/) 평가와 연결됩니다.
 
 ## 병태
 경추기원 두통은 상부 경추 구조(C1-C3 후관절·추간판·인대·근육)에서 발생한 통각 신호가 삼차경부 신경핵 복합체(trigeminocervical nucleus)로 수렴되어 머리 부위 통증으로 referred되는 기전으로 설명됩니다 [^4][^6]. 경추 후관절 병변, 추간판 변성, 외상(채찍질 손상), 자세 부담이 흔한 원인으로 보고됩니다 [^4][^6].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/cervicogenic-headache/cervicogenic-referred-pain.webp" alt="머리와 목을 옆뒤에서 본 모습: 윗목 척추 뼈 사이의 붉은 점과 뒤통수에서 옆머리를 지나 이마·눈 주위까지 번진 주황색 통증 영역" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">경추기원 두통의 통증 경로: 윗목 척추 관절(붉은 점)에서 시작해 뒤통수·옆머리·이마·눈 주위로 번지는 통증(주황색)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 ## 증상
 Sjaastad CHISG 1998 진단 기준의 핵심 임상 특징은 다음과 같습니다 [^5]:
@@ -58,6 +72,15 @@ Sjaastad CHISG 1998 진단 기준의 핵심 임상 특징은 다음과 같습니
 - **진단적 신경차단**(상부 경추 후관절 또는 후두신경)으로 통증 호전 — Sjaastad CHISG 기준에서 핵심 진단적 도구로 제시 [^5][^6].
 
 편두통·긴장형 두통과 양상이 겹치는 경우가 있어 ICHD-3 기준과 차이를 함께 고려합니다 — 편두통은 박동성·구역·빛·소리 과민, 긴장형은 양측성 압박 양상으로 구분됩니다 [^2].
+
+**경추기원 두통과 주요 두통 감별** [^2][^5]
+{: .entity-table-caption}
+
+| 구분 | 주요 통증 양상 | 동반 및 유발 특징 |
+| --- | --- | --- |
+| 경추기원 두통 | 편측성, 경부에서 머리로 확산 | 경부 움직임·자세 변화로 유발, 경부 압통 |
+| 편두통 | 박동성 통증 | 구역, 빛·소리 과민 동반 |
+| 긴장형 두통 | 양측성 압박 양상 | 편두통·경추기원 두통과 양상 중복 가능 |
 
 ## 치료
 ### 비약물 치료(1차)

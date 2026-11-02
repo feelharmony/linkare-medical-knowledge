@@ -27,6 +27,11 @@ version: 2
 ## 정의
 다리(leg, lower extremity)는 골반·고관절에서 허벅지, 무릎, 종아리, 발목, 발까지 이어지는 하지 부위를 포괄합니다. 실제 진료와 콘텐츠에서는 고관절·무릎·발목·발 같은 관절 문제, 근육·힘줄·인대 문제, 요추 신경근 문제, 말초신경 포착, 혈관 문제를 함께 감별해야 합니다 [^1][^2].
 
+<figure class="entity-figure entity-figure--portrait">
+  <img src="/assets/images/entities/leg/lower-limb-skeleton-side.webp" alt="옆에서 본 다리 골격: 골반과 고관절, 넙다리뼈, 무릎뼈, 정강뼈·종아리뼈, 발뼈와 반투명한 다리 윤곽" width="896" height="1200" loading="lazy">
+  <figcaption markdown="span">다리 골격: 골반·고관절에서 발까지<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 다리는 체중 부하와 보행을 담당하므로, 통증·저림·부종·힘 빠짐이 생기면 활동량과 균형, 낙상 위험, 운동 지속성이 함께 영향을 받습니다 [^3][^4]. 따라서 다리 entity는 단일 질환 설명보다 [무릎 통증](/symptoms/knee-pain/), [발 통증](/symptoms/foot-pain/), [다리 저림·방사통](/symptoms/leg-numbness/), [허리통증](/symptoms/lower-back-pain/)을 연결하는 상위 허브 역할이 적절합니다.
 
 ## 관련 증상

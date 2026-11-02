@@ -25,6 +25,15 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 이상근증후군은 엉덩이 깊은 곳의 이상근이 좌골신경을 압박해 생기는 좌골신경통입니다 [^1][^3].
+- 엉덩이 통증과 앉을 때 심해지는 통증이 흔하며 병력 청취와 진찰, 전기진단 및 영상 검사로 진단합니다 [^1][^2][^4].
+- 휴식과 약물, 주사, 물리치료를 묶은 보존 치료부터 시작하며 반응이 없으면 수술을 고려합니다 [^4][^11].
+
+</div>
+
 ## 정의
 이상근증후군(piriformis syndrome)은 엉덩이 깊은 곳의 **이상근(piriformis muscle)이 좌골신경을 압박해 생기는 좌골신경통**을 말합니다 [^1][^3]. 70년 넘게 보고되어 온 개념이지만 여전히 논란이 있는 진단입니다 [^1]. 좌골신경통의 원인으로는 비교적 드물지만 무시할 수 없는 비중을 차지하며 [^3], 허리 통증 사례의 0.3~6%를 차지하고 진단에서 자주 놓친다는 보고가 있습니다 [^11].
 
@@ -33,12 +42,24 @@ version: 1
 ## 병태
 이상근은 엉치뼈 앞면에서 시작해 넓적다리뼈 위쪽 바깥(대전자)에 붙는 엉덩관절 근육이며, 좌골신경은 대개 이 근육 바로 아래를 지나 골반 밖으로 나옵니다. 이상근증후군은 이상근 아래 통로(infrapiriformis canal)에서 좌골신경이 눌려 생깁니다 [^8].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/piriformis-syndrome/piriformis-sciatic-nerve.webp" alt="뒤에서 본 엉덩이 깊은 층 해부도: 엉치뼈에서 넓적다리뼈 대전자로 가로지르는 붉은 이상근 바로 아래로 노란 좌골신경이 나와 허벅지 뒤로 내려가는 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">이상근과 좌골신경(엉덩이를 뒤에서 본 모습): 엉치뼈에서 대전자로 이어지는 이상근(붉은색) · 그 바로 아래로 나와 허벅지 뒤로 내려가는 좌골신경(노란색)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 ### 일차성과 이차성
 이상근증후군은 해부학적 변이로 생기는 일차성과 다른 손상·질환에 뒤따르는 이차성으로 나뉘며, 대부분은 이차성입니다 [^11].
 
 ### 해부학적 변이의 의미
 - 45개 연구(7,068개 하지)를 모은 메타분석에서 좌골신경이 하나의 줄기로 이상근 아래를 지나는 정상형이 85.2%였고, 골반 안에서 이미 갈라져 온종아리신경이 이상근을 뚫고 지나는 형태가 9.8%로 그 다음이었습니다. 좌골신경이 정상 경로를 벗어나는 경우는 약 15%였습니다 [^7].
 - 18개 연구 6,062구의 시신에서 이상근·좌골신경 변이의 유병률은 16.9%, 이상근증후군 수술 증례에서는 16.2%로 두 집단 간 차이가 유의하지 않았습니다. 따라서 이런 변이가 **이상근증후군 발생에 생각만큼 중요하지 않을 수 있다**고 해석되었습니다 [^6].
+
+<figure class="entity-figure entity-chart" role="img" aria-label="좌골신경이 이상근을 지나는 형태별 비율 막대그래프">
+  <div class="entity-chart-title">좌골신경이 이상근을 지나는 형태별 비율</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">하나의 줄기로 이상근 아래 통과<span>정상형</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:85.2%"></div><span class="entity-chart-value">85.2%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">골반 안에서 갈라져 온종아리신경이 이상근 관통<span>두 번째로 흔한 형태</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:9.8%"></div><span class="entity-chart-value">9.8%</span></div></div>
+  <figcaption markdown="span">좌골신경 경로 형태 [^7]<span class="entity-figure-credit">그래프: Linkbase · Tomaszewski 2016 (J Orthop Res) 초록 수치: 45개 연구 7,068개 하지 메타분석</span></figcaption>
+</figure>
 
 ### 근육 외 원인
 엉덩이 아래 공간(subgluteal space)에서 좌골신경을 잡아두는 섬유띠, 내폐쇄근·쌍자근, 대퇴방형근, 햄스트링, 둔근 질환 등 여러 병변이 그동안 「이상근증후군」 한 이름 아래 뭉뚱그려져 왔다는 지적이 있습니다. 외상, 의인성, 염증·감염, 혈관, 부인과, 종양성 병변도 같은 공간에서 좌골신경 포착을 일으킬 수 있습니다 [^5].
@@ -63,6 +84,17 @@ version: 1
 - **임상 점수** — 250명의 환자를 디스크성 신경뿌리 병변 환자 30명, 건강인 30명과 비교한 연구에서 12점 임상 점수를 만들었고, 8점 이상을 「가능성 높음」으로 보았을 때 민감도 96.4%, 특이도 100%였습니다 [^8].
 - **영상 검사** — 척추 병변을 배제한 뒤 골반 MRI가 심부 둔부 증후군의 진단과 신경을 누르는 병변 확인에 도움이 됩니다 [^4]. MRI는 심부 둔부 증후군 평가에서 우선 선택되는 영상 검사로, 치료 방향 결정에도 영향을 줍니다 [^5].
 - **진단적 주사** — 침윤 검사(infiltration test)는 진단 가치가 높을 뿐 아니라 치료 가치도 있습니다 [^5].
+
+**이상근증후군 진단 방법 비교** [^2][^4][^5][^8][^9]
+{: .entity-table-caption}
+
+| 진단 방법 | 검사 내용 및 기준 | 진단 가치 및 특징 |
+| --- | --- | --- |
+| 유발 검사 | 다리 펴고 들어올리기 등 진찰 검사 | 진단 정확도 결론 불가, 정상이어도 배제 불가 |
+| FAIR 검사 | 엉덩관절 굽힘·모음·안쪽돌림 자세의 H-반사 지연 | 민감도 0.881, 특이도 0.832, 치료 결과 예측 |
+| 임상 점수 | 12점 임상 점수 중 8점 이상 | 민감도 96.4%, 특이도 100% |
+| 영상 검사 | 척추 병변 배제 후 골반 MRI | 신경 압박 병변 확인, 치료 방향 결정 |
+| 진단적 주사 | 침윤 검사 | 높은 진단 가치 및 치료 가치 |
 
 ### 감별 진단
 - **허리 신경뿌리 통증** — [허리디스크](/conditions/lumbar-disc-herniation/)나 [척추관 협착증](/conditions/spinal-stenosis/)으로 신경뿌리가 눌리면 엉덩이와 다리로 뻗는 좌골신경통이 생깁니다. 이상근이 좌골신경통을 일으킬 수 있다는 점은 입증되었지만, 허리 통증·좌골신경통 환자 가운데 이상근증후군이 차지하는 비율은 아직 확인되지 않았습니다 [^2].

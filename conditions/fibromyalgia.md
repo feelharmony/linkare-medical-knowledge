@@ -33,6 +33,15 @@ external_footnote_ids:
   - 8
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 섬유근육통은 중추신경계에서 통증 신호가 증폭되어 전신 만성 통증과 수면 문제, 탈진감, 인지 어려움이 함께 나타나는 질환입니다 [^1][^2].
+- 진단은 특징적인 증상 묶음의 병력과 광범위 통증 지수 및 증상 중증도 척도를 바탕으로 이루어집니다 [^1][^4].
+- 치료는 환자 교육과 운동 같은 비약물 치료를 우선으로 하며, 증상에 따라 심리 치료나 약물 치료를 단계적으로 추가합니다 [^6].
+
+</div>
+
 ## 정의
 섬유근육통(fibromyalgia)은 **몸 여러 부위에 퍼진 만성 통증**을 중심으로, 개운하지 않은 잠을 포함한 수면 문제, 신체적 탈진감, 인지 기능의 어려움이 함께 나타나는 흔한 질환입니다 [^1]. 기억력 저하와 기분 변화가 동반되는 경우가 많으며, 중추신경계에서 통증 신호가 증폭되는 **"중추화된(centralized)" 통증 상태**로 이해됩니다 [^2].
 
@@ -67,6 +76,15 @@ version: 1
 - **2010년 ACR 예비 진단 기준**은 압통점 검사를 없애고, 통증 부위 수를 세는 **광범위 통증 지수(WPI)** 와 인지 증상·개운하지 않은 잠·피로·신체 증상 수를 합산한 **증상 중증도 척도(SS)** 를 조합했습니다 [^4]. 사례 정의는 (WPI 7 이상 그리고 SS 5 이상) 또는 (WPI 3~6 그리고 SS 9 이상)이며, 이 연구에서 섬유근육통 환자의 약 25%는 1990년 기준을 충족하지 못했습니다 [^4]
 - **2016년 개정**은 국소 통증 질환이 섬유근육통으로 잘못 분류되는 문제를 줄이기 위해 **"전신 통증(generalized pain)" 기준**을 추가했고, 의사 평가와 설문 기준을 통합했으며, 혼란을 주던 진단 배제 권고를 삭제했습니다 [^5]
 
+**섬유근육통 진단 기준의 변화** [^1][^4][^5]
+{: .entity-table-caption}
+
+| 기준 연도 | 핵심 평가 요소 | 주요 특징 |
+| --- | --- | --- |
+| 1990년 ACR 기준 | 여러 개의 압통점, 만성 전신 통증 | 환자의 약 25%가 기준 미충족 |
+| 2010년 ACR 예비 기준 | 광범위 통증 지수(WPI), 증상 중증도 척도(SS) | 압통점 검사 삭제 |
+| 2016년 개정 기준 | 전신 통증 기준 추가, 의사 평가·설문 통합 | 국소 통증 질환의 오분류 감소 |
+
 의사가 평가하는 기준은 개별 환자 진단에 타당하지만, **자가 설문 버전은 개별 환자의 임상 진단에는 타당하지 않고 연구용으로만 타당합니다** [^5]. 온라인 자가 체크 결과만으로 진단을 내리지 않는 이유입니다.
 
 ### 감별 진단
@@ -93,6 +111,14 @@ version: 1
 
 ## 예후
 미국 류마티스 전문의에게 진단받은 환자 1,555명을 최대 11년 추적한 연구에서, 전체 평균으로는 증상 중증도의 **임상적으로 의미 있는 개선이 없었지만**, 약 25%는 통증이 중등도 이상 호전됐습니다(약 10%는 상당한 호전, 약 15%는 중등도 호전) [^8]. 같은 연구에서 44.0%는 추적 중 적어도 한 번 진단 기준을 충족하지 않는 시기를 거쳐, 기준 충족과 비충족 상태를 오가는 경과가 흔했습니다 [^8].
+
+<figure class="entity-figure entity-chart" role="img" aria-label="섬유근육통 환자 1,555명 최대 11년 추적 막대그래프">
+  <div class="entity-chart-title">섬유근육통 환자 1,555명 최대 11년 추적</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">통증 상당한 호전<span>약</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:10.0%"></div><span class="entity-chart-value">10%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">통증 중등도 호전<span>약</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:15.0%"></div><span class="entity-chart-value">15%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">진단 기준 비충족 시기 경험<span>추적 중 적어도 한 번</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:44.0%"></div><span class="entity-chart-value">44.0%</span></div></div>
+  <figcaption markdown="span">섬유근육통의 장기 경과 [^8]<span class="entity-figure-credit">그래프: Linkbase · Walitt 2011 (J Rheumatol) 초록 수치</span></figcaption>
+</figure>
 
 즉 대부분은 증상이 오래 이어지는 경향이 있으나 완만한 호전 추세도 함께 관찰됩니다 [^8]. 증상의 오르내림을 전제로, 운동과 수면 관리처럼 꾸준히 이어 갈 수 있는 관리 계획을 세우는 것이 장기 경과에 중요합니다.
 

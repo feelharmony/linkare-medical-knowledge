@@ -27,11 +27,34 @@ external_footnote_ids:
   - 7
   - 8
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 무릎 골관절염은 무릎 관절 연골이 닳으면서 통증과 움직임 제한을 일으키는 대표적 퇴행성 관절 질환입니다 [^1][^4].
+- 영상 소견인 KL 등급 2 이상과 환자의 증상을 함께 보아 진단하며, 고령·여성·비만 등이 주요 위험 요인입니다 [^2][^3].
+- 치료는 운동, 체중 관리, 약물 등 보존 치료를 우선하며, 이에 반응하지 않는 진행된 단계에서 수술적 치료를 검토합니다 [^4][^5][^6].
+
+</div>
+
 ## 정의
 무릎 골관절염(knee osteoarthritis)은 무릎 관절 연골이 닳으면서 통증과 움직임 제한을 일으키는 대표적 퇴행성 관절 질환입니다 [^1][^4]. 한국인을 대상으로 한 국민건강영양조사(KNHANES 2010~2013) 분석(Hong JW et al., 2020)에서 50세 이상 한국 성인 가운데 영상으로 진단되는 무릎 골관절염(Kellgren-Lawrence 등급 2 이상)이 35.1%(남 24.4%, 여 44.3%)에서 발견되었고, 80세 이상 여성에서는 약 78.7%까지 올라갔습니다 [^3]. 다만 이 연구는 영상 소견에 초점을 맞췄으므로, 영상에서 보이는 정도가 곧바로 환자가 느끼는 통증의 정도를 의미하지는 않습니다 [^3].
 
+<figure class="entity-figure entity-chart" role="img" aria-label="50세 이상 한국 성인의 영상 무릎 골관절염 유병률(KL 2 이상) 막대그래프">
+  <div class="entity-chart-title">50세 이상 한국 성인의 영상 무릎 골관절염 유병률(KL 2 이상)</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">전체<span>50세 이상</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:35.1%"></div><span class="entity-chart-value">35.1%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">남성<span>50세 이상</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:24.4%"></div><span class="entity-chart-value">24.4%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">여성<span>50세 이상</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:44.3%"></div><span class="entity-chart-value">44.3%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">여성<span>80세 이상</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:78.7%"></div><span class="entity-chart-value">78.7%</span></div></div>
+  <figcaption markdown="span">KNHANES 2010~2013 분석 [^3]<span class="entity-figure-credit">그래프: Linkbase · Hong 2020 초록 수치</span></figcaption>
+</figure>
+
 ## 병태
 무릎 관절은 가해지는 부담과 회복 사이의 균형이 무너지면 연골이 더 빨리 닳습니다. 연골 손상이 진행되면 활액막에 염증이 생기거나 연골 아래 뼈(subchondral bone)가 변하고 골극(osteophyte)이 자라날 수 있습니다 [^1]. 한국 KNHANES 분석에서 영상으로 확인되는 무릎 골관절염과 의미 있게 연결된 인자는 고령, 여성, 비만(BMI ≥25), 낮은 교육 수준, 낮은 소득, 농촌 거주로 나타났습니다 [^3]. 임상에서는 과거 무릎 부상, 자주 쪼그려 앉거나 무릎에 부담을 주는 일, 근력 저하 등도 증상이 심해지는 주요 요인으로 봅니다 [^1][^2]. 부담이 더 큰 쪽으로 균형이 기울어 있으면 증상이 잠시 좋아져도 되돌아오기 쉽습니다 [^1].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/knee-pain/normal-vs-osteoarthritis-knee.webp" alt="앞에서 본 무릎 관절 두 개 비교: 왼쪽은 매끈한 연골로 덮인 정상 무릎, 오른쪽은 연골이 거칠게 닳고 갈라진 골관절염 무릎" width="1000" height="679" loading="lazy">
+  <figcaption markdown="span">정상 무릎(왼쪽)과 무릎 골관절염(오른쪽): 매끈한 관절연골 · 닳고 갈라진 관절연골<span class="entity-figure-credit">그림: BruceBlaus, <a href="https://commons.wikimedia.org/wiki/File:Osteoarthritis.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a></span></figcaption>
+</figure>
 
 ## 증상
 초기에는 활동 후나 오래 걸은 뒤 무릎 안쪽이나 뒤쪽이 뻐근하고 무겁게 느껴집니다. 진행하면 계단을 내려갈 때 통증, 무릎을 꿇거나 쪼그려 앉기 어려움, 아침에 무릎이 뻣뻣한 느낌(보통 30분 안에 풀림)이 나타날 수 있습니다 [^1]. 더 진행되면 가만히 있어도 통증이 남고, 밤에 통증 때문에 잠을 깊이 못 자며, 무릎이 휘어 보이거나 부어오를 수 있습니다 [^2]. 영상에서 보이는 정도와 환자가 느끼는 통증 강도가 늘 같이 가지는 않아 개인차가 큽니다 [^3].
@@ -47,6 +70,16 @@ external_footnote_ids:
 무릎 골관절염은 보존 치료가 먼저입니다. 미국 정형외과학회(AAOS) 2021 비수술(nonarthroplasty) 임상진료지침은 29개 권고 중 **운동(감독 운동·자가 운동·수중 운동 모두), 국소 NSAIDs, 경구 NSAIDs, 아세트아미노펜**을 강한 권고로 두고, 과체중·비만 환자의 지속적 체중 감량은 중등도 권고로 둡니다 [^4]. 마약성 진통제(트라마돌 포함)는 통증·기능 개선 효과가 제한적이고 부작용이 늘어 권고되지 않고, 외측쐐기 깔창(lateral wedge insole)도 권고되지 않습니다 [^4].
 
 OARSI 2019 가이드라인도 핵심 치료(core treatment)로 환자 교육, 구조화된 지면 운동(land-based exercise), 체중 관리를 권하고, 국소 NSAIDs를 강한 권고로 둡니다. 위장관 질환이 있는 환자에게는 COX-2 억제제 또는 NSAIDs + PPI를 권하고, 심혈관 질환자나 노쇠한 환자에게는 모든 경구 NSAIDs 사용을 권하지 않습니다 [^5]. 미국 류마티스학회(ACR)·관절염재단 2019 가이드라인도 운동, 체중 감량, 자가관리 교육을 강하게 권고합니다 [^6].
+
+**비수술 치료의 가이드라인 권고 비교** [^4][^5][^6]
+{: .entity-table-caption}
+
+| 치료 방법 | AAOS 2021 | OARSI 2019 | ACR/AF 2019 |
+| :--- | :--- | :--- | :--- |
+| 운동·체중 관리 | 강한/중등도 권고 | 핵심 치료 권고 | 강한 권고 |
+| 국소 NSAIDs | 강한 권고 | 강한 권고 | - |
+| 히알루론산 주사 | 일상적 사용 비권고 | 조건부 선택지 | - |
+| 자가 혈소판 풍부 혈장(PRP) | 제한적 권고 | - | 사용 비권고 |
 
 관절강 내 주사 치료는 가이드라인마다 입장이 다릅니다. 관절강 내 스테로이드(IA corticosteroid)는 단기간 통증 조절에 도움이 될 수 있어, OARSI 2019는 급성기나 단기(4~6주) 사용에 조건부 권고합니다 [^5]. 히알루론산 주사는 AAOS 2021이 일상적 사용을 권고하지 않지만, OARSI 2019는 환자군과 동반 질환에 따라 조건부 선택지로 봅니다 [^4][^5].
 

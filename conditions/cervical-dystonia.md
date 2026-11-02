@@ -42,6 +42,15 @@ external_footnote_ids:
   - 14
 version: 2
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 사경증은 목 근육에 근긴장이상이 나타나 머리와 목이 한쪽으로 돌아가거나 기우는 등 비정상적인 자세를 보이는 상태입니다[^2][^3].
+- 숙련된 의사의 임상 관찰과 진찰을 기준으로 진단하며, 최대 70%에서 동반되는 통증은 장애와 삶의 질 저하를 더하는 요인입니다[^4][^6].
+- 1차 치료로 과도하게 수축하는 목 근육에 보툴리눔 독소 주사를 시행하며, 반응이 부족하면 먹는 약이나 뇌심부자극술을 고려합니다[^2][^9][^10].
+
+</div>
+
 ## 정의
 근긴장이상증(dystonia)은 **지속적이거나 간헐적인 근육 수축으로 비정상적이고 흔히 반복되는 움직임이나 자세가 생기는 운동장애**로 정의되며, 그 움직임은 대개 일정한 패턴을 띤 비트는 양상이고 떨림을 동반할 수 있습니다 [^1]. 사경증(cervical dystonia)은 이 근긴장이상이 목 근육에 나타나 머리와 목이 한쪽으로 돌아가거나 기우는 등 비정상적인 자세를 보이는 상태로, 성인에서 발병하는 국소 근긴장이상증 가운데 가장 흔합니다 [^2][^3]. 방법론이 비교적 견고한 역학 연구들에서 유병률은 인구 100만 명당 28~183명 범위로 추정됩니다 [^3].
 
@@ -66,6 +75,11 @@ version: 2
 - **후굴형(retrocollis)** — 머리가 뒤로 젖혀짐, 29% [^5]
 - **전굴형(anterocollis)** — 머리가 앞으로 숙여짐, 25% [^5]
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/cervical-dystonia/cervical-dystonia-head-postures.webp" alt="회색 인체 모형 머리와 목 네 컷: 고개가 한쪽으로 돌아간 모습, 한쪽 어깨 쪽으로 기운 모습, 뒤로 젖혀진 모습, 앞으로 숙여진 모습과 각각 붉게 표시된 목 근육" width="1000" height="352" loading="lazy">
+  <figcaption markdown="span">머리 방향에 따른 네 가지 양상: 회전형 · 측굴형 · 후굴형 · 전굴형(왼쪽부터), 붉은색은 당기는 목 근육<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 동반 증상은 다음과 같습니다.
 
 - **목·어깨 통증** — 같은 연구에서 68%가 국소 통증을 호소했습니다 [^5]. 통증은 사경증 환자의 최대 70%에서 나타나며, 운동 증상과 별개로 장애와 삶의 질 저하를 더하는 요인입니다 [^6]
@@ -73,6 +87,15 @@ version: 2
 - **목 밖의 근긴장이상** — 진단 시점에 약 20%에서 목 이외 부위의 근긴장이상이 발견되며 [^2], 입·턱·손과 팔의 근긴장이상이나 눈꺼풀 연축(안검연축)이 함께 나타나기도 합니다 [^5]
 - **감각 속임수(sensory trick)** — 특정한 동작이나 접촉으로 근긴장이상이 누그러지는 현상으로, 형태가 다양하고 감각 자극 자체가 핵심이 아닌 경우도 있습니다 [^7]. 턱이나 뺨, 뒤통수에 손을 가볍게 대면 고개가 바로 서는 경우가 대표적입니다. 감각 속임수는 근긴장이상이 있는 뇌에서 비정상적으로 높아진 촉진 대 억제 비율을 낮추는 방식으로 작용한다는 가설이 제시되어 있습니다 [^7]
 - **비운동 증상** — 감각·지각 기능 이상과 신경정신·인지·수면 영역의 변화가 근긴장이상의 비운동 요소로 보고되며 [^8], 2023년 진단 기준에도 비운동 증상이 반영되었습니다 [^4]
+
+<figure class="entity-figure entity-chart" role="img" aria-label="사경증 환자 300명의 동반 소견 막대그래프">
+  <div class="entity-chart-title">사경증 환자 300명의 동반 소견</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">떨림<span>진찰에서 관찰</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:71.0%"></div><span class="entity-chart-value">71%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">국소 통증<span>환자 보고</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:68.0%"></div><span class="entity-chart-value">68%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">운동장애 가족력<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:44.0%"></div><span class="entity-chart-value">44%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">이차성 경추 신경근병증<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:32.0%"></div><span class="entity-chart-value">32%</span></div></div>
+  <figcaption markdown="span">사경증 환자 300명 연구에서 보고된 동반 소견 비율 [^5]<span class="entity-figure-credit">그래프: Linkbase · Jankovic 1991 초록 수치</span></figcaption>
+</figure>
 
 증상은 긴장하거나 오래 서 있을 때 심해지고, 누워 쉬거나 잠든 동안에는 줄어드는 경향이 있습니다.
 
@@ -106,6 +129,15 @@ version: 2
 - 약물이나 보툴리눔 독소로 조절되지 않으면 **담창구 뇌심부자극술**(DBS)이 좋은 선택지로 고려되며, 전문적인 경험과 다학제 팀이 필요합니다 [^9]
 - 보툴리눔 독소나 먹는 약에 충분히 반응하지 않는 환자 62명을 대상으로 한 위(sham)자극 대조 무작위 시험에서 3개월간의 담창구 자극은 위자극보다 증상을 더 줄였습니다 [^11]. 다만 연구진은 일상적 치료로 권고하기 전에 장기 추적이 필요하다고 보았습니다 [^11]
 - 수술적 치료는 보존적 치료에 반응하지 않는 경우로 한정됩니다 [^2]
+
+**사경증의 치료 방법 비교** [^2][^9][^10][^11][^12]
+{: .entity-table-caption}
+
+| 치료 방법 | 적용 시점 | 근거·주의점 |
+| --- | --- | --- |
+| 보툴리눔 독소 주사 | 1차 치료 | 약 75% 호전, 삼킴 곤란·목 근력 약화 부작용, 5~10% 중화항체 발생 |
+| 먹는 약(항콜린제 등) | 보툴리눔 독소 반응 불충분 시 보조 사용 | 보툴리눔 독소 대비 근거 확실성 매우 낮음, 입마름·기억력 문제 |
+| 담창구 뇌심부자극술 | 약물·보툴리눔 독소로 조절되지 않을 때 | 위자극보다 증상 감소, 전문 경험·다학제 팀 및 장기 추적 필요 |
 
 ### 재활·통증 관리
 - 운동 연습, 제약을 둔 훈련, 감각 재조직, 보상 전략 등 여러 재활 치료가 시도되어 왔으나, 국소 근긴장이상에서 재활 치료의 근거 수준은 매우 낮음~낮음으로 아직 결론이 나지 않았습니다 [^13]. 집중적인 운동 연습과, 운동 훈련을 결합한 신경조절이 더 연구할 방향으로 제시되었습니다 [^13]

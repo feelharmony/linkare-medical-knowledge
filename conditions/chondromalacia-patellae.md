@@ -35,6 +35,11 @@ version: 1
 ## 병태
 계단을 내려가거나 몸을 낮출 때 허벅지 앞 근육(대퇴사두근)이 몸무게를 천천히 내려놓느라 무릎뼈를 허벅지뼈 홈에 세게 누릅니다. 이때 무릎뼈가 홈의 가운데를 타지 못하고 바깥으로 쏠리면 연골 한쪽에 부하가 몰립니다. 엉덩이 근육(외전근·외회전근)의 약화, 허벅지 앞 근육의 불균형, 발의 정렬이 이 쏠림에 관여한다고 알려져 있어, 치료 연구는 무릎만이 아니라 엉덩이 근력을 함께 다룹니다 [^2][^3].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/chondromalacia-patellae/patella-cartilage-softening.webp" alt="굽힌 무릎 옆 단면: 무릎뼈 뒷면 연골이 거칠고 갈라져 붉게 표시되고 넙다리뼈·정강뼈 연골은 매끈함" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">무릎뼈 뒷면 연골 연화: 거칠어진 무릎뼈 뒷면 연골 · 매끈한 넙다리뼈 연골<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 여성에게 남성보다 약 두 배 흔하며, 원인은 한 가지가 아닙니다 [^4]. 통증이 오래된 여성은 계단을 내려갈 때 아픈 곳을 피하는 움직임이 통증이 없는 시기에도 남아 있을 수 있어, 젊은 여성 17명을 대상으로 한 3차원 동작 분석에서 이를 확인했습니다 [^5].
 
 ## 증상

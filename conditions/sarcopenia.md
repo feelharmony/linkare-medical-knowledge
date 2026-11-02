@@ -27,8 +27,22 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 근감소증은 골격근의 양과 기능이 빠르게 줄어드는 진행성·전신성 골격근 질환입니다 [^1].
+- 근력, 근육량, 신체 수행을 측정해 진단하며, 낙상·골절·기능 저하·사망 위험 증가와 관련됩니다 [^17][^18].
+- 치료는 저항 운동을 중심으로 한 신체 활동과 충분한 단백질 섭취 등 영양 중재를 결합해 시행합니다 [^6][^13].
+
+</div>
+
 ## 정의
 근감소증(sarcopenia)은 **골격근의 양과 기능이 빠르게 줄어드는 진행성·전신성 골격근 질환**으로, 낙상·기능 저하·노쇠·사망 같은 나쁜 결과가 늘어나는 것과 관련됩니다 [^1]. 유럽 노인 근감소증 작업반의 개정 합의(EWGSOP2)는 근감소증을 생애에 걸쳐 쌓인 근육 변화에서 비롯되는 근육 질환(muscle failure)으로 규정하고, 노년층에 흔하지만 더 이른 나이에도 생길 수 있다고 정리합니다 [^2].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/sarcopenia/calf-muscle-normal-vs-sarcopenia.webp" alt="정상 종아리와 근감소증 종아리를 나란히 놓고 각각의 근육 모습과 종아리 단면을 비교한 그림: 오른쪽은 근육 단면이 작고 바깥 지방층이 상대적으로 두꺼움" width="1000" height="758" loading="lazy">
+  <figcaption markdown="span">정상(왼쪽)과 근감소증(오른쪽)의 종아리: 근육 모습과 단면 · 근감소증에서 작아진 근육(붉은색) 단면<span class="entity-figure-credit">그림: DataBase Center for Life Science (DBCLS), <a href="https://commons.wikimedia.org/wiki/File:202501_Sarcopenia.svg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/4.0" rel="nofollow noopener" target="_blank">CC BY 4.0</a> (아래 영문 표기 잘라 냄)</span></figcaption>
+</figure>
 
 2024년 발표된 GLIS(Global Leadership Initiative in Sarcopenia) 델파이 합의는 근육량·근력·근육 특이 근력(muscle-specific strength)을 근감소증의 **구성 요소**로 두고, 신체 수행 저하는 구성 요소가 아니라 근감소증의 **결과**로 정리했습니다 [^3]. 같은 합의에서 가장 높은 동의(98.3%)를 얻은 진술은 나이가 들수록 근감소증 유병률이 높아진다는 것이었습니다 [^3]. 미국 진단 코드 체계 ICD-10-CM 에 근감소증 코드(M62.84)가 생긴 것은 근감소증을 하나의 질병으로 인정하는 중요한 진전으로 평가됩니다 [^4].
 
@@ -71,6 +85,16 @@ version: 1
 - AWGS 2019 는 종아리 둘레(남성 34 cm 미만, 여성 33 cm 미만), SARC-F 4점 이상, SARC-CalF 11점 이상 가운데 하나로 선별을 시작하며, 지역사회와 병원 환경에 따라 다른 진단 알고리즘을 둡니다 [^12]
 - **가능 근감소증(possible sarcopenia)** — AWGS 2019 는 근력 저하나 신체 수행 저하 **한 가지만** 확인되어도 1차 의료·지역사회 건강 증진 현장에서 '가능 근감소증'으로 분류해 생활 습관 중재를 일찍 시작하도록 했습니다 [^12]
 
+**AWGS 2019 남녀 절단값** [^12]
+{: .entity-table-caption}
+
+| 측정 항목 | 남성 | 여성 |
+| --- | --- | --- |
+| 악력 | 28 kg 미만 | 18 kg 미만 |
+| 근육량(DXA) | 7.0 kg/m² 미만 | 5.4 kg/m² 미만 |
+| 근육량(BIA) | 7.0 kg/m² 미만 | 5.7 kg/m² 미만 |
+| 종아리 둘레(선별) | 34 cm 미만 | 33 cm 미만 |
+
 ### 의자 일어서기 검사
 5회 의자 일어서기 검사는 팔을 가슴 앞에 교차한 채 의자에서 다섯 번 연속으로 일어섰다 앉는 데 걸리는 시간을 잽니다. 일어설 때 팔로 짚어야 한다는 것은 이 검사가 보려는 하지 근력 저하와 같은 방향의 신호일 수 있습니다. 다만 관절 통증이나 신경 질환 때문에도 같은 모습이 나타나므로, 실제 측정과 감별을 거쳐 판단합니다.
 
@@ -102,6 +126,14 @@ version: 1
 
 ### 입원·와병 기간
 침상 안정 10일 만에 하지 근력이 크게 떨어지는 만큼, 입원이나 침상 안정 기간에 노인의 근 기능을 지키는 중재를 찾는 것이 우선 과제로 제시됩니다 [^9].
+
+<figure class="entity-figure entity-chart" role="img" aria-label="10일 침상 안정 뒤 줄어든 폭 막대그래프">
+  <div class="entity-chart-title">10일 침상 안정 뒤 줄어든 폭</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">무릎 펴는 근력<span>건강한 노인 11명</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:13.0%"></div><span class="entity-chart-value">13%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">계단 오르기 파워<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:14.0%"></div><span class="entity-chart-value">14%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">최대 유산소 능력<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:12.0%"></div><span class="entity-chart-value">12%</span></div></div>
+  <figcaption markdown="span">건강한 노인의 10일 침상 안정 전후 비교 [^9]<span class="entity-figure-credit">그래프: Linkbase · Kortebein 2008 (J Gerontol A Biol Sci Med Sci) 초록 수치</span></figcaption>
+</figure>
 
 ## 예후
 - **사망과 기능 저하** — EWGSOP 정의를 쓴 17개 전향 연구의 체계적 고찰에서 근감소증이 있으면 사망 위험이 높았고(통합 오즈비 약 3.6), 79세 이상에서 그 영향이 더 컸습니다 [^17]. 기능 저하(통합 오즈비 3.03), 낙상 증가, 입원 증가와도 관련되었으며, 골절·재원 기간과의 관련성은 이 고찰에서는 분명하지 않았습니다 [^17]

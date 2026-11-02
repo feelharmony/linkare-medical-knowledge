@@ -27,6 +27,15 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 반측성 안면경련은 주로 신경혈관 압박으로 인해 얼굴신경이 지배하는 한쪽 얼굴 근육이 의지와 무관하게 수축하는 만성 질환입니다 [^1][^3][^4].
+- 특징적인 임상 양상으로 진단하며, 얼굴 감각 저하나 근력 약화 같은 비전형 소견이 동반되면 종양 등 공간 점유 병변을 배제합니다 [^8][^10].
+- 우선적인 증상 치료로 3~4개월마다 보툴리눔 독소 주사를 시행하며, 근본적인 완치는 미세혈관감압술로 기대합니다 [^4][^11][^12].
+
+</div>
+
 ## 정의
 반측성 안면경련(hemifacial spasm)은 **얼굴신경(제7뇌신경)이 지배하는 한쪽 얼굴 근육이 본인 의지와 무관하게 불규칙하게 수축하는 운동 질환**입니다 [^1]. 짧게 씰룩이는 간대성(clonic) 수축과 한동안 당긴 채 유지되는 긴장성(tonic) 수축이 간헐적으로 반복되며, 같은 쪽 얼굴신경이 지배하는 근육에 국한됩니다 [^1][^2]. 만성 질환으로 저절로 회복되는 경우는 매우 드뭅니다 [^3]. 피로·카페인과 함께 아래 눈꺼풀만 잠깐 떨리다 멎는 [눈밑떨림](/conditions/eyelid-myokymia/)과는 범위와 경과가 달라 구분해서 평가합니다.
 
@@ -36,6 +45,15 @@ version: 1
 - **일차성(특발성)**: 같은 쪽 얼굴신경의 혈관 압박이 원인으로 추정되는 경우로, 한 운동장애 클리닉에 의뢰된 215명 중 62%를 차지했습니다 [^1]
 - **이차성**: 벨 마비 후유증, 얼굴신경 손상, 탈수초 질환, 뇌혈관 병변이 원인이 되며 같은 분석에서 19%였습니다 [^1]. 드물게 두개 내 종양이 원인으로 확인되기도 합니다 [^2]
 - **유전성**: 같은 분석에서 2%로 드뭅니다 [^1]
+
+<figure class="entity-figure entity-chart" role="img" aria-label="반측성 안면경련으로 의뢰된 환자의 원인 분류 막대그래프">
+  <div class="entity-chart-title">반측성 안면경련으로 의뢰된 환자의 원인 분류</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">일차성(특발성)<span>혈관 압박 추정</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:62.0%"></div><span class="entity-chart-value">62%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">이차성<span>벨 마비 후유증·얼굴신경 손상 등</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:19.0%"></div><span class="entity-chart-value">19%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">닮은 다른 질환<span>심인성·틱·근긴장이상 등</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:18.0%"></div><span class="entity-chart-value">18%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">유전성<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:2.0%"></div><span class="entity-chart-value">2%</span></div></div>
+  <figcaption markdown="span">운동장애 클리닉 의뢰 환자 215명의 원인 분류 [^1]<span class="entity-figure-credit">그래프: Linkbase · Yaltho 2011 (Mov Disord) 초록 수치: 2000~2010년 운동장애 클리닉 의뢰 환자</span></figcaption>
+</figure>
 
 ### 위험 요인
 미국 미네소타주 올름스테드 카운티의 인구 기반 조사에서 유병률은 인구 10만 명당 남성 7.4명, 여성 14.5명으로 **여성에서 약 2배 높았고**, 발생률과 유병률 모두 **40~79세에서 가장 높았습니다** [^5]. 158명을 분석한 임상 코호트에서도 여성이 61%였고 평균 발병 연령은 48.5세였습니다 [^2].
@@ -47,6 +65,11 @@ version: 1
 - 눈이 저절로 감겨 시야를 가리는 불편과 남 앞에서의 당혹감이 가장 흔한 호소였으며 [^2], 독서·운전 같은 일상 활동과 심리사회적 안녕에도 영향을 줍니다 [^8]
 - 한 코호트에서 [삼차신경통](/conditions/trigeminal-neuralgia/) 동반이 5.1%, 벨 마비 과거력이 5.7%였습니다 [^2]
 - 이차성에서는 위·아래 얼굴 근육이 처음부터 함께 침범되는 등 일차성과 임상 양상이 다를 수 있습니다 [^4]
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/hemifacial-spasm/hemifacial-spasm-facial-muscles.webp" alt="얼굴 한쪽의 피부 아래 표정 근육(눈 둘레·뺨·입 둘레 근육)을 드러낸 모습, 그쪽 눈은 반쯤 감기고 반대쪽 얼굴은 정상" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">반측성 안면경련이 침범하는 근육: 한쪽 얼굴의 눈 둘레·뺨·입 둘레 표정 근육(피부 아래로 드러낸 부분) · 반쯤 감긴 같은 쪽 눈<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 ## 진단
 반측성 안면경련은 **특징적인 임상 양상으로 진단하는 임상 진단**이며, 검사는 원인을 확인하고 다른 질환을 가려내는 데 도움을 줍니다 [^8].
@@ -78,6 +101,15 @@ version: 1
 
 ### 그 밖의 방법
 박동성 고주파와 전기침 등이 시도되고 있으나 효과·지속성·안전성 면에서 개선이 더 필요합니다 [^8].
+
+**반측성 안면경련 치료법 비교** [^4][^11][^12]
+{: .entity-table-caption}
+
+| 치료법 | 역할 | 효과 | 특징 및 한계 |
+| --- | --- | --- | --- |
+| 보툴리눔 독소 주사 | 우선적인 증상 치료 | 85~95% 중등도 이상 호전 | 일시적 효과로 3~4개월마다 반복 주사 필요 |
+| 먹는 약 | 약물 치료 (항경련제 등) | 대체로 효과 없음 | - |
+| 미세혈관감압술 | 근본적 완치 기대 수술 | 91.1% 증상 완전 소실 | 재발 2.4%, 드물게 일시적·영구적 마비나 청력 저하 |
 
 ## 예후
 반측성 안면경련은 만성 질환으로 저절로 회복되는 경우는 매우 드뭅니다 [^3]. 다만 158명 코호트를 분석한 연구는 이 질환을 보툴리눔 독소 주사나 미세혈관감압술로 효과적으로 치료할 수 있는 대체로 양성 질환으로 평가했습니다 [^2]. 보툴리눔 독소는 증상을 조절하지만 효과가 일시적이어서 반복 주사가 필요하고, 장기적인 증상 소실은 미세혈관감압술로 기대합니다 [^11]. 수술 후에는 약 10명 중 9명에서 경련이 사라지고 재발률이 낮으며 [^12], 일부는 수술 직후가 아니라 시간이 지나면서 서서히 멎습니다 [^13]. 경과 중 얼굴 감각 저하나 근력 약화 같은 비전형 소견이 새로 생기면 다른 원인을 배제하기 위한 평가가 필요합니다 [^10].

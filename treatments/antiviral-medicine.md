@@ -26,6 +26,15 @@ quality_status: verified
 version: 3
 ---
 
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 대상포진 항바이러스제는 수두대상포진 바이러스의 DNA 합성을 억제해 바이러스 복제와 신경 염증을 줄이는 약물입니다.
+- 증상 시작 후 72시간 이내 투여가 권고되며, 이후라도 새 병변 발생·면역억제·안부 대상포진·심한 급성 통증 시 치료를 검토합니다[^1][^2].
+- 표준 약물 3종을 7일간 경구 투여하며, 약물이 신장으로 배설되므로 신기능 저하 환자는 신경 독성 예방을 위해 용량 조정이 필수입니다[^1].
+
+</div>
+
 ## 정의·기전
 대상포진 항바이러스제는 수두대상포진 바이러스(VZV)의 DNA 합성을 억제하여 바이러스 복제·신경 염증을 줄이는 약물입니다. 임상에서 활용되는 표준 약물 세 가지가 있습니다[^1]. [대상포진](/conditions/zoster/) 진단 직후 **72시간 안에 시작하는 항바이러스 치료**는 PHN 예방 전략의 1차 축입니다.
 
@@ -34,6 +43,11 @@ version: 3
 - **Famciclovir** — Penciclovir의 prodrug, 하루 3회
 
 Valacyclovir·famciclovir가 dosing이 간편해 일반적으로 우선 검토되며, 면역적격 성인의 급성 대상포진 통증 조절 근거도 비교 연구와 네트워크 메타분석에서 다뤄졌습니다[^1][^5]. 항바이러스제는 통증을 직접 차단하는 시술은 아니지만, 바이러스 복제와 병변 진행을 줄여 급성 통증 기간을 낮추고 이후 [대상포진 후 신경통](/conditions/postherpetic-neuralgia/)으로 이어질 위험을 줄이는 초기 레버입니다.
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/shingles-vaccination/zoster-reactivation-path.webp" alt="척추 옆 신경절에 잠복한 수두대상포진 바이러스가 한쪽 신경을 따라 피부로 내려와 띠 모양 발진을 만드는 경로" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">대상포진 재활성화 경로: 바이러스가 잠복한 척추 옆 신경절(보라색) → 신경(노란색) → 같은 쪽 피부의 띠 모양 물집<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 ## 적응증
 
@@ -64,6 +78,15 @@ Acyclovir·valacyclovir·famciclovir는 대상포진 외에 단순 헤르페스(
 - **Valacyclovir** 1,000 mg 1일 3회
 - **Famciclovir** 500 mg 1일 3회 (또는 750 mg 1일 1회 일부 국가)
 - **Acyclovir** 800 mg 1일 5회
+
+**표준 항바이러스제 3종 비교** [^1]
+{: .entity-table-caption}
+
+| 약물 | 특징 | 표준 용법 (7일 경구) |
+| --- | --- | --- |
+| Acyclovir | 1세대 nucleoside analog, 낮은 경구 흡수율 | 800 mg 1일 5회 |
+| Valacyclovir | Acyclovir의 prodrug, 경구 흡수율 향상 | 1,000 mg 1일 3회 |
+| Famciclovir | Penciclovir의 prodrug | 500 mg 1일 3회 |
 
 면역억제 환자, 안부·이성 대상포진, 파종성 대상포진, 신부전 환자 등은 용량·경로 조정이 필요하며, 정맥 acyclovir가 검토되는 경우도 있습니다 — 의료진과 함께 결정합니다[^1].
 

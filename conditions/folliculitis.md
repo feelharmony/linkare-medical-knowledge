@@ -27,6 +27,15 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9]
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 모낭염은 모낭 표층부에 생기는 염증 반응으로, 감염성 원인과 비감염성 원인으로 나뉩니다 [^1][^2].
+- 농포가 보여도 모두 세균 감염은 아니며, 일부 두피 모낭염은 모낭을 파괴해 영구 탈모를 남깁니다 [^1][^2][^3].
+- 세포검사 등으로 원인을 감별해 염증을 조절하고, 염증이 가라앉은 뒤 모낭 보존 여부를 확인합니다 [^2][^7].
+
+</div>
+
 ## 정의
 모낭염(folliculitis)은 **모낭(hair follicle) 표층부에 생기는 염증 반응**으로, 모낭 입구에 국한되기도 하고 모낭 주위 조직까지 번지기도 합니다 [^1]. 나이·인종과 관계없이 생기며, 병변이 늘어난 뒤에야 진료를 받는 경우가 많아 정확한 발생률은 알려져 있지 않습니다 [^2]. 원인은 세균·진균·바이러스·기생충 같은 감염성 원인과 비감염성 원인으로 나뉘고, **농포가 보인다고 해서 모두 세균 감염은 아닙니다** [^1][^2].
 
@@ -34,6 +43,11 @@ version: 1
 
 ## 병태
 모낭-피지샘 단위(pilosebaceous unit)는 피지샘관이 열리는 곳까지의 **누두부(infundibulum)**, 피지샘관과 입모근 부착부 사이의 **협부(isthmus)**, 그 아래 모간·모구가 있는 **하부**로 나뉩니다. 염증이 어느 구획에 자리하는지가 모낭염의 임상 양상을 해석하고 유형을 분류하는 기준이 됩니다 [^1].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/scalp/scalp-layers.webp" alt="머리뼈 위 두피 층을 입체로 자른 그림: 모발과 모낭, 모낭 옆 피지샘과 털세움근, 혈관·신경, 피하지방, 모상건막, 머리뼈" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">두피 층 구조: 모낭 · 피지샘 · 털세움근 · 혈관·신경 · 피하지방 · 모상건막 · 머리뼈<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 ### 원인별 기전
 - **세균성 모낭염**: 가장 흔한 원인균은 황색포도알균(*Staphylococcus aureus*)입니다 [^2]. 모낭과 모낭 주위 조직에 염증이 생기며, 일부는 저절로 가라앉지만 일부는 치료하지 않으면 주변 조직까지 침범하는 종기(절종, furuncle)로 진행합니다 [^4].
@@ -52,6 +66,11 @@ version: 1
 - **탈모성 모낭염·다발모 모낭염(tufted hair folliculitis)**: 주로 두피에서 모낭 염증·농포·딱지가 반복되고 반흔성 탈모로 이어지며, 삶의 질에 미치는 영향이 큽니다 [^9]. 가려움과 두피 통증(trichodynia), 홍반·농포·딱지, 탈모반의 확장이 질환 활동성을 판단하는 지표로 쓰입니다 [^8].
 
 아프고 붉은 두피 뾰루지가 같은 자리에 반복되거나, 염증이 가라앉은 자리에서 모발이 다시 나지 않고 두피가 매끈해지면 반흔성 경과를 의심하고 평가해야 합니다.
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/folliculitis/nape-hairline-folliculitis.webp" alt="뒷머리 경계와 목덜미에 흩어진 모낭 중심의 붉은 구진과 농포, 머리를 위로 묶은 뒷모습" width="500" height="373" loading="lazy">
+  <figcaption markdown="span">뒷머리 경계와 목덜미의 모낭염: 모낭 중심의 붉은 구진·농포<span class="entity-figure-credit">사진: Lforlav, <a href="https://commons.wikimedia.org/wiki/File:Folliculitis_at_the_back_of_hair_scalp_which_also_spread_to_upper_part_of_the_back_body.jpeg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="nofollow noopener" target="_blank">CC BY-SA 3.0</a></span></figcaption>
+</figure>
 
 ## 진단
 모낭염 진단은 **병변 모양으로 모낭염임을 확인하는 단계**와 **원인을 감별하는 단계**로 나뉩니다. 모낭성 구진·농포는 대개 세균성으로 보고 국소·전신 항균 치료를 하지만, 원인을 확인하지 않으면 항균제가 수개월에서 수년간 잘못 쓰일 위험이 있습니다 [^2].
@@ -72,6 +91,16 @@ version: 1
 
 ## 치료
 치료는 **원인 감별 → 염증 조절 → 염증이 가라앉은 뒤 모낭 보존 여부 확인**의 순서로 진행합니다. 원인을 확인하지 않은 채 항균제를 오래 쓰는 것은 피해야 합니다 [^2].
+
+**원인별 모낭염 유형 비교** [^2][^3][^4][^6][^7][^8][^9]
+{: .entity-table-caption}
+
+| 구분 | 세균성 모낭염 | 말라세지아 모낭염 | 탈모성 모낭염 |
+| --- | --- | --- | --- |
+| 주요 원인 | 황색포도알균 등 세균 | 지질친화성 효모(말라세지아) | 호중구 주도 반흔성 염증 |
+| 특징 병변 | 모낭·주위 염증, 종기 진행 가능 | 상부 체간의 가려운 구진농포 | 두피 농포·딱지 반복, 반흔성 탈모 |
+| 확인 방법 | 세포검사, 세균 배양·감수성 검사 | 현미경 효모 확인, 조직검사 | 트리코스코피, 조직검사, 경과 관찰 |
+| 치료 목표 | 범위·원인균에 맞춘 염증 조절 | 염증 조절 및 재발 예방 | 염증 조절 및 추가 탈모 방지 |
 
 ### 세균성 모낭염
 세균성 모낭염과 종기에서 검토된 치료는 국소 항생제, 과산화벤조일 같은 국소 소독제, 전신 항생제, 광치료, 절개 배농입니다 [^4]. 무작위 대조시험 18편(1,300명)을 분석한 Cochrane 체계적 문헌고찰에서는 국소 항생제와 국소 소독제, 국소 항생제와 전신 항생제, 광치료와 위약 광선을 직접 비교한 시험이 없었고, 경구 항생제끼리 비교한 시험에서는 효과·안전성의 의미 있는 차이가 확인되지 않았습니다 [^4]. 약제 선택은 병변의 범위와 깊이, 원인균 정보를 바탕으로 개별적으로 판단합니다.

@@ -27,6 +27,15 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 두피 가려움은 피부과적·신경병성·전신성·심인성 등 여러 기저 질환에서 생기는 흔하고 까다로운 증상입니다 [^1][^2].
+- 피부 병변과 탈모 동반 여부를 기준으로 평가하며 반흔성 탈모가 동반되면 영구 탈모로 이어질 수 있습니다 [^2][^10].
+- 악화 요인을 없애고 원인 질환에 맞춘 국소·전신 치료를 단계적으로 조합하여 관리합니다 [^1][^3].
+
+</div>
+
 ## 정의
 두피 가려움(scalp pruritus, scalp itch)은 피부과 진료에서 흔히 마주치는 호소로, **여러 기저 질환에서 생기기 때문에 진단과 치료가 모두 까다로운 증상**입니다 [^1][^2]. 가려움이 두피에만 머물기도 하고 다른 부위로 번지기도 하며, 특정 피부 질환이나 피부 변화와 관련되기도 하고 문지르거나 긁어서 생긴 이차 병변과 관련되기도 합니다 [^1]. 눈에 띄는 원인 없이 두피가 가려운 환자도 드물지 않아, 환자와 의료진 모두에게 부담이 되는 상황이 자주 생깁니다 [^2].
 
@@ -35,6 +44,11 @@ version: 1
 ## 병태
 ### 두피의 신경 구조
 두피는 **신경이 촘촘하게 분포한 모낭과 풍부한 진피 혈관**으로 이루어진 독특한 신경 구조를 갖고 있습니다 [^4]. 가려움의 병태생리 연구가 진전되었음에도 2011년 총설 시점까지 두피 가려움 자체는 거의 연구되지 않았다고 지적되었으며, 이 총설은 두피·모낭의 신경생물학과 가려움 매개 물질을 정리해 두피 가려움의 가능한 기전을 제안했습니다 [^4].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/scalp/scalp-layers.webp" alt="머리뼈 위 두피 층을 입체로 자른 그림: 모발과 모낭, 피지샘, 털세움근, 모낭 사이로 뻗은 혈관·신경, 피하지방, 모상건막, 머리뼈" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">두피 층 구조: 모낭 · 피지샘 · 털세움근 · 진피 혈관·신경 · 피하지방 · 모상건막 · 머리뼈<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 ### 원인 분류
 두피 가려움은 기저 질환에 따라 **피부과적·신경병성·전신성·심인성** 두피 가려움으로 나눌 수 있습니다 [^1]. 국제 가려움 연구 포럼(IFSI)의 임상 분류는 먼저 피부 소견을 기준으로 다음 세 군을 나눕니다 [^5].
@@ -57,6 +71,14 @@ version: 1
 - **민감성 두피**: 유발 요인에 의해 홍반이나 통증·따끔거림·화끈거림·가려움 같은 주관적 증상이 나타나는 상태로, 두피가 아프거나 화끈거리는 두피 통증(trichodynia)도 여기에 포함되는 것으로 봅니다 [^11].
 - **반흔성 탈모에 동반된 가려움**: 편평태선모공염·전두부 섬유화 탈모 환자 61명 중 73.8%가 두피 가려움을 호소했고, 찌릿한 느낌(19.7%)이나 화끈거림(14.8%)이 함께 나타나는 경우가 많았습니다. 땀·열·스트레스·뜨거운 물에서 심해지고 찬물·찬 공기에서 덜해지는 경향이 보고되었습니다 [^9].
 
+<figure class="entity-figure entity-chart" role="img" aria-label="편평태선모공염·전두부 섬유화 탈모 환자의 두피 증상 (61명) 막대그래프">
+  <div class="entity-chart-title">편평태선모공염·전두부 섬유화 탈모 환자의 두피 증상 (61명)</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">두피 가려움<span>itching of the scalp</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:73.8%"></div><span class="entity-chart-value">73.8%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">찌릿한 느낌 동반<span>tingling</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:19.7%"></div><span class="entity-chart-value">19.7%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">화끈거림 동반<span>burning</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:14.8%"></div><span class="entity-chart-value">14.8%</span></div></div>
+  <figcaption markdown="span">편평태선모공염·전두부 섬유화 탈모 환자 61명 중 증상 호소 비율 [^9]<span class="entity-figure-credit">그래프: Linkbase · Kołcz 2024 초록 수치</span></figcaption>
+</figure>
+
 가려운 자리에서 머리카락이 함께 줄거나, 모낭 둘레에 각질과 붉은 기가 남거나, 이마선이 조금씩 뒤로 물러나는 경우에는 단순 비듬으로 보지 않고 탈모 동반 여부를 함께 평가합니다.
 
 ## 진단
@@ -66,6 +88,15 @@ version: 1
 체계적 문헌고찰은 두피 가려움을 **피부 병변이 있는지**, **탈모가 있는지**의 두 축으로 나누어 접근하고, 흔한 원인부터 먼저 생각한 뒤 드문 원인을 배제하도록 제안합니다 [^2]. 평가는 듣기(listen)·보기(look)·만지기(touch)·확대해 보기(magnify)·검체 채취(sample)의 5단계로 진행합니다 [^2]. IFSI 분류도 일차·이차 피부 병변이 있는지를 첫 기준으로 삼습니다 [^5].
 
 피부 병변이 보이면 지루피부염·건선 같은 염증성 두피 질환을, 탈모가 함께 있으면 반흔성과 비반흔성 탈모를 구분하고, 병변 없이 가렵기만 하면 신경성·전신성·심인성 원인까지 범위를 넓혀 봅니다.
+
+**진단 축에 따른 원인 범주 비교** [^2][^5]
+{: .entity-table-caption}
+
+| 임상 양상 | 먼저 검토할 원인 범주 |
+| --- | --- |
+| 피부 병변이 보일 때 | 지루피부염·건선 같은 염증성 두피 질환 |
+| 탈모가 함께 있을 때 | 반흔성 탈모와 비반흔성 탈모 구분 |
+| 병변 없이 가렵기만 할 때 | 신경성·전신성·심인성 원인 |
 
 ### 원인 질환별 확인
 - **지루피부염**: 병변의 위치와 모양으로 진단하는 임상 진단입니다 [^6].

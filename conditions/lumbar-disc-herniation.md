@@ -28,11 +28,25 @@ external_footnote_ids:
   - 8
   - 9
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 허리디스크는 척추뼈 사이의 추간판 수핵이 탈출해 신경을 압박하고 염증과 방사통을 유발하는 상태입니다 [^1].
+- 배뇨 장애, 회음부 감각 저하, 양측 하지 근력 약화 등이 나타나면 마미증후군 가능성으로 응급 평가가 필요합니다 [^1][^2][^7].
+- 대부분 6~12주간의 약물 및 운동 등 보존적 치료로 호전되며, 반응이 없거나 신경학적 결손이 진행되면 수술을 고려합니다 [^1][^2][^4].
+
+</div>
+
 ## 정의
 허리디스크는 척추뼈 사이의 추간판이 탈출하여 신경을 압박하는 상태를 말합니다. 추간판은 중심부의 수핵과 이를 둘러싼 섬유륜으로 구성되며, 추간판 탈출 시 통증과 신경학적 증상을 유발할 수 있습니다 [^1]. 한국 19세 남성 인구 기반 연구(Kim DK et al., 2011, n=39,673)에서 유병률은 약 0.60%로 보고되며, 가장 흔한 탈출 부위는 L4/5(약 50.6%)와 L5/S1(약 40.8%)입니다 [^8].
 
 ## 병태
 디스크 탈출은 섬유륜이 찢어지면서 수핵이 밖으로 빠져나오는 현상입니다. 탈출한 디스크 물질은 신경근이나 척수를 압박하고 염증 반응을 유발해 증상을 악화시킵니다 [^1]. 탈출 형태는 진행 정도에 따라 bulging, protrusion, extrusion, sequestration의 4단계로 구분되며, 형태에 따라 자연 회복 가능성과 임상 경과가 다릅니다 [^3][^9].
+
+<figure class="entity-figure entity-figure--portrait">
+  <img src="/assets/images/entities/lumbar-disc-herniation/herniated-disc-nerve-root.webp" alt="허리뼈 두 마디를 옆에서 본 그림 두 개: 위는 파란 디스크와 그 뒤로 내려가는 신경근이 정상인 모습, 아래는 위아래로 눌린 디스크가 뒤쪽으로 튀어나와 신경근을 누르고 그 자리가 붉게 표시된 모습, 배경에 뒤에서 본 척추와 아래 허리 확대 원" width="768" height="1024" loading="lazy">
+  <figcaption markdown="span">디스크 탈출과 신경근 압박(옆모습): 정상 디스크와 신경근(위) · 눌려 뒤쪽으로 튀어나온 디스크가 신경근을 누르는 자리(아래, 붉은색) · 배경 원: 아래 허리 확대<span class="entity-figure-credit">그림: BruceBlaus, <a href="https://commons.wikimedia.org/wiki/File:Herniated_Disc.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/3.0" rel="nofollow noopener" target="_blank">CC BY 3.0</a></span></figcaption>
+</figure>
 
 ## 증상
 허리디스크의 초기 증상으로는 허리 통증과 뻣뻣함이 있으며, 신경 압박으로 인한 방사통이 나타날 수 있습니다. 특히 한쪽 다리의 저림과 당김이 먼저 발생하는 경우가 많습니다 [^1][^2]. 아침에 일어날 때 뻣뻣함을 느끼거나, 오래 앉아 있다가 일어설 때 통증이 심해질 수 있습니다. 기침이나 재채기를 할 때 허리에 날카로운 통증이 생기기도 합니다 [^1].
@@ -47,6 +61,16 @@ external_footnote_ids:
 
 ## 진단
 허리디스크 진단은 병력 청취와 신경학적 검사, MRI 및 CT 영상 검사를 통해 이루어집니다. MRI는 디스크 탈출의 위치와 정도를 가장 정확하게 보여주며, CT는 뼈의 구조를 보는 데 유용합니다. NASS 임상 가이드라인은 MRI를 핵심 영상 검사로 권고하며, MRI가 금기이거나 비결정적인 경우 CT 또는 CT myelography를 고려하도록 제시합니다 [^6]. 임상적으로 허리디스크 환자가 무릎·하지 질환으로 오인하여 타과 진료를 받은 뒤 뒤늦게 요추 MRI를 시행하는 사례가 많습니다 [^2]. 하지직거상검사(SLR test)로 신경근 자극 여부를 확인하고, 근력과 감각, 반사를 평가해 어느 신경이 눌렸는지 추정합니다 [^1]. NASS 가이드라인은 manual muscle testing, sensory testing, supine straight leg raise, Lasegue sign, crossed Lasegue sign을 진단 검사로 함께 권고합니다 [^6].
+
+**허리디스크 진단 검사 비교** [^1][^6]
+{: .entity-table-caption}
+
+| 검사 이름 | 확인 내용 |
+| --- | --- |
+| MRI | 디스크 탈출의 위치와 정도 |
+| CT | 뼈의 구조 |
+| 하지직거상검사(SLR test) | 신경근 자극 여부 |
+| 근력·감각·반사 평가 | 눌린 신경 추정 |
 
 증상이 얼마나 지속되었는지가 예후를 결정하는 중요한 요인입니다. [^1]
 
@@ -63,6 +87,15 @@ external_footnote_ids:
 대부분의 환자는 6~12주 내 보존 치료로 증상이 호전되며, 영상학적 재흡수와 기능 회복은 수개월에 걸쳐 진행될 수 있습니다 [^1][^2][^3][^9]. 증상이 장기간 지속되는 경우 회복 기간이 더 길어질 수 있으며, 다리 저림이 동반된 경우 적절한 시점에 평가받는 것이 회복에 도움이 됩니다.
 
 2024년 메타분석(Zou T et al., 31개 연구·2,233명)에 따르면 보존 치료 후 영상학적 자발적 재흡수율은 약 70.39%이며, 형태별로 sequestration 약 87.77%, extrusion 약 66.91%, protrusion 약 37.53%, bulging 약 13.33%로 보고됩니다. 대부분의 재흡수는 6개월 이내에 발생하며, 국가별 하위분석에서 한국은 약 83.52%로 일본(약 66.98%), 미국(약 61.66%), 중국(약 60.68%) 등 다른 주요 국가들보다 비교적 높은 재흡수율이 관찰되었습니다 [^9].
+
+<figure class="entity-figure entity-chart" role="img" aria-label="탈출 형태별 자발적 재흡수율 막대그래프">
+  <div class="entity-chart-title">탈출 형태별 자발적 재흡수율</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">분리(sequestration)<span>보존 치료 후 영상 재흡수</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:87.77%"></div><span class="entity-chart-value">87.77%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">탈출(extrusion)<span>보존 치료 후 영상 재흡수</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:66.91%"></div><span class="entity-chart-value">66.91%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">돌출(protrusion)<span>보존 치료 후 영상 재흡수</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:37.53%"></div><span class="entity-chart-value">37.53%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">팽윤(bulging)<span>보존 치료 후 영상 재흡수</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:13.33%"></div><span class="entity-chart-value">13.33%</span></div></div>
+  <figcaption markdown="span">탈출 형태와 영상학적 자발적 재흡수율 [^9]<span class="entity-figure-credit">그래프: Linkbase · Zou 2024 (Clin Spine Surg) 초록 수치: 보존 치료 31개 연구 2,233명 메타분석</span></figcaption>
+</figure>
 
 ---
 

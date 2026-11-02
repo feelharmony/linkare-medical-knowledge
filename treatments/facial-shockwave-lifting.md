@@ -41,6 +41,11 @@ version: 0.1-stub
 
 체외충격파는 물리적 음향 에너지를 조직에 전달해 생체 신호로 치환하는 에너지 변환 원리로 작동합니다. 근골격 영역의 체외충격파(ESWT)와 같은 물리 기전을 공유하되, 안면 리프팅은 통증 치료보다 낮은 강도의 반복 자극으로 진피·피하 조직의 미세 자극과 회복 반응(미세순환·콜라겐 재형성)에 초점을 둡니다.
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/facial-shockwave-lifting/skin-layers-acoustic-waves.webp" alt="표피, 물결 모양 콜라겐 섬유와 섬유모세포·모세혈관이 있는 진피, 노란 피하지방 층의 피부 단면 위에 둥근 흰색 도구 끝이 닿고 접점에서 옅은 파란 동심원 파동이 진피로 퍼지는 그림" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">피부 단면과 음향 충격파 전달: 표피 · 진피(콜라겐 섬유) · 피하지방<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 - **비열성(non-thermal)** — 열로 조직을 응고시키는 초음파(HIFU)·고주파(RF) 방식과 달리, 음향 충격파는 기계적 자극으로 회복 반응을 유도해 열 손상 위험이 상대적으로 낮습니다.
 - **에너지 전달 깊이 조절** — 장비에 따라 깊이별 적용 모듈을 두어 표적 조직 깊이를 달리할 수 있습니다.
 - **다점 전달 방식** — 일부 장비는 한 번의 조사로 여러 지점에 분산 전달해 시술 면적을 넓힙니다.

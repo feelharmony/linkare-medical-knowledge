@@ -26,6 +26,15 @@ external_footnote_ids: [1, 2, 3, 5, 6]
 version: 3
 ---
 
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 안드로겐성 탈모의 표준 약물 치료는 혈관을 확장하고 모낭 성장기를 연장하는 미녹시딜과 DHT를 억제하는 5α-reductase 억제제로 구성됩니다.
+- 미녹시딜은 체모 증가와 심혈관 증상 가능성을 확인하며, 5α-reductase 억제제는 성기능 부작용과 임신부 노출 금기가 핵심 주의사항입니다[^1][^2][^3].
+- 미녹시딜 외용제와 피나스테리드 1 mg/일이 FDA 승인 표준 치료이며, 환자 특성에 따라 두타스테리드나 재생 시술을 단독 또는 병용합니다[^1][^4][^5].
+
+</div>
+
 ## 정의·개요
 안드로겐성 탈모(AGA, androgenetic alopecia)의 표준 약물 치료는 두 가지 작용 기전을 가진 약물군으로 구성됩니다.
 
@@ -33,6 +42,11 @@ version: 3
 - **5α-reductase 억제제(5ARI)** — 안드로겐(DHT) 억제. 피나스테리드(finasteride, type II 선택적), 두타스테리드(dutasteride, type I·II 이중 억제)가 있습니다.
 
 미녹시딜 외용제(2·5%)와 피나스테리드 1 mg/일이 미국 FDA에서 AGA 적응증으로 승인된 표준 치료입니다[^1]. 두타스테리드는 BPH(전립선 비대) 적응증이 1차 승인이지만 AGA에 off-label로 활용되며, 네트워크 메타분석과 체계적 문헌고찰에서 피나스테리드 대비 효과가 우월하다고 보고됩니다[^1][^5][^6].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/androgenetic-alopecia/follicle-miniaturization.webp" alt="두피 피부 단면에 나란히 그린 모낭 세 개: 굵고 깊은 모낭, 더 작고 가는 모낭, 진피 위쪽에 얕게 자리한 아주 작은 모낭과 가는 솜털" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">모낭 축소(미세화) 진행: 굵은 성장모 모낭에서 얕고 작은 모낭으로<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 ## 약물별 evidence
 
@@ -42,10 +56,30 @@ version: 3
 - 일반적 용량: 남성 AGA 1~5 mg/일, 여성형 탈모 0.5~1 mg/일, 최대 5 mg/일[^2].
 - 외용제(2·5%)는 1일 1~2회 도포가 표준이며, 경구 제제는 외용제 부작용(국소 자극·접촉 피부염) 또는 외용 순응도 문제 환자에서 검토됩니다.
 
+<figure class="entity-figure entity-chart" role="img" aria-label="저용량 경구 미녹시딜 부작용 빈도 (1,404명) 막대그래프">
+  <div class="entity-chart-title">저용량 경구 미녹시딜 부작용 빈도 (1,404명)</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">체모 증가<span>hypertrichosis</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:15.1%"></div><span class="entity-chart-value">15.1%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">어지럼증<span>lightheadedness</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:1.7%"></div><span class="entity-chart-value">1.7%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">체액 저류<span>fluid retention</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:1.3%"></div><span class="entity-chart-value">1.3%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">빈맥<span>tachycardia</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:0.9%"></div><span class="entity-chart-value">0.9%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">두통<span>headache</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:0.4%"></div><span class="entity-chart-value">0.4%</span></div></div>
+  <figcaption markdown="span">탈모 환자 1,404명 다기관 연구의 부작용 발생률 [^3]<span class="entity-figure-credit">그래프: Linkbase · Vañó-Galván 2021 초록 수치</span></figcaption>
+</figure>
+
 ### 피나스테리드·두타스테리드 (5ARI)
 - **피나스테리드 1 mg/일** — type II 5α-reductase 선택적 억제로 두피·혈청 DHT를 약 64~68% 감소시킵니다. 1997년 FDA 승인된 남성 AGA 표준 치료[^1].
 - **두타스테리드 0.5 mg/일** — type I·II 이중 억제로 DHT 억제 폭이 더 넓습니다. AGA에 대한 network 메타분석에서 피나스테리드 1 mg/일 대비 효과가 더 우월하다고 보고됩니다[^1].
 - 둘 다 약물 중단 시 효과가 점차 소실되므로 장기 복용이 일반적입니다.
+
+**안드로겐성 탈모 약물 4종 비교** [^1][^2][^3]
+{: .entity-table-caption}
+
+| 약물 | 작용 기전 | 용량·용법 | FDA 지위·주요 부작용 |
+| --- | --- | --- | --- |
+| 외용 미녹시딜 | 혈관 확장·모낭 성장기 연장 | 2·5%, 1일 1~2회 도포 | AGA 승인 / 국소 자극·체모 증가 |
+| 저용량 경구 미녹시딜 | 혈관 확장·모낭 성장기 연장 | 남성 1~5 mg/일, 여성 0.5~1 mg/일 | 체모 증가·어지럼증·체액 저류 |
+| 피나스테리드 | type II 5α-reductase 선택적 억제 | 1 mg/일 | 남성 AGA 승인 / 성기능 부작용 |
+| 두타스테리드 | type I·II 5α-reductase 이중 억제 | 0.5 mg/일 | BPH 1차 승인(AGA off-label) / 성기능 부작용 |
 
 ### 약물 간 비교·병용
 - 미녹시딜 + 5ARI 병용은 단일 약제 대비 부가 효과가 보고됩니다[^5].

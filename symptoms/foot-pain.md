@@ -30,6 +30,11 @@ version: 2
 
 같은 “발이 아프다”라도 위치에 따라 원인이 크게 달라집니다. 뒤꿈치 아래 첫발 통증은 [족저근막염](/conditions/plantar-fasciitis/), 뒤꿈치 뒤쪽 통증은 [아킬레스건염/아킬레스건병증](/conditions/achilles-tendinitis/), 앞발 통증은 중족골통·Morton 신경종·중족골 피로골절, 엄지발가락 변형과 돌출 통증은 [무지외반증](/conditions/hallux-valgus/)을 우선 감별합니다 [^1][^2].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/hallux-valgus/normal-vs-hallux-valgus.webp" alt="위에서 비쳐 본 두 발의 뼈 비교: 곧은 엄지발가락의 발과 엄지가 둘째 발가락 쪽으로 휘고 엄지 뿌리 안쪽이 튀어나와 붉게 표시된 발" width="1000" height="662" loading="lazy">
+  <figcaption markdown="span">엄지발가락 돌출 통증의 원인인 무지외반증: 정상 발(그림 왼쪽) · 둘째 발가락 쪽으로 휜 엄지와 엄지 뿌리 안쪽 돌출부 통증(그림 오른쪽, 붉은색)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 ## 흔한 원인
 발 통증은 부위별로 나누면 환자 설명과 치료 동선을 연결하기 쉽습니다.
 

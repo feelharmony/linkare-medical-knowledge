@@ -25,10 +25,24 @@ clinic_footnote_ids: [1]
 external_footnote_ids: [2, 3, 4, 5, 6, 7, 8]
 version: 8
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 팔꿈치 통증은 팔꿈치 영역의 상과, 관절, 힘줄, 신경 등에서 발생하는 통증을 통칭하며 위치에 따라 4영역으로 감별 진단합니다 [^2].
+- 외상 직후 심한 통증·변형, 발열·부종, 진행성 근력 약화·감각 이상, 갑작스런 굽힘 약화가 나타나면 빠른 전문 평가가 필요합니다 [^2][^6].
+- 비외상성 통증은 활동 조절과 운동치료를 우선하며, 3개월 이상 증상이 지속되면 영상 검사나 시술을 검토합니다 [^1][^2].
+
+</div>
+
 ## 정의
 팔꿈치 통증은 단일 진단명이 아니라 [팔꿈치](/body-parts/elbow/) 영역의 외측·내측 상과, 주두, 관절, 인대, 힘줄, 신경 구조에서 발생하는 통증을 가리키는 임상 용어입니다. 통증의 위치와 양상에 따라 외측·내측·전방·후방 4영역으로 나누어 감별 진단합니다 [^2]. 가장 흔한 원인은 [외측상과염](/conditions/lateral-epicondylitis/)(테니스엘보)·[내측상과염](/conditions/medial-epicondylitis/)(골프엘보)이며, [주관절 척골신경 포착](/conditions/cubital-tunnel-syndrome/)·요골관 증후군은 보존 치료에 반응하지 않을 때 함께 고려해야 하는 감별 진단입니다 [^2].
 
 임상적으로는 “팔꿈치가 아프다”를 바로 치료명으로 연결하기보다, **바깥쪽 힘줄 통증**, **안쪽 힘줄 통증**, **저림 동반 신경형**, **외상·부종형**으로 먼저 나누는 것이 안전합니다. 이 분류를 잡아야 운동치료·[윈백 고주파](/treatments/tecar-rf-therapy/)·[체외충격파](/treatments/eswt/)·[PRP 주사](/treatments/prp-injection/)·수술 의뢰 기준을 과잉 없이 연결할 수 있습니다.
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/lateral-epicondylitis/lateral-epicondyle-extensor-tendon.webp" alt="팔을 앞으로 뻗은 사람의 팔꿈치와 아래팔 근육 해부도: 팔꿈치 뼈 돌출부에서 손목 쪽으로 이어지는 근육 가운데 한 갈래가 분홍색으로 강조되고 붉은 손상 표시가 있는 모습" width="1000" height="591" loading="lazy">
+  <figcaption markdown="span">외측상과염의 손상 자리: 팔꿈치 바깥쪽 뼈 돌출부(외측 상과)에서 시작하는 손목 폄 근육 힘줄의 붉은 손상 표시<span class="entity-figure-credit">그림: Scientific Animations, <a href="https://commons.wikimedia.org/wiki/File:Tennis_Elbow_Tendon_Injury.jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a></span></figcaption>
+</figure>
 
 ## 흔한 원인
 팔꿈치 통증은 영역과 환자 언어에 따라 다음과 같이 구분합니다 [^2].
@@ -47,6 +61,16 @@ version: 8
 - **그 외 / 외상·부종형**: 외상성 골절·탈구, 결정성 관절염(통풍), 류마티스 관절염, 감염, 골관절염. 빈도는 낮지만 외상·감염은 빠른 평가가 필요합니다 [^2][^6].
 
 위험 요인으로는 반복적 손목·전완 부담(직업·스포츠), 잘못된 동작 패턴, 이전 손상 병력이 보고됩니다 [^2][^7].
+
+**팔꿈치 영역별 주요 원인 질환** [^2]
+{: .entity-table-caption}
+
+| 통증 영역 | 주요 원인 질환 | 대표 증상·악화 요인 |
+| :--- | :--- | :--- |
+| 외측 | 외측상과염, 요골관 증후군 | 컵 들기, 병뚜껑 열기, 손목 신전 저항 시 악화 |
+| 내측 | 내측상과염, 주관절 척골신경 포착 | 손목 굴곡·전완 회내 시 악화, 4·5번째 손가락 저림 |
+| 전방 | 원위 이두건 파열, 정중신경 포착 | 갑작스런 굽힘 약화, 근복 변위 |
+| 후방 | 주두 점액낭염, 삼두건 병변, 후방 충돌 | 투구·신전 반복 |
 
 ## 레드플래그
 다음 신호는 응급 평가 또는 빠른 전문 평가가 필요합니다 [^2][^6]:
@@ -68,6 +92,11 @@ version: 8
 - **주관절 척골신경 포착**: Tinel sign(주관절 척골신경 부위), elbow flexion test, Froment sign.
 - **이두건 손상**: hook test (원위 이두건 완전 파열), 굽힘 약화·근복 변위.
 - **인대 손상**: 외반·내반 stress test.
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/cubital-tunnel-syndrome/ulnar-nerve-cubital-tunnel.webp" alt="굽힌 팔꿈치를 안쪽에서 본 근육·뼈 해부도: 노란 척골신경이 위팔뼈 아래 끝을 따라 내려와 흰 섬유띠 부위를 거쳐 아래팔 근육 사이로 이어지는 모습" width="1000" height="798" loading="lazy">
+  <figcaption markdown="span">척골신경 경로: 팔꿈치 안쪽 주관절 터널 부위(흰 섬유띠)를 지나 아래팔로 이어지는 척골신경(노란 선)<span class="entity-figure-credit">그림: InjuryMap, <a href="https://commons.wikimedia.org/wiki/File:Compressed_ulnar_nerve.svg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a> · 글자 라벨 지움</span></figcaption>
+</figure>
 
 영상 검사 적응증은 임상 시나리오에 따라 다릅니다.
 

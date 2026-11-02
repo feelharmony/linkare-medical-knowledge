@@ -31,6 +31,15 @@ clinic_footnote_ids: [1]
 external_footnote_ids: [2, 3, 4, 5, 6, 7, 8, 9, 10]
 version: 6
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 팔 저림·방사통은 상지 감각 이상과 신경근에서 팔로 뻗치는 통증을 포괄하는 용어이며, 경추 신경근이나 말초신경 등이 원인이 됩니다 [^2][^7][^8].
+- 보행 장애·양측 사지 증상·진행성 근력 약화 등이 동반되면 빠른 평가가 필요하며, 진단은 임상 양상·신경학적 검사·전기진단·영상을 종합합니다 [^2][^4][^5].
+- 비응급 상황에서는 물리치료·약물·보조기 등 보존 치료를 우선하며, 반응하지 않거나 신경 결손이 진행되면 시술·수술을 검토합니다 [^1][^2][^4][^7].
+
+</div>
+
 ## 정의
 팔 저림·방사통은 단일 진단명이 아니라 **상지의 감각 이상**(저림·찌릿·무감각·따끔거림)과 **방사통**(신경근에서 시작해 피부절을 따라 팔로 뻗치는 통증)을 함께 포괄하는 임상 용어입니다 [^2][^7]. 두 양상은 임상에서 자주 같이 호소되지만 원인은 다양하며, 환자에 따라 경추 신경근·말초신경(척골·정중·요골)·말초신경 자체·근육·혈관 등 여러 구조가 원인이 될 수 있습니다 [^2][^7][^8]. 영상 소견은 무증상 인구에서도 흔히 관찰되어 증상과 늘 일치하지 않으므로 [^9], 진단은 임상 양상·신경학적 검사·전기진단·영상의 종합으로 이루어집니다 [^4][^5].
 
@@ -46,6 +55,21 @@ version: 6
 - **그 외**: 경추 척수증, 흉곽출구증후군(thoracic outlet syndrome), 어깨 병변(견갑상신경 등), 견부 연관통, 대상포진 후 신경통, 뇌·척수 병변. 빈도는 낮지만 진행성 신경 결손·척수증은 빠른 평가가 필요합니다 [^2][^4].
 
 위험 요인으로는 직업적 부담(반복 굽힘·진동·과부하), 외상 병력, 당뇨병 등 대사 질환, 흡연, 비만이 보고됩니다 [^2][^7][^8].
+
+<figure class="entity-figure entity-figure--portrait">
+  <img src="/assets/images/entities/arm/upper-limb-nerves.webp" alt="앞에서 본 오른팔 뼈와 신경: 목에서 나온 신경이 쇄골 뒤를 지나 팔로 내려가며, 노란 신경은 팔 가운데와 손목 앞을 지나 엄지 쪽 손가락으로, 초록 신경은 팔꿈치 안쪽을 지나 새끼손가락 쪽으로, 파란 신경은 위팔뼈 뒤를 감아 엄지 쪽 아래팔로 이어지는 모습" width="896" height="1200" loading="lazy">
+  <figcaption markdown="span">팔로 내려가는 세 신경: 정중신경(노란색): 팔 가운데 · 손목 앞 · 엄지~가운뎃손가락 · 척골신경(초록색): 팔꿈치 안쪽 · 새끼손가락 쪽 · 요골신경(파란색): 위팔뼈 뒤를 감아 엄지 쪽 아래팔<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
+**팔 저림·방사통 주요 원인별 비교** [^2][^4][^6][^7][^8][^10]
+{: .entity-table-caption}
+
+| 구분 | 주요 기전·원인 | 주요 증상 양상 | 핵심 평가·치료 |
+| --- | --- | --- | --- |
+| 경추 신경근병증 | 경추 신경근 압박·자극 (추간판 탈출·퇴행성 변화) | 한쪽 팔로 뻗치는 방사통·저림 | Spurling 검사·MRI, 물리치료·약물·주사·수술 |
+| 수근관 증후군 | 손목 부위 정중신경 포착 | 1~3·4반 수지 저림·야간 통증 | Phalen·CTS-6 도구, 야간 부목·스테로이드 주사·감압 수술 |
+| 주관절 척골신경 포착 | 팔꿈치 부위 척골신경 압박 | 4·5수지 저림·약화, 팔꿈치 굽힘 시 악화 | Tinel·팔꿈치 굽힘 검사, 활동 조절·야간 부목·수술 |
+| 말초신경병증 | 당뇨병·알코올·비타민 결핍·특발성(약 25~46%) | 양측·대칭성, 손·발끝부터 시작 | 혈액검사·EMG/NCS, 원인 질환 치료·신경병증 약물 |
 
 ## 레드플래그
 다음 신호는 응급 평가 또는 빠른 전문 평가가 필요합니다 [^2][^4]:
@@ -84,6 +108,15 @@ version: 6
 - **말초신경병증**: 원인 질환 치료가 우선(혈당·갑상샘·B12·알코올 등). 통증성 신경병증에는 가바펜티노이드·SNRI·삼환계 항우울제가 단계적으로 활용되며 [^8], 신경 손상 진행 시 신경과·재활의학과 협진이 필요합니다.
 
 약물치료는 NSAIDs를 단기간 사용하며, 마약성 진통제는 routine 사용을 권고하지 않습니다 [^2]. 임상에서는 환자 평가 후 보존 치료를 우선하고, 진행성 신경 결손·척수증·증상이 보존 치료에 반응하지 않으면 영상 검사·전기진단·시술 적응을 검토합니다 [^1][^4].
+
+<figure class="entity-figure entity-chart" role="img" aria-label="환자가 「좋아짐·많이 좋아짐」으로 답한 비율 막대그래프">
+  <div class="entity-chart-title">환자가 「좋아짐·많이 좋아짐」으로 답한 비율</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">수술 + 물리치료<span>12개월 · 31명</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:87.0%"></div><span class="entity-chart-value">87%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">물리치료만<span>12개월 · 32명</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:62.0%"></div><span class="entity-chart-value">62%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">수술 + 물리치료<span>24개월</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:81.0%"></div><span class="entity-chart-value">81%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">물리치료만<span>24개월</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:69.0%"></div><span class="entity-chart-value">69%</span></div></div>
+  <figcaption markdown="span">경추 신경근병증: 12개월에는 차이가 유의, 24개월에는 유의하지 않음 [^3]<span class="entity-figure-credit">그래프: Linkbase · Engquist 2013 (Spine) 초록 수치: 경추 신경근병증 63명 무작위 비교</span></figcaption>
+</figure>
 
 ### 경과·예후
 대부분의 경추 신경근병증은 보존 치료로 호전됩니다 — Engquist 2013 RCT 24개월 추적에서 비수술군 69%, 수술군 81%가 호전 또는 크게 호전으로 평가했습니다 [^3]. 수근관 증후군·주관절 척골신경 포착도 적절한 보존 치료·수술로 상당수 환자가 호전되지만, 진행성 신경 결손·근위축이 있을 때는 회복이 제한될 수 있어 조기 평가가 중요합니다 [^6][^7]. 말초신경병증의 회복 양상은 원인 질환과 신경 손상 양상에 따라 다릅니다 [^8].

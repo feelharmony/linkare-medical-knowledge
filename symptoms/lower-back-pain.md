@@ -25,8 +25,22 @@ clinic_footnote_ids: [1, 2]
 external_footnote_ids: [3, 4, 5, 6, 7, 8]
 version: 7
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 허리통증은 요추 주변 여러 구조의 원인으로 발생하며 약 85% 정도는 특정 병리를 식별하기 어려운 비특이성 요통으로 분류됩니다.[^3][^4]
+- 배뇨·배변 장애나 양측 하지의 진행성 근력 약화 등 적색기 신호가 있으면 응급 또는 빠른 전문 평가와 영상 검사를 고려합니다.[^4][^5][^6]
+- 비특이성 요통은 통상 6주 이내 자연 회복되는 경우가 많으며 활동 유지, 운동치료, NSAIDs 등 보존적 치료가 원칙입니다.[^3][^4][^8]
+
+</div>
+
 ## 정의
 허리통증은 단일 진단명이 아니라 요추 주변 구조의 다양한 원인으로 발생하는 통증을 가리키는 임상 용어입니다. 환자에 따라 디스크·척추관·신경근·관절·근육·인대 등 여러 구조가 원인이 될 수 있고, 영상 소견과 증상이 늘 일치하지는 않습니다 [^4]. 약 85% 정도는 특정 병리를 영상이나 검사로 명확히 식별하기 어려운 **비특이성 요통(non-specific low back pain)** 으로 분류됩니다 [^3]. 전 세계적으로 가장 흔한 근골격계 호소 증상이며, 2020년 기준 약 6.19억 명이 허리통증을 겪고 있고 장애로 인한 건강수명 손실(YLDs) 1위 원인으로 보고됩니다 [^7].
+
+<figure class="entity-figure entity-figure--portrait">
+  <img src="/assets/images/entities/lower-back/lumbar-spine-location.webp" alt="뒤에서 본 사람 골격: 갈비뼈 아래부터 골반 위까지 다섯 개 허리뼈를 분홍색으로 표시하고 원 안에 확대한 모습" width="768" height="1024" loading="lazy">
+  <figcaption markdown="span">허리뼈(요추) 위치: 뒤에서 본 척추 · 분홍색 다섯 개 허리뼈와 그 아래 엉치뼈·골반<span class="entity-figure-credit">그림: BruceBlaus, <a href="https://commons.wikimedia.org/wiki/File:Blausen_0618_LumbarSpine.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/3.0" rel="nofollow noopener" target="_blank">CC BY 3.0</a></span></figcaption>
+</figure>
 
 ## 흔한 원인
 허리통증은 원인에 따라 크게 네 갈래로 구분합니다.
@@ -38,6 +52,16 @@ version: 7
 
 위험 요인으로는 직업적 부담(반복 굽힘·들어올리기·앉은 자세 장시간), 흡연, 비만, 신체 활동 부족, 심리사회적 스트레스가 보고됩니다 [^7].
 
+**허리통증 원인 분류 비교** [^1][^3][^4][^5][^6]
+{: .entity-table-caption}
+
+| 구분 | 주요 원인·병리 | 특징 및 경과 |
+| --- | --- | --- |
+| 비특이성 요통 | 자세·근막·관절 부담·심리사회적 요인 | 약 85% 차지, 통상 6주 이내 자연 회복 |
+| 요추 신경근병증 | 추간판 탈출·척추관 협착에 의한 신경근 압박 | 한쪽 다리로 내려가는 방사통 동반 |
+| 구조적 원인 | 압박골절·척추전방전위증·척추측만증 | 고령·골다공증 및 척추 변형 관련 |
+| 적색기 질환 | 감염·종양·마미증후군 | 빈도는 낮으나 빠른 평가 필요 |
+
 ## 레드플래그
 다음 신호는 응급 평가 또는 빠른 전문 평가가 필요합니다 [^4][^6]:
 
@@ -48,6 +72,11 @@ version: 7
 - 50세 이상 신규 발생 통증, 코르티코스테로이드 장기 사용 [^4]
 
 이 외에는 비특이성 요통이 가장 흔하며, 자세를 바꾸거나 움직일 때 악화·완화되는 둔통·뻣뻣함이 주된 양상입니다. 신경근 압박이 있으면 한쪽 다리로 내려가는 방사통·저림·당김이 함께 나타나는 경우가 많습니다 [^1][^2].
+
+<figure class="entity-figure entity-figure--portrait">
+  <img src="/assets/images/entities/leg-numbness/sciatica-nerve-path.webp" alt="아래 허리에서 신경 다발이 다리로 내려가는 골격 그림: 확대 원 안에서 튀어나온 디스크가 신경근을 누르고, 엉덩이에서 발까지 다리 전체가 보라색으로 표시된 모습" width="768" height="1024" loading="lazy">
+  <figcaption markdown="span">허리 신경근 압박과 다리 방사통: 아래 허리에서 튀어나온 디스크가 신경근을 누르는 자리(확대 원) · 엉덩이에서 발까지 이어지는 통증 범위(보라색)<span class="entity-figure-credit">그림: BruceBlaus, <a href="https://commons.wikimedia.org/wiki/File:Sciatica.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a></span></figcaption>
+</figure>
 
 ## 평가
 허리통증의 평가는 병력 청취와 신체검사가 중심입니다. 통증의 위치·악화 인자·red flag 유무·심리사회적 요인을 함께 확인합니다. NICE NG59는 **비전문 진료 환경에서 routine 영상 검사를 권고하지 않으며**, 전문 진료 환경에서도 영상 결과가 치료 방침을 바꿀 가능성이 있을 때만 영상 검사를 고려하도록 제시합니다 [^4]. 영상 소견이 흔히 발견되지만 환자 증상과 늘 인과 관계가 있는 것은 아니라는 점이 그 근거입니다 [^4].

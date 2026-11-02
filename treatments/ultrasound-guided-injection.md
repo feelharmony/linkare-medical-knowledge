@@ -26,10 +26,24 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5]
 version: 5
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 초음파 유도 주사는 실시간 초음파 영상으로 표적 구조와 바늘 경로를 확인하며 약물을 전달하는 주사 유도 방식입니다 [^1][^2].
+- 치료 기전 자체가 아니라 주사치료의 표적 정확도를 높이는 수단이며, 부작용은 결합되는 약물의 특성과 반복 주입 위험을 따릅니다 [^1][^3][^5].
+- 증상과 진찰, 보존 치료 반응과 영상 소견을 함께 고려하여 선택하며, 시술 후 재활 및 부하 조절을 병행합니다.
+
+</div>
+
 ## 정의
 초음파 유도 주사(ultrasound-guided injection)는 실시간 초음파 영상으로 표적 구조와 바늘 경로를 확인하면서 약물을 전달하는 주사 유도 방식입니다 [^1][^2]. 관절강, 점액낭, 건·인대 부착부, 신경 주변, 근막, [족저근막염](/conditions/plantar-fasciitis/) 같은 발 부위 통증에서 활용될 수 있습니다 [^2][^5].
 
 중요한 점은 초음파 유도 주사가 “약물 종류”나 “치료 기전” 자체가 아니라는 것입니다. 국소마취제, 스테로이드, hyaluronic acid, [PRP 주사](/treatments/prp-injection/), [프롤로테라피](/treatments/prolotherapy/) 용액처럼 결합되는 주사치료의 표적 정확도를 높이는 guidance modality입니다 [^1][^3].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/ultrasound-guided-injection/in-plane-needle-bursa.webp" alt="피부 위 탐촉자 아래로 부채꼴 초음파 빔이 퍼지고, 비스듬히 들어간 바늘 끝이 빔 안에서 힘줄 위 점액낭에 닿은 단면. 왼쪽 근육층에 신경·동맥·정맥 단면" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">초음파 유도 주사 모식도: 탐촉자 아래 초음파 빔(파란 부채꼴) · 힘줄 위 점액낭에 닿은 바늘 끝 · 바늘 경로 밖의 신경·동맥·정맥<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 대표적인 유도 방식은 다음처럼 구분합니다.
 
@@ -37,6 +51,16 @@ version: 5
 - **초음파 유도**: 실시간 영상으로 표적, 바늘, 주변 신경·혈관을 확인
 - **방사선 투시 유도**: X-ray 기반 실시간 영상. 척추·관절 시술에서 사용
 - **CT 유도**: 깊고 복잡한 구조에서 선택적으로 사용
+
+**대표적인 주사 유도 방식 비교** 
+{: .entity-table-caption}
+
+| 유도 방식 | 특징 및 활용 |
+| --- | --- |
+| Landmark/blind 유도 | 해부학적 표지와 촉진 기반 주사 |
+| 초음파 유도 | 실시간 영상으로 표적, 바늘, 주변 신경·혈관 확인 |
+| 방사선 투시 유도 | X-ray 기반 실시간 영상, 척추·관절 시술 사용 |
+| CT 유도 | 깊고 복잡한 구조에서 선택적 사용 |
 
 ## 작용 기전·근거
 초음파 유도는 약물 자체의 생물학적 효과를 바꾸기보다, 표적에 약물을 더 정확히 전달하고 주변 구조를 피하도록 돕는 방식입니다 [^1][^2]. 따라서 결과는 “초음파를 썼는가”뿐 아니라 진단 정확도, 선택한 약물, 표적 구조, 시술자의 숙련도, 사후 재활·부하 조절에 의해 결정됩니다.

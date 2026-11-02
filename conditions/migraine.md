@@ -25,6 +25,15 @@ source_count_clinic_pillar: 0
 clinic_footnote_ids: []
 external_footnote_ids: [2, 3, 4, 5, 6, 7, 8, 9]
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 편두통은 4~72시간 지속되는 편측성·박동성·중등도 이상 강도의 발작성 두통으로 구역·구토나 빛·소리 과민이 동반됩니다 [^2].
+- 임상 양상으로 진단하되 적색기(SNNOOP10) 양성·신규·진행성 두통이나 비전형적 전조가 있으면 영상 검사를 적용합니다 [^3][^5].
+- 급성기에는 중등도에 따라 NSAIDs·트립탄 등을 쓰고, 빈도·강도가 크면 경구 예방약이나 CGRP 표적 치료를 시행합니다 [^3][^6][^8].
+
+</div>
+
 ## 정의
 편두통(migraine)은 ICHD-3 분류의 1차성 두통 중 임상적으로 가장 부담이 큰 유형으로, 발작성 두통이 4~72시간 지속되며 편측성·박동성·중등도 이상 강도가 특징입니다. 일상 활동으로 악화되며 구역·구토 또는 빛·소리 과민이 동반됩니다 [^2]. **전조 없는 편두통**(without aura)과 **전조 있는 편두통**(with aura, 일시적 시각·감각·언어 증상 동반)으로 분류되며, 월 15일 이상·3개월 이상 지속되면 **만성 편두통**으로 분류됩니다 [^2].
 
@@ -32,6 +41,11 @@ external_footnote_ids: [2, 3, 4, 5, 6, 7, 8, 9]
 
 ## 병태
 편두통은 삼차혈관계(trigeminovascular system)의 활성화와 신경 펩타이드(특히 calcitonin gene-related peptide, CGRP) 분비, 피질 확산성 억제(cortical spreading depression, 전조 동반 편두통), 통증 처리 회로의 중추 감작이 관여하는 신경 질환입니다 [^3][^8]. 발작 사이 무증상이 일반적이지만 만성화 환자에서는 발작 사이에도 두통·통증 민감화가 지속될 수 있습니다 [^3].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/migraine/migraine-one-sided-pain.webp" alt="얼굴 한쪽 관자놀이·이마·눈 주위를 덮은 주황색 통증 영역과 그 바깥으로 퍼지는 동심원, 반대쪽 얼굴은 정상" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">편두통의 통증 위치: 한쪽 관자놀이·이마·눈 주위(주황색) · 박동성 통증(동심원) · 반대쪽은 통증 없음<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 유발 인자: 스트레스, 수면 변화(부족·과다), 호르몬 변화(생리주기), 특정 식품·알코올, 일기·기압 변화, 강한 빛·냄새 [^3].
 
@@ -71,6 +85,16 @@ ICHD-3 진단 기준은 다음과 같습니다 [^2]:
 - **CGRP 단클론항체 강한 권고 (episodic·chronic 모두)**: galcanezumab, fremanezumab, erenumab, eptinezumab
 
 미국두통학회(AHS) 2024 position statement update도 CGRP 표적 치료(단클론항체 4종 + gepants 2종)를 다른 예방치료 실패를 요구하지 않는 **1차 옵션**으로 제시합니다 [^8].
+
+**편두통의 약물 치료 비교** [^3][^6][^8]
+{: .entity-table-caption}
+
+| 치료 단계 | 세부 분류 및 상황 | 주요 약제 | 비고 및 주의사항 |
+| --- | --- | --- | --- |
+| 급성기 치료 | 경증 발작 | NSAIDs(이부프로펜·나프록센), 아세트아미노펜 | 단순 진통제 월 15일 미만 제한 |
+| 급성기 치료 | 중등도 이상 발작 | 트립탄(1차 특이 약제) | 트립탄·복합 진통제 월 10일 미만 제한 |
+| 예방치료 | 경구 예방약 | propranolol, metoprolol, flunarizine, topiramate 등 | 빈도·강도·기능 영향이 큰 환자 |
+| 예방치료 | CGRP 단클론항체 | galcanezumab, fremanezumab, erenumab, eptinezumab | episodic·chronic 모두 강한 권고, 1차 옵션 |
 
 ### 비약물 치료
 인지행동치료, 바이오피드백, 이완 훈련, 규칙적 운동, 수면 위생, 유발 인자 회피가 보조 효과를 보입니다 [^3]. 만성 편두통에서는 **보툴리눔 독소 A형 두피 주사**(BTX-A) 적응이 가능합니다 [^3].

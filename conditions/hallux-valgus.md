@@ -33,6 +33,11 @@ version: 2
 ## 정의
 무지외반증(hallux valgus)은 엄지발가락이 둘째 발가락 쪽으로 휘고, 첫 번째 중족골 머리 부위가 안쪽으로 돌출되는 발 변형입니다 [^1][^2]. 흔히 “엄지발가락 뼈가 튀어나왔다”, “신발에 닿아 아프다”, “엄지가 둘째 발가락을 밀어낸다”로 표현됩니다.
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/hallux-valgus/normal-vs-hallux-valgus.webp" alt="위에서 비쳐 본 두 발의 뼈 비교: 곧은 엄지발가락의 발과 엄지가 둘째 발가락 쪽으로 휘고 엄지 뿌리 안쪽이 튀어나와 붉게 표시된 발" width="1000" height="662" loading="lazy">
+  <figcaption markdown="span">정상 발과 무지외반증 비교: 곧은 엄지발가락(그림 왼쪽) · 둘째 발가락 쪽으로 휜 엄지와 안쪽으로 튀어나온 첫째 중족골 머리의 통증(그림 오른쪽, 붉은색)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 무지외반증은 단순 미용 문제가 아니라 [발 통증](/symptoms/foot-pain/)과 신발 착용 장애, 앞발 과부하, 보행 변화, 둘째 발가락 변형·중족골통으로 이어질 수 있습니다 [^1][^3]. 다만 X-ray 각도가 크다고 항상 통증이 큰 것은 아니므로, 변형 정도와 환자 증상·신발 문제·기능 제한을 함께 판단해야 합니다.
 
 ## 병태

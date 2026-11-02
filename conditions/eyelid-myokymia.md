@@ -33,6 +33,11 @@ version: 1
 ## 정의
 눈밑떨림(안검 근간대경련, eyelid myokymia)은 **눈 둘레 근육(안륜근)의 일부 근섬유가 본인 의지와 무관하게 잘게 수축해 아래 눈꺼풀이 파르르 떨리는 증상**입니다. 대개 한쪽 아래 눈꺼풀에 국한되고 눈이 감기지는 않으며, 피로·카페인·수면 부족·스트레스와 함께 나타났다가 며칠에서 몇 주 안에 저절로 멎는 양성 경과가 대부분입니다 [^3].
 
+<figure class="entity-figure">
+  <img src="/assets/images/entities/eyelid-myokymia/lower-eyelid-orbicularis-twitch.webp" alt="한쪽 눈을 둘러싼 고리 모양 눈 둘레 근육과 아래 눈꺼풀 일부 근섬유의 붉은 표시·잔물결 선, 눈은 뜬 상태" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">눈밑떨림: 눈 둘레 근육(안륜근) 가운데 아래 눈꺼풀 일부 근섬유의 잔떨림(붉은 부분) · 눈은 감기지 않음<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 같은 「눈 떨림」이라도 같은 쪽 얼굴 전체로 번지는 **반측안면경련**(hemifacial spasm)과 양쪽 눈이 저절로 꽉 감기는 **안검경련**(blepharospasm)은 별개의 신경학적 질환이라 구분이 필요합니다 [^1][^2].
 
 ## 증상

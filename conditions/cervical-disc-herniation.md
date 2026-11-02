@@ -26,6 +26,15 @@ external_footnote_ids:
   - 6
   - 7
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 목디스크는 경추 사이 디스크가 손상되어 신경근이나 척수를 압박해 목·어깨 통증과 팔·손 저림을 유발하는 질환입니다 [^1].
+- 영상 소견과 신경학적 증상의 일치가 핵심 진단 기준이며, 양측 손 미세운동 장애나 보행 장애, 대소변 조절 장애 등 척수증 의심 증상은 빠른 평가가 필요한 위험 신호입니다 [^4][^5].
+- 대부분 보존 치료 중 호전되는 경향이 있으나, 보존 치료에 반응하지 않거나 진행성 신경학적 결손 및 척수증이 동반되면 수술을 고려합니다 [^4][^7].
+
+</div>
+
 ## 정의
 목디스크는 경추 사이의 디스크가 손상되어 신경근이나 척수를 압박하면서 [목 통증](/symptoms/neck-pain/), [어깨 통증](/symptoms/shoulder-pain/), [팔 저림·방사통](/symptoms/arm-numbness/), [손 저림](/symptoms/hand-numbness/)을 유발할 수 있는 질환입니다 [^1]. 한국 국민건강보험공단(NHIS) 기반 연구(Kim YK et al., 2018, 2004~2010 자료)에서 증상이 있는 경추 추간판 탈출증의 발생률은 연령에 따라 증가하고, 여성에서 더 높게 나타나는 경향이 보고되었습니다 [^3].
 
@@ -33,6 +42,11 @@ external_footnote_ids:
 
 ## 병태
 퇴행성 변화나 외상으로 섬유륜이 약해지면 수핵이 밖으로 밀려나올 수 있습니다. 탈출한 디스크는 신경근을 기계적으로 압박할 뿐 아니라, 주변 조직에 염증 반응을 일으켜 통증과 저림을 악화시킬 수 있습니다. 이 과정에서 신경 주변 미세혈류 변화와 부종이 동반될 수 있습니다 [^1].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/cervical-disc-herniation/cervical-disc-foraminal-herniation.webp" alt="위에서 내려다본 목뼈 한 마디와 디스크 단면: 디스크 뒤 옆쪽으로 밀려나온 수핵이 한쪽 신경근을 누르고, 반대쪽 신경근은 눌리지 않은 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">목디스크 단면(위에서 본 모습): 디스크 뒤 옆쪽으로 밀려나온 수핵(주황)과 눌린 신경근(노랑)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 영상학적 퇴행성 변화는 무증상 인구에서도 흔합니다. 한국 무증상 성인 102명(14~82세)을 대상으로 한 경추 MRI 연구(Lee TH et al., 2013)에서 추간판 탈출(herniation) 81.0%, 섬유륜 균열 85.9%, 수핵 변성 95.4%가 관찰되었으며, 가장 흔한 호발 부위는 C5/6와 C6/7이었습니다 [^2]. 따라서 영상 소견만으로 임상 진단을 내릴 수 없으며, 영상 소견과 신경학적 증상이 일치할 때 임상적으로 의미가 있습니다 [^4].
 
@@ -53,12 +67,31 @@ external_footnote_ids:
 
 CT는 뼈의 변화나 골극(뼈가 자란 것)을 평가하는 데 유용하며, 신경전도검사는 신경 손상의 정도와 범위를 객관적으로 측정합니다 [^1][^4]. 척수증이 의심되는 경우(보행 장애·양측 손 미세운동 장애 등)에는 MRI에서 척수 신호 변화 여부를 함께 확인합니다 [^5].
 
+**목디스크 진단 검사 비교** [^1][^4][^5]
+{: .entity-table-caption}
+
+| 검사 종류 | 주요 역할 및 적응증 |
+| --- | --- |
+| MRI | 경추 신경근병증 진단의 핵심 영상 검사, 척수 신호 변화 여부 확인 |
+| CT myelography | MRI가 금기이거나 결과가 비결정적일 때의 대안 |
+| CT | 뼈의 변화나 골극 평가 |
+| 신경전도검사(EMG/NCS) | 임상·영상 소견 불일치 시 객관적 평가 보조, 신경 손상 정도와 범위 측정 |
+
 ## 치료
 대부분의 경추 신경근병증은 보존 치료 중 호전되는 경향이 있으며, 경추 추간판 탈출의 자발적 영상학적 회귀(spontaneous regression)도 보고됩니다. 2021년 케이스 리포트 및 문헌고찰(75례 + 저자 사례 검토)에서는 MRI상 자발적 회귀가 평균 약 9.15개월에 관찰되었고, extrusion/sequestration 형태에서 회귀 가능성이 더 높은 것으로 보고했습니다 [^7].
 
 급성기에는 통증을 빨리 줄이는 게 우선입니다. 신경차단술은 C-arm 영상을 보면서 염증이 있는 신경 주변에 약물을 직접 투여합니다. 초음파 주사 치료는 실시간으로 병변을 확인하면서 정확한 위치에 약물을 넣을 수 있습니다 [^1]. 비스테로이드성 진통소염제, 물리치료, 견인, 가정 운동 등은 경추 신경근병증에서 흔히 사용되는 보존 치료 옵션이며, NASS 가이드라인은 치료 선택을 환자의 임상 양상과 영상 소견에 따라 결정하도록 제시합니다 [^4].
 
 스웨덴에서 진행된 무작위 비교연구(Engquist et al., 2013, n=63)에서 수술+구조화된 물리치료군은 12개월 시점 87%가 "호전 또는 크게 호전"이라 평가한 반면 비수술군은 62%로, 12개월 시점에서는 군 간 차이가 유의했습니다. 그러나 24개월 시점에는 81% vs 69%로 차이가 통계적으로 유의하지 않았습니다(P=0.28). 저자들은 "구조화된 물리치료를 수술 선택 전에 시도해야 한다"고 결론지었습니다 [^6].
+
+<figure class="entity-figure entity-chart" role="img" aria-label="경추 신경근병증: 「호전 또는 크게 호전」으로 평가한 환자 비율 막대그래프">
+  <div class="entity-chart-title">경추 신경근병증: 「호전 또는 크게 호전」으로 평가한 환자 비율</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">12개월<span>수술 + 물리치료</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:87.0%"></div><span class="entity-chart-value">87%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">12개월<span>물리치료 단독</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:62.0%"></div><span class="entity-chart-value">62%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">24개월<span>수술 + 물리치료</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:81.0%"></div><span class="entity-chart-value">81%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">24개월<span>물리치료 단독</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:69.0%"></div><span class="entity-chart-value">69%</span></div></div>
+  <figcaption markdown="span">시점별 환자 자가 평가: 12개월은 군 간 차이 유의, 24개월은 유의하지 않음(P=0.28) [^6]<span class="entity-figure-credit">그래프: Linkbase · Engquist 2013 (Spine) 초록 수치: 무작위 배정 63명</span></figcaption>
+</figure>
 
 통증이 어느 정도 조절되면 자세, 척추·골반·턱관절의 정렬과 움직임을 평가하고 필요에 따라 도수 치료를 활용합니다. 손상된 조직의 회복을 돕기 위해 재생 주사 치료(프롤로, PDRN, PRP 등)를 병행할 수 있고, 체외충격파 치료는 근육 이완·통증 조절을 위한 보조 치료로 활용하기도 합니다. 올바른 자세 교육과 운동법 지도를 통해 재발을 예방합니다 [^1].
 

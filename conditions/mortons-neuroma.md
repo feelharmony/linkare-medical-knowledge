@@ -26,8 +26,22 @@ clinic_footnote_ids: []
 external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 version: 1
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 지간신경종은 발가락 사이 총족저지신경 주변의 양성 섬유화로 인해 앞발바닥과 발가락 사이에 통증과 저림이 생기는 질환입니다.[^1][^2][^3][^4]
+- 주로 셋째·넷째 발가락 사이에 흔하며, 발가락 사이 압통과 딸깍거림 등 진찰 소견을 바탕으로 진단하고 필요시 초음파나 MRI로 확인합니다.[^2][^3][^4][^7]
+- 활동 조절, 신발 조정·보조기, 스테로이드 주사 등 비수술 치료를 먼저 시행하며, 조절되지 않으면 신경 감압술이나 절제술을 고려합니다.[^1][^4]
+
+</div>
+
 ## 정의
 지간신경종(Morton's neuroma)은 발가락 사이로 가는 **총족저지신경(common plantar digital nerve)이 두꺼워지고 섬유화되면서** 앞발바닥과 발가락 사이에 화끈거림·뻗치는 통증·저림을 일으키는 질환입니다 [^1][^2]. **셋째·넷째 발가락 사이(3번째 지간)에 가장 흔하고**, 그보다 드물게 둘째·셋째 발가락 사이(2번째 지간)에 생깁니다 [^2][^3].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/mortons-neuroma/interdigital-nerve-3rd-space.webp" alt="발등 쪽에서 비쳐 본 발뼈와 발가락 신경: 셋째와 넷째 중족골 머리 사이에서 신경이 방추형으로 부푼 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">지간신경종의 흔한 위치: 셋째·넷째 중족골 머리 사이에서 방추형으로 두꺼워진 발가락 신경(노란색)과 주변 통증(붉은색)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 이름에 '종(腫)'이 붙어 있지만 신경에 생긴 종양이 아니라 **신경 주변의 양성 섬유화**(perineural fibrosis)입니다 [^3][^4]. 앞발 통증(중족골통, metatarsalgia)의 흔한 원인 중 하나이며 [^5], 체중을 싣는 활동과 신발 선택을 제한할 수 있습니다 [^3]. 아픈 자리가 앞발에 있다는 점에서 뒤꿈치 통증이 중심인 [족저근막염](/conditions/plantar-fasciitis/)과 구분해, [발 통증](/symptoms/foot-pain/) 항목의 감별 흐름 안에서 평가합니다.
 
@@ -61,6 +75,16 @@ version: 1
 - 수술 소견을 기준으로 한 메타분석에서 **초음파(민감도 0.91)와 MRI(민감도 0.90)의 민감도는 차이가 없었고**, 초음파가 가장 비용 효율적인 영상 검사일 수 있다고 제시되었습니다 [^8]
 - 초음파는 정확도가 높지만 **시행자의 기법과 경험에 따라 결과가 달라질 수 있습니다** [^3]
 
+**진단 검사 비교** [^3][^7][^8]
+{: .entity-table-caption}
+
+| 검사 항목 | 진단 지표 | 임상적 의미 및 특징 |
+| --- | --- | --- |
+| 발가락 사이 압통 검사 | 민감도 0.96 | 음성 시 질환 가능성을 낮춤 |
+| 환자가 느끼는 클릭 | 특이도 0.96 | 양성 시 질환 가능성에 무게 |
+| 초음파 | 민감도 0.91 | 비용 효율적이나 시행자 경험에 영향 |
+| MRI | 민감도 0.90 | 초음파와 민감도 차이 없음 |
+
 ### 감별 진단
 - **[족저근막염](/conditions/plantar-fasciitis/)** — 대개 **발뒤꿈치 바닥 통증**으로 나타납니다 [^1]. 통증이 앞발 발가락 사이에 있고 발가락으로 뻗치는 지간신경종과는 아픈 위치부터 다릅니다
 - **다른 중앙 중족골통 원인** — 급성·반복성 외상 병변, 염증성·감염성 질환, 비종양성 연부조직 병변, 양성·악성 종양도 체중 부하 시 앞발 통증과 '자갈을 밟는 느낌'을 일으켜 진찰이나 영상에서 지간신경종처럼 보일 수 있습니다 [^9]
@@ -86,6 +110,14 @@ version: 1
 
 - 35편, 2,998명을 묶은 메타분석에서 **통증 완전 소실 비율**은 주사 43%, 신경 감압술 68%, 신경 절제술 74%였고, 주사 뒤 추가 수술로 넘어간 비율은 15%였습니다. 시술 합병증 발생률은 세 방법 사이에 차이가 없었습니다 [^11]
 - 발바닥 쪽 절개와 발등 쪽 절개로 시행한 신경 절제술은 만족도와 부작용에서 차이가 작거나 없을 수 있다고 정리됩니다(낮은 확실성 근거) [^2]
+
+<figure class="entity-figure entity-chart" role="img" aria-label="치료 방법별 통증 완전 소실 비율 막대그래프">
+  <div class="entity-chart-title">치료 방법별 통증 완전 소실 비율</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">주사<span>비수술</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:43.0%"></div><span class="entity-chart-value">43%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">신경 감압술<span>수술</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:68.0%"></div><span class="entity-chart-value">68%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">신경 절제술<span>수술</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:74.0%"></div><span class="entity-chart-value">74%</span></div></div>
+  <figcaption markdown="span">지간신경종 35편·2,998명 메타분석의 치료 방법별 통증 완전 소실 비율 [^11]<span class="entity-figure-credit">그래프: Linkbase · Lu 2021 초록 수치</span></figcaption>
+</figure>
 
 ## 예후
 1차 보존 치료에 반응하지 않는 환자는 약 30%로 제시됩니다 [^1]. 한편 비수술 치료의 성공이 일부 환자에 그친다는 검토도 있어 보고마다 차이가 있으나, 수술을 미루거나 피하고 싶은 경우에는 비수술 치료가 적절한 선택이 될 수 있습니다 [^5]. 신발 조정·보조기는 증상이 오래되고 신경종이 클수록 효과가 떨어지는 경향이 보고되어 [^6], 증상 기간과 크기를 함께 보고 치료 단계를 정합니다.

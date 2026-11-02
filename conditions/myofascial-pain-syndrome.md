@@ -32,10 +32,24 @@ external_footnote_ids:
   - 6
 version: 2
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 근막통증증후군은 근육과 근막 안의 통증유발점이 국소 통증, 압통, 연관통, 근육 긴장, 움직임 제한을 만드는 상태입니다 [^2][^3].
+- 주로 병력과 신체진찰로 진단하지만, 감각·근력 저하, 보행 불안정, 발열·체중 감소 등이 동반되면 목디스크나 감염·종양 등 다른 원인을 평가합니다 [^4][^5].
+- 치료는 스트레칭·안정화 운동·자세 조정·물리치료 등 기본 치료와 통증유발점 주사·건식침 등 주사 치료를 환자 상태에 따라 시행합니다 [^2][^3][^4][^5].
+
+</div>
+
 ## 정의
 근막통증증후군(myofascial pain syndrome, MPS)은 근육과 근막 안의 통증유발점(trigger point)이 국소 통증, 압통, 연관통, 근육 긴장, 움직임 제한을 만드는 상태입니다 [^2][^3]. [목](/body-parts/neck/)·[어깨](/body-parts/shoulder/) 위쪽, 견갑골 안쪽, [허리](/body-parts/lower-back/), 엉덩이처럼 반복 부하와 자세 부담이 큰 부위에서 흔히 문제됩니다.
 
 통증유발점은 누르면 익숙한 통증이 재현되고, 때로는 떨어진 부위로 통증이 퍼집니다. 예를 들어 상부 승모근·견갑거근·후두하근 통증유발점은 [목](/body-parts/neck/) 통증, 어깨 위쪽 뻐근함, 후두부 두통과 겹쳐 나타날 수 있습니다 [^1][^4].
+
+<figure class="entity-figure entity-figure--portrait">
+  <img src="/assets/images/entities/myofascial-pain-syndrome/trapezius-trigger-point-complex.webp" alt="등 위쪽 승모근 그림에 붉게 표시한 통증유발점과, 그 부분 근섬유를 원 안에 확대해 일부 섬유가 방추형으로 굵어진 모습" width="704" height="991" loading="lazy">
+  <figcaption markdown="span">상부 승모근의 통증유발점(붉은 부분)과 확대한 근섬유: 방추형으로 굵어진 국소 수축 부위<span class="entity-figure-credit">그림: Davidparmenter, <a href="https://commons.wikimedia.org/wiki/File:Trigger_Point_Complex.jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="nofollow noopener" target="_blank">CC BY-SA 3.0</a></span></figcaption>
+</figure>
 
 ## 병태
 근막통증증후군은 단일 원인 질환이라기보다 반복적인 근육 과부하, 장시간 자세 유지, 수면 부족, 스트레스, 외상 후 보호성 긴장, 관절·디스크 질환에 따른 보상 움직임이 겹쳐 생기는 통증 상태로 이해합니다 [^2][^3]. 근육 내 국소 과긴장, 말초 감작, 중추 감작, 자율신경 반응이 함께 관여할 수 있습니다 [^2].
@@ -56,6 +70,15 @@ version: 2
 근막통증 치료는 통증을 낮추는 치료와 재발을 줄이는 재활을 함께 설계해야 합니다. 기본 치료는 활동 조절, 스트레칭, 심부 경부 굴곡근·견갑 안정화 운동, 수면·작업 자세 조정, [도수치료](/treatments/manual-therapy/), 온열·물리치료, 윈백 고주파(TECAR/RF) 물리치료입니다 [^3][^4]. 국소 근막 긴장과 압통이 뚜렷한 경우 [체외충격파](/treatments/eswt/)를 통증 조절·조직 자극 보조로 병행할 수 있습니다. 급성 악화기에는 NSAIDs, 근이완제 등을 단기간 사용할 수 있습니다.
 
 통증이 뚜렷하거나 운동 진입이 어려운 경우에는 통증유발점 주사(trigger point injection), 건식침(dry needling), [초음파 유도 주사](/treatments/ultrasound-guided-injection/), 보툴리눔 독소 주사 등을 환자 상태에 따라 검토합니다 [^2][^5]. 특히 목 부위 통증유발점에서는 건식침과 통증유발점 주사가 모두 연구되어 있으며, 2022년 systematic review/meta-analysis는 목 통증 증상에서 통증유발점 주사가 건식침보다 단기 통증 감소에 유리할 수 있다고 보고했습니다 [^5]. 다만 주사는 통증유발점을 “영구 제거”하는 치료라기보다 통증 민감도를 낮추고 운동·자세 재교육을 가능하게 하는 보조 치료로 설명하는 것이 안전합니다.
+
+**근막통증증후군 치료 분류** [^2][^3][^4][^5]
+{: .entity-table-caption}
+
+| 치료 구분 | 세부 방법 | 적용 상황 및 역할 |
+| --- | --- | --- |
+| 기본·재활 치료 | 활동 조절, 스트레칭, 안정화 운동, 자세 조정, 도수·온열·물리치료 | 통증 완화 및 재발 감소 |
+| 보조·약물 치료 | 체외충격파, NSAIDs, 근이완제 | 국소 긴장·압통 조절 및 급성 악화기 단기간 사용 |
+| 주사·침 치료 | 통증유발점 주사, 건식침, 초음파 유도 주사, 보툴리눔 독소 주사 | 통증이 뚜렷하거나 운동 진입이 어려운 경우 통증 민감도 완화 |
 
 임상 설명에서는 근막통증증후군을 단순 “담 걸림”으로 축소하지 않고, [목디스크](/conditions/cervical-disc-herniation/)·두통·어깨 통증과 감별하면서 윈백 고주파, 체외충격파, 초음파 유도 주사, 통증유발점 주사, 도수·운동, 생활 부하 조절을 연결하는 허브로 활용합니다.
 

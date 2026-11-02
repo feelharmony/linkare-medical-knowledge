@@ -31,6 +31,11 @@ version: 1
 ## 정의
 말초신경병증(peripheral neuropathy)은 **뇌와 척수 밖의 말초신경이 손상되어 감각·운동·자율신경 기능에 이상이 생기는 질환군**입니다. 그중 가장 흔한 형태가 **원위 대칭성 다발신경병증**(distal symmetric polyneuropathy)으로, 가장 긴 신경의 끝부터 손상이 시작되어 양쪽 발끝에서 감각 이상이 대칭으로 나타나고 진행하면 손끝까지 올라옵니다 [^3].
 
+<figure class="entity-figure entity-figure--portrait">
+  <img src="/assets/images/entities/peripheral-neuropathy/stocking-glove-distribution.webp" alt="앞에서 본 사람 전신 모형: 양쪽 무릎 아래 종아리와 발, 양쪽 아래팔 끝과 손이 푸른색으로 칠해진 모습" width="896" height="1200" loading="lazy">
+  <figcaption markdown="span">원위 대칭성 다발신경병증의 감각 이상 분포: 양쪽 발과 종아리(양말 모양) · 양손과 아래팔 끝(장갑 모양)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
+
 당뇨병은 말초신경병증의 가장 흔한 원인이며, 당뇨병성 신경병증은 다른 원인을 배제한 뒤 당뇨병 환자에서 나타나는 말초신경 기능 이상으로 정의됩니다 [^1][^2].
 
 ## 증상
