@@ -58,7 +58,7 @@ ESWT의 정확한 기전은 아직 완전히 규명되지 않았지만, 다음 �
 ### 외측·내측 상과염
 APTA 2022 외측 팔꿈치 통증 CPG는 ESWT를 독립적인 강한 권고로 세우지는 않고, 다른 물리치료와의 비교 근거 안에서 다룹니다 [^2]. 임상에서는 활동 조절·운동치료·도수치료에 반응이 부족하거나 통증 때문에 재활 진입이 어려운 환자에서 보조 옵션으로 검토합니다.
 
-팔꿈치 콘텐츠에서는 ESWT를 단독 치료처럼 설명하기보다, [팔꿈치 통증](/symptoms/elbow-pain/) → [외측상과염](/conditions/lateral-epicondylitis/) / [내측상과염](/conditions/medial-epicondylitis/) → 활동 조절·보조기·운동치료 → 윈백 고주파·체외충격파 → 필요 시 PRP/PRF 자가활성화세포 재생주사 검토 흐름으로 연결하는 것이 좋습니다.
+팔꿈치 콘텐츠에서는 ESWT를 단독 치료처럼 설명하기보다, [팔꿈치 통증](/symptoms/elbow-pain/) → [외측상과염](/conditions/lateral-epicondylitis/) / [내측상과염](/conditions/medial-epicondylitis/) → 활동 조절·보조기·운동치료 → 윈백 고주파·체외충격파 → 필요 시 PRP/PRF 자가활성화세포 재생주사 검토 흐름으로 연결합니다.
 
 ### 회전근개 석회성 건병증
 - **Brindisino 2024 systematic review**(21 RCTs)는 ESWT가 sham 대비 24주 시점 통증·기능 개선에서 임상적으로 의미 있는 효과를 보였다고 정리했습니다. 고에너지 ESWT는 저에너지보다 12주 시점 통증·기능·석회 흡수율에서 우수했고, focal·radial 방식은 동등한 효과를 보였습니다. 단기 통증 감소에서는 ultrasound-guided needling(UGN)이 ESWT보다 우수했습니다. GRADE 근거 확실성은 매우 낮음(very low)으로 평가됩니다 [^3].

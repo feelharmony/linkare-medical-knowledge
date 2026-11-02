@@ -34,7 +34,7 @@ version: 3
 </div>
 
 ## 정의
-만성피로증후군(myalgic encephalomyelitis / chronic fatigue syndrome, **ME/CFS**)은 단순 만성 피로와 구분되는 별도의 임상 진단명입니다. 단순한 피로 이상으로, **활동 후 악화**(post-exertional malaise, PEM)·**불회복 수면**·**인지 장애 또는 기립성 불내성** 같은 핵심 임상 양상을 특징으로 합니다 [^1][^2]. 미국 IOM 2015 보고서는 이 질환에 대해 **systemic exertion intolerance disease**(SEID)라는 새 명칭을 제안했으며, 동시에 "정신·심리적 illness가 아니라 medical illness"임을 명시했습니다 [^1].
+만성피로증후군(myalgic encephalomyelitis / chronic fatigue syndrome, **ME/CFS**)은 단순 만성 피로와 구분되는 별도의 임상 진단명입니다. 단순한 피로 이상으로, **활동 후 악화**(post-exertional malaise, PEM)·**불회복 수면**·**인지 장애 또는 기립성 불내성** 같은 핵심 임상 양상을 특징으로 합니다 [^1][^2]. 미국 IOM 2015 보고서는 이 질환에 **systemic exertion intolerance disease**(SEID)라는 새 명칭을 제안했으며, 동시에 "정신·심리적 illness가 아니라 medical illness"임을 명시했습니다 [^1].
 
 진단은 **트리거와 무관하게 임상 양상**으로 결정됩니다 [^1][^2]. 임상에서 환자의 다수가 바이러스 감염 후 발병한다고 보고되어 ICD-10에서는 G93.3(post-viral fatigue syndrome)으로 분류되지만, **비-감염 발병 환자도 진단 기준 충족 시 동일하게 ME/CFS로 진단**합니다. ICD-11에서는 chronic fatigue syndrome과 myalgic encephalomyelitis를 8E49 Postviral fatigue syndrome 항목의 inclusion으로 포함하고, Diseases of the Nervous System 장에 분류합니다 [^5].
 
@@ -100,7 +100,7 @@ NICE NG206은 PEM을 진단의 필수 요소로 두며, 6주부터 의심 단계
 - 약물·물질 영향
 
 ### 검사실 검사
-[만성 피로](/symptoms/chronic-fatigue/) 평가 framework를 따르며, 임상 양상에 따라 표적 적용합니다 — CBC·TSH·기본 대사 패널·공복혈당·B12·엽산이 1차이며 임상 의심 시 ESR·CRP·자가면역 검사 등 추가 [^3].
+[만성 피로](/symptoms/chronic-fatigue/) 평가 체계를 따르며, 임상 양상에 따라 표적 적용합니다 — CBC·TSH·기본 대사 패널·공복혈당·B12·엽산이 1차이며 임상 의심 시 ESR·CRP·자가면역 검사 등 추가 [^3].
 
 ### Long COVID와의 관계
 COVID-19 이후 PEM·인지 장애·불회복 수면 등이 지속되는 일부 환자는 ME/CFS와 임상적으로 겹칠 수 있다는 보고가 누적되고 있습니다. 다만 NICE NG206은 COVID-19 pandemic 이전 근거로 개발되어 post-COVID syndrome 환자에게 자동 적용되는 것은 아니라고 밝히며, post-COVID syndrome에는 별도 주의가 필요하다고 명시합니다 [^2].

@@ -108,7 +108,7 @@ Minnucci 2023 systematic review에서 RCT 보고된 이상반응은 대부분 �
 - **외측상과염**: APTA 2022 CPG 운동·도수·교육 evidence 등급별 권고 [^5].
 - **적용 방식**: Nim 2025 network MA — 척추 도수치료의 효과가 구체 application procedures에 의미 있게 좌우되지 않음(low certainty), 환자 선호 기반 기법 선택 가능 [^3].
 
-종합하면 도수치료는 운동치료·환자 교육과 결합한 multimodal 패키지의 일부로 가이드라인이 권고하는 보존 치료이며, 적응 결정·기법 선택·진행은 환자 평가에 기반합니다.
+도수치료는 운동치료·환자 교육과 결합한 multimodal 패키지의 일부로 가이드라인이 권고하는 보존 치료이며, 적응 결정·기법 선택·진행은 환자 평가에 기반합니다.
 
 ## 관련 항목
 - [목 통증](/symptoms/neck-pain/) · [허리통증](/symptoms/lower-back-pain/) · [어깨 통증](/symptoms/shoulder-pain/) · [팔꿈치 통증](/symptoms/elbow-pain/) · [거북목·일자목](/conditions/forward-head-posture/) · [경추기원 두통](/conditions/cervicogenic-headache/) · [목디스크](/conditions/cervical-disc-herniation/) · [허리디스크](/conditions/lumbar-disc-herniation/) · [척추관 협착증](/conditions/spinal-stenosis/) · [외측상과염](/conditions/lateral-epicondylitis/)

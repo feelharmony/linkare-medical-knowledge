@@ -40,7 +40,7 @@ NAD+(nicotinamide adenine dinucleotide)는 세포 에너지 생산(ATP 합성)·
 
 ### 전구체 경구 보충 RCT
 - **NMN 250mg/일 12주 RCT** (Morifuji 등, *GeroScience* 2024, n=60, 65~75세 노인): primary outcome인 stepping test에서는 위약 대비 유의 차이가 없었으나, secondary outcome인 4미터 걷기 시간·혈중 NAD+ 농도·수면 품질(PSQI 일중 기능·전체 점수)에서 NMN 군의 개선이 보고되었습니다[^2].
-- **NMN/NR 노인 근골격 outcome 메타분석** (Prokopidis 등, *J Cachexia Sarcopenia Muscle* 2025, 10 RCT): 노인 근골격 mass·악력·걷기 속도·5회 의자 일어서기 등 5개 outcome에서 위약 대비 유의 차이가 일관되게 확인되지 않았으며, 저자들은 60세 이상에서 근골격 기능 보존을 위한 NMN/NR 보충을 현 시점에서 결론적으로 지지하는 근거는 제한적이라고 평가했습니다[^3].
+- **NMN/NR 노인 근골격 outcome 메타분석** (Prokopidis 등, *J Cachexia Sarcopenia Muscle* 2025, 10 RCT): 노인 근골격 mass·악력·걷기 속도·5회 의자 일어서기 등 5개 outcome에서 위약 대비 유의 차이가 일관되게 확인되지 않았으며, 저자들은 60세 이상에서 근골격 기능 보존을 위한 NMN/NR 보충을 현 시점에서 뒷받침하는 근거는 제한적이라고 평가했습니다[^3].
 - **NAD+ 전구체 인간 임상 evidence 종합 review** (*Nature Metabolism* 2025): 동물 모델의 긍정적 결과에 비해 인간 임상시험에서 효과는 제한적이며, 연구 다수가 단기·소규모이고 장기 endpoint(노화 관련 질환 발생률·기능 저하)를 평가한 연구는 아직 없다고 정리합니다. 다만 일부 RCT에서 당뇨 전 단계 여성의 근육 인슐린 감수성 개선(NMN), 중년 남성의 혈압·동맥 경직도 개선(NR), 노인 남성의 염증 사이토카인 감소(NR) 등이 관찰되어, 환자군·outcome별로 evidence가 누적되는 단계입니다[^6].
 
 ### 정맥 보충

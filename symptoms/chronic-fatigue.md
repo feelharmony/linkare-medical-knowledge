@@ -88,7 +88,7 @@ version: 7
 **활동 후 악화**(post-exertional malaise, PEM)·**불회복 수면**·**인지 장애 또는 기립성 불내성**이 동반되며 6주 이상 지속되면 ME/CFS 진단 기준에 따라 평가합니다 [^3][^4]. 자세한 IOM 2015 SEID 진단 기준과 NICE NG206 권고는 [만성피로증후군 (ME/CFS)](/conditions/chronic-fatigue-syndrome/) 항목 참고.
 
 ## 치료 옵션
-원인 분류에 따라 치료 접근이 다릅니다 [^2].
+원인 분류에 따라 치료 방식이 다릅니다 [^2].
 
 ### 생리적·이차성 피로
 - **원인 질환 치료**(갑상샘·빈혈·당뇨·정신건강 등) — 가장 효과적인 접근 [^2]
@@ -97,13 +97,13 @@ version: 7
 - **인지행동치료(CBT)**: 동반된 우울·불안·스트레스에 적용 가능 [^2].
 
 ### ME/CFS — 별도 권고
-ME/CFS 진단 기준에 부합하면 일반 만성 피로와 치료 접근이 다릅니다. NICE NG206(2021)은 graded exercise therapy(GET)를 권고하지 않으며, CBT는 ME/CFS의 치료가 아닌 동반 정신건강 관리에 한정해 활용하도록 제시합니다. 핵심 관리 전략은 **활동 페이싱(activity pacing)** 입니다 [^4]. 자세한 진단 기준·치료 권고는 [만성피로증후군 (ME/CFS)](/conditions/chronic-fatigue-syndrome/) 항목 참고.
+ME/CFS 진단 기준에 부합하면 일반 만성 피로와 치료 방식이 다릅니다. NICE NG206(2021)은 graded exercise therapy(GET)를 권고하지 않으며, CBT는 ME/CFS의 치료가 아닌 동반 정신건강 관리에 한정해 활용하도록 제시합니다. 핵심 관리 전략은 **활동 페이싱(activity pacing)** 입니다 [^4]. 자세한 진단 기준·치료 권고는 [만성피로증후군 (ME/CFS)](/conditions/chronic-fatigue-syndrome/) 항목 참고.
 
 ### NAD/NMN 보충·수액 관련 근거
 NAD+ 관련 수액·보충 옵션은 만성 피로 영역에서 임상에서 논의되지만, 현재 인간 임상 근거는 주로 NMN·NR 같은 **경구 NAD+ 전구체** 영역에서 누적되고 있습니다. 핵심 근거는 다음과 같이 정리됩니다.
 
 - **NAD+ 전구체 경구 RCT**(Morifuji 2024 NMN, n=60 노인 65~75세, 12주 250 mg)에서 NAD+ 혈중 농도 상승·일부 부차 outcome(걷기 속도·수면 질) 개선이 보고되지만 primary outcome(stepping test)은 음성이었습니다 [^5].
-- **2025 systematic review**(Prokopidis et al, NMN/NR 10 RCT)에서 60세 이상의 근골격계 outcome에 대해서는 위약 대비 일관 차이가 없으며, 결정적 근거가 제한적이라고 결론합니다 [^6].
+- **2025 systematic review**(Prokopidis et al, NMN/NR 10 RCT)에서 60세 이상의 근골격계 outcome은 위약 대비 일관 차이가 없으며, 결정적 근거가 제한적이라고 결론합니다 [^6].
 - NAD+ 전구체 보충의 인간 임상 evidence는 누적 단계로 보고되며, 측정 한계와 단기·소규모 연구 비중이 큽니다 [^7]. **NAD+ 정맥 주입 자체에 대한 대규모 RCT는 제한적**이라 NAD+ 영역의 결정적 근거는 아직 형성 중입니다.
 - 환자에게는 만성 피로 평가에서 **원인 질환 치료가 우선**이고, NAD/NMN은 평가·관리 보조로 검토할 수 있는 옵션이라는 점을 함께 설명합니다.
 

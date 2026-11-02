@@ -50,7 +50,7 @@ TECAR RF 고주파 치료는 capacitive-resistive electric transfer(CRET) 또는
   <figcaption markdown="span">TECAR RF 원리: 엎드린 자세에서 허리 피부의 전극과 배 아래 리턴 플레이트 사이로 고주파 에너지 전달 · 척추 옆 깊은 근육의 심부열<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
 </figure>
 
-이 치료는 [물리치료](/treatments/physical-therapy/)의 하위 모달리티이지만, 단순 온열치료로만 설명하기보다 [도수치료](/treatments/manual-therapy/)·[운동치료](/treatments/exercise-therapy/)·[자세 교정](/treatments/posture-correction/)으로 이어지는 회복 프로토콜의 보조 축으로 다루는 것이 적절합니다. 즉 “윈백만으로 조직이 재생된다”가 아니라, 통증 방어와 근긴장을 낮춰 움직임 회복과 재활 진입을 돕는 치료로 설명합니다.
+이 치료는 [물리치료](/treatments/physical-therapy/)의 하위 모달리티이지만, 단순 온열치료로만 설명하기보다 [도수치료](/treatments/manual-therapy/)·[운동치료](/treatments/exercise-therapy/)·[자세 교정](/treatments/posture-correction/)으로 이어지는 회복 프로토콜의 보조 수단으로 다루는 것이 적절합니다. 즉 “윈백만으로 조직이 재생된다”가 아니라, 통증 방어와 근긴장을 낮춰 움직임 회복과 재활 진입을 돕는 치료로 설명합니다.
 
 ## 적응증
 TECAR RF 고주파 치료는 다음 상황에서 보조적으로 고려할 수 있습니다.

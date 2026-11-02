@@ -29,7 +29,7 @@ version: 2
 ## 정의
 팔(arm, upper extremity)은 [어깨](/body-parts/shoulder/)에서 위팔, [팔꿈치](/body-parts/elbow/), 전완, [손목](/body-parts/wrist/), 손까지 이어지는 상지 부위를 포괄합니다. 실제 진료와 콘텐츠에서는 관절·힘줄·인대 문제뿐 아니라 경추 신경근, 말초신경 포착, 말초신경병증, 혈관·전신 질환까지 함께 감별해야 합니다 [^1][^2].
 
-상지는 물건을 들고, 밀고, 잡고, 누르고, 회전하는 기능을 담당합니다. 따라서 같은 “팔이 아프다/저리다”라도 통증 위치가 어깨인지 팔꿈치인지 손목인지, 저림이 어느 손가락으로 가는지, 목 움직임과 연결되는지에 따라 원인과 치료 방향이 달라집니다 [^2][^3]. 이 entity는 단일 질환 설명보다 [어깨 통증](/symptoms/shoulder-pain/), [팔꿈치 통증](/symptoms/elbow-pain/), [손목 통증](/symptoms/wrist-pain/), [팔 저림·방사통](/symptoms/arm-numbness/), [손 저림](/symptoms/hand-numbness/)을 연결하는 상위 허브 역할이 적절합니다.
+상지는 물건을 들고, 밀고, 잡고, 누르고, 회전하는 기능을 담당합니다. 따라서 같은 “팔이 아프다/저리다”라도 통증 부위(어깨·팔꿈치·손목), 저림이 퍼지는 손가락, 목 움직임과의 연관성을 먼저 구별하여 원인을 찾고 치료 방향을 정합니다 [^2][^3]. 이 entity는 단일 질환 설명보다 [어깨 통증](/symptoms/shoulder-pain/), [팔꿈치 통증](/symptoms/elbow-pain/), [손목 통증](/symptoms/wrist-pain/), [팔 저림·방사통](/symptoms/arm-numbness/), [손 저림](/symptoms/hand-numbness/)을 연결하는 상위 허브 역할이 적절합니다.
 
 ## 관련 증상
 팔 관련 증상은 위치와 양상으로 먼저 나눕니다.

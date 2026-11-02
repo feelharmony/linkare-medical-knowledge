@@ -31,7 +31,7 @@ version: 3
 
 WHO는 노화에 대한 접근을 **질병 부재**가 아니라 **본질 능력(intrinsic capacity)·기능 능력(functional ability)** 중심의 건강 노화(Healthy Ageing) 모델로 제시합니다 [^2]. 즉 같은 연령이라도 본질 능력의 변화 양상은 개인마다 다르며, 조기 평가·맞춤 개입이 가능한 영역이 많습니다.
 
-생물학적 노화 기전은 활발히 연구되는 영역이며, 2023년 *Cell* 리뷰(López-Otín 등)에서는 노화의 **12 hallmarks**(genomic instability, telomere attrition, epigenetic alterations, loss of proteostasis, disabled macroautophagy, deregulated nutrient-sensing, mitochondrial dysfunction, cellular senescence, stem cell exhaustion, altered intercellular communication, chronic inflammation, dysbiosis)을 정리합니다 [^3]. 이는 임상 진단 기준이 아닌 **연구 영역의 framework**이며, 직접적 진료 적용보다는 항노화 연구 방향을 이해하는 배경입니다.
+생물학적 노화 기전은 활발히 연구되는 영역이며, 2023년 *Cell* 리뷰(López-Otín 등)에서는 노화의 **12 hallmarks**(genomic instability, telomere attrition, epigenetic alterations, loss of proteostasis, disabled macroautophagy, deregulated nutrient-sensing, mitochondrial dysfunction, cellular senescence, stem cell exhaustion, altered intercellular communication, chronic inflammation, dysbiosis)을 정리합니다 [^3]. 이는 임상 진단 기준이 아닌 **연구 영역의 틀**이며, 직접적 진료 적용보다는 항노화 연구 방향을 이해하는 배경입니다.
 
 ## 흔한 영역 (intrinsic capacity domains)
 WHO ICOPE는 노인의 본질 능력을 5개 domain으로 제시하며, 일부 domain은 별도 screening 항목으로 평가합니다 [^2][^8]:
@@ -110,7 +110,7 @@ ICOPE 1차 스크리닝은 5개 domain을 6개 항목(시각·청각 분리)으�
 NAD+ 보충(NMN·NR 경구 또는 NAD+ 정맥 주입)·기타 항노화 보충은 임상에서 활용되지만, **현재 인간 임상 evidence는 다음과 같이 정리됩니다**.
 
 - **NAD+ 전구체 경구 RCT**(Morifuji 2024 NMN, n=60 노인 65~75세, 12주 250 mg)에서 NAD+ 혈중 농도 상승·일부 부차 outcome(걷기 속도·수면 질) 개선이 보고되지만 primary outcome(stepping test)은 음성이었습니다 [^5].
-- **2025 systematic review**(Prokopidis et al, NMN/NR 10 RCT)에서 60세 이상의 근골격계 outcome에 대해서는 위약 대비 일관 차이가 없으며, 결정적 근거가 제한적이라고 결론합니다 [^6].
+- **2025 systematic review**(Prokopidis et al, NMN/NR 10 RCT)에서 60세 이상의 근골격계 outcome은 위약 대비 일관 차이가 없으며, 결정적 근거가 제한적이라고 결론합니다 [^6].
 - NAD+ 전구체 보충의 인간 임상 evidence는 누적 단계로 보고되며, 측정 한계와 단기·소규모 연구 비중이 큽니다 [^7]. **NAD+ 정맥 주입 자체에 대한 대규모 RCT는 제한적**이라 NAD+ 영역의 결정적 근거는 아직 형성 중입니다.
 - 사용 여부는 환자 특성과 의료진 평가에 따라 개별적으로 결정됩니다.
 
@@ -118,7 +118,7 @@ NAD+ 보충(NMN·NR 경구 또는 NAD+ 정맥 주입)·기타 항노화 보충�
 다축 노화 증상은 한 가지 영역만으로 해결되지 않으며, **운동·영양·정기 검진·동반 질환 관리·사회적 활동**을 함께 적용하는 통합 접근이 핵심입니다 [^2]. 만성 통증·관절 노화는 [무릎 관절염](/conditions/knee-osteoarthritis/)·[척추관 협착증](/conditions/spinal-stenosis/)·[허리통증](/symptoms/lower-back-pain/) 등 해당 항목과 함께 관리합니다.
 
 ### 경과·예후
-노화 자체는 가역적 과정이 아니지만, **본질 능력 저하의 일부는 조기 개입으로 늦추거나 일부 회복 가능**하다고 WHO ICOPE는 제시합니다 [^2]. 근감소증은 저항성 운동·단백질 충분 섭취로 근력·근육량 모두 개선 가능한 영역이며 [^4], 이동 능력·인지·영양 영역도 표적 개입의 evidence가 누적되고 있습니다. 항노화·NAD/NMN 영역은 연구가 활발하지만 결정적 임상 근거는 형성 중이라, 검증된 영역(운동·영양·정기 검진)을 우선하면서 보조 옵션을 환자 특성에 맞춰 검토하는 접근이 합리적입니다.
+노화 자체는 가역적 과정이 아니지만, **본질 능력 저하의 일부는 조기 개입으로 늦추거나 일부 회복 가능**하다고 WHO ICOPE는 제시합니다 [^2]. 근감소증은 저항성 운동·단백질 충분 섭취로 근력·근육량 모두 개선 가능한 영역이며 [^4], 이동 능력·인지·영양 영역도 표적 개입의 evidence가 누적되고 있습니다. 항노화·NAD/NMN 영역은 연구가 활발하지만 결정적 임상 근거는 형성 중이라, 검증된 영역(운동·영양·정기 검진)을 우선하면서 보조 옵션을 환자 특성에 맞춰 검토합니다.
 
 ---
 

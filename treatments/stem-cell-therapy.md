@@ -47,7 +47,7 @@ version: 4
 
 - **ADSC / 자가지방 유래 줄기세포**: 지방조직에서 얻은 adipose-derived stem/stromal cell 계열
 - **SVF / 기질혈관분획**: 지방 흡입 후 분리한 세포 혼합 분획으로, 줄기·기질세포, 혈관 관련 세포, 면역세포 등이 함께 포함됩니다.
-- **BMAC / 골수 흡인 농축물**: 골수 흡인액을 농축해 mesenchymal stem/stromal cell, 조혈계 세포, 혈소판·성장인자 등을 함께 활용하는 방식입니다.
+- **BMAC / 골수 흡인 농축물**: 골수 흡인액을 농축해 mesenchymal stem/stromal cell, 조혈계 세포, 혈소판·성장인자 등을 함께 활용합니다.
 - **BMSC / 골수 유래 중간엽 줄기세포**: 배양·확장 또는 농축 방식에 따라 연구·임상 맥락이 달라집니다.
 - **세포 유래 분비물·추출물**: ADSC conditioned media, secretome, 세포외 소포체 등은 [엑소좀 치료](/treatments/exosome-therapy/)와 일부 겹치지만, 실제 세포 주입과는 구분해야 합니다.
 
@@ -67,7 +67,7 @@ version: 4
 통증의학·정형 재생치료에서는 줄기세포 단독보다 **초음파·영상 평가 → 부하 조절·운동치료 → PRP/PRF·체외충격파·TECAR/물리치료 등과의 병용 설계 → 필요 시 줄기세포/SVF/BMAC 검토** 흐름이 임상적으로 더 방어적입니다. 자사 근골격 콘텐츠도 줄기세포를 단독 만능 치료가 아니라 신경차단술·체외충격파·PRP 등과 순서·간격을 조절하는 회복 설계의 한 축으로 설명합니다 [^10].
 
 ### 두피·탈모
-두피 영역에서는 [안드로겐성 탈모](/conditions/androgenetic-alopecia/)를 중심으로 자가지방 유래 SVF·ADSC·ADSC conditioned extract 등이 연구됩니다. [탈모 약물 치료](/treatments/hair-loss-medication/)가 모낭 미세화 진행을 늦추는 표준 축이라면, 줄기세포 계열 시술은 모낭 주변 미세환경·혈관신생·성장인자 신호를 보조하는 치료 후보로 설명하는 것이 적절합니다.
+두피 영역에서는 [안드로겐성 탈모](/conditions/androgenetic-alopecia/)를 중심으로 자가지방 유래 SVF·ADSC·ADSC conditioned extract 등이 연구됩니다. [탈모 약물 치료](/treatments/hair-loss-medication/)가 모낭 미세화 진행을 늦추는 표준 치료라면, 줄기세포 계열 시술은 모낭 주변 미세환경·혈관신생·성장인자 신호를 보조하는 치료 후보로 볼 수 있습니다.
 
 - **AGA 줄기세포 RCT 시스템 리뷰** (Gasteratos 등, *Plast Reconstr Surg Glob Open* 2024, 12 RCT/514명): 5종 cellular + 8종 acellular 줄기세포 치료를 분석한 결과, 모발 밀도 증가 17.58~102.1 hairs/cm², 모발 굵기 증가가 보고되었습니다. 일부 연구에서는 효과 지속성이 3~9개월에 제한적이라는 보고도 있어 유지 시술 또는 병용 전략이 검토됩니다 [^6].
 - **SVF + PRP vs PRP 단독 RCT** (Behrangi 등, *Skin Res Technol* 2024, n=18): 양 군 모두 baseline 대비 hair count가 유의하게 증가했으나, SVF+PRP와 PRP 단독 간 차이는 통계적으로 유의하지 않았습니다(P=0.917). 따라서 SVF 추가의 부가 효과는 환자별 기대효과·비용·접근성을 함께 검토해야 합니다 [^8].

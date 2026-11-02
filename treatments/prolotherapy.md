@@ -48,7 +48,7 @@ version: 5
 ### 무릎 골관절염
 - **Khateri 2024 systematic review with meta-analysis**(Health Sci Rep, interventional studies)는 무릎 골관절염 환자에서 dextrose prolotherapy가 WOMAC **통증**(SMD -0.95, p<0.001)과 **뻣뻣함**(SMD -0.21, p<0.001) 영역에서 유의한 개선을 보고했습니다. **기능 영역**은 prolotherapy 우호 방향이지만 통계적으로 유의하지 않았습니다(SMD 0.20, 95% CI -0.11~0.51, p=0.221) [^3].
 - 다만 **AAOS 2021 Knee OA 비수술 CPG**는 prolotherapy의 근거를 **insufficient**로 평가하며, PRP·prolotherapy의 우월성을 명확히 지지하기에는 추가 RCT가 필요하다고 정리합니다 [^4].
-- **ACR/Arthritis Foundation 2019 OA 가이드라인**은 무릎·고관절 OA에 대해 prolotherapy를 **conditionally recommended against**(조건부 비권고)로 제시합니다. RCT 수가 제한적이고 효과 크기가 작으며 시술 일정·부위·비교군이 연구 간 다양했던 것을 근거로 듭니다 [^6].
+- **ACR/Arthritis Foundation 2019 OA 가이드라인**은 무릎·고관절 OA에 prolotherapy를 쓰는 것을 **conditionally recommended against**(조건부 비권고)로 제시합니다. RCT 수가 제한적이고 효과 크기가 작으며 시술 일정·부위·비교군이 연구 간 다양했던 것을 근거로 듭니다 [^6].
 - 즉 systematic review에서 효과 신호는 일부 보고되지만 근거 강도·연구 간 이질성이 한계로 지적되며, 가이드라인별 입장이 갈리는 영역입니다. 환자별 보존 치료 반응·기대 효과·다른 옵션을 종합해 단계적으로 검토합니다. 자세한 평가·치료 흐름은 [무릎 관절염](/conditions/knee-osteoarthritis/) 참고.
 
 ### 족저근막염

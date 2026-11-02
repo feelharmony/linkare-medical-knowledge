@@ -39,7 +39,7 @@ version: 2
   <figcaption markdown="span">손목뼈(수근골) 구성(오른손 손등 쪽): 아래팔뼈 끝 위에 두 줄로 놓인 작은 손목뼈들 · 엄지 쪽 주상골(Scaphoid) · 붉은 선: 손목뼈와 손바닥뼈 사이 관절<span class="entity-figure-credit">그림: Scientific Animations, <a href="https://commons.wikimedia.org/wiki/File:3D_Medical_Animation_Human_Wrist.jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
-손목은 손 기능의 입구입니다. 따라서 같은 손목 통증이라도 엄지 쪽 힘줄 문제인지, 손바닥 쪽 정중신경 압박인지, 새끼손가락 쪽 척골측 통증인지, 외상 후 골절·인대 손상인지에 따라 진단과 치료가 달라집니다 [^2][^3].
+손목은 손 기능의 입구입니다. 따라서 같은 손목 통증이라도 엄지 쪽 힘줄 문제, 손바닥 쪽 정중신경 압박, 새끼손가락 쪽 척골측 통증, 외상 후 골절·인대 손상 등 원인 부위와 손상 형태를 구분하여 진단하고 치료합니다 [^2][^3].
 
 ## 관련 증상
 손목 관련 증상은 [손목 통증](/symptoms/wrist-pain/), [손 저림](/symptoms/hand-numbness/), 엄지 쪽 통증, 악력 저하, 물건을 잡을 때 통증, 야간 저림, 손가락 감각 이상으로 나타납니다. 엄지 쪽 손목 통증이 아기 안기·스마트폰·집게 동작에서 심해지면 [드퀘르벵 건초염](/conditions/de-quervain/)을 고려합니다 [^4]. 엄지·검지·중지 중심 저림과 야간 통증이 두드러지면 [손목터널증후군](/conditions/carpal-tunnel-syndrome/)을 감별합니다 [^1][^5].
