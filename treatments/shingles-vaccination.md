@@ -31,13 +31,42 @@ quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 대상포진 백신은 잠복 수두대상포진 바이러스의 재활성화를 예방하며, 재조합 사백신인 Shingrix가 임상 표준입니다.
+- 미국 CDC 기준으로 50세 이상 성인과 19세 이상 면역억제·면역저하 성인이 접종 권고 대상입니다[^1][^6].
+- 2~6개월 간격의 2회 근육내 주사를 완료하면 대상포진 발생을 약 87~97% 줄이고 PHN 위험을 88.8%까지 낮춥니다[^2][^3][^4].
+
+</div>
+
 ## 정의·종류
 대상포진 백신은 잠복 수두대상포진 바이러스(VZV)의 재활성화를 예방하는 능동 면역 수단입니다. 현재 가장 널리 사용되는 백신은 **Shingrix(재조합 대상포진 백신, recombinant zoster vaccine, RZV)**입니다.
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/shingles-vaccination/zoster-reactivation-path.webp" alt="척추 옆 신경절에 잠복한 수두대상포진 바이러스가 한쪽 신경을 따라 피부로 내려와 띠 모양 발진을 만드는 경로" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">대상포진 재활성화 경로: 바이러스가 잠복한 척추 옆 신경절(보라색) → 신경(노란색) → 같은 쪽 피부의 띠 모양 물집<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 - **Shingrix (RZV, GSK)** — **재조합 사백신(비생백신, recombinant non-live subunit vaccine)**. VZV 당단백 E 항원 + AS01B 보조제로 구성되며 살아있는 바이러스 입자가 없어 **면역억제 환자에서도 사용 가능**. **2회 접종**(2~6개월 간격, 근육내 주사)
 - **Zostavax (ZVL, Merck)** — 약독화 생백신. 미국에서는 단종, 일부 국가에서 제한적 잔존. 면역억제 환자 금기. 임상시험에서 60세 이상 약 51%, 70세 이상 약 38% 수준의 예방률이 보고되었고, 접종 후 5년 전후로 면역 효과가 의미 있게 감소하는 것으로 알려져 있습니다 [^5]
 
 근거 정리는 임상 표준이 된 **Shingrix(RZV) 중심**입니다.
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/shingles-vaccination/shingrix-vial.webp" alt="Shingrix 상자와 항원 분말 병, 보조제 현탁액 병" width="1000" height="495" loading="lazy">
+  <figcaption markdown="span">Shingrix 구성: 항원(분말) 병 · 보조제(현탁액) 병<span class="entity-figure-credit">사진: Whispyhistory, <a href="https://commons.wikimedia.org/wiki/File:Shingrix.jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a></span></figcaption>
+</figure>
+
+**대상포진 백신 종류 비교** [^1][^2][^3][^5]
+{: .entity-table-caption}
+
+| 구분 | Shingrix (RZV) | Zostavax (ZVL) |
+| --- | --- | --- |
+| 백신 형태 | 재조합 사백신(비생백신) | 약독화 생백신 |
+| 면역억제 환자 | 19세 이상 사용 가능 | 금기 |
+| 예방 효과 | 50세 이상 97.2%, 70세 이상 91.3% | 60세 이상 약 51%, 70세 이상 약 38% |
+| 효과 지속성 | 11년차 82.0% 유지 | 접종 후 5년 전후 의미 있게 감소 |
 
 ## 적응증·접종 권고
 
@@ -71,6 +100,16 @@ next_review: '2026-08-09'
 - ZOE-LTFU 기간 중 PHN에 대한 VE: **87.5%**
 - RZV 관련 중대 이상반응은 보고되지 않음 — 장기 안전성 확인
 
+<figure class="entity-figure entity-chart" role="img" aria-label="Shingrix 예방 효과 막대그래프">
+  <div class="entity-chart-title">Shingrix 대상포진 예방 효과 (위약 대비)</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">50세 이상<span>ZOE-50 임상시험</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:97.2%"></div><span class="entity-chart-value">97.2%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">70세 이상<span>ZOE-50·70 통합 분석</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:91.3%"></div><span class="entity-chart-value">91.3%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">70세 이상 · 대상포진 후 신경통<span>ZOE-50·70 통합 분석</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:88.8%"></div><span class="entity-chart-value">88.8%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">50세 이상 · 11년 전체<span>ZOE-LTFU 장기 추적</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:87.7%"></div><span class="entity-chart-value">87.7%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">접종 11년째 해<span>ZOE-LTFU 장기 추적</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:82.0%"></div><span class="entity-chart-value">82.0%</span></div></div>
+  <figcaption markdown="span">Shingrix 예방 효과(70세 이상 = ZOE-50·70 통합 분석) [^2][^3]<span class="entity-figure-credit">그래프: Linkbase · Lal 2015, Cunningham 2016 (N Engl J Med), Strezova 2025 (eClinicalMedicine) 초록 수치</span></figcaption>
+</figure>
+
 ### 면역억제 환자
 면역억제·면역저하 성인에서도 RZV가 안전하고 효과적이라는 별도 임상시험 데이터가 누적되어, CDC는 19세 이상 면역억제 성인에 대한 권고를 추가했습니다[^1].
 
@@ -79,6 +118,15 @@ next_review: '2026-08-09'
 2. **근육 내 주사** — 보통 삼각근(어깨 근육) 부위
 3. **2차 접종 일정 안내** — 2~6개월 간격
 4. **시술 후 관찰** — 즉각적 부작용(현기증·알레르기) 모니터링
+
+<figure class="entity-figure entity-steps" role="img" aria-label="Shingrix 2회 접종 일정: 1차 접종 뒤 2개월에서 6개월 사이 2차 접종">
+  <div class="entity-chart-title">Shingrix 접종 일정: 2회, 근육 주사</div>
+  <ol class="entity-steps-list">
+    <li><b>1차 접종</b><span>0개월</span></li>
+    <li class="entity-steps-range"><b>2차 접종</b><span>2~6개월 사이</span></li>
+  </ol>
+  <figcaption markdown="span">Shingrix 접종 일정 · 보통 어깨 삼각근 근육 주사<span class="entity-figure-credit">도식: Linkbase</span></figcaption>
+</figure>
 
 ## 부작용·주의점
 

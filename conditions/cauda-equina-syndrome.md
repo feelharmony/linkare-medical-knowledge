@@ -18,8 +18,22 @@ clinic_footnote_ids: [1]
 external_footnote_ids: [2, 3, 4, 5, 6]
 version: 6
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 마미증후군은 척수 끝에서 갈라져 나오는 신경 다발인 마미신경이 한꺼번에 압박되어 발생하는 응급 신경학적 증후군입니다 [^2][^4].
+- 배뇨·배변 장애나 회음부 감각 저하 등이 핵심 위험 신호이며, 진단과 치료가 늦어질수록 영구적 신경학적 장애 위험이 커집니다 [^4].
+- 의심 신호가 있으면 응급 MRI로 확인하며, 압박 원인에 따라 가능한 한 빨리 응급 수술적 감압을 시행합니다 [^2][^3][^4][^5][^6].
+
+</div>
+
 ## 정의
 마미증후군(cauda equina syndrome, CES)은 척수 끝 부분에서 마치 말의 꼬리처럼 갈라져 나오는 신경 다발(마미신경, cauda equina)이 한꺼번에 압박되어 발생하는 응급 신경학적 증후군입니다 [^2][^4]. 즉시 응급 평가와 수술적 감압이 필요한 척추 응급 상황으로 분류되며, 진단·치료가 늦어질수록 영구적 신경학적 장애 위험이 커집니다 [^4].
+
+<figure class="entity-figure">
+  <img src="/assets/images/entities/cauda-equina-syndrome/cauda-equina-disc-compression.webp" alt="허리뼈 옆모습 단면: 척수가 첫째 허리뼈 높이에서 끝나고 그 아래 신경 다발(마미)이 이어지며, 아래쪽 디스크가 뒤로 튀어나와 신경 다발을 누르는 모습" width="1000" height="747" loading="lazy">
+  <figcaption markdown="span">마미와 디스크 압박: 허리 위쪽에서 끝나는 척수 · 그 아래 말꼬리 모양 신경 다발(노란색) · 뒤로 튀어나와 다발을 누르는 아래 허리 디스크(붉은색)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+</figure>
 
 ## 병태
 가장 흔한 원인은 요추 추간판이 큰 폭으로 탈출해 마미신경을 직접 압박하는 경우입니다 — 자세한 정보는 [허리디스크](/conditions/lumbar-disc-herniation/) 항목 참조 [^4]. 그 외 다음과 같은 원인이 있습니다 [^2][^4]:
@@ -48,14 +62,35 @@ version: 6
 ## 진단
 진단은 임상 평가와 영상 검사를 종합해 응급 상황으로 진행합니다. 마미증후군은 단일 증상이나 신체 검사만으로 배제하기 어려워, 의심 신호가 있으면 가능한 한 빨리 응급 MRI로 확인합니다 [^4][^5][^6]. MRI는 표준 영상 검사이며, 마미신경 압박의 위치·정도·원인을 평가하는 데 사용됩니다. MRI 시행이 즉시 어려운 경우 CT myelography를 대안으로 사용합니다 [^2]. 신체 검사로는 회음부 감각, 항문 괄약근 긴장도, 하지 근력·반사·감각, 잔뇨량 측정 등이 평가됩니다 [^2][^4].
 
+<figure class="entity-figure entity-figure--portrait">
+  <img src="/assets/images/entities/cauda-equina-syndrome/ces-mri-sagittal.webp" alt="허리 MRI 옆모습 영상: 척수액이 찬 하얀 관이 아래 허리 높이에서 가늘게 좁아진 모습" width="1000" height="1152" loading="lazy">
+  <figcaption markdown="span">마미증후군 환자의 허리 MRI(옆모습): 가운데 하얀 관(경막낭)이 아래 허리에서 가늘어진 곳 = 눌린 자리 · 원인: 경막 바깥 농양 + 디스크 돌출<span class="entity-figure-credit">영상: Jing Jing Chan, Jen Jen Oh, <a href="https://commons.wikimedia.org/wiki/File:MRI_of_the_lumbar_spine_with_abscess_in_the_posterior_epidural_space,_causing_cauda_equina_syndrome.jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/4.0" rel="nofollow noopener" target="_blank">CC BY 4.0</a></span></figcaption>
+</figure>
+
 임상에서는 신경 손상 정도에 따라 불완전 마미증후군(incomplete CES, CES-I — 일부 자율신경 증상만 있는 단계)과 요정체 동반 마미증후군(CES with retention, CES-R — 요정체와 함께 광범위 신경 증상이 동반되는 단계)으로 구분되며, 이 분류는 수술 시점과 예후 예측에 영향을 줍니다 [^4].
 
 ## 치료
 마미증후군은 응급 수술적 감압이 표준 치료입니다 [^2][^3][^4]. 요추 디스크 탈출로 인한 마미증후군 수술 사례 22개 연구 852명을 분석한 메타분석(Kumar et al., 2022)에서, 평균 감압 시간이 48시간 이내였던 연구군의 약 24.6%가 지속적 방광 기능 장애를 보인 반면, 평균 감압 시간이 48시간 이후였던 연구군은 약 50.3%가 지속 장애를 보고해 48시간 이내 감압이 방광 기능 회복에 유리한 것으로 나타났습니다 [^3].
 
+<figure class="entity-figure entity-chart" role="img" aria-label="감압 시점별 방광 기능 장애 막대그래프">
+  <div class="entity-chart-title">수술 뒤 방광 기능 장애가 남은 비율</div>
+  <div class="entity-chart-row"><div class="entity-chart-label">48시간 안 감압<span>연구별 평균 감압 시간 기준 · 75명</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:24.6%"></div><span class="entity-chart-value">24.6%</span></div></div>
+  <div class="entity-chart-row"><div class="entity-chart-label">48시간 넘어 감압<span>연구별 평균 감압 시간 기준 · 185명</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:50.3%"></div><span class="entity-chart-value">50.3%</span></div></div>
+  <figcaption markdown="span">감압 시점과 방광 기능 장애 [^3]<span class="entity-figure-credit">그래프: Linkbase · Kumar 2022 (Eur Spine J) 초록 수치: 디스크 탈출 마미증후군 수술 22개 연구 852명 메타분석</span></figcaption>
+</figure>
+
 다만 24시간 vs 48시간 비교에서는 일부 연구가 차이를 보이지 않아, 정확한 timing 기준은 환자의 신경 손상 정도(CES-I vs CES-R, 요정체 여부), 수술 가능 시점, 동반 상황을 종합해 결정합니다 [^4]. 일반적으로는 가능한 한 빨리 응급 수술적 감압을 시행하는 방향으로 권고됩니다.
 
 수술 방식은 압박 원인에 따라 달라집니다. 추간판 탈출에 의한 경우 추간판 절제술 또는 감압 추궁절제술(laminectomy), 종양에 의한 경우 종양 제거술, 척추관 협착에 의한 경우 광범위 감압술 등이 고려됩니다 [^4][^5].
+
+**압박 원인별 수술 방식** [^2][^4][^5]
+{: .entity-table-caption}
+
+| 압박 원인 | 수술 방식 | 비고 |
+|---|---|---|
+| 추간판 탈출 | 추간판 절제술 또는 감압 추궁절제술 | 가장 흔한 원인, 마미신경 직접 압박 |
+| 척추 종양 | 종양 제거술 | 전이암 등 포함 |
+| 척추관 협착 | 광범위 감압술 | 요추 부위 발생 |
 
 ## 예후
 조기 수술적 감압이 이루어지면 신경학적 기능(다리 근력·감각·배뇨·배변)이 상당 부분 회복될 수 있지만, 수술이 지연될수록 영구적 장애(신경인성 방광·대변 실금·하지 근력 저하·성기능 장애 등)의 위험이 높아집니다 [^3][^4]. 수술 후에도 일부 환자는 잔여 증상이 남을 수 있어, 회복기에는 비뇨기과·신경과·재활의학과 등 다학제 관리가 도움이 됩니다 [^4]. 진단 지연은 의료법적 분쟁의 흔한 원인으로 보고되며, 의심 신호가 보이는 즉시 응급실 평가를 받는 것이 환자 결과와 안전 모두에 중요합니다 [^4].

@@ -1,0 +1,169 @@
+/* Linkbase 2단계 — 핵심 요약·그림·그래프·비교 표 (2026-11-02). 토큰은 style.css :root 를 그대로 쓴다. */
+.entity-summary {
+  background: var(--color-primary-soft);
+  border-left: 3px solid var(--color-primary);
+  border-radius: 2px;
+  padding: 1rem 1.25rem 0.5rem;
+  margin: 0 0 2rem;
+}
+.entity-summary .entity-summary-label {
+  margin: 0 0 0.25rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--color-primary);
+}
+.entity-summary ul { margin: 0.25rem 0 0.75rem 1.1rem; }
+.entity-summary li { margin: 0.35rem 0; color: var(--color-ink); }
+
+.entity-figure {
+  margin: 1.75rem 0;
+  padding: 0;
+}
+.entity-figure img {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid var(--color-line);
+  border-radius: 2px;
+  background: #FFFFFF;
+}
+.entity-figure figcaption {
+  max-width: 760px;
+  margin: 0.6rem auto 0;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--color-muted);
+}
+.entity-figure .entity-figure-credit {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.75rem;
+  color: var(--color-muted-soft);
+}
+.entity-figure .entity-figure-credit a { color: inherit; }
+
+.entity-body .entity-table-caption {
+  margin: 1.75rem 0 0.5rem;
+  font-size: 0.9375rem;
+  color: var(--color-ink);
+}
+.entity-body table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 0.25rem 0 1.5rem;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+}
+.entity-body th,
+.entity-body td {
+  padding: 0.6rem 0.85rem;
+  border: 1px solid var(--color-line);
+  text-align: left;
+  vertical-align: top;
+}
+.entity-body th {
+  background: var(--color-bg-soft);
+  font-weight: 600;
+  color: var(--color-ink);
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .entity-summary { padding: 0.85rem 1rem 0.35rem; }
+  .entity-figure figcaption { font-size: 0.8125rem; }
+}
+
+.entity-figure--portrait img { max-width: 440px; }
+.entity-figure--portrait figcaption { max-width: 440px; }
+
+/* 막대그래프·단계 도식 — HTML 이라 모바일에서도 글자 크기가 유지되고 숫자가 텍스트로 남는다 */
+.entity-chart,
+.entity-steps {
+  border: 1px solid var(--color-line);
+  border-radius: 2px;
+  padding: 1rem 1.1rem 0.9rem;
+  background: #FFFFFF;
+}
+.entity-chart-title {
+  font-weight: 700;
+  color: var(--color-ink);
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+.entity-chart-row {
+  display: grid;
+  grid-template-columns: minmax(9rem, 38%) 1fr;
+  gap: 0.75rem;
+  align-items: center;
+  margin: 0.55rem 0;
+}
+.entity-chart-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-body);
+  line-height: 1.35;
+}
+.entity-chart-label span {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--color-muted);
+}
+.entity-chart-bar {
+  position: relative;
+  height: 1.6rem;
+  margin-right: 3.6rem;
+  background: var(--color-bg-sunken);
+  border-radius: 2px;
+}
+.entity-chart-fill {
+  height: 100%;
+  background: var(--color-primary);
+  border-radius: 2px;
+}
+.entity-chart-fill--alt { background: #6A87D8; }
+.entity-chart-value {
+  position: absolute;
+  right: -3.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--color-ink);
+}
+.entity-chart figcaption,
+.entity-steps figcaption { max-width: none; margin-top: 0.75rem; }
+
+.entity-steps-list {
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0 !important;
+  padding: 0;
+  counter-reset: step;
+}
+.entity-steps-list li {
+  flex: 1;
+  margin: 0;
+  padding: 0.7rem 0.85rem;
+  background: var(--color-primary-soft);
+  border-radius: 2px;
+  counter-increment: step;
+}
+.entity-steps-list li b {
+  display: block;
+  color: var(--color-primary);
+  font-size: 0.9375rem;
+}
+.entity-steps-list li b::before { content: counter(step) ". "; }
+.entity-steps-list li span { font-size: 0.875rem; color: var(--color-body); }
+
+@media (max-width: 600px) {
+  .entity-chart-row { grid-template-columns: 1fr; gap: 0.3rem; }
+  .entity-figure--portrait img { max-width: 100%; }
+}
