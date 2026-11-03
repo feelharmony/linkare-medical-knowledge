@@ -5,7 +5,7 @@ entity_type: condition
 permalink: /conditions/scalp-itch/
 title: 두피 가려움 (두피 소양증)
 title_en: scalp pruritus (scalp itch)
-description: 여러 기저 질환에서 생기는 두피의 가려움. 피부 병변과 탈모가 함께 있는지에 따라 지루피부염·건선·반흔성 탈모·신경성·전신성 원인을 나누어 평가하고, 악화 요인 제거와 원인 질환 치료를 함께 진행합니다.
+description: ''
 aliases:
   - 두피 가려움
   - 두피 가려움증
@@ -15,27 +15,31 @@ aliases:
   - scalp pruritus
   - scalp itch
   - itchy scalp
-last_reviewed: '2026-10-24'
+last_reviewed: '2026-11-03'
 locked: false
 quality_status: review
 verified_by: 외부 문헌 PMID·초록 대조 (NCBI eutils)
 next_review: '2027-01-24'
-source_count: 12
+source_count: 13
 source_count_external: 12
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-version: 1
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 13
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+version: 2
 ---
-<div class="entity-summary" markdown="1">
-<p class="entity-summary-label">핵심 요약</p>
-
-- 두피 가려움은 피부과적·신경병성·전신성·심인성 등 여러 기저 질환에서 생기는 흔하고 까다로운 증상입니다 [^1][^2].
-- 피부 병변과 탈모 동반 여부를 기준으로 평가하며 반흔성 탈모가 동반되면 영구 탈모로 이어질 수 있습니다 [^2][^10].
-- 악화 요인을 없애고 원인 질환에 맞춘 국소·전신 치료를 단계적으로 조합하여 관리합니다 [^1][^3].
-
-</div>
-
 ## 정의
 두피 가려움(scalp pruritus, scalp itch)은 피부과 진료에서 흔히 마주치는 호소로, **여러 기저 질환에서 생기기 때문에 진단과 치료가 모두 까다로운 증상**입니다 [^1][^2]. 가려움이 두피에만 머물기도 하고 다른 부위로 번지기도 하며, 특정 피부 질환이나 피부 변화와 관련되기도 하고 문지르거나 긁어서 생긴 이차 병변과 관련되기도 합니다 [^1]. 눈에 띄는 원인 없이 두피가 가려운 환자도 드물지 않아, 환자와 의료진 모두에게 부담이 되는 상황이 자주 생깁니다 [^2].
 
@@ -46,8 +50,8 @@ version: 1
 두피는 **신경이 촘촘하게 분포한 모낭과 풍부한 진피 혈관**으로 이루어진 독특한 신경 구조를 갖고 있습니다 [^4]. 가려움의 병태생리 연구가 진전되었음에도 2011년 총설 시점까지 두피 가려움 자체는 거의 연구되지 않았다고 지적되었으며, 이 총설은 두피·모낭의 신경생물학과 가려움 매개 물질을 정리해 두피 가려움의 가능한 기전을 제안했습니다 [^4].
 
 <figure class="entity-figure">
-  <img src="/assets/images/entities/scalp/scalp-layers.webp" alt="머리뼈 위 두피 층을 입체로 자른 그림: 모발과 모낭, 피지샘, 털세움근, 모낭 사이로 뻗은 혈관·신경, 피하지방, 모상건막, 머리뼈" width="1000" height="747" loading="lazy">
-  <figcaption markdown="span">두피 층 구조: 모낭 · 피지샘 · 털세움근 · 진피 혈관·신경 · 피하지방 · 모상건막 · 머리뼈<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+ <img src="/assets/images/entities/scalp/scalp-layers.webp" alt="머리뼈 위 두피 층을 입체로 자른 그림: 모발과 모낭, 피지샘, 털세움근, 모낭 사이로 뻗은 혈관·신경, 피하지방, 모상건막, 머리뼈" width="1000" height="747" loading="lazy">
+ <figcaption markdown="span">두피 층 구조: 모낭 · 피지샘 · 털세움근 · 진피 혈관·신경 · 피하지방 · 모상건막 · 머리뼈<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
 </figure>
 
 ### 원인 분류
@@ -72,11 +76,11 @@ version: 1
 - **반흔성 탈모에 동반된 가려움**: 편평태선모공염·전두부 섬유화 탈모 환자 61명 중 73.8%가 두피 가려움을 호소했고, 찌릿한 느낌(19.7%)이나 화끈거림(14.8%)이 함께 나타나는 경우가 많았습니다. 땀·열·스트레스·뜨거운 물에서 심해지고 찬물·찬 공기에서 덜해지는 경향이 보고되었습니다 [^9].
 
 <figure class="entity-figure entity-chart" role="img" aria-label="편평태선모공염·전두부 섬유화 탈모 환자의 두피 증상 (61명) 막대그래프">
-  <div class="entity-chart-title">편평태선모공염·전두부 섬유화 탈모 환자의 두피 증상 (61명)</div>
-  <div class="entity-chart-row"><div class="entity-chart-label">두피 가려움<span>itching of the scalp</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:73.8%"></div><span class="entity-chart-value">73.8%</span></div></div>
-  <div class="entity-chart-row"><div class="entity-chart-label">찌릿한 느낌 동반<span>tingling</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:19.7%"></div><span class="entity-chart-value">19.7%</span></div></div>
-  <div class="entity-chart-row"><div class="entity-chart-label">화끈거림 동반<span>burning</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:14.8%"></div><span class="entity-chart-value">14.8%</span></div></div>
-  <figcaption markdown="span">편평태선모공염·전두부 섬유화 탈모 환자 61명 중 증상 호소 비율 [^9]<span class="entity-figure-credit">그래프: Linkbase · Kołcz 2024 초록 수치</span></figcaption>
+ <div class="entity-chart-title">편평태선모공염·전두부 섬유화 탈모 환자의 두피 증상 (61명)</div>
+ <div class="entity-chart-row"><div class="entity-chart-label">두피 가려움<span>itching of the scalp</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:73.8%"></div><span class="entity-chart-value">73.8%</span></div></div>
+ <div class="entity-chart-row"><div class="entity-chart-label">찌릿한 느낌 동반<span>tingling</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:19.7%"></div><span class="entity-chart-value">19.7%</span></div></div>
+ <div class="entity-chart-row"><div class="entity-chart-label">화끈거림 동반<span>burning</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:14.8%"></div><span class="entity-chart-value">14.8%</span></div></div>
+ <figcaption markdown="span">편평태선모공염·전두부 섬유화 탈모 환자 61명 중 증상 호소 비율 [^9]<span class="entity-figure-credit">그래프: Linkbase · Kołcz 2024 초록 수치</span></figcaption>
 </figure>
 
 가려운 자리에서 머리카락이 함께 줄거나, 모낭 둘레에 각질과 붉은 기가 남거나, 이마선이 조금씩 뒤로 물러나는 경우에는 단순 비듬으로 보지 않고 탈모 동반 여부를 함께 평가합니다.
@@ -90,7 +94,7 @@ version: 1
 피부 병변이 보이면 지루피부염·건선 같은 염증성 두피 질환을, 탈모가 함께 있으면 반흔성과 비반흔성 탈모를 구분하고, 병변 없이 가렵기만 하면 신경성·전신성·심인성 원인까지 범위를 넓혀 봅니다.
 
 **진단 기준에 따른 원인 범주 비교** [^2][^5]
-{: .entity-table-caption}
+{:.entity-table-caption}
 
 | 임상 양상 | 먼저 검토할 원인 범주 |
 | --- | --- |
@@ -124,6 +128,8 @@ version: 1
 ### 원인을 찾지 못하거나 오래가는 경우
 가려움이 오래가는데 원인이 분명하지 않으면 피부 질환 외에 전신 질환(약물 유발 가려움 포함)·신경 질환·정신과 질환까지 원인 범주를 넓혀 다시 검토합니다 [^5]. 이때도 원인 질환 치료와 국소·전신 치료를 단계적으로 조합하는 만성 가려움 관리 원칙을 따릅니다 [^3].
 
+샴푸를 바꾸거나 머리를 더 자주 감는 것만으로는 이미 손상된 두피 표면과 염증 고리를 끊기 어렵습니다[^13].
+
 ## 예후
 두피 가려움은 진단과 관리가 어려운 경우가 있고 삶의 질에 큰 영향을 줄 수 있어 [^1], 원인 질환에 따라 경과가 크게 다릅니다. 두피 지루피부염은 **만성적으로 재발하는 염증성 질환**이며 [^12], 2차 치료인 항진균 샴푸는 장기간 쓰는 약제로 제시됩니다 [^6].
 
@@ -136,7 +142,14 @@ version: 1
 - [원형 탈모](/conditions/alopecia-areata/)
 - [안드로겐성 탈모](/conditions/androgenetic-alopecia/)
 
+---
+
 ## Citations
+### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^13]: [더웰스의원 — 두피 가려움, 감아도 계속 긁게 된다면 탈모로 이어지나요?](https://thewells.kr/blog/scalp-itch) · 근거: "샴푸를 바꾸거나 머리를 더 자주 감는 것만으로는 이미 손상된 두피 표면과 염증 고리를 끊기 어렵습니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
+
 ### 외부 권위 출처
 [^1]: [Rattanakaemakorn P, Suchonwanit P. Scalp Pruritus: Review of the Pathogenesis, Diagnosis, and Management. Biomed Res Int. 2019;2019:1268430. PMID 30766878. DOI 10.1155/2019/1268430](https://pubmed.ncbi.nlm.nih.gov/30766878/)
 [^2]: [Vázquez-Herrera NE, Sharma D, Aleid NM, et al. Scalp Itch: A Systematic Review. Skin Appendage Disord. 2018;4(3):187-199. PMID 30197900. DOI 10.1159/000484354](https://pubmed.ncbi.nlm.nih.gov/30197900/)
@@ -153,3 +166,4 @@ version: 1
 
 ## Changelog
 - 2026-10-24 v1: 신규 작성. 외부 문헌 12편(두피 가려움 총설·체계적 문헌고찰, 유럽 만성 가려움 S2k 가이드라인, IFSI 가려움 임상 분류, 두피 신경 구조·두피 건선 가려움 기전 총설, 비듬·지루피부염 병태 총설·진단 치료 총설·국제 전문가 합의, 편평태선모공염·전두부 섬유화 탈모 가려움 연구, 탈모 환자 민감성 두피 연구, 원발성 반흔성 탈모 진단 총설)으로 6섹션 작성. 두피 가려움 글 1편의 entity 매핑 해소.
+- 2026-11-03 v2: 치료 enrich
