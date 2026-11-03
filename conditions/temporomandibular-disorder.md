@@ -4,7 +4,7 @@ entity_id: temporomandibular-disorder
 entity_type: condition
 permalink: /conditions/temporomandibular-disorder/
 title: 턱관절장애 (측두하악장애)
-description: 씹기 근육과 턱관절에 통증·관절음·입 벌림 제한이 생기는 근골격계 질환군. 문진과 진찰로 근육성·관절성을 구분하며, 대부분 교육·자가 관리·운동 같은 비침습 치료로 호전되고 경과도 대체로 양호합니다.
+description: ''
 title_en: temporomandibular disorders (TMD)
 aliases:
   - 턱관절장애
@@ -17,27 +17,37 @@ aliases:
   - temporomandibular disorders
   - temporomandibular joint disorder
   - 입 벌릴 때 턱에서 딱 소리
-last_reviewed: '2026-10-25'
+last_reviewed: '2026-11-03'
 locked: false
 quality_status: review
 verified_by: 외부 문헌 PMID 대조 (NCBI esummary 조회)
 next_review: '2027-01-25'
-source_count: 18
+source_count: 19
 source_count_external: 18
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
-version: 1
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 19
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+version: 2
 ---
-<div class="entity-summary" markdown="1">
-<p class="entity-summary-label">핵심 요약</p>
-
-- 턱관절장애는 씹기 근육과 턱관절에 생기는 통증과 기능 이상을 묶어 부르는 용어로, 얼굴 부위 통증 질환 중 가장 흔합니다 [^1].
-- 대부분 문진과 진찰로 진단하며, 신체 진단을 다루는 1축과 심리사회 평가를 다루는 2축의 표준 진단 틀을 씁니다 [^2][^10].
-- 대부분 교육, 자가 관리, 인지행동치료, 약물, 물리치료 같은 비침습 치료를 조합해 호전됩니다 [^1][^2].
-
-</div>
-
 ## 정의
 턱관절장애(temporomandibular disorders, TMD)는 **씹기 근육(저작근)과 턱관절(측두하악관절)에 생기는 통증과 기능 이상을 묶어 부르는 용어**로, 얼굴 부위 통증 질환 가운데 가장 흔합니다 [^1]. 하나의 병이 아니라 턱관절과 주변 근육·뼈 구조를 침범하는 여러 근골격계·신경근육계 상태의 묶음이며, 관절 안의 문제(관절 내 장애)와 관절 밖의 문제로 나눕니다 [^2]. 만성 근골격계 통증 가운데 허리 통증 다음으로 흔하고, 전 세계 성인의 6~9%가 겪는 것으로 추정됩니다 [^3]. 성인의 최대 15%, 청소년의 7%에서 나타난다는 정리도 있으며 [^1], 20~40세에 발생이 가장 많습니다 [^2].
 
@@ -52,8 +62,8 @@ version: 1
 진료를 받으러 온 환자 집단에서는 근막통(근육성 통증)이 가장 흔한 진단이고, 일반 인구 표본에서는 복위성 원판 변위가 가장 흔합니다 [^6]. 환자 집단의 여성 대 남성 비는 3.3으로 여성이 많았습니다 [^6].
 
 <figure class="entity-figure">
-  <img src="/assets/images/entities/temporomandibular-disorder/tmj-chewing-muscles.webp" alt="머리 옆모습: 귀 바로 앞 턱관절에서 아래턱뼈 머리 위에 얹힌 흰색 원판, 옆머리의 부채꼴 관자근, 광대뼈에서 아래턱 모서리로 내려오는 깨물근과 그 주변의 붉은 통증 표시" width="1000" height="747" loading="lazy">
-  <figcaption markdown="span">턱관절과 씹기 근육: 귀 앞 턱관절(아래턱뼈 머리와 그 위 원판, 흰색) · 옆머리 관자근 · 광대뼈에서 아래턱 모서리로 내려오는 깨물근 · 통증 부위(붉은색)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+ <img src="/assets/images/entities/temporomandibular-disorder/tmj-chewing-muscles.webp" alt="머리 옆모습: 귀 바로 앞 턱관절에서 아래턱뼈 머리 위에 얹힌 흰색 원판, 옆머리의 부채꼴 관자근, 광대뼈에서 아래턱 모서리로 내려오는 깨물근과 그 주변의 붉은 통증 표시" width="1000" height="747" loading="lazy">
+ <figcaption markdown="span">턱관절과 씹기 근육: 귀 앞 턱관절(아래턱뼈 머리와 그 위 원판, 흰색) · 옆머리 관자근 · 광대뼈에서 아래턱 모서리로 내려오는 깨물근 · 통증 부위(붉은색)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
 </figure>
 
 ## 병태
@@ -119,7 +129,7 @@ OPPERA는 턱관절장애가 없던 지역사회 성인 3,258명을 추적했으
 치료를 고를 때는 강한 권고, 조건부 권고, 조건부 비권고 순으로 검토하되, 환자의 가치관과 이미 시도한 치료를 반영한 공동 의사결정이 필요하다고 강조합니다 [^3].
 
 **턱관절장애 만성 통증 권고 등급** [^3]
-{: .entity-table-caption}
+{:.entity-table-caption}
 
 | 권고 등급 | 해당 치료 |
 | --- | --- |
@@ -140,17 +150,19 @@ OPPERA는 턱관절장애가 없던 지역사회 성인 3,258명을 추적했으
 ### 잠김(비복위성 원판 변위)
 원판 변위는 자연 경과가 양호해, 적극적인 치료가 필요한 경우는 증상이 있는 비복위성 원판 변위로 좁혀진다는 정리가 있습니다 [^5]. 이때도 1차 치료는 통증 완화와 입 벌림 회복이라는 자연 회복 과정을 앞당기는 비수술 보존 치료입니다 [^5]. 보존 치료에 반응하지 않는 경우에는 구강악안면외과 의뢰를 고려합니다 [^2].
 
+턱관절 도수치료는 턱 주변 근육의 긴장을 완화하고 뇌신경을 자극해 뇌가 몸 상태를 다시 인식하도록 돕습니다[^19].
+
 ## 예후
 턱관절장애는 **대체로 경과가 양호한 편**입니다. 통증으로 인한 기능 장애가 적은 환자에게 상담과 자가 관리 안내만 하고 2~3년 뒤 다시 평가한 연구에서 근육 장애 진단은 68.1%에서 23.1%로, 관절통은 30.4%에서 14.4%로 줄었고, 복위성 원판 변위는 52.1%로 변화가 없었습니다 [^15].
 
 <figure class="entity-figure entity-chart" role="img" aria-label="상담·자가 관리 안내 뒤 진단별 환자 비율 변화 막대그래프">
-  <div class="entity-chart-title">상담·자가 관리 안내 뒤 진단별 환자 비율 변화</div>
-  <div class="entity-chart-row"><div class="entity-chart-label">근육 장애<span>첫 진료</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:68.1%"></div><span class="entity-chart-value">68.1%</span></div></div>
-  <div class="entity-chart-row"><div class="entity-chart-label">근육 장애<span>2~3년 뒤</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:23.1%"></div><span class="entity-chart-value">23.1%</span></div></div>
-  <div class="entity-chart-row"><div class="entity-chart-label">관절통<span>첫 진료</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:30.4%"></div><span class="entity-chart-value">30.4%</span></div></div>
-  <div class="entity-chart-row"><div class="entity-chart-label">관절통<span>2~3년 뒤</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:14.4%"></div><span class="entity-chart-value">14.4%</span></div></div>
-  <div class="entity-chart-row"><div class="entity-chart-label">복위성 원판 변위<span>첫 진료·2~3년 뒤 같음</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:52.1%"></div><span class="entity-chart-value">52.1%</span></div></div>
-  <figcaption markdown="span">통증으로 인한 기능 장애가 적은 턱관절장애 환자의 2~3년 경과 [^15]<span class="entity-figure-credit">그래프: Linkbase · Manfredini 2013 (J Oral Rehabil) 초록 수치: 턱관절장애 클리닉 환자 69명 2~3년 추적</span></figcaption>
+ <div class="entity-chart-title">상담·자가 관리 안내 뒤 진단별 환자 비율 변화</div>
+ <div class="entity-chart-row"><div class="entity-chart-label">근육 장애<span>첫 진료</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:68.1%"></div><span class="entity-chart-value">68.1%</span></div></div>
+ <div class="entity-chart-row"><div class="entity-chart-label">근육 장애<span>2~3년 뒤</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:23.1%"></div><span class="entity-chart-value">23.1%</span></div></div>
+ <div class="entity-chart-row"><div class="entity-chart-label">관절통<span>첫 진료</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:30.4%"></div><span class="entity-chart-value">30.4%</span></div></div>
+ <div class="entity-chart-row"><div class="entity-chart-label">관절통<span>2~3년 뒤</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:14.4%"></div><span class="entity-chart-value">14.4%</span></div></div>
+ <div class="entity-chart-row"><div class="entity-chart-label">복위성 원판 변위<span>첫 진료·2~3년 뒤 같음</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:52.1%"></div><span class="entity-chart-value">52.1%</span></div></div>
+ <figcaption markdown="span">통증으로 인한 기능 장애가 적은 턱관절장애 환자의 2~3년 경과 [^15]<span class="entity-figure-credit">그래프: Linkbase · Manfredini 2013 (J Oral Rehabil) 초록 수치: 턱관절장애 클리닉 환자 69명 2~3년 추적</span></figcaption>
 </figure>
 
 - **딱 소리(복위성 원판 변위)** — 치료 없이 평균 25.8개월 추적한 환자군에서 입 벌림 범위는 그대로였고, 열고 닫을 때 모두 나는 상호 클릭(reciprocal clicking)은 79.2%에서 유지되었습니다 [^16]. 잠김으로 진행한 경우는 1명(4.2%)으로, 대부분은 소리가 잠김으로 이어지지 않았습니다 [^16]
@@ -170,7 +182,14 @@ OPPERA는 턱관절장애가 없던 지역사회 성인 3,258명을 추적했으
 - [소염진통제](/treatments/anti-inflammatory-analgesics/)
 - [근육 이완제](/treatments/muscle-relaxants/)
 
+---
+
 ## Citations
+### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^19]: [더웰스의원 — 입 벌릴 때 딱 소리 나고 턱이 후끈거리면 턱관절장애일까요?](https://thewells.kr/blog/temporomandibular-disorder) · 근거: "턱관절 도수치료를 시행합니다. 턱관절 도수치료는 원장이 손으로 직접 턱 주변 근육의 과도한 긴장을 완화하고, 턱관절과 연결된 뇌신경을 자극해 뇌가 현재 몸 상태를 다시 인식하도록 돕는 치료입니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
+
 ### 외부 권위 출처
 [^1]: [List T, Jensen RH. Temporomandibular disorders: Old ideas and new concepts. Cephalalgia. 2017;37(7):692-704. PMID 28068790. DOI 10.1177/0333102416686302](https://pubmed.ncbi.nlm.nih.gov/28068790/)
 [^2]: [Gauer RL, Semidey MJ. Diagnosis and treatment of temporomandibular disorders. Am Fam Physician. 2015;91(6):378-386. PMID 25822556](https://pubmed.ncbi.nlm.nih.gov/25822556/)
@@ -193,3 +212,4 @@ OPPERA는 턱관절장애가 없던 지역사회 성인 3,258명을 추적했으
 
 ## Changelog
 - 2026-10-25 v1: 신규 작성. 외부 문헌 18건(NCBI esummary로 PMID·제목·저자·연도 대조, 초록 범위 안에서 서술)으로 정의·병태·증상·진단·치료·예후 6섹션 작성. 발행 대기 글 1편의 entity 매핑 해소.
+- 2026-11-03 v2: 치료 enrich
