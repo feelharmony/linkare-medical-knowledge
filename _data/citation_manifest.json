@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29",
+  "updated_at": "2026-11-03",
   "entities": {
     "aging": [
       {
@@ -1188,6 +1188,18 @@
           "treatment"
         ],
         "excerpt": "일어서다 어지러우면 그 자리에서 다시 앉거나 눕습니다."
+      }
+    ],
+    "scalp-itch": [
+      {
+        "footnote_id": 13,
+        "url": "https://thewells.kr/blog/scalp-itch",
+        "title": "더웰스의원 — 두피 가려움, 감아도 계속 긁게 된다면 탈모로 이어지나요?",
+        "post_id": "5e434d99-4aaa-4ba7-86b9-e430925a1d78",
+        "anchors": [
+          "treatment"
+        ],
+        "excerpt": "샴푸를 바꾸거나 머리를 더 자주 감는 것만으로는 이미 손상된 두피 표면과 염증 고리를 끊기 어렵습니다."
       }
     ]
   }
