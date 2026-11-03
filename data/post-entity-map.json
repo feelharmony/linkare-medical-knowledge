@@ -4069,5 +4069,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thq/ko/--/occipital-neuralgia-ultrasound-guided-nerve-block-manual.md",
+    "source_article_url": "https://thewells.kr/blog/occipital-neuralgia-ultrasound-guided-nerve-block-manual",
+    "source_article_title": "후두신경통 치료, 초음파 유도 신경차단 주사와 도수치료 병행법",
+    "primary_entity_id": "occipital-neuralgia",
+    "entity_ids": [
+      "occipital-neuralgia"
+    ],
+    "updated_at": "2026-11-03",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
