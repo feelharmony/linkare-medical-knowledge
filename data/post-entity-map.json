@@ -4084,5 +4084,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/apfree/ko/--/chronic-tension-type-headache-frequency-treatment.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/chronic-tension-type-headache-frequency-treatment",
+    "source_article_title": "몇 달째 이어지는 긴장성두통, 안심역에서 살피는 만성화 신호",
+    "primary_entity_id": "tension-type-headache",
+    "entity_ids": [
+      "tension-type-headache"
+    ],
+    "updated_at": "2026-11-03",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
