@@ -4099,5 +4099,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/ko/-----/piriformis-syndrome-causes-nonsurgical-treatment.md",
+    "source_article_url": "https://thewells.kr/blog/piriformis-syndrome-causes-nonsurgical-treatment",
+    "source_article_title": "이상근증후군 원인과 비수술 치료, 좌골신경 압박을 푸는 방법",
+    "primary_entity_id": "piriformis-syndrome",
+    "entity_ids": [
+      "piriformis-syndrome"
+    ],
+    "updated_at": "2026-11-04",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
