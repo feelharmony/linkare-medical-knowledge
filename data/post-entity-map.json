@@ -4144,5 +4144,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/apfree/ko/---/cubital-tunnel-syndrome.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/cubital-tunnel-syndrome",
+    "source_article_title": "팔꿈치 안쪽이 찌릿하고 새끼손가락 저릴 때 의심하는 팔꿈치터널증후군",
+    "primary_entity_id": "cubital-tunnel-syndrome",
+    "entity_ids": [
+      "cubital-tunnel-syndrome"
+    ],
+    "updated_at": "2026-11-05",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
