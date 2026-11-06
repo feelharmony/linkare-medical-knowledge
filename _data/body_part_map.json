@@ -249,7 +249,8 @@
       "key": "diagnostics",
       "label": "진단 검사",
       "items": [
-        "emg-ncs"
+        "emg-ncs",
+        "nk-cell-activity-test"
       ]
     }
   ]
