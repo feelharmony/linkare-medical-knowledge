@@ -4,7 +4,7 @@ entity_id: sarcopenia
 entity_type: condition
 permalink: /conditions/sarcopenia/
 title: 근감소증
-description: 나이가 들며 골격근의 양과 근력이 함께 줄어드는 근육 질환. 악력·의자 일어서기·보행 속도로 근력과 신체 수행을 확인하고 근육량을 측정해 진단하며, 저항 운동과 충분한 단백질 섭취가 치료의 중심입니다.
+description: ''
 title_en: sarcopenia
 aliases:
   - 근감소증
@@ -15,33 +15,44 @@ aliases:
   - sarcopenia
   - 근육량 감소
   - 의자에서 일어서기 힘듦
-last_reviewed: '2026-10-24'
+last_reviewed: '2026-11-06'
 locked: false
 quality_status: review
 verified_by: 외부 문헌 PMID 대조 (NCBI esummary 조회)
 next_review: '2027-01-24'
-source_count: 19
+source_count: 20
 source_count_external: 19
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
-version: 1
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 20
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+version: 2
 ---
-<div class="entity-summary" markdown="1">
-<p class="entity-summary-label">핵심 요약</p>
-
-- 근감소증은 골격근의 양과 기능이 빠르게 줄어드는 진행성·전신성 골격근 질환입니다 [^1].
-- 근력, 근육량, 신체 수행을 측정해 진단하며, 낙상·골절·기능 저하·사망 위험 증가와 관련됩니다 [^17][^18].
-- 치료는 저항 운동을 중심으로 한 신체 활동과 충분한 단백질 섭취 등 영양 중재를 결합해 시행합니다 [^6][^13].
-
-</div>
-
 ## 정의
 근감소증(sarcopenia)은 **골격근의 양과 기능이 빠르게 줄어드는 진행성·전신성 골격근 질환**으로, 낙상·기능 저하·노쇠·사망 같은 나쁜 결과가 늘어나는 것과 관련됩니다 [^1]. 유럽 노인 근감소증 작업반의 개정 합의(EWGSOP2)는 근감소증을 생애에 걸쳐 쌓인 근육 변화에서 비롯되는 근육 질환(muscle failure)으로 규정하고, 노년층에 흔하지만 더 이른 나이에도 생길 수 있다고 정리합니다 [^2].
 
 <figure class="entity-figure">
-  <img src="/assets/images/entities/sarcopenia/calf-muscle-normal-vs-sarcopenia.webp" alt="정상 종아리와 근감소증 종아리를 나란히 놓고 각각의 근육 모습과 종아리 단면을 비교한 그림: 오른쪽은 근육 단면이 작고 바깥 지방층이 상대적으로 두꺼움" width="1000" height="758" loading="lazy">
-  <figcaption markdown="span">정상(왼쪽)과 근감소증(오른쪽)의 종아리: 근육 모습과 단면 · 근감소증에서 작아진 근육(붉은색) 단면<span class="entity-figure-credit">그림: DataBase Center for Life Science (DBCLS), <a href="https://commons.wikimedia.org/wiki/File:202501_Sarcopenia.svg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/4.0" rel="nofollow noopener" target="_blank">CC BY 4.0</a> (아래 영문 표기 잘라 냄)</span></figcaption>
+ <img src="/assets/images/entities/sarcopenia/calf-muscle-normal-vs-sarcopenia.webp" alt="정상 종아리와 근감소증 종아리를 나란히 놓고 각각의 근육 모습과 종아리 단면을 비교한 그림: 오른쪽은 근육 단면이 작고 바깥 지방층이 상대적으로 두꺼움" width="1000" height="758" loading="lazy">
+ <figcaption markdown="span">정상(왼쪽)과 근감소증(오른쪽)의 종아리: 근육 모습과 단면 · 근감소증에서 작아진 근육(붉은색) 단면<span class="entity-figure-credit">그림: DataBase Center for Life Science (DBCLS), <a href="https://commons.wikimedia.org/wiki/File:202501_Sarcopenia.svg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/4.0" rel="nofollow noopener" target="_blank">CC BY 4.0</a> (아래 영문 표기 잘라 냄)</span></figcaption>
 </figure>
 
 2024년 발표된 GLIS(Global Leadership Initiative in Sarcopenia) 델파이 합의는 근육량·근력·근육 특이 근력(muscle-specific strength)을 근감소증의 **구성 요소**로 두고, 신체 수행 저하는 구성 요소가 아니라 근감소증의 **결과**로 정리했습니다 [^3]. 같은 합의에서 가장 높은 동의(98.3%)를 얻은 진술은 나이가 들수록 근감소증 유병률이 높아진다는 것이었습니다 [^3]. 미국 진단 코드 체계 ICD-10-CM 에 근감소증 코드(M62.84)가 생긴 것은 근감소증을 하나의 질병으로 인정하는 중요한 진전으로 평가됩니다 [^4].
@@ -86,7 +97,7 @@ version: 1
 - **가능 근감소증(possible sarcopenia)** — AWGS 2019 는 근력 저하나 신체 수행 저하 **한 가지만** 확인되어도 1차 의료·지역사회 건강 증진 현장에서 '가능 근감소증'으로 분류해 생활 습관 중재를 일찍 시작하도록 했습니다 [^12]
 
 **AWGS 2019 남녀 절단값** [^12]
-{: .entity-table-caption}
+{:.entity-table-caption}
 
 | 측정 항목 | 남성 | 여성 |
 | --- | --- | --- |
@@ -128,12 +139,14 @@ version: 1
 침상 안정 10일 만에 하지 근력이 크게 떨어지는 만큼, 입원이나 침상 안정 기간에 노인의 근 기능을 지키는 중재를 찾는 것이 우선 과제로 제시됩니다 [^9].
 
 <figure class="entity-figure entity-chart" role="img" aria-label="10일 침상 안정 뒤 줄어든 폭 막대그래프">
-  <div class="entity-chart-title">10일 침상 안정 뒤 줄어든 폭</div>
-  <div class="entity-chart-row"><div class="entity-chart-label">무릎 펴는 근력<span>건강한 노인 11명</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:13.0%"></div><span class="entity-chart-value">13%</span></div></div>
-  <div class="entity-chart-row"><div class="entity-chart-label">계단 오르기 파워<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:14.0%"></div><span class="entity-chart-value">14%</span></div></div>
-  <div class="entity-chart-row"><div class="entity-chart-label">최대 유산소 능력<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:12.0%"></div><span class="entity-chart-value">12%</span></div></div>
-  <figcaption markdown="span">건강한 노인의 10일 침상 안정 전후 비교 [^9]<span class="entity-figure-credit">그래프: Linkbase · Kortebein 2008 (J Gerontol A Biol Sci Med Sci) 초록 수치</span></figcaption>
+ <div class="entity-chart-title">10일 침상 안정 뒤 줄어든 폭</div>
+ <div class="entity-chart-row"><div class="entity-chart-label">무릎 펴는 근력<span>건강한 노인 11명</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:13.0%"></div><span class="entity-chart-value">13%</span></div></div>
+ <div class="entity-chart-row"><div class="entity-chart-label">계단 오르기 파워<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:14.0%"></div><span class="entity-chart-value">14%</span></div></div>
+ <div class="entity-chart-row"><div class="entity-chart-label">최대 유산소 능력<span></span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:12.0%"></div><span class="entity-chart-value">12%</span></div></div>
+ <figcaption markdown="span">건강한 노인의 10일 침상 안정 전후 비교 [^9]<span class="entity-figure-credit">그래프: Linkbase · Kortebein 2008 (J Gerontol A Biol Sci Med Sci) 초록 수치</span></figcaption>
 </figure>
+
+일흔이 넘은 나이에도 근육은 적절한 운동과 영양 공급에 분명하게 반응합니다[^20].
 
 ## 예후
 - **사망과 기능 저하** — EWGSOP 정의를 쓴 17개 전향 연구의 체계적 고찰에서 근감소증이 있으면 사망 위험이 높았고(통합 오즈비 약 3.6), 79세 이상에서 그 영향이 더 컸습니다 [^17]. 기능 저하(통합 오즈비 3.03), 낙상 증가, 입원 증가와도 관련되었으며, 골절·재원 기간과의 관련성은 이 고찰에서는 분명하지 않았습니다 [^17]
@@ -150,7 +163,14 @@ version: 1
 - [말초신경병증](/conditions/peripheral-neuropathy/)
 - [운동치료](/treatments/exercise-therapy/)
 
+---
+
 ## Citations
+### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^20]: [더웰스의원 — 의자에서 일어설 때 팔로 짚고 걸음이 느려졌다면 근감소증일까?](https://thewells.kr/blog/sarcopenia) · 근거: "일흔이 넘은 나이에도 근육은 적절한 운동과 영양 공급에 분명하게 반응합니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
+
 ### 외부 권위 출처
 [^1]: [Cruz-Jentoft AJ, Sayer AA. Sarcopenia. Lancet. 2019;393(10191):2636-2646. PMID 31171417. DOI 10.1016/S0140-6736(19)31138-9](https://pubmed.ncbi.nlm.nih.gov/31171417/)
 [^2]: [Cruz-Jentoft AJ, Bahat G, Bauer J, et al. Sarcopenia: revised European consensus on definition and diagnosis. Age Ageing. 2019;48(1):16-31. PMID 30312372. DOI 10.1093/ageing/afy169 (EWGSOP2)](https://pubmed.ncbi.nlm.nih.gov/30312372/)
@@ -174,3 +194,4 @@ version: 1
 
 ## Changelog
 - 2026-10-24 v1: 신규 작성. 외부 문헌 19건(NCBI esummary로 PMID·제목·저자·연도 대조, 각주 문장은 초록 범위 안에서 작성)으로 정의·병태·증상·진단·치료·예후 6섹션 작성. 진단 기준은 EWGSOP2·AWGS 2019·AWGS 2025·SDOC 를 병기. 발행 대기 글 1편의 entity 매핑 해소.
+- 2026-11-06 v2: 치료 enrich
