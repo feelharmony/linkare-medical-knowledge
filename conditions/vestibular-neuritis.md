@@ -4,7 +4,7 @@ entity_id: vestibular-neuritis
 entity_type: condition
 permalink: /conditions/vestibular-neuritis/
 title: 전정신경염
-description: 전정신경의 급성 기능 저하로 회전성 어지럼이 몇 시간에서 며칠간 이어지는 말초 전정 질환. 자세와 무관하게 지속되는 점에서 이석증과 갈리며, 급성기에는 중추성 원인을 먼저 배제하고 회복기에는 전정 재활로 중추 보상을 돕습니다.
+description: ''
 title_en: vestibular neuritis
 aliases:
   - 전정신경염
@@ -13,17 +13,22 @@ aliases:
   - vestibular neuronitis
   - 급성 전정 증후군
   - 며칠 이어지는 어지럼
-last_reviewed: '2026-09-01'
+last_reviewed: '2026-11-06'
 locked: false
 quality_status: draft
 verified_by: 외부 문헌 PMID 대조 (v0.1 — SOP 보강 예정)
 next_review: '2026-12-01'
-source_count: 4
+source_count: 5
 source_count_external: 4
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4]
-version: 1
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 5
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+version: 2
 ---
 ## 정의
 전정신경염(vestibular neuritis)은 **한쪽 전정신경의 기능이 급성으로 떨어지면서 회전성 어지럼이 지속되는 상태**입니다. 급성 전정 증후군(acute vestibular syndrome)의 대표적인 말초성 원인으로 분류되며, 같은 임상 양상이 후순환계 뇌졸중에서도 나타날 수 있어 급성기에는 중추성 원인과의 구분이 함께 필요합니다 [^2].
@@ -34,8 +39,8 @@ version: 1
 전정신경염은 바이러스 감염 후 발생하는 전정신경의 신경염증 반응으로 여겨지며, 급성기에는 가돌리늄 조영 증강 소견이 관찰됩니다 [^1].
 
 <figure class="entity-figure">
-  <img src="/assets/images/entities/vestibular-neuritis/vestibular-nerve-inflammation.webp" alt="속귀와 신경 확대 그림: 반고리관·난형낭·구형낭에서 나오는 전정신경이 붉게 부어 있고, 달팽이관에서 나오는 와우신경은 노란색으로 정상이며 두 신경이 한 줄기로 합쳐지는 모습" width="1000" height="747" loading="lazy">
-  <figcaption markdown="span">전정신경염의 병변 위치: 반고리관·난형낭·구형낭에서 나오는 전정신경(붉게 부은 부분) · 달팽이관에서 나오는 와우신경(노란색, 정상) · 두 신경이 합쳐진 줄기<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+ <img src="/assets/images/entities/vestibular-neuritis/vestibular-nerve-inflammation.webp" alt="속귀와 신경 확대 그림: 반고리관·난형낭·구형낭에서 나오는 전정신경이 붉게 부어 있고, 달팽이관에서 나오는 와우신경은 노란색으로 정상이며 두 신경이 한 줄기로 합쳐지는 모습" width="1000" height="747" loading="lazy">
+ <figcaption markdown="span">전정신경염의 병변 위치: 반고리관·난형낭·구형낭에서 나오는 전정신경(붉게 부은 부분) · 달팽이관에서 나오는 와우신경(노란색, 정상) · 두 신경이 합쳐진 줄기<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
 </figure>
 
 급성기 이후에는 뇌가 적응하는 중추 보상 과정이 일어납니다. 이 보상 기간 동안 나타나는 기능적 뇌 영상의 변화는 구조적인 뇌 변화로 이어지며, 이 두 과정은 모두 임상적 회복과 밀접한 연관이 있습니다 [^1].
@@ -59,12 +64,24 @@ version: 1
 - **스테로이드**: 전정신경염의 임상적 회복과 전정 기능 회복에 대한 스테로이드 치료 효과는 **근거가 충분하지 않다**고 보고되었습니다 [^4]
 - **전정 재활**: 전정신경염에서 전정 재활의 효과를 평가한 체계적 문헌고찰과 메타분석이 있습니다 [^3]
 
+급성기에 눈을 뜨기 힘들 정도로 방이 돌고 토할 것 같은 어지럼과 구역 증상을 가라앉히기 위해 약물 치료를 시행합니다[^5].
+
 ## 예후
 전정신경염 이후의 장기 임상 경과와 회복을 예측하는 요인에 대한 검토가 이루어져 왔습니다 [^1]. 급성기 어지럼이 가라앉은 뒤에도 균형감의 불안정이 한동안 남을 수 있어, 경과 관찰과 재활을 함께 고려합니다.
 
-## Citations
+---
 
+## Citations
+### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^5]: [구리탑본의원 — 전정신경염, 가만히 누워도 빙글 도는 어지럼증 언제 가라앉나요?](https://guritopbone.com/blog/vestibular-neuritis) · 근거: "급성기에 눈을 뜨기 힘들 정도로 방이 돌고 토할 것 같은 어지럼과 구역 증상을 가라앉히기 위해 약물 치료를 시행합니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
+
+### 외부 권위 출처
 [^1]: Bronstein AM, Dieterich M. Long-term clinical outcome in vestibular neuritis. *Curr Opin Neurol*. 2019. PMID: 30566414
 [^2]: Kattah JC, Talkad AV, Wang DZ, et al. HINTS to diagnose stroke in the acute vestibular syndrome: three-step bedside oculomotor examination. *Stroke*. 2009. PMID: 19762709
 [^3]: Huang HH, Chen CC, Lee HH, et al. Efficacy of Vestibular Rehabilitation in Vestibular Neuritis: A Systematic Review and Meta-analysis. *Am J Phys Med Rehabil*. 2024. PMID: 37339059
 [^4]: Wegner I, van Benthem PPG, Aarts MCJ, et al. Insufficient evidence for the effect of corticosteroid treatment on recovery of vestibular neuritis. *Otolaryngol Head Neck Surg*. 2012. PMID: 22910304
+
+## Changelog
+- 2026-11-06 v2: 치료 enrich
