@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03",
+  "updated_at": "2026-11-06",
   "entities": {
     "aging": [
       {
@@ -1212,6 +1212,18 @@
           "treatment"
         ],
         "excerpt": "턱관절 도수치료를 시행합니다. 턱관절 도수치료는 원장이 손으로 직접 턱 주변 근육의 과도한 긴장을 완화하고, 턱관절과 연결된 뇌신경을 자극해 뇌가 현재 몸 상태를 다시 인식하도록 돕는 치료입니다."
+      }
+    ],
+    "sarcopenia": [
+      {
+        "footnote_id": 20,
+        "url": "https://thewells.kr/blog/sarcopenia",
+        "title": "더웰스의원 — 의자에서 일어설 때 팔로 짚고 걸음이 느려졌다면 근감소증일까?",
+        "post_id": "db411e8e-f9c8-4d04-9990-638c2ff0c5d9",
+        "anchors": [
+          "treatment"
+        ],
+        "excerpt": "일흔이 넘은 나이에도 근육은 적절한 운동과 영양 공급에 분명하게 반응합니다."
       }
     ]
   }
