@@ -5,7 +5,7 @@ entity_type: condition
 permalink: /conditions/cubital-tunnel-syndrome/
 title: 주관절 척골신경 포착
 title_en: cubital tunnel syndrome
-description: 팔꿈치 주관절 터널 부위에서 척골신경이 압박되어 약지·새끼손가락 저림, 팔꿈치 굽힘 시 악화, 손 힘 저하를 유발하는 말초신경 포착 질환
+description: ''
 aliases:
   - 주관절 척골신경 포착
   - 주관절 터널 증후군
@@ -13,24 +13,30 @@ aliases:
   - 척골신경병증
   - cubital tunnel syndrome
   - ulnar neuropathy at the elbow
-last_reviewed: '2026-07-03'
+last_reviewed: '2026-11-06'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
-source_count: 5
+source_count: 6
 source_count_external: 5
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4, 5]
-version: 1
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 6
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+version: 2
 ---
 ## 정의
 주관절 척골신경 포착(cubital tunnel syndrome, ulnar neuropathy at the elbow)은 [팔꿈치](/body-parts/elbow/) 안쪽 뒤편을 지나는 척골신경이 주관절 터널 부위에서 압박·견인·마찰을 받아 약지·새끼손가락 저림, 손 힘 저하, 미세동작 장애를 일으키는 말초신경 포착 질환입니다 [^1][^2].
 
 <figure class="entity-figure">
-  <img src="/assets/images/entities/cubital-tunnel-syndrome/ulnar-nerve-cubital-tunnel.webp" alt="굽힌 팔꿈치를 안쪽에서 본 근육·뼈 해부도: 노란 척골신경이 위팔뼈 아래 끝을 따라 내려와 흰 섬유띠 부위를 거쳐 아래팔 근육 사이로 이어지는 모습" width="1000" height="798" loading="lazy">
-  <figcaption markdown="span">척골신경 경로: 팔꿈치 안쪽 주관절 터널 부위(흰 섬유띠)를 지나 아래팔로 이어지는 척골신경(노란 선)<span class="entity-figure-credit">그림: InjuryMap, <a href="https://commons.wikimedia.org/wiki/File:Compressed_ulnar_nerve.svg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a> · 글자 라벨 지움</span></figcaption>
+ <img src="/assets/images/entities/cubital-tunnel-syndrome/ulnar-nerve-cubital-tunnel.webp" alt="굽힌 팔꿈치를 안쪽에서 본 근육·뼈 해부도: 노란 척골신경이 위팔뼈 아래 끝을 따라 내려와 흰 섬유띠 부위를 거쳐 아래팔 근육 사이로 이어지는 모습" width="1000" height="798" loading="lazy">
+ <figcaption markdown="span">척골신경 경로: 팔꿈치 안쪽 주관절 터널 부위(흰 섬유띠)를 지나 아래팔로 이어지는 척골신경(노란 선)<span class="entity-figure-credit">그림: InjuryMap, <a href="https://commons.wikimedia.org/wiki/File:Compressed_ulnar_nerve.svg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a> · 글자 라벨 지움</span></figcaption>
 </figure>
 
 척골신경은 약지의 새끼손가락 쪽 절반과 새끼손가락 감각, 손 안의 작은 근육 기능에 관여합니다. 따라서 증상은 단순 [팔꿈치 통증](/symptoms/elbow-pain/)보다 [손 저림](/symptoms/hand-numbness/)·악력 저하·손가락 벌림/모음 약화로 나타나는 경우가 많습니다 [^1].
@@ -57,6 +63,8 @@ version: 1
 
 보존 치료에 반응하지 않거나 진행성 근력 저하, 근위축, 지속 감각 저하가 있으면 수술적 감압 또는 전방 전위술을 검토합니다 [^1][^5]. Cochrane review는 수술 방법과 보존 치료 선택에서 환자 중증도와 임상 맥락에 따른 판단이 필요하다고 정리하며, 단일 접근을 모든 환자에게 적용하기는 어렵습니다 [^5].
 
+신경을 누르는 생활 자세를 교정하고 팔꿈치 구간의 압박을 덜어주는 비수술 치료에 초점을 둡니다[^6].
+
 ## 예후
 경도·초기 주관절 척골신경 포착은 자세 교정, 야간 보조, 활동 조절로 호전될 수 있습니다 [^1][^3]. 그러나 감각 저하가 지속되거나 손 근육 위축이 생긴 뒤에는 회복이 제한될 수 있어, 저림이 반복되거나 손 힘이 빠지는 경우에는 조기 평가가 중요합니다 [^1][^5].
 
@@ -64,8 +72,13 @@ version: 1
 
 ---
 
+---
+
 ## Citations
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^6]: [안심튼튼마취통증의학과 — 팔꿈치 안쪽이 찌릿하고 새끼손가락 저릴 때 의심하는 팔꿈치터널증후군](https://ansimpainfree.kr/blog/cubital-tunnel-syndrome) · 근거: "생활 자세를 교정하고 팔꿈치 구간의 압박을 덜어주는 비수술 치료에 초점을 둡니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: [Neal SL, Fields KB. Peripheral Nerve Entrapment and Injury in the Upper Extremity. Am Fam Physician. 2021;103(5):275-285. PMID 33630556](https://pubmed.ncbi.nlm.nih.gov/33630556/)
@@ -76,3 +89,4 @@ version: 1
 
 ## Changelog
 - 2026-07-03 v1: 내용 업데이트.
+- 2026-11-06 v2: 치료 enrich
