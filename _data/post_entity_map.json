@@ -4159,5 +4159,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/apfree/ko/-/finger-osteoarthritis-tests-management.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/finger-osteoarthritis-tests-management",
+    "source_article_title": "손가락 관절염, 하양에서 검사받으면 무엇을 확인하고 관리할까요?",
+    "primary_entity_id": "hand-osteoarthritis",
+    "entity_ids": [
+      "hand-osteoarthritis"
+    ],
+    "updated_at": "2026-11-06",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
