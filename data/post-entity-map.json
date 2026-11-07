@@ -4174,5 +4174,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/--/fibromyalgia.md",
+    "source_article_url": "https://thewells.kr/blog/fibromyalgia",
+    "source_article_title": "자고 일어나도 피곤하고 온몸이 아픈 섬유근육통 증상",
+    "primary_entity_id": "fibromyalgia",
+    "entity_ids": [
+      "fibromyalgia"
+    ],
+    "updated_at": "2026-11-07",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
