@@ -4219,5 +4219,20 @@
     "tenant_key": "gtop",
     "doctor_id": "dr-lee-sungwook",
     "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thr/ko/----/rotator-cuff-tear-surgery-vs-nonsurgical-timing.md",
+    "source_article_url": "https://thewells.kr/blog/rotator-cuff-tear-surgery-vs-nonsurgical-timing",
+    "source_article_title": "회전근개파열 수술, 월계동에서 비수술과 비교해 결정하는 시점",
+    "primary_entity_id": "rotator-cuff-tear",
+    "entity_ids": [
+      "rotator-cuff-tear"
+    ],
+    "updated_at": "2026-11-09",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
