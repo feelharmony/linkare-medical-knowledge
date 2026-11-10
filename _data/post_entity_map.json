@@ -4234,5 +4234,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thq/ko/---/facial-asymmetry-why-does-jaw-deviate.md",
+    "source_article_url": "https://thewells.kr/blog/facial-asymmetry-why-does-jaw-deviate",
+    "source_article_title": "사진마다 얼굴 좌우가 달라 보이는 안면비대칭, 왜 턱이 쏠리는 걸까?",
+    "primary_entity_id": "facial-asymmetry",
+    "entity_ids": [
+      "facial-asymmetry"
+    ],
+    "updated_at": "2026-11-10",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
