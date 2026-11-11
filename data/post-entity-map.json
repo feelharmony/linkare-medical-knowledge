@@ -4249,5 +4249,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/thr/ko/----/spondylolisthesis.md",
+    "source_article_url": "https://thewells.kr/blog/spondylolisthesis",
+    "source_article_title": "척추분리증과 전방전위증의 차이, 단계별 비수술 치료법",
+    "primary_entity_id": "spondylolisthesis",
+    "entity_ids": [
+      "spondylolisthesis"
+    ],
+    "updated_at": "2026-11-11",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
