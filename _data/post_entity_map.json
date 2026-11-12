@@ -4264,5 +4264,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/---/thoracic-outlet-syndrome.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/thoracic-outlet-syndrome",
+    "source_article_title": "목디스크나 손목터널증후군과 헷갈리는 흉곽출구증후군, 손 저림 구별법",
+    "primary_entity_id": "thoracic-outlet-syndrome",
+    "entity_ids": [
+      "thoracic-outlet-syndrome"
+    ],
+    "updated_at": "2026-11-12",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
