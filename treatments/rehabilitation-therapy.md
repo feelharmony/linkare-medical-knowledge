@@ -15,6 +15,13 @@ external_footnote_ids: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 quality_status: review
 version: 3
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 재활 치료는 목디스크로 인한 통증을 줄이고 일상 기능을 회복하기 위해 수술 전후에 시행하는 치료입니다[^1][^4].
+
+</div>
+
 ## 적응증
 재활 치료는 목디스크로 인한 통증 감소와 기능 개선을 위해 사용됩니다. [^1]
 
