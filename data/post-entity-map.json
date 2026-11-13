@@ -4279,5 +4279,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/apfree/ko/----/spondylolysis-treatment-stress-fracture-vs-old-defect.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/spondylolysis-treatment-stress-fracture-vs-old-defect",
+    "source_article_title": "척추분리증 치료, 경산에서 비교하는 초기 피로골절과 만성 결손 관리법",
+    "primary_entity_id": "spondylolisthesis",
+    "entity_ids": [
+      "spondylolisthesis"
+    ],
+    "updated_at": "2026-11-14",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
