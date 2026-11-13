@@ -107,3 +107,4 @@
 | occipital-neuralgia/gray800-suboccipital-greater-occipital-nerve.webp | conditions/occipital-neuralgia | https://commons.wikimedia.org/wiki/File:Gray800.png | Henry Vandyke Carter (Gray's Anatomy) | Public domain | webp 변환. AI 3회 해부 오류로 실제 해부도 채택 |
 | pes-anserine-bursitis/pes-anserinus-medial-knee.webp | conditions/pes-anserine-bursitis | https://commons.wikimedia.org/wiki/File:Pes_anserine_bursitis_by_hariadhi.svg | Hariadhi | CC BY-SA 4.0 | 영어 라벨 5개를 한국어로 바꿔 렌더링(2차 저작, 같은 라이선스) |
 | scoliosis/normal-vs-scoliosis-posterior.webp | conditions/scoliosis | Linkbase 자체 SVG 도식 (2026-11-02) | Linkbase | — | 정상 vs S자 측만(가슴 오른쪽·허리 왼쪽 볼록), 단순화 도식. 미성년 임상 사진 대체 |
+| muscle-relaxants/muscle-relaxants-commons.webp | treatments/muscle-relaxants | https://commons.wikimedia.org/wiki/File:Chlorzoxazone.svg | Fvasconcellos | Public domain | 주간 러너 판단 세션 검수: 해부 요소 없음; 벤즈옥사졸론 고리, 5번 위치 Cl, 2번 카보닐, 3번 NH 구조 확인 |
