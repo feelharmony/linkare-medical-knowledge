@@ -4309,5 +4309,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/apfree/ko/----/facial-shingles-stellate-ganglion-block-acute-pain.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/facial-shingles-stellate-ganglion-block-acute-pain",
+    "source_article_title": "얼굴 대상포진 성상신경절차단술, 율하에서 알아보는 초기 통증 치료",
+    "primary_entity_id": "zoster",
+    "entity_ids": [
+      "zoster"
+    ],
+    "updated_at": "2026-11-14",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
