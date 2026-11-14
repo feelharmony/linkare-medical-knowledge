@@ -4294,5 +4294,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/--/facial-palsy.md",
+    "source_article_url": "https://thewells.kr/blog/facial-palsy",
+    "source_article_title": "자고 일어났더니 얼굴 한쪽이 굳는 안면마비, 뇌졸중과 어떻게 구분할까요?",
+    "primary_entity_id": "facial-palsy",
+    "entity_ids": [
+      "facial-palsy"
+    ],
+    "updated_at": "2026-11-14",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
