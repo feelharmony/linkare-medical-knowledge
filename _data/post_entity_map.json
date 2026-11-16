@@ -4339,5 +4339,20 @@
     "tenant_key": "gtop",
     "doctor_id": "dr-lee-sungwook",
     "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/gtop/ko/--/tension-type-headache.md",
+    "source_article_url": "https://guritopbone.com/blog/tension-type-headache",
+    "source_article_title": "진통제 먹어도 그때뿐인 긴장성 두통, 뒷목과 어깨부터 굳어 오나요?",
+    "primary_entity_id": "tension-type-headache",
+    "entity_ids": [
+      "tension-type-headache"
+    ],
+    "updated_at": "2026-11-16",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   }
 ]
