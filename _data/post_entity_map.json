@@ -4399,5 +4399,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thq/ko/--/intercostal-neuralgia.md",
+    "source_article_url": "https://thewells.kr/blog/intercostal-neuralgia",
+    "source_article_title": "심장·폐 검사는 정상인데 옆구리가 찌릿하다면 왜 늑간신경통을 의심할까요?",
+    "primary_entity_id": "intercostal-neuralgia",
+    "entity_ids": [
+      "intercostal-neuralgia"
+    ],
+    "updated_at": "2026-11-17",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
