@@ -4444,5 +4444,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/gtop/ko/--/traction-alopecia-causes-hair-extensions-pins.md",
+    "source_article_url": "https://guritopbone.com/blog/traction-alopecia-causes-hair-extensions-pins",
+    "source_article_title": "견인성 탈모 원인, 별내역에서 붙임머리와 핀도 살펴야 할까?",
+    "primary_entity_id": "traction-alopecia",
+    "entity_ids": [
+      "traction-alopecia"
+    ],
+    "updated_at": "2026-11-18",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   }
 ]
