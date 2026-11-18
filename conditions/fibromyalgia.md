@@ -5,7 +5,7 @@ entity_type: condition
 permalink: /conditions/fibromyalgia/
 title: 섬유근육통
 title_en: fibromyalgia
-description: 온몸에 퍼진 만성 통증에 피로·개운하지 않은 잠·인지 증상이 겹치는 중추성 통증 질환
+description: ''
 aliases:
   - 섬유근육통
   - 섬유근통
@@ -13,15 +13,16 @@ aliases:
   - fibromyalgia
   - fibromyalgia syndrome
   - 온몸이 아픈 병
-last_reviewed: '2026-10-30'
+last_reviewed: '2026-11-18'
 locked: false
 quality_status: review
 verified_by: 문헌 대조 작성 (검수 대기)
 next_review: '2027-01-30'
-source_count: 8
+source_count: 9
 source_count_external: 8
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 9
 external_footnote_ids:
   - 1
   - 2
@@ -31,17 +32,8 @@ external_footnote_ids:
   - 6
   - 7
   - 8
-version: 1
+version: 2
 ---
-<div class="entity-summary" markdown="1">
-<p class="entity-summary-label">핵심 요약</p>
-
-- 섬유근육통은 중추신경계에서 통증 신호가 증폭되어 전신 만성 통증과 수면 문제, 탈진감, 인지 어려움이 함께 나타나는 질환입니다 [^1][^2].
-- 진단은 특징적인 증상 묶음의 병력과 광범위 통증 지수 및 증상 중증도 척도를 바탕으로 이루어집니다 [^1][^4].
-- 치료는 환자 교육과 운동 같은 비약물 치료를 우선으로 하며, 증상에 따라 심리 치료나 약물 치료를 단계적으로 추가합니다 [^6].
-
-</div>
-
 ## 정의
 섬유근육통(fibromyalgia)은 **몸 여러 부위에 퍼진 만성 통증**을 중심으로, 개운하지 않은 잠을 포함한 수면 문제, 신체적 탈진감, 인지 기능의 어려움이 함께 나타나는 흔한 질환입니다 [^1]. 기억력 저하와 기분 변화가 동반되는 경우가 많으며, 중추신경계에서 통증 신호가 증폭되는 **"중추화된(centralized)" 통증 상태**로 이해됩니다 [^2].
 
@@ -77,7 +69,7 @@ version: 1
 - **2016년 개정**은 국소 통증 질환이 섬유근육통으로 잘못 분류되는 문제를 줄이기 위해 **"전신 통증(generalized pain)" 기준**을 추가했고, 의사 평가와 설문 기준을 통합했으며, 혼란을 주던 진단 배제 권고를 삭제했습니다 [^5]
 
 **섬유근육통 진단 기준의 변화** [^1][^4][^5]
-{: .entity-table-caption}
+{:.entity-table-caption}
 
 | 기준 연도 | 핵심 평가 요소 | 주요 특징 |
 | --- | --- | --- |
@@ -98,9 +90,9 @@ version: 1
 
 - **초기 관리 — 환자 교육과 비약물 치료에 집중합니다** [^6]
 - 반응이 없으면 개인 필요에 맞춰 다음을 추가합니다 [^6]
-  - 기분 장애나 도움이 되지 않는 대처 방식이 있으면 **심리 치료** [^6]
-  - 통증이나 수면 장애가 심하면 **약물 치료** [^6]
-  - 장애 정도가 심하면 **다학제 재활 프로그램** [^6]
+ - 기분 장애나 도움이 되지 않는 대처 방식이 있으면 **심리 치료** [^6]
+ - 통증이나 수면 장애가 심하면 **약물 치료** [^6]
+ - 장애 정도가 심하면 **다학제 재활 프로그램** [^6]
 - 메타분석 근거로 "강하게 권고(strong for)"된 치료는 **운동이 유일합니다** [^6]. 반응이 없을 때 추가하는 위 치료들은 모두 "약하게 권고(weak for)" 등급입니다 [^6]
 
 ### 운동
@@ -109,15 +101,17 @@ version: 1
 ### 그 밖의 치료
 비약물 치료로는 교육, 운동, 인지행동치료가, 약물 치료로는 삼환계 항우울제, 세로토닌·노르에피네프린 재흡수 억제제(SNRI), 가바펜티노이드 계열이 근거를 갖춘 선택지로 정리되어 있습니다 [^2]. 약물은 단독 해결책이 아니라 비약물 치료를 받치는 보조 수단으로 쓰입니다.
 
+추가로 적용하는 약물과 비약물 치료 역시 임상 근거가 확인된 방법들을 선택합니다[^9].
+
 ## 예후
 미국 류마티스 전문의에게 진단받은 환자 1,555명을 최대 11년 추적한 연구에서, 전체 평균으로는 증상 중증도의 **임상적으로 의미 있는 개선이 없었지만**, 약 25%는 통증이 중등도 이상 호전됐습니다(약 10%는 상당한 호전, 약 15%는 중등도 호전) [^8]. 같은 연구에서 44.0%는 추적 중 적어도 한 번 진단 기준을 충족하지 않는 시기를 거쳐, 기준 충족과 비충족 상태를 오가는 경과가 흔했습니다 [^8].
 
 <figure class="entity-figure entity-chart" role="img" aria-label="섬유근육통 환자 1,555명 최대 11년 추적 막대그래프">
-  <div class="entity-chart-title">섬유근육통 환자 1,555명 최대 11년 추적</div>
-  <div class="entity-chart-row"><div class="entity-chart-label">통증 상당한 호전<span>약</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:10.0%"></div><span class="entity-chart-value">10%</span></div></div>
-  <div class="entity-chart-row"><div class="entity-chart-label">통증 중등도 호전<span>약</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:15.0%"></div><span class="entity-chart-value">15%</span></div></div>
-  <div class="entity-chart-row"><div class="entity-chart-label">진단 기준 비충족 시기 경험<span>추적 중 적어도 한 번</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:44.0%"></div><span class="entity-chart-value">44.0%</span></div></div>
-  <figcaption markdown="span">섬유근육통의 장기 경과 [^8]<span class="entity-figure-credit">그래프: Linkbase · Walitt 2011 (J Rheumatol) 초록 수치</span></figcaption>
+ <div class="entity-chart-title">섬유근육통 환자 1,555명 최대 11년 추적</div>
+ <div class="entity-chart-row"><div class="entity-chart-label">통증 상당한 호전<span>약</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:10.0%"></div><span class="entity-chart-value">10%</span></div></div>
+ <div class="entity-chart-row"><div class="entity-chart-label">통증 중등도 호전<span>약</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:15.0%"></div><span class="entity-chart-value">15%</span></div></div>
+ <div class="entity-chart-row"><div class="entity-chart-label">진단 기준 비충족 시기 경험<span>추적 중 적어도 한 번</span></div><div class="entity-chart-bar"><div class="entity-chart-fill entity-chart-fill--alt" style="width:44.0%"></div><span class="entity-chart-value">44.0%</span></div></div>
+ <figcaption markdown="span">섬유근육통의 장기 경과 [^8]<span class="entity-figure-credit">그래프: Linkbase · Walitt 2011 (J Rheumatol) 초록 수치</span></figcaption>
 </figure>
 
 즉 대부분은 증상이 오래 이어지는 경향이 있으나 완만한 호전 추세도 함께 관찰됩니다 [^8]. 증상의 오르내림을 전제로, 운동과 수면 관리처럼 꾸준히 이어 갈 수 있는 관리 계획을 세우는 것이 장기 경과에 중요합니다.
@@ -136,8 +130,13 @@ version: 1
 
 ---
 
+---
+
 ## Citations
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^9]: [더웰스의원 — 자고 일어나도 피곤하고 온몸이 아픈 섬유근육통 증상](https://thewells.kr/blog/fibromyalgia) · 근거: "추가로 적용하는 약물과 비약물 치료 역시 임상 근거가 확인된 방법들을 선택합니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: [Häuser W, Ablin J, Fitzcharles MA, et al. Fibromyalgia. Nat Rev Dis Primers. 2015;1:15022. PMID 27189527. DOI 10.1038/nrdp.2015.22](https://pubmed.ncbi.nlm.nih.gov/27189527/)
@@ -151,3 +150,4 @@ version: 1
 
 ## Changelog
 - 2026-10-30 v1: 신규 작성 — 정의·증상은 Nat Rev Dis Primers 2015·JAMA 2014·Nat Rev Rheumatol 2020, 진단은 ACR 2010 예비 기준·2016 개정, 치료는 EULAR 2017 권고·Cochrane 2017 유산소 운동 리뷰, 예후는 J Rheumatol 2011 장기 추적 연구로 받침. source_count_external 0→8.
+- 2026-11-18 v2: 치료 enrich
