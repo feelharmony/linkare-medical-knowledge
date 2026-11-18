@@ -10,24 +10,25 @@ aliases:
   - 척추전방전위증
   - 전방전위증
   - spondylolisthesis
-last_reviewed: '2026-07-17'
+last_reviewed: '2026-11-18'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
-source_count: 7
+source_count: 8
 source_count_external: 5
-source_count_clinic_pillar: 2
+source_count_clinic_pillar: 3
 clinic_footnote_ids:
   - 1
   - 7
+  - 8
 external_footnote_ids:
   - 2
   - 3
   - 4
   - 5
   - 6
-version: 2
+version: 3
 ---
 ## 정의
 척추전방전위증(spondylolisthesis)은 위쪽 척추뼈가 아래쪽 척추뼈에 비해 앞쪽으로 미끄러진 상태입니다 [^2][^3]. 허리에서 가장 흔하게 문제되는 부위는 요추 L4-L5 또는 L5-S1이며, 퇴행성 변화, 척추분리증, 외상, 수술 후 변화 등이 원인이 될 수 있습니다 [^2][^4].
@@ -42,8 +43,8 @@ version: 2
 척추분리형 전방전위증은 협부(pars interarticularis)의 결손이나 피로 골절과 관련됩니다 [^5][^6]. 젊은 운동선수에서는 과신전·회전 반복과 관련될 수 있고, 성인에서는 기존 결손에 퇴행성 변화가 더해져 증상이 나타날 수 있습니다.
 
 <figure class="entity-figure entity-figure--portrait">
-  <img src="/assets/images/entities/spondylolisthesis/l5-forward-slip-pars-defect.webp" alt="뒤에서 비스듬히 본 반투명 골격과 아래 허리 확대 원: 원 안에서 엉치뼈 바로 위 허리뼈가 앞으로 밀려 나가 있고, 그 뒤쪽 고리 부분의 갈라진 자리가 주황색으로 표시되며 노란 신경이 지나가는 모습" width="768" height="1024" loading="lazy">
-  <figcaption markdown="span">척추분리형 전방전위(아래 허리 확대): 엉치뼈 위에서 앞으로 밀린 맨 아래 허리뼈 · 갈라진 협부 자리(주황색) · 그 곁을 지나는 신경(노란색)<span class="entity-figure-credit">그림: BruceBlaus, <a href="https://commons.wikimedia.org/wiki/File:Spondylolisthesis.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a></span></figcaption>
+ <img src="/assets/images/entities/spondylolisthesis/l5-forward-slip-pars-defect.webp" alt="뒤에서 비스듬히 본 반투명 골격과 아래 허리 확대 원: 원 안에서 엉치뼈 바로 위 허리뼈가 앞으로 밀려 나가 있고, 그 뒤쪽 고리 부분의 갈라진 자리가 주황색으로 표시되며 노란 신경이 지나가는 모습" width="768" height="1024" loading="lazy">
+ <figcaption markdown="span">척추분리형 전방전위(아래 허리 확대): 엉치뼈 위에서 앞으로 밀린 맨 아래 허리뼈 · 갈라진 협부 자리(주황색) · 그 곁을 지나는 신경(노란색)<span class="entity-figure-credit">그림: BruceBlaus, <a href="https://commons.wikimedia.org/wiki/File:Spondylolisthesis.png" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a></span></figcaption>
 </figure>
 
 ## 증상
@@ -63,6 +64,8 @@ version: 2
 
 환자들은 허리를 뒤로 젖힐 때 통증이 심해지는 경향이 있으며, 이는 척추가 불안정하게 움직이기 때문입니다[^7].
 
+허리를 뒤로 젖히거나 몸통을 강하게 비트는 활동을 줄여야 합니다[^8].
+
 ## 예후
 많은 환자는 운동·약물·주사치료·생활 부하 조절 같은 보존 치료로 통증과 기능이 조절됩니다 [^2][^3]. 다만 퇴행성 변화와 협착이 진행하거나 보행 거리가 줄어드는 경우에는 치료 전략을 다시 평가해야 합니다. 수술이 필요한 환자군에서도 목표는 영상의 전위 자체를 “정상화”하는 것보다 신경 압박 완화, 통증 감소, 보행 기능 회복입니다.
 
@@ -74,11 +77,14 @@ version: 2
 
 ---
 
+---
+
 ## Citations
 ### 자사 임상 자료
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^1]: [안심튼튼 — 허리디스크 원인, 증상, 진단](https://ansimpainfree.kr/blog/lumbar-disc-herniation)
 [^7]: [안심튼튼마취통증의학과 — 척추전방전위증 — 허리뼈가 앞으로 밀릴 때 생기는 통증의 원인과 치료](https://ansimpainfree.kr/blog/spondylolisthesis) · 근거: "허리를 뒤로 젖히거나 오래 서 있을 때 통증이 가장 심합니다."
+[^8]: [더웰스의원 — 척추분리증과 전방전위증의 차이, 단계별 비수술 치료법](https://thewells.kr/blog/spondylolisthesis) · 근거: "허리가 막 아프기 시작한 급성기에는 무엇보다 허리를 뒤로 젖히거나 몸통을 강하게 비트는 활동을 줄여야 합니다."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
@@ -92,3 +98,4 @@ version: 2
 - 2026-07-04 v2: 내용 업데이트.
 - 2026-07-03 v1: 내용 업데이트.
 - 2026-07-17 v2: 정의 enrich, 치료 enrich, 예후 enrich
+- 2026-11-18 v3: 치료 enrich
