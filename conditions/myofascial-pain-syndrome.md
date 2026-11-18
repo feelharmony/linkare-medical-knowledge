@@ -13,42 +13,34 @@ aliases:
   - trigger point
   - myofascial pain syndrome
   - MPS
-last_reviewed: '2026-10-20'
+last_reviewed: '2026-11-18'
 next_review: '2026-10-03'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
-source_count: 7
+source_count: 8
 source_count_external: 5
-source_count_clinic_pillar: 2
+source_count_clinic_pillar: 3
 clinic_footnote_ids:
   - 1
   - 7
+  - 8
 external_footnote_ids:
   - 2
   - 3
   - 4
   - 5
   - 6
-version: 2
+version: 3
 ---
-<div class="entity-summary" markdown="1">
-<p class="entity-summary-label">핵심 요약</p>
-
-- 근막통증증후군은 근육과 근막 안의 통증유발점이 국소 통증, 압통, 연관통, 근육 긴장, 움직임 제한을 만드는 상태입니다 [^2][^3].
-- 주로 병력과 신체진찰로 진단하지만, 감각·근력 저하, 보행 불안정, 발열·체중 감소 등이 동반되면 목디스크나 감염·종양 등 다른 원인을 평가합니다 [^4][^5].
-- 치료는 스트레칭·안정화 운동·자세 조정·물리치료 등 기본 치료와 통증유발점 주사·건식침 등 주사 치료를 환자 상태에 따라 시행합니다 [^2][^3][^4][^5].
-
-</div>
-
 ## 정의
 근막통증증후군(myofascial pain syndrome, MPS)은 근육과 근막 안의 통증유발점(trigger point)이 국소 통증, 압통, 연관통, 근육 긴장, 움직임 제한을 만드는 상태입니다 [^2][^3]. [목](/body-parts/neck/)·[어깨](/body-parts/shoulder/) 위쪽, 견갑골 안쪽, [허리](/body-parts/lower-back/), 엉덩이처럼 반복 부하와 자세 부담이 큰 부위에서 흔히 문제됩니다.
 
 통증유발점은 누르면 익숙한 통증이 재현되고, 때로는 떨어진 부위로 통증이 퍼집니다. 예를 들어 상부 승모근·견갑거근·후두하근 통증유발점은 [목](/body-parts/neck/) 통증, 어깨 위쪽 뻐근함, 후두부 두통과 겹쳐 나타날 수 있습니다 [^1][^4].
 
 <figure class="entity-figure entity-figure--portrait">
-  <img src="/assets/images/entities/myofascial-pain-syndrome/trapezius-trigger-point-complex.webp" alt="등 위쪽 승모근 그림에 붉게 표시한 통증유발점과, 그 부분 근섬유를 원 안에 확대해 일부 섬유가 방추형으로 굵어진 모습" width="704" height="991" loading="lazy">
-  <figcaption markdown="span">상부 승모근의 통증유발점(붉은 부분)과 확대한 근섬유: 방추형으로 굵어진 국소 수축 부위<span class="entity-figure-credit">그림: Davidparmenter, <a href="https://commons.wikimedia.org/wiki/File:Trigger_Point_Complex.jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="nofollow noopener" target="_blank">CC BY-SA 3.0</a></span></figcaption>
+ <img src="/assets/images/entities/myofascial-pain-syndrome/trapezius-trigger-point-complex.webp" alt="등 위쪽 승모근 그림에 붉게 표시한 통증유발점과, 그 부분 근섬유를 원 안에 확대해 일부 섬유가 방추형으로 굵어진 모습" width="704" height="991" loading="lazy">
+ <figcaption markdown="span">상부 승모근의 통증유발점(붉은 부분)과 확대한 근섬유: 방추형으로 굵어진 국소 수축 부위<span class="entity-figure-credit">그림: Davidparmenter, <a href="https://commons.wikimedia.org/wiki/File:Trigger_Point_Complex.jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="nofollow noopener" target="_blank">CC BY-SA 3.0</a></span></figcaption>
 </figure>
 
 ## 병태
@@ -72,7 +64,7 @@ version: 2
 통증이 뚜렷하거나 운동 진입이 어려운 경우에는 통증유발점 주사(trigger point injection), 건식침(dry needling), [초음파 유도 주사](/treatments/ultrasound-guided-injection/), 보툴리눔 독소 주사 등을 환자 상태에 따라 검토합니다 [^2][^5]. 특히 목 부위 통증유발점에서는 건식침과 통증유발점 주사가 모두 연구되어 있으며, 2022년 systematic review/meta-analysis는 목 통증 증상에서 통증유발점 주사가 건식침보다 단기 통증 감소에 유리할 수 있다고 보고했습니다 [^5]. 다만 주사는 통증유발점을 “영구 제거”하는 치료라기보다 통증 민감도를 낮추고 운동·자세 재교육을 가능하게 하는 보조 치료로 설명하는 것이 안전합니다.
 
 **근막통증증후군 치료 분류** [^2][^3][^4][^5]
-{: .entity-table-caption}
+{:.entity-table-caption}
 
 | 치료 구분 | 세부 방법 | 적용 상황 및 역할 |
 | --- | --- | --- |
@@ -84,10 +76,14 @@ version: 2
 
 통증치료 직후 목이 부드러워졌지만 며칠 뒤 같은 자리가 다시 뭉친다면 통증 유발점을 자극하는 부하가 남아 있는지 확인해야 합니다[^7].
 
+초음파 유도 주사를 시행할 때는 바늘과 목표 조직이 실시간으로 보입니다[^8].
+
 ## 예후
 근막통증증후군은 통증유발 요인을 줄이고 운동·수면·작업 습관을 함께 조정하면 호전될 수 있습니다 [^3][^4]. 그러나 반복 작업, 장시간 화면 자세, 스트레스, 수면 부족, 동반 경추·어깨 질환이 지속되면 재발하기 쉽습니다. 치료 반응은 압통 감소만이 아니라, 목 회전 범위, 두통 빈도, 팔 저림 감별, 업무·운동 복귀 정도로 함께 판단합니다.
 
 만성화된 경우에는 통증유발점 주사나 건식침만 반복하기보다, 신경근병증·후관절 통증·후두신경통·중추 감작 여부를 다시 점검하고 치료 목표를 통증 완화, 기능 회복, 재발 감소로 나누어 관리합니다 [^2][^5].
+
+---
 
 ---
 
@@ -98,6 +94,7 @@ version: 2
 <!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
 [^1]: [더웰스 — 거북목·일자목 관련 임상 자료](https://thewells.kr/blog/forward-head-posture)
 [^7]: [더웰스의원 — 섬유근막통증의 유발점과 재발, 진단부터 원인 관리까지](https://thewells.kr/blog/myofascial-pain-syndrome) · 근거: "통증치료 직후 목이 부드러워졌지만 며칠 뒤 같은 자리가 다시 뭉친다면..."
+[^8]: [구리탑본의원 — 단순 근육 뭉침과 근막통증증후군, 눌렀을 때 뻗치는 통증의 차이](https://guritopbone.com/blog/myofascial-pain-syndrome) · 근거: "초음파 유도 주사를 시행할 때는 바늘과 목표 조직이 실시간으로 보입니다."
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
@@ -111,3 +108,4 @@ version: 2
 - 2026-07-03 v2: 내용 업데이트.
 - 2026-07-03 v1: 내용 업데이트.
 - 2026-10-20 v2: 치료 enrich
+- 2026-11-18 v3: 치료 enrich
