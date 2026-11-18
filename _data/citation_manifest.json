@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06",
+  "updated_at": "2026-11-18",
   "entities": {
     "aging": [
       {
@@ -1248,6 +1248,18 @@
           "treatment"
         ],
         "excerpt": "생활 자세를 교정하고 팔꿈치 구간의 압박을 덜어주는 비수술 치료에 초점을 둡니다."
+      }
+    ],
+    "fibromyalgia": [
+      {
+        "footnote_id": 9,
+        "url": "https://thewells.kr/blog/fibromyalgia",
+        "title": "더웰스의원 — 자고 일어나도 피곤하고 온몸이 아픈 섬유근육통 증상",
+        "post_id": "ca629e7c-d763-4d10-b0da-2260a61c0494",
+        "anchors": [
+          "treatment"
+        ],
+        "excerpt": "추가로 적용하는 약물과 비약물 치료 역시 임상 근거가 확인된 방법들을 선택합니다."
       }
     ]
   }
