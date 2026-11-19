@@ -4474,5 +4474,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/apfree/ko/--/biceps-tendinitis.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/biceps-tendinitis",
+    "source_article_title": "어깨 주사 맞아도 남는 앞쪽 통증, 이두건염일까요?",
+    "primary_entity_id": "biceps-tendinitis",
+    "entity_ids": [
+      "biceps-tendinitis"
+    ],
+    "updated_at": "2026-11-19",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
