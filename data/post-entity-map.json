@@ -4489,5 +4489,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/apfree/ko/-/mortons-neuroma-treatment-injection-count.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/mortons-neuroma-treatment-injection-count",
+    "source_article_title": "지간신경종 치료, 대구 동구에서 받는 초음파 주사는 몇 번 맞을까?",
+    "primary_entity_id": "mortons-neuroma",
+    "entity_ids": [
+      "mortons-neuroma"
+    ],
+    "updated_at": "2026-11-20",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
