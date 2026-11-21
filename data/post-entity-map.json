@@ -4504,5 +4504,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/---/cellulite.md",
+    "source_article_url": "https://thewells.kr/blog/cellulite",
+    "source_article_title": "크림을 발라도 그대로인 허벅지 셀룰라이트, 왜 쉽게 안 풀릴까요?",
+    "primary_entity_id": "cellulite",
+    "entity_ids": [
+      "cellulite"
+    ],
+    "updated_at": "2026-11-21",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
