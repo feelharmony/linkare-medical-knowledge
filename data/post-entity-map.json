@@ -4519,5 +4519,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/gtop/ko/----/spray-and-stretch-effect-range-of-motion.md",
+    "source_article_url": "https://guritopbone.com/blog/spray-and-stretch-effect-range-of-motion",
+    "source_article_title": "신장분사치료 효과, 남양주에서 따져보는 압통과 관절 가동 범위",
+    "primary_entity_id": "myofascial-pain-syndrome",
+    "entity_ids": [
+      "myofascial-pain-syndrome"
+    ],
+    "updated_at": "2026-11-21",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   }
 ]
