@@ -4,7 +4,7 @@ entity_id: tension-type-headache
 entity_type: condition
 permalink: /conditions/tension-type-headache/
 title: 긴장형 두통
-description: 가장 흔한 1차성 두통. 양측성·압박·둔통 양상에 가벼운~중등도 강도, 일상 활동으로 악화되지 않는 특징을 보입니다. 보존 치료와 단순 진통제로 호전되며, 만성기에는 예방치료가 필요할 수 있습니다.
+description: ''
 title_en: tension-type headache
 aliases:
   - 긴장형 두통
@@ -13,32 +13,29 @@ aliases:
   - tension-type headache
   - TTH
   - tension headache
-last_reviewed: '2026-05-03'
+last_reviewed: '2026-11-23'
 locked: true
 quality_status: verified
 verified_by: 문헌 및 내부 정합성 검토
 next_review: '2026-08-09'
-source_count: 5
-version: 2
+source_count: 6
+version: 3
 source_count_external: 5
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [2, 3, 4, 5, 6]
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 7
+external_footnote_ids:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
 ---
-<div class="entity-summary" markdown="1">
-<p class="entity-summary-label">핵심 요약</p>
-
-- 긴장형 두통은 가장 흔한 1차성 두통으로, 양측성·압박성 양상의 가벼운~중등도 통증이 특징이며 구역·구토를 동반하지 않습니다 [^2].
-- 임상 기준에 따라 발작성과 만성으로 진단하며, 적색기 증상이나 신규·진행성 두통이 있으면 영상 검사를 단계적으로 적용합니다 [^2][^3][^5].
-- 비약물 치료를 우선 고려하며, 급성기에는 단순 진통제나 NSAIDs를 사용하고 만성인 경우 아미트립틸린 등 예방치료를 시행합니다 [^6].
-
-</div>
-
 ## 정의
 긴장형 두통(tension-type headache, TTH)은 ICHD-3 분류의 1차성 두통 중 가장 흔한 유형으로, 양측성·압박성·조이는 듯한 양상의 가벼운~중등도 두통이 특징입니다. 일상 활동으로 악화되지 않으며 구역·구토를 동반하지 않습니다 [^2]. 빈도에 따라 **드문 발작성**(infrequent episodic, 월 1일 미만), **잦은 발작성**(frequent episodic, 월 1~14일), **만성**(chronic, 월 15일 이상)으로 구분됩니다 [^2]. 한국 1년 유병률은 약 30.8%로 보고되며 모든 두통 중 가장 흔합니다 [^4]. 더 큰 두통 분류와 감별 진단 흐름은 [두통](/symptoms/headache/) 항목 참고.
 
 **긴장형 두통의 빈도별 분류 및 특징** [^2][^3][^6]
-{: .entity-table-caption}
+{:.entity-table-caption}
 
 | 구분 | 발생 빈도 | 주요 병태 기전 | 주요 약물치료 |
 | --- | --- | --- | --- |
@@ -50,8 +47,8 @@ external_footnote_ids: [2, 3, 4, 5, 6]
 TTH의 병태생리는 명확히 밝혀지지 않았으며 말초·중추 통증 기전이 모두 관여하는 것으로 보고됩니다 [^3][^6]. 발작성 TTH는 두개주위 근육의 압통·민감도 증가 같은 말초 기전이 우세하고, 만성 TTH는 통증 처리 회로의 중추 감작이 함께 관여한다고 알려져 있습니다 [^3]. 스트레스·수면 부족·자세 부담·정신적 긴장이 흔한 유발 인자입니다 [^3].
 
 <figure class="entity-figure">
-  <img src="/assets/images/entities/tension-type-headache/tth-pericranial-band.webp" alt="이마와 양쪽 관자놀이를 띠처럼 두른 붉은 영역, 피부 아래로 비치는 이마근·관자근·목과 어깨 근육" width="1000" height="747" loading="lazy">
-  <figcaption markdown="span">긴장형 두통의 양상: 이마·양쪽 관자놀이를 띠처럼 조이는 압박 통증과 두개주위 근육<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+ <img src="/assets/images/entities/tension-type-headache/tth-pericranial-band.webp" alt="이마와 양쪽 관자놀이를 띠처럼 두른 붉은 영역, 피부 아래로 비치는 이마근·관자근·목과 어깨 근육" width="1000" height="747" loading="lazy">
+ <figcaption markdown="span">긴장형 두통의 양상: 이마·양쪽 관자놀이를 띠처럼 조이는 압박 통증과 두개주위 근육<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
 </figure>
 
 ## 증상
@@ -86,22 +83,27 @@ EFNS 가이드라인은 비약물 치료를 항상 먼저 고려하도록 권고
 
 만성·치료 반응 부족·기능 영향이 큰 경우 신경과 진료를 권장합니다 [^3]. 자세 부담·근막성 요인이 두드러지면 [거북목·일자목](/conditions/forward-head-posture/)·[목 통증](/symptoms/neck-pain/) 평가가 함께 도움이 될 수 있습니다.
 
+긴장으로 굳은 뒷목과 어깨 근막에는 체외충격파를 주어 뭉친 자리를 풉니다[^7].
+
 ## 예후
 대부분의 발작성 TTH는 비약물 치료와 단순 진통제로 호전되거나 일상에서 관리 가능한 수준으로 유지됩니다 [^3][^6]. 만성 TTH는 빈도·강도·기능 영향이 큰 만성 통증 질환에 가까우며, 우울·불안 동반이 흔하고 적절한 예방치료·심리 치료·생활 관리로 호전 가능합니다. 진통제 과다 사용은 만성화·MOH 진행의 주요 위험 인자입니다 [^6].
 
+---
+
 ## Citations
+### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^7]: [구리탑본의원 — 진통제 먹어도 그때뿐인 긴장성 두통, 뒷목과 어깨부터 굳어 오나요?](https://guritopbone.com/blog/tension-type-headache) · 근거: "이처럼 긴장으로 굳은 뒷목과 어깨 근막에는 체외충격파를 주어 뭉친 자리를 풉니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
+
 ### 외부 권위 출처
-
 [^2]: [Headache Classification Committee of the International Headache Society (IHS). The International Classification of Headache Disorders, 3rd edition (ICHD-3). Cephalalgia. 2018;38(1):1-211. PMID 29368949. DOI 10.1177/0333102417738202](https://pubmed.ncbi.nlm.nih.gov/29368949/)
-
 [^3]: [Viera AJ, Antono B. Acute Headache in Adults: A Diagnostic Approach. Am Fam Physician. 2022;106(3):260-268. PMID 36126007](https://pubmed.ncbi.nlm.nih.gov/36126007/)
-
 [^4]: [Kim BK, Chu MK, Lee TG, Kim JM, Chung CS, Lee KS. Prevalence and impact of migraine and tension-type headache in Korea. J Clin Neurol. 2012;8(3):204-211. PMID 23091530. DOI 10.3988/jcn.2012.8.3.204](https://pubmed.ncbi.nlm.nih.gov/23091530/)
-
 [^5]: [Expert Panel on Neurological Imaging. ACR Appropriateness Criteria® Headache: 2022 Update. J Am Coll Radiol. 2023;20(5S):S70-S93. PMID 37236753. DOI 10.1016/j.jacr.2023.02.018](https://pubmed.ncbi.nlm.nih.gov/37236753/)
-
 [^6]: [Bendtsen L, Evers S, Linde M, Mitsikostas DD, Sandrini G, Schoenen J. EFNS guideline on the treatment of tension-type headache - report of an EFNS task force. Eur J Neurol. 2010;17(11):1318-1325. PMID 20482606. DOI 10.1111/j.1468-1331.2010.03070.x](https://pubmed.ncbi.nlm.nih.gov/20482606/)
 
 ## Changelog
 - 2026-05-03 v2: 내용 업데이트.
 - 2026-05-03 v1: 내용 업데이트.
+- 2026-11-23 v3: 치료 enrich
