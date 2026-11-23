@@ -4,7 +4,7 @@ entity_id: intercostal-neuralgia
 entity_type: condition
 permalink: /conditions/intercostal-neuralgia/
 title: 늑간신경통
-description: 갈비뼈 사이를 지나는 늑간신경을 따라 가슴·옆구리·등을 띠처럼 두르는 신경병성 통증. 심장·폐·골절 같은 다른 흉통 원인을 먼저 가른 뒤, 신경병성 통증 약물과 영상 유도 늑간신경 차단을 단계적으로 적용합니다.
+description: ''
 title_en: intercostal neuralgia
 aliases:
   - 늑간신경통
@@ -13,27 +13,31 @@ aliases:
   - 늑간신경병증
   - intercostal neuralgia
   - intercostal neuropathy
-last_reviewed: '2026-10-17'
+last_reviewed: '2026-11-23'
 locked: false
 quality_status: review
 verified_by: 외부 문헌 PMID 대조 (NCBI esummary·초록 확인)
 next_review: '2027-01-17'
-source_count: 12
+source_count: 13
 source_count_external: 12
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-version: 1
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 13
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+version: 2
 ---
-<div class="entity-summary" markdown="1">
-<p class="entity-summary-label">핵심 요약</p>
-
-- 늑간신경통은 갈비뼈 사이를 지나는 늑간신경 분포를 따라 날카롭게 찌르거나 타는 듯하게 나타나는 신경병성 통증입니다 [^1].
-- 가슴과 옆구리 통증은 심장·폐·뼈에서도 생기므로, 다른 흉통 원인을 먼저 배제한 뒤 통증의 분포와 진찰 소견으로 판단합니다.
-- 통증에는 약물과 늑간신경 차단 같은 보존 치료를 먼저 쓰고, 이에 반응하지 않으면 고주파술이나 수술을 단계적으로 검토합니다 [^2][^3].
-
-</div>
-
 ## 정의
 늑간신경통(intercostal neuralgia)은 **갈비뼈 사이를 지나는 늑간신경의 분포(갈비뼈·가슴·복부)를 따라 생기는 신경병성 통증**입니다 [^1]. 통증은 날카롭게 찌르거나 타는 듯하거나 뻗치는 양상이며, **가슴과 등을 띠처럼 두르거나 흉추 피부분절(dermatome)을 따라** 나타나는 것이 특징입니다 [^1]. 원인은 흉부 수술 후 신경 손상, 신경종(neuroma) 형성, 대상포진 후 신경통 등으로 다양합니다 [^2][^3]. 다만 통증이 전달되는 경로는 같아 원인이 달라도 치료 접근에 공통점이 많습니다 [^1]. 가슴·옆구리 통증은 심장·폐·뼈에서도 생기므로, 늑간신경통은 이런 원인을 먼저 가려낸 뒤 판단합니다.
 
@@ -41,17 +45,17 @@ version: 1
 늑간신경은 흉추의 신경 출구에서 나와 갈비뼈 아래쪽을 따라 가슴 앞쪽과 복벽까지 주행합니다. 이 경로 어느 지점에서든 신경이 손상·압박·자극을 받으면 해당 신경 분포를 따라 통증이 생길 수 있습니다.
 
 <figure class="entity-figure">
-  <img src="/assets/images/entities/intercostal-neuralgia/intercostal-nerve-course.webp" alt="비스듬히 앞옆에서 본 가슴우리: 등뼈에서 나온 늑간신경 하나가 노랗게 빛나며 갈비뼈 하나를 따라 가슴 앞쪽까지 이어지고, 그 경로가 붉은 띠로 표시된 모습" width="1000" height="747" loading="lazy">
-  <figcaption markdown="span">늑간신경 하나의 주행: 등뼈에서 갈비뼈를 따라 가슴 앞쪽까지 이어지는 신경(노랑)과 띠 모양 범위(붉은 빛)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+ <img src="/assets/images/entities/intercostal-neuralgia/intercostal-nerve-course.webp" alt="비스듬히 앞옆에서 본 가슴우리: 등뼈에서 나온 늑간신경 하나가 노랗게 빛나며 갈비뼈 하나를 따라 가슴 앞쪽까지 이어지고, 그 경로가 붉은 띠로 표시된 모습" width="1000" height="747" loading="lazy">
+ <figcaption markdown="span">늑간신경 하나의 주행: 등뼈에서 갈비뼈를 따라 가슴 앞쪽까지 이어지는 신경(노랑)과 띠 모양 범위(붉은 빛)<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
 </figure>
 
 - **수술·시술 후 신경 손상**: 개흉술 후 통증과 의인성 신경 손상이 대표적인 원인으로 정리됩니다 [^3]. 개흉술 후 만성 통증은 메타분석에서 수술 3개월 뒤 57%, 6개월 뒤 47%로 보고되었고, 이 비율은 1990년대 이후 크게 달라지지 않았습니다 [^4].
 
 <figure class="entity-figure entity-chart" role="img" aria-label="개흉술 후 만성 통증 발생률(메타분석) 막대그래프">
-  <div class="entity-chart-title">개흉술 후 만성 통증 발생률(메타분석)</div>
-  <div class="entity-chart-row"><div class="entity-chart-label">수술 3개월 뒤<span>17개 연구 · 1,439명</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:57.0%"></div><span class="entity-chart-value">57%</span></div></div>
-  <div class="entity-chart-row"><div class="entity-chart-label">수술 6개월 뒤<span>15개 연구 · 1,354명</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:47.0%"></div><span class="entity-chart-value">47%</span></div></div>
-  <figcaption markdown="span">개흉술 후 시점별 만성 통증 비율 [^4]<span class="entity-figure-credit">그래프: Linkbase · Bayman 2014 (J Pain) 초록 수치</span></figcaption>
+ <div class="entity-chart-title">개흉술 후 만성 통증 발생률(메타분석)</div>
+ <div class="entity-chart-row"><div class="entity-chart-label">수술 3개월 뒤<span>17개 연구 · 1,439명</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:57.0%"></div><span class="entity-chart-value">57%</span></div></div>
+ <div class="entity-chart-row"><div class="entity-chart-label">수술 6개월 뒤<span>15개 연구 · 1,354명</span></div><div class="entity-chart-bar"><div class="entity-chart-fill" style="width:47.0%"></div><span class="entity-chart-value">47%</span></div></div>
+ <figcaption markdown="span">개흉술 후 시점별 만성 통증 비율 [^4]<span class="entity-figure-credit">그래프: Linkbase · Bayman 2014 (J Pain) 초록 수치</span></figcaption>
 </figure>
 - **신경종**: 손상된 신경이 비정상적으로 재생하면서 생긴 신경종이 통증을 지속시키는 원인이 될 수 있습니다 [^2][^3].
 - **대상포진**: 대상포진 후 신경통이 늑간신경 분포에 남는 경우도 늑간신경통의 흔한 배경입니다 [^2]. 급성기 경과와 만성 통증 관리는 [대상포진](/conditions/zoster/)·[대상포진 후 신경통](/conditions/postherpetic-neuralgia/) 항목에서 다룹니다.
@@ -117,13 +121,15 @@ MR 신경조영술(MR neurography)은 늑간신경의 병변을 직접 보여 �
 약물과 중재 치료가 모두 실패한 난치성 늑간신경통에는 수술을 검토합니다 [^3]. 늑간신경 절제술이 가장 많이 연구되었고 여러 증례 연구에서 80%를 넘는 성공률이 보고되었으며, 압박이 원인인 일부 환자에서는 신경 박리·감압술이 도움이 됩니다 [^3]. 신경종 형성 자체를 겨냥한 표적 근육 재신경화술(TMR)·재생 말초신경 인터페이스(RPNI) 같은 재건 기법도 소개되고 있으나, 근거는 아직 소규모 코호트에 머뭅니다 [^3].
 
 **늑간신경통의 단계별 치료 비교** [^2][^3][^5][^7][^12]
-{: .entity-table-caption}
+{:.entity-table-caption}
 
 | 단계 | 주요 방법 | 검토하는 경우 |
 | --- | --- | --- |
 | 보존 치료 | 소염진통제, 신경병성 통증 약물, 마약성 진통제, 늑간신경 차단 | 원인 질환 치료와 함께, 통증 자체에 쓰임 |
 | 고주파술 | 고주파 열응고술, 박동성 고주파술 | 보존 치료에 반응하지 않는 경우 |
 | 수술 | 늑간신경 절제술, 신경 박리·감압술, 표적 근육 재신경화술(TMR)·재생 말초신경 인터페이스(RPNI) | 약물과 중재 치료가 모두 실패한 난치성 늑간신경통 |
+
+늑간신경통에는 초음파 유도 주사를 시행합니다[^13].
 
 ## 예후
 늑간신경통은 원인 질환이 가라앉은 뒤에도 통증이 오래 이어질 수 있습니다 [^1]. 수술 후 생긴 통증도 오래가는 경우가 드물지 않아, 개흉술 후 만성 통증은 수술 6개월 뒤에도 절반 가까이에서 보고됩니다 [^4]. 신경 차단은 수일에서 수개월의 통증 완화 기간을 만들 수 있지만 [^5], 신경병성 통증에서는 약물에 충분히 반응하지 않는 경우가 적지 않습니다 [^12]. 난치성 늑간신경통에서 수술은 정확한 진단과 환자 선택이 뒷받침될 때 지속적인 통증 완화를 기대할 수 있는 선택지로 정리됩니다 [^3]. 경과는 원인, 통증 기간, 단계별 치료 반응에 따라 달라지므로, 반응이 부족하면 원인 신경을 다시 확인하고 다음 단계 치료를 검토합니다.
@@ -135,7 +141,14 @@ MR 신경조영술(MR neurography)은 늑간신경의 병변을 직접 보여 �
 - [신경차단술](/treatments/nerve-block-injection/)
 - [초음파 유도 주사](/treatments/ultrasound-guided-injection/)
 
+---
+
 ## Citations
+### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^13]: [더웰스의원 — 심장·폐 검사는 정상인데 옆구리가 찌릿하다면 왜 늑간신경통을 의심할까요?](https://thewells.kr/blog/intercostal-neuralgia) · 근거: "다른 흉통 질환을 배제하고 늑간신경의 자극이 확인되면 신경 주변의 흥분과 염증 반응을 가라앉히는 치료를 시작합니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
+
 ### 외부 권위 출처
 [^1]: [Fazekas D, Doroshenko M, Horn DB. Intercostal Neuralgia. StatPearls. Treasure Island (FL): StatPearls Publishing; 2023. PMID 32809700. NCBI Bookshelf NBK560865](https://pubmed.ncbi.nlm.nih.gov/32809700/)
 [^2]: [Abd-Elsayed A, Fooladi S, Shiferaw BT. Intercostal Nerve Radiofrequency Ablation: A Comprehensive Review of Evolving Techniques and Clinical Applications. Adv Ther. 2026;43(5):2304-2316. PMID 41874850. DOI 10.1007/s12325-026-03555-x](https://pubmed.ncbi.nlm.nih.gov/41874850/)
@@ -152,3 +165,4 @@ MR 신경조영술(MR neurography)은 늑간신경의 병변을 직접 보여 �
 
 ## Changelog
 - 2026-10-17 v1: 신규 작성. 외부 문헌 12건(NCBI esummary로 PMID·제목·저자·연도 확인, 초록 범위 내 인용)으로 6섹션을 받침. 늑간신경통 주제 글 3편이 가리키던 미발행 entity 매핑 해소.
+- 2026-11-23 v2: 치료 enrich
