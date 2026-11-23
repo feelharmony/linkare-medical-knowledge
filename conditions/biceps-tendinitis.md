@@ -4,7 +4,7 @@ entity_id: biceps-tendinitis
 entity_type: condition
 permalink: /conditions/biceps-tendinitis/
 title: 이두건염 (상완이두근 장두 건병증)
-description: 어깨 앞쪽 결절간구를 지나는 상완이두근 장두 힘줄에 염증이나 퇴행이 생겨 앞쪽 어깨가 깊게 아픈 상태
+description: ''
 title_en: biceps tendinitis (long head of the biceps tendinopathy)
 aliases:
   - 이두건염
@@ -17,15 +17,16 @@ aliases:
   - biceps tendinopathy
   - long head of the biceps tendinopathy
   - 어깨 앞쪽 깊은 통증
-last_reviewed: '2026-11-13'
+last_reviewed: '2026-11-23'
 locked: false
 quality_status: review
 verified_by: 외부 문헌 PMID 대조 (eutils esummary·초록 확인)
 next_review: '2027-02-13'
-source_count: 10
+source_count: 11
 source_count_external: 10
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 11
 external_footnote_ids:
   - 1
   - 2
@@ -37,17 +38,8 @@ external_footnote_ids:
   - 8
   - 9
   - 10
-version: 1
+version: 2
 ---
-<div class="entity-summary" markdown="1">
-<p class="entity-summary-label">핵심 요약</p>
-
-- 이두건염은 어깨 앞쪽을 지나는 상완이두근 장두 힘줄 주변의 염증을 가리키며, 실제로는 염증성 건염에서 퇴행성 건병증까지 이어지는 스펙트럼으로 다룹니다 [^1][^2].
-- 어깨 앞쪽의 깊고 욱신거리는 통증과 결절간구 압통이 대표 소견이지만 [^1], 유발 검사와 영상 검사는 각각 단독으로는 놓치는 경우가 있어 병력·진찰·영상을 함께 근거로 삼습니다 [^3][^5][^6].
-- 휴식·소염진통제·물리치료·주사 같은 보존 치료를 먼저 시행하고, 3개월간 보존 치료에 반응하지 않거나 손상이 심하면 건절단술·건고정술을 검토합니다 [^1][^2]. 이두건 힘줄 집 주사는 초음파 유도로 할 때 더 정확하게 들어갑니다 [^7][^8].
-
-</div>
-
 ## 정의
 이두건염(biceps tendinitis)은 **상완이두근 장두(long head of the biceps) 힘줄 주변에 생긴 염증**을 가리키는 말입니다 [^1]. 힘줄이 퇴행해 생기는 이두건 건병증(biceps tendinosis)과 함께 다루며, 상완이두근 장두 건병증은 **염증성 건염에서 퇴행성 건병증까지 이어지는 스펙트럼**으로 정의됩니다 [^1][^2].
 
@@ -111,13 +103,15 @@ version: 1
 Popeye 변형은 힘줄을 자른 뒤 이두근 근육이 위팔 아래쪽으로 내려가 뭉쳐 보이는 모양을 말합니다.
 
 **이두건염의 단계별 치료** [^1][^2][^7]
-{: .entity-table-caption}
+{:.entity-table-caption}
 
 | 단계 | 내용 | 확인할 점 |
 | --- | --- | --- |
 | 보존 치료 | 휴식, 냉찜질, 소염진통제, 물리치료 | 경증에서 먼저 시행 |
 | 주사 | 이두건 힘줄 집 내 스테로이드 주사 | 초음파 유도에서 정확도가 높음 |
 | 수술 | 건절단술, 건고정술 | 3개월 보존 치료 무반응 또는 심한 손상 |
+
+주사를 맞은 뒤에는 바늘이 들어간 자리가 일시적으로 뻐근하거나 약간 붓고 멍이 들 수 있으나, 대부분 1~2일 안에 자연스럽게 가라앉습니다[^11].
 
 ## 예후
 만성 이두건 장두 건병증은 흔하면서도 치료가 쉽지 않은 상태로 기술됩니다 [^9]. 보존 치료를 3개월 시행해도 효과가 없으면 수술을 고려하는 시점으로 봅니다 [^1].
@@ -139,9 +133,13 @@ Popeye 변형은 힘줄을 자른 뒤 이두근 근육이 위팔 아래쪽으로
 
 ---
 
+---
+
 ## Citations
 ### 자사 임상 자료
-<!-- pillar-patch 백필이 자동으로 채움. 신규 작성 시점에는 비워 둠. -->
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^11]: [안심튼튼마취통증의학과 — 어깨 주사 맞아도 남는 앞쪽 통증, 이두건염일까요?](https://ansimpainfree.kr/blog/biceps-tendinitis) · 근거: "주사를 맞은 뒤에는 바늘이 들어간 자리가 일시적으로 뻐근하거나 약간 붓고 멍이 들 수 있으나, 대부분 1~2일 안에 자연스럽게 가라앉습니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: [Churgay CA. Diagnosis and treatment of biceps tendinitis and tendinosis. Am Fam Physician. 2009;80(5):470-476. PMID 19725488](https://pubmed.ncbi.nlm.nih.gov/19725488/)
@@ -157,3 +155,4 @@ Popeye 변형은 힘줄을 자른 뒤 이두근 근육이 위팔 아래쪽으로
 
 ## Changelog
 - 2026-11-13 v1: 신규 entity 작성 — 외부 PMID 10건(eutils esummary로 제목·저자·연도 대조, 초록 범위 안에서 서술)으로 정의·병태·증상·진단·치료·예후를 받침. source_count_external 0→10.
+- 2026-11-23 v2: 치료 enrich
