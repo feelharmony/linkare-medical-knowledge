@@ -5,7 +5,7 @@ entity_type: condition
 permalink: /conditions/thoracic-outlet-syndrome/
 title: 흉곽출구증후군
 title_en: thoracic outlet syndrome (TOS)
-description: ''
+description: 목과 가슴 사이 흉곽출구에서 상완신경총·쇄골하 혈관이 눌려 팔 저림·통증·근력 약화가 생기는 질환군. 신경성이 가장 흔하고, 목디스크 등 다른 원인을 배제하며 진단합니다.
 aliases:
   - 흉곽출구증후군
   - 흉곽출구 증후군
@@ -36,6 +36,15 @@ external_footnote_ids:
   - 7
 version: 2
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 목과 가슴 사이 통로인 흉곽출구에서 신경이나 혈관 구조물이 눌려 어깨·팔에 통증과 저림이 생기는 질환군입니다.[^1][^2][^5]
+- 단일 확진 검사가 없어 병력과 신체검사를 통한 임상 판단으로 진단하며, 혈관성에서는 팔 부종이나 혈전색전 현상이 생길 수 있습니다.[^3]
+- 물리치료 등 보존 치료를 먼저 시행하며, 원인이 분명하고 보존 치료에 반응하지 않는 경우에 수술을 고려합니다.[^2][^5]
+
+</div>
+
 ## 정의
 흉곽출구증후군(thoracic outlet syndrome, TOS)은 **목과 가슴 사이의 통로인 흉곽출구에서 신경·혈관 구조물이 눌려 생기는 질환군**입니다 [^1][^5]. 눌릴 수 있는 구조물은 상완신경총(brachial plexus), 쇄골하정맥, 쇄골하동맥 세 가지이며, 각각에 따라 **신경성(NTOS)·정맥성(VTOS)·동맥성(ATOS)** 흉곽출구증후군으로 나눕니다 [^1]. 세 유형은 별개의 질환이지만 함께 나타나거나 서로 겹칠 수 있습니다 [^1].
 

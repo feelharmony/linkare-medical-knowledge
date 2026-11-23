@@ -5,7 +5,7 @@ entity_type: condition
 permalink: /conditions/telogen-effluvium/
 title: 휴지기 탈모
 title_en: telogen effluvium (TE)
-description: ''
+description: 출산·급격한 체중 감소·고열 같은 사건 2~4개월 뒤 머리카락이 전체적으로 몰려 빠지는 비반흔성 탈모
 aliases:
   - 휴지기탈모
   - 휴지기 탈모증
@@ -36,6 +36,16 @@ locked: false
 verified_by: 문헌 검토 (PubMed 초록 대조)
 version: 2
 ---
+
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 휴지기 탈모는 모발 주기가 흐트러져 휴지기 모발이 머리 전체에서 한꺼번에 과도하게 빠지는 확산성 비반흔성 탈모입니다.[^1][^2][^9]
+- 계기가 된 사건 3~4개월 뒤에 시작되며, 병력과 혈액 검사로 내분비·영양·자가면역 질환이나 패턴형 탈모를 배제해 진단합니다.[^1][^5][^9]
+- 표적 치료제는 없으나 원인이 된 요인을 찾아 교정하면 자연 관해율이 높고 대부분 회복됩니다.[^3][^4]
+
+</div>
+
 ## 정의
 휴지기 탈모(telogen effluvium, TE)는 **휴지기(telogen) 모발이 한꺼번에 과도하게 빠지는 확산성 비반흔성 탈모**로, 확산성 탈모의 가장 흔한 원인 중 하나입니다 [^1][^9]. 1961년 Kligman 이 처음 기술했으며, 진료실을 찾는 환자는 여성이 더 많습니다 [^1]. 출산이나 갑작스러운 체중 감소 같은 생리적 스트레스 뒤에 생기는 경우가 많고, 자연 관해율이 높은 편입니다 [^3].
 

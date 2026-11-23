@@ -4,7 +4,7 @@ entity_id: postherpetic-neuralgia
 entity_type: condition
 permalink: /conditions/postherpetic-neuralgia/
 title: 대상포진 후 신경통 (PHN)
-description: ''
+description: 대상포진 발진 회복 후에도 지속되는 만성 신경병증성 통증
 title_en: postherpetic neuralgia (PHN)
 aliases:
   - PHN

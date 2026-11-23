@@ -4,7 +4,7 @@ entity_id: biceps-tendinitis
 entity_type: condition
 permalink: /conditions/biceps-tendinitis/
 title: 이두건염 (상완이두근 장두 건병증)
-description: ''
+description: 어깨 앞쪽 결절간구를 지나는 상완이두근 장두 힘줄에 염증이나 퇴행이 생겨 앞쪽 어깨가 깊게 아픈 상태
 title_en: biceps tendinitis (long head of the biceps tendinopathy)
 aliases:
   - 이두건염
@@ -40,6 +40,15 @@ external_footnote_ids:
   - 10
 version: 2
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 이두건염은 어깨 앞쪽을 지나는 상완이두근 장두 힘줄 주변의 염증을 가리키며, 실제로는 염증성 건염에서 퇴행성 건병증까지 이어지는 스펙트럼으로 다룹니다 [^1][^2].
+- 어깨 앞쪽의 깊고 욱신거리는 통증과 결절간구 압통이 대표 소견이지만 [^1], 유발 검사와 영상 검사는 각각 단독으로는 놓치는 경우가 있어 병력·진찰·영상을 함께 근거로 삼습니다 [^3][^5][^6].
+- 휴식·소염진통제·물리치료·주사 같은 보존 치료를 먼저 시행하고, 3개월간 보존 치료에 반응하지 않거나 손상이 심하면 건절단술·건고정술을 검토합니다 [^1][^2]. 이두건 힘줄 집 주사는 초음파 유도로 할 때 더 정확하게 들어갑니다 [^7][^8].
+
+</div>
+
 ## 정의
 이두건염(biceps tendinitis)은 **상완이두근 장두(long head of the biceps) 힘줄 주변에 생긴 염증**을 가리키는 말입니다 [^1]. 힘줄이 퇴행해 생기는 이두건 건병증(biceps tendinosis)과 함께 다루며, 상완이두근 장두 건병증은 **염증성 건염에서 퇴행성 건병증까지 이어지는 스펙트럼**으로 정의됩니다 [^1][^2].
 

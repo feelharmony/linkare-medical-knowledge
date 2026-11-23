@@ -4,7 +4,7 @@ entity_id: tension-type-headache
 entity_type: condition
 permalink: /conditions/tension-type-headache/
 title: 긴장형 두통
-description: ''
+description: 가장 흔한 1차성 두통. 양측성·압박·둔통 양상에 가벼운~중등도 강도, 일상 활동으로 악화되지 않는 특징을 보입니다. 보존 치료와 단순 진통제로 호전되며, 만성기에는 예방치료가 필요할 수 있습니다.
 title_en: tension-type headache
 aliases:
   - 긴장형 두통
@@ -31,6 +31,15 @@ external_footnote_ids:
   - 5
   - 6
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 긴장형 두통은 가장 흔한 1차성 두통으로, 양측성·압박성 양상의 가벼운~중등도 통증이 특징이며 구역·구토를 동반하지 않습니다 [^2].
+- 임상 기준에 따라 발작성과 만성으로 진단하며, 적색기 증상이나 신규·진행성 두통이 있으면 영상 검사를 단계적으로 적용합니다 [^2][^3][^5].
+- 비약물 치료를 우선 고려하며, 급성기에는 단순 진통제나 NSAIDs를 사용하고 만성인 경우 아미트립틸린 등 예방치료를 시행합니다 [^6].
+
+</div>
+
 ## 정의
 긴장형 두통(tension-type headache, TTH)은 ICHD-3 분류의 1차성 두통 중 가장 흔한 유형으로, 양측성·압박성·조이는 듯한 양상의 가벼운~중등도 두통이 특징입니다. 일상 활동으로 악화되지 않으며 구역·구토를 동반하지 않습니다 [^2]. 빈도에 따라 **드문 발작성**(infrequent episodic, 월 1일 미만), **잦은 발작성**(frequent episodic, 월 1~14일), **만성**(chronic, 월 15일 이상)으로 구분됩니다 [^2]. 한국 1년 유병률은 약 30.8%로 보고되며 모든 두통 중 가장 흔합니다 [^4]. 더 큰 두통 분류와 감별 진단 흐름은 [두통](/symptoms/headache/) 항목 참고.
 

@@ -4,7 +4,7 @@ entity_id: nutrition-iv-therapy
 entity_type: treatment
 permalink: /treatments/nutrition-iv-therapy/
 title: 영양 정맥수액 (Nutrition IV Therapy)
-description: ''
+description: 비타민·미네랄·아미노산·기능성 분자를 정맥으로 직접 주입해 위장 흡수 한계를 우회하고 혈중 농도를 빠르게 끌어올리는 시술. 만성 피로·갱년기·만성 통증 회복기·항산화·간 보호 영역에서 기능의학(functional medicine) 접근으로 사용되며, 마이어스 칵테일·고용량 비타민 C(IVC)·NAD+ 수액·라이넥(Laennec, 인태반 유래 제제)·감초(글리시리진)가 대표 옵션입니다.
 title_en: nutrition intravenous therapy (IV nutrition / IVNT)
 aliases:
   - 영양수액

@@ -4,7 +4,7 @@ entity_id: transcranial-magnetic-stimulation
 entity_type: treatment
 permalink: /treatments/transcranial-magnetic-stimulation/
 title: '경두개 자기 자극 (TMS, Transcranial Magnetic Stimulation)'
-description: ''
+description: 펄스 자기장으로 두피 위에서 대뇌피질 신경회로를 비침습적으로 자극하는 시술. 만성 통증·두통·불면증·신경계 민감도 영역에서 evidence가 누적되고 있으며, 정신과 우울·OCD는 FDA 승인 적응증입니다.
 title_en: transcranial magnetic stimulation (TMS / rTMS)
 aliases:
   - TMS

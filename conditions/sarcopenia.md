@@ -4,7 +4,7 @@ entity_id: sarcopenia
 entity_type: condition
 permalink: /conditions/sarcopenia/
 title: 근감소증
-description: ''
+description: 나이가 들며 골격근의 양과 근력이 함께 줄어드는 근육 질환. 악력·의자 일어서기·보행 속도로 근력과 신체 수행을 확인하고 근육량을 측정해 진단하며, 저항 운동과 충분한 단백질 섭취가 치료의 중심입니다.
 title_en: sarcopenia
 aliases:
   - 근감소증
@@ -47,6 +47,15 @@ external_footnote_ids:
   - 19
 version: 2
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 근감소증은 골격근의 양과 기능이 빠르게 줄어드는 진행성·전신성 골격근 질환입니다 [^1].
+- 근력, 근육량, 신체 수행을 측정해 진단하며, 낙상·골절·기능 저하·사망 위험 증가와 관련됩니다 [^17][^18].
+- 치료는 저항 운동을 중심으로 한 신체 활동과 충분한 단백질 섭취 등 영양 중재를 결합해 시행합니다 [^6][^13].
+
+</div>
+
 ## 정의
 근감소증(sarcopenia)은 **골격근의 양과 기능이 빠르게 줄어드는 진행성·전신성 골격근 질환**으로, 낙상·기능 저하·노쇠·사망 같은 나쁜 결과가 늘어나는 것과 관련됩니다 [^1]. 유럽 노인 근감소증 작업반의 개정 합의(EWGSOP2)는 근감소증을 생애에 걸쳐 쌓인 근육 변화에서 비롯되는 근육 질환(muscle failure)으로 규정하고, 노년층에 흔하지만 더 이른 나이에도 생길 수 있다고 정리합니다 [^2].
 

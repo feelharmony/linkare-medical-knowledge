@@ -4,7 +4,7 @@ entity_id: cervical-dystonia
 entity_type: condition
 permalink: /conditions/cervical-dystonia/
 title: 사경증 (경부 근긴장이상증)
-description: ''
+description: 목 근육이 의지와 무관하게 수축해 머리가 한쪽으로 돌아가거나 기우는 성인 국소 근긴장이상증. 바로 하려고 힘을 줘도 고개가 다시 돌아가며, 임상 관찰로 진단하고 보툴리눔 독소 주사가 1차 치료로 권고됩니다.
 title_en: cervical dystonia (spasmodic torticollis)
 aliases:
   - 사경증

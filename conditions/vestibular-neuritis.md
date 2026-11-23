@@ -4,7 +4,7 @@ entity_id: vestibular-neuritis
 entity_type: condition
 permalink: /conditions/vestibular-neuritis/
 title: 전정신경염
-description: ''
+description: 전정신경의 급성 기능 저하로 회전성 어지럼이 몇 시간에서 며칠간 이어지는 말초 전정 질환. 자세와 무관하게 지속되는 점에서 이석증과 갈리며, 급성기에는 중추성 원인을 먼저 배제하고 회복기에는 전정 재활로 중추 보상을 돕습니다.
 title_en: vestibular neuritis
 aliases:
   - 전정신경염

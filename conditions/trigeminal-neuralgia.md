@@ -4,7 +4,7 @@ entity_id: trigeminal-neuralgia
 entity_type: condition
 permalink: /conditions/trigeminal-neuralgia/
 title: 삼차신경통
-description: ''
+description: 얼굴 감각을 담당하는 삼차신경(5번 뇌신경)이 자극돼 세수·양치·씹기·바람 같은 가벼운 접촉에 얼굴 한쪽이 전기가 튀듯 수초간 찌릿한 통증. 발작 사이에는 통증이 없는 것이 원칙이며, 지속통·냉온 반응이 있는 치통, 입을 벌릴 때 아픈 턱관절 통증과 구분합니다. 뇌간 근처에서 혈관이 신경을 누르는 경우가 흔합니다.
 title_en: trigeminal neuralgia
 aliases:
   - 삼차신경통

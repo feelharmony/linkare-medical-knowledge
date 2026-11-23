@@ -4,7 +4,7 @@ entity_id: shingles-vaccination
 entity_type: treatment
 permalink: /treatments/shingles-vaccination/
 title: 대상포진 백신 (Shingrix)
-description: ''
+description: 재조합 대상포진 백신(RZV, Shingrix) — 대상포진·PHN 예방의 가장 효과적인 수단
 title_en: 'shingles vaccination (Shingrix, recombinant zoster vaccine)'
 aliases:
   - 대상포진 백신

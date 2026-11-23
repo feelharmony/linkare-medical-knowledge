@@ -5,7 +5,7 @@ entity_type: condition
 permalink: /conditions/cubital-tunnel-syndrome/
 title: 주관절 척골신경 포착
 title_en: cubital tunnel syndrome
-description: ''
+description: 팔꿈치 주관절 터널 부위에서 척골신경이 압박되어 약지·새끼손가락 저림, 팔꿈치 굽힘 시 악화, 손 힘 저하를 유발하는 말초신경 포착 질환
 aliases:
   - 주관절 척골신경 포착
   - 주관절 터널 증후군

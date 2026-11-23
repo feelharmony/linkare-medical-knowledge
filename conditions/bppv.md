@@ -4,7 +4,7 @@ entity_id: bppv
 entity_type: condition
 permalink: /conditions/bppv/
 title: 이석증 (양성 돌발성 두위 현훈)
-description: ''
+description: 반고리관으로 흘러든 이석이 자세 변화에 따라 회전성 어지럼을 일으키는 말초 전정 질환. 유발 자세와 안진 방향으로 침범 반고리관을 특정하며, 약물보다 이석 정복술이 1차 치료로 권고됩니다.
 title_en: benign paroxysmal positional vertigo (BPPV)
 aliases:
   - 이석증

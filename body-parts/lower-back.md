@@ -5,7 +5,7 @@ entity_type: body_part
 permalink: /body-parts/lower-back/
 title: 허리
 title_en: lower back
-description: ''
+description: 요추, 천장관절, 골반, 근육·인대·디스크·신경근이 함께 관여하는 하부 척추 부위
 aliases:
   - 허리
   - 요부

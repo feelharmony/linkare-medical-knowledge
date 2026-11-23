@@ -4,7 +4,7 @@ entity_id: menopausal-syndrome
 entity_type: condition
 permalink: /conditions/menopausal-syndrome/
 title: 갱년기 증후군
-description: ''
+description: 폐경 이행기 전후 에스트로겐 감소로 혈관운동·수면·기분·인지·비뇨생식기·골·대사 등 전신 여러 계통에 걸쳐 증상이 나타나는 상태
 title_en: menopausal syndrome
 last_reviewed: '2026-10-20'
 locked: false

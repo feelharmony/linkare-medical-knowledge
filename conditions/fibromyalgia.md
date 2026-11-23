@@ -5,7 +5,7 @@ entity_type: condition
 permalink: /conditions/fibromyalgia/
 title: 섬유근육통
 title_en: fibromyalgia
-description: ''
+description: 온몸에 퍼진 만성 통증에 피로·개운하지 않은 잠·인지 증상이 겹치는 중추성 통증 질환
 aliases:
   - 섬유근육통
   - 섬유근통
@@ -34,6 +34,15 @@ external_footnote_ids:
   - 8
 version: 2
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 섬유근육통은 중추신경계에서 통증 신호가 증폭되어 전신 만성 통증과 수면 문제, 탈진감, 인지 어려움이 함께 나타나는 질환입니다 [^1][^2].
+- 진단은 특징적인 증상 묶음의 병력과 광범위 통증 지수 및 증상 중증도 척도를 바탕으로 이루어집니다 [^1][^4].
+- 치료는 환자 교육과 운동 같은 비약물 치료를 우선으로 하며, 증상에 따라 심리 치료나 약물 치료를 단계적으로 추가합니다 [^6].
+
+</div>
+
 ## 정의
 섬유근육통(fibromyalgia)은 **몸 여러 부위에 퍼진 만성 통증**을 중심으로, 개운하지 않은 잠을 포함한 수면 문제, 신체적 탈진감, 인지 기능의 어려움이 함께 나타나는 흔한 질환입니다 [^1]. 기억력 저하와 기분 변화가 동반되는 경우가 많으며, 중추신경계에서 통증 신호가 증폭되는 **"중추화된(centralized)" 통증 상태**로 이해됩니다 [^2].
 

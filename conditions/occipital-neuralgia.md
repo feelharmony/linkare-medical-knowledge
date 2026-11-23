@@ -4,7 +4,7 @@ entity_id: occipital-neuralgia
 entity_type: condition
 permalink: /conditions/occipital-neuralgia/
 title: 후두신경통
-description: ''
+description: 대후두신경·소후두신경·제3후두신경 분포의 신경병성 통증. 발작성 찌르는 듯한 통증과 후두신경 압통이 특징이며, 진단·치료에 후두신경차단이 1차로 활용됩니다. 보존 치료에 반응하지 않을 때 고주파 열응고·신경 자극을 검토합니다.
 title_en: occipital neuralgia
 aliases:
   - 후두신경통

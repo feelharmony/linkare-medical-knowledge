@@ -4,7 +4,7 @@ entity_id: temporomandibular-disorder
 entity_type: condition
 permalink: /conditions/temporomandibular-disorder/
 title: 턱관절장애 (측두하악장애)
-description: ''
+description: 씹기 근육과 턱관절에 통증·관절음·입 벌림 제한이 생기는 근골격계 질환군. 문진과 진찰로 근육성·관절성을 구분하며, 대부분 교육·자가 관리·운동 같은 비침습 치료로 호전되고 경과도 대체로 양호합니다.
 title_en: temporomandibular disorders (TMD)
 aliases:
   - 턱관절장애
@@ -48,6 +48,15 @@ external_footnote_ids:
   - 18
 version: 2
 ---
+<div class="entity-summary" markdown="1">
+<p class="entity-summary-label">핵심 요약</p>
+
+- 턱관절장애는 씹기 근육과 턱관절에 생기는 통증과 기능 이상을 묶어 부르는 용어로, 얼굴 부위 통증 질환 중 가장 흔합니다 [^1].
+- 대부분 문진과 진찰로 진단하며, 신체 진단을 다루는 1축과 심리사회 평가를 다루는 2축의 표준 진단 틀을 씁니다 [^2][^10].
+- 대부분 교육, 자가 관리, 인지행동치료, 약물, 물리치료 같은 비침습 치료를 조합해 호전됩니다 [^1][^2].
+
+</div>
+
 ## 정의
 턱관절장애(temporomandibular disorders, TMD)는 **씹기 근육(저작근)과 턱관절(측두하악관절)에 생기는 통증과 기능 이상을 묶어 부르는 용어**로, 얼굴 부위 통증 질환 가운데 가장 흔합니다 [^1]. 하나의 병이 아니라 턱관절과 주변 근육·뼈 구조를 침범하는 여러 근골격계·신경근육계 상태의 묶음이며, 관절 안의 문제(관절 내 장애)와 관절 밖의 문제로 나눕니다 [^2]. 만성 근골격계 통증 가운데 허리 통증 다음으로 흔하고, 전 세계 성인의 6~9%가 겪는 것으로 추정됩니다 [^3]. 성인의 최대 15%, 청소년의 7%에서 나타난다는 정리도 있으며 [^1], 20~40세에 발생이 가장 많습니다 [^2].
 

@@ -4,7 +4,7 @@ entity_id: orthostatic-dizziness
 entity_type: condition
 permalink: /conditions/orthostatic-dizziness/
 title: 기립성 어지럼 (기립성 저혈압·기립불내성)
-description: ''
+description: 누웠다 일어설 때 눈앞이 캄캄해지거나 붕 뜨는 비회전성 어지럼. 기립 전후 혈압·심박 반응으로 기립성 저혈압과 기립성 빈맥 증후군을 나누고, 빈혈·약물·심장 원인을 함께 가려 접근합니다.
 title_en: 'orthostatic dizziness (orthostatic hypotension, orthostatic intolerance)'
 aliases:
   - 기립성 어지럼

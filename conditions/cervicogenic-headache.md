@@ -4,7 +4,7 @@ entity_id: cervicogenic-headache
 entity_type: condition
 permalink: /conditions/cervicogenic-headache/
 title: 경추기원 두통
-description: ''
+description: 경추 구조 병변에 의한 2차성 두통. 편측성, 경부 움직임·자세·압력으로 유발되며 신경차단으로 호전되는 양상이 특징입니다. 운동·도수치료가 1차 치료이며, 후관절 신경차단·고주파 열응고가 검토됩니다.
 title_en: cervicogenic headache
 aliases:
   - 경추기원 두통
