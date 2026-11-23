@@ -4549,5 +4549,20 @@
     "tenant_key": "gtop",
     "doctor_id": "dr-lee-sungwook",
     "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/thr/ko/----/lumbar-sprain-recovery-six-weeks-recurrence.md",
+    "source_article_url": "https://thewells.kr/blog/lumbar-sprain-recovery-six-weeks-recurrence",
+    "source_article_title": "요추염좌 첫 6주와 1년 뒤 재발, 마들역에서 살피는 회복 기간",
+    "primary_entity_id": "exercise-therapy",
+    "entity_ids": [
+      "exercise-therapy"
+    ],
+    "updated_at": "2026-11-23",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
