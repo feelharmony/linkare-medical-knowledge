@@ -5,7 +5,7 @@ entity_type: condition
 permalink: /conditions/facial-palsy/
 title: 안면마비 (벨 마비)
 title_en: facial palsy (Bell's palsy)
-description: 한쪽 얼굴 근육이 갑자기 약해지거나 움직이지 않는 상태. 뇌졸중 등 다른 원인을 가려낸 뒤 경구 스테로이드와 눈 보호로 치료합니다.
+description: ''
 aliases:
   - 안면마비
   - 얼굴 마비
@@ -19,27 +19,36 @@ aliases:
   - facial palsy
   - facial paralysis
   - Bell's palsy
-last_reviewed: '2026-11-06'
+last_reviewed: '2026-11-23'
 locked: false
 quality_status: review
 verified_by: 외부 문헌 PMID 대조 (NCBI esummary·초록 확인)
 next_review: '2027-02-06'
-source_count: 17
+source_count: 18
 source_count_external: 17
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
-external_footnote_ids: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
-version: 1
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 18
+external_footnote_ids:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+version: 2
 ---
-<div class="entity-summary" markdown="1">
-<p class="entity-summary-label">핵심 요약</p>
-
-- 벨 마비는 원인이 밝혀지지 않은 채 한쪽 얼굴신경이 빠르게 약해지거나 마비되는 질환으로, 얼굴신경 마비와 관련된 가장 흔한 진단입니다 [^1].
-- 말초성 안면마비의 25~40%는 특발성이 아니어서 다른 원인을 가려내는 일이 중요하며 [^2], 복시·어지럼·삼킴 곤란이나 반대쪽 운동·감각 이상이 함께 있으면 뇌졸중을 평가합니다 [^3].
-- 16세 이상은 증상 시작 72시간 이내 경구 스테로이드 처방이 강하게 권고되고, 항바이러스제 단독 처방은 권고되지 않으며, 눈이 잘 감기지 않으면 눈 보호가 필요합니다 [^1].
-
-</div>
-
 ## 정의
 안면마비(facial palsy)는 얼굴 근육을 움직이는 신경 경로에 문제가 생겨 **한쪽 얼굴 근육이 약해지거나 움직이지 않는 상태**입니다. 얼굴신경(제7뇌신경) 자체의 이상으로 생기는 말초성과 뇌의 병변으로 생기는 중추성으로 나뉩니다. 중추성 안면마비는 얼굴로 내려가는 상위 운동 신경원 경로의 병변으로 생기며, 급성 허혈성 뇌졸중에서도 나타납니다 [^6].
 
@@ -81,7 +90,7 @@ version: 1
 - 얼굴 마비와 함께 팔다리 힘 빠짐이나 말이 어눌해지는 증상이 있으면 스스로 구별하려 하지 말고 즉시 응급 진료를 받아야 합니다.
 
 **벨 마비와 뇌졸중에 의한 안면마비 비교** [^1][^3][^6][^11]
-{: .entity-table-caption}
+{:.entity-table-caption}
 
 | 구분 | 벨 마비 | 뇌졸중에 의한 안면마비 |
 | --- | --- | --- |
@@ -118,6 +127,8 @@ version: 1
 ### 수술
 미국 가이드라인은 벨 마비의 수술적 감압술에 대해 권고를 내리지 않았습니다 [^1]. 회복이 불완전해 얼굴 약화가 남으면 정적 복원술이나 미세수술을 이용한 동적 복원술로 얼굴 기능을 되살릴 수 있습니다 [^2].
 
+약물 복용 못지않게 첫날부터 바로 감기지 않는 눈을 안전하게 지켜야 합니다[^18].
+
 ## 예후
 전체적인 예후는 좋은 편이며, 전형적인 벨 마비 환자의 3분의 2 이상은 저절로 완전히 회복됩니다 [^11]. 치료 없는 경과를 관찰한 코펜하겐 연구에서는 85%가 3주 이내에, 나머지 15%는 3~5개월 뒤에 기능이 돌아왔고, 71%가 정상적인 표정 기능을 되찾았습니다 [^12]. 후유증은 매우 가벼운 정도가 12%, 가벼운 정도가 13%, 심한 정도가 4%였으며, 구축은 17%, 연합운동은 16%에서 나타났습니다 [^12].
 
@@ -137,8 +148,13 @@ version: 1
 
 ---
 
+---
+
 ## Citations
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^18]: [더웰스의원 — 자고 일어났더니 얼굴 한쪽이 굳는 안면마비, 뇌졸중과 어떻게 구분할까요?](https://thewells.kr/blog/facial-palsy) · 근거: "약물 복용 못지않게 첫날부터 바로 감기지 않는 눈을 안전하게 지켜야 합니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: [Baugh RF, Basura GJ, Ishii LE, et al. Clinical practice guideline: Bell's palsy. Otolaryngol Head Neck Surg. 2013;149(3 Suppl):S1-S27. PMID 24189771. DOI 10.1177/0194599813505967](https://pubmed.ncbi.nlm.nih.gov/24189771/)
@@ -161,3 +177,4 @@ version: 1
 
 ## Changelog
 - 2026-11-06 v1: 신규 작성. 외부 문헌 17편(미국 임상진료지침, 코크란 체계적 문헌고찰 3편, 소아 무작위 시험, 자연 경과 코호트, 뇌졸중·종양 감별 문헌, 재발·임신 문헌)으로 6개 섹션을 받침. source_count_external 0→17. 이 항목을 가리키는 글 1편의 entity 매핑 해소.
+- 2026-11-23 v2: 치료 enrich
