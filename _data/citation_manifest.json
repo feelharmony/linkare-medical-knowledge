@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-18",
+  "updated_at": "2026-11-23",
   "entities": {
     "aging": [
       {
@@ -1292,6 +1292,18 @@
           "treatment"
         ],
         "excerpt": "거북목이나 일자목처럼 목의 정렬에 문제가 있어 신경과 혈관이 지나는 통로가 좁아졌다면, 척추교정을 치료에 활용합니다."
+      }
+    ],
+    "facial-palsy": [
+      {
+        "footnote_id": 18,
+        "url": "https://thewells.kr/blog/facial-palsy",
+        "title": "더웰스의원 — 자고 일어났더니 얼굴 한쪽이 굳는 안면마비, 뇌졸중과 어떻게 구분할까요?",
+        "post_id": "2d36d2f7-1877-46ca-8d99-152af2d9803d",
+        "anchors": [
+          "treatment"
+        ],
+        "excerpt": "약물 복용 못지않게 첫날부터 바로 감기지 않는 눈을 안전하게 지켜야 합니다."
       }
     ]
   }
