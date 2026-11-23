@@ -5,7 +5,7 @@ entity_type: condition
 permalink: /conditions/telogen-effluvium/
 title: 휴지기 탈모
 title_en: telogen effluvium (TE)
-description: 출산·급격한 체중 감소·고열 같은 사건 2~4개월 뒤 머리카락이 전체적으로 몰려 빠지는 비반흔성 탈모
+description: ''
 aliases:
   - 휴지기탈모
   - 휴지기 탈모증
@@ -13,13 +13,14 @@ aliases:
   - 다이어트 탈모
   - telogen effluvium
   - TE
-last_reviewed: '2026-10-31'
+last_reviewed: '2026-11-23'
 next_review: '2027-01-31'
 quality_status: review
-source_count: 10
+source_count: 11
 source_count_external: 10
-source_count_clinic_pillar: 0
-clinic_footnote_ids: []
+source_count_clinic_pillar: 1
+clinic_footnote_ids:
+  - 11
 external_footnote_ids:
   - 1
   - 2
@@ -33,18 +34,8 @@ external_footnote_ids:
   - 10
 locked: false
 verified_by: 문헌 검토 (PubMed 초록 대조)
-version: 1
+version: 2
 ---
-
-<div class="entity-summary" markdown="1">
-<p class="entity-summary-label">핵심 요약</p>
-
-- 휴지기 탈모는 모발 주기가 흐트러져 휴지기 모발이 머리 전체에서 한꺼번에 과도하게 빠지는 확산성 비반흔성 탈모입니다.[^1][^2][^9]
-- 계기가 된 사건 3~4개월 뒤에 시작되며, 병력과 혈액 검사로 내분비·영양·자가면역 질환이나 패턴형 탈모를 배제해 진단합니다.[^1][^5][^9]
-- 표적 치료제는 없으나 원인이 된 요인을 찾아 교정하면 자연 관해율이 높고 대부분 회복됩니다.[^3][^4]
-
-</div>
-
 ## 정의
 휴지기 탈모(telogen effluvium, TE)는 **휴지기(telogen) 모발이 한꺼번에 과도하게 빠지는 확산성 비반흔성 탈모**로, 확산성 탈모의 가장 흔한 원인 중 하나입니다 [^1][^9]. 1961년 Kligman 이 처음 기술했으며, 진료실을 찾는 환자는 여성이 더 많습니다 [^1]. 출산이나 갑작스러운 체중 감소 같은 생리적 스트레스 뒤에 생기는 경우가 많고, 자연 관해율이 높은 편입니다 [^3].
 
@@ -54,8 +45,8 @@ version: 1
 머리카락은 성장기(anagen) → 퇴행기(catagen) → 휴지기를 거쳐 빠지고 다시 자라는 주기를 반복합니다. 휴지기 탈모는 이 **모발 주기가 흐트러져 정상 곤봉모(club hair)가 평소보다 많이 빠지는 상태**입니다 [^2]. 반흔을 남기지 않는 비반흔성 탈모이며 [^3], 모낭이 남아 있어 원인이 해소되면 다시 자랄 수 있습니다.
 
 <figure class="entity-figure">
-  <img src="/assets/images/entities/telogen-effluvium/hair-growth-cycle.webp" alt="두피 피부 단면에 나란히 그린 모낭 네 개: 깊은 모구의 성장기 모낭, 아래쪽이 줄어드는 퇴행기 모낭, 끝이 곤봉 모양인 휴지기 모발, 아래에서 새 모발이 자라며 위로 밀려나는 옛 모발" width="1000" height="558" loading="lazy">
-  <figcaption markdown="span">모발 주기: 성장기 · 퇴행기 · 휴지기(곤봉모) · 새 성장기 시작과 곤봉모 탈락<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
+ <img src="/assets/images/entities/telogen-effluvium/hair-growth-cycle.webp" alt="두피 피부 단면에 나란히 그린 모낭 네 개: 깊은 모구의 성장기 모낭, 아래쪽이 줄어드는 퇴행기 모낭, 끝이 곤봉 모양인 휴지기 모발, 아래에서 새 모발이 자라며 위로 밀려나는 옛 모발" width="1000" height="558" loading="lazy">
+ <figcaption markdown="span">모발 주기: 성장기 · 퇴행기 · 휴지기(곤봉모) · 새 성장기 시작과 곤봉모 탈락<span class="entity-figure-credit">AI로 생성한 교육용 그림 · Linkbase 편집(해부 검수)</span></figcaption>
 </figure>
 
 Headington 은 주기의 어느 단계가 흐트러지는지에 따라 다섯 가지 기전을 제시했습니다 [^2].
@@ -113,13 +104,15 @@ Headington 은 주기의 어느 단계가 흐트러지는지에 따라 다섯 �
 ### 설명과 상담
 급성 휴지기 탈모는 정확한 진단만으로도 환자의 불안을 상당히 덜 수 있습니다 [^9]. 환자의 호소를 가볍게 여기지 않고 충분한 시간과 공감을 들이는 것이 진료의 일부로 강조됩니다 [^5]. COVID-19 이후 휴지기 탈모에서도 원인을 짚어 주고 대개 저절로 회복되는 경과임을 설명하는 것이 불필요한 스트레스를 덜어 준다고 정리됐습니다 [^10].
 
+두피를 확대했을 때 모낭 주변에 붉은 열감과 가려움이 있거나, 각질과 유분으로 모공이 막혀 있다면 헤드스파를 권합니다[^11].
+
 ## 예후
 급성 휴지기 탈모는 **관해율이 높은 편**이며 [^3], 원인이 사라지면 모낭이 다시 성장기로 들어가 대부분 회복됩니다. COVID-19 이후 급성 휴지기 탈모를 정리한 문헌고찰에서도 대부분이 회복됐고, 일부에서만 탈락이 지속됐습니다 [^10]. 빠진 자리를 새 모발이 다시 채우기까지는 탈락이 멈춘 뒤에도 수개월이 걸리므로, 체감 회복은 탈락 감소보다 늦게 옵니다.
 
 탈락이 6개월 이상 이어지거나 정수리·앞머리 모발이 점점 가늘어지면 만성 휴지기 탈모 또는 패턴형 탈모 동반 여부를 다시 평가합니다. 만성 휴지기 탈모는 합의된 정의가 없고 독립된 질환인지도 불확실성이 남아 있어 [^8], 시간이 지나도 호전되지 않으면 진단 자체를 재검토하는 것이 중요합니다.
 
 **급성·만성 휴지기 탈모 비교** [^1][^3][^4][^8][^9]
-{: .entity-table-caption}
+{:.entity-table-caption}
 
 | 구분 | 급성 휴지기 탈모 | 만성 휴지기 탈모 |
 | --- | --- | --- |
@@ -140,8 +133,13 @@ Headington 은 주기의 어느 단계가 흐트러지는지에 따라 다섯 �
 
 ---
 
+---
+
 ## Citations
 ### 자사 임상 자료
+<!-- LINKARE:CLINIC-CITATIONS (자동관리·편집금지) -->
+[^11]: [더웰스의원 — 출산 6개월 뒤에도 계속되는 산후탈모, 회복 지연 원인과 치료](https://thewells.kr/blog/telogen-effluvium) · 근거: "두피를 확대했을 때 모낭 주변에 붉은 열감과 가려움이 있거나, 각질과 유분으로 모공이 막혀 있다면 헤드스파를 권합니다."
+<!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
 [^1]: [Malkud S. Telogen Effluvium: A Review. J Clin Diagn Res. 2015;9(9):WE01-3. PMID 26500992. DOI 10.7860/JCDR/2015/15219.6492](https://pubmed.ncbi.nlm.nih.gov/26500992/)
@@ -157,3 +155,4 @@ Headington 은 주기의 어느 단계가 흐트러지는지에 따라 다섯 �
 
 ## Changelog
 - 2026-10-31 v1: 신규 entity 작성 — 문헌고찰(Malkud·Headington·Chien Yin·Asghar·Rebora·Grover), 체중 감소 관련 후향 연구(Kang 2024), 출산 후 휴지기 탈모 근거 검토(Mirallas 2016), 만성 휴지기 탈모 체계적 문헌고찰(Daunton 2023), COVID-19 후 급성 휴지기 탈모 체계적 문헌고찰(Hussain 2022)로 6개 섹션을 받침. source_count_external 0→10.
+- 2026-11-23 v2: 치료 enrich
