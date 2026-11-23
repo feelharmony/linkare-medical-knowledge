@@ -4534,5 +4534,20 @@
     "tenant_key": "gtop",
     "doctor_id": "dr-lee-sungwook",
     "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/gtop/ko/----/frozen-shoulder.md",
+    "source_article_url": "https://guritopbone.com/blog/frozen-shoulder",
+    "source_article_title": "팔이 머리 위로 안 올라가는 오십견, 저절로 풀릴 때까지 참아도 될까",
+    "primary_entity_id": "frozen-shoulder",
+    "entity_ids": [
+      "frozen-shoulder"
+    ],
+    "updated_at": "2026-11-23",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "gtop",
+    "doctor_id": "dr-lee-sungwook",
+    "hospital_id": "hospital-guritopbone"
   }
 ]
