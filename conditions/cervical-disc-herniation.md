@@ -4,7 +4,7 @@ entity_id: cervical-disc-herniation
 entity_type: condition
 permalink: /conditions/cervical-disc-herniation/
 title: 목디스크
-description: 경추 추간판이 탈출하여 신경을 압박하는 질환
+description: 경추 추간판 탈출이나 퇴행성 변화가 신경근을 자극해 목 통증, 어깨·팔 방사통, 손 저림, 근력 저하를 일으킬 수 있는 질환
 title_en: cervical disc herniation
 last_reviewed: '2026-10-20'
 locked: true

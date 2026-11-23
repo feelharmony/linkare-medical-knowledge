@@ -4,7 +4,7 @@ entity_id: shoulder-pain
 entity_type: symptom
 permalink: /symptoms/shoulder-pain/
 title: 어깨 통증
-description: 어깨 관절 부위의 통증 (회전근개·오십견 영역)
+description: 어깨 관절·견봉하 공간·회전근개·관절낭·이두근 장두건 영역에서 발생하는 통증. 회전근개 관련 어깨 통증·오십견·석회성 건염이 대표 원인이며, 외상·감염·종양·비근골격 연관통은 빠른 평가가 필요합니다.
 title_en: shoulder pain
 aliases:
   - 어깨 통증

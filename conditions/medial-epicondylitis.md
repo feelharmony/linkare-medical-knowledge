@@ -4,8 +4,8 @@ entity_id: medial-epicondylitis
 entity_type: condition
 permalink: /conditions/medial-epicondylitis/
 title: 내측상과염
-description: 팔꿈치 내측 힘줄의 만성 손상
-title_en: medial epicondylitis
+description: 팔꿈치 내측 힘줄의 만성 손상으로 통증·기능 저하를 일으키는 힘줄병증
+title_en: medial epicondylitis (golfer's elbow)
 aliases:
   - 골프엘보
   - 골프 엘보

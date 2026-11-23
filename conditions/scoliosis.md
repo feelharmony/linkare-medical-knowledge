@@ -4,7 +4,7 @@ entity_id: scoliosis
 entity_type: condition
 permalink: /conditions/scoliosis/
 title: 척추측만증
-description: 척추가 옆으로 휘는 변형 질환
+description: 척추가 관상면에서 옆으로 휘고 회전 변형이 동반되는 척추 변형 — 청소년 특발성과 성인 퇴행성 측만을 구분해 관찰·운동·보조기·수술 평가를 결정
 title_en: scoliosis
 aliases:
   - 척추측만증

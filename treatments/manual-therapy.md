@@ -4,7 +4,7 @@ entity_id: manual-therapy
 entity_type: treatment
 permalink: /treatments/manual-therapy/
 title: 도수치료
-description: 손으로 근골격계를 교정하는 비수술 치료
+description: 평가에 기반해 의료진 손 기술로 관절 가동·연부 조직·신경 가동을 다루는 비수술 보존 치료. 만성 LBP·neck pain·외측상과염 등에서 운동치료와 결합한 형태로 가이드라인이 권고하며, 환자 평가·기법 선택·치료 순응이 결과에 영향을 줍니다.
 title_en: manual therapy
 aliases:
   - 도수치료

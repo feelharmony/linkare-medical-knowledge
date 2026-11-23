@@ -5,7 +5,7 @@ entity_type: condition
 permalink: /conditions/myofascial-pain-syndrome/
 title: 근막통증증후군
 title_en: myofascial pain syndrome
-description: 근막에 발생한 통증유발점으로 인한 만성 통증
+description: 근육과 근막의 통증유발점 때문에 국소 통증, 연관통, 근육 긴장, 움직임 제한이 반복되는 통증 상태
 aliases:
   - 근막통증증후군
   - 근막통증

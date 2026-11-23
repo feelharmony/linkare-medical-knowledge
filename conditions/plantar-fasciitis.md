@@ -5,7 +5,7 @@ entity_type: condition
 permalink: /conditions/plantar-fasciitis/
 title: 족저근막염
 title_en: plantar fasciitis
-description: 발바닥 근막의 염증성 질환
+description: 발뒤꿈치 아래 안쪽과 발바닥 근막 부착부의 반복 부하·퇴행성 변화로 아침 첫발 통증과 보행 통증을 유발하는 대표적 발뒤꿈치 통증 질환
 aliases:
   - 족저근막염
   - 족저 근막염

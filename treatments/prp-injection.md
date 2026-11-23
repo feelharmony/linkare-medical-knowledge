@@ -4,8 +4,8 @@ entity_id: prp-injection
 entity_type: treatment
 permalink: /treatments/prp-injection/
 title: PRP 주사
-description: 자가 혈액에서 분리한 혈소판 풍부 혈장 주사
-title_en: platelet-rich plasma injection
+description: 환자 본인의 혈액에서 혈소판 풍부 혈장을 분리해 병변 부위에 주입하는 자가 혈액 기반 재생주사
+title_en: platelet-rich plasma (PRP) injection
 aliases:
   - PRP
   - PRP 주사

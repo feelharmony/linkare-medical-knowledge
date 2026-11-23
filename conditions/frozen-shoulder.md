@@ -4,7 +4,7 @@ entity_id: frozen-shoulder
 entity_type: condition
 permalink: /conditions/frozen-shoulder/
 title: 오십견
-description: 어깨 관절낭이 유착되어 운동 범위가 제한되는 질환
+description: 어깨 관절낭이 굳어 통증과 운동 범위 제한을 일으키는 질환
 title_en: frozen shoulder
 last_reviewed: '2026-08-03'
 locked: true

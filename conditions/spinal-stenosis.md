@@ -4,8 +4,8 @@ entity_id: spinal-stenosis
 entity_type: condition
 permalink: /conditions/spinal-stenosis/
 title: 척추관 협착증
-description: 척추관이 좁아져 신경을 압박하는 질환
-title_en: spinal stenosis
+description: 척추관·신경공이 좁아져 신경근·마미 신경이 압박되는 퇴행성 척추 질환. 보행 시 양쪽 다리로 뻗치는 통증·저림(신경성 파행)이 특징이며, 보존 치료가 1차이고 보존 치료에 반응하지 않을 때 감압 수술이 검토됩니다.
+title_en: lumbar spinal stenosis
 aliases:
   - 척추관 협착증
   - 척추협착증

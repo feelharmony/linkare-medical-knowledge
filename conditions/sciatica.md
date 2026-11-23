@@ -5,7 +5,7 @@ entity_type: condition
 permalink: /conditions/sciatica/
 title: 좌골신경통
 title_en: sciatica
-description: 좌골신경 압박에 의한 엉덩이~다리 방사통
+description: 좌골 신경 분포 영역의 방사통을 가리키는 임상 용어 — 단일 진단명이 아닌 다양한 원인의 결과
 last_reviewed: '2026-10-29'
 locked: true
 quality_status: verified

@@ -5,7 +5,7 @@ entity_type: condition
 permalink: /conditions/spondylolisthesis/
 title: 척추전방전위증
 title_en: spondylolisthesis
-description: 척추뼈가 앞으로 미끄러지는 질환
+description: 위쪽 척추뼈가 아래쪽 척추뼈에 비해 앞쪽으로 미끄러져 허리통증, 신경성 파행, 다리 방사통을 유발할 수 있는 질환
 aliases:
   - 척추전방전위증
   - 전방전위증

@@ -4,7 +4,7 @@ entity_id: calcific-tendinitis
 entity_type: condition
 permalink: /conditions/calcific-tendinitis/
 title: 석회성 건염
-description: 회전근개 힘줄에 석회가 침착되어 통증을 유발하는 질환
+description: 회전근개 힘줄에 칼슘 결정이 침착되어 통증과 기능 저하를 일으키는 질환
 title_en: calcific tendinitis
 last_reviewed: '2026-07-20'
 source_count: 8

@@ -5,7 +5,7 @@ entity_type: body_part
 permalink: /body-parts/knee/
 title: 무릎
 title_en: knee
-description: 무릎 관절 부위
+description: 무릎 관절과 주변 인대·연골·힘줄을 포함하는 하지의 주요 체중 부하 부위
 aliases:
   - 무릎
   - 슬관절

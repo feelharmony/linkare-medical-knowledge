@@ -4,7 +4,7 @@ entity_id: lateral-epicondylitis
 entity_type: condition
 permalink: /conditions/lateral-epicondylitis/
 title: 외측상과염
-description: 팔꿈치 외측 힘줄의 만성 손상
+description: 팔꿈치 외측 힘줄의 만성 손상으로 통증과 기능 저하를 일으키는 질환
 title_en: lateral epicondylitis
 last_reviewed: '2026-07-17'
 locked: true

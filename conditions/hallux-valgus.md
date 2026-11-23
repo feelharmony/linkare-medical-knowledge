@@ -5,7 +5,7 @@ entity_type: condition
 permalink: /conditions/hallux-valgus/
 title: 무지외반증
 title_en: hallux valgus
-description: 엄지발가락이 안쪽으로 휘는 변형 질환
+description: 엄지발가락이 둘째 발가락 쪽으로 휘고 첫 번째 중족골 머리 부위가 돌출되어 통증, 신발 마찰, 앞발 과부하를 유발하는 변형 질환
 aliases:
   - 무지외반증
   - 엄지발가락 휨

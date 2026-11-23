@@ -3,9 +3,9 @@ layout: entity-hub
 entity_id: eswt
 entity_type: treatment
 permalink: /treatments/eswt/
-title: 체외충격파
-description: 체외에서 충격파를 가해 조직 회복을 유도하는 치료
-title_en: extracorporeal shock wave therapy
+title: 체외충격파(ESWT)
+description: 체외에서 발생시킨 음향 압력파를 표적 조직에 전달해 통증 조절과 조직 회복 환경을 돕는 비수술 치료
+title_en: extracorporeal shock wave therapy (ESWT)
 aliases:
   - 체외충격파
   - 체외충격파 치료

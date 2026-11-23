@@ -3,9 +3,9 @@ layout: entity-hub
 entity_id: androgenetic-alopecia
 entity_type: condition
 permalink: /conditions/androgenetic-alopecia/
-title: 남성형 탈모
-description: 안드로젠 호르몬에 의한 유전성 탈모
-title_en: androgenetic alopecia
+title: 안드로겐성 탈모 (남성형·여성형)
+description: 안드로겐 호르몬·유전 요인에 의한 진행성 탈모
+title_en: androgenetic alopecia (AGA)
 aliases:
   - 남성형 탈모
   - 여성형 탈모

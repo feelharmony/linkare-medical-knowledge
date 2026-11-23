@@ -5,7 +5,7 @@ entity_type: condition
 permalink: /conditions/carpal-tunnel-syndrome/
 title: 손목터널증후군
 title_en: carpal tunnel syndrome
-description: 손목의 정중신경이 압박되어 발생하는 질환
+description: 손목의 수근관 안에서 정중신경이 압박되어 엄지·검지·중지 저림, 야간 통증, 악력 저하를 유발하는 말초신경 포착 질환
 aliases:
   - 손목터널증후군
   - 수근관증후군
