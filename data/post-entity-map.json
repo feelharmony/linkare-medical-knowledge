@@ -4564,5 +4564,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/thq/ko/--/cervicogenic-dizziness.md",
+    "source_article_url": "https://thewells.kr/blog/cervicogenic-dizziness",
+    "source_article_title": "목이 뻣뻣하게 굳은 날 찾아오는 경추성 어지럼증, 왜 고개 돌릴 때 심해질까",
+    "primary_entity_id": "cervicogenic-dizziness",
+    "entity_ids": [
+      "cervicogenic-dizziness"
+    ],
+    "updated_at": "2026-11-24",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
