@@ -12,60 +12,60 @@ aliases:
   - 점퍼스 니
   - jumper's knee
   - patellar tendinopathy
-last_reviewed: '2026-07-03'
-next_review: '2026-10-03'
+last_reviewed: '2026-11-24'
+next_review: '2027-02-24'
 locked: true
 quality_status: verified
-verified_by: 문헌 및 내부 정합성 검토
-source_count: 6
-source_count_external: 5
+verified_by: 외부 문헌 PMID 대조 (PubMed 서지·초록, 공개 전문 확인)
+source_count: 12
+source_count_external: 11
 source_count_clinic_pillar: 1
 clinic_footnote_ids: [1]
-external_footnote_ids: [2, 3, 4, 5, 6]
-version: 3
+external_footnote_ids: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+version: 4
 ---
 <div class="entity-summary" markdown="1">
 <p class="entity-summary-label">핵심 요약</p>
 
 - 슬개건염은 슬개골 아래에서 정강이뼈까지 이어지는 슬개건에 반복 부하가 누적되어 통증과 기능 저하가 생기는 상태입니다.
-- 갑작스러운 운동량 증가와 반복 점프 등이 위험 요인이며, 슬개골 아래 끝이나 슬개건의 국소 압통과 부하 반응으로 판단합니다 [^2][^3][^5].
+- 운동량 증가와 반복 점프 등이 위험 요인이며, 슬개골 아래 끝이나 슬개건의 국소 압통과 부하 반응으로 판단합니다 [^2][^7][^12].
 - 치료는 통증을 유발하는 부하 조절과 단계적 근력 운동을 기본으로 하며, 체외충격파나 주사치료 등을 보조적으로 검토합니다 [^2][^4][^5][^6].
 
 </div>
 
 ## 정의
-슬개건염(patellar tendinitis)은 [무릎](/body-parts/knee/) 앞쪽, 슬개골 아래에서 정강이뼈까지 이어지는 슬개건에 반복 부하가 누적되어 [무릎 통증](/symptoms/knee-pain/)과 기능 저하가 생기는 상태입니다. 최근에는 단순 염증보다 힘줄 구조와 부하 적응의 문제를 반영해 **슬개건병증(patellar tendinopathy)** 이라는 표현을 함께 씁니다 [^2][^3]. 점프와 착지가 많은 농구·배구·축구·러닝에서 흔해 “점퍼스 니(jumper's knee)”라고도 부릅니다 [^2].
+슬개건염(patellar tendinitis)은 [무릎](/body-parts/knee/) 앞쪽, 슬개골 아래에서 정강이뼈까지 이어지는 슬개건에 반복 부하가 누적되어 [무릎 통증](/symptoms/knee-pain/)과 기능 저하가 생기는 상태입니다. 최근에는 단순 염증보다 힘줄 구조와 부하 적응의 문제를 반영해 **슬개건병증(patellar tendinopathy)** 이라는 표현을 함께 씁니다 [^7][^8]. 점프와 착지가 많은 농구·배구·축구·러닝에서 흔해 “점퍼스 니(jumper's knee)”라고도 부릅니다 [^2][^9].
 
 <figure class="entity-figure entity-figure--portrait">
   <img src="/assets/images/entities/patellar-tendinitis/patellar-tendon-lower-pole.webp" alt="굽힌 무릎 옆모습: 넙다리뼈·정강뼈·종아리뼈, 무릎뼈 위의 대퇴사두근 힘줄과 무릎뼈 아래에서 정강뼈 앞쪽으로 이어지는 슬개건, 슬개골 아래 끝 부위의 붉은 표시" width="800" height="970" loading="lazy">
   <figcaption markdown="span">슬개건 위치: 슬개골 아래 끝에서 정강뼈 앞쪽으로 이어지는 힘줄 · 슬개골 아래 끝 부위 통증 표시<span class="entity-figure-credit">그림: Injurymap, <a href="https://commons.wikimedia.org/wiki/File:Jumpers_knee.jpg" rel="nofollow noopener" target="_blank">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/4.0" rel="nofollow noopener" target="_blank">CC BY 4.0</a> · 여백 잘라냄</span></figcaption>
 </figure>
 
-슬개건염은 [무릎](/body-parts/knee/) 앞쪽 통증의 한 원인입니다. 슬개대퇴 통증은 슬개골 주변·뒤쪽 통증이 중심이고, 슬개건염은 보통 슬개골 아래 끝 또는 슬개건 부위의 국소 압통이 더 뚜렷합니다 [^2][^5].
+슬개건염은 [무릎](/body-parts/knee/) 앞쪽 통증의 한 원인입니다. 슬개대퇴 통증은 슬개골 주변·뒤쪽 통증이 중심이고, 슬개건염은 보통 슬개골 아래 끝 또는 슬개건 부위의 국소 통증이 더 뚜렷합니다 [^7][^11].
 
 ## 병태
-슬개건은 점프, 달리기, 계단, 스쿼트에서 대퇴사두근 힘을 경골로 전달합니다. 훈련량이 갑자기 늘거나 회복 시간이 부족하면 힘줄이 견딜 수 있는 부하보다 실제 부하가 커지고, 힘줄 내부 구조 변화와 통증 민감화가 발생할 수 있습니다 [^2][^3].
+슬개건은 점프, 달리기, 계단, 스쿼트에서 대퇴사두근 힘을 경골로 전달합니다. 훈련량이 갑자기 늘거나 회복 시간이 부족하면 힘줄이 견딜 수 있는 부하보다 실제 부하가 커지고, 힘줄 내부 구조 변화가 발생할 수 있습니다 [^2][^8].
 
-위험 요인으로는 갑작스러운 운동량 증가, 반복 점프, 단단한 지면, 대퇴사두근·햄스트링 유연성 저하, 고관절·발목 조절 부족, 이전 무릎 통증 병력 등이 거론됩니다 [^2][^5]. 영상에서 힘줄 두꺼워짐이나 신호 변화가 보여도 증상과 항상 일치하지 않으므로, 통증 위치와 부하 반응을 함께 봅니다 [^3].
+위험 요인으로는 운동량 증가, 반복 점프, 단단한 지면, 대퇴사두근·햄스트링 유연성 저하, 발목을 위로 젖히는 범위 감소 등이 거론됩니다 [^2][^9]. 영상에서 힘줄 두꺼워짐이나 신호 변화가 보여도 증상과 항상 일치하지 않으므로, 통증 위치와 부하 반응을 함께 봅니다 [^2][^7].
 
 ## 증상
-가장 전형적인 증상은 슬개골 아래쪽 또는 슬개건 부위의 국소 통증입니다. 초기에는 운동 시작 때 아프다가 몸이 풀리면 줄고, 운동 후 다시 뻐근해지는 양상이 흔합니다. 진행하면 계단 내려가기, 쪼그려 앉기, 점프 착지, 빠른 방향 전환, 장시간 앉았다 일어날 때도 통증이 생길 수 있습니다 [^2][^5].
+가장 전형적인 증상은 슬개골 아래쪽 또는 슬개건 부위의 국소 통증입니다 [^7]. 가벼울 때는 운동할 때만 아프지만, 진행하면 운동을 시작할 때부터 또는 운동하는 내내 통증이 나타납니다. 심해지면 일상 동작을 하거나 쉴 때도 아프며, 운동할 때나 무릎을 오래 굽히고 있을 때 통증이 더 심해지기도 합니다 [^2].
 
-압통은 슬개골 아래 끝(inferior pole of patella) 또는 슬개건 몸통에서 잘 확인됩니다. 심한 부종·열감, 급성 외상 뒤 체중 부하 불가, 무릎이 빠지는 느낌이 동반되면 다른 질환이나 인대·연골 손상을 감별해야 합니다 [^5].
+압통은 슬개골 아래 끝(inferior pole of patella) 또는 슬개건 몸통에서 확인됩니다 [^2][^12]. 심한 부종·열감, 급성 외상 뒤 체중 부하 불가, 무릎이 빠지는 느낌이 동반되면 다른 질환이나 인대·연골 손상을 감별해야 합니다 [^10].
 
 ## 진단
-진단은 병력과 신체검사가 중심입니다. 통증 위치, 훈련량 변화, 점프·스쿼트·계단에서의 부하 반응, 압통, 단일 다리 스쿼트 또는 decline squat에서 통증 재현 여부를 확인합니다 [^2]. 초음파와 MRI는 힘줄 두께, 신호 변화, 부분 파열 여부를 평가하는 데 도움이 되지만, 영상 소견만으로 진단하거나 치료를 결정하지는 않습니다 [^3][^5].
+진단은 병력과 신체검사가 중심입니다. 통증 위치, 훈련량 변화, 점프·스쿼트·계단에서의 부하 반응, 압통, 단일 다리 스쿼트 또는 decline squat에서 통증 재현 여부를 확인합니다 [^2][^7][^12]. 초음파와 MRI는 힘줄 두께, 신호 변화, 부분 파열 여부를 평가하는 데 도움이 되지만, 영상 소견만으로 진단하거나 치료를 결정하지는 않습니다 [^2][^3][^7].
 
-감별해야 할 질환에는 슬개대퇴 통증, 슬개하 지방패드 통증, Osgood-Schlatter 병, 반월상연골 손상, 무릎 골관절염, 염증성 관절질환이 있습니다 [^5].
+감별해야 할 질환에는 슬개대퇴 통증, 슬개하 지방패드 통증, Osgood-Schlatter 병, 반월상연골 손상, 무릎 골관절염, 염증성 관절질환이 있습니다 [^10][^11].
 
 ## 치료
-치료의 핵심은 “쉬기만 하는 것”이 아니라 통증이 심해지는 부하를 줄이고, 힘줄이 견딜 수 있는 범위 안에서 점진적으로 다시 부하를 올리는 것입니다 [^2][^3]. 초기에는 점프·스프린트·깊은 스쿼트처럼 통증을 크게 올리는 동작을 줄이고, 통증 수준을 보며 등척성 운동, 편심성 운동, heavy slow resistance 같은 단계적 근력 운동을 적용합니다 [^2][^4]. 2024 네트워크 메타분석은 성인 슬개건병증에서 편심성, 등척성, heavy slow resistance 운동이 VISA-P 점수 개선과 관련될 수 있음을 비교했습니다 [^4].
+치료의 핵심은 “쉬기만 하는 것”이 아니라 통증이 심해지는 부하를 줄이고, 힘줄이 견딜 수 있는 범위 안에서 점진적으로 다시 부하를 올리는 것입니다 [^7][^9]. 초기에는 점프·스프린트·깊은 스쿼트처럼 통증을 크게 올리는 동작을 줄이고, 통증 수준을 보며 등척성 운동, 편심성 운동, heavy slow resistance 같은 단계적 근력 운동을 적용합니다 [^4][^9]. 2024 네트워크 메타분석은 성인 슬개건병증에서 편심성, 등척성, heavy slow resistance 운동이 VISA-P 점수 개선과 관련될 수 있음을 비교했습니다 [^4].
 
-체외충격파 치료([ESWT](/treatments/eswt/))는 일부 건병증에서 보조 치료로 사용되며, 2023 체계적 문헌고찰·메타분석은 슬개건병증, 아킬레스건병증, 족저근막염에서 충격파 치료 효과를 함께 검토했습니다 [^5]. 즉 슬개건염 치료는 **부하 관리·운동치료를 기본**으로 두고, 통증이 강해 운동 진입이 어려우면 [윈백 고주파(TECAR/RF) 물리치료](/treatments/tecar-rf-therapy/)를 통증 방어 완화 보조로, 압통이 지속되는 힘줄 부착부 통증에는 ESWT를 보조 옵션으로 연결합니다. 장기화·재발형에서는 초음파 유도 주사치료와 [PRP 주사](/treatments/prp-injection/)·PRF 같은 자가활성화세포 기반 재생주사 선택지를 환자 상태에 따라 검토하는 방식이 현실적입니다 [^5][^6]. PRP는 슬개건병증에서 연구가 축적되어 있으나 프로토콜과 결과가 균일하지 않으므로, PRF를 포함한 자가 혈액 기반 재생치료는 증상 기간, 영상 소견, 운동치료 반응, 비용과 기대효과를 설명한 뒤 선택적으로 논의하는 영역입니다 [^6].
+체외충격파 치료([ESWT](/treatments/eswt/))는 일부 건병증에서 보조 치료로 사용됩니다. 2023년 체계적 문헌고찰·메타분석에 따르면 슬개건병증에서 단기적으로 위약과 비교하면 통증·기능에 거의 차이가 없었고 다른 보존 치료와 비교하면 통증이 유의하게 줄었으나 근거 수준은 낮음에서 중간이었습니다 [^5]. 즉 슬개건염 치료는 **부하 관리·운동치료를 기본**으로 두고, 통증이 강해 운동 진입이 어려우면 [윈백 고주파(TECAR/RF) 물리치료](/treatments/tecar-rf-therapy/)를 통증 방어 완화 보조로, 압통이 지속되는 힘줄 부착부 통증에는 ESWT를 보조 옵션으로 연결합니다. 장기화·재발형에서는 초음파 유도 주사치료와 [PRP 주사](/treatments/prp-injection/)·PRF 같은 자가활성화세포 기반 재생주사 선택지를 환자 상태에 따라 검토하는 방식이 현실적입니다 [^2][^6]. PRP는 슬개건병증에서 연구가 축적되어 있으나 프로토콜과 결과가 균일하지 않으므로, PRF를 포함한 자가 혈액 기반 재생치료는 증상 기간, 영상 소견, 운동치료 반응, 비용과 기대효과를 설명한 뒤 선택적으로 논의하는 영역입니다 [^6].
 
-스테로이드 주사는 단기 통증 완화를 줄 수 있지만 힘줄 조직에 부담을 줄 수 있어 반복 사용에 신중해야 합니다. 수술은 충분한 보존 치료에도 6~12개월 이상 기능 제한이 지속되는 일부 환자에서 검토합니다 [^2].
+스테로이드 주사는 단기 통증 완화를 줄 수 있지만 힘줄 조직에 부담을 줄 수 있어 반복 사용에 신중해야 합니다 [^2][^8]. 수술은 충분한 보존 치료에도 6개월 이상 기능 제한이 지속되는 일부 환자에서 검토합니다 [^2].
 
-**슬개건염 치료 방법 비교** [^2][^3][^4][^5][^6]
+**슬개건염 치료 방법 비교** [^2][^4][^5][^6][^8][^9]
 {: .entity-table-caption}
 
 | 구분 | 세부 방법 | 적용 상황 및 역할 |
@@ -73,10 +73,10 @@ version: 3
 | 기본 치료 | 부하 관리, 등척성·편심성·heavy slow resistance 운동 | 통증 부하 감소 및 점진적 부하 증가 |
 | 보조 치료 | 고주파 물리치료, 체외충격파(ESWT) | 통증 방어 완화 및 지속되는 부착부 압통 보조 |
 | 주사 치료 | 초음파 유도 주사, PRP·PRF, 스테로이드 주사 | 장기화·재발형 선택적 검토 및 단기 통증 완화 |
-| 수술 치료 | 수술적 처치 | 보존 치료에도 6~12개월 이상 기능 제한 지속 |
+| 수술 치료 | 수술적 처치 | 보존 치료에도 6개월 이상 기능 제한 지속 |
 
 ## 예후
-슬개건염은 회복이 빠른 질환이라기보다 부하 조절과 재활을 꾸준히 해야 하는 건병증입니다. 운동을 완전히 쉬었다가 갑자기 복귀하면 재발하기 쉽고, 통증이 줄어든 뒤에도 대퇴사두근·둔근·종아리 근력, 착지 패턴, 훈련량 증가 속도를 관리해야 합니다 [^2][^3]. 예후는 증상 기간, 운동량 조절, 재활 순응도, 스포츠 복귀 기준을 얼마나 지키는지에 따라 달라집니다.
+슬개건염은 회복이 빠른 질환이라기보다 부하 조절과 재활을 꾸준히 해야 하는 건병증입니다. 운동을 완전히 쉬었다가 갑자기 복귀하면 재발하기 쉽고, 통증이 줄어든 뒤에도 대퇴사두근·둔근·종아리 근력, 착지 패턴, 훈련량 증가 속도를 관리해야 합니다 [^7][^9]. 예후는 증상 기간, 운동량 조절, 재활 순응도, 스포츠 복귀 기준을 얼마나 지키는지에 따라 달라집니다.
 
 ---
 
@@ -87,14 +87,21 @@ version: 3
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
-[^2]: [American Academy of Orthopaedic Surgeons OrthoInfo — Patellar Tendinitis/Jumpers Knee](https://orthoinfo.aaos.org/en/diseases--conditions/patellar-tendinitis-jumpers-knee/)
+[^2]: [Theodorou A et al. Patellar tendinopathy: an overview of prevalence, risk factors, screening, diagnosis, treatment and prevention. Arch Orthop Trauma Surg. 2023;143(11):6695-6705. PMID 37542006](https://pubmed.ncbi.nlm.nih.gov/37542006/)
 [^3]: [Rabello LM et al. Association Between Clinical and Imaging Outcomes After Therapeutic Loading Exercise in Patients Diagnosed With Achilles or Patellar Tendinopathy at Short- and Long-Term Follow-up: A Systematic Review. Clin J Sport Med. 2020;30(4):390-403. PMID 29952842](https://pubmed.ncbi.nlm.nih.gov/29952842/)
 [^4]: [Li Y et al. Mixed comparison of intervention with eccentric, isometric, and heavy slow resistance for Victorian Institute of Sport Assessment Patella Questionnaire in adults with patellar tendinopathy: A systematic review and network meta-analysis. Heliyon. 2024;10(21):e39171. PMID 39559237](https://pubmed.ncbi.nlm.nih.gov/39559237/)
 [^5]: [Charles R et al. The effectiveness of shockwave therapy on patellar tendinopathy, Achilles tendinopathy, and plantar fasciitis: a systematic review and meta-analysis. Front Immunol. 2023;14:1193835. PMID 37662911](https://pubmed.ncbi.nlm.nih.gov/37662911/)
 [^6]: [Barman A et al. Platelet-rich plasma injection in the treatment of patellar tendinopathy: a systematic review and meta-analysis. Knee Surg Relat Res. 2022;34(1):22. PMID 35509070](https://pubmed.ncbi.nlm.nih.gov/35509070/)
+[^7]: [Malliaras P et al. Patellar Tendinopathy: Clinical Diagnosis, Load Management, and Advice for Challenging Case Presentations. J Orthop Sports Phys Ther. 2015;45(11):887-898. PMID 26390269](https://pubmed.ncbi.nlm.nih.gov/26390269/)
+[^8]: [Schwartz A et al. Patellar Tendinopathy. Sports Health. 2015;7(5):415-420. PMID 26502416](https://pubmed.ncbi.nlm.nih.gov/26502416/)
+[^9]: [Muaidi QI. Rehabilitation of patellar tendinopathy. J Musculoskelet Neuronal Interact. 2020;20(4):535-540. PMID 33265081](https://pubmed.ncbi.nlm.nih.gov/33265081/)
+[^10]: [Bunt CW et al. Knee Pain in Adults and Adolescents: The Initial Evaluation. Am Fam Physician. 2018;98(9):576-585. PMID 30325638](https://pubmed.ncbi.nlm.nih.gov/30325638/)
+[^11]: [Crossley KM et al. 2016 Patellofemoral pain consensus statement from the 4th International Patellofemoral Pain Research Retreat, Manchester. Part 1: Terminology, definitions, clinical examination, natural history, patellofemoral osteoarthritis and patient-reported outcome measures. Br J Sports Med. 2016;50(14):839-843. PMID 27343241](https://pubmed.ncbi.nlm.nih.gov/27343241/)
+[^12]: [Cook JL et al. Reproducibility and clinical utility of tendon palpation to detect patellar tendinopathy in young basketball players. Br J Sports Med. 2001;35(1):65-69. PMID 11157466](https://pubmed.ncbi.nlm.nih.gov/11157466/)
 
 ## Changelog
 - 2026-07-03 v3: 내용 업데이트.
 - 2026-07-03 v2: 내용 업데이트.
 - 2026-07-03 v1: 내용 업데이트.
 - 2026-11-24: 각주 3·4·5·6의 저자·학술지·권호를 PubMed 기록대로 정정(논문·PMID·본문 문장은 그대로).
+- 2026-11-24 v4: 열리지 않는 AAOS 링크(각주 2)를 공개 종설로 교체하고, 충격파 논문(각주 5)이 위험 요인·증상·감별 문장에 달려 있던 것을 맞는 출처(각주 7~12)로 옮김. 충격파 결과(위약 대비·보존 치료 대비)를 본문에 반영. 출처에서 확인되지 않는 표현(갑작스러운·통증 민감화·고관절 조절 부족·이전 무릎 통증 병력)을 빼고 증상 경과·수술 시점(6개월)을 출처대로 정정.
