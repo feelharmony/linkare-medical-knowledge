@@ -88,12 +88,13 @@ version: 3
 
 ### 외부 권위 출처
 [^2]: [American Academy of Orthopaedic Surgeons OrthoInfo — Patellar Tendinitis/Jumpers Knee](https://orthoinfo.aaos.org/en/diseases--conditions/patellar-tendinitis-jumpers-knee/)
-[^3]: [Mendonça LD et al. Association Between Clinical and Imaging Outcomes After Therapeutic Loading Exercise in Patients Diagnosed With Achilles or Patellar Tendinopathy at Short- and Long-Term Follow-up: A Systematic Review. J Orthop Sports Phys Ther. 2020;50(7):390-403. PMID 29952842](https://pubmed.ncbi.nlm.nih.gov/29952842/)
-[^4]: [Wang Z et al. Mixed comparison of intervention with eccentric, isometric, and heavy slow resistance for Victorian Institute of Sport Assessment Patella Questionnaire in adults with patellar tendinopathy: A systematic review and network meta-analysis. Medicine (Baltimore). 2024;103(46):e40523. PMID 39559237](https://pubmed.ncbi.nlm.nih.gov/39559237/)
-[^5]: [Charles R et al. The effectiveness of shockwave therapy on patellar tendinopathy, Achilles tendinopathy, and plantar fasciitis: a systematic review and meta-analysis. Cureus. 2023;15(7):e41983. PMID 37662911](https://pubmed.ncbi.nlm.nih.gov/37662911/)
-[^6]: [Barman A et al. Platelet-rich plasma injection in the treatment of patellar tendinopathy: a systematic review and meta-analysis. Knee Surg Sports Traumatol Arthrosc. 2022;30(6):2092-2102. PMID 35509070](https://pubmed.ncbi.nlm.nih.gov/35509070/)
+[^3]: [Rabello LM et al. Association Between Clinical and Imaging Outcomes After Therapeutic Loading Exercise in Patients Diagnosed With Achilles or Patellar Tendinopathy at Short- and Long-Term Follow-up: A Systematic Review. Clin J Sport Med. 2020;30(4):390-403. PMID 29952842](https://pubmed.ncbi.nlm.nih.gov/29952842/)
+[^4]: [Li Y et al. Mixed comparison of intervention with eccentric, isometric, and heavy slow resistance for Victorian Institute of Sport Assessment Patella Questionnaire in adults with patellar tendinopathy: A systematic review and network meta-analysis. Heliyon. 2024;10(21):e39171. PMID 39559237](https://pubmed.ncbi.nlm.nih.gov/39559237/)
+[^5]: [Charles R et al. The effectiveness of shockwave therapy on patellar tendinopathy, Achilles tendinopathy, and plantar fasciitis: a systematic review and meta-analysis. Front Immunol. 2023;14:1193835. PMID 37662911](https://pubmed.ncbi.nlm.nih.gov/37662911/)
+[^6]: [Barman A et al. Platelet-rich plasma injection in the treatment of patellar tendinopathy: a systematic review and meta-analysis. Knee Surg Relat Res. 2022;34(1):22. PMID 35509070](https://pubmed.ncbi.nlm.nih.gov/35509070/)
 
 ## Changelog
 - 2026-07-03 v3: 내용 업데이트.
 - 2026-07-03 v2: 내용 업데이트.
 - 2026-07-03 v1: 내용 업데이트.
+- 2026-11-24: 각주 3·4·5·6의 저자·학술지·권호를 PubMed 기록대로 정정(논문·PMID·본문 문장은 그대로).
