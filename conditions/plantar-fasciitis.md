@@ -111,10 +111,10 @@ version: 6
 
 ### 외부 권위 출처
 [^1]: [Tu P, Bytomski JR. Heel Pain: Diagnosis and Management. Am Fam Physician. 2018;97(2):86-93. PMID 29365222](https://pubmed.ncbi.nlm.nih.gov/29365222/)
-[^2]: [Martin RL et al. Heel Pain - Plantar Fasciitis: Revision 2023. J Orthop Sports Phys Ther. 2023;53(12):CPG1-CPG39. PMID 38037331](https://pubmed.ncbi.nlm.nih.gov/38037331/)
+[^2]: [Koc TA Jr et al. Heel Pain - Plantar Fasciitis: Revision 2023. J Orthop Sports Phys Ther. 2023;53(12):CPG1-CPG39. PMID 38037331](https://pubmed.ncbi.nlm.nih.gov/38037331/)
 [^3]: [Morrissey D et al. Management of plantar heel pain: a best practice guide informed by a systematic review, expert clinical reasoning and patient values. Br J Sports Med. 2021;55(19):1106-1118. PMID 33785535](https://pubmed.ncbi.nlm.nih.gov/33785535/)
-[^4]: [Sun J et al. Extracorporeal shock wave therapy on pain and foot functions in subjects with chronic plantar fasciitis: systematic review of randomized controlled trials. Disabil Rehabil. 2022;44(19):5632-5640. PMID 34038642](https://pubmed.ncbi.nlm.nih.gov/34038642/)
-[^5]: [Fong DTP et al. Hypertonic Dextrose Injection for Plantar Fasciitis: A Systematic Review and Meta-analysis of Randomized Controlled Trials. Arch Phys Med Rehabil. 2023;104(10):1708-1718. PMID 36571559](https://pubmed.ncbi.nlm.nih.gov/36571559/)
+[^4]: [Melese H et al. Extracorporeal shock wave therapy on pain and foot functions in subjects with chronic plantar fasciitis: systematic review of randomized controlled trials. Disabil Rehabil. 2022;44(18):5007-5014. PMID 34038642](https://pubmed.ncbi.nlm.nih.gov/34038642/)
+[^5]: [Fong HPY et al. Effectiveness of Hypertonic Dextrose Injection (Prolotherapy) in Plantar Fasciopathy: A Systematic Review and Meta-analysis of Randomized Controlled Trials. Arch Phys Med Rehabil. 2023;104(11):1941-1953. PMID 37098357](https://pubmed.ncbi.nlm.nih.gov/37098357/)
 
 ## Changelog
 - 2026-07-03 v4: 내용 업데이트.

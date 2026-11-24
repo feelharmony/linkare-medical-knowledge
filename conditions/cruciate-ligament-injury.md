@@ -89,7 +89,7 @@ PCL 단독 손상은 보조기와 대퇴사두근 강화 중심의 보존 치료
 ### 외부 권위 출처
 [^2]: [American Academy of Orthopaedic Surgeons OrthoInfo — Anterior Cruciate Ligament (ACL) Injuries](https://orthoinfo.aaos.org/en/diseases--conditions/anterior-cruciate-ligament-acl-injuries/)
 [^3]: [van Melick N et al. Evidence-based clinical practice update: practice guidelines for anterior cruciate ligament rehabilitation based on a systematic review and multidisciplinary consensus. Br J Sports Med. 2016;50(24):1506-1515. PMID 27539507](https://pubmed.ncbi.nlm.nih.gov/27539507/)
-[^4]: [Della Villa F et al. Aspetar clinical practice guideline on rehabilitation after anterior cruciate ligament reconstruction. Br J Sports Med. 2023;57(9):500-514. PMID 36731908](https://pubmed.ncbi.nlm.nih.gov/36731908/)
+[^4]: [Kotsifaki R et al. Aspetar clinical practice guideline on rehabilitation after anterior cruciate ligament reconstruction. Br J Sports Med. 2023;57(9):500-514. PMID 36731908](https://pubmed.ncbi.nlm.nih.gov/36731908/)
 [^5]: [Tuite MJ et al. ACR Appropriateness Criteria® Acute Trauma to the Knee. J Am Coll Radiol. 2020;17(5S):S12-S25. PMID 32370956](https://pubmed.ncbi.nlm.nih.gov/32370956/)
 [^6]: [American Academy of Orthopaedic Surgeons OrthoInfo — Posterior Cruciate Ligament Injuries](https://orthoinfo.aaos.org/en/diseases--conditions/posterior-cruciate-ligament-injuries/)
 

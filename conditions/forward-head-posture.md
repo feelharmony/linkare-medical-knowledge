@@ -155,7 +155,7 @@ APTA 2017 목 통증 CPG와 비특이적 목 통증 물리치료 지침은 만�
 
 [^3]: Blanpied PR, Gross AR, Elliott JM, et al. Neck Pain: Revision 2017. Clinical Practice Guidelines Linked to the International Classification of Functioning, Disability and Health From the Orthopaedic Section of the American Physical Therapy Association. *J Orthop Sports Phys Ther.* 2017;47(7):A1-A83. PMID 28666405. DOI: [10.2519/jospt.2017.0302](https://www.jospt.org/doi/10.2519/jospt.2017.0302)
 
-[^6]: Shih HS, Chen SS, Cheng SC, et al. Upper cervical and upper thoracic spine mobilization versus deep cervical flexors exercise in individuals with forward head posture: A randomized clinical trial investigating their effectiveness. *J Back Musculoskelet Rehabil.* 2019;32(4):595-602. PMID 30584118. DOI: [10.3233/BMR-181228](https://pubmed.ncbi.nlm.nih.gov/30584118/)
+[^6]: Cho J et al. Upper cervical and upper thoracic spine mobilization versus deep cervical flexors exercise in individuals with forward head posture: A randomized clinical trial investigating their effectiveness. J Back Musculoskelet Rehabil. 2019;32(4):595-602. PMID 30584118. DOI: [10.3233/BMR-181228](https://pubmed.ncbi.nlm.nih.gov/30584118/)
 
 [^7]: Bier JD, Scholten-Peeters WGM, Staal JB, et al. Clinical Practice Guideline for Physical Therapy Assessment and Treatment in Patients With Nonspecific Neck Pain. *Phys Ther.* 2018;98(3):162-171. PMID 29228289. DOI: [10.1093/ptj/pzx118](https://pubmed.ncbi.nlm.nih.gov/29228289/)
 

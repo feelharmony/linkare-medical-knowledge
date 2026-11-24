@@ -140,9 +140,9 @@ Ruiz Santiago 2024 narrative review는 어깨, 무릎, 고관절, 발목·족저
 ### 외부 권위 출처
 [^1]: [Shen PC, Lin TY, Wu WT, Özçakar L, Chang KV. Comparison of ultrasound- vs. landmark-guided injections for musculoskeletal pain: an umbrella review. J Rehabil Med. 2024;56:jrm40679. PMID 39185547](https://pubmed.ncbi.nlm.nih.gov/39185547/)
 [^2]: [Ruiz Santiago F, Orellana González C, Moraleda Cabrera B, Láinez Ramos-Bossini AJ. Ultrasound guided procedures in the musculoskeletal system: a narrative review with illustrative examples. Quant Imaging Med Surg. 2024;14(11):8028-8049. PMID 39544472](https://pubmed.ncbi.nlm.nih.gov/39544472/)
-[^3]: [Mandl P, et al. Value of imaging to guide interventional procedures in rheumatic and musculoskeletal diseases: a systematic literature review informing EULAR points to consider. RMD Open. 2021;7(3):e001828. PMID 34810228](https://pubmed.ncbi.nlm.nih.gov/34810228/)
+[^3]: [Bosch P et al. Value of imaging to guide interventional procedures in rheumatic and musculoskeletal diseases: a systematic literature review informing EULAR points to consider. RMD Open. 2021;7(3). PMID 34810228](https://pubmed.ncbi.nlm.nih.gov/34810228/)
 [^4]: [Finnoff JT, et al. American Medical Society for Sports Medicine position statement: interventional musculoskeletal ultrasound in sports medicine. Br J Sports Med. 2015;49(3):145-150. PMID 25330777](https://pubmed.ncbi.nlm.nih.gov/25330777/)
-[^5]: [Tsai WC, et al. Ultrasound- versus palpation-guided injection of corticosteroid for plantar fasciitis: a meta-analysis. PLoS One. 2014;9(3):e92671. PMID 24658102](https://pubmed.ncbi.nlm.nih.gov/24658102/)
+[^5]: [Li Z et al. Ultrasound- versus palpation-guided injection of corticosteroid for plantar fasciitis: a meta-analysis. PLoS One. 2014;9(3):e92671. PMID 24658102](https://pubmed.ncbi.nlm.nih.gov/24658102/)
 
 ## Changelog
 - 2026-07-03 v5: 내용 업데이트.

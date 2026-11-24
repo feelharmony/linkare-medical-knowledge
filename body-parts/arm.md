@@ -95,7 +95,7 @@ version: 2
 [^2]: [Iyer S, Kim HJ. Cervical radiculopathy. Curr Rev Musculoskelet Med. 2016;9(3):272-280. PMID 27250042](https://pubmed.ncbi.nlm.nih.gov/27250042/)
 [^3]: [Kane SF, Lynch JH, Taylor JC. Evaluation of elbow pain in adults. Am Fam Physician. 2014;89(8):649-657. PMID 24784124](https://pubmed.ncbi.nlm.nih.gov/24784124/)
 [^4]: [Daniels JM II, Zook EG, Lynch JM. Hand and Wrist Injuries: Part I. Nonemergent Evaluation. Am Fam Physician. 2004;69(8):1941-1948](https://www.aafp.org/pubs/afp/issues/2004/0415/p1941.html)
-[^5]: [Neal SL, Fields KB. Peripheral Nerve Entrapment and Injury in the Upper Extremity. Am Fam Physician. 2021;103(5):275-285. PMID 33630556](https://pubmed.ncbi.nlm.nih.gov/33630556/)
+[^5]: [Silver S et al. Peripheral Nerve Entrapment and Injury in the Upper Extremity. Am Fam Physician. 2021;103(5):275-285. PMID 33630556](https://pubmed.ncbi.nlm.nih.gov/33630556/)
 
 ## Changelog
 - 2026-07-03 v2: 내용 업데이트.

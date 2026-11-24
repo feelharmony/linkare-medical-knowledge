@@ -100,7 +100,7 @@ Provocative discography는 과거 discogenic pain 평가에 사용되었지만 �
 
 ### 외부 권위 출처
 [^1]: [Urits I, Burshtein A, Sharma M, et al. Low Back Pain, a Comprehensive Review: Pathophysiology, Diagnosis, and Treatment. *Curr Pain Headache Rep.* 2019;23(3):23. PMID 30854609](https://pubmed.ncbi.nlm.nih.gov/30854609/)
-[^2]: [Navani A, Manchikanti L, Albers SL, et al. 14. Discogenic Low Back Pain. *Pain Pract.* 2025;25(1):e13429. PMID 40717265](https://pubmed.ncbi.nlm.nih.gov/40717265/)
+[^2]: [van Os WKM et al. 14. Discogenic Low Back Pain. Pain Pract. 2025;25(7):e70062. PMID 40717265](https://pubmed.ncbi.nlm.nih.gov/40717265/)
 [^3]: [Hartvigsen J, Hancock MJ, Kongsted A, et al. What low back pain is and why we need to pay attention. *Lancet.* 2018;391(10137):2356-2367. PMID 29573870](https://pubmed.ncbi.nlm.nih.gov/29573870/)
 [^4]: [NICE Guideline NG59 — Low back pain and sciatica in over 16s: assessment and management](https://www.nice.org.uk/guidance/ng59)
 [^5]: [Lorio MP, Tate JL, Myers TJ, Block JE, Beall DP. Perspective on Intradiscal Therapies for Lumbar Discogenic Pain: State of the Science, Knowledge Gaps, and Imperatives for Clinical Adoption. *J Pain Res.* 2024;17:1171-1182. PMID 38524692. DOI 10.2147/JPR.S441180](https://pubmed.ncbi.nlm.nih.gov/38524692/)

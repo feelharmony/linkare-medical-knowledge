@@ -72,7 +72,7 @@ version: 3
 
 ### 외부 권위 출처
 [^1]: [Shapiro LM, Kamal RN; AAOS/ASSH. Clinical Practice Guideline Summary: Management of Carpal Tunnel Syndrome. J Am Acad Orthop Surg. 2025;33(7):e356-e366. PMID 39637428](https://pubmed.ncbi.nlm.nih.gov/39637428/)
-[^2]: [Neal SL, Fields KB. Peripheral Nerve Entrapment and Injury in the Upper Extremity. Am Fam Physician. 2021;103(5):275-285. PMID 33630556](https://pubmed.ncbi.nlm.nih.gov/33630556/)
+[^2]: [Silver S et al. Peripheral Nerve Entrapment and Injury in the Upper Extremity. Am Fam Physician. 2021;103(5):275-285. PMID 33630556](https://pubmed.ncbi.nlm.nih.gov/33630556/)
 [^3]: [Bono CM et al. An evidence-based clinical guideline for the diagnosis and treatment of cervical radiculopathy from degenerative disorders. Spine J. 2011;11(1):64-72. PMID 21168100](https://pubmed.ncbi.nlm.nih.gov/21168100/)
 [^4]: [Wipperman J, Goerl K. Carpal Tunnel Syndrome: Diagnosis and Management. Am Fam Physician. 2016;94(12):993-999. PMID 28075090](https://pubmed.ncbi.nlm.nih.gov/28075090/)
 [^5]: [Castelli G, Desai KM, Cantone RE. Peripheral Neuropathy: Evaluation and Differential Diagnosis. Am Fam Physician. 2020;102(12):732-739. PMID 33320513](https://pubmed.ncbi.nlm.nih.gov/33320513/)

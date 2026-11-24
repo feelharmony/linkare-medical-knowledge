@@ -102,11 +102,11 @@ TECAR RF 고주파 치료는 진단을 대체하지 않습니다. 골절, 감염
 [^2]: [자사 프로필 — Hi-EMS / Winback 고주파+전기근자극 운영 축](https://thewells.kr/nowon)
 <!-- /LINKARE:CLINIC-CITATIONS -->
 ### 외부 권위 출처
-[^3]: [Kargarfard M et al. Effects of Transfer Energy Capacitive and Resistive On Musculoskeletal Pain: A Systematic Review and Meta-Analysis. Galen Med J. 2022;11:e2407. PMID 36698689](https://pubmed.ncbi.nlm.nih.gov/36698689/)
-[^4]: [Sánchez-Sánchez JL et al. The Efficacy of Electromagnetic Diathermy for the Treatment of Musculoskeletal Disorders: A Systematic Review with Meta-Analysis. J Clin Med. 2023. PMID 37373650](https://pubmed.ncbi.nlm.nih.gov/37373650/)
-[^5]: [Kumaran B et al. Short-Term Effects of Manual Therapy plus Capacitive and Resistive Electric Transfer Therapy in Individuals with Chronic Non-Specific Low Back Pain: A Randomized Clinical Trial Study. Medicina (Kaunas). 2023. PMID 37512085](https://pubmed.ncbi.nlm.nih.gov/37512085/)
-[^6]: [Albornoz-Cabello M et al. Capacitive resistive monopolar radiofrequency at 448 kHz plus exercising versus exercising alone for subacromial pain: A sham-controlled randomized clinical trial. Clin Rehabil. 2022. PMID 35702007](https://pubmed.ncbi.nlm.nih.gov/35702007/)
-[^7]: [Kaya Mutlu E et al. Efficacy of capacitive-resistive therapy on the treatment of myofascial pain - A randomized control trial. J Bodyw Mov Ther. 2024. PMID 38763621](https://pubmed.ncbi.nlm.nih.gov/38763621/)
+[^3]: [Vahdatpour B et al. Effects of Transfer Energy Capacitive and Resistive On Musculoskeletal Pain: A Systematic Review and Meta-Analysis. Galen Med J. 2022;11:e2407. PMID 36698689](https://pubmed.ncbi.nlm.nih.gov/36698689/)
+[^4]: [Pollet J et al. The Efficacy of Electromagnetic Diathermy for the Treatment of Musculoskeletal Disorders: A Systematic Review with Meta-Analysis. J Clin Med. 2023;12(12). PMID 37373650](https://pubmed.ncbi.nlm.nih.gov/37373650/)
+[^5]: [Kasimis K et al. Short-Term Effects of Manual Therapy plus Capacitive and Resistive Electric Transfer Therapy in Individuals with Chronic Non-Specific Low Back Pain: A Randomized Clinical Trial Study. Medicina (Kaunas). 2023;59(7). PMID 37512085](https://pubmed.ncbi.nlm.nih.gov/37512085/)
+[^6]: [Avendaño-Coy J et al. Capacitive resistive monopolar radiofrequency at 448 kHz plus exercising versus exercising alone for subacromial pain: A sham-controlled randomized clinical trial. Clin Rehabil. 2022;36(11):1450-1462. PMID 35702007](https://pubmed.ncbi.nlm.nih.gov/35702007/)
+[^7]: [Dinçer Ş et al. Efficacy of capacitive-resistive therapy on the treatment of myofascial pain - A randomized control trial. J Bodyw Mov Ther. 2024;38:86-91. PMID 38763621](https://pubmed.ncbi.nlm.nih.gov/38763621/)
 
 ## Changelog
 - 2026-07-03 v1: 내용 업데이트.

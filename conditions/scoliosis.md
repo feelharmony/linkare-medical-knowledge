@@ -129,9 +129,9 @@ Cobb 각이 20° 이상이고 Risser 등급이 0~2 단계라면 보조기와 운
 [^2]: [Cheng JC, Castelein RM, Chu WC, et al. Adolescent idiopathic scoliosis. *Nat Rev Dis Primers.* 2015;1:15030. PMID 27188385](https://pubmed.ncbi.nlm.nih.gov/27188385/)
 [^3]: [Negrini S, Donzelli S, Aulisa AG, et al. 2016 SOSORT guidelines: orthopaedic and rehabilitation treatment of idiopathic scoliosis during growth. *Scoliosis Spinal Disord.* 2018;13:3. PMID 29435499](https://pubmed.ncbi.nlm.nih.gov/29435499/)
 [^4]: [Weinstein SL, Dolan LA, Wright JG, Dobbs MB. Effects of bracing in adolescents with idiopathic scoliosis. *N Engl J Med.* 2013;369(16):1512-1521. PMID 24047455](https://pubmed.ncbi.nlm.nih.gov/24047455/)
-[^5]: [Fan Y, Ren Q, To MK, et al. Therapeutic exercises for idiopathic scoliosis in adolescents. *Cochrane Database Syst Rev.* 2024;2:CD007837. PMID 38415871](https://pubmed.ncbi.nlm.nih.gov/38415871/)
+[^5]: [Romano M et al. Therapeutic exercises for idiopathic scoliosis in adolescents. Cochrane Database Syst Rev. 2024;2(2):CD007837. PMID 38415871](https://pubmed.ncbi.nlm.nih.gov/38415871/)
 [^6]: [Diebo BG, Shah NV, Boachie-Adjei O, et al. Adult spinal deformity. *Lancet.* 2019;394(10193):160-172. PMID 31305254](https://pubmed.ncbi.nlm.nih.gov/31305254/)
-[^7]: [Cho KJ, Kim YT, Shin SH, Suk SI. Degenerative Scoliosis. *Curr Rev Musculoskelet Med.* 2017;10(4):547-558. PMID 28980155](https://pubmed.ncbi.nlm.nih.gov/28980155/)
+[^7]: [York PJ et al. Degenerative Scoliosis. Curr Rev Musculoskelet Med. 2017;10(4):547-558. PMID 28980155](https://pubmed.ncbi.nlm.nih.gov/28980155/)
 
 ## Changelog
 - 2026-07-04 v2: 내용 업데이트.

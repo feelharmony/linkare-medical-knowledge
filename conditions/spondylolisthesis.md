@@ -88,11 +88,11 @@ version: 3
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
-[^2]: [Kreiner DS et al. Guideline summary review: An evidence-based clinical guideline for the diagnosis and treatment of degenerative lumbar spondylolisthesis. Spine J. 2016;16(3):439-448. PMID 26681351](https://pubmed.ncbi.nlm.nih.gov/26681351/)
-[^3]: [Austevoll IM et al. Diagnosis and Management of Lumbar Spinal Stenosis: A Review. JAMA. 2022;327(17):1688-1699. PMID 35503342](https://pubmed.ncbi.nlm.nih.gov/35503342/)
-[^4]: [Ghogawala Z et al. Degenerative Lumbar Spondylolisthesis: Definition, Natural History, Conservative Management, and Surgical Treatment. Neurosurgery. 2019;84(3):E127-E130. PMID 31078230](https://pubmed.ncbi.nlm.nih.gov/31078230/)
-[^5]: [Matz PG et al. Guideline summary review: an evidence-based clinical guideline for the diagnosis and treatment of adult isthmic spondylolisthesis. Spine J. 2016;16(12):1478-1485. PMID 27592807](https://pubmed.ncbi.nlm.nih.gov/27592807/)
-[^6]: [Kale NN, Johnson K, Doleman B. Spondylolysis and Isthmic Spondylolisthesis: A Guide to Diagnosis and Management. *J Am Board Fam Med.* 2022;35(6):1204-1216. PMID 36526328](https://pubmed.ncbi.nlm.nih.gov/36526328/)
+[^2]: [Matz PG et al. Guideline summary review: An evidence-based clinical guideline for the diagnosis and treatment of degenerative lumbar spondylolisthesis. Spine J. 2016;16(3):439-48. PMID 26681351](https://pubmed.ncbi.nlm.nih.gov/26681351/)
+[^3]: [Katz JN et al. Diagnosis and Management of Lumbar Spinal Stenosis: A Review. JAMA. 2022;327(17):1688-1699. PMID 35503342](https://pubmed.ncbi.nlm.nih.gov/35503342/)
+[^4]: [Bydon M et al. Degenerative Lumbar Spondylolisthesis: Definition, Natural History, Conservative Management, and Surgical Treatment. Neurosurg Clin N Am. 2019;30(3):299-304. PMID 31078230](https://pubmed.ncbi.nlm.nih.gov/31078230/)
+[^5]: [Kreiner DS et al. Guideline summary review: an evidence-based clinical guideline for the diagnosis and treatment of adult isthmic spondylolisthesis. Spine J. 2016;16(12):1478-1485. PMID 27592807](https://pubmed.ncbi.nlm.nih.gov/27592807/)
+[^6]: [Mohile NV et al. Spondylolysis and Isthmic Spondylolisthesis: A Guide to Diagnosis and Management. J Am Board Fam Med. 2022;35(6):1204-1216. PMID 36526328](https://pubmed.ncbi.nlm.nih.gov/36526328/)
 
 ## Changelog
 - 2026-07-04 v2: 내용 업데이트.

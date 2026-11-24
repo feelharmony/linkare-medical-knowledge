@@ -69,9 +69,9 @@ version: 2
 ### 외부 권위 출처
 [^1]: [Wilson JJ, Furukawa M. Evaluation of the Patient with Hip Pain. Am Fam Physician. 2014;89(1):27-34. PMID 24444505](https://pubmed.ncbi.nlm.nih.gov/24444505/)
 [^2]: [NICE Guideline NG59. Low back pain and sciatica in over 16s: assessment and management. Published 2016, updated 2020](https://www.nice.org.uk/guidance/ng59)
-[^3]: [Bennell KL, et al. Common Painful Foot and Ankle Conditions: A Review. JAMA. 2023;330(23):2295-2307. PMID 38112812](https://pubmed.ncbi.nlm.nih.gov/38112812/)
-[^4]: [Bonaca MP, Creager MA. Lower Extremity Peripheral Artery Disease Without Chronic Limb-Threatening Ischemia: A Review. JAMA. 2021;325(21):2188-2198. PMID 34061140](https://pubmed.ncbi.nlm.nih.gov/34061140/)
-[^5]: [Fortier LM, et al. Entrapment Neuropathies of the Lower Extremity. Med Clin North Am. 2019;103(2):371-382. PMID 30704688](https://pubmed.ncbi.nlm.nih.gov/30704688/)
+[^3]: [Cooper MT. Common Painful Foot and Ankle Conditions: A Review. JAMA. 2023;330(23):2285-2294. PMID 38112812](https://pubmed.ncbi.nlm.nih.gov/38112812/)
+[^4]: [Polonsky TS et al. Lower Extremity Peripheral Artery Disease Without Chronic Limb-Threatening Ischemia: A Review. JAMA. 2021;325(21):2188-2198. PMID 34061140](https://pubmed.ncbi.nlm.nih.gov/34061140/)
+[^5]: [Bowley MP et al. Entrapment Neuropathies of the Lower Extremity. Med Clin North Am. 2019;103(2):371-382. PMID 30704688](https://pubmed.ncbi.nlm.nih.gov/30704688/)
 
 ## Changelog
 - 2026-07-03 v2: 내용 업데이트.

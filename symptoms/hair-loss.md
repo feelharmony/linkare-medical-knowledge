@@ -110,7 +110,7 @@ version: 5
 [^1]: [Buffoli B, Rinaldi F, Labanca M, et al. The human hair: from anatomy to physiology. *Int J Dermatol.* 2014;53(3):331-341. PMID 24372228](https://pubmed.ncbi.nlm.nih.gov/24372228/)
 [^2]: [Schneider MR, Schmidt-Ullrich R, Paus R. The hair follicle as a dynamic miniorgan. *Curr Biol.* 2009;19(3):R132-R142. PMID 19211055](https://pubmed.ncbi.nlm.nih.gov/19211055/)
 [^3]: [Phillips TG, Slomiany WP, Allison R. Hair Loss: Common Causes and Treatment. *Am Fam Physician.* 2017;96(6):371-378. PMID 28925637](https://pubmed.ncbi.nlm.nih.gov/28925637/)
-[^4]: [Suchonwanit P, Thammarucha S, Leerunyakul K. Female Androgenetic Alopecia: An Update on Diagnosis and Management. *Am J Clin Dermatol.* 2020;21(1):69-84. PMID 31677111](https://pubmed.ncbi.nlm.nih.gov/31677111/)
+[^4]: [Starace M et al. Female Androgenetic Alopecia: An Update on Diagnosis and Management. Am J Clin Dermatol. 2020;21(1):69-84. PMID 31677111](https://pubmed.ncbi.nlm.nih.gov/31677111/)
 [^5]: [Pratt CH, King LE Jr, Messenger AG, Christiano AM, Sundberg JP. Alopecia areata. *Nat Rev Dis Primers.* 2017;3:17011. PMID 28300084](https://pubmed.ncbi.nlm.nih.gov/28300084/)
 [^6]: [Sanchez K, Englander H, Salloum L, Gregoire S, Biba U, Ershadi S, Mostaghimi A. Evaluating Current and Emergent JAK Inhibitors for Alopecia Areata: A Narrative Review. *Dermatol Ther (Heidelb).* 2025;15(10):2749-2764. PMID 40794245](https://pmc.ncbi.nlm.nih.gov/articles/PMC12454744/)
 

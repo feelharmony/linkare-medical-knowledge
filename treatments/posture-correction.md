@@ -81,7 +81,7 @@ forward head posture 대상 연구와 목 통증 임상진료지침은 심부 �
 [^3]: [Mahmoud NF et al. The Relationship Between Forward Head Posture and Neck Pain: a Systematic Review and Meta-Analysis. Curr Rev Musculoskelet Med. 2019;12(4):562-577. PMID 31773477](https://pmc.ncbi.nlm.nih.gov/articles/PMC6942109/)
 [^4]: [Yang S et al. Treatment of Chronic Neck Pain in Patients with Forward Head Posture: A Systematic Narrative Review. Healthcare (Basel). 2023;11(19):2604. PMID 37830641](https://pmc.ncbi.nlm.nih.gov/articles/PMC10572307/)
 [^5]: [Blanpied PR et al. Neck Pain: Revision 2017. J Orthop Sports Phys Ther. 2017;47(7):A1-A83. PMID 28666405](https://pubmed.ncbi.nlm.nih.gov/28666405/)
-[^6]: [Shih HS et al. Upper cervical and upper thoracic spine mobilization versus deep cervical flexors exercise in individuals with forward head posture: A randomized clinical trial. J Back Musculoskelet Rehabil. 2019;32(4):595-602. PMID 30584118](https://pubmed.ncbi.nlm.nih.gov/30584118/)
+[^6]: [Cho J et al. Upper cervical and upper thoracic spine mobilization versus deep cervical flexors exercise in individuals with forward head posture: A randomized clinical trial investigating their effectiveness. J Back Musculoskelet Rehabil. 2019;32(4):595-602. PMID 30584118](https://pubmed.ncbi.nlm.nih.gov/30584118/)
 [^7]: [Bier JD et al. Clinical Practice Guideline for Physical Therapy Assessment and Treatment in Patients With Nonspecific Neck Pain. Phys Ther. 2018;98(3):162-171. PMID 29228289](https://pubmed.ncbi.nlm.nih.gov/29228289/)
 
 ## Changelog

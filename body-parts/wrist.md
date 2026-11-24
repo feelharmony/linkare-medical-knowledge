@@ -86,9 +86,9 @@ version: 2
 
 ### 외부 권위 출처
 [^1]: [Shapiro LM, Kamal RN; AAOS/ASSH. Clinical Practice Guideline Summary: Management of Carpal Tunnel Syndrome. J Am Acad Orthop Surg. 2025;33(7):e356-e366. PMID 39637428](https://pubmed.ncbi.nlm.nih.gov/39637428/)
-[^2]: [Neal SL, Fields KB. Peripheral Nerve Entrapment and Injury in the Upper Extremity. Am Fam Physician. 2021;103(5):275-285. PMID 33630556](https://pubmed.ncbi.nlm.nih.gov/33630556/)
+[^2]: [Silver S et al. Peripheral Nerve Entrapment and Injury in the Upper Extremity. Am Fam Physician. 2021;103(5):275-285. PMID 33630556](https://pubmed.ncbi.nlm.nih.gov/33630556/)
 [^3]: [Daniels JM II, Zook EG, Lynch JM. Hand and Wrist Injuries: Part I. Nonemergent Evaluation. Am Fam Physician. 2004;69(8):1941-1948](https://www.aafp.org/pubs/afp/issues/2004/0415/p1941.html)
-[^4]: [Jeyapalan K, Choudhary S. Management of de Quervain Tenosynovitis: A Systematic Review and Network Meta-Analysis. JAMA Netw Open. 2023;6(10):e2338550. PMID 37889490](https://pubmed.ncbi.nlm.nih.gov/37889490/)
+[^4]: [Challoumas D et al. Management of de Quervain Tenosynovitis: A Systematic Review and Network Meta-Analysis. JAMA Netw Open. 2023;6(10):e2337001. PMID 37889490](https://pubmed.ncbi.nlm.nih.gov/37889490/)
 [^5]: [Wipperman J, Goerl K. Carpal Tunnel Syndrome: Diagnosis and Management. Am Fam Physician. 2016;94(12):993-999. PMID 28075090](https://pubmed.ncbi.nlm.nih.gov/28075090/)
 
 ## Changelog

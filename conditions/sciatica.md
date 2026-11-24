@@ -108,9 +108,9 @@ version: 4
 ### 외부 권위 출처
 [^3]: [NICE Guideline NG59 — Low back pain and sciatica in over 16s: assessment and management. Published 30 November 2016, last updated 11 December 2020. National Institute for Health and Care Excellence (UK)](https://www.nice.org.uk/guidance/ng59)
 [^4]: [Monteleone G, Stevanato G, Alimandi M, Cappa E, Sorge R. Piriformis syndrome: a systematic review of case reports. BMC Surgery. 2025;25(1). DOI 10.1186/s12893-025-03202-2 (PMID 41068685, 97 articles 212 patients, 47.6% 진단 시 영상·수술 소견 없음 — 진단 기준 한계)](https://link.springer.com/article/10.1186/s12893-025-03202-2)
-[^5]: [Lewis RA, Williams NH, Sutton AJ, et al. Diagnosis and treatment of sciatica. BMJ. 2019;367:l6273. DOI 10.1136/bmj.l6273 (PMID 31744805)](https://pubmed.ncbi.nlm.nih.gov/31744805/)
-[^6]: [Bailey CS, Rasoulinejad P, Taylor D, et al. Surgical versus non-surgical treatment for sciatica: systematic review and meta-analysis of randomised controlled trials. BMJ. 2023;381:e070730. DOI 10.1136/bmj-2022-070730 (PMID 37076169)](https://pubmed.ncbi.nlm.nih.gov/37076169/)
-[^7]: [Mathieson S, Maher CG. Which pain medications are effective for sciatica (radicular leg pain)? BMJ. 2017;359:j4248. DOI 10.1136/bmj.j4248 (PMID 29025735)](https://pubmed.ncbi.nlm.nih.gov/29025735/)
+[^5]: [Jensen RK et al. Diagnosis and treatment of sciatica. BMJ. 2019;367:l6273. PMID 31744805. DOI 10.1136/bmj.l6273](https://pubmed.ncbi.nlm.nih.gov/31744805/)
+[^6]: [Liu C et al. Surgical versus non-surgical treatment for sciatica: systematic review and meta-analysis of randomised controlled trials. BMJ. 2023;381:e070730. PMID 37076169. DOI 10.1136/bmj-2022-070730](https://pubmed.ncbi.nlm.nih.gov/37076169/)
+[^7]: [Pinto RZ et al. Which pain medications are effective for sciatica (radicular leg pain)? BMJ. 2017;359:j4248. PMID 29025735. DOI 10.1136/bmj.j4248](https://pubmed.ncbi.nlm.nih.gov/29025735/)
 
 ## Changelog
 - 2026-05-02 v1: 내용 업데이트.

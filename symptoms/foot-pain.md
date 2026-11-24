@@ -75,9 +75,9 @@ version: 2
 ### 자사 임상 자료
 
 ### 외부 권위 출처
-[^1]: [Bennell KL, et al. Common Painful Foot and Ankle Conditions: A Review. JAMA. 2023;330(23):2295-2307. PMID 38112812](https://pubmed.ncbi.nlm.nih.gov/38112812/)
+[^1]: [Cooper MT. Common Painful Foot and Ankle Conditions: A Review. JAMA. 2023;330(23):2285-2294. PMID 38112812](https://pubmed.ncbi.nlm.nih.gov/38112812/)
 [^2]: [Tu P, Bytomski JR. Heel Pain: Diagnosis and Management. Am Fam Physician. 2018;97(2):86-93. PMID 29365222](https://pubmed.ncbi.nlm.nih.gov/29365222/)
-[^3]: [Menz HB, et al. Forefoot pain. BMJ. 2020;371:m3704. PMID 33037040](https://pubmed.ncbi.nlm.nih.gov/33037040/)
+[^3]: [Pelly T et al. Forefoot pain. BMJ. 2020;371:m3704. PMID 33037040](https://pubmed.ncbi.nlm.nih.gov/33037040/)
 [^4]: [Espinosa N, et al. Metatarsalgia. J Am Acad Orthop Surg. 2010;18(8):474-485. PMID 20675640](https://pubmed.ncbi.nlm.nih.gov/20675640/)
 [^5]: [Hecht PJ, Lin TJ. Hallux valgus. Med Clin North Am. 2014;98(2):227-232. PMID 24559871](https://pubmed.ncbi.nlm.nih.gov/24559871/)
 

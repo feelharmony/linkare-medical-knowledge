@@ -107,8 +107,8 @@ version: 3
 [^1]: [Shapiro LM, Kamal RN; AAOS/ASSH. Clinical Practice Guideline Summary: Management of Carpal Tunnel Syndrome. J Am Acad Orthop Surg. 2025;33(7):e356-e366. PMID 39637428](https://pubmed.ncbi.nlm.nih.gov/39637428/)
 [^2]: [Wipperman J, Goerl K. Carpal Tunnel Syndrome: Diagnosis and Management. Am Fam Physician. 2016;94(12):993-999. PMID 28075090](https://pubmed.ncbi.nlm.nih.gov/28075090/)
 [^3]: [Erickson M et al. Hand Pain and Sensory Deficits: Carpal Tunnel Syndrome. J Orthop Sports Phys Ther. 2019;49(5):CPG1-CPG85. PMID 31039690](https://pubmed.ncbi.nlm.nih.gov/31039690/)
-[^4]: [Neal SL, Fields KB. Peripheral Nerve Entrapment and Injury in the Upper Extremity. Am Fam Physician. 2021;103(5):275-285. PMID 33630556](https://pubmed.ncbi.nlm.nih.gov/33630556/)
-[^5]: [Shi Q, MacDermid JC. Surgical versus non-surgical treatment for carpal tunnel syndrome. Cochrane Database Syst Rev. 2024;1:CD001552. PMID 38189479](https://pubmed.ncbi.nlm.nih.gov/38189479/)
+[^4]: [Silver S et al. Peripheral Nerve Entrapment and Injury in the Upper Extremity. Am Fam Physician. 2021;103(5):275-285. PMID 33630556](https://pubmed.ncbi.nlm.nih.gov/33630556/)
+[^5]: [Lusa V et al. Surgical versus non-surgical treatment for carpal tunnel syndrome. Cochrane Database Syst Rev. 2024;1(1):CD001552. PMID 38189479](https://pubmed.ncbi.nlm.nih.gov/38189479/)
 
 ## Changelog
 - 2026-07-03 v2: 내용 업데이트.

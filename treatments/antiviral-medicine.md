@@ -123,7 +123,7 @@ Acyclovir·valacyclovir·famciclovir는 대상포진 외에 단순 헤르페스(
 [^2]: Clinical Overview of Shingles (Herpes Zoster). *CDC.* 2024 update. URL: [cdc.gov/shingles/hcp/clinical-overview](https://www.cdc.gov/shingles/hcp/clinical-overview/index.html) — 72시간 골드타임, 3 약물 표준
 [^3]: Lal H, Cunningham AL, Godeaux O, et al. Efficacy of an Adjuvanted Herpes Zoster Subunit Vaccine in Older Adults (ZOE-50/70). *N Engl J Med.* 2015;372(22):2087-2096 / 2016;375(11):1019-1032. — 백신 효과 91~97%, PHN VE 88.8%
 [^4]: Chen N, Li Q, Yang J, Zhou M, Zhou D, He L. Antiviral treatment for preventing postherpetic neuralgia. *Cochrane Database Syst Rev.* 2014;(2):CD006866. PMID 24500927. DOI: [10.1002/14651858.CD006866.pub3](https://pubmed.ncbi.nlm.nih.gov/24500927/)
-[^5]: Li Q, Chen N, Yang J, Zhou M, Zhou D, Zhang Q, He L. A Network Meta-Analysis of Randomized Clinical Trials to Assess the Efficacy and Safety of Antiviral Agents for Immunocompetent Patients with Herpes Zoster-Associated Pain. *Pain Physician.* 2023;26(4):E385-E394. PMID 37535772. URL: [pubmed.ncbi.nlm.nih.gov/37535772](https://pubmed.ncbi.nlm.nih.gov/37535772/)
+[^5]: Liu Y et al. A Network Meta-Analysis of Randomized Clinical Trials to Assess the Efficacy and Safety of Antiviral Agents for Immunocompetent Patients with Herpes Zoster-Associated Pain. Pain Physician. 2023;26(4):337-346. PMID 37535772. URL: [pubmed.ncbi.nlm.nih.gov/37535772](https://pubmed.ncbi.nlm.nih.gov/37535772/)
 
 ## Changelog
 - 2026-07-04 v3: 내용 업데이트.

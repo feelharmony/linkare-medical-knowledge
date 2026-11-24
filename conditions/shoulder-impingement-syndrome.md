@@ -86,7 +86,7 @@ version: 3
 [^3]: [Karjalainen TV, Jain NB, Page CM, et al. Subacromial decompression surgery for rotator cuff disease. Cochrane Database Syst Rev. 2019;1(1):CD005619. DOI 10.1002/14651858.CD005619.pub3](https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005619.pub3/full)
 [^5]: [Lähdeoja T, Karjalainen T, Jokihaara J, et al. Subacromial decompression surgery for adults with shoulder pain: a systematic review with meta-analysis. Br J Sports Med. 2020;54(11):665-673. DOI 10.1136/bjsports-2018-100486 (PMID 30647053)](https://pubmed.ncbi.nlm.nih.gov/30647053/)
 [^6]: [Expert Panel on Musculoskeletal Imaging. ACR Appropriateness Criteria® Acute Shoulder Pain: 2024 Update. J Am Coll Radiol. 2025;22(5S):S95-S112. DOI 10.1016/j.jacr.2025.02.015 (PMID 40409888)](https://pubmed.ncbi.nlm.nih.gov/40409888/)
-[^7]: [Diercks R, Bron C, Dorrestijn O, et al. Update of guideline for diagnosis and treatment of subacromial pain syndrome: a multidisciplinary review by the Dutch Orthopedic Association Part 1. Acta Orthop. 2026;97:157-165. DOI 10.2340/17453674.2026.45365 (PMID 41718640)](https://pubmed.ncbi.nlm.nih.gov/41718640/)
+[^7]: [Lambers Heerspink FO et al. Update of guideline for diagnosis and treatment of subacromial pain syndrome: a multidisciplinary review by the Dutch Orthopedic Association Part 1: preventive measures, diagnostics, and non-surgical treatment of subacromial pain syndrome. Acta Orthop. 2026;97:91-98. PMID 41718640. DOI 10.2340/17453674.2026.45365](https://pubmed.ncbi.nlm.nih.gov/41718640/)
 
 ## Changelog
 - 2026-07-03 v3: 내용 업데이트.

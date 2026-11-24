@@ -70,7 +70,7 @@ version: 3
 ### 자사 임상 자료
 
 ### 외부 권위 출처
-[^1]: [Dingenen B et al. Achilles Pain, Stiffness, and Muscle Power Deficits: Midportion Achilles Tendinopathy Revision - 2024. J Orthop Sports Phys Ther. 2024;54(12):CPG1-CPG38. PMID 39611662](https://pubmed.ncbi.nlm.nih.gov/39611662/)
+[^1]: [Chimenti RL et al. Achilles Pain, Stiffness, and Muscle Power Deficits: Midportion Achilles Tendinopathy Revision - 2024. J Orthop Sports Phys Ther. 2024;54(12):CPG1-CPG32. PMID 39611662](https://pubmed.ncbi.nlm.nih.gov/39611662/)
 [^2]: [de Vos RJ et al. Dutch multidisciplinary guideline on Achilles tendinopathy. Br J Sports Med. 2021;55(20):1125-1134. PMID 34187784](https://pubmed.ncbi.nlm.nih.gov/34187784/)
 [^3]: [Millar NL et al. Tendinopathy. Nat Rev Dis Primers. 2021;7(1):1. PMID 33414454](https://pubmed.ncbi.nlm.nih.gov/33414454/)
 [^4]: [Beyer R et al. Heavy Slow Resistance Versus Eccentric Training as Treatment for Achilles Tendinopathy: A Randomized Controlled Trial. Am J Sports Med. 2015;43(7):1704-1711. PMID 26018970](https://pubmed.ncbi.nlm.nih.gov/26018970/)

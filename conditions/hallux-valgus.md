@@ -83,8 +83,8 @@ version: 2
 [^1]: [Hecht PJ, Lin TJ. Hallux valgus. Med Clin North Am. 2014;98(2):227-232. PMID 24559871](https://pubmed.ncbi.nlm.nih.gov/24559871/)
 [^2]: [Wülker N, Mittag F. The treatment of hallux valgus. Dtsch Arztebl Int. 2012;109(49):857-868. PMID 23267411](https://pubmed.ncbi.nlm.nih.gov/23267411/)
 [^3]: [Nix S, Smith M, Vicenzino B. Prevalence of hallux valgus in the general population: a systematic review and meta-analysis. J Foot Ankle Res. 2010;3:21. PMID 20868524](https://pubmed.ncbi.nlm.nih.gov/20868524/)
-[^4]: [Day J, et al. The pathogenesis of hallux valgus. J Bone Joint Surg Am. 2011;93(17):1650-1661. PMID 21915581](https://pubmed.ncbi.nlm.nih.gov/21915581/)
-[^5]: [Hurn SE, et al. Adjusted Indirect and Mixed Comparisons of Conservative Treatments for Hallux Valgus: A Systematic Review and Network Meta-Analysis. Int J Environ Res Public Health. 2021;18(7):3841. PMID 33917568](https://pubmed.ncbi.nlm.nih.gov/33917568/)
+[^4]: [Perera AM et al. The pathogenesis of hallux valgus. J Bone Joint Surg Am. 2011;93(17):1650-61. PMID 21915581](https://pubmed.ncbi.nlm.nih.gov/21915581/)
+[^5]: [Ying J et al. Adjusted Indirect and Mixed Comparisons of Conservative Treatments for Hallux Valgus: A Systematic Review and Network Meta-Analysis. Int J Environ Res Public Health. 2021;18(7). PMID 33917568](https://pubmed.ncbi.nlm.nih.gov/33917568/)
 
 ## Changelog
 - 2026-07-03 v2: 내용 업데이트.

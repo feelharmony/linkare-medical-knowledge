@@ -109,7 +109,7 @@ version: 6
 [^3]: [Kumar V, Baburaj V, Rajnish RK, Dhatt SS. Outcomes of cauda equina syndrome due to lumbar disc herniation after surgical management and the factors affecting it: a systematic review and meta-analysis of 22 studies with 852 cases. Eur Spine J. 2022;31(2):353-363. DOI 10.1007/s00586-021-07001-0 (PMID 34581849)](https://pubmed.ncbi.nlm.nih.gov/34581849/)
 [^4]: [Karikaran A, Carroll AH, Benn L, Okorie N, Bellaire CP, Puvanesarajah V, Mesfin A. Cauda Equina Syndrome: A Review of Classification, Diagnosis, Treatment, and Best Practices. JBJS Rev. 2025;13(2). DOI 10.2106/JBJS.RVW.24.00156 (PMID 39937930)](https://pubmed.ncbi.nlm.nih.gov/39937930/)
 [^5]: [Gardner A, Gardner E, Morley T. Cauda equina syndrome: a review of the current clinical and medico-legal position. Eur Spine J. 2011;20(5):690-697. DOI 10.1007/s00586-010-1668-3 (PMID 21193933)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3082683/)
-[^6]: [Lavy C, James A, Wilson-MacDonald J, Fairbank J. British Association of Spine Surgeons standards of care for cauda equina syndrome. Spine J. 2015;15(3 Suppl):S2-S4. DOI 10.1016/j.spinee.2015.01.006 (PMID 25708139)](https://pubmed.ncbi.nlm.nih.gov/25708139/)
+[^6]: [Germon T et al. British Association of Spine Surgeons standards of care for cauda equina syndrome. Spine J. 2015;15(3 Suppl):S2-S4. PMID 25708139. DOI 10.1016/j.spinee.2015.01.006](https://pubmed.ncbi.nlm.nih.gov/25708139/)
 
 ## Changelog
 - 2026-04-23 v2: 내용 업데이트.

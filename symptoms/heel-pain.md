@@ -73,10 +73,10 @@ version: 2
 
 ### 외부 권위 출처
 [^1]: [Tu P, Bytomski JR. Heel Pain: Diagnosis and Management. Am Fam Physician. 2018;97(2):86-93. PMID 29365222](https://pubmed.ncbi.nlm.nih.gov/29365222/)
-[^2]: [Martin RL et al. Heel Pain - Plantar Fasciitis: Revision 2023. J Orthop Sports Phys Ther. 2023;53(12):CPG1-CPG39. PMID 38037331](https://pubmed.ncbi.nlm.nih.gov/38037331/)
+[^2]: [Koc TA Jr et al. Heel Pain - Plantar Fasciitis: Revision 2023. J Orthop Sports Phys Ther. 2023;53(12):CPG1-CPG39. PMID 38037331](https://pubmed.ncbi.nlm.nih.gov/38037331/)
 [^3]: [Thomas JL et al. The diagnosis and treatment of heel pain: a clinical practice guideline-revision 2010. J Foot Ankle Surg. 2010;49(3 Suppl):S1-S19. PMID 20439021](https://pubmed.ncbi.nlm.nih.gov/20439021/)
 [^4]: [Morrissey D et al. Management of plantar heel pain: a best practice guide informed by a systematic review, expert clinical reasoning and patient values. Br J Sports Med. 2021;55(19):1106-1118. PMID 33785535](https://pubmed.ncbi.nlm.nih.gov/33785535/)
-[^5]: [Dingenen B et al. Achilles Pain, Stiffness, and Muscle Power Deficits: Midportion Achilles Tendinopathy Revision - 2024. J Orthop Sports Phys Ther. 2024;54(12):CPG1-CPG38. PMID 39611662](https://pubmed.ncbi.nlm.nih.gov/39611662/)
+[^5]: [Chimenti RL et al. Achilles Pain, Stiffness, and Muscle Power Deficits: Midportion Achilles Tendinopathy Revision - 2024. J Orthop Sports Phys Ther. 2024;54(12):CPG1-CPG32. PMID 39611662](https://pubmed.ncbi.nlm.nih.gov/39611662/)
 
 ## Changelog
 - 2026-07-03 v2: 내용 업데이트.

@@ -81,7 +81,7 @@ version: 2
 <!-- /LINKARE:CLINIC-CITATIONS -->
 
 ### 외부 권위 출처
-[^1]: [Neal SL, Fields KB. Peripheral Nerve Entrapment and Injury in the Upper Extremity. Am Fam Physician. 2021;103(5):275-285. PMID 33630556](https://pubmed.ncbi.nlm.nih.gov/33630556/)
+[^1]: [Silver S et al. Peripheral Nerve Entrapment and Injury in the Upper Extremity. Am Fam Physician. 2021;103(5):275-285. PMID 33630556](https://pubmed.ncbi.nlm.nih.gov/33630556/)
 [^2]: [Kane SF, Lynch JH, Taylor JC. Evaluation of elbow pain in adults. Am Fam Physician. 2014;89(8):649-657. PMID 24784124](https://pubmed.ncbi.nlm.nih.gov/24784124/)
 [^3]: [Staples JR, Calfee R. Cubital Tunnel Syndrome: Current Concepts. J Am Acad Orthop Surg. 2017;25(10):e215-e224. PMID 28953087](https://pubmed.ncbi.nlm.nih.gov/28953087/)
 [^4]: [Svernlöv B, Larsson M, Rehn K, Adolfsson L. Conservative treatment of the cubital tunnel syndrome. J Hand Surg Eur Vol. 2009;34(2):201-207. PMID 19282413](https://pubmed.ncbi.nlm.nih.gov/19282413/)
