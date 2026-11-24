@@ -4579,5 +4579,20 @@
     "tenant_key": "thq",
     "doctor_id": "dr-kim-jumin",
     "hospital_id": "hospital-thewells-jamsil"
+  },
+  {
+    "post_path": "content/apfree/ko/--/tfcc-surgery-decision-nonsurgical-first.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/tfcc-surgery-decision-nonsurgical-first",
+    "source_article_title": "손목 연골 찢어졌다는데 TFCC 수술, 용계역에서 바로 정해야 할까",
+    "primary_entity_id": "tfcc-injury",
+    "entity_ids": [
+      "tfcc-injury"
+    ],
+    "updated_at": "2026-11-24",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
