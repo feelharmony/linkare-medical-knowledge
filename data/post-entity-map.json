@@ -4594,5 +4594,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/ko/----/nutrition-iv-therapy-fa40863c.md",
+    "source_article_url": "https://thewells.kr/blog/nutrition-iv-therapy-fa40863c",
+    "source_article_title": "겨울마다 달고 사는 감기, 면역주사 맞으면 덜 걸릴까요?",
+    "primary_entity_id": "nutrition-iv-therapy",
+    "entity_ids": [
+      "nutrition-iv-therapy"
+    ],
+    "updated_at": "2026-11-25",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
