@@ -4624,5 +4624,20 @@
     "tenant_key": "gtop",
     "doctor_id": "dr-lee-sungwook",
     "hospital_id": "hospital-guritopbone"
+  },
+  {
+    "post_path": "content/apfree/ko/--/iliotibial-band-syndrome.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/iliotibial-band-syndrome",
+    "source_article_title": "일정 거리만 달리면 아파서 멈추는 무릎, 장경인대증후군 의심 신호",
+    "primary_entity_id": "iliotibial-band-syndrome",
+    "entity_ids": [
+      "iliotibial-band-syndrome"
+    ],
+    "updated_at": "2026-11-26",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
