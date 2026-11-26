@@ -4639,5 +4639,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thr/ko/-----/greater-trochanteric-pain-syndrome-treatment-recovery-period.md",
+    "source_article_url": "https://thewells.kr/blog/greater-trochanteric-pain-syndrome-treatment-recovery-period",
+    "source_article_title": "대전자통증증후군 치료와 초음파·체외충격파, 노원구 회복 기간",
+    "primary_entity_id": "greater-trochanteric-pain",
+    "entity_ids": [
+      "greater-trochanteric-pain"
+    ],
+    "updated_at": "2026-11-26",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "thr",
+    "doctor_id": "dr-park-sungjin",
+    "hospital_id": "hospital-thewells-nowon"
   }
 ]
