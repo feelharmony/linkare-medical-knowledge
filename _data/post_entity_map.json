@@ -4654,5 +4654,20 @@
     "tenant_key": "thr",
     "doctor_id": "dr-park-sungjin",
     "hospital_id": "hospital-thewells-nowon"
+  },
+  {
+    "post_path": "content/apfree/ko/--/coccydynia-treatment-nerve-block-shockwave-timing.md",
+    "source_article_url": "https://ansimpainfree.kr/blog/coccydynia-treatment-nerve-block-shockwave-timing",
+    "source_article_title": "꼬리뼈통증 치료, 각산역에서 주사와 충격파는 언제 고려할까?",
+    "primary_entity_id": "coccydynia",
+    "entity_ids": [
+      "coccydynia"
+    ],
+    "updated_at": "2026-11-27",
+    "sub_topic_type": null,
+    "is_pillar": false,
+    "tenant_key": "apfree",
+    "doctor_id": "dr-kwon-jinyeol",
+    "hospital_id": "hospital-ansimpainfree"
   }
 ]
