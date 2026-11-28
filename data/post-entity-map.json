@@ -4669,5 +4669,20 @@
     "tenant_key": "apfree",
     "doctor_id": "dr-kwon-jinyeol",
     "hospital_id": "hospital-ansimpainfree"
+  },
+  {
+    "post_path": "content/thq/ko/--/cubital-tunnel-syndrome.md",
+    "source_article_url": "https://thewells.kr/blog/cubital-tunnel-syndrome",
+    "source_article_title": "새끼손가락 저림과 둔해진 손끝 감각, 목디스크와 팔꿈치 신경병증 구별법",
+    "primary_entity_id": "cubital-tunnel-syndrome",
+    "entity_ids": [
+      "cubital-tunnel-syndrome"
+    ],
+    "updated_at": "2026-11-28",
+    "sub_topic_type": null,
+    "is_pillar": true,
+    "tenant_key": "thq",
+    "doctor_id": "dr-kim-jumin",
+    "hospital_id": "hospital-thewells-jamsil"
   }
 ]
